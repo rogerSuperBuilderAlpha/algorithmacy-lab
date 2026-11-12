@@ -38,7 +38,20 @@ def words(text):
 def main():
     draft = Path(sys.argv[1]) if len(sys.argv) > 1 else DRAFT
     s = io.open(draft, encoding="utf-8").read()
-    body = "## 1." + s.split("## 1.", 1)[1].split("## References", 1)[0]
+    # The body starts at '## 1.' in a numbered draft and at '## Introduction' in an unnumbered
+    # one (DRAFT_v6.md, whose headings follow the journal). Added 11 Nov 2026; until then an
+    # unnumbered draft crashed here.
+    start = re.search(r"^## (?:1\.|Introduction\s*$)", s, re.M)
+    if start is None:
+        print("ABORT: no body found. Expected a '## 1.' or '## Introduction' heading.")
+        return 1
+    body = s[start.start():].split("## References", 1)[0]
+    # A versioned draft (DRAFT_v6.md) is checked against its own front matter
+    # (submission/FRONT_MATTER_v6.md) when that file exists; otherwise FRONT_MATTER.md.
+    version = re.search(r"_v(\d+)\.md$", draft.name)
+    front = FRONT
+    if version and (HERE / "submission" / f"FRONT_MATTER_v{version.group(1)}.md").exists():
+        front = HERE / "submission" / f"FRONT_MATTER_v{version.group(1)}.md"
     refs = s.split("## References", 1)[1]
     entries = [b.strip() for b in refs.split("### Cases")[0].strip().split("\n\n") if b.strip()]
 
@@ -100,7 +113,7 @@ def main():
 
     # --- house style -----------------------------------------------------------
     check(body.count('"') == 0, "no double quote marks in the body", f"{body.count(chr(34))} found")
-    bold = [b for b in re.findall(r"\*\*(.+?)\*\*", body, re.S) if not b.startswith("Table ")]
+    bold = [b for b in re.findall(r"\*\*(.+?)\*\*", body, re.S) if not b.startswith(("Table ", "Figure "))]  # figure captions added 12 Nov 2026
     check(not bold, "no bold in running text apart from table captions",
           "; ".join(b[:30] for b in bold[:3]) or "clean")
     ise = [w for w in re.findall(r"\b\w+is(?:e|ed|es|ing|ation)\b", body)
@@ -120,17 +133,22 @@ def main():
     # Was hardcoded to the abstract's literal opening words ("Phygital hospitality
     # scholarship"), so a rewritten abstract crashed this check instead of failing it.
     # Locate the abstract by its heading instead, which survives a rewrite.
-    if FRONT.exists():
-        fm = io.open(FRONT, encoding="utf-8").read()
+    if front.exists():
+        fm = io.open(front, encoding="utf-8").read()
         abs_section = fm.split("## Abstract", 1)[1].split("## Keywords", 1)[0]
+        # Drop the rest of the heading line ("(100–200 words)"), which was being counted as
+        # two words of abstract (fixed 11 Nov 2026).
+        abs_section = abs_section.split("\n", 1)[1] if "\n" in abs_section else ""
         # Strip any editor's-note italic block (*...*), which can wrap across lines and
         # otherwise gets miscounted as abstract prose.
         abs_section = re.sub(r"\*.+?\*", "", abs_section, flags=re.S)
         abs_lines = [l for l in abs_section.split("\n") if l.strip() and not l.strip().startswith("#")]
         abs_txt = " ".join(abs_lines)
         a = len(words(abs_txt))
-        check(100 <= a <= 200, "abstract within 100-200 words", f"{a} words")
-        kw = fm.split("## Keywords", 1)[1].split("*", 1)[0]
+        check(100 <= a <= 200, "abstract within 100-200 words", f"{a} words ({front.name})")
+        # Stop at the next heading as well as at the next italic note: FRONT_MATTER_v6.md has no
+        # note after the keywords, so the old split ran on into the following section.
+        kw = re.split(r"\n## ", fm.split("## Keywords", 1)[1], 1)[0].split("*", 1)[0]
         kw = "\n".join(l for l in kw.split("\n") if l.strip() and not l.strip().startswith("("))
         kws = [k.strip() for k in kw.replace("\n", " ").split(";") if k.strip()]
         check(len(kws) == 6, "exactly six keywords", f"{len(kws)}")

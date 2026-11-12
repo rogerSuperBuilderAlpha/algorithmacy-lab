@@ -1,0 +1,1098 @@
+{
+"S-001": [
+"quote",
+"Hosts now hand parts of the work of hosting to algorithmic systems, by which we mean software that takes or shapes a decision about a guest."
+],
+"S-002": [
+"audit-B",
+"In nine family-run hotels, a revenue-management system recommended the price of each room, and each hotel's manager kept the final decision on whether to follow the recommendation (Garcia et al. 2026)."
+],
+"S-003": [
+"audit-A",
+"At two automated hotels in China, guests checked in at a kiosk that read an identity card and a face, and a service worker stepped in when the kiosk could not process a guest (Xu and Greiffenhagen 2024: 5020, 5035)."
+],
+"S-004": [
+"quote",
+"In short-term rentals, self-check-in replaces the handover of keys (Bosma 2022: 605)."
+],
+"S-005": [
+"quote",
+"Such systems are often assembled from services that several firms supply, as Cobbe et al. (2023: 1187) show for algorithmic systems at large."
+],
+"S-006": [
+"quote",
+"We call the guest, the staff, the property, the firms and the systems together a phygital arrangement, and any moment at which the guest meets that arrangement a touchpoint."
+],
+"S-007": [
+"quote",
+"At a touchpoint, the person who can change what happens to a guest can stand some distance from the guest, behind a system or in another firm."
+],
+"S-008": [
+"quote",
+"O'Gorman's history of ancient hospitality records the host's duties to receive the guest, to protect him and, if need be, to represent him in court (2005: 144–145)."
+],
+"S-009": [
+"assembly",
+"For the commercial setting, Morrison and O'Gorman list among the principles of hospitality that businesses are responsible for the health, safety and security of their guests (2008: Figure 2)."
+],
+"S-010": [
+"quote",
+"This journal has gone further and named the host's power: its founding editorial treats hospitality as a form of social control, and Bulley (2015) follows that power past the threshold, into the management of guests already inside."
+],
+"S-011": [
+"revision",
+"The journal also names hosting divided among several parties: micro-hosts and macro-hosts (Lynch et al. 2011), an assembled host (Bulley 2015), and a web of hosts paid for by the Home Office (Petie et al. 2025)."
+],
+"S-012": [
+"revision",
+"In the seven texts we read whole for this question, six of them in this journal, none says which of several hosts owes the guest the host's duty, or gives the guest a route to correction during the stay."
+],
+"S-013": [
+"audit-A",
+"Two recent articles place hospitality's ethics at the level of the organization and of socio-technical design (Dogru et al. 2025; Koo and Kwon 2026), and writers on phygital service call for human-first design (Batat 2026) and for contestable design (Shabnam et al. 2026)."
+],
+"S-014": [
+"quote",
+"Research on algorithmic accountability asks who answers when a delegated system causes harm (Kong 2026: 5); we ask what a host owes before anything goes wrong, and who keeps that duty when others do the work."
+],
+"S-015": [
+"quote",
+"This article seeks to say what a commercial host owes a guest, on what ground and held by whom, and what that duty asks of a host that performs through other firms and through systems."
+],
+"S-016": [
+"revision",
+"We argue, first, that the role of host specifies the duty, and that holding out, the guest's reliance and the host's control of the guest's space bind it to a particular party."
+],
+"S-017": [
+"quote",
+"Second, when others do the work, what stays with the host depends on the duty and on the doctrine that governs it, and several parties may hold the duty of care at once."
+],
+"S-018": [
+"quote",
+"Third, and here the argument is ours, during the stay the guest's claim justifies a further duty: to keep some timely means by which a failure in the guest's case reaches someone able to correct it."
+],
+"S-019": [
+"revision",
+"We therefore argue that algorithmic mediation leaves the host's duties in place but can move the person able to correct a failure out of the guest's path, and that the host owes the guest a route to that person."
+],
+"S-020": [
+"quote",
+"The next section sets out the host's power and duty as hospitality studies describes them, and says why the duty binds and what the law makes of it."
+],
+"S-021": [
+"quote",
+"The third section follows the duty when the host hands the work to others, and states the further duty during the stay."
+],
+"S-022": [
+"revision",
+"The fourth examines touchpoints in hotels, rentals and accommodation for placed guests, from published studies and judgments, and sets out six questions for examining one, the law's floor, and what hosts can do."
+],
+"S-023": [
+"revision",
+"We set aside whether a machine can itself owe a guest anything, since a robot can occupy a role without being a moral agent (Kropf et al. 2026: 7), and we leave aside guests who cannot report and hosts letting rooms in their own homes."
+],
+"S-024": [
+"quote",
+"For the study of phygital hospitality the question is who answers to the guest; for a host, the question is whether a guest whose stay goes wrong can reach someone able to put it right."
+],
+"S-025": [
+"quote",
+"The host's duty is hard to see in commercial hospitality, in part because the trade has come to describe its own work as service."
+],
+"S-026": [
+"quote",
+"When Golubovskaya et al. asked twenty-two hotel frontline employees about their work, only six could define hospitality, and 'service' rather than 'hospitality' was their default perspective (2017: 1296)."
+],
+"S-027": [
+"cut",
+""
+],
+"S-028": [
+"quote",
+"Hospitality scholars, in contrast, have long held that the host owes the guest something beyond the exchange."
+],
+"S-029": [
+"audit-A",
+"O'Gorman's study of commercial hospitality in Rome records the host's duties to protect the guest and, if need be, to represent him in court only for private hospitality, and names no such duty of an innkeeper (2007a: 45)."
+],
+"S-030": [
+"quote",
+"Morrison and O'Gorman carry the duty into business, though by prescription: they derived their principles of commercial hospitality from the Rule of St Benedict and the monastic practice of its time (2008)."
+],
+"S-031": [
+"quote",
+"Telfer, as Hemmington reports her, holds that the guest's safety was traditionally the host's most important responsibility (Hemmington 2007)."
+],
+"S-032": [
+"audit-A",
+"Hemmington adds that the trade often overlooks that responsibility (2007), so for the commercial host, on our reading, the duty is prescribed by the field's scholars rather than observed in its practice."
+],
+"S-033": [
+"quote",
+"To host, on these accounts, is to take responsibility for the guest's safety while the guest is under one's roof."
+],
+"S-034": [
+"quote",
+"In the classical law of hospitality the host commands: 'It is always the host who ordains, the guest who complies' (Pitt-Rivers 2012: 513)."
+],
+"S-035": [
+"quote",
+"Command brings duty with it: a host infringes the same law by failing 'to protect his guest' (Pitt-Rivers 2012: 516)."
+],
+"S-036": [
+"quote",
+"The host's command has a place as well as a holder: 'A host is host only on the territory over which on a particular occasion he claims authority' (Pitt-Rivers 2012: 514)."
+],
+"S-037": [
+"drift",
+"Bulley holds that this power does not end at the threshold: once the guest is inside, the host goes on policing and managing the distinctions that hospitality draws (2015)."
+],
+"S-038": [
+"quote",
+"Moysidou and Stanley go further, and treat the host's power over the space, and to a degree over the guest, as a condition of offering hospitality at all (2023)."
+],
+"S-039": [
+"quote",
+"We read these accounts together as saying that the party who admits the guest takes on the guest's safety, and keeps power over the guest, for as long as the stay lasts."
+],
+"S-040": [
+"quote",
+"Yet the field is divided over whether a host who charges can be hospitable at all."
+],
+"S-041": [
+"quote",
+"Lashley defines hospitableness as 'the willingness to be hospitable for its own sake, without any expectation of recompense or reciprocity' (2015: 1)."
+],
+"S-042": [
+"quote",
+"Commercial hospitality, Lashley observes, is offered at a price and 'would be withdrawn if the payment could not be made', which is why some hold that it 'cannot deliver true hospitableness' (2015: 5)."
+],
+"S-043": [
+"quote",
+"Slattery goes further: 'The buyers are not guests, they are customers. The relationship is not philanthropic it is economic' (2002: 21)."
+],
+"S-044": [
+"audit-A",
+"Telfer, as Slattery quotes her, calls the paid provider a host too and makes 'hospitable' depend on motive and price: a commercial host who acts 'out of genuine concern for their happiness' and 'charges them reasonably, rather than extortionately', can be called hospitable (Telfer 2000: 45, as quoted in Slattery 2002: 21)."
+],
+"S-045": [
+"citation-form",
+"As O'Gorman quotes her, Telfer also counts a 'sense of duty where there is also concern for the guests themselves' among hospitable motives (Telfer 1996: 82, as quoted in O'Gorman 2007b)."
+],
+"S-046": [
+"audit-A",
+"The opposition between duty and hospitableness comes from Blain and Lashley, for whom religious strictures were an obligation that 'may be at odds with Telfer's notion of hospitableness' because it was 'externally imposed' (2014: 2)."
+],
+"S-047": [
+"quote",
+"We keep hospitableness for the manner and motive with which a host's role is performed, and argue that the duty attaches to the role itself, so that it can bind a host whose motive is profit and a host that is a firm."
+],
+"S-048": [
+"revision",
+"In this sense we disagree with Slattery (2002: 21), for whom it is 'inaccurate and misleading' to treat the host–guest relationship as the critical one in the hospitality business: the corporate context changes who holds the role, not whether it exists."
+],
+"S-049": [
+"citation-form",
+"Derrida, as O'Gorman quotes him, places 'those rights and duties that are always conditioned and conditional' in the plural laws of hospitality (Derrida 2000: 77, as quoted in O'Gorman 2007b)."
+],
+"S-050": [
+"audit-A",
+"The same page, as Westmoreland quotes it, says it is as though those laws, in 'marking limits, power, rights, and duties', consisted in 'challenging and transgressing' the law that would offer the new arrival an unconditional welcome (Derrida 2000: 77, as quoted in Westmoreland 2008: 8)."
+],
+"S-051": [
+"quote",
+"The host's duty we describe belongs to these conditional laws, which mark the host's power and set limits on the welcome, and we do not claim the unconditional law for it."
+],
+"S-052": [
+"citation-form",
+"A role, on our account, specifies the content of a duty, the moment it arises and the party who holds it; whether the role also makes the duty bind is disputed, since what a role is said to require may record 'merely others' expectations' (Jeske 2021: §4)."
+],
+"S-053": [
+"quote",
+"Critics of associative obligation hold that such duties rest on a moral principle outside the role, and associative theorists reply that the critics mistake conditions that disable an obligation for conditions that ground it (Dagger and Lefkowitz 2021: §4.3)."
+],
+"S-054": [
+"revision",
+"We argue that, for the commercial host, three grounds outside the role make the duty bind, each doing different work: holding out settles who took the role up and when; reliance makes the duty run to this guest; control of the guest's space keeps a notice from exhausting it."
+],
+"S-055": [
+"quote",
+"Holding out, by which we mean presenting a house to travellers as open to receive them, is how a party takes up the role."
+],
+"S-056": [
+"quote",
+"Blackstone states the rule for the innkeeper: one who 'hangs out a sign and opens his house for travellers' makes 'an implied engagement to entertain all persons who travel that way' (1768: 164)."
+],
+"S-057": [
+"inline",
+"He counts it among the undertakings that the law implies although they were 'never perhaps actually made' (1768: 161–163)."
+],
+"S-058": [
+"cut",
+""
+],
+"S-059": [
+"revision",
+"The Hotel Proprietors Act 1956 keeps the trigger: its hotel is an establishment 'held out by the proprietor' as offering food, drink and sleeping accommodation to travellers, and its duties attach 'to the proprietor ... and shall not attach to any other person' (s. 1(1), (3))."
+],
+"S-060": [
+"quote",
+"A modern English court reads the same structure into negligence: the hotel 'invited guests to come and stay at the hotel and thereby assumed a duty to take reasonable care to protect guests' (Al-Najar 2019: para 187)."
+],
+"S-061": [
+"quote",
+"Holding out takes up the role, and the law supplies the duty."
+],
+"S-062": [
+"quote",
+"Reliance explains why the duty runs to this guest: a nightclub's guest, the Court of Appeal held, 'relies on the competence and prudence of its management' and 'is entitled to expect that there will be no violence' (Everett 2011: para 31)."
+],
+"S-063": [
+"quote",
+"The same court grounded the duty in control as well: 'The management is in control of the premises. It can regulate who enters'."
+],
+"S-064": [
+"quote",
+"In occupiers' law, control is the foundation: 'The foundation of occupier's liability is occupational control' (Wheat v E Lacon 1966, Lord Pearson)."
+],
+"S-065": [
+"citation-form",
+"No one of the three grounds suffices alone: an undertaking binds a host only to what it undertook, reliance binds only towards those who relied, and dependence, on its own, falls on whoever can help (Jeske 2021: §§3–4; Habib 2022: §§3.3, 5.1)."
+],
+"S-066": [
+"audit-A",
+"On our account, control joined to reliance carries the duty of care for the guest's person whatever the host undertook, which explains why the law can forbid a host to exclude liability for negligently causing death or personal injury (Consumer Rights Act 2015, s. 65)."
+],
+"S-067": [
+"citation-form",
+"The history fits this account: commercial lodging served travellers too poor or too little known to have personal hospitality to call on (O'Gorman 2007a), and Roman inns had a reputation for violence and danger (O'Gorman 2005: 146)."
+],
+"S-068": [
+"audit-A",
+"The praetor's edict made innkeepers answer for the goods they received, and Pomponius, as Ulpian reports him, suggested that the praetor meant to show his care 'reprimendae improbitatis hoc genus hominum', to curb the dishonesty of such men (Digest 4.9.3.1; our translation)."
+],
+"S-069": [
+"quote",
+"Commercial hospitality is therefore where hospitality's protections lapsed and law stepped in, and the law's reasons for the duty sit beside the moral grounds we give without proving them."
+],
+"S-070": [
+"quote",
+"In the jurisdictions we draw on, the law sets the host's duties in two tiers: duties of admission, before the stay, and duties of reception, during it."
+],
+"S-071": [
+"quote",
+"A traveller wrongly refused by an inn could sue the innkeeper: 'His right, I think, is founded on the common law. That right I found was violated' (Constantine 1944: 708)."
+],
+"S-072": [
+"audit-A",
+"The general duty to receive now attaches to the proprietor of a hotel (Hotel Proprietors Act 1956, s. 1(1)), towards travellers able and willing to pay and fit to be received (s. 1(3)), and it stops at the inn: a bar 'entirely separate' from the hotel was 'a mere shop' (Rymer 1877: 139)."
+],
+"S-073": [
+"quote",
+"Every provider of a service to the public in Great Britain owes a narrower duty of admission: it 'must not discriminate against a person requiring the service by not providing the person with the service' (Equality Act 2010, s. 29(1))."
+],
+"S-074": [
+"revision",
+"Once a guest is received, the host owes reasonable care for the guest's person: an English hotel owed it against the crimes of third parties, though its guests lost on breach (Al-Najar 2019: paras 187, 240), and Colorado holds a hotel to it in ending a stay (Groh 2015: ¶ 4)."
+],
+"S-075": [
+"drift",
+"A trader who supplies a service to a consumer must perform the service 'with reasonable care and skill', and a consumer whose service falls short may require the trader to perform it again (Consumer Rights Act 2015, ss. 49, 55)."
+],
+"S-076": [
+"quote",
+"The innkeeper also answers, without fault and up to a cap, for the goods of a guest with a bed engaged (Hotel Proprietors Act 1956, s. 2), as the innkeeper has since Calye's Case confined strict liability to the guest's goods 'and not his person' (1584: fol. 33b)."
+],
+"S-077": [
+"assembly",
+"A service-provider must also make reasonable adjustments for disabled guests, including an auxiliary aid or service and information in an accessible format (Equality Act 2010, s. 20(3)–(6))."
+],
+"S-078": [
+"quote",
+"What remains distinctive of hospitality among these duties is narrower: what the innkeeper received was the stranger's person and belongings, overnight, in a house that was not the stranger's own (Sandoval-Strausz 2005: 62–63)."
+],
+"S-079": [
+"audit-A",
+"Attention is in part a legal duty in some United States jurisdictions: an innkeeper must give first aid once it 'knows or has reason to know' that a guest is ill or injured, under Restatement (Second) of Torts § 314A as the Colorado court quotes it (Groh 2015: ¶ 29), a section since replaced by Restatement (Third) § 40 (n. 4)."
+],
+"S-080": [
+"quote",
+"In a package holiday, the Supreme Court said, 'the service of looking after and serving holidaymakers courteously in matters relating to their holiday experience' is inherent in every such contract (X v Kuoni Travel 2021: para 30)."
+],
+"S-081": [
+"audit-A",
+"Beyond first aid and the services sold, attending to the guest's needs and wishes remains, on our reading, a duty of the customary code and not of the law (Pitt-Rivers 2012: 516)."
+],
+"S-082": [
+"quote",
+"In Pitt-Rivers' classical rule the guest 'has no right other than to respect and no obligation other than to honour his host' (2012: 514), and a guest who 'makes claims or demands' usurps the host's place (2012: 515)."
+],
+"S-083": [
+"quote",
+"In commercial hospitality the guest's duties narrow: following King (1995), Golubovskaya et al. write that commercial hospitality often empowers the guest, 'whose only obligation is to pay and behave reasonably' (2017: 1286)."
+],
+"S-084": [
+"quote",
+"The legal duties are owed to the guest, who may sue on them as Constantine did, and in Kansas the innkeeper's relation to the guest creates 'a common law relational duty ... the breach of which is redressible in tort' (Thomas v Pick Hotels 1955: 665–666)."
+],
+"S-085": [
+"quote",
+"The duty to receive was also public: refusing a traveller was indictable (Rymer 1877: 136, 139), and in Ireland it is an offence today, 'without prejudice to his civil liability' (Hotel Proprietors Act 1963, s. 12)."
+],
+"S-086": [
+"quote",
+"On the standard account of rights, a duty owed to someone is that person's claim (Wenar and Cruft 2025: §2.1.2); theories divide on whether holding a claim includes standing to demand it (§2.2.2), and our argument does not depend on that dispute."
+],
+"S-087": [
+"quote",
+"The holder of these duties need not be a person: the 1956 Act gives them to 'the proprietor', and the Irish Act defines the proprietor as 'the person carrying on the business of the hotel' (1963, s. 1(1))."
+],
+"S-088": [
+"quote",
+"Slattery observes that chains of hospitality businesses have replaced unaffiliated venues as the industry's key operators, and that the chains outsource services to suppliers, investors, consultants and internet companies (2002: 24–25)."
+],
+"S-089": [
+"audit-A",
+"The classical picture, however, is of one host who holds the house, its rule and the guest's safety together (Pitt-Rivers 2012: 513–514)."
+],
+"S-090": [
+"quote",
+"The next question is what becomes of these duties when their holder hands the work of hosting to others."
+],
+"S-091": [
+"quote",
+"The field has been right about what a host owes, and we have argued that the role of host specifies that duty while holding out, reliance and control make it bind."
+],
+"S-092": [
+"quote",
+"A second respect in which the field's account must be carried further is its picture of the host as one person."
+],
+"S-093": [
+"cut",
+""
+],
+"S-094": [
+"revision",
+"This journal has words for hosting by several parties at once: its founding editorial, after Robinson and Lynch (2007), describes micro-hosts and macro-hosts (Lynch et al. 2011)."
+],
+"S-095": [
+"drift",
+"Bulley describes agencies in a refugee camp performing the role of an assembled host while being guests themselves in a space to which they do not formally belong (2015)."
+],
+"S-096": [
+"revision",
+"Petie et al. find asylum seekers in hotels to have been guests of the hotel, its staff, housing contractors and the local community at once, with the Home Office paying (2025)."
+],
+"S-097": [
+"cut",
+""
+],
+"S-098": [
+"quote",
+"These accounts describe hosting divided among several parties, and none of them says which party owes the guest the host's duty."
+],
+"S-099": [
+"quote",
+"Who holds the duty when the work is spread among them is first a question for the law of delegation."
+],
+"S-100": [
+"quote",
+"What stays with a host that performs through others depends on the duty, and on the doctrine of law that governs it."
+],
+"S-101": [
+"quote",
+"English law starts from the rule that the employer of an independent contractor is not, in general, liable for the contractor's wrongs (Barclays Bank v Various Claimants 2020: paras 7, 24, 27)."
+],
+"S-102": [
+"quote",
+"An occupier escapes answering for a contractor's faulty construction, maintenance or repair if it chose the contractor reasonably and took 'such steps (if any) as he reasonably ought' to satisfy itself of the contractor's competence and the work (Occupiers' Liability Act 1957, s. 2(4)(b))."
+],
+"S-103": [
+"revision",
+"Lord Keith held that an occupier is not ordinarily expected to supervise a contractor it reasonably thinks competent (Ferguson v Welsh 1987: 7); his remark that suspecting an unsafe system might call for steps was guarded, and Lord Goff did not accept it (11)."
+],
+"S-104": [
+"quote",
+"Two hospitality defendants escaped on that footing: a nightclub whose door staff came from a security contractor, and a leisure centre whose machines a contractor maintained, neither having reason to doubt its contractor (Naylor v Payling 2004: paras 19, 50; Maguire v Sefton 2006: para 30)."
+],
+"S-105": [
+"quote",
+"A party that 'undertook to provide and not merely to arrange' services answers for them even where others render them (Wong Mee Wan v Kwan Kin Travel 1995: 10)."
+],
+"S-106": [
+"inline",
+"Package law makes the organiser answer for the travel services whoever performs them (Directive (EU) 2015/2302, art. 13(1)), and the Supreme Court held a tour operator liable to a guest for a hotel employee's assault without resort to vicarious liability (X v Kuoni Travel 2021: paras 45–50)."
+],
+"S-107": [
+"quote",
+"A duty that cannot be discharged by choosing a careful contractor is, in the Supreme Court's word, 'exceptional' (Armes v Nottinghamshire 2017: para 32), and no case we read applies such a duty to an adult hotel guest in England."
+],
+"S-108": [
+"inline",
+"The claim that the work of hosting can be delegated while the duty cannot is therefore true of some duties and not of others."
+],
+"S-109": [
+"cv-i",
+"Several parties may hold the duty of care at once: of a brewery-owned public house whose manager's wife took in paying summer guests, Lord Denning said that 'two or more may be \"occupiers\"', each owing care 'dependent on his degree of control' (Wheat v E Lacon 1966)."
+],
+"S-110": [
+"audit-A",
+"In Crinkley, under North Carolina law, a jury found a motel's owners and manager liable to guests and its franchisor vicariously liable through apparent agency, for which the franchisor's 'significant degree of control over the operation' counted (1988: paras 9, 51)."
+],
+"S-111": [
+"audit-A",
+"A brand may be the operator's principal where it has 'the right to exercise control over the daily operations' (Billops 1978: 198, Delaware), and in Florida a jury could find that a brand which ran a motel's restaurant and lounge had told the public it would find 'a certain level of service' there (Orlando 1983: 494)."
+],
+"S-112": [
+"quote",
+"Brands have also escaped: where the licence required the operator to disclose itself and the guest had not chosen the motel (Hayman v Ramada Inn 1987: 279), and where only logos and products showed the brand (Mobil Oil v Bransford 1995: 120–121)."
+],
+"S-113": [
+"audit-A",
+"A booking platform is not the provider of a stay where the host sets the price and the platform does not select hosts (Airbnb Ireland 2019: paras 56–57, 68), but loses its shield from consumer-law liability where consumers would take it for the provider (DSA, art. 6(3))."
+],
+"S-114": [
+"audit-A",
+"The manufacturer of defective software that injures a guest will answer to the guest directly in the European Union, for products placed on the market after 9 December 2026, but not for a failure of performance that causes no listed damage (Directive (EU) 2024/2853, arts 2(1), 4(1), 5(1), 6(1), 8(1)(a))."
+],
+"S-115": [
+"audit-A",
+"For a guest placed by the state, the placing minister's duty is a public one that 'remains hers' when contractors perform it (R (DMA) 2020: para 100), and, in Lord Scott's words about a privately owned care home, its duties to residents are 'governed by private law' (YL 2007: para 29)."
+],
+"S-116": [
+"quote",
+"On these authorities control of the guest's space carries the duty of care, and several parties may share it; which party answers for the rest of what a guest is owed, among brand, platform and vendor, is a matter we can only propose."
+],
+"S-117": [
+"quote",
+"Moral philosophy reaches a similar division: Brandt argues that one who delegates a responsibility remains bound to see that it is fulfilled (2017)."
+],
+"S-118": [
+"quote",
+"His reason fits the host who undertook a stay: an arrangement with a third party cannot alter what was agreed with the party owed (2017)."
+],
+"S-119": [
+"quote",
+"Others hold that a careful hand-over discharges the duty: O'Neill, as Brandt quotes her, has parents who arrange for their children's care 'transfer' rather than breach their obligations (Brandt 2017)."
+],
+"S-120": [
+"audit-A",
+"Brandt's own delegator, moreover, steps in once it becomes clear that the delegate is failing, and he leaves a means of finding out as one policy option among several (2017)."
+],
+"S-121": [
+"cut",
+""
+],
+"S-122": [
+"audit-A",
+"Outside package travel, neither the law of delegation nor this literature says that a host must keep a means of learning of a failure in the guest's case while it can still be put right."
+],
+"S-123": [
+"quote",
+"But what becomes of the host's duty during the stay, once the host performs through other firms and through systems?"
+],
+"S-124": [
+"quote",
+"For the length of the stay the guest is inside the host's space, on the territory over which the host claims authority, and subject to the host's ordering of it."
+],
+"S-125": [
+"quote",
+"Leaving has a cost: an au pair told Moysidou and Stanley that she had not complained because she could not leave (2023), and asylum seekers in hotels are housed on a no-choice basis (Petie et al. 2025)."
+],
+"S-126": [
+"audit-A",
+"Once inside, Bulley observes, neither host nor guest can assert sovereignty without ending the relation and casting the other out (2015)."
+],
+"S-127": [
+"audit-A",
+"Moysidou and Stanley treat a guest's effective complaint as a form of power, since knowing how to complain and feeling that a complaint will be acted upon are themselves power (2023), and Bulley's better hospitality keeps the welcome open after the threshold (2015)."
+],
+"S-128": [
+"quote",
+"During the stay, then, whether a failure in the guest's case is put right depends on whether it reaches someone able to put it right, and the guest's standing to complain matters only if it does."
+],
+"S-129": [
+"quote",
+"We argue that the guest's claim to performance justifies, during the stay, a further duty of the host; this step is ours, and we state its grounds."
+],
+"S-130": [
+"quote",
+"In legal theory, Herstein reports, 'the same claim-right seemingly can count in favor of different and changing duties, for instance given changes in factual circumstances' (2023: §8.4), a view he traces to Raz; carrying it to the guest's moral claim is our step."
+],
+"S-131": [
+"quote",
+"The facts that change here are delegation and automation: once performance runs through others and systems, whether the guest's claim is met depends on the host's learning of a failure while the failure can still be corrected."
+],
+"S-132": [
+"quote",
+"An 'ought', Kiesewetter argues, transmits to the necessary means of doing what one ought to do (2015: 922)."
+],
+"S-133": [
+"quote",
+"Performance in the guest's case cannot be secured without some timely means of learning of failures and correcting them, so the host owes some such means, though not any particular one."
+],
+"S-134": [
+"quote",
+"Where only the guest perceives a failure, a route from the guest is itself one of the necessary means."
+],
+"S-135": [
+"quote",
+"Hotels do learn of guests' failures this way: a Helsinki hotel relied mainly on guests' feedback (Schumacher and Komppula 2016: 121), and at the automated hotels each guest the kiosk could not process went to find a worker (Xu and Greiffenhagen 2024: 5035)."
+],
+"S-136": [
+"audit-A",
+"Not every guest reports, however: in restaurant experiments, customers who felt low in power complained less (Min and Kim 2020: 2), and a failure of the whole system needs no report at all (Xu and Greiffenhagen 2024: 5021)."
+],
+"S-137": [
+"audit-A",
+"The evidence is thin, two small studies in hotels, and it suggests that the guest's report is the main route for failures in the guest's own case, not the only one."
+],
+"S-138": [
+"quote",
+"Because the guest is subject to the host's power and leaving has a cost, the route must also be one the guest can use without depending on the host's goodwill."
+],
+"S-139": [
+"audit-A",
+"We take the further duty to be owed to the guest, since the guest's claim justifies it, though Herstein reports that duties a right justifies as facts change arguably strain the correlation between rights and duties (2023: §8.4)."
+],
+"S-140": [
+"audit-A",
+"The further duty differs in this from Hindriks's 'duty of control', a second-order duty on an organization to meet the prerequisites of its first-order duties, which he grounds partly in risk to others and does not say is owed to anyone (2025: 4–5)."
+],
+"S-141": [
+"manual",
+"The further duty differs too from service recovery, which studies how a firm's response to complaints shapes complainants' satisfaction and loyalty (Gelbrich and Roschk 2011), since the duty binds where recovering a guest does not pay."
+],
+"S-142": [
+"quote",
+"A host that keeps no means of correction during the stay therefore wrongs its guests even if nothing fails, and a host whose correctable failure then goes uncorrected also fails in the duty to perform."
+],
+"S-143": [
+"quote",
+"The further duty runs for the stay, as the guest's subjection does, and within the stay what the route carries is correction, by which we mean late performance or the repair of a lapse."
+],
+"S-144": [
+"quote",
+"After the stay, the guest's claims run to repair and to accountability, in Fox's sense, after Schedler, of a party's capacity to demand answers and to impose sanctions (Fox 2007: 665)."
+],
+"S-145": [
+"drift",
+"We call the power to depart from what the host's arrangements produced in a guest's case power over the single case."
+],
+"S-146": [
+"audit-A",
+"The law reaches part of this by another road: in United States federal law, a defendant who believes a fact highly probable and deliberately avoids confirming it is treated as knowing it (Global-Tech Appliances v SEB 2011: 769)."
+],
+"S-147": [
+"quote",
+"English law asks for a suspicion 'firmly grounded and targeted on specific facts' and a deliberate decision not to confirm it (Manifest Shipping v Uni-Polaris 2001: para 116)."
+],
+"S-148": [
+"cut",
+""
+],
+"S-149": [
+"quote",
+"A host whose general awareness that guests need help falls short of such a suspicion stands outside the law's knowledge doctrines, and its case turns on what care requires, which is where we have argued the further duty."
+],
+"S-150": [
+"quote",
+"Hormio's account of culpable ignorance in organizations supports the step in moral terms: an organization's design alone can make its members ignorant, and once problems are pointed out the organization must try to fix the design (2018)."
+],
+"S-151": [
+"quote",
+"What the further duty asks of a host at a particular touchpoint is the subject of the next section."
+],
+"S-152": [
+"figure",
+"Once the host is an assembled host and the duty of care follows control, the route a guest's report travels through the host's arrangements comes into view (Figure 1)."
+],
+"S-153": [
+"quote",
+"Germann Molz has shown one part of that route: Airbnb's lawyers argued that 'any penalty should be on the hosts renting out their homes, not on the company' (Mock, as quoted in Germann Molz 2018: 244)."
+],
+"S-154": [
+"quote",
+"We follow the route in hotels, short-term rentals and accommodation for placed guests, and take our cases from published studies and judgments rather than construct them."
+],
+"S-155": [
+"cut",
+""
+],
+"S-156": [
+"quote",
+"Power over the single case differs from power over the rule: the first departs from what the arrangements produced for one guest, and the second changes the arrangements themselves."
+],
+"S-157": [
+"audit-B",
+"In the family-run hotels that Garcia et al. studied, the manager decided each price, while the model that recommended it was supplied by an independent revenue-management company (2026)."
+],
+"S-158": [
+"audit-B",
+"The model's advice still shaped prices: when a manager changed a price by hand, a one per cent change in the recommended price moved the realized price by 0.72 per cent on average (Garcia et al. 2026)."
+],
+"S-159": [
+"quote",
+"Power over the rule can therefore lie with a vendor while power over the single case stays at the property, though this study observed managers and not guests."
+],
+"S-160": [
+"quote",
+"Batat names two processes by which experience moves between settings, 'digitalization' from physical to digital and 'physicalization' from digital to physical (2024: 1230–1231)."
+],
+"S-161": [
+"quote",
+"Her framework is built to make experience move smoothly between the two, and who can correct a failure along the way is a different question."
+],
+"S-162": [
+"quote",
+"Where the power to correct sits has always varied with the kind of house and the way its authority is graded."
+],
+"S-163": [
+"quote",
+"At a small hotel in Helsinki, reception staff could give discounts without asking anyone, were reluctant to go beyond 10–20 per cent of the room rate, and did not know where their authority ended (Schumacher and Komppula 2016: 121–123)."
+],
+"S-164": [
+"audit-B",
+"Under pandemic rules, a hotel's security employee resolved a guest's problem by checking with management, and a guest refused check-in came back the next day to complain to the general manager and the group's head office (Xiang et al. 2022)."
+],
+"S-165": [
+"audit-B",
+"On a rental platform, 'host' names several roles, among them primary hosts, listing owners and co-hosts, and one co-host took her instructions from the app rather than from the owner (Bosma 2022: 601)."
+],
+"S-166": [
+"cut",
+""
+],
+"S-167": [
+"quote",
+"In accommodation for placed guests, hotel staff became hosts almost overnight to people whose needs called for knowledge that commercial hospitality does not usually require (Petie et al. 2025)."
+],
+"S-168": [
+"quote",
+"The route differs by format, then, but the question put to each is the same: can a failure in a guest's case reach someone with power over it?"
+],
+"S-169": [
+"quote",
+"Automation can move that person without removing them: the automated hotels Xu and Greiffenhagen studied kept service workers on site 'for legal and technical reasons', though guests could register alone (2024: 5035)."
+],
+"S-170": [
+"quote",
+"Guests walked past the worker to the kiosk, and a guest who approached the worker was sent back to the kiosk to 'do it yourself' (5022)."
+],
+"S-171": [
+"quote",
+"Guests whom the kiosk could not process reached the worker by seeking the worker out (5035)."
+],
+"S-172": [
+"quote",
+"The authors' own argument is that such a kiosk disciplines guests, by 'a technology that uses voice commands to tell them what to do with their bodies' (5016)."
+],
+"S-173": [
+"audit-B",
+"A survey in Macau points the other way on one measure: recalling a robot's failure did not directly raise respondents' intention to switch to a human-staffed service (Lee et al. 2025: 9)."
+],
+"S-174": [
+"audit-B",
+"On this evidence automation can move the person with power behind the machine and strengthen the host's hold on the guest's conduct, and the open studies do not show that it removes the person."
+],
+"S-175": [
+"quote",
+"The end of the route need not always be a person, and the cases show when it must be."
+],
+"S-176": [
+"audit-B",
+"Where the arrangements can produce what the guest is owed, retrying cures a failure: at the automated hotels most failures of face recognition were cured by guests trying again, sometimes with advice from bystanders or staff (Xu and Greiffenhagen 2024: 5025, 5027, 5030)."
+],
+"S-177": [
+"quote",
+"Where retrying cannot cure it, correction needs power to depart from the arrangements' output, as when a worker checked in by hand the 13 guests the kiosk could not process (5035)."
+],
+"S-178": [
+"quote",
+"For failures of a documented type, a reachable power to override is a precaution a host can foresee needing, since a failure is foreseeable when its causal mechanism was known in advance (Kong 2026: 6)."
+],
+"S-179": [
+"quote",
+"For a failure of no documented type Kong offers no support, treating it as 'the faultless accident' (2026: 7); there we offer only our reading, that the case the arrangements did not foresee is where a host's conditional laws meet what exceeds them."
+],
+"S-180": [
+"quote",
+"We therefore ask for a natural person at the end of the route where no configured process covers the type of failure and what is at stake warrants one."
+],
+"S-181": [
+"audit-B",
+"From 2 December 2027, European law requires that high-risk AI systems listed in Annex III let the people assigned to oversee them 'disregard, override or reverse the output', as appropriate and proportionate (Regulation (EU) 2024/1689, arts 14(4), 113, as amended by Regulation (EU) 2026/1744), and it leaves systems that only confirm a person's identity off that list (Annex III, point 1(a))."
+],
+"S-182": [
+"quote",
+"The person at the end of the route owes the guest care in using that power."
+],
+"S-183": [
+"quote",
+"In Groh, guests told a hotel's guard that they could not leave because 'We are drunk. We can't drive', and the hotel evicted them; the Colorado court held that the duty of care governed how the stay was ended (Westin Operator v Groh 2015: ¶¶ 4, 7)."
+],
+"S-184": [
+"cut",
+""
+],
+"S-185": [
+"quote",
+"The holder, for its part, owes the person at the end of the route real authority, which in the Helsinki hotel was unwritten."
+],
+"S-186": [
+"quote",
+"In the Glasgow hotels, staff told of a guest's deteriorating health the night before an attack lacked the knowledge to act, and an inquiry treated them as victims of management's decisions rather than as individually responsible (Petie et al. 2025)."
+],
+"S-187": [
+"quote",
+"A route to someone without authority is not a route to correction, so on our account the holder must give that person power in writing, the training to use it, and protection from becoming the object of the route."
+],
+"S-188": [
+"audit-B",
+"The holder must also learn across cases: in the Glasgow hotels, the Government's evaluation found that a guest's queries had each been dealt with appropriately but should together have served as a warning sign (Petie et al. 2025)."
+],
+"S-189": [
+"quote",
+"The UN Guiding Principles give a grievance channel the same second function: 'by analysing trends and patterns in complaints, business enterprises can also identify systemic problems and adapt their practices accordingly' (United Nations 2011: 32)."
+],
+"S-190": [
+"cut",
+""
+],
+"S-191": [
+"quote",
+"Where several firms host together, each answers on these accounts for its own part (Kong 2026: 9), and a loose collection of firms is not itself an agent (Pettit 2007: 195)."
+],
+"S-192": [
+"quote",
+"We propose that the party in control of the guest's space owes the duty to route a guest's report to the firm with power over the failing part, because that party is where the guest is."
+],
+"S-193": [
+"cv-i",
+"The one analogue we found is in occupiers' law, where Lord Denning said that if the occupiers on the spot 'had realised the handrail was dangerous, they should have reported it to the Brewery Company' (Wheat v E Lacon 1966)."
+],
+"S-194": [
+"quote",
+"From these points we derive a test that researchers can use to analyse a touchpoint and hosts can use to audit one, and the test asks one question: can a failure in a guest's case reach, in time, someone able to correct it?"
+],
+"S-195": [
+"quote",
+"The test puts six questions, in the order a report travels:"
+],
+"L-1": [
+"quote",
+"6. Does the holder learn across cases and, among several firms, does one party route the report?"
+],
+"S-196": [
+"quote",
+"The questions keep apart the power a report reaches and the use made of it, and the single case and the pattern across cases."
+],
+"S-197": [
+"audit-B",
+"Four documented cases show the test at work, from automated check-in to accommodation for people placed by the state."
+],
+"S-198": [
+"quote",
+"At the automated hotels, guests whose identity or reservation the kiosk could not process found a worker who checked them in by hand, and when the kiosk was down for two days a worker met every arriving guest (Xu and Greiffenhagen 2024: 5021, 5035)."
+],
+"S-199": [
+"audit-B",
+"On the test, the route existed and ended in a worker able to override the kiosk, but a guest the kiosk could not process found that worker only by seeking the worker out, so the touchpoint passes the third and fifth questions and fails the second."
+],
+"S-200": [
+"quote",
+"In Groh, the guests' report reached guards with power over the single case, who refused a friend's request to let the group wait in the lobby, an option the court counted among 'relatively low-cost options' (2015: ¶¶ 7–8, 36)."
+],
+"S-201": [
+"quote",
+"The touchpoint passes the third question and fails the fourth, since the power reached was used against the guests, and the duty of care, not the route, governs that failure."
+],
+"S-202": [
+"quote",
+"In Rasnick, a guest's wife telephoned a motel repeatedly, and on her account one operator hung up and her later calls met a recorded message; a housekeeper found the guest the next morning unable to get up (Rasnick v Krishna Hospitality 2011: 565, n. 1; dissent at 572)."
+],
+"S-203": [
+"quote",
+"The Georgia court held that the motel owed no legal duty to check on him (569–570), and the case lies outside the further duty, which concerns the host's own performance; it shows a report reaching an operator and going no further."
+],
+"S-204": [
+"quote",
+"In R (DMA), contractors housing people for the Home Secretary recorded them on a portal as having 'failed to travel', and one case was closed thirteen minutes after a charity e-mailed to ask about it (2020: paras 63, 77, 79)."
+],
+"S-205": [
+"quote",
+"The court declared the minister in breach for failing properly to monitor provision, reasoning that she must be able to act 'at the time and in the individual case' (paras 236–241, 333), in a setting where inhuman or degrading treatment was imminent."
+],
+"S-206": [
+"quote",
+"The cases show that a route can exist and still fail at a different question in each, and that the questions locate where it fails."
+],
+"S-207": [
+"quote",
+"Which decisions need the route most depends on when their effects land."
+],
+"S-208": [
+"quote",
+"Not every touchpoint needs a person standing by at the moment a decision is taken."
+],
+"S-209": [
+"audit-B",
+"Baum and Laux sort forms of human oversight by when they act, and find that only oversight acting before a decision takes effect can change that decision (2026b: 120–122)."
+],
+"S-210": [
+"drift",
+"For hospitality we draw the boundary at correction: the route is owed while correction can still help the guest during the stay, and after the stay the guest's claim runs to repair."
+],
+"S-211": [
+"audit-B",
+"Three laws put correction before money: remedy during a package trip, repeat performance of a consumer service, and the rectification of a platform's decision about a worker, with compensation 'Where such rectification is not possible' (Directive (EU) 2015/2302, art. 13; Consumer Rights Act 2015, ss. 55, 56(3); Directive (EU) 2024/2831, art. 11(3))."
+],
+"S-212": [
+"figure",
+"Earlier intervention is the exception: a claim to a hearing before a deprivation 'rests on the proposition that full relief cannot be obtained at a postdeprivation hearing' (Mathews v Eldridge 1976: 331)."
+],
+"S-213": [
+"quote",
+"Table 1 places common hospitality decisions against this boundary."
+],
+"T1": [
+"quote",
+"| A charge disputed during the stay | At payment | In part | A route during the stay; repair after it | Our reading |"
+],
+"S-214": [
+"quote",
+"Every placement not attributed to a source is our reading."
+],
+"S-215": [
+"quote",
+"The law sets a floor beneath this boundary, reaching part of what the further duty asks by another road."
+],
+"S-216": [
+"quote",
+"A consumer may require a trader to perform a service again, and a package traveller may set a period for a remedy and send complaints through the retailer (Consumer Rights Act 2015, s. 55; Package Travel Regulations 2018, regs 15(4), 17)."
+],
+"S-217": [
+"quote",
+"EU and UK law count it against a trader that a consumer must take onerous or disproportionate steps to exercise rights under a contract (Directive 2005/29/EC, art. 9(d); Digital Markets, Competition and Consumers Act 2024, s. 228(2)(f))."
+],
+"S-218": [
+"audit-B",
+"Public bodies enforce that rule; EU law also gives a harmed consumer remedies, compensation among them (Directive 2005/29/EC, art. 11a), while the UK consumer's own redress under the 2024 Act was not in force in the latest text we read (ss. 231–232)."
+],
+"S-219": [
+"audit-B",
+"In Great Britain a disabled guest is owed reasonable adjustments, including an auxiliary service and information in an accessible format, so a host whose only route is a kiosk or an app may owe such a guest a reachable person (Equality Act 2010, s. 20(5), (6), (11))."
+],
+"S-220": [
+"audit-B",
+"In the EU a solely automated decision with legal or similarly significant effects is in principle prohibited outside three exceptions (SCHUFA 2023: paras 52–53), while in the UK such decisions are now lawful outside special-category data if safeguards let the person obtain human intervention (Data (Use and Access) Act 2025, s. 80)."
+],
+"S-221": [
+"quote",
+"Platforms must keep a point of contact that does not 'solely rely on automated tools' (Digital Services Act, art. 12(1)), and from 2029 package organisers must be 'easily contactable' about failures during a trip (Directive (EU) 2026/1024, art. 16a)."
+],
+"S-222": [
+"audit-B",
+"Outside package travel, platform moderation and solely automated significant decisions, no law we read gives an accommodation guest a route to a natural person with power over the single case, and UK package law's contact point is a duty owed to the state (Package Travel Regulations 2018, regs 7, 35; Sch. 5, para. 4)."
+],
+"S-223": [
+"audit-B",
+"Nor, on our reading, does a missing route add a head of liability: a party that undertook a service answers for its improper performance with or without one (X v Kuoni 2021: para 50), and in personal injury the lost chance that a report would have prevented harm is not compensated (Gregg v Scott 2005: para 90)."
+],
+"S-224": [
+"quote",
+"The Georgia court left a duty to check on guests to its legislature (Rasnick 2011: 569), and in law the further duty is a proposal for legislatures and for hosts' own practice."
+],
+"S-225": [
+"quote",
+"Some of what a guest needs can be given at the interface, and some only by the institution behind it."
+],
+"S-226": [
+"cut",
+""
+],
+"S-227": [
+"cut",
+""
+],
+"S-228": [
+"audit-B",
+"The institutional principles follow from the further duty, and the first is a route the guest is told of and can use without a confrontation, in forms a disabled guest can use, since guests who feel low in power complain less (Min and Kim 2020: 2)."
+],
+"S-229": [
+"quote",
+"The second is power at the end of the route, given in writing, with the training to use it."
+],
+"S-230": [
+"quote",
+"The third is learning across cases, so that single reports that together signal a failure are read together."
+],
+"S-231": [
+"quote",
+"The fourth, where several firms host together, is that one party, the party in control of the guest's space on our proposal, routes each report to the firm with power over the failing part."
+],
+"S-232": [
+"cut",
+""
+],
+"S-233": [
+"quote",
+"A small host meets these principles with a telephone number that the owner answers."
+],
+"S-234": [
+"quote",
+"We set these principles out as five stages a host can take in turn, in an order that is ours and is not a ranking by cost (Table 2)."
+],
+"S-235": [
+"quote",
+"The fifth stage is accountability after the stay, in Bovens's sense of a relationship in which an actor must explain and justify its conduct to a forum that 'can pose questions and pass judgement' (2007: 450)."
+],
+"T2": [
+"quote",
+"| 5. Answer | Answers after the stay before a forum that can question and judge | Accountability for what was not corrected |"
+],
+"S-236": [
+"cut",
+""
+],
+"S-237": [
+"quote",
+"Hospitality studies' account of the host, who protects the guest and holds power over the guest, remains the right place to begin the study of phygital hospitality."
+],
+"S-238": [
+"quote",
+"That account, however, pictures a single host who holds the duty in person, and the texts we read that name hosting divided among several parties do not say which party owes the guest what."
+],
+"S-239": [
+"revision",
+"An account of phygital hospitality therefore has to follow the host's duty to its holder or holders across firms and systems, and through the stay, while the guest is subject to arrangements the guest did not make."
+],
+"S-240": [
+"quote",
+"In this article we have argued, first, that the role of host specifies what a commercial host owes, care for the guest's safety and care in performing what the host undertook, and that holding out, reliance and control bind that duty to a particular party."
+],
+"S-241": [
+"quote",
+"Second, when others do the work, what stays with the host depends on the particular duty, and the duty of care may lie with several parties at once, each to its degree of control."
+],
+"S-242": [
+"quote",
+"Third, and this step is ours, the guest's claim during the stay justifies a further duty, owed to the guest, to keep some timely means by which a failure in the guest's case reaches someone able to correct it."
+],
+"S-243": [
+"quote",
+"Where only the guest perceives the failure, the means must include a route the guest can use without depending on the host's goodwill."
+],
+"S-244": [
+"quote",
+"Algorithmic mediation leaves the host's duties in place and can move the person able to correct a failure behind the machine, as it did at the two automated hotels in China."
+],
+"S-245": [
+"quote",
+"Parts of what the further duty asks are already in soft law: the UN Guiding Principles ask each business for grievance channels open directly to those whose human rights it may adversely affect, so that grievances are remedied early (United Nations 2011: 31–32)."
+],
+"S-246": [
+"cv-i",
+"For automated systems, the White House Office of Science and Technology Policy asks for 'access to a person who can quickly consider and remedy problems' (2022: 46), and the Treasury Board of Canada Secretariat reserves the final administrative decision to a human where the decision's impacts are high and difficult or impossible to reverse (2025: Appendices B–C)."
+],
+"S-247": [
+"citation-form",
+"Scholarship comes close as well: Kong (2026: 5) keeps the deployer of an AI agent answerable for foreseeable types of outcome, Baum et al. (2026a: 14–17) require that those an agent affects can challenge its action, and Binesh and Syah (2026: 10) hold that protecting guests' autonomy requires 'real human override at the service encounter'."
+],
+"S-248": [
+"quote",
+"In the literature we searched, we found no work that derives a guest's route to correction from the duty a host owes the guest, and that derivation is what this article adds, with power over the single case as what the route must reach."
+],
+"S-249": [
+"quote",
+"Human-centricity, on this account, concerns whether a guest can bring a failure to someone able to correct it, and whether the person at the end of the route holds the power to correct it."
+],
+"S-250": [
+"quote",
+"This is a conceptual paper, and its cases, all taken from published studies and judgments, illustrate its distinctions without testing them."
+],
+"S-251": [
+"quote",
+"In law the further duty is a proposal: the law we read gives guests remedies and disabled guests adjustments, and, outside package travel and platforms, requires no general route to someone able to correct a failure."
+],
+"S-252": [
+"audit-B",
+"We read several sources only as others report them, among them three authors the argument leans on: Raz on how one claim can justify changing duties, and Telfer and Derrida on hospitality."
+],
+"S-253": [
+"quote",
+"The evidence that failures in a guest's case reach the host mainly through the guest comes from two small hotel studies, and for failures of no documented type the need for someone able to correct them is our own reading."
+],
+"S-254": [
+"quote",
+"The further duty serves guests who can perceive and report a failure, not a guest in crisis or without the host's language, and we do not claim it for hosts letting rooms in their own homes."
+],
+"S-255": [
+"quote",
+"That duty asks for correction during the stay and leaves disputed complaints to be judged by others, since a business 'cannot, with legitimacy, both be the subject of complaints and unilaterally determine their outcome' (United Nations 2011: 35)."
+],
+"S-256": [
+"quote",
+"Four studies would test the argument where we found it thinnest, and the first would record how often hotel guests report a failure during the stay, to whom, and by what route."
+],
+"S-257": [
+"quote",
+"The second would compare recovery after a self-service or robot failure with and without an employee the guest can reach, a comparison no openly available hospitality study we found has made."
+],
+"S-258": [
+"quote",
+"The third would follow a guest's report through unstaffed hotels and rentals with self-check-in, recording who received the report, what that person could change, and how long correction took."
+],
+"S-259": [
+"quote",
+"The fourth is for legal scholarship: whether the Irish Act's safety duty makes a proprietor answer for contractors, and whether courts would count the lack of any route as a want of care."
+],
+"S-260": [
+"quote",
+"A host can act on the argument now, by putting the six questions to each touchpoint and telling guests, in forms every guest can use, whom to reach and how."
+],
+"S-261": [
+"quote",
+"The person a guest reaches needs power in writing, the training to use it and protection from being disciplined through guests' reports, since a route that ends in someone without power leaves the failure with the guest."
+],
+"S-262": [
+"quote",
+"For the guest's well-being, what matters is who bears a failure: without a route the guest bears it alone, and turning away from a service reached only through an app 'may carry a personal cost and loss' (Wilson-Nash et al. 2026: 979)."
+],
+"S-263": [
+"quote",
+"The question for phygital hospitality is whether, in arrangements that spread a host's work across staff, firms and systems, a failure in a guest's case can still reach someone able to correct it, and for particular arrangements the answer is not yet known."
+],
+"A-1": [
+"audit-B",
+"Hosts now hand parts of the work of hosting, from pricing to check-in, to algorithmic systems, which can be assembled from services that several firms supply."
+],
+"A-2": [
+"audit-B",
+"The hospitality texts we read in full describe what a host owes and name hosting divided among several parties, but none says which party owes the guest what."
+],
+"A-3": [
+"quote",
+"We argue that the role of host specifies the duty, care for the guest's safety and in what the host undertook, and that holding out, reliance and control bind it to a particular party."
+],
+"A-4": [
+"quote",
+"When others do the work, what stays with the host depends on the duty, and several parties may hold the duty of care at once."
+],
+"A-5": [
+"quote",
+"During the stay, we argue, the guest's claim justifies a further duty to keep some timely means by which a failure in the guest's case reaches someone able to correct it, a person algorithmic mediation can move out of the guest's path."
+],
+"A-6": [
+"quote",
+"The article offers six questions for examining a touchpoint, states what the law already requires, and sets out what hosts can do."
+],
+"S-205a": [
+"new",
+"The Court of Appeal has since read the case as requiring a system to ensure that contractors performed the minister's duty, not a free-standing duty to monitor under the Equality Act (RR v Enfield 2025: paras 80–81)."
+],
+"S-262a": [
+"new",
+"For staff, algorithmic management brings gains and costs: experts expect it to raise efficiency in hotels and to intensify work (Jianu et al. 2025: 1, 6), and many room attendants who found an algorithm's one-room-at-a-time setting stressful were able, working with management, to phase it out (Spektor et al. 2023: 629)."
+]
+}

@@ -35,6 +35,8 @@
 - **Value** ✅ Shows the firm behind the machine.
 - **Counterpart** ⚠️ W1.
 - **Truth** ✅ v5 §1 ¶1 s3–4; Belanche card (guests attribute failure to the firm).
+- **Correction after the reviewer pack (11 Nov 2026), C01** ❌ Xu et al. was held at abstract depth and displaced by Boo and Chua in August; Belanche et al. studied vignette respondents, not guests. Source: cards xu2020facial (superseded_by boochua2022facial), boochua2022facial (abstract), belanche2020 pp. 275-276, 281.
+- **As written** > Facial-recognition systems verify identity at check-in (Boo and Chua 2022), and service robots greet, direct and serve guests; in vignette experiments, respondents held the firm more responsible when a robot rather than an employee failed (Belanche et al. 2020).
 
 ### S-004 · answers none (W1) · 12w
 > In short-term rentals, self-check-in replaces the handover of keys (Bosma 2022: 605).
@@ -107,6 +109,8 @@
 - **Truth** ✅ Germann Molz 2018: 244 (VoR, 'to use its status as a digital platform to evade legal responsibility'). **Abstract only** for Germann Molz 2026 and Riordan 2024; both claims are in the abstracts' words.
 - **Amendment after a further full read (10 Nov 2026)** ❌ Bialski (2012), read in full after the ledger was complete, is the journal's earliest sustained study of a platform; the first version's 'More recently' implied earlier work it did not name. Rewritten to start the journal's conversation in its first volume. ⚠️ 53w. Bialski card p. 257; Germann Molz 2026 and Riordan 2024 remain abstract only, their coinages used as terms.
 - **As written** > This journal has studied platforms since its first volume: Bialski (2012: 257) found that a hospitality network's profiles gave hosts 'the power to choose one member over the other', Germann Molz (2018: 244) showed Airbnb using its status as a platform to evade legal responsibility, and later work describes guests without hosts and algorithmic hostility (Germann Molz 2026; Riordan 2024).
+- **Correction after the reviewer pack (11 Nov 2026), C02** ❌ Germann Molz calls her method exploratory and illustrative, so 'showed' overstates; Riordan's subjects are delivery workers, not guests. Source: cards germannmolz2018scale p. 235; riordan2024digitally (abstract).
+- **As written** > This journal has studied platforms since its first volume: Bialski (2012: 257) found that a hospitality network's profiles gave hosts 'the power to choose one member over the other', Germann Molz (2018: 244) described Airbnb using its status as a platform to evade legal responsibility, and later work describes guests without hosts and an algorithmic hostility towards food-delivery workers (Germann Molz 2026; Riordan 2024).
 
 ### S-011 · answers M.004 · 46w
 > The phygital literature describes such systems by what they do, as tools, mediators, facilitators and co-creators of the guest's experience, and does not say what the party that deploys them owes the guest (van Doorn et al. 2017; Li et al. 2021; Batat 2024; Xing and Zhang 2026).
@@ -119,6 +123,10 @@
 - **Truth** ✅ v5 §1 ¶2, s2–3.
 - **Amended at the conclusion** ❌ The September note to the editor promised the phygital research of Batat (2026) and Brochado et al. (2026), which v5 §1 ¶2 s1 cites for presenting these systems as means to a smoother, more personal experience. The first version dropped both. Rewritten to carry both claims of v5's two sentences:
 - **As written** > The phygital literature presents such systems as means to a smoother and more personal experience (Batat 2024, 2026; Brochado et al. 2026) and describes them by what they do, as tools, mediators, facilitators and co-creators (van Doorn et al. 2017; Li et al. 2021; Xing and Zhang 2026), without saying what the party that deploys them owes the guest.
+- **Correction after the reviewer pack (11 Nov 2026), C03** ❌ Batat 2026 and Brochado et al. said nothing about smoothness; 'tools' came from a dropped source and van Doorn et al. supports 'social presence'; the absence claim was refuted by Shabnam et al. and is narrowed to the gap that survives. Source: cards batat2026psr (title, abstract), brochado2026phygital (abstract), vandoorn2017domo p. 43, li2021systematic (abstract), xing2026algorithmic (title), shabnam PDF p. 14.
+- **As written** > Phygital operation may now be the normal condition of services (Brochado et al. 2026), and the literature on it presents such systems as means to a smoother and more personal experience (Batat 2024) and describes them by what they do, as social presences, mediators, facilitators and co-creators (van Doorn et al. 2017; Li et al. 2021; Xing and Zhang 2026). Where it turns to governance, it calls for human-first design and contestable rules (Batat 2026; Shabnam et al. 2026), without saying to whom these safeguards are owed or which of the firms behind a system owes them.
+- **Split for length (11 Nov 2026)** The correction above left the sentence too long; split without change of content.
+- **As written** > Phygital operation may now be the normal condition of services (Brochado et al. 2026). The literature on it presents such systems as means to a smoother and more personal experience (Batat 2024) and describes them by what they do, as social presences, mediators, facilitators and co-creators (van Doorn et al. 2017; Li et al. 2021; Xing and Zhang 2026). Where it turns to governance, it calls for human-first design and contestable rules (Batat 2026; Shabnam et al. 2026), without saying to whom these safeguards are owed or which of the firms behind a system owes them.
 
 ### S-012 · answers M.005 · 49w
 > Algorithmic-accountability research keeps answerability with the party that delegates but ties it to harm (Nissenbaum 1996; Kong 2026: 5), and hospitality research measures hospitableness as a motive of individual hosts (Lashley 2015: 1), so the host's obligation is sought either in an injury or in a person's motive.
@@ -129,6 +137,8 @@
 - **Value** ✅ The assumption the thesis leaves behind.
 - **Counterpart** ✅ Names the limiting link, as M.005.
 - **Truth** ✅ v5 §1 ¶2, s4–6; Lashley card p. 1 (instrument for 'individuals who are driven by a personal desire').
+- **Correction after the reviewer pack (11 Nov 2026), C04** ❌ Nissenbaum points to designers, expert sources or the deploying organization, not to the delegating party alone. Source: card nissenbaum1996accountability pdf p. 11.
+- **As written** > Algorithmic-accountability research looks for answerability among those who design or deploy a system and ties it to harm (Nissenbaum 1996; Kong 2026: 5), and hospitality research measures hospitableness as a motive of individual hosts (Lashley 2015: 1), so the host's obligation is sought either in an injury or in a person's motive.
 
 ### S-013 · answers M.006 · 36w
 > This article seeks to keep hospitality studies' account of what a host owes, and to say where that obligation goes when the work of hosting is delegated to algorithmic systems spread across several firms.
@@ -335,6 +345,8 @@
 - **Value** ✅ Carries the obligation into commerce.
 - **Counterpart** ✅
 - **Truth** ✅ O'Gorman card (pdf p. 11): crossing thresholds of commercial hospitality 'guaranteed and provided physical protection, sanctuary and security'. Paraphrased: author version, no VoR page.
+- **Correction after the reviewer pack (11 Nov 2026), C05** ❌ The 'promise' generalized one uncited sentence in O'Gorman's conclusion; its evidence concerns caravanserais built by rulers and donors. Source: card ogorman2009origins pdf pp. 9-11.
+- **As written** > O'Gorman's history of commercial hospitality ends on the claim, for which it cites no evidence, that crossing a commercial threshold also guaranteed the traveller physical protection (2009).
 
 ### S-033 · answers M.028 · 38w
 > Writing in this journal, Varley et al. (2018) put the point on King's (1995) authority: historically, the host was obliged to see to the guest's safety and comfort as well as to provide a place to stay.
@@ -497,6 +509,8 @@
 - **Value** ✅ The canon's own caution against an imposed duty.
 - **Counterpart** ✅
 - **Truth** ✅ Card p. 2: religious obligations 'may be at odds with Telfer's notion of hospitableness because the host is behaving in a way that has been externally imposed'; instrument for use in recruiting staff (card summary).
+- **Correction after the reviewer pack (11 Nov 2026), C06** ❌ The 'externally imposed' obligation is religious obligation, and the same authors state the host's duty to keep guests safe. The paragraph's opening claim that the debate turns on motive is left for the authors (synthesis, finding on the foil). Source: card blain2014hospitableness pp. 1-2.
+- **As written** > Blain and Lashley hold that the host 'is obliged to make the guests safe' (2014: 1), yet set obligations that are 'externally imposed', such as religious ones, against hospitableness, with which they 'may be at odds', and look to secure the welcome by recruiting people with hospitable motives (2014: 2).
 
 ### S-049 · answers M.046 · 45w
 > The instruments that follow identify 'individuals who are driven by a personal desire to be hospitable to others' (Lashley 2015: 1), and a recent study of hotel robots defines hospitableness as 'a host's disposition to care for a guest without expectation of reciprocity' (Liu et al. 2026: 2).
@@ -589,6 +603,8 @@
 - **Value** ✅ A legal historian's reading.
 - **Counterpart** ✅ IMPORT, as M.053.
 - **Truth** ✅ Bogen card p. 75.
+- **Correction after the reviewer pack (11 Nov 2026), C07** ❌ Bogen's sentence concerns the duty to serve the public, not all the innkeeper's duties. Source: card bogen1996innkeeper p. 75.
+- **As written** > Bogen reads the English cases the same way, finding that it was 'English law, not the innkeeper's express commitment' that imposed the duty to serve the public (1996: 75).
 
 ### S-058 · answers M.054 · 25w
 > On this account the obligation neither depends on the host's motive nor lapses when the motive fails; it belongs to whoever occupies the role.
@@ -740,6 +756,8 @@
 - **Value** ✅ The depth of the charge.
 - **Counterpart** ✅
 - **Truth** ✅ Sandoval-Strausz card p. 65. ❌ First attempt restated Maese 2015: 501 from S-056, which would have said one thing twice; replaced.
+- **Correction after the reviewer pack (11 Nov 2026), C56** ❌ The strict liability concerns the obligation to safeguard guests' property; following 'person and belongings', the sentence read as liability for persons too. Source: full text, revision_2026-11/research/sources/sandovalstrausz2005travelers, p. 65.
+- **As written** > The innkeeper's liability for guests' goods, moreover, reached beyond his own servants to 'other guests or any unidentified party' (Sandoval-Strausz 2005: 65).
 
 ### S-073 · answers M.068 · 52w
 > In this sense we disagree with Slattery (2002: 21), for whom it is 'inaccurate and misleading' to treat the relationship between host and guest as the critical one in the hospitality business; we grant him the corporate context he describes, and argue that it changes who holds the host's role, not whether the role exists.
@@ -790,6 +808,8 @@
 - **Value** ✅ The moment, in law.
 - **Counterpart** ✅ Stands for the model's display.
 - **Truth** ✅ HPA card, s. 1(3).
+- **Correction after the reviewer pack (11 Nov 2026), C08** ❌ The paraphrase dropped a defining condition of s. 1(3). Source: card uk1956hotel s. 1(3).
+- **As written** > The Hotel Proprietors Act 1956 applies those duties to an establishment 'held out by the proprietor' as offering food, drink and, if required, a bed, 'without special contract', to 'any traveller presenting himself who appears able and willing to pay a reasonable sum … and who is in a fit state to be received' (s. 1(3)).
 
 ### S-078 · answers M.073 · 17w
 > The Act attaches those duties 'to the proprietor of such an hotel' and to no other person (s. 1(1)).
@@ -850,6 +870,8 @@
 - **Value** ✅ Heads off a misreading.
 - **Counterpart** ✅
 - **Truth** ✅ v5 §2.3 ¶1 last sentence; §2.4 ¶1 on *Woodland*.
+- **Correction after the reviewer pack (11 Nov 2026), C09** ❌ The Act deems a hotel, and only a hotel, an inn, so the denial of any special legal category was wrong. Source: card uk1956hotel s. 1(1).
+- **As written** > To say that the law imposes the duty is not to say that the law explains it, although the 1956 Act does set hotels apart by deeming them, and no other establishment, to be inns (s. 1(1)).
 
 ### S-084 · answers M.080 · 21w
 > What the law does give is the moment at which the obligation comes into force and the party who holds it.
@@ -890,6 +912,8 @@
 - **Value** ✅ The commercial guest.
 - **Counterpart** ✅
 - **Truth** ✅ Golubovskaya card p. 1286; King cited as reported (card: secondary, not checked against King 1995).
+- **Correction after the reviewer pack (11 Nov 2026), C10** ❌ The sentence is Golubovskaya et al.'s, citing King; it was presented as King's formulation. Source: card golubovskaya2017meaning p. 1286.
+- **As written** > In commercial hospitality the guest's duties narrow: following King (1995), Golubovskaya et al. write that commercial hospitality often empowers the guest, 'whose only obligation is to pay and behave reasonably' (2017: 1286).
 
 ### S-088 · answers M.083 · 37w
 > The statutory traveller of 1956, able to pay and fit to be received, is already such a guest, and hotels ask guests to leave who will not follow the stay's rules after repeated requests (Xiang et al. 2022).
@@ -902,6 +926,8 @@
 - **Truth** ✅ HPA s. 1(3) (S-077); Xiang card ('Only when guests do not abide by the ritual after repeated communications will they be asked to leave'). 'requests' paraphrases 'communications'.
 - **Correction at verification (10 Nov 2026)** ❌ Xiang card: 'after repeated communications'. 'requests' drifted from the source.
 - **As written** > The statutory traveller of 1956, able to pay and fit to be received, is already such a guest, and hotels ask guests to leave who will not follow the stay's rules after repeated communications (Xiang et al. 2022).
+- **Correction after the reviewer pack (11 Nov 2026), C11** ❌ Xiang et al. studied one upscale hotel under state-imposed pandemic rules; the general 'hotels' overstated it. Source: card xiang2022covid (design; limitations).
+- **As written** > The statutory traveller of 1956, able to pay and fit to be received, is already such a guest, and in one hotel under pandemic rules, guests who would not follow the stay's rules after repeated communications were asked to leave (Xiang et al. 2022).
 
 ### S-089 · answers M.084 · 32w
 > The guest's side of the relation is therefore stated and conditional, and in the classical account a guest who fails it entitles the host to give up the role (Pitt-Rivers 2012: 517).
@@ -1042,6 +1068,8 @@
 - **Value** ✅
 - **Counterpart** ✅
 - **Truth** ✅ v5 §3.1 ¶2; Woodland card para 7.
+- **Correction after the reviewer pack (11 Nov 2026), C12** ❌ Pages 7-8 are accepted-manuscript pages, not pages of the journal version listed; the journal version is closed, so the paraphrase carries no pinpoint. Source: card morgan2015liability ('AM page numbers are not journal pages').
+- **As written** > Responsibility is the holder's retained duty to see that the obligation is performed, by whoever does the work (Woodland v. Essex County Council 2013: para 7; Morgan 2015).
 
 ### S-102 · answers M.097 · 29w
 > Authority is the power, assigned by an organization, to change a decision or the rule behind it, a sense we stipulate because the word carries technical meanings elsewhere.
@@ -1114,6 +1142,8 @@
 - **Truth** ✅ Crinkley card para 7.
 - **Correction at verification (10 Nov 2026)** ❌ Crinkley card: para 7 sets out the three defendants; liability of all three is at para 9.
 - **As written** > In Crinkley v. Holiday Inns, a single decision under North Carolina law, the owners of a franchised motel, the company that ran it day to day and the franchisor whose brand it carried were all held liable to guests assaulted in their room (1988: paras 7, 9).
+- **Correction after the reviewer pack (11 Nov 2026), C13** ❌ Reporter page in place of the copy's paragraph numbers. Source: card crinkley1988holiday source_basis (paras 7 and 9 at 159).
+- **As written** > In Crinkley v. Holiday Inns, a single decision under North Carolina law, the owners of a franchised motel, the company that ran it day to day and the franchisor whose brand it carried were all held liable to guests assaulted in their room (1988: 159).
 
 ### S-109 · answers M.106, M.107 · 44w
 > The franchisor was liable vicariously, through apparent agency: the jury could find that the brand had presented the property as its own and that the guests had relied on it, though the court called the evidence of reliance 'marginal' (1988: paras 9, 49–52).
@@ -1124,6 +1154,10 @@
 - **Value** ✅ How holding out bound the brand, with its limit.
 - **Counterpart** ✅
 - **Truth** ✅ v5 §2.3 ¶2.
+- **Correction after the reviewer pack (11 Nov 2026), C14** ❌ Reporter pages; footnote 3 (Hayman v. Ramada Inn), which limits the holding where guests do not choose the brand, had been omitted. Source: card crinkley1988holiday paras 49-52, fn 3 (pp. 166-67).
+- **As written** > The franchisor was liable vicariously, through apparent agency: the jury could find that the brand had presented the property as its own and that the guests had relied on it, though the court called the evidence of reliance 'marginal' and recorded that a North Carolina appeals court had rejected a comparable claim where the guest's employer, not the guest, had chosen the motel (1988: 159, 166–67 and n. 3).
+- **Split for length (11 Nov 2026)** The correction above left the sentence too long; split without change of content.
+- **As written** > The franchisor was liable vicariously, through apparent agency: the jury could find that the brand had presented the property as its own and that the guests had relied on it, though the court called the evidence of reliance 'marginal' (1988: 159, 166–67). It also recorded that a North Carolina appeals court had rejected a comparable claim where the guest's employer, not the guest, had chosen the motel (1988: 167 n. 3).
 
 ### S-110 · answers M.108 · 39w
 > English law supplies a second line: a party whose 'own duty is not to perform the relevant function but only to arrange for its performance' is not liable for how it is performed (Woodland v. Essex County Council 2013: para 25(3)).
@@ -1214,6 +1248,8 @@
 - **Value** ✅
 - **Counterpart** ✅
 - **Truth** ✅ v5 §2.4 ¶1 (para 7; Morgan p. 7).
+- **Correction after the reviewer pack (11 Nov 2026), C15** ❌ The quotation carried an accepted-manuscript page; without the closed journal version it becomes a paraphrase. Source: card morgan2015liability.
+- **As written** > Such a duty arises from 'an antecedent relationship' and is 'a positive or affirmative duty to protect' (para 7), and Morgan states the principle that no duty of care can be delegated, though its performance may be (2015).
 
 ### S-119 · answers M.116 · 43w
 > Woodland concerns schools and hospitals, not hotels, and we borrow its structure without claiming that the law already places hotels in its category, although the court noted that a fee-paying provider's responsibilities are already non-delegable 'because they are contractual' (para 25(5)).
@@ -1276,6 +1312,8 @@
 - **Value** ✅ CONCEDE.
 - **Counterpart** ✅
 - **Truth** ✅ v5 §2.4 ¶2; Kong card p. 5.
+- **Correction after the reviewer pack (11 Nov 2026), C16** ❌ Nissenbaum names designers, sources or the deploying organization; the deployer-specific claim is Kong's. Source: cards nissenbaum1996accountability pdf pp. 6, 11; kong2026delegation p. 5.
+- **As written** > Writers on algorithmic accountability already hold that handing a function to a system does not dissolve answerability, which may lie with its designers or with the organization that deploys it (Nissenbaum 1996), and that deploying an autonomous system does not lessen the deployer's responsibility (Kong 2026: 5).
 
 ### S-125 · answers M.123 · 33w
 > Kong grounds that responsibility in the deployer's control over the act of delegating and concludes that 'one who elects a delegate that cannot answer thereby elects to answer for it' (2026: 4–5, 10).
@@ -1317,6 +1355,8 @@
 - **Counterpart** ✅
 - **Truth** ✅ Kropf card pp. 7, 9 ('the answerability of care robots is currently inconceivable'; thin and thick blame). 'blame stays with the humans' paraphrases thick blame lying with human actors (p. 10 in the card); **locator amended** to 7, 9–10 in the manuscript.
 - **As written** > Kropf et al. reach a compatible position from the ethics of care, holding that a robot can occupy a narrow role without accountability, that its answerability 'is currently inconceivable', and that blame stays with the humans who deploy it (2026: 7, 9–10).
+- **Correction after the reviewer pack (11 Nov 2026), C17** ❌ Kropf et al. name programmers, manufacturers and other humans, not deployers alone. Source: card kropf2026blame p. 9.
+- **As written** > Kropf et al. reach a compatible position from the ethics of care, holding that a robot can occupy a narrow role without accountability, that its answerability 'is currently inconceivable', and that accountability stays with human beings, among them its programmers and manufacturers (2026: 7, 9–10).
 
 ### S-129 · answers M.126 · 33w
 > A machine can therefore perform the role of hosting, while the duty to the guest, and the answering for how it is performed, remain with the party that took the role up.
@@ -1347,6 +1387,8 @@
 - **Value** ✅ The circularity, shown (Reviewer 2.3a).
 - **Counterpart** ✅
 - **Truth** ✅ Darwall card p. 36 (quotation exact). v5's paraphrase ('the obligee's authority to make demands of the obligor and to hold the obligor personally accountable') is replaced by the card's quotation.
+- **Correction after the reviewer pack (11 Nov 2026), C18** ❌ The p. 36 gloss concerns second-personal authority in general; pp. 31-32 state the obligee's authority. Source: card darwall2013bipolar pp. 31-32, 36.
+- **As written** > Darwall holds that bipolar obligations give obligees a 'distinctive discretionary second-personal authority' to make claims and demands of obligors and hold them personally responsible (2013: 31–32), so that to take standing from his account and then define accountability as answering someone with standing would make each term depend on the other.
 
 ### S-132 · answers M.129 · 31w
 > Thompson's forms of directed duty, 'X has a duty to Y to do A' and 'X has a right against Y' (2004: 335), fix who owes what to whom without mentioning answering.
@@ -1357,6 +1399,8 @@
 - **Value** ✅ The way out.
 - **Counterpart** ✅
 - **Truth** ✅ Thompson card p. 335.
+- **Correction after the reviewer pack (11 Nov 2026), C19** ❌ Quoted together, the two forms swap the roles of X and Y; only the duty form is needed. Source: card thompson2004wrong p. 335.
+- **As written** > Thompson's form of directed duty, 'X has a duty to Y to do A' (2004: 335), fixes who owes what to whom without mentioning answering.
 
 ### S-133 · answers M.128 · 50w
 > We therefore define the guest's standing in two parts: first, standing held, the guest's position as the one to whom the host's directed duties are owed; and second, standing exercised, the guest's pressing of that claim, by asking, objecting or requesting an exception, on a party able to receive it.
@@ -1377,6 +1421,8 @@
 - **Value** ✅
 - **Counterpart** ✅
 - **Truth** ✅ Darwall card p. 35. Liau (2023), which v5 cited here with a `[CHECK]` flag, is left out (`DECISIONS.md`, D6).
+- **Correction after the reviewer pack (11 Nov 2026), C20** ❌ 'Concedes' overstated; Darwall goes on to tie the right to the obligee's authority (reviewer R2; the authors should read p. 35 in full). Source: card darwall2013bipolar p. 35.
+- **As written** > Standing in the first sense exists whether or not it is claimed, as Darwall allows when he writes that a right holder 'need not actually claim her right or demand compliance with it in order for the right to exist' (2013: 35).
 
 ### S-135 · answers M.130 · 22w
 > Under algorithmic mediation, then, the guest still holds standing, because the host's obligation persists, and what can fail is its exercise.
@@ -1427,6 +1473,8 @@
 - **Value** ✅
 - **Counterpart** ✅
 - **Truth** ✅ Di Domenico and Lynch card p. 335 (quotation as in v5; the card abbreviates it); Sandoval-Strausz card p. 64 ('the private law of damages on suit').
+- **Correction after the reviewer pack (11 Nov 2026), C21** ❌ The quotation concerns commercial-home hosts, not commercial hosts generally. Source: card didomenico2007host p. 335.
+- **As written** > In commercial hospitality what makes a claim proper to press is the paying relation and the law behind it, since even the hosts of commercial homes 'must meet the desires and demands of the paying guest' (Di Domenico and Lynch 2007: 335) and a refused traveller could sue for damages (Sandoval-Strausz 2005: 64).
 
 ### S-140 · answers M.134 · 38w
 > Moysidou and Stanley (2023), writing in this journal on homestays, treat a guest's confidence that a complaint will be acted on as a form of power, and show an au pair who cannot leave choosing not to complain.
@@ -1569,6 +1617,10 @@
 - **Value** ✅ The journal's own evidence of an assembled host whose members' responsibilities were unsettled, in a setting with no algorithm, which is the path's failure at its nearest point.
 - **Counterpart** ⚠️ Answers no model entry; as S-150a.
 - **Truth** ✅ Petie et al. 2025, MS p. 11 (card `petie2025exploring`, full text): 'A web of hosts was created in Glasgow through complex outsourcing arrangements'; 'a lack of clarity around what each different agency was responsible for'; asylum seekers 'did not know where to turn for help'; the receptionist, often the first port of call, 'lacked the skills and knowledge to deal with complex problems'. Glasgow hotels at the outbreak of the pandemic: MS p. 9. Paraphrase only; the findings are the inquiry and evaluation reports' as the authors read them, which 'describe' carries.
+- **Correction after the reviewer pack (11 Nov 2026), C22** ❌ The receptionist finding is the inquiries', as the authors read them. Source: card petie2025exploring MS p. 11.
+- **As written** > In the Glasgow hotels that housed asylum seekers during the pandemic, Petie et al. (2025), drawing on an official evaluation and an independent inquiry, describe hosting divided by outsourcing among agencies whose responsibilities no one had made clear: residents could not tell where to seek help, and the receptionist they often approached first was not equipped for complex problems.
+- **Split for length (11 Nov 2026)** The correction above left the sentence too long; split without change of content.
+- **As written** > In the Glasgow hotels that housed asylum seekers during the pandemic, Petie et al. (2025), drawing on an official evaluation and an independent inquiry, describe hosting divided by outsourcing among agencies whose responsibilities no one had made clear. Residents could not tell where to seek help, and the receptionist they often approached first was not equipped for complex problems.
 
 ### S-151 · answers M.140 · 36w
 > Germann Molz (2018: 243–244) has shown the other end of the path, where a company that owns no lodging and employs no hosts appeals to its status as a platform to avoid legal responsibility.
@@ -1579,6 +1631,8 @@
 - **Value** ✅ The journal's work on the platform end.
 - **Counterpart** ✅
 - **Truth** ✅ Germann Molz 2018: 243 ('It does not own any lodging properties or employ any service providers'), 244 ('to use its status as a digital platform to evade legal responsibility'). 'hosts': she writes that hosts are not employed by Airbnb (p. 243).
+- **Correction after the reviewer pack (11 Nov 2026), C23** ❌ As C02. Source: card germannmolz2018scale p. 235.
+- **As written** > Germann Molz (2018: 243–244) has described the other end of the path, where a company that owns no lodging and employs no hosts appeals to its status as a platform to avoid legal responsibility.
 
 ### S-152 · answers M.142 · 20w
 > To keep with the theme of this special issue, we concentrate on phygital touchpoints in hotels, short-term rentals and restaurants.
@@ -1610,11 +1664,15 @@
 > Accounts of phygital hospitality describe the movement between physical and digital touchpoints as fluid and make smoothness a goal of design (Batat 2024: 1220, 1233).
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ *describe*, *make*. **Value** ✅ The prevailing view. **Counterpart** ✅ Reports a recent view of the setting, as M.146. **Truth** ✅ v5 §4 ¶2, §7 ¶3.
+- **Correction after the reviewer pack (11 Nov 2026), C24** ❌ Batat's framework concerns customer experience in general, not hospitality. Source: card batat2024phcx.
+- **As written** > Accounts of the phygital customer experience describe the movement between physical and digital touchpoints as fluid and make smoothness a goal of design (Batat 2024: 1220, 1233).
 
 ### S-157 · answers M.147 · 27w
 > On these accounts good technology removes queues, repetition, uncertainty and wasted effort so that the guest moves through the journey without friction (Batat and Hammedi 2023).
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ Stated fairly; v5's 'glides' rejected as a reach. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §7 ¶3.
+- **Correction after the reviewer pack (11 Nov 2026), C55** ❌ The list 'queues, repetition, uncertainty and wasted effort' is not in the source (full text searched); the source's own words now carry the point. Source: full text, revision_2026-11/research/sources/batathammedi2023ert, pp. 14, 18; card batathammedi2023ert.
+- **As written** > On these accounts 'flawless interactivity and connectivity' are needed to guarantee an enjoyable experience, and sensory technologies help by 'preventing disconnects' in a customer's journey (Batat and Hammedi 2023: 14, 18).
 
 ### S-158 · answers M.148 · 38w
 > The movement can as accurately be called a relay: physical moments become digital records, and digital rulings come back as physical facts, a key card that opens or does not, a price on the screen at the desk.
@@ -1623,6 +1681,8 @@
 - **Register** ⚠️ *relay* is a figure, kept once because it is argued for against 'fluid' and names a handoff (`OUR_BRIEF.md`, register 2).
 - **Value** ✅ COMPLICATION of the prevailing view.
 - **Counterpart** ✅ **Truth** ✅ v5 §4 ¶2.
+- **Correction after the reviewer pack (11 Nov 2026), C25** ❌ The relay restates Batat's two processes without credit. Source: card batat2024phcx pp. 1230-1231.
+- **As written** > Batat names the two directions of that movement digitalization and physicalization (2024: 1230–1231), and together they can as accurately be called a relay: physical moments become digital records, and digital rulings come back as physical facts, a key card that opens or does not, a price on the screen at the desk.
 
 ### S-159 · answers M.148 · 21w
 > A relay raises a question that fluidity hides, namely who holds authority, and who keeps room for judgement, at each handoff.
@@ -1648,6 +1708,8 @@
 > Hosts on such platforms resist the hotel's role, insisting 'I am not a butler though nor am I a receptionist in a hotel' (Kaniadakis and Farmaki 2022: 14), while the platform passes the guest-facing duties of hosting to them (Germann Molz 2018: 243–245).
 
 - **Form** ✅ **Construction** ✅ 'them' refers to 'hosts'. **Register** ✅ **Value** ✅ **Counterpart** ✅ READING of a type, as M.153. **Truth** ✅ v5 §4 ¶5; Germann Molz 2018: 243 (hosts responsible for cleaning up after and caring for guests).
+- **Correction after the reviewer pack (11 Nov 2026), C26** ❌ Page 14 was the OnlineFirst PDF's; the open journal version (CC BY, read 11 Nov 2026) prints the quotation on p. 5776 of the 2024 issue. Source: journal PDF, revision_2026-11/research/sources/kaniadakis2022responsibilisation/vor.pdf, p. 5776.
+- **As written** > Hosts on such platforms resist the hotel's role, insisting 'I am not a butler though nor am I a receptionist in a hotel' (Kaniadakis and Farmaki 2024: 5776), while the platform passes the guest-facing duties of hosting to them (Germann Molz 2018: 243–245).
 
 ### S-164 · answers M.153 · 19w
 > In restaurants, by contrast, technology can be added to an encounter while staff go on hosting it (Batat 2021).
@@ -1678,6 +1740,8 @@
 > The owner of a small commercial home sets the rules, admits and ejects in person (Di Domenico and Lynch 2007: 332–335), while the motel in Crinkley was shared, decades before any algorithm, among owners, an operating company and a franchisor (1988: para 7).
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ Two settings side by side. **Counterpart** ✅ **Truth** ✅ v5 §4 ¶1.
+- **Correction after the reviewer pack (11 Nov 2026), C27** ❌ Reporter page. Source: card crinkley1988holiday source_basis.
+- **As written** > The owner of a small commercial home sets the rules, admits and ejects in person (Di Domenico and Lynch 2007: 332–335), while the motel in Crinkley was shared, decades before any algorithm, among owners, an operating company and a franchisor (1988: 159).
 
 ### S-170 · answers M.161 · 33w
 > What phygital arrangements change is therefore not a complete frontline authority that once existed but the path from the guest to graded authority, which an algorithmic system can lengthen, obscure or remove.
@@ -1698,16 +1762,22 @@
 > Knowledge drifts towards the system, which can hold a guest's history, preferences, spending and loyalty status alongside the property's inventory and constraints (Rahman 2021; Calo and Rosenblat 2017).
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ *drifts*: v5's verb, a dead figure. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶3.
+- **Correction after the reviewer pack (11 Nov 2026), C28** ❌ Both sources concern platform workers and participants; the guest-data claim is our application and is now marked as an analogy. Source: cards rahman2021cage; calorosenblat2017taking (abstract).
+- **As written** > Knowledge drifts towards the system, which can hold a guest's history, preferences, spending and loyalty status alongside the property's inventory and constraints, much as platforms hold what their workers and users cannot see (Rahman 2021; Calo and Rosenblat 2017).
 
 ### S-174 · answers M.163 · 34w
 > Discretion splits, because staff keep some freedom to act while more of their day goes to reading decisions made elsewhere and working around categories set elsewhere (Pedersen and Pors 2023; Spektor et al. 2025).
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶3.
+- **Correction after the reviewer pack (11 Nov 2026), C29** ❌ Neither source reports a trend in time spent reading decisions; Spektor et al.'s cost is documentation labour. Source: cards pedersen2022 p. 80; spektor2025working s. 5.3.
+- **As written** > Discretion splits, because staff keep some freedom to act but must work around categories and scripts set elsewhere and record their work for the system (Pedersen and Pors 2023; Spektor et al. 2025).
 
 ### S-175 · answers M.164 · 38w
 > Authority over the rule drifts towards whoever designs, configures or controls it (Scott and Orlikowski 2012), often a vendor that keeps the right to 'change, withdraw, or cancel products and services at will' (Cobbe et al. 2023: 1195).
 
 - **Form** ✅ **Construction** ✅ 'it' refers to 'the rule'. **Register** ✅ **Value** ✅ The finding at the touchpoint. **Counterpart** ✅ M.164's assembled host becomes the vendor behind the rule. **Truth** ✅ v5 §4 ¶3; Cobbe card p. 1195.
+- **Correction after the reviewer pack (11 Nov 2026), C57** ❌ Scott and Orlikowski show accountability in travel redistributed from internal lines of authority to online reviews, not authority drifting to designers; Cobbe et al.'s quotation in the same sentence carries the claim. Source: card scottorlikowski2012accountability (full text).
+- **As written** > Authority over the rule drifts towards whoever designs, configures or controls it, often a vendor that keeps the right to 'change, withdraw, or cancel products and services at will' (Cobbe et al. 2023: 1195).
 
 ### S-176 · answers M.165 · 28w
 > Discretion acts on the single case and authority on the rule, so a guest can meet someone with the first and never reach anyone with the second.
@@ -1740,6 +1810,8 @@
 > Its conditions take their names from the study of coordination, which identifies 'three integrating conditions for coordination: accountability, predictability, and common understanding' (Okhuysen and Bechky 2009: 483).
 
 - **Form** ✅ **Construction** ✅ 'Its' refers to 'the test'. **Register** ✅ **Value** ✅ IMPORT, named. **Counterpart** ✅ **Truth** ✅ Okhuysen and Bechky card p. 483.
+- **Correction after the reviewer pack (11 Nov 2026), C30** ❌ The source's accountability is task responsibility among coordinating parties; the change of sense is now visible. Source: card okhuysenbechky2009 p. 483.
+- **As written** > Its conditions take their names from the study of coordination, which identifies 'three integrating conditions for coordination: accountability, predictability, and common understanding', and in which accountability settles 'who is responsible for specific elements of the task' (Okhuysen and Bechky 2009: 483).
 
 ### S-182 · answers M.172 · 44w
 > Their content here comes from the host's duties: common understanding from the duty to attend to this particular guest, predictability from terms held steady enough to be negotiated, and accountability, in the sense defined above, from the duty to answer through someone with authority.
@@ -1808,11 +1880,15 @@
 > Neither guest nor staff could anticipate the operative rule and no one at the desk could explain the price, so the touchpoint fails on predictability and on accountability, although its legal weight is moderate unless the price bars a guest from the service (Article 29 Working Party 2018: 22).
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ READING. **Truth** ✅ v5 §5 ¶4; card p. 22 (differential pricing that bars access as a possible significant effect).
+- **Correction after the reviewer pack (11 Nov 2026), C31** ❌ Garcia et al. say nothing about the desk; managers keep the final decision. 'Moderate' was not the guidance's word. Source: cards garcia2026strategic (WP p. 5); article292018guidelines p. 22.
+- **As written** > The final decision stayed with revenue managers, who could set the advice aside (Garcia et al. 2026). On our reading, neither a guest nor the staff at the desk could anticipate the operative rule or reach the managers who held it, so the touchpoint fails on predictability and on accountability. How much that matters depends on the price, since the regulators' guidance holds that differential pricing could significantly affect a person whom prohibitively high prices bar from a service (Article 29 Working Party 2018: 22).
 
 ### S-193 · answers M.181 · 36w
 > At check-in, a facial-recognition system that confirms a guest's identity does a clerical job, while one that weighs the guest's history to decide how they will be received is deciding admission (Xu et al. 2021).
 
 - **Form** ✅ **Construction** ✅ 'they' refers to 'the guest'. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §5 ¶4.
+- **Correction after the reviewer pack (11 Nov 2026), C32** ❌ The history-weighing system is our hypothetical, not Xu et al.'s; Xu et al. was displaced. Source: cards xu2020facial; boochua2022facial (abstract).
+- **As written** > At check-in, a facial-recognition system that confirms a guest's identity does a clerical job (Boo and Chua 2022), while one that weighed the guest's history to decide how they would be received, a case we construct, would be deciding admission.
 
 ### S-194 · answers M.181 · 13w
 > The six questions bear hard on the second and barely on the first.
@@ -1823,16 +1899,22 @@
 > In a short-term rental with self-check-in the app may answer the first three questions well, yet when a code fails at night no one with authority may be reachable (Bosma 2022: 605).
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §5 ¶4. The night-time failure is v5's example built on Bosma's account of self-check-in; Bosma is cited for self-check-in, not for that example. ⚠️ Recorded.
+- **Correction after the reviewer pack (11 Nov 2026), C33** ❌ Bosma says nothing about codes failing at night; the night failure is now our hypothetical, and the platform's rule is Bosma's. Source: card bosma2022platformed p. 605.
+- **As written** > In short-term rentals Airbnb requires self-check-in for a listing to qualify for business travellers, so that guests can arrive 'without meeting anyone in person' (Bosma 2022: 605); the app may answer the first three questions well, yet if a code failed at night no one with authority might be reachable.
 
 ### S-196 · answers M.184, M.185 · 39w
 > When a restaurant projects an animated chef onto the table while staff go on hosting the meal, the technology adds to an encounter whose rules stay steady and whose staff keep their discretion (Batat 2021), and the touchpoint passes.
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §5 ¶4.
+- **Correction after the reviewer pack (11 Nov 2026), C34** ❌ Batat says nothing about rules or staff discretion; it reports staff present and social. Source: card batat2021ar pp. 7-8, and its note that the study is silent on rules and discretion.
+- **As written** > When a restaurant projects an animated chef onto the table, diners describe the staff as still present and sociable (Batat 2021: 7–8); the projection decides nothing about the guest, and the touchpoint passes.
 
 ### S-197 · answers M.186 · 18w
 > Together the cases show that a touchpoint can satisfy guests and harm no one while failing the test.
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §5 ¶1.
+- **Correction after the reviewer pack (11 Nov 2026), C35** ❌ No case reports guest satisfaction or the absence of harm. (The Conclusion's matching claim is left for the authors.) Source: the four cases as now described.
+- **As written** > Together the cases show that the questions separate touchpoints that decide something about the guest from those that decide nothing.
 
 ### S-198 · answers M.187 · 19w
 > An employee often stands between the guest and the system, and does work there that is easy to miss.
@@ -1843,21 +1925,29 @@
 > Skilled front-desk employees manufacture a guest's sense of control through small acts of discretion, appearing to defer while steering the options (Bendoly 2013).
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ *manufacture*: the source's sense. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶4.
+- **Correction after the reviewer pack (11 Nov 2026), C36** ❌ Bendoly is a laboratory study of reservation agents' latitude below the system's price; it says nothing about a guest's sense of control. Source: card bendoly2013realtime (abstract).
+- **As written** > Hotel reservation agents are often given latitude to accept rate bids below a revenue-management system's prescriptions, and in a laboratory experiment how far they used it depended on how they expected management to view their actions (Bendoly 2013).
 
 ### S-200 · answers M.188 · 41w
 > Under algorithmic direction that work becomes translation in both directions, as managers carry the system's decisions to the people they affect (Jianu et al. 2025) and the employee at the desk carries the guest's request into terms the system will accept.
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶4.
+- **Correction after the reviewer pack (11 Nov 2026), C37** ❌ Jianu et al. is a Delphi forecast, and its translation runs from managers to staff. Source: card jianu2025 pp. 4, 7, 10.
+- **As written** > Under algorithmic direction that work becomes translation: experts consulted on hotels expect managers to explain and justify the system's opaque decisions to frontline staff (Jianu et al. 2025: 7, 10), while the employee at the desk carries the guest's request into terms the system will accept.
 
 ### S-201 · answers M.189 · 32w
 > The translation is fragile, because when a system quietly revises its rules the knowledge it rests on loses its value overnight and no one tells the employee or the guest (Hatherley 2025).
 
 - **Form** ✅ **Construction** ✅ 'its' and 'it' refer to 'a system' and 'the knowledge'. **Register** ✅ v5's 'depreciates' made plain. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶4.
+- **Correction after the reviewer pack (11 Nov 2026), C38** ❌ 'Overnight' and 'no one tells' were ours; Hatherley's point is outdated mental models after updates. Source: card hatherley2025moving p. 7, and its support verdicts.
+- **As written** > The translation is fragile, because when a system is updated the mental models its users have built from experience can become outdated (Hatherley 2025: 7).
 
 ### S-202 · answers M.189 · 46w
 > Staff are asked to produce a sense of control without holding the controls (Fuller and Smith 1991; Möhlmann et al. 2021), employees fall silent when speaking up looks futile (Morrison 2014), and frontline hospitality employees aware of artificial intelligence in their jobs report more silence (Cheng et al. 2025).
 
 - **Form** ✅ **Construction** ✅ Grouped evidence. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶4. Duggan et al. (2026) dropped for length.
+- **Correction after the reviewer pack (11 Nov 2026), C39** ❌ Neither source concerns producing a sense of control; Fuller and Smith concern management by customers, and Möhlmann et al. was superseded. Source: cards fuller1991consumers (abstract); mohlmann2021algorithmic (superseded_by jianu2025; Uber drivers).
+- **As written** > Managers can use guests' reports to monitor and discipline staff (Fuller and Smith 1991), employees fall silent when speaking up looks futile (Morrison 2014), and frontline hospitality employees aware of artificial intelligence in their jobs report more silence (Cheng et al. 2025).
 
 ### S-203 · answers M.190 · 23w
 > It is useful, therefore, to ask which decisions need a person with authority at the moment they are taken, and which do not.
@@ -1940,11 +2030,15 @@
 > Identity checks, room allocation and pricing need a later appeal by default, and a reachable person where failure would refuse entry or leave a room unusable.
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ Table 1.
+- **Correction after the reviewer pack (11 Nov 2026), C41** ❌ The prose contradicted Table 1's identity row. Source: Table 1.
+- **As written** > Identity checks need a staffed fallback, room allocation and pricing a later appeal by default, and each a reachable person where failure would refuse entry or leave a room unusable.
 
 ### S-215 · answers M.199 · 17w
 > The placements are our own reading of the sources cited, and no study makes them for hospitality.
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ Flat. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §6 ¶1, last sentence.
+- **Correction after the reviewer pack (11 Nov 2026), C42** ❌ The absence claim was refuted by a study held in the library. Source: card ivanov2024automated (abstract).
+- **As written** > The placements are our own reading of the sources cited; the nearest hospitality study asks hoteliers which of 23 hotel decisions they would leave to artificial intelligence, not what recourse a guest needs (Ivanov and Webster 2024).
 
 ### S-216 · answers M.200 · 18w
 > The order follows the duties to receive and to protect, which is why admission and safety come first.
@@ -1960,6 +2054,10 @@
 > Under the General Data Protection Regulation, a person subject to a solely automated decision with legal or similarly significant effects has 'at least the right to obtain human intervention on the part of the controller, to express his or her point of view and to contest the decision' (Regulation (EU) 2016/679, art. 22(3)).
 
 - **Form** ⚠️ 51w; one over the ceiling set for v6, because the quotation cannot be cut without changing the right. **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §6 ¶2.
+- **Correction after the reviewer pack (11 Nov 2026), C43** ❌ Art. 22(3) applies within the exceptions; outside them art. 22(1) forbids such decisions. The sentence implied the right applied generally. Source: card gdpr2016art22 arts 22(1)-(3).
+- **As written** > Under the General Data Protection Regulation, a person has the right not to be subject to a solely automated decision with legal or similarly significant effects (Regulation (EU) 2016/679, art. 22(1)), and where such a decision is allowed because it is necessary to a contract, among other grounds, the controller must provide 'at least the right to obtain human intervention on the part of the controller, to express his or her point of view and to contest the decision' (art. 22(2)–(3)).
+- **Split for length (11 Nov 2026)** The correction above left the sentence too long; split without change of content.
+- **As written** > Under the General Data Protection Regulation, a person has the right not to be subject to a solely automated decision with legal or similarly significant effects (Regulation (EU) 2016/679, art. 22(1)). Where such a decision is allowed because it is necessary to a contract, among other grounds, the controller must provide 'at least the right to obtain human intervention on the part of the controller, to express his or her point of view and to contest the decision' (art. 22(2)–(3)).
 
 ### S-219 · answers M.203 · 28w
 > The guidance on that article requires the reviewer to be someone 'who has the appropriate authority and capability to change the decision' (Article 29 Working Party 2018: 27).
@@ -1970,11 +2068,15 @@
 > The right states no timing, and many hotel decisions may fall within the exception for decisions necessary to a contract (art. 22(2)(a)).
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §6 ¶2.
+- **Correction after the reviewer pack (11 Nov 2026), C44** ❌ Follows C43. Source: card gdpr2016art22.
+- **As written** > The right states no timing, and many hotel decisions may fall within that contractual exception (art. 22(2)(a)).
 
 ### S-221 · answers M.205 · 13w
 > The law therefore secures a later review, not a person at the threshold.
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §6 ¶2.
+- **Correction after the reviewer pack (11 Nov 2026), C45** ❌ That the safeguard comes after the decision is a reading, since the article states no timing. Source: card gdpr2016art22 (the card marks this as inference).
+- **As written** > The law can therefore be satisfied by a later review rather than a person at the threshold.
 
 ### S-222 · answers M.206 · 21w
 > The framework explains most where the guest is on site and the decision is high in stakes and hard to undo.
@@ -2012,6 +2114,8 @@
 > One study of luxury production found customers so uneasy about technology that it advised keeping its use hidden to protect a sense of authenticity (Mosca and La Rosa 2019), while more recent work backs transparency and human oversight for high-stakes systems (Mosca 2026).
 
 - **Form** ✅ **Construction** ✅ 'it' refers to 'one study'; 'its' to 'technology'. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §7 ¶1.
+- **Correction after the reviewer pack (11 Nov 2026), C46** ❌ The study concerns fashion and luxury production; Mosca 2026 is an editorial, a position rather than a finding. Source: cards moscalarosa2019; mosca2026ai.
+- **As written** > One study of fashion and luxury production found customers so uneasy about technology that it advised keeping its use undisclosed to protect a sense of authenticity (Mosca and La Rosa 2019), while a more recent editorial endorses transparency and human oversight for high-risk systems (Mosca 2026).
 
 ### S-229 · answers M.212 · 14w
 > Concealment makes the system harder to see and leaves the unease where it was.
@@ -2027,6 +2131,12 @@
 > Three principles belong to the interface: explain a decision where it lands, since guests prefer little disclosure at check-in and fuller explanation later in the stay (Pigac et al. 2026: 286); let guests adjust the settings that matter, because a path the system alone has chosen is not the guest's choice (Yeung 2017); and make significant rule changes visible (Hatherley 2025).
 
 - **Form** ⚠️ 55w; a semicolon list of three principles, each with its source, as the model lists types with semicolons (M.151). **Construction** ✅ 'it' refers to 'a decision'. **Register** ❌ v5's 'choice architecture and not choice' rewritten plainly. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §7 ¶1.
+- **Correction after the reviewer pack (11 Nov 2026), C47** ❌ The fuller explanation guests wanted comes after the stay, not later in it. Source: card pigac2026transparency pp. 286, 291.
+- **As written** > Three principles belong to the interface: explain a decision where it lands, since guests prefer little disclosure at check-in and fuller, retrospective explanation afterwards, in post-stay feedback and loyalty apps (Pigac et al. 2026: 286, 291); let guests adjust the settings that matter, because a path the system alone has chosen is not the guest's choice (Yeung 2017); and make significant rule changes visible (Hatherley 2025).
+- **Correction after the reviewer pack (11 Nov 2026), C48** ❌ Hatherley doubts that announcing changes reduces the risk; the principle now concedes it. Source: card hatherley2025moving p. 11.
+- **As written** > Three principles belong to the interface: explain a decision where it lands, since guests prefer little disclosure at check-in and fuller, retrospective explanation afterwards, in post-stay feedback and loyalty apps (Pigac et al. 2026: 286, 291); let guests adjust the settings that matter, because a path the system alone has chosen is not the guest's choice (Yeung 2017); and make significant rule changes visible, though informing users of a change may not by itself reduce the risks it brings (Hatherley 2025: 11).
+- **Split for length (11 Nov 2026)** The correction above left the sentence too long; split without change of content.
+- **As written** > Three principles belong to the interface. The first is to explain a decision where it lands, since guests prefer little disclosure at check-in and fuller, retrospective explanation afterwards, in post-stay feedback and loyalty apps (Pigac et al. 2026: 286, 291). The second is to let guests adjust the settings that matter, because a path the system alone has chosen is not the guest's choice (Yeung 2017). The third is to make significant rule changes visible, though informing users of a change may not by itself reduce the risks it brings (Hatherley 2025: 11).
 
 ### S-232 · answers M.214 · 15w
 > These three improve the interaction, and none of them decides who is answerable within it.
@@ -2049,6 +2159,10 @@
 > The deploying organization is best placed to reverse a decision (Lyons et al. 2021), algorithmic governance in services calls for routes of escalation and human oversight (Shabnam et al. 2026), and of five governance mechanisms only appeal raised the perceived legitimacy of an adverse algorithmic decision (Martin and Waldman 2023).
 
 - **Form** ✅ **Construction** ✅ Grouped evidence. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §7 ¶2. Shabnam et al. paraphrased: the version read has no printed pages.
+- **Correction after the reviewer pack (11 Nov 2026), C49** ❌ Lyons et al. report submissions' view, hedged 'likely'; Martin and Waldman did not compare five mechanisms on adverse decisions, where only appeal was tested. Source: cards lyons2021conceptualising pdf p. 12; martinwaldman2022legitimate (Results; Discussion).
+- **As written** > Submissions to an Australian consultation held that the entity deploying a system is likely to be best placed to reverse its decisions (Lyons et al. 2021), algorithmic governance in services calls for routes of escalation and human oversight (Shabnam et al. 2026), and in vignette studies an appeal to a human decision maker was the only governance mechanism that raised an algorithmic decision's perceived legitimacy, including for adverse decisions (Martin and Waldman 2023).
+- **Split for length (11 Nov 2026)** The correction above left the sentence too long; split without change of content.
+- **As written** > Submissions to an Australian consultation held that the entity deploying a system is likely to be best placed to reverse its decisions (Lyons et al. 2021), and algorithmic governance in services calls for routes of escalation and human oversight (Shabnam et al. 2026). In vignette studies, an appeal to a human decision maker was the only governance mechanism that raised an algorithmic decision's perceived legitimacy, including for adverse decisions (Martin and Waldman 2023).
 
 ### S-236 · answers M.216 · 19w
 > What guests need is not a human presence as such but someone with the power to change the answer.
@@ -2200,6 +2314,10 @@
 > The European Union's Artificial Intelligence Act requires that the overseers of high-risk systems can stop them 'through a "stop" button' (Regulation (EU) 2024/1689, art. 14(4)(e)), but that requirement is owed to overseers, not guests, and the Act lists no hospitality use as high-risk.
 
 - **Form** ⚠️ W4. **Construction** ✅ 'them' refers to 'high-risk systems'. **Register** ✅ **Value** ✅ Societal implications (the editor). **Counterpart** ⚠️ W4. **Truth** ✅ v5 §8 ¶2 (art. 14(4)(e); the Act's list names no hospitality application).
+- **Correction after the reviewer pack (11 Nov 2026), C50** ❌ Annex III names no hospitality setting, but point 4(b) covers systems that allocate work, which reaches hotels as employers. Source: card eu2024aiact Annex III.
+- **As written** > The European Union's Artificial Intelligence Act requires that the overseers of high-risk systems can stop them 'through a "stop" button' (Regulation (EU) 2024/1689, art. 14(4)(e)), but that requirement is owed to overseers, not guests, and the Act's list of high-risk areas names no hospitality setting, though its rule for systems that allocate work reaches hotel staff (Annex III, point 4(b)).
+- **Split for length (11 Nov 2026)** The correction above left the sentence too long; split without change of content.
+- **As written** > The European Union's Artificial Intelligence Act requires that the overseers of high-risk systems can stop them 'through a "stop" button' (Regulation (EU) 2024/1689, art. 14(4)(e)), but that requirement is owed to overseers, not guests. The Act's list of high-risk areas names no hospitality setting, though its rule for systems that allocate work reaches hotel staff (Annex III, point 4(b)).
 
 ### S-262 · answers M.225 · 39w
 > The paper offers three things: first, an account of the host's obligation under delegation; second, an account of standing that separates holding it from exercising it; and third, a test, a typology of decisions and five stages for organizations.
@@ -2220,6 +2338,8 @@
 > First, its legal sources are English, United States federal and European Union law, with one decision of a United States federal appeals court, so the account of when the obligation comes into force and who holds it may not travel unchanged to other jurisdictions.
 
 - **Form** ✅ **Construction** ✅ 'its' refers to 'the paper'. **Register** ✅ **Value** ✅ A limit that changes the claim. **Counterpart** ✅ **Truth** ✅ v5 §9 ¶2.
+- **Correction after the reviewer pack (11 Nov 2026), C51** ❌ Some statutes are United Kingdom or Great Britain law, and Crinkley applied North Carolina law. Source: Cases and Legislation lists; card crinkley1988holiday.
+- **As written** > First, its legal sources are English, British, United States and European Union law, with one decision of a United States federal appeals court applying North Carolina law, so the account of when the obligation comes into force and who holds it may not travel unchanged to other jurisdictions.
 
 ### S-266 · answers M.228 · 27w
 > Second, Table 1 is our own reading of sources that do not address hospitality directly, and it needs testing against the decisions properties actually take.
@@ -2266,6 +2386,8 @@
 > Transformative service research asks how service systems bear on the well-being of individuals and of communities (Anderson and Ostrom 2015; Batat 2022).
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ Well-being (Reviewer 3.18; the editor). **Counterpart** ✅ **Truth** ✅ v5 §8 ¶3.
+- **Correction after the reviewer pack (11 Nov 2026), C52** ❌ Batat 2022 (TLR) asks its well-being question of the luxury ecosystem, not of service systems; it is now attributed to its own field. Source: card batat2022tlr pp. 609, 618.
+- **As written** > Transformative service research asks how service systems bear on the well-being of individuals and of communities (Anderson and Ostrom 2015), and Batat (2022: 609) asks the same of the luxury ecosystem.
 
 ### S-275 · answers M.232 · 28w
 > For the individual guest, a touchpoint that withholds any reachable authority turns a claim into a private cost, borne alone whatever the quality of the service around it.
@@ -2276,6 +2398,8 @@
 > For communities the evidence suggests a range rather than a verdict, since the same digital mediation can enchant, disenchant or re-enchant a service encounter depending on the arrangements around it (De Vos et al. 2024), and whether the path from the guest to authority survives is one of those arrangements.
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ The three verbs are the source's terms. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §8 ¶3.
+- **Correction after the reviewer pack (11 Nov 2026), C53** ❌ De Vos et al. studied students with disabilities in an online MBA, at abstract depth; it cannot carry a claim about communities. Source: card devos2024disabilities (abstract).
+- **As written** > For communities we have no evidence to offer, only the expectation that whether the path from the guest to authority survives will be among the arrangements on which their well-being turns.
 
 ### S-277 · answers M.232 · 40w
 > Phygital arrangements bring real gains, in responsiveness and in how much a small team can offer many guests, and the framework is meant to help organizations keep those gains without giving up the relation that makes them worth having.
@@ -2292,6 +2416,8 @@
 ---
 
 ## Abstract (model: Germann Molz 2018, abstract)
+- **Correction after the reviewer pack (11 Nov 2026), C54** ❌ 'Address' is Kong's term for the party answerable for an outcome. Source: card kong2026delegation p. 3.
+- **As written** > The question for phygital hospitality is therefore not whether technology can do the jobs a host used to do, but where, in an arrangement that has scattered those jobs across guest, employee, brand, vendor and platform, the obligation of hosting still has an address (Kong 2026: 3), and whether the guest can reach it.
 
 ### A-1 · 29w
 > Hospitality firms now hand much of the work of hosting, from admission and pricing to check-in, room allocation and complaints, to algorithmic systems supplied by several firms at once.
