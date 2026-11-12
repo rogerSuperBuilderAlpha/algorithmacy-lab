@@ -1180,3 +1180,383 @@
 - **S-148 ❌ → (34w).** > In that case, managers with no system for checking their masters lacked the targeted suspicion the test needs, and Lord Scott said the findings against them went 'to negligence, perhaps gross negligence' (paras 117–119).
 
 **Section check after revision.** About 1,860 words against 1,700: inside the gate (+9 per cent).
+
+## Assembled hosts at the touchpoint
+
+*Compact entries from here: each verdict line names its word or reason; 'as above' is not used.*
+
+### S-152 · M.138 · 27w
+> Once the host is an assembled host and the duty of care follows control, the route a guest's report travels through the host's arrangements comes into view.
+- Form ✅ 27/30 BRIDGE · Construction ✅ no pronoun · Register ✅ *follows*, *travels*, *comes into view* (M.138's 'what becomes apparent') · Value ✅ · Counterpart ✅ · Truth ✅ Sections 2-3.
+
+### S-153 · M.140 · 33w
+> Germann Molz has shown one part of that route: Airbnb's lawyers argued that 'any penalty should be on the hosts renting out their homes, not on the company' (Mock, as quoted in Germann Molz 2018: 244).
+- Form ✅ 33/55 · Construction ✅ 'their homes' the hosts' · Register ✅ *shown*, *argued* · Value ✅ the journal's work credited · Counterpart ✅ M.140 paraphrase-or-short-quote · Truth ✅ `germannmolz2018scale` p. 244 (hand-checked; she quotes Mock).
+
+### S-154 · M.142 · 30w
+> We follow the route in hotels, short-term rentals and accommodation for placed guests, and take our cases from published studies and judgments rather than construct them.
+- Form ✅ 30/33 CASE-SCOPE · Construction ✅ 'them' the cases · Register ✅ *follow*, *take*, *construct* · Value ✅ W7 · Counterpart ✅ · Truth ✅ OUTLINE W7; register S-268.1 (v6's 'every case from published studies' was false).
+
+### S-155 · M.143 · 31w
+> We ask where power over the single case sits, who must hold it, how a touchpoint can be examined, when the route is owed, what the law requires and what hosts can do.
+- Form ✅ 31/24 · Construction ✅ 'it' the power · Register ✅ plain verbs · Value ✅ the section's walk · Counterpart ✅ · Truth ✅ OUTLINE.
+
+### S-156 · M.144 · 30w
+> Power over the single case differs from power over the rule: the first departs from what the arrangements produced for one guest, and the second changes the arrangements themselves.
+- Form ✅ 30/23 DEFINE at the subsection's head (R1.3) · Construction ✅ 'the first', 'the second' · Register ✅ *departs*, *changes* · Value ✅ the two powers named apart (register S-154.1, S-176.1) · Counterpart ✅ · Truth ✅ definitional.
+
+### S-157 · M.163 · 34w
+> In the family-run hotels that Garcia et al. studied, the manager decided each price, while the model that recommended it was supplied by an independent revenue-management company (2026: 2).
+- Form ✅ 34 · Construction ✅ 'it' the price · Register ✅ *decided*, *recommended*, *supplied* · Value ✅ the two powers in one case · Counterpart ✅ M.163's who does the hosting · Truth ✅ `garcia2026strategic` p. 2 (register A-1.3: 'independent revenue management company'); managers retain the final decision.
+
+### S-158 · M.164 · 31w
+> The model's advice still shaped prices: a one per cent change in the recommended price moved the realized price by 0.72 per cent on average (Garcia et al. 2026: 7).
+- Form ✅ 31 · Construction ✅ · Register ✅ *shaped*, *moved*; the number in figures as the source prints it · Value ✅ the vendor's rule has effect · Counterpart ✅ · Truth ✅ `garcia2026strategic` PDF p. 7 ('0.72 percent'). The number appears once.
+
+### S-159 · M.165 · 31w
+> Power over the rule can therefore lie with a vendor while power over the single case stays at the property, though this study observed managers and not guests.
+- Form ✅ 31/17 · Construction ✅ 'this study' named · Register ✅ *lie*, *stays*, *observed* · Value ✅ stated as a possibility, as the register required (S-175.1, fatal) · Counterpart ✅ · Truth ✅ our reading of S-157 to S-158; the study is silent on guests (register S-192.2).
+
+### S-160 · M.146 · 30w
+> Batat names two processes by which experience moves between settings, 'digitalization' from physical to digital and 'physicalization' from digital to physical (2024: 1230–1231).
+- Form ✅ 30/27 · Construction ✅ · Register ✅ *names*, *moves* · Value ✅ the phygital frameworks credited exactly · Counterpart ✅ M.146 · Truth ✅ `batat2024phcx` pp. 1230–1231 (card). Credit confined to the two named processes (register S-158.2; CORRECTIONS).
+
+### S-161 · M.147 · 25w
+> Her framework is built to make experience move smoothly between the two, and who can correct a failure along the way is a different question.
+- Form ✅ 25/40 · Construction ✅ 'Her' Batat's; 'the two' the settings · Register ✅ *built*, *move*, *correct* · Value ✅ the turn, without a claim about what Batat neglects · Counterpart ⚠️ M.147 states the view's furthest claim; ours states its aim · Truth ✅ `batat2024phcx` (PH-CX framework; card summary).
+
+### S-162 · M.149 · 20w
+> Where the power to correct sits has always varied with the kind of house and the way its authority is graded.
+- Form ✅ 20/23 HOOK · Construction ✅ 'its' the house's · Register ✅ *varied*, *graded* · Value ✅ · Counterpart ✅ · Truth ✅ S-163 to S-168.
+
+### S-163 · M.157 · 44w
+> At a small hotel in Helsinki, reception staff could give discounts without asking anyone, were reluctant to go beyond 10–20 per cent of the room rate, and did not know where their authority ended (Schumacher and Komppula 2016: 121–123).
+- Form ⚠️ 44/30 · Construction ✅ 'their' the staff's · Register ✅ *give*, *asking*, *ended* · Value ✅ graded, unwritten authority (register S-166.1 asked for hospitality evidence) · Counterpart ✅ · Truth ✅ `schumacher2016case` pp. 121–123 (card: 'No one ... has to call someone to ask for permission'; '10–20%'; limits not clear).
+
+### S-164 · M.159 · 40w
+> Under pandemic rules, a hotel's desk employee resolved a guest's problem by checking with management, and a guest refused check-in came back the next day to complain to the general manager and the group's head office (Xiang et al. 2022).
+- Form ✅ 40/34 · Construction ✅ · Register ✅ *resolved*, *checking*, *complain* · Value ✅ graded authority in a second hotel; replaces v6's manager quotation (register S-168.2) · Counterpart ✅ · Truth ✅ `xiang2022covid` (card; one employee's recall of two incidents: register S-271.2).
+
+### S-165 · M.151 · 35w
+> On a rental platform, 'host' names several roles, among them primary hosts, listing owners and co-hosts, and the co-host takes instructions from the app rather than from the owner (Bosma 2022: 601).
+- Form ✅ 35/40 · Construction ✅ · Register ✅ *names*, *takes* · Value ✅ the platform's divided host · Counterpart ✅ · Truth ✅ `bosma2022platformed` p. 601 (card: 'primary hosts', 'listing admins or owners', 'co-hosts'; the co-host takes instructions from the app). Replaces v6 S-163.3 ('passes the guest-facing duties').
+
+### S-166 · M.156 · 21w
+> Homeowners, Germann Molz notes, 'can host their guests without ever meeting them' (2018: 244).
+- Form ✅ 21/36 · Construction ✅ · Register ✅ *notes* · Value ✅ hosting without a host present · Counterpart ✅ · Truth ✅ `germannmolz2018scale` p. 244 (HANDCHECK; card).
+
+### S-167 · M.161 · 30w
+> In accommodation for placed guests, hotel staff became hosts almost overnight to people whose needs called for knowledge that commercial hospitality does not usually require (Petie et al. 2025).
+- Form ✅ 30/50 · Construction ✅ · Register ✅ *became*, *called for* · Value ✅ the third format · Counterpart ✅ · Truth ✅ `petie2025exploring` MS pp. 4–5, 11, paraphrased.
+
+### S-168 · M.158 · 28w
+> The route differs by format, then, but the question put to each is the same: can a failure in a guest's case reach someone with power over it?
+- Form ✅ 28/8 · Construction ✅ 'it' the failure; 'each' the format · Register ✅ *differs*, *reach* · Value ✅ the shared question (register S-160.1: say what changes) · Counterpart ✅ · Truth ✅
+
+### S-169 · M.162 · 33w
+> Automation can move that person without removing them: the automated hotels Xu and Greiffenhagen studied kept service workers on site 'for legal and technical reasons', though guests could register alone (2024: 5035).
+- Form ✅ 33/28 · Construction ✅ 'that person' the one with power; 'them' singular they · Register ✅ *move*, *removing*, *kept* · Value ✅ K9 · Counterpart ✅ · Truth ✅ `xu2024disciplined` p. 5035, n. 1 (HANDCHECK 81).
+
+### S-170 · M.163 · 27w
+> Guests walked past the worker to the kiosk, and a guest who approached the worker was sent back to the kiosk to 'do it yourself' (5022).
+- Form ✅ 27 · Construction ✅ · Register ✅ *walked past*, *approached*, *sent back* · Value ✅ · Counterpart ✅ · Truth ✅ p. 5022 ('In rare cases', HANDCHECK 82).
+
+### S-171 · M.163 · 16w
+> Guests whom the kiosk could not process reached the worker by seeking the worker out (5035).
+- Form ✅ 16 · Construction ✅ · Register ✅ *reached*, *seeking out* · Value ✅ the person moved, not removed · Counterpart ✅ · Truth ✅ p. 5035.
+
+### S-172 · M.164 · 28w
+> The authors' own argument is that such a kiosk disciplines guests, by 'a technology that uses voice commands to tell them what to do with their bodies' (5016).
+- Form ✅ 28/65 · Construction ✅ 'them' and 'their' the guests' · Register ✅ *disciplines* (theirs) · Value ✅ the change the critique said was missing (CRIT S9) · Counterpart ✅ READING · Truth ✅ p. 5016 (HANDCHECK 104).
+
+### S-173 · M.165 · 32w
+> A survey in Macau points the other way on one measure: recalling a robot's failure did not raise respondents' intention to switch to a human-staffed service (Lee et al. 2025: 9).
+- Form ✅ 32/17 · Construction ✅ · Register ✅ *points*, *raise*, *switch* · Value ✅ a rival finding, stated · Counterpart ✅ · Truth ✅ `lee2025robot` p. 9 (β = 0.136, t = 1.959, borderline; judgmental sample; CV-F).
+
+### S-174 · M.166 · 33w
+> On this evidence automation moves the person with power behind the machine and strengthens the host's hold on the guest's conduct, and the open studies do not show that it removes the person.
+- Form ✅ 33/12 · Construction ✅ 'it' automation · Register ✅ *moves*, *strengthens*, *show* · Value ✅ K9 at one strength (K-D13) · Counterpart ✅ the subsection's close · Truth ✅ ARGUMENT.md Step 7.
+
+### S-175 · M.167 · 17w
+> The end of the route need not always be a person, and the cases show when it must be.
+- Form ✅ 17/32 BRIDGE · Construction ✅ 'it' the end · Register ✅ · Value ✅ · Counterpart ✅ · Truth ✅ S-176 to S-181.
+
+### S-176 · M.168 · 37w
+> Where the arrangements can produce what the guest is owed, retrying cures a failure: at the automated hotels most failures of face recognition were cured by guests trying again, sometimes with advice from bystanders or staff (Xu and Greiffenhagen 2024: 5025, 5030).
+- Form ✅ 37/23 · Construction ✅ · Register ✅ *produce*, *cures*, *trying again* · Value ✅ sub-step 2 · Counterpart ✅ · Truth ✅ pp. 5025, 5030 (CV-F: bystanders and staff occasionally advised).
+
+### S-177 · M.169 · 31w
+> Where retrying cannot cure it, correction needs power to depart from the arrangements' output, as when a worker checked in by hand the 13 guests the kiosk could not process (5035).
+- Form ✅ 31/35 · Construction ✅ 'it' a failure · Register ✅ *cure*, *depart*, *checked in* · Value ✅ sub-step 3 · Counterpart ✅ · Truth ✅ p. 5035; 13 as printed.
+
+### S-178 · M.170 · 34w
+> For failures of a documented type, a reachable power to override is a precaution a host can foresee needing, since a failure is foreseeable when its causal mechanism was known in advance (Kong 2026: 6).
+- Form ✅ 34/33 · Construction ✅ 'its' the failure's · Register ✅ *foresee*, *known* · Value ✅ sub-step 4 · Counterpart ✅ IMPORT · Truth ✅ `kong2026delegation` p. 6 (admissible type 'names a causal or dispositional mechanism'; HANDCHECK 89).
+
+### S-179 · M.171 · 46w
+> For a failure of no documented type Kong offers no support, treating it as 'the faultless accident' (2026: 7); there we offer only our reading, that the case the arrangements did not foresee is where a host's conditional laws meet what exceeds them.
+- Form ⚠️ 46/38 · Construction ✅ 'it' the failure; 'them' the conditional laws · Register ✅ *offers*, *treating*, *meet* · Value ✅ novel failures, conceded and our reading marked (PHIL S5) · Counterpart ✅ · Truth ✅ p. 7 (HANDCHECK 90); our reading, Derrida as measure (Step 1, S-049 to S-051).
+
+### S-180 · M.172 · 30w
+> We therefore ask for a natural person at the end of the route where no configured process covers the type of failure and what is at stake warrants one.
+- Form ✅ 30/46 · Construction ✅ 'one' a natural person · Register ✅ *ask*, *covers*, *warrants* · Value ✅ C's person, restated (PHIL S6) · Counterpart ✅ · Truth ✅ ARGUMENT.md 6.3 item 6.
+
+### S-181 · M.173 · 44w
+> European law requires that high-risk AI systems let the people assigned to oversee them 'disregard, override or reverse the output', as appropriate and proportionate (Regulation (EU) 2024/1689, art. 14(4)), but excludes systems whose sole purpose is to confirm a person's identity (Annex III, point 1(a)).
+- Form ⚠️ 44/22 · Construction ✅ 'them' the systems · Register ✅ *requires*, *assigned*, *excludes* · Value ✅ the legislature's choice, with the exclusion of the paradigm hotel system (TORT T17) · Counterpart ✅ · Truth ✅ `eu2024aiact` art. 14(4) chapeau and (d) (HANDCHECK 17; CV-D); Annex III 1(a); the 'minor impact' reason is recital 17 (CV-G).
+
+### S-182 · M.174 · 15w
+> The person at the end of the route owes the guest care in using that power.
+- Form ✅ 15/52 · Construction ✅ 'that power' named · Register ✅ *owes*, *using* · Value ✅ CRIT S8 · Counterpart ✅ · Truth ✅ ARGUMENT.md 6.4.
+
+### S-183 · M.175 · 41w
+> In Groh, guests told a hotel's guard that they could not leave because 'We are drunk. We can't drive', and the hotel evicted them; the Colorado court held that the duty of care governed how the stay was ended (Westin Operator v Groh 2015: ¶¶ 4, 7).
+- Form ✅ 41/40 · Construction ✅ 'they', 'them' the guests · Register ✅ *told*, *evicted*, *held*, *governed* · Value ✅ power reached and used against the guest · Counterpart ✅ · Truth ✅ `groh2015westin` ¶ 7 (HANDCHECK 100), ¶ 4 (holding).
+
+### S-184 · M.176 · 26w
+> The power that can correct a failure is also the power to expel, and a route to it serves the guest only where the duty of care governs its use.
+- Form ✅ 26/33 · Construction ✅ 'it' the power; 'its use' · Register ✅ *correct*, *expel*, *governs* · Value ✅ · Counterpart ✅ READING · Truth ✅ ARGUMENT.md 6.4.
+
+### S-185 · M.175 · 24w
+> The holder, for its part, owes the person at the end of the route real authority, which in the Helsinki hotel was unwritten.
+- Form ✅ 24/40 · Construction ✅ 'its part' the holder's · Register ✅ *owes*, *unwritten* · Value ✅ CRIT S7 · Counterpart ✅ · Truth ✅ `schumacher2016case` pp. 122–123.
+
+### S-186 · M.176 · 39w
+> In the Glasgow hotels, staff told of a guest's deteriorating health the night before an attack lacked the knowledge to act, and an inquiry treated them as victims of management's decisions rather than as individually responsible (Petie et al. 2025).
+- Form ✅ 39/33 · Construction ✅ 'them' the staff · Register ✅ *told*, *lacked*, *treated* · Value ✅ the workers at the route's end · Counterpart ✅ · Truth ✅ `petie2025exploring` MS p. 11 (HANDCHECK 99), paraphrased.
+
+### S-187 · M.177 · 35w
+> A route to someone without authority is not a route to correction, so on our account the holder must give that person power in writing, the training to use it, and protection from becoming the object of the route.
+- Form ✅ 35/29 · Construction ✅ 'it' the power · Register ✅ *give*, *use*, *protection*; 'on our account' marks the inference · Value ✅ what the holder owes its workers · Counterpart ✅ · Truth ✅ ARGUMENT.md 6.4 (our inference).
+
+### S-188 · M.174 · 43w
+> The holder must also learn across cases: in the Glasgow hotels, the Government's evaluation found that a guest's queries had each been dealt with appropriately but should together have served as a warning sign, and that services did not share what they knew (Petie et al. 2025).
+- Form ⚠️ 43 · Construction ✅ 'they' the services · Register ✅ *learn*, *found*, *share* · Value ✅ aggregation (CRIT S5) · Counterpart ✅ · Truth ✅ `petie2025exploring` MS p. 12 (HANDCHECK 99; CV-H: the evaluation's finding; news reports on the same page say no actions were taken; said in the ledger, not the prose, for weight). ⚠️ The 'no actions' report should appear: added: '... though news reports said no action was taken (Petie et al. 2025).' (+8w).
+
+### S-189 · M.175 · 34w
+> The UN Guiding Principles give a grievance channel the same second function: 'by analysing trends and patterns in complaints, business enterprises can also identify systemic problems and adapt their practices accordingly' (United Nations 2011: 32).
+- Form ✅ 34/40 · Construction ✅ 'their practices' the enterprises' · Register ✅ *give* · Value ✅ · Counterpart ✅ · Truth ✅ `un2011guiding` Principle 29, Commentary, p. 32 (HANDCHECK 101). The Principles concern human-rights impacts: said in C.2.
+
+### S-190 · M.176 · 18w
+> Hormio likewise places on an organization a duty to try to fix its design once problems emerge (2018).
+- Form ✅ 18/33 · Construction ✅ 'its design' · Register ✅ *places*, *fix* · Value ✅ · Counterpart ✅ · Truth ✅ `hormio2018culpable` pp. 20–21 (preprint; paraphrase).
+
+### S-191 · M.176 · 31w
+> Where several firms host together, each answers on these accounts for its own part (Kong 2026: 9), and a loose collection of firms is not itself an agent (Pettit 2007: 195).
+- Form ✅ 31 · Construction ✅ 'its own part' each firm's · Register ✅ *answers*, *is not* · Value ✅ PHIL S9 stated · Counterpart ✅ · Truth ✅ `kong2026delegation` p. 9; `pettit2007responsibility` p. 195 ('is not an agent'; R11, CV-H).
+
+### S-192 · M.177 · 33w
+> We propose that the party in control of the guest's space owes the duty to route a guest's report to the firm with power over the failing part, because that party is where the guest is.
+- Form ✅ 33/29 · Construction ✅ 'that party' named · Register ✅ *propose*, *route* · Value ✅ the routing duty, as a proposal · Counterpart ✅ · Truth ✅ ARGUMENT.md 6.4 (proposal; no text grounds it, R11 (d)).
+
+### S-193 · M.177 · 28w
+> The one analogue we found is in occupiers' law, where the occupiers on the spot 'should have reported it to the Brewery Company' (Wheat v E Lacon 1966: 11).
+- Form ✅ 28 · Construction ✅ 'it' inside the quotation is the danger · Register ✅ *found* · Value ✅ · Counterpart ✅ · Truth ✅ `wheat1966lacon` p. 11 (HANDCHECK 91); a channel between holders, not from the guest (card).
+
+### S-194 · M.168 · 41w
+> From these points we derive a test that researchers can use to analyse a touchpoint and hosts can use to audit one, and the test asks one question: can a failure in a guest's case reach, in time, someone able to correct it?
+- Form ✅ 41/23 · Construction ✅ 'one', 'it' named · Register ✅ *derive*, *analyse*, *audit*, *asks* · Value ✅ purpose and users before the test (R1.4) · Counterpart ✅ · Truth ✅ claims/ADJUDICATION, 'What follows for v7', item 5.
+
+### S-195 · M.174 · 10w
+> The test puts six questions, in the order a report travels:
+- Form ✅ introduces the list (W8) · Construction ✅ · Register ✅ · Value ✅ · Counterpart ✅ · Truth ✅
+
+### L-1 to L-6 · M.174–M.177 · 92w
+> 1. Who perceives a failure in the guest's case: the guest, the staff or the system?
+> 2. Is the guest told of a route, and can the guest use it without depending on the host's goodwill?
+> 3. Where does the route end, and can whoever is there depart from the arrangements' output in this case?
+> 4. Is that power real: written, supported by training, and protected?
+> 5. Can the report arrive, and the correction be made, while the stay still allows it?
+> 6. Does the holder learn across cases and, among several firms, does one party route the report?
+- Form ✅ six questions, the model's QUESTION-RUN turned to a test (W8) · Construction ✅ each pronoun names its noun in its own item · Register ✅ plain interrogatives · Value ✅ the test rebuilt on the new question (register S-179.1 to S-189.3) · Counterpart ✅ · Truth ✅ ARGUMENT.md 6.2–6.4; Hirschman is not cited (register S-189.3).
+
+### S-196 · M.177 · 26w
+> The questions keep apart the power a report reaches and the use made of it, and the single case and the pattern across cases.
+- Form ✅ 26/29 · Construction ✅ 'it' the power · Register ✅ *keep apart* · Value ✅ what the test separates · Counterpart ✅ READING · Truth ✅
+
+### S-197 · M.178 · 25w
+> Four documented cases show the test at work, two in which a report reached someone with power and two in which it did not.
+- Form ✅ 25/30 · Construction ✅ 'it' a report · Register ✅ *show* · Value ✅ W7 · Counterpart ✅ · Truth ✅
+
+### S-198 · M.181 · 41w
+> At the automated hotels, guests whose identity or reservation the kiosk could not process found a worker who checked them in by hand, and when the kiosk was down for two days a worker met every arriving guest (Xu and Greiffenhagen 2024: 5021, 5035).
+- Form ✅ 41/34 · Construction ✅ 'them' the guests · Register ✅ *found*, *checked in*, *met* · Value ✅ case 1 · Counterpart ✅ · Truth ✅ pp. 5021 (51 guests over two days), 5035.
+
+### S-199 · M.183 · 37w
+> On the test, the route existed and ended in a worker able to override the kiosk, but guests found it only by seeking it out, so the touchpoint passes the third and fifth questions and fails the second.
+- Form ✅ 37/34 · Construction ✅ 'it' the route · Register ✅ *existed*, *ended*, *passes*, *fails* · Value ✅ the test applied · Counterpart ✅ · Truth ✅ our reading of S-198.
+
+### S-200 · M.184 · 38w
+> In Groh, the guests' report reached guards with power over the single case, who refused a friend's request to let the group wait in the lobby, an option the court counted among 'relatively low-cost options' (2015: ¶¶ 7–8, 36).
+- Form ✅ 38/30 · Construction ✅ 'who' the guards · Register ✅ *reached*, *refused*, *counted* · Value ✅ case 2 · Counterpart ✅ · Truth ✅ `groh2015westin` ¶¶ 7–8, 36 (HANDCHECK 32).
+
+### S-201 · M.185 · 32w
+> The touchpoint passes the third question and fails the fourth, since the power reached was used against the guests, and the duty of care, not the route, governs that failure.
+- Form ✅ 32/28 · Construction ✅ 'that failure' named · Register ✅ *passes*, *fails*, *governs* · Value ✅ · Counterpart ✅ · Truth ✅ our reading.
+
+### S-202 · M.182 · 46w
+> In Rasnick, a guest's wife telephoned a motel repeatedly, and on her account one operator hung up and her later calls met a recorded message; a housekeeper found the guest the next morning unable to get up (Rasnick v Krishna Hospitality 2011: 565, n. 1; dissent at 572).
+- Form ⚠️ 46/40 · Construction ✅ 'her' the wife's · Register ✅ *telephoned*, *hung up*, *found* · Value ✅ case 3 · Counterpart ✅ · Truth ✅ `rasnick2011krishna` p. 565 (hand-checked), n. 1, dissent 572 (the wife's testimony, CV-B).
+
+### S-203 · M.183 · 41w
+> The Georgia court held that the motel owed no legal duty to check on him (569–570), and the case lies outside the further duty, which concerns the host's own performance; it shows a report reaching an operator and going no further.
+- Form ✅ 41/34 · Construction ✅ 'him' the guest; 'it' the case · Register ✅ *held*, *lies*, *shows* · Value ✅ the limit kept (no duty to monitor the guest) · Counterpart ✅ · Truth ✅ pp. 569–570; our reading of the second clause.
+
+### S-204 · M.179 · 41w
+> In R (DMA), contractors housing people for the Home Secretary recorded them on a portal as having 'failed to travel', and one case was closed thirteen minutes after a charity e-mailed to ask about it (2020: paras 63, 77, 79).
+- Form ✅ 41/36 · Construction ✅ 'them' the people; 'it' the case · Register ✅ *recorded*, *closed*, *e-mailed* · Value ✅ case 4 · Counterpart ✅ · Truth ✅ `dma2020sshd` paras 63, 77, 79 (HANDCHECK 64; CV-A: the e-mail at para 77).
+
+### S-205 · M.180 · 45w
+> The court declared the minister in breach for failing properly to monitor provision, reasoning that she must be able to act 'at the time and in the individual case' (paras 236–241, 333), in a setting where inhuman or degrading treatment was imminent.
+- Form ⚠️ 45/36 · Construction ✅ 'she' the minister · Register ✅ *declared*, *reasoning*, *act* · Value ✅ the nearest legal statement of the step, with its scope · Counterpart ✅ · Truth ✅ `dma2020sshd` paras 235–239 (reasoning), 241 (the phrase), 333 (declaration) (CV-A).
+
+### S-206 · M.186 · 30w
+> The cases show that a route can exist and still fail at a different question in each, and that the questions locate where it fails.
+- Form ✅ 30/31 · Construction ✅ 'it' the route · Register ✅ *show*, *fail*, *locate* · Value ✅ · Counterpart ✅ · Truth ✅
+
+### S-207 · M.190 · 17w
+> Which decisions need the route most depends on when their effects land.
+- Form ✅ 17/25 HOOK · Construction ✅ · Register ✅ *land* (a dead figure) · Value ✅ · Counterpart ✅ · Truth ✅
+
+### S-208 · M.191 · 16w
+> Not every touchpoint needs a person standing by at the moment a decision is taken.
+- Form ✅ 16/27 · Construction ✅ · Register ✅ · Value ✅ · Counterpart ✅ · Truth ✅
+
+### S-209 · M.192 · 32w
+> Baum and Laux sort forms of human oversight by when they act, and find that only oversight acting before a decision takes effect can change that decision (2026: 6–8).
+- Form ✅ 32/44 · Construction ✅ 'they' the forms · Register ✅ *sort*, *find* · Value ✅ credited for the timing test only (register S-207.1) · Counterpart ✅ · Truth ✅ `baum2026constitutive` (card: only the synchronous mode can change the individual decision).
+
+### S-210 · M.194 · 33w
+> For hospitality we draw the boundary at correction: the route is owed while correction can still help the guest during the stay, and after that the guest's claim runs to repair.
+- Form ✅ 33/42 · Construction ✅ 'that' the stay's end; rewritten: '... and after the stay ...' ✅ · Register ✅ *draw*, *owed*, *runs* · Value ✅ the boundary (register S-208.1) · Counterpart ✅ · Truth ✅ ARGUMENT.md 6.2.
+
+### S-211 · M.193 · 61w
+> The law orders remedies the same way in three places: package law requires remedy during the trip before price reduction, consumer law puts repeat performance before a price reduction, and the platform-work directive requires compensation only 'Where such rectification is not possible' (Directive (EU) 2015/2302, arts 13–14; Consumer Rights Act 2015, ss. 55–56; Directive (EU) 2024/2831, art. 11(3)).
+- Form ❌ 61/44 · rewritten (45w): > Three laws put correction before money: remedy during a package trip, repeat performance of a consumer service, and the rectification of a platform's decision about a worker, with compensation 'Where such rectification is not possible' (Directive (EU) 2015/2302, art. 13; Consumer Rights Act 2015, s. 55; Directive (EU) 2024/2831, art. 11(3)). ✅
+- Construction ✅ · Register ✅ *put before* · Value ✅ · Counterpart ✅ · Truth ✅ HANDCHECK 47, 51; `uk2015consumer` ss. 55–56.
+
+### S-212 · M.193 · 42w
+> Earlier intervention is the exception: a claim to a hearing before a deprivation 'rests on the proposition that full relief cannot be obtained at a postdeprivation hearing' (Mathews v Eldridge 1976: 331), and an injunction protects a claimant against harm that damages could not make good (American Cyanamid v Ethicon 1975: 3).
+- Form ✅ 42 · Construction ✅ · Register ✅ *rests*, *protects* · Value ✅ the timing principle, with its limit · Counterpart ✅ · Truth ✅ HANDCHECK 67–68.
+
+### S-213 · M.195 · 12w
+> Table 1 places common hospitality decisions against this boundary.
+- Form ✅ · Construction ✅ · Register ✅ · Value ✅ · Counterpart ✅ · Truth ✅
+
+### T1 · M.195 · about 150w
+> **Table 1.** Hospitality decisions by whether correction during the stay can still help, and the route each needs.
+>
+> | Decision | When its effect lands | Can correction during the stay help? | Route the further duty asks for | Source |
+> |---|---|---|---|---|
+> | Refusal at arrival | Before reception | Yes, if someone can admit the guest that night | None from the further duty; the duty to receive (innkeepers) and the duty not to refuse on a protected ground (every provider) govern | Hotel Proprietors Act 1956, s. 1; Equality Act 2010, s. 29(1) |
+> | Identity or booking not recognized at check-in | At arrival | Yes | A worker or process able to override the system, reachable at once | Xu and Greiffenhagen 2024: 5035 |
+> | Danger on the premises | During the stay | Yes, while the guest is still exposed | A person on the spot with power to act | Our reading |
+> | A service in the room fails | During the stay | Yes | A route the guest is told of, ending with someone able to put it right that day | Our reading |
+> | A charge disputed during the stay | At payment | In part | A route during the stay; repair after it | Our reading |
+- Form ✅ · Construction ✅ · Register ✅ · Value ✅ rebuilt (register T1 cells) · Counterpart ✅ · Truth ✅ each cell sourced or marked 'our reading'.
+
+### S-214 · M.199 · 12w
+> Every placement not attributed to a source is our reading.
+- Form ✅ · Construction ✅ · Register ✅ · Value ✅ (register S-215.1) · Counterpart ✅ · Truth ✅
+
+### S-215 · M.201 · 18w
+> The law sets a floor beneath this boundary, reaching part of what the further duty asks by another road.
+- Form ✅ 18/22 (W5) · Construction ✅ · Register ✅ *sets*, *reaching* · Value ✅ · Counterpart ✅ · Truth ✅ ARGUMENT.md 6.7.
+
+### S-216 · M.202 · 36w
+> A consumer may require a trader to perform a service again, and a package traveller may set a period for a remedy and send complaints through the retailer (Consumer Rights Act 2015, s. 55; Package Travel Regulations 2018, regs 15(4), 17).
+- Form ✅ 36 · Construction ✅ · Register ✅ *require*, *set*, *send* · Value ✅ the guest's remedial rights (TORT T4) · Counterpart ✅ · Truth ✅ `uk2015consumer` s. 55; `uk2018package` regs 15(4), 17.
+
+### S-217 · M.203 · 33w
+> EU and UK law count it against a trader that a consumer must take onerous or disproportionate steps to exercise rights under a contract (Directive 2005/29/EC, art. 9(d); Digital Markets, Competition and Consumers Act 2024, s. 228(2)(f)).
+- Form ✅ 33 · Construction ✅ 'it' anticipatory, named in the 'that' clause · Register ✅ *count against* · Value ✅ the bar on obstruction · Counterpart ✅ · Truth ✅ HANDCHECK 92–93 (UK wording 'rights that the consumer has in relation to a product'; compressed to 'rights under a contract', which UCPD states and the UK text includes).
+
+### S-218 · M.204 · 30w
+> Public bodies enforce that rule, and in the UK the consumer's own right to redress under the 2024 Act was not in force in the latest text we read (ss. 231–232).
+- Form ✅ 30 · Construction ✅ 'that rule' named · Register ✅ *enforce* · Value ✅ · Counterpart ✅ · Truth ✅ `uk2024dmcc` (CV-G: ss. 225–231, 233 in force from 6 Apr 2025; ss. 232, 234, 235 prospective).
+
+### S-219 · M.204 · 41w
+> In Great Britain a disabled guest is owed reasonable adjustments, including an auxiliary service and information in an accessible format, so a host whose only route is a kiosk or an app may owe such a guest a reachable person (Equality Act 2010, s. 20(5)–(6)).
+- Form ✅ 41 · Construction ✅ 'such a guest' named · Register ✅ *owed*, *may owe* · Value ✅ the floor a host cannot define away (TORT T6) · Counterpart ✅ · Truth ✅ `uk2010equality` s. 20(5)–(6), Sch. 2 para. 2 (R10 addendum: 'may' is the reader's application).
+
+### S-220 · M.205 · 46w
+> In the EU a solely automated decision with legal or similarly significant effects is in principle prohibited outside three exceptions (SCHUFA 2023: para 52), while in the UK such decisions are now lawful outside special-category data if safeguards let the person obtain human intervention (Data (Use and Access) Act 2025, s. 80).
+- Form ⚠️ 46/40 · Construction ✅ · Register ✅ *prohibited*, *lawful*, *obtain* · Value ✅ v6's GDPR sentence corrected for the UK (R6b items 38–39) · Counterpart ✅ · Truth ✅ `schufa2023cjeu` para 52 (hand-checked); `uk2025datause` arts 22A–22D.
+
+### S-221 · M.206 · 34w
+> Platforms must keep a point of contact that does not 'solely rely on automated tools' (Digital Services Act, art. 12(1)), and from 2029 package organisers must be 'easily contactable' about failures during a trip (Directive (EU) 2026/1024, art. 16a).
+- Form ✅ 34 · Construction ✅ · Register ✅ *keep*, *must be* · Value ✅ the gap narrowed (TORT T16) · Counterpart ✅ · Truth ✅ HANDCHECK 48; DSA art. 12(1) (hand-checked).
+
+### S-222 · M.207 · 45w
+> No law we read requires, for a guest of an accommodation provider outside packages and platform moderation, a route to a natural person with power over the single case, and the contact point that UK package law requires is a duty owed to the state (Package Travel Regulations 2018, regs 7, 35).
+- Form ⚠️ 45/34 · Construction ✅ · Register ✅ *requires*, *owed* · Value ✅ where the law stops · Counterpart ✅ · Truth ✅ R6b item 15; `uk2018package` regs 7(10), 7(12), 35 (hand-checked).
+
+### S-223 · M.208 · 45w
+> Nor does a missing route add a head of liability: a host that undertook a service answers for its failure with or without one (X v Kuoni 2021: para 50), and in personal injury the lost chance that a report would have prevented harm is not compensated (Gregg v Scott 2005: para 90).
+- Form ⚠️ 45/35 · Construction ✅ 'its failure' the service's; 'one' a route · Register ✅ *add*, *answers*, *compensated* · Value ✅ causation (TORT T3) · Counterpart ✅ · Truth ✅ `kuoni2021uksc` para 50; `gregg2005ukhl` para 90, Lord Hoffmann (card).
+
+### S-224 · M.211 · 30w
+> The Georgia court left a duty to check on guests to its legislature (Rasnick 2011: 569), and in law the further duty is a proposal for legislatures and for hosts' own practice.
+- Form ✅ 30/28 · Construction ✅ 'its legislature' Georgia's · Register ✅ *left*, *proposal* · Value ✅ the legal register's honest close (TORT T19) · Counterpart ✅ · Truth ✅ `rasnick2011krishna` p. 569 (the General Assembly 'chose not to do so').
+
+### S-225 · M.212 · 22w
+> Some of what a guest needs can be given at the interface, and some only by the institution behind it.
+- Form ✅ 22/41 · Construction ✅ 'it' the interface · Register ✅ *given* · Value ✅ · Counterpart ✅ · Truth ✅
+
+### S-226 · M.213 · 40w
+> In an interview study, guests of luxury hotels said they wanted little explanation of the technology at check-in and fuller explanation afterwards, in feedback and loyalty apps (Pigac et al. 2026: 286, 291).
+- Form ✅ 40/25 · Construction ✅ 'they' the guests · Register ✅ *said*, *wanted* · Value ✅ interface timing, with the study's population (register S-231.3) · Counterpart ✅ · Truth ✅ `pigac2026transparency` pp. 286, 287 (50 guests, five-star stays), 291.
+
+### S-227 · M.214 · 24w
+> Explaining a system when the guest can use the explanation improves the interaction, and settles nothing about who can correct a failure.
+- Form ✅ 24/35 · Construction ✅ · Register ✅ *improves*, *settles* · Value ✅ interface versus institution (register S-231.4: the principle restated as timing) · Counterpart ✅ · Truth ✅ our reading.
+
+### S-228 · M.215 · 44w
+> The institutional principles follow from the further duty, and the first is a route the guest is told of and can use without a confrontation, in forms a disabled guest can use, since guests who feel low in power stay silent (Min and Kim 2020: 2).
+- Form ⚠️ 44/32 · Construction ✅ · Register ✅ *follow*, *told*, *use* · Value ✅ · Counterpart ✅ · Truth ✅ `min2020angry` p. 2; Equality Act s. 20(5)–(6) (S-219).
+
+### S-229 · M.216 · 17w
+> The second is power at the end of the route, given in writing, with the training to use it.
+- Form ✅ · Construction ✅ 'it' the power · Register ✅ · Value ✅ · Counterpart ✅ · Truth ✅ S-187.
+
+### S-230 · M.217 · 22w
+> The third is learning across cases, so that single reports that together signal a failure are read together.
+- Form ✅ · Construction ✅ · Register ✅ *signal*, *read* · Value ✅ · Counterpart ✅ · Truth ✅ S-188 to S-190.
+
+### S-231 · M.217 · 30w
+> The fourth, where several firms host together, is that one party, the party in control of the guest's space on our proposal, routes each report to the firm with power over the failing part.
+- Form ✅ 30 · Construction ✅ · Register ✅ *routes* · Value ✅ · Counterpart ✅ · Truth ✅ S-192 (proposal).
+
+### S-232 · M.215 · 21w
+> What a guest needs is power to change the answer, which a visible person without that power does not supply.
+- Form ✅ 21/32 · Construction ✅ 'that power' named · Register ✅ *change*, *supply* · Value ✅ replaces v6 S-236.1 ('not a human presence as such', invalid) · Counterpart ✅ · Truth ✅ ARGUMENT.md 6.3.
+
+### S-233 · M.217 · 16w
+> A small host meets these principles with a telephone number that the owner answers.
+- Form ✅ · Construction ✅ · Register ✅ concrete · Value ✅ cost (ARGUMENT.md 6.5) · Counterpart ✅ · Truth ✅
+
+### S-234 · M.218 · 26w
+> We set these principles out as five stages a host can take in turn, in an order that is ours and is not a ranking by cost (Table 2).
+- Form ✅ 26 · Construction ✅ · Register ✅ *set out*, *take* · Value ✅ 'rising cost' dropped (register S-246.2) · Counterpart ✅ · Truth ✅
+
+### S-235 · M.218 · 40w
+> The fifth stage is accountability after the stay, in Bovens's sense of a relationship in which an actor must explain and justify its conduct to a forum that 'can pose questions and pass judgement' (2007: 450).
+- Form ✅ 40 · Construction ✅ 'its conduct' the actor's · Register ✅ *explain*, *justify*, *pose*, *pass* · Value ✅ Bovens used for after the stay only (register S-248 to S-250, fatal) · Counterpart ✅ · Truth ✅ `bovens2007accountability` p. 450 (card).
+
+### T2 · M.218 · about 120w
+> **Table 2.** Five stages from audit to accountability after the stay (the order is ours).
+>
+> | Stage | What the host does | What it secures for the guest |
+> |---|---|---|
+> | 1. Examine | Puts the six questions to each touchpoint | A map of where a failure in a guest's case can and cannot reach someone able to correct it |
+> | 2. Tell | Tells guests the route, in forms every guest can use | A route the guest knows of and can use without a confrontation |
+> | 3. Empower | Gives the person at the route's end power in writing, training and protection | Someone able to correct the failure in the guest's case |
+> | 4. Learn and route | Reads reports across cases; among several firms, one party routes each report | Correction of patterns, and of failures in another firm's part |
+> | 5. Answer | Answers after the stay before a forum that can question and judge | Accountability for what was not corrected |
+- Form ✅ · Construction ✅ · Register ✅ · Value ✅ rebuilt (register T2 rows) · Counterpart ✅ · Truth ✅ ARGUMENT.md 6.4; Bovens for stage 5.
+
+### S-236 · M.218 · 20w
+> The first four stages serve correction during the stay, and only the fifth serves accountability after it.
+- Form ✅ · Construction ✅ 'it' the stay · Register ✅ · Value ✅ · Counterpart ✅ · Truth ✅
+
+**Section check (Assembled hosts at the touchpoint).** S-152 to S-236, 85 sentences, six list items and two tables. Summed from the final weights: about 3,050 words of prose, 92 in the list and about 270 in the tables, about 3,410 in all, against a budget of 3,250. **Inside the gate (+5 per cent).** Confirmed by `wordcount.py` at assembly.
