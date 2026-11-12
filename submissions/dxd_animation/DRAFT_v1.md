@@ -9,6 +9,7 @@ How to read it:
 - Every citation resolves to a card in library/cards/ (key in the reference notes) or to one of Roger's own manuscripts.
 - The draft keeps American spelling and double quotation marks so that Roger's sentences stay verbatim. TIES requires British -ise spelling and single quotation marks; convert at submission.
 - Self-citations (Hunt 2026a–d) must be anonymised for TIES's double-anonymous review.
+- Page numbers: where a PDF prints no page numbers (Takayama et al.; Pinhanez; Dragicevic et al., HAL copy with a cover page; Hoerl, Early View layout), the page is inferred from Crossref's range and the PDF's page count, which match in each case (checked 2026-11-12).
 - Target: TIES "no more than 10000 words, inclusive of" tables, references and captions (venue/TIES.md).
 -->
 
@@ -131,7 +132,7 @@ The second is what the animation hides. "The appeal and charisma of the animated
 
 In a streamed reply the frames are literal. Wu and Masson (2026) note that the word-by-word animation of model output is "a happy accident resulting from the underlying technology" and call such animations "glorified progress bars" (pp. 1–2); in their study, crafted and slower transitions helped 16 participants track and review response elements. Tan et al. (2026) treat latency as "a tunable design variable with ethical implications" (p. 1); their participants rated longer waits as more thoughtful while their logged behaviour did not change. Bhat (2025) found that a reply typed out in real time raised perceived competence, warmth and trustworthiness, with "no significant differences" in perceived effectiveness (p. 846). Platforms already set the frames, and they set them for how the character seems. The stream itself, and where in it a decision lies, is the subject of a companion paper (Hunt, 2026d).
 
-One perceptual claim needs care. The introduction says the viewer "locks in" and that perception supplies continuity. Hoerl (2015) argues that cinematic motion is not the apparent motion of Wertheimer's experiments. The motion seen at normal speed is real, and "The fact that cinematic motion becomes invisible when we slow down the projector does nothing to show that the appearance of it at normal speed must be illusory" (p. 15). Slowing down does show something true: "cinematic motion objectively lacks continuity" (p. 15). It also loses what the viewer needed. The analogy I draw, which is not Hoerl's, is that inspecting one output of an intermediary, as one would inspect a frame, shows something true about it and hides what the decision needs. Who moved, and whether the rule moved, are properties of the sequence of determinations, not of any one of them. [DECISION D-e] [VERIFY: Hoerl's page numbers are those of the Early View version held (EV p. 15); map to the 2015 issue pages before submission.]
+One perceptual claim needs care. The introduction says the viewer "locks in" and that perception supplies continuity. Hoerl (2015) argues that cinematic motion is not the apparent motion of Wertheimer's experiments. The motion seen at normal speed is real, and "The fact that cinematic motion becomes invisible when we slow down the projector does nothing to show that the appearance of it at normal speed must be illusory" (p. 690). Slowing down does show something true: "cinematic motion objectively lacks continuity" (p. 690). It also loses what the viewer needed. The analogy I draw, which is not Hoerl's, is that inspecting one output of an intermediary, as one would inspect a frame, shows something true about it and hides what the decision needs. Who moved, and whether the rule moved, are properties of the sequence of determinations, not of any one of them. [DECISION D-e]
 [/DRAFTED]
 
 ## 4. What animators know
@@ -159,20 +160,20 @@ Chang and Ungar (1993) carried the principles, as they read them in Thomas and J
 
 Thomas and Calder (2001) added principles for direct manipulation and ran two experiments. One passage states the interpretation problem for changes the user did not make directly: "if the initial and final state of the screen are similar, it may not be obvious just what has changed or how the change came about" (p. 209). Their remedy for trial operations shows an object in the position it will take "if the change is committed, but with a telltale corner stretched back to its original position" (p. 210), so that committing and cancelling are both in view. Their experiments did not show the animation improving performance. With 17 participants, an analysis "showed no significant difference in execution time between the four feedback conditions"; participants preferred any feedback to none, and rated animation alone no better than plain selection handles (p. 215). Thirteen others rated the animation "fun to use" (mean 6.3 on a 7-point scale) but "were ambivalent about whether it improved productivity (mean = 4.3, sd = 2.0)", a self-rating rather than a measure of performance (p. 219).
 
-Gonzalez (1996) supplies the one test against decisions. Eighty-nine undergraduates made choices through eight interface treatments, and transitions that involved "the change of only one element in each display frame" (p. 29) produced more accurate decisions than abrupt ones, F(1,78) = 5.84, p < .05 (p. 32). Her tasks had one correct answer and one user. Dragicevic et al. (2011) tested a single principle, slow in and slow out, on object tracking, and still warned that interface work "has largely been dominated by design principles from general animation that may not necessarily transfer to interaction design" (p. 2018).
-[/DRAFTED] [VERIFY: Dragicevic page given as p. 2018 from the card's "PDF p. 10" and the proceedings range 2009–2018.]
+Gonzalez (1996) supplies the one test against decisions. Eighty-nine undergraduates made choices through eight interface treatments, and transitions that involved "the change of only one element in each display frame" (p. 29) produced more accurate decisions than abrupt ones, F(1,78) = 5.84, p < .05 (p. 32). Her tasks had one correct answer and one user. Dragicevic et al. (2011) tested a single principle, slow in and slow out, on object tracking, and still warned that interface work "has largely been dominated by design principles from general animation that may not necessarily transfer to interaction design" (p. 2017).
+[/DRAFTED]
 
 ### 4.3 The craft carried into robots, chatbots and language models
 
 [DRAFTED]
 Robotics borrowed the same craft for a different end: to make a machine seem alive. Schulz, Torresen and Herstad (2019) reviewed 27 robot studies and noted that the principles "were not verified scientifically" (p. 12:2) and that timing, staging, solid drawing and appeal were tested in none of them. Takayama, Dooley and Ju (2011) give the clearest test. In an online experiment with 273 participants, a robot that showed forethought before acting was no easier to read: forethought "was not found to be a significant predictor of keyword match in the participant's descriptions of robot activity" (p. 74). Viewers of the forethought robot were nonetheless surer of their readings (5.69 against 5.20 on a 1–7 scale) and found the robot more appealing (p. 74). Anticipation spent on the character raised confidence without raising accuracy. Lewis et al. (2026) argue that Disney's principles are "inherently limited" for embodied interactive characters and derive puppetry principles instead. One of their cases is a robot that is calibrating; "observers might interpret its motion as a shrug of apathy" (p. 8). A viewer can settle on a reading of a character's motion that does not match its cause.
-[/DRAFTED] [VERIFY: Takayama's card gives PDF p. 6; p. 74 assumes PDF p. 1 = p. 69 of the proceedings (pp. 69–76). The 1–7 scale is from the text layer (§3).]
+[/DRAFTED]
 
 [DRAFTED]
 Conversational and generative interfaces have drawn on the craft as well. Pinhanez (2017) drew design methods for chatbots from puppetry and animation and applied anticipation to a binding act: "an important action such as charging a credit card is clearly anticipated by actions which potentially could be stopped by the user", so that there is "one more chance for the user to change her mind" (p. 31). He left the other principles unexplored "due to space restrictions" and offered his workshops as illustration, "not as validation" (p. 34). Kurian (2025) derived six design scaffolds for children's AI from 52 Disney films, choosing techniques through what children can perceive at each stage of development; she proposes animated-sidekick personas as "a route to selective anthropomorphism, a design strategy that maintains engagement while signalling the AI's non-human nature" (p. 14). Zhang and Davis (2026) took keyframing into a writing tool in which writers "specify different types of narrative constraints at selected moments in a story, then use AI to generate intervening prose" (p. 1), and one of their design goals was tracing "how characterization decisions propagate into generated story text" (p. 4).
 
 Two things follow from these studies. Craft spent on making a character seem alive raises appeal, attributed competence and confidence, and has not been shown to raise accuracy (Bhat, 2025; Takayama et al., 2011); and interface animation that users enjoy has not been shown to improve their performance (Thomas & Calder, 2001). The techniques that help a person read a change or hold to a commitment—one change at a time, a preview that can be cancelled, anticipation before a binding act, keys the machine must pass through—appear in these studies only with one user and a system, never with a counterpart bound by the same determination.
-[/DRAFTED] [VERIFY: Pinhanez's page numbers are inferred from Crossref's range (copy p. n = p. 26 + n); Kurian's are those of the arXiv submitted version.]
+[/DRAFTED] [VERIFY: Kurian's page numbers are those of the arXiv submitted version. The version of record (CC BY) is on ScienceDirect, which showed a CAPTCHA to the automated browser on 2026-11-12; open it yourself and map the pages.]
 
 ### 4.4 The warrant for borrowing
 
@@ -185,7 +186,7 @@ Borrowing a craft needs a warrant. May, Dean and Barnard (2003) argued that film
 ### 5.1 Two rules
 
 [DRAFTED]
-The model has two rules and three rows (Table 1). The **selection rule** carries an animation technique into a decision interface only if, at home, it does work the viewer would otherwise do—reading a change, expecting the next action, seeing the one idea that matters—and, in the interface, it does the work of one of the three competencies. The **placement rule** puts the technique on the decision—its commitments, its sources, its changes of rule—and not on the character's voice, warmth or apparent thought. Squash and stretch, appeal and the exaggeration of a persona fail the selection rule, because their home work is to give a character life. The robot studies show what such techniques do in an interface: they raise appeal and confidence.
+The model has two rules and three rows (Table 1; Figure 1). The **selection rule** carries an animation technique into a decision interface only if, at home, it does work the viewer would otherwise do—reading a change, expecting the next action, seeing the one idea that matters—and, in the interface, it does the work of one of the three competencies. The **placement rule** puts the technique on the decision—its commitments, its sources, its changes of rule—and not on the character's voice, warmth or apparent thought. Squash and stretch, appeal and the exaggeration of a persona fail the selection rule, because their home work is to give a character life. The robot studies show what such techniques do in an interface: they raise appeal and confidence.
 [/DRAFTED]
 
 ### 5.2 Row 1: opaque → idempotent interpretation → staging and labelled seats
@@ -220,6 +221,10 @@ The triadic setting takes away a rule that holds still: the operator changes the
 | In the commuter's case | the umbrella offer, marked "matches your limits" or "placed by the retailer" | "arrive dry", "under thirty dollars", "before nine" fixed as keys; the order carries them | "ranking changes after this purchase"; never mid-purchase |
 | Held back | exaggeration of the persona; appeal | straight-ahead generation for commitments | the surprise gag; the character's visible "thinking" |
 [/DRAFTED]
+
+**Figure 1.** The animator's model of DXD. [DRAFTED] Each row runs from what the setting withholds, through the competency that names the person's work, to the animator's technique that does that work for a viewer and the design move that does it for a decider. The selection rule admits a technique only if it does a competency's work; the placement rule keeps the character layer out of the decision. (File: `figures/figure1_model.svg`.) [/DRAFTED]
+
+*Image description (alt text) for TIES:* [DRAFTED] A diagram with three rows and four columns: setting, competency, animator's technique, design move. Row 1: opaque, idempotent interpretation, staging, stage each determination and label the party that produced it. Row 2: co-optive, intent specification, pose-to-pose with a timing chart, the person sets key commitments and the agent's in-between output stays provisional until commit or cancel. Row 3: triadic, intuitive governance tracking, anticipation and change between moves, cue a rule change before it lands and land it between decisions. Below, a struck-through dashed box labelled "character layer, held back" lists persona exaggeration, appeal, visible thinking and the surprise gag. [/DRAFTED]
 
 ### 5.5 Not a legibility model
 
@@ -283,7 +288,7 @@ Ananny, M., & Crawford, K. (2018). Seeing without knowing: Limitations of the tr
 
 Bhat, M. (2025). How dynamic vs. static presentation shapes user perception and emotional connection to text-based AI. In *30th International Conference on Intelligent User Interfaces (IUI '25)* (pp. 846–860). ACM. https://doi.org/10.1145/3708359.3712131 [bhat2025dynamic]
 
-Burrell, J. (2016). How the machine "thinks": Understanding opacity in machine learning algorithms. *Big Data & Society*, *3*(1). https://doi.org/10.1177/2053951715622512 [pointer burrell2016how; VERIFY title punctuation and volume against the card]
+Burrell, J. (2016). How the machine 'thinks': Understanding opacity in machine learning algorithms. *Big Data & Society*, *3*(1), Article 2053951715622512. https://doi.org/10.1177/2053951715622512 [pointer: monograph library burrell2016how; full text]
 
 Chang, B.-W., & Ungar, D. (1993). Animation: From cartoons to the user interface. In *Proceedings of the 6th Annual ACM Symposium on User Interface Software and Technology* (pp. 45–55). ACM. https://doi.org/10.1145/168642.168647 [chang1993animation]
 
@@ -329,7 +334,7 @@ Schulz, T., Torresen, J., & Herstad, J. (2019). Animation techniques in human-ro
 
 Silvio, T. J. (2019). *Puppets, gods, and brands: Theorizing the age of animation from Taiwan*. University of Hawaii Press. https://doi.org/10.1515/9780824880989 [silvio2019puppets; metadata only]
 
-Stark, D., & Vanden Broeck, P. (2024). Principles of algorithmic management. *Organization Theory*, *5*(2). https://doi.org/10.1177/26317877241257213 [pointer stark2024principles; VERIFY volume and issue against the card]
+Stark, D., & Vanden Broeck, P. (2024). Principles of algorithmic management. *Organization Theory*, *5*(2), Article 26317877241257213. https://doi.org/10.1177/26317877241257213 [pointer: monograph library stark2024principles; full text]
 
 Stark, L. (2024). Animation and artificial intelligence. In *Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency* (pp. 1663–1671). ACM. https://doi.org/10.1145/3630106.3658995 [stark2024animation]
 

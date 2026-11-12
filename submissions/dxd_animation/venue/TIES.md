@@ -27,9 +27,10 @@ the author's Chrome session. Quoted verbatim from the page text:
   and how generative AI has been used in the research and manuscript preparation process." The page
   points to the T&F-wide guidance (§8 below); I found no TIES-specific ban on AI-assisted drafting on
   this page.
-- **Reference style:** the page says "Please use this reference style when preparing your paper" and
-  links to a style page whose address the browser tool would not display; the style's name is still
-  **[NOT FOUND]**. The draft uses APA 7 until it is checked.
+- **Reference style:** the page says "Please use this reference style when preparing your paper". On
+  2026-11-12 I followed the link in the author's browser: it reopens the same Instructions page and
+  names no style. The style is **[NOT FOUND]**; the draft uses APA 7. Ask the editorial office or
+  check a recent TIES article's reference list before submission.
 
 **Consequences for the draft.** Body text of about 8,000–8,500 words leaves room for about 1,500–2,000
 words of references. The "Relevance to human factors / ergonomics theory" statement goes between the
