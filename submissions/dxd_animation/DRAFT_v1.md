@@ -286,7 +286,7 @@ The commuter ends with an umbrella and a purchase, and between them is an agent 
 
 Ananny, M., & Crawford, K. (2018). Seeing without knowing: Limitations of the transparency ideal and its application to algorithmic accountability. *New Media & Society*, *20*(3), 973–989. https://doi.org/10.1177/1461444816676645 [ananny2018seeing; abstract only]
 
-Bhat, M. (2025). How dynamic vs. static presentation shapes user perception and emotional connection to text-based AI. In *30th International Conference on Intelligent User Interfaces (IUI '25)* (pp. 846–860). ACM. https://doi.org/10.1145/3708359.3712131 [bhat2025dynamic]
+Bhat, M. (2025). How dynamic vs. static presentation shapes user perception and emotional connection to text-based AI. In *Proceedings of the 30th International Conference on Intelligent User Interfaces (IUI '25)* (pp. 846–860). ACM. https://doi.org/10.1145/3708359.3712131 [bhat2025dynamic]
 
 Burrell, J. (2016). How the machine 'thinks': Understanding opacity in machine learning algorithms. *Big Data & Society*, *3*(1), Article 2053951715622512. https://doi.org/10.1177/2053951715622512 [pointer: monograph library burrell2016how; full text]
 
@@ -346,11 +346,11 @@ Szafir, D., Mutlu, B., & Fong, T. (2014). Communication of intent in assistive f
 
 Takayama, L., Dooley, D., & Ju, W. (2011). Expressing thought: Improving robot readability with animation principles. In *Proceedings of the 6th International Conference on Human-Robot Interaction (HRI '11)* (pp. 69–76). ACM. https://doi.org/10.1145/1957656.1957674 [takayama2011expressing]
 
-Tan, F. F.-Y., Messerschmidt, M. A., Yin, W., & Nov, O. (2026). The impact of response latency and task type on human-LLM interaction and perception. In *Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26)*. ACM. https://doi.org/10.1145/3772318.3790716 [tan2026impact; locators are the arXiv v1 copy's]
+Tan, F. F.-Y., Messerschmidt, M. A., Yin, W., & Nov, O. (2026). The impact of response latency and task type on human-LLM interaction and perception. In *Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26)* (pp. 1–17). ACM. https://doi.org/10.1145/3772318.3790716 [tan2026impact; locators are the arXiv v1 copy's]
 
 Thomas, B. H., & Calder, P. (2001). Applying cartoon animation techniques to graphical user interfaces. *ACM Transactions on Computer-Human Interaction*, *8*(3), 198–222. https://doi.org/10.1145/502907.502909 [thomas2001applying]
 
-Thomas, F., & Johnston, O. (1981). *Disney animation: The illusion of life*. Abbeville Press. [thomas1981illusion; metadata only; edition and year unchecked]
+Thomas, F., & Johnston, O. (1981). *Disney animation: The illusion of life*. Abbeville Press. [thomas1981illusion; metadata only; 1981 Abbeville edition, 575 pp., confirmed by Open Library edition OL4266737M (sibling library record); the book is not read]
 
 Vaithilingam, P., Kim, M., Acosta-Parenteau, F.-C., Lee, D., Mhedhbi, A., Glassman, E. L., & Arawjo, I. (2025). *Semantic Commit: Helping users update intent specifications for AI memory at scale* (arXiv:2504.09283). arXiv. [vaithilingam2025semantic; abstract only]
 
