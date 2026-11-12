@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" font-family="Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Figure 1. The animator's model of decision experience design</title>
+  <desc id="d">[DRAFTED by Claude, 2026-11-12.] Three rows, each read left to right. Row 1: an opaque setting withholds the source of a determination; the person's work is idempotent interpretation; the animator's technique is staging and a visible passage between states; the design move is to stage each determination and label the party that produced it. Row 2: a co-optive setting withholds a private act; the work is intent specification; the technique is pose-to-pose animation with a timing chart and extra keys; the move is that the person sets key commitments and the agent's in-between output stays provisional until commit or cancel. Row 3: a triadic setting withholds a rule that holds still; the work is intuitive governance tracking; the technique is anticipation and placing a change before or after a move; the move is to cue a rule change before it lands and land it between decisions. A selection rule on the left admits a technique only if it does a competency's work. Below the rows, a dashed and struck-through box shows the character layer the placement rule holds back: persona exaggeration, appeal, visible thinking, and the surprise gag.</desc>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+    <style>
+      .hdr { font-size: 15px; font-weight: bold; fill: #111; }
+      .sub { font-size: 12px; fill: #444; font-style: italic; }
+      .box { fill: #f4f4f4; stroke: #333; stroke-width: 1.2; }
+      .key { fill: #e2e2e2; stroke: #111; stroke-width: 1.6; }
+      .t1 { font-size: 15px; font-weight: bold; fill: #111; }
+      .t2 { font-size: 12.5px; fill: #222; }
+      .rule { font-size: 13px; fill: #111; }
+      .line { stroke: #333; stroke-width: 1.4; fill: none; marker-end: url(#arr); }
+    </style>
+  </defs>
+
+  <!-- column headers -->
+  <text x="150" y="40" text-anchor="middle" class="hdr">Setting</text>
+  <text x="150" y="58" text-anchor="middle" class="sub">what it withholds</text>
+  <text x="420" y="40" text-anchor="middle" class="hdr">Competency</text>
+  <text x="420" y="58" text-anchor="middle" class="sub">the person's work</text>
+  <text x="700" y="40" text-anchor="middle" class="hdr">Animator's technique</text>
+  <text x="700" y="58" text-anchor="middle" class="sub">read source</text>
+  <text x="1000" y="40" text-anchor="middle" class="hdr">DXD move</text>
+  <text x="1000" y="58" text-anchor="middle" class="sub">done by the interface</text>
+
+  <!-- Row 1 -->
+  <rect x="40" y="80" width="220" height="110" rx="6" class="box"/>
+  <text x="150" y="112" text-anchor="middle" class="t1">Opaque</text>
+  <text x="150" y="136" text-anchor="middle" class="t2">the source of a determination:</text>
+  <text x="150" y="154" text-anchor="middle" class="t2">one output, many causes</text>
+  <rect x="310" y="80" width="220" height="110" rx="6" class="key"/>
+  <text x="420" y="118" text-anchor="middle" class="t1">Idempotent</text>
+  <text x="420" y="138" text-anchor="middle" class="t1">interpretation</text>
+  <text x="420" y="162" text-anchor="middle" class="t2">a reading that a second look</text>
+  <text x="420" y="178" text-anchor="middle" class="t2">would not change</text>
+  <rect x="580" y="80" width="240" height="110" rx="6" class="box"/>
+  <text x="700" y="112" text-anchor="middle" class="t1">Staging</text>
+  <text x="700" y="136" text-anchor="middle" class="t2">one idea at a time;</text>
+  <text x="700" y="154" text-anchor="middle" class="t2">a visible passage between states</text>
+  <text x="700" y="176" text-anchor="middle" class="sub">Lasseter 1987; Chang &amp; Ungar 1993</text>
+  <rect x="870" y="80" width="290" height="110" rx="6" class="box"/>
+  <text x="1015" y="112" text-anchor="middle" class="t2">Stage each determination;</text>
+  <text x="1015" y="130" text-anchor="middle" class="t2">label the party that produced it</text>
+  <text x="1015" y="148" text-anchor="middle" class="t2">(your key / counterpart / rule);</text>
+  <text x="1015" y="166" text-anchor="middle" class="t2">leave the model unexplained</text>
+  <path d="M262,135 L306,135" class="line"/>
+  <path d="M532,135 L576,135" class="line"/>
+  <path d="M822,135 L866,135" class="line"/>
+
+  <!-- Row 2 -->
+  <rect x="40" y="215" width="220" height="110" rx="6" class="box"/>
+  <text x="150" y="247" text-anchor="middle" class="t1">Co-optive</text>
+  <text x="150" y="271" text-anchor="middle" class="t2">a private act: every input</text>
+  <text x="150" y="289" text-anchor="middle" class="t2">is read by two audiences</text>
+  <rect x="310" y="215" width="220" height="110" rx="6" class="key"/>
+  <text x="420" y="253" text-anchor="middle" class="t1">Intent</text>
+  <text x="420" y="273" text-anchor="middle" class="t1">specification</text>
+  <text x="420" y="297" text-anchor="middle" class="t2">fixing what one means so</text>
+  <text x="420" y="313" text-anchor="middle" class="t2">others can trace it back</text>
+  <rect x="580" y="215" width="240" height="110" rx="6" class="box"/>
+  <text x="700" y="247" text-anchor="middle" class="t1">Pose-to-pose</text>
+  <text x="700" y="271" text-anchor="middle" class="t2">keys by the animator, in-betweens</text>
+  <text x="700" y="289" text-anchor="middle" class="t2">by other hands; timing chart</text>
+  <text x="700" y="311" text-anchor="middle" class="sub">Lasseter 1987; Thomas &amp; Calder 2001</text>
+  <rect x="870" y="215" width="290" height="110" rx="6" class="box"/>
+  <text x="1015" y="247" text-anchor="middle" class="t2">The person sets key commitments;</text>
+  <text x="1015" y="265" text-anchor="middle" class="t2">the agent's in-betweens stay</text>
+  <text x="1015" y="283" text-anchor="middle" class="t2">provisional until commit or cancel;</text>
+  <text x="1015" y="301" text-anchor="middle" class="t2">the key's note reaches the counterpart</text>
+  <path d="M262,270 L306,270" class="line"/>
+  <path d="M532,270 L576,270" class="line"/>
+  <path d="M822,270 L866,270" class="line"/>
+
+  <!-- Row 3 -->
+  <rect x="40" y="350" width="220" height="110" rx="6" class="box"/>
+  <text x="150" y="382" text-anchor="middle" class="t1">Triadic</text>
+  <text x="150" y="406" text-anchor="middle" class="t2">a rule that holds still:</text>
+  <text x="150" y="424" text-anchor="middle" class="t2">the operator moves it</text>
+  <rect x="310" y="350" width="220" height="110" rx="6" class="key"/>
+  <text x="420" y="382" text-anchor="middle" class="t1">Intuitive</text>
+  <text x="420" y="402" text-anchor="middle" class="t1">governance tracking</text>
+  <text x="420" y="426" text-anchor="middle" class="t2">sensing rule change</text>
+  <text x="420" y="442" text-anchor="middle" class="t2">as it happens</text>
+  <rect x="580" y="350" width="240" height="110" rx="6" class="box"/>
+  <text x="700" y="382" text-anchor="middle" class="t1">Anticipation</text>
+  <text x="700" y="406" text-anchor="middle" class="t2">a cue before the action; change</text>
+  <text x="700" y="424" text-anchor="middle" class="t2">before or after the move</text>
+  <text x="700" y="446" text-anchor="middle" class="sub">Lasseter 1987; Pinhanez 2017</text>
+  <rect x="870" y="350" width="290" height="110" rx="6" class="box"/>
+  <text x="1015" y="382" text-anchor="middle" class="t2">Cue a rule change before it lands;</text>
+  <text x="1015" y="400" text-anchor="middle" class="t2">land it between decisions,</text>
+  <text x="1015" y="418" text-anchor="middle" class="t2">inside a declared envelope;</text>
+  <text x="1015" y="436" text-anchor="middle" class="t2">announce the rule, not the character</text>
+  <path d="M262,405 L306,405" class="line"/>
+  <path d="M532,405 L576,405" class="line"/>
+  <path d="M822,405 L866,405" class="line"/>
+
+  <!-- selection rule bracket -->
+  <path d="M580,488 L580,500 L820,500 L820,488" stroke="#333" stroke-width="1.2" fill="none"/>
+  <text x="700" y="522" text-anchor="middle" class="rule"><tspan font-weight="bold">Selection rule:</tspan> a technique enters only if it does</text>
+  <text x="700" y="540" text-anchor="middle" class="rule">a competency's work</text>
+
+  <!-- character layer, held back -->
+  <rect x="300" y="565" width="600" height="72" rx="6" fill="none" stroke="#555" stroke-width="1.4" stroke-dasharray="7 5"/>
+  <line x1="300" y1="637" x2="900" y2="565" stroke="#aaa" stroke-width="1.2"/>
+  <text x="600" y="593" text-anchor="middle" class="t1">Character layer — held back</text>
+  <text x="600" y="617" text-anchor="middle" class="t2">persona exaggeration · appeal · visible "thinking" · the surprise gag</text>
+  <text x="600" y="667" text-anchor="middle" class="rule"><tspan font-weight="bold">Placement rule:</tspan> animate the decision, not the character</text>
+</svg>
