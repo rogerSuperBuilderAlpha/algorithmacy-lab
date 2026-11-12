@@ -97,14 +97,19 @@ PROPER = {
     "china", "chinese", "covid", "derrida", "douyin", "dutch", "england", "english",
     "europe", "european", "facebook", "france", "french", "germany", "german",
     "instagram", "internet", "japan", "japanese", "kant", "kantian", "korea", "korean",
-    "kingdom", "london", "meituan", "netherlands", "new", "singapore", "spain",
+    "kingdom", "london", "meituan", "netherlands", "singapore", "spain",
     "spanish", "states", "tiktok", "twitter", "uber", "united", "vietnam", "vietnamese",
     "wechat", "york", "zealand",
     # forms of address and fixed names that survive down-casing
     "mr", "mrs", "ms", "dr", "st", "domo", "arigato", "roboto",
     "belgium", "chef", "derrida", "kingdom", "kiwi", "le", "macromarketing",
     "petit", "seoul",
+    # added 11 Nov 2026 for DRAFT_v7: "ancient rome", "jim crow" and "United nations" rendered down-cased
+    "rome", "roman", "jim", "crow", "nations",
 }
+# "New" keeps its capital only before a place name (11 Nov 2026: as a bare entry in PROPER it
+# printed "The New service metaphor?" and "Is phygital the New normal?").
+NEW_NAMES = {"york", "zealand", "jersey", "south", "england", "delhi", "orleans", "mexico", "hampshire"}
 
 def nest_quotes(title):
     """Intellect: single quotes delimit a title, so a quotation inside it takes double."""
@@ -120,7 +125,8 @@ def sentence_case(title):
     protected list above. Everything else that is Capitalized becomes lower case.
     """
     out, start_of_sentence = [], True
-    for tok in title.split(" "):
+    toks = title.split(" ")
+    for ti, tok in enumerate(toks):
         core = tok.strip("'\u2018\u2019\"()[]{},.;:?")
         bare = core[:-2] if core.lower().endswith("'s") else core
         bare = bare.replace("\u2019s", "")
@@ -134,6 +140,8 @@ def sentence_case(title):
             # a hyphenated compound falls through and is judged part by part below
             or core.lower() in PROPER
             or bare.lower() in PROPER
+            or (core.lower() == "new" and ti + 1 < len(toks)
+                and toks[ti + 1].strip("'\u2018\u2019\"()[]{},.;:?").lower() in NEW_NAMES)
         )
         if keep and start_of_sentence and "-" in tok:
             # "Real-Time Feedback" opening a title becomes "Real-time feedback": the first
@@ -189,10 +197,17 @@ def render(kind, f, suffix=""):
             bits.append(pages if "–" not in pages and "-" not in pages else f"pp. {pages}")
         return fix_dashes(head + ", ".join(bits) + ".")
 
-    if kind == "book":
+    # Place and publisher, joined only from what the entry has. An entry with a publisher and no
+    # address (the Stanford Encyclopedia entries) printed ', : Metaphysics Research Lab' before
+    # 11 Nov 2026.
+    def imprint():
         addr = clean(f.get("address", ""))
         pub = clean(f.get("publisher", ""))
-        return head + f"*{title}*, {addr}: {pub}."
+        return f"{addr}: {pub}" if addr and pub else (addr or pub)
+
+    if kind == "book":
+        imp = imprint()
+        return head + f"*{title}*" + (f", {imp}" if imp else "") + "."
 
     if kind == "incollection":
         eds = authors(f["editor"]) if f.get("editor") else ""
@@ -200,8 +215,9 @@ def render(kind, f, suffix=""):
         n_eds = len(f.get("editor", "").split(" and ")) if f.get("editor") else 0
         lead = f"in {eds} ({'eds' if n_eds > 1 else 'ed.'}), " if eds else "in "
         tail = f", pp. {pages}" if pages else ""
-        return (head + f"'{title}', {lead}*{clean(f.get('booktitle',''))}*, "
-                f"{clean(f.get('address',''))}: {clean(f.get('publisher',''))}{tail}.")
+        imp = imprint()
+        return (head + f"'{title}', {lead}*{clean(f.get('booktitle',''))}*"
+                + (f", {imp}" if imp else "") + f"{tail}.")
 
     if kind == "inproceedings":
         pages = clean(f.get("pages", ""))

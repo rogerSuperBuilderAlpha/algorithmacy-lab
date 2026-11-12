@@ -344,7 +344,7 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [bgb701](cards/bgb701.md) | Bürgerliches Gesetzbuch (BGB), §§ 701-704 with § 702a: Einb… | 2002 | mediation-sovereignty | held | evidence | 2 3 | full-text | verified |
 | [bialski2012technologies](cards/bialski2012technologies.md) | Technologies of hospitality: How planned encounters develop… | 2012 | platform-hospitality | held | evidence | 1 | full-text | verified |
 | [billops1978magness](cards/billops1978magness.md) | Billops v. Magness Construction Co., 391 A.2d 196 (Del. 1978) | 1978 | hospitality-theory | held | rival | 3 4 | full-text | verified |
-| [binesh2026ai](cards/binesh2026ai.md) | AI ethics in hospitality and tourism | 2026 | ai-automation | held | rival | 1 5 | full-text | verified |
+| [binesh2026ai](cards/binesh2026ai.md) | AI ethics in hospitality and tourism: theoretical perspecti… | 2026 | ai-automation | held | rival | 1 5 | full-text | verified |
 | [bishop2019gossip](cards/bishop2019gossip.md) | Managing Visibility on YouTube through Algorithmic Gossip | 2019 | mediation-sovereignty | held | evidence | 5 | full-text | crossref-verified |
 | [bitner2000technology](cards/bitner2000technology.md) | Technology Infusion in Service Encounters | 2000 | phygital-service | cited | framing | 1 | metadata | verified |
 | [blackstone1768commentaries](cards/blackstone1768commentaries.md) | Commentaries on the Laws of England, Book the Third, ch. 9 … | 1768 | mediation-sovereignty | held | evidence | 2 | full-text | verified |

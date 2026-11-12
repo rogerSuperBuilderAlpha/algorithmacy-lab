@@ -1891,3 +1891,75 @@ Model: Germann Molz 2018, abstract (v6's choice; `rewrite_2026-11/sbs/LEDGER.md`
 **Abstract:** about 173 words, inside the journal's 100–200.
 
 **Keywords (proposed; the authors decide):** phygital hospitality; algorithmic mediation; host duties; assembled host; service failure; accountability. 'Interruptibility' and 'guest standing' are dropped with the terms (OUR_BRIEF, terms).
+
+---
+
+## Assembly (11 Nov 2026)
+
+The manuscript (`MANUSCRIPT.md`; `../../DRAFT_v7.md`) copies each entry's final sentence in ledger order: the rewritten form where an entry has one, the gate revision where a section was cut. A script did the copying from this file; which form is final was settled by hand where an entry carries more than one (S-115 takes its gate revision; S-140, S-141 and S-211 take their rewritten forms, which sit inside a verdict line). Paragraph breaks follow `OUTLINE_PARAGRAPHS.md`; in Section 4, where ledger ids run two behind the outline's, the breaks were placed by reading. I read the assembled Introduction, Section 2 and Section 3 through before the cuts below.
+
+**Measured by `wordcount.py` and by section, before the cuts.** The section checks above were estimates summed from the entries' weights, and four of them were wrong.
+
+| Section | Ledger estimate | Measured | Budget (OUR_BRIEF) | Venue band (`JOURNAL_MODEL.md`) |
+|---|---|---|---|---|
+| Introduction | 690 | 784 | 650 (+21%) | 530–1,280: inside |
+| The host's power and the host's duty | 2,015 | 2,161 | 1,850 (+17%) | grounding up to 50% across two or three sections: inside (Sections 2 and 3 together 46%) |
+| Delegation and the guest's claim | 1,860 | 1,995 | 1,700 (+17%) | as above |
+| Assembled hosts at the touchpoint | 3,410 | 3,128 | 3,250 (−4%) | 22–57%: inside (35%) |
+| Conclusion | 975 | 976 | 900 (+8%) | 280–1,090: inside |
+| **Body** | 8,950 | **9,044** | 8,350 | journal ceiling 9,000: **over by 44** |
+
+The estimates undercounted citations and headings in Sections 1-3 and overcounted the tables in Section 4. Every section sits inside the venue's band, which is the skill's gate. Three sit outside OUR_BRIEF's own budgets by more than ten per cent, and the body was over the journal's ceiling. The cuts below take the body under the ceiling with some headroom; the budget overruns are recorded as departures, not defects.
+
+### Revisions at assembly
+
+- **S-009 ❌ → (28w).** Was: > For the commercial setting, Morrison and O'Gorman list among the principles of hospitality that businesses are responsible for the health, safety and security of their guests (2008: Figure 2), and Hemmington counts the security of strangers among its dimensions (2007).
+  Now: > For the commercial setting, Morrison and O'Gorman list among the principles of hospitality that businesses are responsible for the health, safety and security of their guests (2008: Figure 2).
+  *Hemmington is cited in Section 2 for the stronger point (S-031, S-032). M.002-M.003 still answered.*
+- **S-027 ❌ → cut.** Was: > The authors conclude that service-management terminology 'overrides hospitality within the commercial context' (Golubovskaya et al. 2017: 1299–1300).
+  *S-026 gives the finding; S-028 ('in contrast') still answers it.*
+- **S-058 ❌ → cut.** Was: > The duty narrowed over time until it attached 'only to common carriers by land and water (including ferrymen) and innkeepers' (Burdick 1911: 523), while the shopkeeper remained free to refuse (Wyman 1904: 159).
+  *S-072 ('it stops at the inn ... "a mere shop"') carries the narrowing. Burdick and Wyman leave the cited list.*
+- **S-077 ❌ → (25w).** Was: > ... in an accessible format (Equality Act 2010, s. 20(3)–(6)), so the exceptions the law recognizes do not all run in the host's favour.
+  Now: > A service-provider must also make reasonable adjustments for disabled guests, including an auxiliary aid or service and information in an accessible format (Equality Act 2010, s. 20(3)–(6)).
+  *The cut clause was a comment, not a claim. M.060 still answered.*
+- **S-093 ❌ → cut.** Was: > The classical host holds the house and its rule in one person: 'It is always the host who ordains' (Pitt-Rivers 2012: 513).
+  *The same quotation opens Section 2 ¶2 (S-034). M.092 and M.094 are answered by S-092 and S-094.*
+- **S-097 ❌ → cut.** Was: > On platforms, Germann Molz reports, 'responsibilities can be shifted elsewhere or even avoided' (Dredge 2017: 43–44, as quoted in Germann Molz 2018: 233).
+  *Section 4 opens on Germann Molz's platform case (S-153), which shows the same thing at first hand. M.103 is answered by S-096 and S-098. Dredge leaves the cited list.*
+
+**Measured after the cuts.**
+
+| Section | Words |
+|---|---|
+| Introduction | 773 |
+| The host's power and the host's duty | 2,097 |
+| Delegation and the guest's claim | 1,950 |
+| Assembled hosts at the touchpoint | 3,128 |
+| Conclusion | 976 |
+| **Body (`wordcount.py`)** | **8,924**, 76 under the ceiling |
+| Abstract | 173 |
+
+## Count
+
+| Part | Entries | Ids |
+|---|---|---|
+| Introduction | 24 | S-001–S-024 |
+| The host's power and the host's duty | 66 (two cut at assembly) | S-025–S-090 |
+| Delegation and the guest's claim | 61 (two cut at assembly) | S-091–S-151 |
+| Assembled hosts at the touchpoint | 85, one list of six, two tables | S-152–S-236, L-1, T1, T2 |
+| Conclusion | 27 | S-237–S-263 |
+| **Body** | **263 entries, 259 sentences in the manuscript** | **S-001–S-263** |
+| Abstract | 6 | A-1–A-6 |
+
+### Citation forms fixed at assembly
+
+The reference list is rendered from `cited_keys_v7.txt` by `render_refs.py`, which gives a/b suffixes to works sharing a first author and a year, and follows each bibliography entry's year. Nine sentences change their citation form only; no claim changes.
+
+- **S-029, S-067** 'O'Gorman 2007' → '2007a' (`ogorman2007discovering`). **S-045, S-049** → '2007b' (`ogorman2007phenomenon`).
+- **S-209** Baum and Laux '2026' → '2026b' (`baum2026constitutive`). **S-247** Baum et al. '2026' → '2026a' (`baum2026anticipatory`).
+- **S-052, S-065** 'Jeske 2019' → '2021'. The entry's substantive revision is 2019, and the encyclopaedia's own citation page gives the Winter 2021 archive edition, which the bibliography follows, as it does for the other Stanford Encyclopedia entries.
+- **S-079** adds 'Groh 2015: n. 4' as the source for the Restatement (Third)'s replacement of § 314A, which the ledger entry already named (red team T21).
+
+**Bibliography corrections made at assembly.** `binesh2026ai`: the lead's card and entry gave the authors as Faranak Binesh and Arief Syah and shortened the title; Crossref and the PDF give Nasim Binesh and Ahmad Syah and the full title (corrected on the card and in the entry). `moysidou2023theorizing` was entered twice; the older entry, with a wrong first name and abstract depth, was removed. `robinson2007power` was added from its Crossref record (not read; cited only as the source Lynch et al. 2011 credit).
+- **S-065** 'toward' → 'towards', the journal's British spelling (`preflight.py`).
