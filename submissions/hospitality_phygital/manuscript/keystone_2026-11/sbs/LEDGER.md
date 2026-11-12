@@ -1560,3 +1560,334 @@
 - Form ✅ · Construction ✅ 'it' the stay · Register ✅ · Value ✅ · Counterpart ✅ · Truth ✅
 
 **Section check (Assembled hosts at the touchpoint).** S-152 to S-236, 85 sentences, six list items and two tables. Summed from the final weights: about 3,050 words of prose, 92 in the list and about 270 in the tables, about 3,410 in all, against a budget of 3,250. **Inside the gate (+5 per cent).** Confirmed by `wordcount.py` at assembly.
+
+## Conclusion
+
+Ledger ids continue from S-236, so they run two behind the outline's: outline S-239 is ledger S-237. The outline's S-244 is written as two sentences (S-242, S-243), its S-246 as three (S-245 to S-247, after the novelty scout reported), and one sentence is new (S-255, the UN Guiding Principles' limit on adjudication, from `WS_P5_scout.md` Part 5, item 1). The outline's S-254 ('what the limits mean') is not written: S-255 does its job, and the section needed the words.
+
+### S-237 · M.219 · 27w
+> Hospitality studies' account of the host, who protects the guest and holds power over the guest, remains the right place to begin the study of phygital hospitality.
+- **Form** ✅ 27/20, CANON-STANDING, where the Introduction opened (S-008 to S-010).
+- **Construction** ✅ 'who' has one antecedent, 'the host'.
+- **Register** ✅ *protects*, *holds*, *remains*, *begin*: plain. M.219's 'crucial to thinking through' not taken.
+- **Value** ✅ Says which account is kept: the content and the power, not the motive account (register S-253.1, minor).
+- **Counterpart** ✅ M.219.
+- **Truth** ✅ Protection: `ogorman2005` pp. 144-145; `morrison2008` Figure 2; `hemmington2007`. Power: `lynch2011theorizing`; `bulley2015ethics` (S-008 to S-010).
+
+### S-238 · M.220 · 34w
+First attempt:
+> That account, however, pictures a single host who holds the duty in person, and although this journal names hosting divided among several parties, it does not say which of them owes the guest what.
+- **Construction** ❌ 'it' can take 'this journal' or 'hosting'; 'them' can take 'parties' or nothing. **Truth** ❌ 'this journal does not say' claims more than the seven texts read (`WS_P1_R9.md`, gap statement; S-012).
+
+Rewritten:
+> That account, however, pictures a single host who holds the duty in person, and the texts we read that name hosting divided among several parties do not say which party owes the guest what.
+- **Form** ✅ 34/32, LIMIT in one sentence.
+- **Construction** ✅ No pronoun left but 'we', the authors.
+- **Register** ✅ *pictures*, *name*, *say*. 'however' as relation marker, after the subject.
+- **Value** ✅ The two limits of OUR_BRIEF's shape, in one sentence.
+- **Counterpart** ✅ M.220.
+- **Truth** ✅ R9's gap statement, as S-012 states it; the texts naming divided hosting are Lynch et al. 2011, Bulley 2015 and Petie et al. 2025 (S-011).
+
+### S-239 · M.221 · 33w
+> We therefore need to follow the host's duty to its holder or holders across firms and systems, and through the stay, while the guest is subject to arrangements the guest did not make.
+- **Form** ✅ 33/42, the need that follows.
+- **Construction** ✅ 'its' the host's duty's. 'We' is the field's programme here, as M.221's inclusive 'we'.
+- **Register** ⚠️ *need*, *follow*, *subject*: plain. M.221's 'arguably' and 'push' not taken. The house style keeps first person for the authors' own labour; this 'we' states a programme, which the model does and the house style does not forbid outright. Recorded as a departure.
+- **Value** ✅ 'Holder or holders' (register S-255.1, minor); 'through the stay' names the paper's own step before it is restated.
+- **Counterpart** ✅ M.221.
+- **Truth** ✅ ARGUMENT.md, Step 5 (several holders) and P5 (the guest's subjection to the host's ordering of the space).
+
+### S-240 · M.222 · 45w
+First attempt:
+> In this article we have argued, first, that the role of host specifies what a commercial host owes, care for the guest's safety and care in what it undertook, and that holding out, reliance and control bind that duty to a particular party.
+- **Construction** ❌ 'it undertook' can take 'the role' or 'a commercial host'.
+
+Rewritten:
+> In this article we have argued, first, that the role of host specifies what a commercial host owes, care for the guest's safety and care in performing what the host undertook, and that holding out, reliance and control bind that duty to a particular party.
+- **Form** ⚠️ 45/36 (+25 per cent). M.222's frame, 'In this article I have argued that', kept; the duty's two parts named in apposition.
+- **Construction** ✅ 'that duty' the duty just named.
+- **Register** ✅ *argued*, *specifies*, *bind*. The three binding terms as fixed in OUR_BRIEF.
+- **Value** ✅ The first finding.
+- **Counterpart** ✅ M.222.
+- **Truth** ✅ ARGUMENT.md, 'The answer' and Step 3; S-016 as revised.
+
+### S-241 · M.222 · 34w
+> Second, when others do the work, what stays with the host depends on the particular duty, and the duty of care may lie with several parties at once, each to its degree of control.
+- **Form** ✅ 34/32.
+- **Construction** ✅ 'its' each party's.
+- **Register** ⚠️ *stays*, *depends*, *lie*. The sentence restates S-017 with new words for its second half ('each to its degree of control'); it repeats 'when others do the work', the paper's fixed phrase for delegation. Recorded, since the house style cuts verbatim repetition.
+- **Value** ✅ The second finding, with what *Wheat* adds.
+- **Counterpart** ✅ M.222.
+- **Truth** ✅ ARGUMENT.md, Step 5; `wheat1966lacon`, Lord Denning: 'dependent on his degree of control' (HANDCHECK 91; the card is the lead's and not independently verified).
+
+### S-242 · M.222 · 39w
+> Third, and this step is ours, the guest's claim during the stay justifies a further duty, owed to the guest, to keep some timely means by which a failure in the guest's case reaches someone able to correct it.
+- **Form** ✅ 39/40.
+- **Construction** ✅ 'this step' named; 'it' a failure.
+- **Register** ✅ The further duty is stated in the same words as S-018: it is the paper's construct, and the model repeats its key terms rather than vary them.
+- **Value** ✅ The third finding, marked as ours (OUR_BRIEF, register commitment 2).
+- **Counterpart** ✅ M.222.
+- **Truth** ✅ ARGUMENT.md 6.2, C.
+
+### S-243 · M.222 · 23w
+First attempt:
+> Where only the guest perceives the failure, that means must include a route the guest can use without depending on the host's goodwill.
+- **Construction** ❌ 'that means must' reads first as 'that implies'.
+
+Rewritten:
+> Where only the guest perceives the failure, the means must include a route the guest can use without depending on the host's goodwill.
+- **Form** ✅ The second half of C, as its own sentence.
+- **Construction** ✅ 'the failure' and 'the means' are those of S-242.
+- **Register** ✅ *perceives*, *include*, *use*, *depending*.
+- **Value** ✅ The part of C that rests on the guest's subjection (P5), and so on the hospitality literature.
+- **Counterpart** ✅ M.222.
+- **Truth** ✅ ARGUMENT.md 6.2, C, second sentence.
+
+### S-244 · M.223 · 31w
+First attempt:
+> Algorithmic mediation leaves the host's duties in place and can move that person behind the machine, as at the automated hotels where guests reached a worker only by seeking one out.
+- **Construction** ❌ 'that person' has no antecedent in S-243. **Truth** ❌ 'only' is not in the source: when the kiosk was down, a worker met every arriving guest (`xu2024disciplined`, p. 5021).
+
+Rewritten:
+> Algorithmic mediation leaves the host's duties in place and can move the person able to correct a failure behind the machine, as it did at the two automated hotels in China.
+- **Form** ⚠️ 31/13. M.223 says in thirteen words what the argument is good for; this sentence says what it catches, with the case, and states the thesis at its one strength.
+- **Construction** ✅ 'it' algorithmic mediation.
+- **Register** ✅ *leaves*, *move*. 'Behind the machine' is the paper's phrase from 4.1 (Step 7), used there of the same finding.
+- **Value** ✅ 'Can', as OUR_BRIEF fixes it; the documented case, as the outline asks.
+- **Counterpart** ✅ M.223.
+- **Truth** ✅ `xu2024disciplined`, pp. 5022, 5035; ARGUMENT.md, Step 7; K-D13.
+
+### S-245 · M.224 · 44w
+> Parts of what the further duty asks are already in soft law: the UN Guiding Principles ask each business for grievance channels open directly to those whose human rights it may adversely affect, so that grievances are remedied early (United Nations 2011: 31–32).
+- **Form** ✅ ROADS-NOT-TAKEN, first of three sentences. M.224 names two routes in one sentence; six sources need three, grouped by kind (soft law, policy, scholarship).
+- **Construction** ✅ 'it' each business.
+- **Register** ✅ *ask*, *open*, *affect*, *remedied*. 'Channels' for the source's 'mechanisms'; the card's own gloss is 'a channel for those directly impacted'.
+- **Value** ✅ Credits the nearest prior statement of a channel, with its field (human rights) named.
+- **Counterpart** ✅ M.224.
+- **Truth** ✅ `un2011guiding`, Principle 29 and Commentary, pp. 31-32: 'accessible directly'; 'addressed early and remediated directly'.
+
+### S-246 · M.224 · 55w
+> For automated systems, the White House Office of Science and Technology Policy asks for 'access to a person who can quickly consider and remedy problems' (2022: 46), and the Treasury Board of Canada Secretariat reserves the final administrative decision to a human where the decision's impacts are high and difficult or impossible to reverse (2019: Appendices B–C).
+- **Form** ⚠️ 55w, the longest sentence in the section. Two policy texts grouped (house style, mechanism 8); splitting them would add a sentence and an opening.
+- **Construction** ✅ 'the decision's' the administrative decision's. Issuers in subject position, so no citation ends a clause.
+- **Register** ✅ *asks*, *reserves*. 'Asks' for a non-binding white paper; 'reserves' for a directive that binds federal institutions.
+- **Value** ✅ The person who can remedy, and timing indexed to reversibility, each credited.
+- **Counterpart** ✅ M.224.
+- **Truth** ✅ `ostp2022blueprint`, p. 46 (HANDCHECK 107). `tbscanada2019directive`, App. B (Level III 'high, difficult to reverse'; Level IV 'very high, irreversible'), App. C ('The final decision must be made by a human') (HANDCHECK 110). Both cards are the lead's and not independently verified.
+
+### S-247 · M.224 · 55w
+> Scholarship comes close as well: Kong (2026: 5) keeps the deployer of an AI agent answerable for foreseeable types of outcome, Baum et al. (2026: 14–17) require that those an agent affects can challenge its action, and Binesh and Syah (2026: 10) hold that protecting guests' autonomy requires 'real human override at the service encounter'.
+- **Form** ⚠️ 55w. Three scholars grouped behind one clause, as M.224 names its routes.
+- **Construction** ✅ 'its action' the agent's. A colon, not a connective, before the first narrative citation.
+- **Register** ✅ *keeps*, *require*, *hold*, *challenge*.
+- **Value** ✅ Credits Kong, Baum et al. and Binesh and Syah; the last is the one hospitality text that asks for a human override at the encounter.
+- **Counterpart** ✅ M.224.
+- **Truth** ✅ `kong2026delegation`, p. 5 (answerability for 'the foreseeable types of outcome ... neither divided nor diminished'). `baum2026anticipatory`, pp. 14-17 ('challenge the agent's action'). `binesh2026ai`, p. 10 (HANDCHECK 111; read at p. 10 only; lead's card).
+
+### S-248 · M.225 · 44w
+> In the literature we searched, we found no work that derives a guest's route to correction from the duty a host owes the guest, and that derivation is what this article adds, with power over the single case as what the route must reach.
+- **Form** ✅ 44/65. M.225 restates the findings in detail; here the detail is in S-240 to S-243, and this sentence says what is new.
+- **Construction** ✅ 'that derivation' named.
+- **Register** ✅ *searched*, *found*, *derives*, *adds*. First person for the search, which is the authors' labour.
+- **Value** ✅ The novelty claim, stated as the result of a search (research rules: no novelty without a documented gap search).
+- **Counterpart** ✅ M.225.
+- **Truth** ✅ `WS_P5_scout.md`, Q7, row E: 'I found no work that derives a duty to keep a channel ... from the duty of a party that performs through systems ... in a commercial-service setting', in Consensus, OpenAlex and web search, 11 Nov 2026. The UN Guiding Principles derive it from due diligence, OSTP from rights, the Canadian directive from procedural fairness; Baum et al.'s principal is not a host. ⚠️ for the authors: the paper does not name the databases; the ledger does.
+
+### S-249 · M.226 · 34w
+> Human-centricity, on this account, concerns whether a guest can bring a failure to someone able to correct it, and whether the person at the end of the route holds the power to correct it.
+- **Form** ✅ 34/55. Human-centricity defined in our own words, as the editor asked and M.226's slot directs; no closing quotation.
+- **Construction** ✅ Both 'it's are 'a failure'.
+- **Register** ✅ *concerns*, *bring*, *holds*.
+- **Value** ✅ Defines the term by two things the argument has shown: the guest's route and the worker's power. v6's claim that visible humans are 'neither necessary nor sufficient for any of the three' (register S-263.3, invalid) is not made.
+- **Counterpart** ✅ M.226.
+- **Truth** ✅ ARGUMENT.md 6.2-6.4.
+
+### S-250 · M.227 · 21w
+> This is a conceptual paper, and its cases, all taken from published studies and judgments, illustrate its distinctions without testing them.
+- **Form** ✅ 21/24, GUARD.
+- **Construction** ✅ 'its' the paper's; 'them' the distinctions.
+- **Register** ✅ *taken*, *illustrate*, *testing*.
+- **Value** ✅ The guard, now true of every case (register S-268.1: v6 constructed one).
+- **Counterpart** ✅ M.227.
+- **Truth** ✅ Section 4 takes its cases from published studies and judgments (S-154).
+
+### S-251 · M.228 · 36w
+> In law the further duty is a proposal: the law we read gives guests remedies and disabled guests adjustments, and, outside package travel and platforms, requires no general route to someone able to correct a failure.
+- **Form** ✅ 36/25. The legal limit first, as the red team ranked it (TORT T1).
+- **Construction** ✅ No pronoun but 'we'.
+- **Register** ✅ *gives*, *requires*. 'General' keeps the data-protection safeguard of S-220 outside the claim.
+- **Value** ✅ The register named (OUR_BRIEF, register commitment 1).
+- **Counterpart** ✅ M.228.
+- **Truth** ✅ S-216 to S-224; ARGUMENT.md 6.7; uncertainty item 5.
+
+### S-252 · M.228 · 28w
+> We read three authors the argument leans on only as others report them: Raz on how one claim can justify changing duties, and Telfer and Derrida on hospitality.
+- **Form** ✅ 28/25. A counted limit.
+- **Construction** ✅ 'them' the three authors.
+- **Register** ✅ *read*, *leans*, *report*.
+- **Value** ✅ The closed texts, stated flatly (OUR_BRIEF, refusals).
+- **Counterpart** ✅ M.228.
+- **Truth** ✅ Raz through `herstein2023legal` §8.4 (S-130); Telfer through Hemmington, Slattery and O'Gorman; Derrida through O'Gorman and Westmoreland (Section 2). ARGUMENT.md, 'Debts'.
+
+### S-253 · M.228 · 40w
+> The evidence that failures in a guest's case reach the host mainly through the guest comes from two small hotel studies, and for failures of no documented type the need for someone able to correct them is our own reading.
+- **Form** ⚠️ 40/25 (+60 per cent). Two limits share one sentence and save an opening; the section total is the gate.
+- **Construction** ✅ 'them' failures of no documented type.
+- **Register** ✅ *reach*, *comes*, *reading*.
+- **Value** ✅ The thin evidence for P4 and the novel failure, each named.
+- **Counterpart** ✅ M.228.
+- **Truth** ✅ `WS_P6_R8.md`, verdict on P4's first half ('mainly, and in the automated hotel only, through the guest'; 'two small qualitative hotel studies'); ARGUMENT.md 6.3 item 5 and uncertainty item 3.
+
+### S-254 · M.229 · 36w
+> The further duty serves guests who can perceive and report a failure, not a guest in crisis or without the host's language, and we do not claim it for hosts letting rooms in their own homes.
+- **Form** ✅ 36/25. Whom the claim leaves out.
+- **Construction** ✅ 'it' the further duty; 'their' the hosts'.
+- **Register** ✅ *serves*, *claim*, *letting*.
+- **Value** ✅ The two exclusions S-023 announced, with their scope.
+- **Counterpart** ✅ M.229.
+- **Truth** ✅ ARGUMENT.md 6.5 ('the guest who cannot report'; 'the household host').
+
+### S-255 · M.229 · 39w · new (P5)
+> That duty asks for correction during the stay and leaves disputed complaints to be judged by others, since a business 'cannot, with legitimacy, both be the subject of complaints and unilaterally determine their outcome' (United Nations 2011: 35).
+- **Form** ✅ M.229's move, a limit on the normative claim. No outline row: the scout reported after the outline was written.
+- **Construction** ✅ 'That duty' renames the further duty, so the paragraph does not open two sentences running on the same noun phrase; 'their outcome' the complaints', inside the quotation.
+- **Register** ✅ *asks*, *leaves*, *judged*.
+- **Value** ✅ Answers the scout's first defeater by confining the duty to correction.
+- **Counterpart** ✅ M.229.
+- **Truth** ✅ `un2011guiding`, Commentary on Principle 31(h), p. 35 (HANDCHECK 112). The Principles concern human-rights grievances (S-245 says so); carrying the point to a host is our use of it.
+
+### S-256 · M.230 · 32w
+> Four studies would test the argument where we found it thinnest, and the first would record how often hotel guests report a failure during the stay, to whom, and by what route.
+- **Form** ✅ 32/31. M.230's wager becomes the research the argument points to, as for v6.
+- **Construction** ✅ 'it' the argument.
+- **Register** ✅ *test*, *record*, *report*.
+- **Value** ✅ The first study answers the thinnest premise (P4).
+- **Counterpart** ✅ M.230.
+- **Truth** ✅ `WS_P6_R8.md`, Gaps, first: no openly readable hospitality study reports from its own data what share of dissatisfied guests complain to the hotel.
+
+### S-257 · M.231 · 31w
+> The second would compare recovery after a self-service or robot failure with and without an employee the guest can reach, a comparison no openly available hospitality study we found has made.
+- **Form** ✅ 31/37.
+- **Construction** ✅ No pronoun but 'we'.
+- **Register** ✅ *compare*, *reach*, *made*.
+- **Value** ✅ A study from a documented gap.
+- **Counterpart** ✅ M.231.
+- **Truth** ✅ `WS_P6_R8.md`, Gaps, third (Consensus and OpenAlex, 11 Nov 2026; the closest studies closed).
+
+### S-258 · M.231 · 29w
+> The third would follow a guest's report through unstaffed hotels and rentals with self-check-in, recording who received the report, what that person could change, and how long correction took.
+- **Form** ✅ 29/37.
+- **Construction** ✅ 'that person' whoever received the report.
+- **Register** ✅ *follow*, *recording*, *received*, *change*.
+- **Value** ✅ Tests Step 7, which the open evidence leaves at 'can' (R8, K9 verdict).
+- **Counterpart** ✅ M.231.
+- **Truth** ✅ A proposal. R8: the deciding studies on unmanned hotels are closed.
+
+### S-259 · M.231 · 33w
+> The fourth is for legal scholarship: whether the Irish Act's safety duty makes a proprietor answer for contractors, and whether courts would count the lack of any route as a want of care.
+- **Form** ✅ 33/37.
+- **Construction** ✅ 'the Irish Act' named in Section 2 (S-087, the Hotel Proprietors Act 1963).
+- **Register** ✅ *answer*, *count*. 'Want of care' is the law's phrase, used in S-223.
+- **Value** ✅ The two legal questions the run left open.
+- **Counterpart** ✅ M.231.
+- **Truth** ✅ `ie1963hotel`, s. 4 ('independent of any liability of the proprietor as occupier'); ARGUMENT.md, Step 5 ('open on the words, and no Irish judgment was read'); S-223 (*Gregg*, *Kuoni*).
+
+### S-260 · M.232 · 30w
+> A host can act on the argument now, by putting the six questions to each touchpoint and telling guests, in forms every guest can use, whom to reach and how.
+- **Form** ✅ 30/19. Practice, as the editor asked.
+- **Construction** ✅ No pronoun.
+- **Register** ✅ *act*, *putting*, *telling*, *reach*.
+- **Value** ✅ Stages 1 and 2 of Table 2, as actions.
+- **Counterpart** ✅ M.232.
+- **Truth** ✅ Section 4 (the test; Table 2); Equality Act 2010, s. 20(6) (S-219).
+
+### S-261 · M.232 · 37w
+> The person a guest reaches needs power in writing, the training to use it and protection from being disciplined through guests' reports, since a route that ends in someone without power leaves the failure with the guest.
+- **Form** ✅ 37/19.
+- **Construction** ✅ 'it' power.
+- **Register** ✅ *needs*, *disciplined*, *ends*, *leaves*.
+- **Value** ✅ What the argument asks for the workers at the end of the route (ARGUMENT.md 6.4).
+- **Counterpart** ✅ M.232.
+- **Truth** ✅ ARGUMENT.md 6.4 (marked as the paper's inference); `schumacher2016case`, pp. 121-123; `petie2025exploring`, MS p. 11 (S-185, S-186).
+
+### S-262 · M.232 · 42w
+> For the guest's well-being, what matters is who bears a failure: without a route the guest bears it alone, and turning away from a service reached only through an app 'may carry a personal cost and loss' (Wilson-Nash et al. 2026: 979).
+- **Form** ⚠️ 42/19. Well-being, as the editor asked, with its one source.
+- **Construction** ✅ 'it' a failure.
+- **Register** ✅ *bears*, *turning away*. 'Bears it alone' is literal: no one else corrects it.
+- **Value** ✅ The individual guest's stake. v6's claims about communities (register S-276.2, no premises) and about the gains of phygital arrangements (S-277.1, unsourced) are not made.
+- **Counterpart** ✅ M.232.
+- **Truth** ✅ `wilsonnash2025captivity`, p. 979 (avoidance 'may carry a personal cost and loss'). That a guest without a route bears the failure is our inference, and a short one (register S-275.1, minor).
+
+### S-263 · M.233 · 42w
+> The question for phygital hospitality is whether, in arrangements that spread a host's work across staff, firms and systems, a failure in a guest's case can still reach someone able to correct it, and for particular arrangements the answer is not yet known.
+- **Form** ✅ 42/32, CONCESSION-CLOSE. The article ends below its claim, on what is not known.
+- **Construction** ✅ 'it' a failure.
+- **Register** ✅ *spread*, *reach*, *known*. No epigram; Kong's 'address' (v6, correction C54) not used.
+- **Value** ✅ Returns to S-024's question and leaves the empirical answer open.
+- **Counterpart** ✅ M.233.
+- **Truth** ✅ R8's verdicts; S-256 to S-258.
+
+**Section check (Conclusion).** S-237 to S-263, 27 sentences. Summed from the final weights: about 975 words against a budget of 900. **Inside the gate (+8 per cent).** The body then sums to about 8,950 on the entries' weights (Introduction 690, Section 2 2,015, Section 3 1,860, Section 4 3,410, Conclusion 975), under 9,000 by about 50; `wordcount.py` decides at assembly. If it does not pass, the cuts are, in order: S-243 (23), S-253 to its first clause (−19), S-246's opening phrase (−3).
+
+## Abstract
+
+Model: Germann Molz 2018, abstract (v6's choice; `rewrite_2026-11/sbs/LEDGER.md`, Abstract).
+
+### A-1 · 24w
+> Hosts now hand parts of the work of hosting, from pricing to check-in, to algorithmic systems, often assembled from services that several firms supply.
+- **Form** ✅ The phenomenon, as the model's first sentence.
+- **Construction** ✅ No pronoun.
+- **Register** ✅ *hand*, *assembled*, *supply*. 'Parts of', as S-001.
+- **Value** ✅ The setting.
+- **Counterpart** ✅ GM2018 s1.
+- **Truth** ✅ S-001 to S-005. 'Often' is Cobbe et al.'s for algorithmic systems at large (S-005), compressed here.
+
+### A-2 · 26w
+> The hospitality texts we read describe what a host owes and name hosting divided among several parties, but none says which party owes the guest what.
+- **Form** ✅ The limit, as the model's second sentence states the stakes.
+- **Construction** ✅ 'none' the texts.
+- **Register** ✅ *describe*, *name*, *says*.
+- **Value** ✅ The gap, scoped to what was read.
+- **Counterpart** ✅ GM2018 s2.
+- **Truth** ✅ R9's gap statement (S-012).
+
+### A-3 · 34w
+> We argue that the role of host specifies the duty, care for the guest's safety and in what the host undertook, and that holding out, reliance and control bind it to a particular party.
+- **Form** ✅ First person, as four of five sibling abstracts (v6 ledger, A-6).
+- **Construction** ✅ 'it' the duty.
+- **Register** ✅ *specifies*, *bind*.
+- **Value** ✅ Step 1.
+- **Counterpart** ✅ GM2018 s3.
+- **Truth** ✅ S-240.
+
+### A-4 · 25w
+> When others do the work, what stays with the host depends on the duty, and several parties may hold the duty of care at once.
+- **Form** ✅ The model's 'It then asks', given as its answer.
+- **Construction** ✅ No pronoun.
+- **Register** ✅ *stays*, *depends*, *hold*.
+- **Value** ✅ Step 2. v6's 'the work can be delegated and the duty cannot' (register A-4.1, fatal) is gone.
+- **Counterpart** ✅ GM2018 s4.
+- **Truth** ✅ S-241.
+
+### A-5 · 42w
+> During the stay, we argue, the guest's claim justifies a further duty to keep some timely means by which a failure in the guest's case reaches someone able to correct it, a person algorithmic mediation can move out of the guest's path.
+- **Form** ⚠️ 42w, the abstract's longest sentence: the thesis at its one strength.
+- **Construction** ✅ 'it' a failure; 'a person ...' in apposition to 'someone able to correct it'.
+- **Register** ✅ *justifies*, *keep*, *move*.
+- **Value** ✅ Step 3 and the thesis, at 'can'.
+- **Counterpart** ✅ GM2018 s5.
+- **Truth** ✅ S-242, S-244.
+
+### A-6 · 22w
+> The article offers six questions for examining a touchpoint, states what the law already requires, and sets out what hosts can do.
+- **Form** ✅ The offer, as the model's last sentence.
+- **Construction** ✅ No pronoun.
+- **Register** ✅ *offers*, *states*, *sets out*.
+- **Value** ✅ Section 4's three products.
+- **Counterpart** ✅ GM2018 s6.
+- **Truth** ✅ Section 4.
+
+**Abstract:** about 173 words, inside the journal's 100–200.
+
+**Keywords (proposed; the authors decide):** phygital hospitality; algorithmic mediation; host duties; assembled host; service failure; accountability. 'Interruptibility' and 'guest standing' are dropped with the terms (OUR_BRIEF, terms).
