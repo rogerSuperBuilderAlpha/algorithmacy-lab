@@ -529,3 +529,14 @@ Asked through four multiple-choice questions whose options I worded; the choices
 | R8 | The HF700/PHD1750 course version | "Dec 15, ~5–6k words" — cut from the journal draft under the four course headings, Pass 2 kept as the introduction. The Dec 15 date came from a Drive note that looks AI-generated; he did not correct it. |
 
 The other defaults in `../../MODEL.md` §8 (D-c, D-d, D-e, D-f, D-g, D-h, D-i, D-j, D-k) still stand as defaults.
+
+## Complete versions (2026-11-12)
+
+On 12 Nov Roger asked to "complete the paper and create it in google docs and push all to the repo to
+main". `PAPER.md` and `COURSE_PAPER.md` are the complete versions: built from `DRAFT_v1.md` and
+`COURSE_v1.md` by moving every flag, open check and decision marker into a closing "Notes for the
+author" section (his sentences untouched, checked line by line), adopting the remaining MODEL §8
+defaults (D-c, D-d, D-e, D-f, D-h, D-i, D-j, D-k), and adding a drafted AI-use declaration whose last
+sentence is true only after his revision. Both were uploaded to his Google Drive as Google Docs, with
+his text in black and Claude's in blue. The Drive links are not recorded here because this repository
+is public.

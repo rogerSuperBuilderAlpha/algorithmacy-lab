@@ -26,6 +26,8 @@ algorithmacy's three competencies. Target: *Theoretical Issues in Ergonomics Sci
 
 | File | Contents |
 |---|---|
+| `PAPER.md` | **The complete journal version (12 Nov 2026).** Roger's Pass 2 verbatim; Claude's text marked [DRAFTED]; fact flags, open checks and adopted defaults moved to "Notes for the author"; AI-use declaration drafted for Roger to confirm. Also in Roger's Google Drive (folder "DXD model paper — Animate the Decision (Nov 2026)"), colour-coded: his text black, Claude's blue |
+| `COURSE_PAPER.md` | The complete HF700/PHD1750 course version, built the same way (also in the Drive folder) |
 | `MODEL.md` | Concept dossier: every construct with its wording history, the model (three rows, two rules), propositions P1–P7, evidence by read depth, and decisions D-a to D-m for Roger |
 | `OUTLINE_v2.md` | Journal structure; Pass 2 kept whole as the introduction |
 | `DRAFT_v1.md` | Full draft (~8,400 words with references, under TIES's 10,000); Roger's sentences verbatim, everything else marked [DRAFTED], flags and decisions in brackets |
