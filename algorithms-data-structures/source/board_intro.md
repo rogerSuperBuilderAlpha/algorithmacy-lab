@@ -5,11 +5,12 @@ subtitle: Student answer sheets. Algorithms & Data Structures, Professor Roger H
 
 Use one sheet for each problem. Solve the problem at the board in chalk first, and then copy your Python solution onto the sheet and fill in the analysis below it.
 
-1. Phones and computers are locked away for the whole class, and you work on your own.
+1. Phones and computers are locked away for the first half of class, while you work at the board, and you work on your own.
 2. Write a plain Python function. You may use anything built into Python, plus `deque` from the `collections` module and the `heapq` module.
 3. State the time complexity and the auxiliary space in Big-O. Auxiliary space is the extra memory your solution uses beyond its input, and anything your solution builds and returns counts toward it.
 4. Estimate the memory for the input size printed on the sheet. Give the memory that the input uses, the memory that your own data uses, and the total, in bytes, and write down your assumptions.
 5. If you get stuck, you may ask for help once you have made two attempts that did not work. Write both attempts at the bottom of the sheet before you ask.
+6. A correct answer earns 50 points of extra credit, which makes up for missed classes. An answer is correct when the solution works, the time and space are right, and the memory estimate is within about 30 percent of the key.
 
 ## Memory sizes in CPython 3.13 on a 64-bit machine
 

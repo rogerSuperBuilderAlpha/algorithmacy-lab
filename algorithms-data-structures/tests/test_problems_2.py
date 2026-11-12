@@ -1,5 +1,6 @@
-"""Correctness tests for classes 16-22: LeetCode examples, edge cases, random inputs vs brute force,
-and runs at LeetCode's constraint limits. Run: /opt/homebrew/bin/python3.13 test_correctness_16_22.py"""
+"""Correctness tests for 14 board solutions, #700 through #684 (Classes 14 to 22 of draft 3, apart
+from Classes 15 and 21, which test_problems_4.py covers): LeetCode examples, edge cases, random
+inputs vs brute force, and runs at LeetCode's constraint limits. Run: python3.13 -s test_problems_2.py"""
 import copy, random, sys, time, itertools
 from collections import Counter, deque
 import board_solutions as S

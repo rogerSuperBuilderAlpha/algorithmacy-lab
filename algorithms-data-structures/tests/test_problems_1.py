@@ -1,4 +1,5 @@
-# Correctness tests for the 30 board solutions of classes 1-15.
+# Correctness tests for 24 board solutions: #1480 through #102 in course order, Classes 1 to 13
+# of draft 3, apart from the Class 11 problems, which test_problems_4.py covers.
 # For each problem: LeetCode examples (from fetched/digest.txt), edge cases,
 # random inputs compared with a brute-force reference, and one timed run at
 # LeetCode's maximum constraint. Run: python3.13 -I test_correctness.py
@@ -212,14 +213,6 @@ def ref125(s):
 report(125, check(0, ex, B.isPalindrome, ref125), check(0, edge, B.isPalindrome, ref125),
        check(0, rnd, B.isPalindrome, ref125), len(rnd), timed(B.isPalindrome, 'a' * 200000))
 
-# 977 squares
-ex = [([-4, -1, 0, 3, 10],), ([-7, -3, 2, 3, 11],)]
-edge = [([0],), ([-10**4],), ([-10**4, 10**4],), ([-5, -3, -1],), ([1, 2, 3],), ([-2, -2, 2, 2],)]
-rnd = [(sorted(ri(-10, 10) for _ in range(ri(1, 12))),) for _ in range(3000)]
-ref = lambda nums: sorted(x * x for x in nums)
-report(977, check(0, ex, B.sortedSquares, ref), check(0, edge, B.sortedSquares, ref),
-       check(0, rnd, B.sortedSquares, ref), len(rnd), timed(B.sortedSquares, sorted(ri(-10**4, 10**4) for _ in range(10**4))))
-
 # 643 max average
 ex = [([1, 12, -5, -6, 50, 3], 4), ([5], 1)]
 edge = [([-10**4] * 5, 5), ([10**4] * 5, 1), ([-1, -2, -3], 2), ([3, -1, 4], 3)]
@@ -231,14 +224,6 @@ close = lambda a, b: abs(a - b) < 1e-5
 report(643, check(0, ex, B.findMaxAverage, ref, close), check(0, edge, B.findMaxAverage, ref, close),
        check(0, rnd, B.findMaxAverage, ref, close), len(rnd),
        timed(B.findMaxAverage, [ri(-10**4, 10**4) for _ in range(10**5)], 50000))
-
-# 121 stock
-ex = [([7, 1, 5, 3, 6, 4],), ([7, 6, 4, 3, 1],)]
-edge = [([5],), ([1, 10**4],), ([10**4, 0],), ([2, 2, 2],), ([0, 10**4, 0, 10**4],)]
-rnd = [([ri(0, 20) for _ in range(ri(1, 12))],) for _ in range(3000)]
-ref = lambda p: max([0] + [p[j] - p[i] for i in range(len(p)) for j in range(i + 1, len(p))])
-report(121, check(0, ex, B.maxProfit, ref), check(0, edge, B.maxProfit, ref), check(0, rnd, B.maxProfit, ref), len(rnd),
-       timed(B.maxProfit, [ri(0, 10**4) for _ in range(10**5)]))
 
 # 20 valid parentheses
 ex = [("()",), ("()[]{}",), ("(]",), ("([])",), ("([)]",)]
@@ -313,38 +298,6 @@ rnd = [mk232(ri(1, 100)) for _ in range(2000)]
 report(232, check(0, ex, run232, ref232), check(0, edge, run232, ref232), check(0, rnd, run232, ref232), len(rnd),
        timed(run232, mk232(100)[0]))
 
-# 496 next greater element I
-def ref496(nums1, nums2):
-    out = []
-    for x in nums1:
-        j = nums2.index(x); nxt = -1
-        for y in nums2[j + 1:]:
-            if y > x: nxt = y; break
-        out.append(nxt)
-    return out
-def mk496(n2):
-    nums2 = random.sample(range(0, 10**4 + 1), n2); nums1 = random.sample(nums2, ri(1, n2)); return (nums1, nums2)
-ex = [([4, 1, 2], [1, 3, 4, 2]), ([2, 4], [1, 2, 3, 4])]
-edge = [([5], [5]), ([0], [0, 10**4]), (list(range(1000, 0, -1)), list(range(1000, 0, -1))), (list(range(1000)), list(range(1000)))]
-rnd = [mk496(ri(1, 12)) for _ in range(3000)]
-report(496, check(0, ex, B.nextGreaterElement, ref496), check(0, edge, B.nextGreaterElement, ref496),
-       check(0, rnd, B.nextGreaterElement, ref496), len(rnd), timed(B.nextGreaterElement, *mk496(1000)))
-
-# 739 daily temperatures
-def ref739(T):
-    out = []
-    for i, t in enumerate(T):
-        w = 0
-        for j in range(i + 1, len(T)):
-            if T[j] > t: w = j - i; break
-        out.append(w)
-    return out
-ex = [([73, 74, 75, 71, 69, 72, 76, 73],), ([30, 40, 50, 60],), ([30, 60, 90],)]
-edge = [([30],), ([100] * 50,), (list(range(100, 29, -1)),), ([30, 100],)]
-rnd = [([ri(30, 40) for _ in range(ri(1, 15))],) for _ in range(3000)]
-report(739, check(0, ex, B.dailyTemperatures, ref739), check(0, edge, B.dailyTemperatures, ref739),
-       check(0, rnd, B.dailyTemperatures, ref739), len(rnd), timed(B.dailyTemperatures, [ri(30, 100) for _ in range(10**5)]))
-
 # 206 reverse linked list
 run206 = lambda vals: from_ll(B.reverseList(to_ll(vals)))
 ref = lambda vals: vals[::-1]
@@ -396,28 +349,6 @@ edge = [(1.0, 2**31 - 1), (1.0, -2**31), (-1.0, -2**31), (-1.0, 2**31 - 1), (2.0
 rnd = [mk50() for _ in range(5000)]
 report(50, check(0, ex, B.myPow, ref50, close50), check(0, edge, B.myPow, ref50, close50),
        check(0, rnd, B.myPow, ref50, close50), len(rnd), timed(B.myPow, 1.0, -2**31))
-
-# 136 single number
-def mk136(pairs, lo=-3 * 10**4, hi=3 * 10**4):
-    vals = random.sample(range(lo, hi + 1), pairs + 1); nums = vals[:-1] * 2 + [vals[-1]]; random.shuffle(nums); return (nums,)
-ref = lambda nums: [k for k, c in Counter(nums).items() if c == 1][0]
-ex = [([2, 2, 1],), ([4, 1, 2, 1, 2],), ([1],)]
-edge = [([-3 * 10**4],), ([3 * 10**4, -3 * 10**4, 3 * 10**4],), ([0, 5, 5],)]
-rnd = [mk136(ri(0, 8)) for _ in range(3000)]
-report(136, check(0, ex, B.singleNumber_136, ref), check(0, edge, B.singleNumber_136, ref),
-       check(0, rnd, B.singleNumber_136, ref), len(rnd), timed(B.singleNumber_136, mk136(14999)[0]))
-
-# 260 single number III (any order)
-def mk260(pairs, lo=-2**31, hi=2**31 - 1):
-    vals = random.sample(range(lo, hi + 1), pairs + 2) if hi - lo > 100 else random.sample(range(lo, hi + 1), pairs + 2)
-    nums = vals[:pairs] * 2 + vals[pairs:]; random.shuffle(nums); return (nums,)
-ref = lambda nums: sorted(k for k, c in Counter(nums).items() if c == 1)
-eq = lambda got, exp: sorted(got) == exp
-ex = [([1, 2, 1, 3, 2, 5],), ([-1, 0],), ([0, 1],)]
-edge = [([-2**31, 0],), ([-2**31, 2**31 - 1],), ([2**31 - 1, -1],), ([-1, -2, 5, 5],), ([-2**31, -2**31 + 1, 7, 7],)]
-rnd = [mk260(ri(0, 8)) for _ in range(3000)] + [mk260(ri(0, 6), -8, 8) for _ in range(3000)]
-report(260, check(0, ex, B.singleNumber_260, ref, eq), check(0, edge, B.singleNumber_260, ref, eq),
-       check(0, rnd, B.singleNumber_260, ref, eq), len(rnd), timed(B.singleNumber_260, mk260(14999)[0]))
 
 # 1331 rank transform
 def ref1331(arr):

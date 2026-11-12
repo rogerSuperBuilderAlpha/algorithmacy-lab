@@ -9,7 +9,7 @@ Every board solution in this key has been run on Python 3.13 against LeetCode's 
 
 # How to use this key
 
-**Credit.** An answer earns extra credit only if the student can explain and defend it. Ask why the solution works, why its complexity is what the student wrote, and what would change for a different input.
+**Credit.** A correct board problem earns 50 points of extra credit, and every 100 points make up one missed class. An answer earns that credit only if the student can explain and defend it. Ask why the solution works, why its complexity is what the student wrote, and what would change for a different input.
 
 **Auxiliary space.** Auxiliary space is the extra memory a solution uses beyond its input, and it includes anything the solution builds and returns. Where the output dominates, as in Subsets or N-Queens, the key says so.
 

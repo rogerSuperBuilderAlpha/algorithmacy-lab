@@ -1,4 +1,4 @@
-# Running Sum of 1d Array {.problem number="1480" classno="1" slot="A" level="Easy" topic="Big-O and Python memory" url="https://leetcode.com/problems/running-sum-of-1d-array/"}
+# Running Sum of 1d Array {.problem number="1480" classno="1" slot="A" level="Easy" topic="Big-O, Big-Omega, Big-Theta and Python memory" url="https://leetcode.com/problems/running-sum-of-1d-array/"}
 
 ::: statement
 You are given a list of integers, `nums`. Return a list in which entry `i` is the sum of `nums[0]` through `nums[i]`. This list is called the running sum.
@@ -55,7 +55,7 @@ Accept about 150 bytes of auxiliary data from a student who assumes that every s
 | `itertools.accumulate`, which is not allowed at the board | O(n) | O(n) |
 :::
 
-# Contains Duplicate {.problem number="217" classno="1" slot="B" level="Easy" topic="Big-O and Python memory" url="https://leetcode.com/problems/contains-duplicate/"}
+# Contains Duplicate {.problem number="217" classno="1" slot="B" level="Easy" topic="Big-O, Big-Omega, Big-Theta and Python memory" url="https://leetcode.com/problems/contains-duplicate/"}
 
 ::: statement
 You are given a list of integers, `nums`. Return `True` if any value appears at least twice in the list, and `False` if every value is distinct.
@@ -119,7 +119,7 @@ A set grows by building a bigger table and copying itself into it. During the la
 | A set (the solution above) | O(n) | O(n) |
 :::
 
-# Move Zeroes {.problem number="283" classno="2" slot="A" level="Easy" topic="Arrays and in-place updates" url="https://leetcode.com/problems/move-zeroes/"}
+# Move Zeroes {.problem number="283" classno="2" slot="A" level="Easy" topic="Arrays and dynamic arrays" url="https://leetcode.com/problems/move-zeroes/"}
 
 ::: statement
 You are given a list of integers, `nums`. Move every 0 to the end of the list while keeping the non-zero values in their original order. You must change the list in place, without making a copy.
@@ -178,7 +178,7 @@ Every 0 in the list is the same shared object, so only the 50,000 non-zero value
 | Write the non-zero values forward, then fill the rest of the list with zeros | O(n) | O(1) |
 :::
 
-# Merge Sorted Array {.problem number="88" classno="2" slot="B" level="Easy" topic="Arrays and in-place updates" url="https://leetcode.com/problems/merge-sorted-array/"}
+# Merge Sorted Array {.problem number="88" classno="2" slot="B" level="Easy" topic="Arrays and dynamic arrays" url="https://leetcode.com/problems/merge-sorted-array/"}
 
 ::: statement
 You are given two sorted lists. `nums1` has length m + n: its first m entries are values in sorted order, and its last n entries are zeros that serve as empty room. `nums2` holds n values in sorted order. Merge `nums2` into `nums1` so that `nums1` holds all m + n values in sorted order. Change `nums1` in place.
@@ -363,7 +363,7 @@ The prefix list is built with `append`, so it carries some spare slots. At this 
 | A prefix-sum list (the solution above) | O(n) to build, O(1) per call | O(n) |
 :::
 
-# Valid Anagram {.problem number="242" classno="4" slot="A" level="Easy" topic="Hash sets and hash maps" url="https://leetcode.com/problems/valid-anagram/"}
+# Valid Anagram {.problem number="242" classno="4" slot="A" level="Easy" topic="Hash tables" url="https://leetcode.com/problems/valid-anagram/"}
 
 ::: statement
 You are given two strings, `s` and `t`, made of lowercase letters. Return `True` if `t` is an anagram of `s`, which means that it uses exactly the same letters the same number of times, and `False` otherwise.
@@ -426,7 +426,7 @@ The one-letter keys are shared strings, so they cost nothing extra. A dict with 
 | A list of 26 counters, one for each letter | O(n) | O(1) |
 :::
 
-# Two Sum {.problem number="1" classno="4" slot="B" level="Easy" topic="Hash sets and hash maps" url="https://leetcode.com/problems/two-sum/"}
+# Two Sum {.problem number="1" classno="4" slot="B" level="Easy" topic="Hash tables" url="https://leetcode.com/problems/two-sum/"}
 
 ::: statement
 You are given a list of integers, `nums`, and an integer, `target`. Return the indexes of the two numbers that add up to `target`. Exactly one such pair exists, and you may not use the same position twice.
@@ -485,7 +485,7 @@ The keys point to integers that already exist in the input. Each stored index ab
 | Sort (value, index) pairs, then move two pointers inward | O(n log n) | O(n) |
 :::
 
-# Valid Palindrome {.problem number="125" classno="5" slot="A" level="Easy" topic="Two pointers" url="https://leetcode.com/problems/valid-palindrome/"}
+# Valid Palindrome {.problem number="125" classno="5" slot="A" level="Easy" topic="Two pointers and sliding windows" url="https://leetcode.com/problems/valid-palindrome/"}
 
 ::: statement
 A phrase is a palindrome if, after you turn every uppercase letter into lowercase and remove every character that is not a letter or a digit, it reads the same forward and backward. Given a string `s`, return `True` if it is a palindrome and `False` otherwise.
@@ -547,71 +547,7 @@ def isPalindrome(s):
 | Clean the string, then compare it with its reverse | O(n) | O(n) |
 :::
 
-# Squares of a Sorted Array {.problem number="977" classno="5" slot="B" level="Easy" topic="Two pointers" url="https://leetcode.com/problems/squares-of-a-sorted-array/"}
-
-::: statement
-You are given a list of integers, `nums`, sorted in non-decreasing order; it may contain negative numbers. Return a new list of the squares of the numbers, also sorted in non-decreasing order.
-
-For example, `nums = [-4, -1, 0, 3, 10]` gives `[0, 1, 9, 16, 100]`.
-
-Start with `def sortedSquares(nums):`
-:::
-
-::: memory
-Estimate the memory for n = 10,000 values, which is LeetCode's limit, with values in the thousands, so that every square is a new integer above 256.
-:::
-
-::: key
-## Solution
-
-```python
-def sortedSquares(nums):
-    n = len(nums)
-    result = [0] * n
-    left = 0
-    right = n - 1
-    for k in range(n - 1, -1, -1):
-        if abs(nums[left]) > abs(nums[right]):
-            result[k] = nums[left] * nums[left]
-            left += 1
-        else:
-            result[k] = nums[right] * nums[right]
-            right -= 1
-    return result
-```
-
-## How the solution works
-
-1. Squaring every value and then sorting costs O(n log n). The solution can do better because the input is already sorted.
-2. The largest square comes from one of the two ends: either a large negative number or a large positive one.
-3. The solution puts a pointer at each end and compares `abs(nums[left])` with `abs(nums[right])`. The larger one gives the largest remaining square.
-4. It writes that square at the back of the result, at position `k`, which runs from n − 1 down to 0, and moves that pointer inward.
-5. Every position of the result is written once, from the largest square to the smallest.
-
-## Time and space
-
-**Time: O(n).** The loop takes n steps, and each step moves one pointer.
-
-**Auxiliary space: O(n).** The result list holds n squares, and each square is a new integer.
-
-## Memory estimate
-
-`[0] * n` builds a list of exactly n slots, with no spare room.
-
-| Part | How it is counted | Estimate |
-|----------|-------------------------------------------------|-------------:|
-| Input | 56 + 8n + 28n | 352 KB |
-| Auxiliary | result list, 56 + 8n, plus n new squares × 28 bytes | 352 KB |
-| Total | input plus auxiliary | 703 KB |
-
-## Other approaches
-
-| Approach | Time | Auxiliary space |
-|----------------------------------------|----------------|----------------|
-| Square every value, then sort | O(n log n) | O(n) |
-:::
-
-# Maximum Average Subarray I {.problem number="643" classno="6" slot="A" level="Easy" topic="Sliding window" url="https://leetcode.com/problems/maximum-average-subarray-i/"}
+# Maximum Average Subarray I {.problem number="643" classno="5" slot="B" level="Easy" topic="Two pointers and sliding windows" url="https://leetcode.com/problems/maximum-average-subarray-i/"}
 
 ::: statement
 You are given a list of integers, `nums`, and an integer, `k`. Find the run of k neighboring values that has the largest average, and return that average.
@@ -671,65 +607,7 @@ def findMaxAverage(nums, k):
 | Prefix sums: each window is `prefix[i + k] - prefix[i]` | O(n) | O(n) |
 :::
 
-# Best Time to Buy and Sell Stock {.problem number="121" classno="6" slot="B" level="Easy" topic="Sliding window" url="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"}
-
-::: statement
-`prices[i]` is the price of a stock on day i. You choose one day to buy and a later day to sell. Return the largest profit you can make, or 0 if no profit is possible.
-
-For example, `prices = [7, 1, 5, 3, 6, 4]` gives 5, by buying at 1 and selling at 6, and `prices = [7, 6, 4, 3, 1]` gives 0.
-
-Start with `def maxProfit(prices):`
-:::
-
-::: memory
-Estimate the memory for n = 100,000 prices, which is LeetCode's limit, all above 256.
-:::
-
-::: key
-## Solution
-
-```python
-def maxProfit(prices):
-    left = 0
-    best = 0
-    for right in range(1, len(prices)):
-        if prices[right] < prices[left]:
-            left = right
-        else:
-            best = max(best, prices[right] - prices[left])
-    return best
-```
-
-## How the solution works
-
-1. Think of the window from `left` to `right`: `left` is the day you buy, and `right` is the day you sell.
-2. The brute-force approach tries every pair of buying and selling days, which takes O(n²) time.
-3. The solution moves `right` across the days. If the price on day `right` is lower than the price on the buying day, it has found a better day to buy, so it sets `left = right`.
-4. Otherwise day `right` is a possible day to sell, with profit `prices[right] - prices[left]`, and the solution keeps the largest profit it has seen.
-5. The window never moves backward, so one pass is enough.
-
-## Time and space
-
-**Time: O(n).** `right` visits each day once.
-
-**Auxiliary space: O(1).** The solution keeps `left`, `right` and `best`.
-
-## Memory estimate
-
-| Part | How it is counted | Estimate |
-|----------|-------------------------------------------------|-------------:|
-| Input | 56 + 8n + 28n | 3.4 MB |
-| Auxiliary | `left`, `right`, `best` and one temporary integer | about 150 bytes |
-| Total | input plus auxiliary | 3.4 MB |
-
-## Other approaches
-
-| Approach | Time | Auxiliary space |
-|----------------------------------------|----------------|----------------|
-| Brute force: try every pair of buying and selling days | O(n²) | O(1) |
-:::
-
-# Valid Parentheses {.problem number="20" classno="7" slot="A" level="Easy" topic="Stacks" url="https://leetcode.com/problems/valid-parentheses/"}
+# Valid Parentheses {.problem number="20" classno="6" slot="A" level="Easy" topic="Stacks" url="https://leetcode.com/problems/valid-parentheses/"}
 
 ::: statement
 You are given a string, `s`, that contains only the characters `(`, `)`, `[`, `]`, `{` and `}`. Return `True` if the string is valid and `False` otherwise. A string is valid when every opening bracket is closed by a bracket of the same type, the brackets close in the correct order, and every closing bracket has a matching opening bracket of the same type.
@@ -790,7 +668,7 @@ The one-character strings are shared, so the stack holds only pointers. A list b
 | Repeatedly delete `"()"`, `"[]"` and `"{}"` from the string until nothing changes | O(n²) | O(n) |
 :::
 
-# Backspace String Compare {.problem number="844" classno="7" slot="B" level="Easy" topic="Stacks" url="https://leetcode.com/problems/backspace-string-compare/"}
+# Backspace String Compare {.problem number="844" classno="6" slot="B" level="Easy" topic="Stacks" url="https://leetcode.com/problems/backspace-string-compare/"}
 
 ::: statement
 Two strings, `s` and `t`, contain lowercase letters and the character `#`, which stands for a backspace: it deletes the character before it, and it does nothing if there is none. Return `True` if the two strings are equal once every backspace has been applied, and `False` otherwise.
@@ -852,7 +730,7 @@ The one-character strings are shared, so the stacks hold only pointers. A list b
 | Two pointers moving backward from the end of each string, skipping deleted letters | O(n + m) | O(1) |
 :::
 
-# Number of Recent Calls {.problem number="933" classno="8" slot="A" level="Easy" topic="Queues and deques" url="https://leetcode.com/problems/number-of-recent-calls/"}
+# Number of Recent Calls {.problem number="933" classno="7" slot="A" level="Easy" topic="Queues and deques" url="https://leetcode.com/problems/number-of-recent-calls/"}
 
 ::: statement
 Design a class `RecentCounter`. Its method `ping(t)` records a request at time t, measured in milliseconds, and returns how many requests have arrived in the last 3,000 milliseconds, from t − 3000 to t, including this one. Each call uses a larger t than the call before it.
@@ -916,7 +794,7 @@ The caller creates the times, which are integers, and the deque holds pointers t
 | Use a list as the queue and remove old times with `pop(0)` | O(W) per removal | O(W) |
 :::
 
-# Implement Queue using Stacks {.problem number="232" classno="8" slot="B" level="Easy" topic="Queues and deques" url="https://leetcode.com/problems/implement-queue-using-stacks/"}
+# Implement Queue using Stacks {.problem number="232" classno="7" slot="B" level="Easy" topic="Queues and deques" url="https://leetcode.com/problems/implement-queue-using-stacks/"}
 
 ::: statement
 Implement a first-in, first-out queue using only two stacks. The stacks are Python lists that you may use only with `append`, `pop()` from the end, `[-1]` to look at the end, and `len`. Provide the methods `push(x)`, `pop()`, `peek()` and `empty()`. Every call to `pop` and `peek` is made on a queue that is not empty.
@@ -988,130 +866,7 @@ While all 100,000 items sit in the inbox, the inbox is a list built by 100,000 a
 | Pour only when the outbox is empty (the solution above) | O(1) amortized | O(n) |
 :::
 
-# Next Greater Element I {.problem number="496" classno="9" slot="A" level="Easy" topic="Monotonic stack and deque" url="https://leetcode.com/problems/next-greater-element-i/"}
-
-::: statement
-You are given two lists of distinct integers, `nums1` and `nums2`, where every value of `nums1` also appears in `nums2`. For each value x in `nums1`, find x in `nums2` and return the first value to its right in `nums2` that is greater than x, or −1 if there is none. Return the answers in the order of `nums1`.
-
-For example, `nums1 = [4, 1, 2]` and `nums2 = [1, 3, 4, 2]` give `[-1, 3, -1]`.
-
-Start with `def nextGreaterElement(nums1, nums2):`
-:::
-
-::: memory
-Estimate the memory for n = m = 1,000, which is LeetCode's limit, where `nums2` is a random ordering of distinct values and `nums1` holds the same values as `nums2`.
-:::
-
-::: key
-## Solution
-
-```python
-def nextGreaterElement(nums1, nums2):
-    greater = {}
-    stack = []
-    for x in nums2:
-        while stack and stack[-1] < x:
-            greater[stack.pop()] = x
-        stack.append(x)
-    return [greater.get(x, -1) for x in nums1]
-```
-
-## How the solution works
-
-1. The brute-force approach finds each x in `nums2` and scans to its right. That takes O(n × m) time.
-2. The solution scans `nums2` once instead, keeping a stack of the values that are still waiting for a greater value. The stack stays in decreasing order from bottom to top, which makes it a monotonic stack.
-3. When x arrives, every value on top of the stack that is smaller than x has found its answer, which is x. The solution pops each of those values and records `greater[value] = x`.
-4. Then it pushes x. A value that is never popped has no greater value to its right, so its answer is −1.
-5. Finally the solution answers each query from `nums1` with a dict lookup.
-
-## Time and space
-
-**Time: O(n + m).** Each value of `nums2` is pushed once and popped at most once, and each element of `nums1` needs one lookup.
-
-**Auxiliary space: O(n + m).** The stack and the dict together hold at most n values, and the answer list holds m.
-
-## Memory estimate
-
-The two input lists point to the same integers, so the integers are counted once. The stack and the dict hold pointers to those integers and create no new ones. The stack and the dict are never both full, because every value popped from the stack goes into the dict; on a random ordering the stack stays short. A dict of 1,000 integer keys is 36,952 bytes, and the answer list, built by a comprehension, is 8,856 bytes.
-
-| Part | How it is counted | Estimate |
-|----------|-------------------------------------------------|-------------:|
-| Input | two lists, 2 × (56 + 8n), plus 1,000 shared integers × 28 bytes | 43 KB |
-| Auxiliary | dict (36 KB), answer list (8.6 KB) and a short stack | about 45 KB |
-| Total | input plus auxiliary | about 88 KB |
-
-The dict briefly holds both its old and its new table the last time it grows, so the auxiliary memory peaks at about 54 KB.
-
-## Other approaches
-
-| Approach | Time | Auxiliary space |
-|----------------------------------------|----------------|----------------|
-| Brute force: scan to the right of each x | O(n × m) | O(m) for the answer list |
-| A monotonic stack (the solution above) | O(n + m) | O(n + m) |
-:::
-
-# Daily Temperatures {.problem number="739" classno="9" slot="B" level="Medium" topic="Monotonic stack and deque" url="https://leetcode.com/problems/daily-temperatures/"}
-
-::: statement
-`temperatures[i]` is the temperature on day i. Return a list, `answer`, in which `answer[i]` is the number of days you must wait after day i to get a warmer temperature. If no later day is warmer, `answer[i]` is 0.
-
-For example, `temperatures = [73, 74, 75, 71, 69, 72, 76, 73]` gives `[1, 1, 4, 2, 1, 1, 0, 0]`.
-
-Start with `def dailyTemperatures(temperatures):`
-:::
-
-::: memory
-Estimate the memory for n = 100,000 days, which is LeetCode's limit, all with the same temperature. This is the worst case for the size of the stack, because no day is ever popped.
-:::
-
-::: key
-## Solution
-
-```python
-def dailyTemperatures(temperatures):
-    answer = [0] * len(temperatures)
-    stack = []
-    for i, t in enumerate(temperatures):
-        while stack and temperatures[stack[-1]] < t:
-            j = stack.pop()
-            answer[j] = i - j
-        stack.append(i)
-    return answer
-```
-
-## How the solution works
-
-1. The brute-force approach scans forward from each day until it finds a warmer day. That takes O(n²) time in the worst case, a long run of equal or falling temperatures.
-2. The solution keeps a stack of the days whose warmer day has not been found yet. Their temperatures never increase from the bottom of the stack to the top, so this is a monotonic stack.
-3. Today, day i with temperature t, is the warmer day for every day on top of the stack with a lower temperature. The solution pops each such day, j, and sets `answer[j] = i - j`.
-4. Then it pushes i. Days left on the stack at the end keep their answer of 0.
-5. Each day is pushed once and popped at most once.
-
-## Time and space
-
-**Time: O(n).** Each index is pushed once and popped at most once, so the inner loop pops at most n times in total.
-
-**Auxiliary space: O(n).** The stack can hold every index, for example when all the temperatures are equal, and the answer list holds n entries.
-
-## Memory estimate
-
-LeetCode's temperatures lie between 30 and 100, so they are shared small integers, and the input costs only its pointers. The answer list holds n zeros, which are also shared. The stack holds the indexes that `enumerate` creates, and every index above 256 is a new integer: 99,743 of them. A list built by 100,000 appends is 800,984 bytes.
-
-| Part | How it is counted | Estimate |
-|----------|-------------------------------------------------|-------------:|
-| Input | 56 + 8n | 781 KB |
-| Auxiliary | answer list, 56 + 8n (781 KB); stack of 100,000 pointers (782 KB); 99,743 new index integers × 28 bytes (2.7 MB) | 4.2 MB |
-| Total | input plus auxiliary | 5.0 MB |
-
-## Other approaches
-
-| Approach | Time | Auxiliary space |
-|----------------------------------------|----------------|----------------|
-| Brute force: scan forward from each day | O(n²) | O(n) for the answer list |
-| A monotonic stack (the solution above) | O(n) | O(n) |
-:::
-
-# Reverse Linked List {.problem number="206" classno="10" slot="A" level="Easy" topic="Linked lists" url="https://leetcode.com/problems/reverse-linked-list/"}
+# Reverse Linked List {.problem number="206" classno="8" slot="A" level="Easy" topic="Linked lists" url="https://leetcode.com/problems/reverse-linked-list/"}
 
 ::: statement
 You are given `head`, the first node of a singly linked list. Reverse the list and return its new first node.
@@ -1173,7 +928,7 @@ A `ListNode` costs about 90 bytes for the node and its pointer, plus 28 bytes fo
 | Rewire the pointers in one pass (the solution above) | O(n) | O(1) |
 :::
 
-# Remove Nth Node From End of List {.problem number="19" classno="10" slot="B" level="Medium" topic="Linked lists" url="https://leetcode.com/problems/remove-nth-node-from-end-of-list/"}
+# Remove Nth Node From End of List {.problem number="19" classno="8" slot="B" level="Medium" topic="Linked lists" url="https://leetcode.com/problems/remove-nth-node-from-end-of-list/"}
 
 ::: statement
 You are given `head`, the first node of a singly linked list, and an integer n. Remove the nth node from the end of the list and return the first node of the result. When n is 1, the last node is removed. The value of n is always valid.
@@ -1237,7 +992,7 @@ The values are shared small integers, so each node costs about 90 bytes.
 | Two pointers n nodes apart (the solution above) | O(L), one pass | O(1) |
 :::
 
-# Fibonacci Number {.problem number="509" classno="11" slot="A" level="Easy" topic="Recursion" url="https://leetcode.com/problems/fibonacci-number/"}
+# Fibonacci Number {.problem number="509" classno="9" slot="A" level="Easy" topic="Recursion and divide and conquer" url="https://leetcode.com/problems/fibonacci-number/"}
 
 ::: statement
 The Fibonacci numbers start with F(0) = 0 and F(1) = 1, and every later number is the sum of the two before it: F(n) = F(n − 1) + F(n − 2). Given n, where 0 ≤ n ≤ 30, return F(n).
@@ -1296,7 +1051,7 @@ The memo ends with 31 entries, and a dict of that size is 1,168 bytes. The value
 | A loop that keeps only the last two values | O(n) | O(1) |
 :::
 
-# Pow(x, n) {.problem number="50" classno="11" slot="B" level="Medium" topic="Recursion" url="https://leetcode.com/problems/powx-n/"}
+# Pow(x, n) {.problem number="50" classno="9" slot="B" level="Medium" topic="Recursion and divide and conquer" url="https://leetcode.com/problems/powx-n/"}
 
 ::: statement
 Compute x raised to the power n, where x is a float and n is an integer that can be negative, zero or positive. The exponent n lies between −2^31^ and 2^31^ − 1, so a loop that multiplies x by itself n times is far too slow. LeetCode also guarantees that −100 < x < 100, that x is not zero whenever n is zero or negative, and that the answer lies between −10^4^ and 10^4^.
@@ -1359,124 +1114,7 @@ On the way down, each frame holds its own exponent. About 23 of the 32 exponents
 | Iterative fast exponentiation, which reads the bits of n in a loop | O(log n) | O(1) |
 :::
 
-# Single Number {.problem number="136" classno="12" slot="A" level="Easy" topic="Bit manipulation" url="https://leetcode.com/problems/single-number/"}
-
-::: statement
-In a list of integers, `nums`, every value appears exactly twice except one value, which appears once. Return the value that appears once, using only O(1) extra space.
-
-For example, `nums = [4, 1, 2, 1, 2]` gives 4.
-
-Start with `def singleNumber(nums):`
-:::
-
-::: memory
-Estimate the memory for n = 30,000 values, which is LeetCode's limit, made of distinct values above 256 that each appear twice. Assume that both copies of a value are the same integer object.
-:::
-
-::: key
-## Solution
-
-```python
-def singleNumber(nums):
-    result = 0
-    for x in nums:
-        result ^= x
-    return result
-```
-
-## How the solution works
-
-1. A hash set or a dict of counts solves the problem in O(n) time, but it uses O(n) space, and the problem asks for O(1).
-2. XOR, written `^`, follows three useful rules: x ^ x = 0, x ^ 0 = x, and the order of the operations does not matter.
-3. The solution XORs all the numbers together. Every value that appears twice cancels to 0.
-4. Only the single value is left, so `result` equals that value.
-5. On `[4, 1, 2, 1, 2]` the result is 4 ^ (1 ^ 1) ^ (2 ^ 2) = 4 ^ 0 ^ 0 = 4.
-
-## Time and space
-
-**Time: O(n).** The solution makes one pass with one XOR for each element.
-
-**Auxiliary space: O(1).** It keeps one integer.
-
-## Memory estimate
-
-Each XOR produces a temporary integer and frees the previous one, so only a few exist at a time.
-
-| Part | How it is counted | Estimate |
-|----------|-------------------------------------------------|-------------:|
-| Input | 56 + 8n, plus 28 bytes for each of the n/2 distinct values | 645 KB |
-| Auxiliary | `result`, `x` and one temporary integer | about 100 bytes |
-| Total | input plus auxiliary | 645 KB |
-
-## Other approaches
-
-| Approach | Time | Auxiliary space |
-|----------------------------------------|----------------|----------------|
-| A set: add a value the first time it appears and remove it the second time | O(n) | O(n) |
-| A dict of counts | O(n) | O(n) |
-| Sort, then check neighbors in pairs | O(n log n) | O(n) in Python, because of the sort's buffer |
-:::
-
-# Single Number III {.problem number="260" classno="12" slot="B" level="Medium" topic="Bit manipulation" url="https://leetcode.com/problems/single-number-iii/"}
-
-::: statement
-In a list of integers, `nums`, exactly two values appear once and every other value appears exactly twice. Return the two values that appear once, in either order. Use O(n) time and O(1) extra space.
-
-For example, `nums = [1, 2, 1, 3, 2, 5]` gives `[3, 5]`.
-
-Start with `def singleNumber(nums):`
-:::
-
-::: memory
-Estimate the memory for n = 30,000 values, which is LeetCode's limit, made of distinct values in pairs plus the two values that appear once. Assume that both copies of a value are the same integer object.
-:::
-
-::: key
-## Solution
-
-```python
-def singleNumber(nums):
-    xor_all = 0
-    for x in nums:
-        xor_all ^= x
-    low = xor_all & -xor_all
-    a = 0
-    for x in nums:
-        if x & low:
-            a ^= x
-    return [a, xor_all ^ a]
-```
-
-## How the solution works
-
-1. Call the two values that appear once a and b. The XOR of every number is a ^ b, because the pairs cancel.
-2. a and b differ, so a ^ b is not zero and has at least one bit set to 1. At that bit, a and b differ: one has a 0 and the other has a 1.
-3. `low = xor_all & -xor_all` keeps only the lowest bit of `xor_all` that is set to 1. For example, 6, which is 110 in binary, gives 010.
-4. That bit splits the numbers into two groups: those with the bit set and those without it. Both copies of a pair land in the same group, while a and b land in different groups.
-5. XORing the group with the bit set cancels its pairs and leaves a. Then b is `xor_all ^ a`.
-
-## Time and space
-
-**Time: O(n).** The solution makes two passes over the list.
-
-**Auxiliary space: O(1).** It keeps four integer variables and a result list of two values.
-
-## Memory estimate
-
-| Part | How it is counted | Estimate |
-|----------|-------------------------------------------------|-------------:|
-| Input | 56 + 8n, plus 28 bytes for each distinct value | 645 KB |
-| Auxiliary | `xor_all`, `low`, `a`, `x` and a result list of two values | about 250 bytes |
-| Total | input plus auxiliary | 645 KB |
-
-## Other approaches
-
-| Approach | Time | Auxiliary space |
-|----------------------------------------|----------------|----------------|
-| A dict of counts | O(n) | O(n) |
-:::
-
-# Rank Transform of an Array {.problem number="1331" classno="13" slot="A" level="Easy" topic="Sorting" url="https://leetcode.com/problems/rank-transform-of-an-array/"}
+# Rank Transform of an Array {.problem number="1331" classno="10" slot="A" level="Easy" topic="Sorting I: insertion sort and merge sort" url="https://leetcode.com/problems/rank-transform-of-an-array/"}
 
 ::: statement
 You are given a list of integers, `arr`. Replace each element with its rank: the smallest value has rank 1, the next larger distinct value has rank 2, and so on, and equal values share the same rank. Return the list of ranks.
@@ -1534,7 +1172,7 @@ When the function returns, only the answer list (782 KB) and the rank integers (
 | Sort (value, index) pairs, then walk them once and assign ranks | O(n log n) | O(n) |
 :::
 
-# Sort an Array {.problem number="912" classno="13" slot="B" level="Medium" topic="Sorting" url="https://leetcode.com/problems/sort-an-array/"}
+# Sort an Array {.problem number="912" classno="10" slot="B" level="Medium" topic="Sorting I: insertion sort and merge sort" url="https://leetcode.com/problems/sort-an-array/"}
 
 ::: statement
 You are given a list of integers, `nums`. Sort it in ascending order and return it. You may not use any built-in sorting function. Your solution must run in O(n log n) time and use as little extra space as possible.
@@ -1609,7 +1247,136 @@ The values are shared by reference, so only list slots count. At the last merge,
 | The built-in `sorted()`, which is not allowed here | O(n log n) | O(n) |
 :::
 
-# Binary Search {.problem number="704" classno="14" slot="A" level="Easy" topic="Binary search" url="https://leetcode.com/problems/binary-search/"}
+# Relative Sort Array {.problem number="1122" classno="11" slot="A" level="Easy" topic="Sorting II: quicksort and counting sort" url="https://leetcode.com/problems/relative-sort-array/"}
+
+::: statement
+You are given two lists of integers, `arr1` and `arr2`. The values in `arr2` are distinct, and every one of them also appears in `arr1`. Sort `arr1` so that its values appear in the same relative order as in `arr2`, and put the values that do not appear in `arr2` at the end, in ascending order. Every value lies between 0 and 1,000.
+
+For example, `arr1 = [2, 3, 1, 3, 2, 4, 6, 7, 9, 2, 19]` and `arr2 = [2, 1, 4, 3, 9, 6]` give `[2, 2, 2, 1, 4, 3, 3, 9, 6, 7, 19]`.
+
+Start with `def relativeSortArray(arr1, arr2):`
+:::
+
+::: memory
+Estimate the memory for an `arr1` of 1,000 values and an `arr2` of 500 values, which are within LeetCode's limits, with values spread evenly from 0 to 1,000, so that about three quarters of them are above 256.
+:::
+
+::: key
+## Solution
+
+```python
+def relativeSortArray(arr1, arr2):
+    count = [0] * 1001
+    for x in arr1:
+        count[x] += 1
+    result = []
+    for x in arr2:
+        result.extend([x] * count[x])
+        count[x] = 0
+    for x in range(1001):
+        result.extend([x] * count[x])
+    return result
+```
+
+## How the solution works
+
+1. The values are small, from 0 to 1,000, so the solution can count them instead of comparing them. This is counting sort: a list of 1,001 counters records how many times each value appears.
+2. One pass over `arr1` fills the counters.
+3. The solution then walks through `arr2` in order. For each value it appends that value as many times as it appeared, and it sets the counter to zero so the value is not written again.
+4. Finally it walks through every possible value from 0 to 1,000 in ascending order and appends whatever is left. These are the values missing from `arr2`, and they come out sorted.
+5. No two values are ever compared, which is how counting sort beats the O(n log n) bound that holds for sorting by comparisons.
+
+## Time and space
+
+**Time: O(n + m + k), where n is the length of `arr1`, m the length of `arr2`, and k = 1,001 the number of possible values.** Counting takes n steps, the walk through `arr2` takes m steps, and the final walk takes k steps; the values written out add up to n.
+
+**Auxiliary space: O(n + k).** The counters take k slots, and the result holds n values.
+
+## Memory estimate
+
+The counters start as the shared integer 0 and stay small, so they are shared small integers. The result holds pointers to integers that already exist, except for the leftover values above 256, which the final loop creates afresh; there are about a hundred of them here.
+
+| Part | How it is counted | Estimate |
+|----------|-------------------------------------------------|-------------:|
+| Input | `arr1`, 56 + 8 × 1,000 plus about 750 integers × 28 bytes; `arr2`, 56 + 8 × 500 plus about 370 integers × 28 bytes | 42 KB |
+| Auxiliary | the counters, 56 + 8 × 1,001 (7.9 KB); the result, 56 + 8 × 1,000 (7.9 KB); about 100 new integers × 28 bytes (2.7 KB) | 19 KB |
+| Total | input plus auxiliary | 61 KB |
+
+## Other approaches
+
+| Approach | Time | Auxiliary space |
+|----------------------------------------|----------------|----------------|
+| Sort `arr1` with a key: a value's position in `arr2`, or the value itself after every position | O(n log n + m) | O(n + m) |
+| Count with a dict, then sort only the leftover values | O(n + m + d log d), where d is the number of leftover distinct values | O(n) |
+:::
+
+# Sort Colors {.problem number="75" classno="11" slot="B" level="Medium" topic="Sorting II: quicksort and counting sort" url="https://leetcode.com/problems/sort-colors/"}
+
+::: statement
+You are given a list, `nums`, of n objects colored red, white or blue, written as 0, 1 and 2. Sort the list in place so that objects of the same color are next to each other, with the colors in the order red, white, blue. You may not use a library sort. LeetCode asks for a single pass that uses only constant extra space.
+
+For example, `nums = [2, 0, 2, 1, 1, 0]` becomes `[0, 0, 1, 1, 2, 2]`, and `nums = [2, 0, 1]` becomes `[0, 1, 2]`.
+
+The function returns nothing; it changes `nums` itself. Start with `def sortColors(nums):`
+:::
+
+::: memory
+Estimate the memory for n = 300 values, which is LeetCode's limit.
+:::
+
+::: key
+## Solution
+
+```python
+def sortColors(nums):
+    low = 0
+    mid = 0
+    high = len(nums) - 1
+    while mid <= high:
+        if nums[mid] == 0:
+            nums[low], nums[mid] = nums[mid], nums[low]
+            low += 1
+            mid += 1
+        elif nums[mid] == 1:
+            mid += 1
+        else:
+            nums[mid], nums[high] = nums[high], nums[mid]
+            high -= 1
+```
+
+## How the solution works
+
+1. This is the partition step of quicksort, done with three groups instead of two. Edsger Dijkstra posed it as the Dutch national flag problem.
+2. Three indexes split the list into four regions. Everything before `low` is 0, everything from `low` up to `mid` is 1, everything after `high` is 2, and the region from `mid` to `high` has not been looked at yet.
+3. When `nums[mid]` is 0, the solution swaps it into the 0 region and moves both `low` and `mid` forward.
+4. When it is 1, it is already in the right region, so only `mid` moves forward. When it is 2, the solution swaps it into the 2 region and moves `high` back, but leaves `mid` where it is, because the value just swapped in has not been looked at.
+5. The loop ends when the unexamined region is empty.
+
+## Time and space
+
+**Time: O(n), in one pass.** Each step either moves `mid` forward or moves `high` back, so the loop runs at most n times.
+
+**Auxiliary space: O(1).** The solution keeps three indexes.
+
+## Memory estimate
+
+The values 0, 1 and 2 are shared small integers, so the input costs only its pointers, and the swaps only move pointers around.
+
+| Part | How it is counted | Estimate |
+|----------|-------------------------------------------------|-------------:|
+| Input | 56 + 8 × 300 | 2.4 KB |
+| Auxiliary | three indexes | about 100 bytes |
+| Total | input plus auxiliary | 2.5 KB |
+
+## Other approaches
+
+| Approach | Time | Auxiliary space |
+|----------------------------------------|----------------|----------------|
+| Count the 0s, 1s and 2s, then overwrite the list: counting sort in two passes | O(n) | O(1) |
+| A library sort, which the problem forbids | O(n log n) | O(n) in Python |
+:::
+
+# Binary Search {.problem number="704" classno="12" slot="A" level="Easy" topic="Binary search" url="https://leetcode.com/problems/binary-search/"}
 
 ::: statement
 You are given a list of distinct integers, `nums`, sorted in ascending order, and an integer, `target`. Return the index of `target`, or −1 if it is not in the list. Your solution must run in O(log n) time.
@@ -1671,7 +1438,7 @@ def search(nums, target):
 | `bisect_left` from the standard library, which is not allowed at the board | O(log n) | O(1) |
 :::
 
-# Find First and Last Position of Element in Sorted Array {.problem number="34" classno="14" slot="B" level="Medium" topic="Binary search" url="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"}
+# Find First and Last Position of Element in Sorted Array {.problem number="34" classno="12" slot="B" level="Medium" topic="Binary search" url="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"}
 
 ::: statement
 You are given a list of integers, `nums`, sorted in non-decreasing order, so it may contain repeated values, and an integer, `target`. Return `[first, last]`, the first and the last index at which `target` appears, or `[-1, -1]` if it does not appear. Your solution must run in O(log n) time.
@@ -1736,7 +1503,7 @@ def searchRange(nums, target):
 | `bisect_left` and `bisect_right`, which are not allowed at the board | O(log n) | O(1) |
 :::
 
-# Maximum Depth of Binary Tree {.problem number="104" classno="15" slot="A" level="Easy" topic="Trees and traversal" url="https://leetcode.com/problems/maximum-depth-of-binary-tree/"}
+# Maximum Depth of Binary Tree {.problem number="104" classno="13" slot="A" level="Easy" topic="Trees and traversal" url="https://leetcode.com/problems/maximum-depth-of-binary-tree/"}
 
 ::: statement
 You are given `root`, the root node of a binary tree. Return the tree's maximum depth, which is the number of nodes along the longest path from the root down to a leaf.
@@ -1796,7 +1563,7 @@ A `TreeNode` costs about 100 bytes for the node and its two pointers.
 | Depth-first search with an explicit stack of (node, depth) pairs | O(n) | O(h) |
 :::
 
-# Binary Tree Level Order Traversal {.problem number="102" classno="15" slot="B" level="Medium" topic="Trees and traversal" url="https://leetcode.com/problems/binary-tree-level-order-traversal/"}
+# Binary Tree Level Order Traversal {.problem number="102" classno="13" slot="B" level="Medium" topic="Trees and traversal" url="https://leetcode.com/problems/binary-tree-level-order-traversal/"}
 
 ::: statement
 You are given `root`, the root node of a binary tree. Return its level order traversal: a list of lists, in which list i holds the values of all the nodes at depth i, from left to right.
@@ -1865,7 +1632,7 @@ A `TreeNode` costs about 100 bytes plus 28 bytes for its value. The queue is wid
 | Recursive depth-first search that passes the depth and appends to `result[depth]` | O(n) | O(h) plus the result |
 :::
 
-# Search in a Binary Search Tree {.problem number="700" classno="16" slot="A" level="Easy" topic="Binary search trees" url="https://leetcode.com/problems/search-in-a-binary-search-tree/"}
+# Search in a Binary Search Tree {.problem number="700" classno="14" slot="A" level="Easy" topic="Binary search trees" url="https://leetcode.com/problems/search-in-a-binary-search-tree/"}
 
 ::: statement
 You are given `root`, the root node of a binary search tree, and a value, `val`. Return the node whose value equals `val`, or `None` if there is no such node. The node you return stands for the whole subtree below it.
@@ -1926,7 +1693,7 @@ A `TreeNode` costs about 100 bytes for the node and its two pointers, plus 28 by
 | Follow one path down the tree in a loop (the solution above) | O(h) | O(1) |
 :::
 
-# Validate Binary Search Tree {.problem number="98" classno="16" slot="B" level="Medium" topic="Binary search trees" url="https://leetcode.com/problems/validate-binary-search-tree/"}
+# Validate Binary Search Tree {.problem number="98" classno="14" slot="B" level="Medium" topic="Binary search trees" url="https://leetcode.com/problems/validate-binary-search-tree/"}
 
 ::: statement
 You are given `root`, the root node of a binary tree. Return `True` if it is a valid binary search tree, and `False` otherwise. A tree is valid when, for every node, all the values in its left subtree are strictly smaller than the node's value and all the values in its right subtree are strictly larger.
@@ -1989,7 +1756,150 @@ Each call holds four values, and a frame costs about 150 bytes. The two infiniti
 | Pass a range down the recursion (the solution above) | O(n) | O(h) |
 :::
 
-# Kth Largest Element in a Stream {.problem number="703" classno="17" slot="A" level="Easy" topic="Heaps and priority queues" url="https://leetcode.com/problems/kth-largest-element-in-a-stream/"}
+# Balanced Binary Tree {.problem number="110" classno="15" slot="A" level="Easy" topic="Balanced search trees" url="https://leetcode.com/problems/balanced-binary-tree/"}
+
+::: statement
+You are given `root`, the root node of a binary tree. Return `True` if the tree is height-balanced and `False` otherwise. A tree is height-balanced when, at every node, the heights of the left and right subtrees differ by at most one.
+
+For example, `root = [3, 9, 20, null, null, 15, 7]` gives `True`, `root = [1, 2, 2, 3, 3, null, null, 4, 4]` gives `False`, and `root = []` gives `True`.
+
+Each node is a `TreeNode` with the fields `val`, `left` and `right`. Start with `def isBalanced(root):`
+:::
+
+::: memory
+Estimate the memory for n = 5,000 nodes, which is LeetCode's limit, in a balanced tree, 13 levels tall. LeetCode's values run from −10,000 to 10,000, so count each value as a new integer.
+:::
+
+::: key
+## Solution
+
+```python
+def isBalanced(root):
+    def height(node):
+        if node is None:
+            return 0
+        left = height(node.left)
+        if left == -1:
+            return -1
+        right = height(node.right)
+        if right == -1 or abs(left - right) > 1:
+            return -1
+        return 1 + max(left, right)
+    return height(root) != -1
+```
+
+## How the solution works
+
+1. The obvious approach computes the height of both subtrees at every node, which recomputes the same heights again and again.
+2. The solution computes each height once instead, from the bottom up. `height(node)` returns the height of the subtree, or −1 if that subtree is already unbalanced.
+3. The base case is an empty tree, whose height is 0.
+4. At each node the solution gets the left height and then the right height. If either is −1, or they differ by more than one, it passes −1 up the tree, and the search stops early.
+5. The tree is balanced exactly when the height of the root is not −1.
+
+The balanced trees that this class studies, such as AVL trees, keep this property after every insertion and deletion by rotating nodes, which is what guarantees O(log n) search.
+
+In plain Python the recursion limit is 1,000 calls, so this solution raises `RecursionError` on a chain of 1,000 or more nodes, and LeetCode allows 5,000. A chain is unbalanced, but the solution walks to its bottom before it can say so. Accept the recursive solution, and ask the student what happens on a long chain.
+
+## Time and space
+
+**Time: O(n).** The solution visits each node once.
+
+**Auxiliary space: O(h), where h is the height of the tree.** The recursion is as deep as the tree is tall.
+
+## Memory estimate
+
+A `TreeNode` costs about 100 bytes plus 28 bytes for its value. The recursion is 13 calls deep on this tree.
+
+| Part | How it is counted | Estimate |
+|----------|-------------------------------------------------|-------------:|
+| Input | 5,000 nodes × (100 + 28) bytes | 625 KB |
+| Auxiliary | 13 frames × 150 bytes | 2.0 KB |
+| Total | input plus auxiliary | 627 KB |
+
+## Other approaches
+
+| Approach | Time | Auxiliary space |
+|----------------------------------------|----------------|----------------|
+| At every node, compute both subtree heights from scratch | O(n²) in the worst case, O(n log n) on a balanced tree | O(h) |
+| The same bottom-up check with an explicit stack instead of recursion | O(n) | O(n) |
+:::
+
+# Balance a Binary Search Tree {.problem number="1382" classno="15" slot="B" level="Medium" topic="Balanced search trees" url="https://leetcode.com/problems/balance-a-binary-search-tree/"}
+
+::: statement
+You are given `root`, the root node of a binary search tree. Return a balanced binary search tree with the same values. A binary search tree is balanced when, at every node, the depths of the two subtrees differ by at most one. If more than one answer is possible, return any of them.
+
+For example, `root = [1, null, 2, null, 3, null, 4]`, a chain, can give `[2, 1, 3, null, null, null, 4]`; `[3, 1, 4, null, 2]` is also correct. And `root = [2, 1, 3]` gives `[2, 1, 3]`.
+
+Each node is a `TreeNode` with the fields `val`, `left` and `right`. Start with `def balanceBST(root):`
+:::
+
+::: memory
+Estimate the memory for n = 10,000 nodes, which is LeetCode's limit, arranged in a single chain to the right, as in the first example. LeetCode's values run from 1 to 100,000, so count each value as a new integer.
+:::
+
+::: key
+## Solution
+
+```python
+def balanceBST(root):
+    nodes = []
+    stack = []
+    node = root
+    while stack or node:
+        while node:
+            stack.append(node)
+            node = node.left
+        node = stack.pop()
+        nodes.append(node)
+        node = node.right
+    def build(lo, hi):
+        if lo > hi:
+            return None
+        mid = (lo + hi) // 2
+        top = nodes[mid]
+        top.left = build(lo, mid - 1)
+        top.right = build(mid + 1, hi)
+        return top
+    return build(0, len(nodes) - 1)
+```
+
+## How the solution works
+
+1. An in-order traversal of a binary search tree visits its values in sorted order. The solution collects the nodes in that order.
+2. It traverses with an explicit stack rather than with recursion, because the input can be a chain 10,000 nodes long, far deeper than Python's recursion limit of 1,000.
+3. To build a balanced tree from a sorted list, it makes the middle node the root, builds the left half into the left subtree, and builds the right half into the right subtree.
+4. Because each half differs in size by at most one, every subtree's two sides differ in depth by at most one, so the new tree is balanced.
+5. The solution reuses the existing nodes and only changes their `left` and `right` pointers, so it creates no new nodes. The recursion in `build` is only about log₂(n) calls deep, which is safe.
+
+An AVL tree keeps itself balanced as values arrive, by rotating nodes after each insertion. This solution balances the tree all at once instead, which is simpler when the whole tree is available.
+
+## Time and space
+
+**Time: O(n).** The traversal visits each node once, and `build` places each node once.
+
+**Auxiliary space: O(n).** The list holds a pointer to every node, the stack holds up to h nodes during the traversal, and the recursion in `build` is O(log n) deep.
+
+## Memory estimate
+
+A `TreeNode` costs about 100 bytes plus 28 bytes for its value. On a chain to the right, the stack never holds more than one node. The list of 10,000 nodes, built with `append`, is 85,176 bytes.
+
+| Part | How it is counted | Estimate |
+|----------|-------------------------------------------------|-------------:|
+| Input | 10,000 nodes × (100 + 28) bytes | 1.2 MB |
+| Auxiliary | the list of 10,000 node pointers (83 KB), a stack of one node, and 14 frames of `build` × 150 bytes | 85 KB |
+| Total | input plus auxiliary | 1.3 MB |
+
+## Other approaches
+
+| Approach | Time | Auxiliary space |
+|----------------------------------------|----------------|----------------|
+| Collect the values instead, and build a tree of new nodes | O(n) | O(n), plus n new nodes |
+| Insert every value into an AVL tree | O(n log n) | O(n) |
+| The Day-Stout-Warren algorithm, which straightens the tree into a chain and then balances it by rotations | O(n) | O(1) |
+:::
+
+# Kth Largest Element in a Stream {.problem number="703" classno="16" slot="A" level="Easy" topic="Heaps, priority queues and heap sort" url="https://leetcode.com/problems/kth-largest-element-in-a-stream/"}
 
 ::: statement
 Design a class `KthLargest`. It is created with an integer, `k`, and an initial list of integers, `nums`. Its method `add(val)` adds `val` to the stream of values and returns the kth largest value of everything seen so far, counting repeated values separately.
@@ -2056,7 +1966,7 @@ The heap holds pointers to integers that the caller created, so it adds no new i
 | A min-heap of size k (the solution above) | O(log k) per call | O(k) |
 :::
 
-# Top K Frequent Elements {.problem number="347" classno="17" slot="B" level="Medium" topic="Heaps and priority queues" url="https://leetcode.com/problems/top-k-frequent-elements/"}
+# Top K Frequent Elements {.problem number="347" classno="16" slot="B" level="Medium" topic="Heaps, priority queues and heap sort" url="https://leetcode.com/problems/top-k-frequent-elements/"}
 
 ::: statement
 You are given a list of integers, `nums`, and an integer, `k`. Return the k values that appear most often, in any order. The answer is guaranteed to be unique, and your solution should be faster than O(n log n).
@@ -2120,7 +2030,7 @@ The counts are at most a handful, so they are shared small integers. A dict of 2
 | Bucket sort by frequency: a list of buckets indexed by count | O(n) | O(n) |
 :::
 
-# Flood Fill {.problem number="733" classno="18" slot="A" level="Easy" topic="Graphs and depth-first search" url="https://leetcode.com/problems/flood-fill/"}
+# Flood Fill {.problem number="733" classno="17" slot="A" level="Easy" topic="Graphs and depth-first search" url="https://leetcode.com/problems/flood-fill/"}
 
 ::: statement
 `image` is a grid of integers, a picture of pixel colors. Starting from the pixel at row `sr` and column `sc`, change to `color` that pixel and every pixel connected to it by moves up, down, left or right through pixels of the same starting color. Return the changed image.
@@ -2187,7 +2097,7 @@ All the values are shared small integers, so the grid costs only its list slots.
 | Breadth-first search with a deque | O(m × n) | between O(m + n) and O(m × n) |
 :::
 
-# Number of Islands {.problem number="200" classno="18" slot="B" level="Medium" topic="Graphs and depth-first search" url="https://leetcode.com/problems/number-of-islands/"}
+# Number of Islands {.problem number="200" classno="17" slot="B" level="Medium" topic="Graphs and depth-first search" url="https://leetcode.com/problems/number-of-islands/"}
 
 ::: statement
 You are given a grid of the characters `"1"`, for land, and `"0"`, for water. Count the islands. An island is a group of land cells connected horizontally or vertically, and the grid is surrounded by water on every side.
@@ -2257,7 +2167,7 @@ The grid holds one-character strings, which are shared, so only its list slots c
 | Union-find, from Class 22 | about O(m × n) | O(m × n) |
 :::
 
-# Find if Path Exists in Graph {.problem number="1971" classno="19" slot="A" level="Easy" topic="Breadth-first search" url="https://leetcode.com/problems/find-if-path-exists-in-graph/"}
+# Find if Path Exists in Graph {.problem number="1971" classno="18" slot="A" level="Easy" topic="Breadth-first search" url="https://leetcode.com/problems/find-if-path-exists-in-graph/"}
 
 ::: statement
 A graph has n vertices, numbered 0 to n − 1, and a list of undirected edges. Return `True` if there is a path from `source` to `destination`, and `False` otherwise.
@@ -2327,7 +2237,7 @@ Each edge in the input is a list of two integers, 72 bytes plus two integers of 
 | Union-find, from Class 22 | about O(V + E) | O(V) |
 :::
 
-# Rotting Oranges {.problem number="994" classno="19" slot="B" level="Medium" topic="Breadth-first search" url="https://leetcode.com/problems/rotting-oranges/"}
+# Rotting Oranges {.problem number="994" classno="18" slot="B" level="Medium" topic="Breadth-first search" url="https://leetcode.com/problems/rotting-oranges/"}
 
 ::: statement
 A grid holds 0 for an empty cell, 1 for a fresh orange and 2 for a rotten orange. Every minute, each fresh orange next to a rotten orange, up, down, left or right, becomes rotten. Return the smallest number of minutes after which no fresh orange remains, or −1 if that can never happen.
@@ -2374,7 +2284,7 @@ def orangesRotting(grid):
 ## How the solution works
 
 1. All the rotten oranges spread at the same time. That is a breadth-first search that starts with every rotten orange in the queue at once, called a multi-source search.
-2. One level of the search equals one minute. The solution processes exactly `len(queue)` cells per minute, as the level-order traversal of Class 15 did.
+2. One level of the search equals one minute. The solution processes exactly `len(queue)` cells per minute, as the level-order traversal of Class 13 did.
 3. It counts the fresh oranges first. Each time one rots, it subtracts 1 and adds that orange to the queue.
 4. It stops when the queue is empty or no fresh orange is left. The number of levels processed is the answer.
 5. If a fresh orange is left at the end, the rot never reached it, and the answer is −1.
@@ -2402,7 +2312,7 @@ The queue is a deque of about 760 bytes for its first block, holding (row, colum
 | Simulate each minute by rescanning the whole grid | O((m × n)²) | O(1) |
 :::
 
-# Course Schedule {.problem number="207" classno="20" slot="A" level="Medium" topic="Topological sort" url="https://leetcode.com/problems/course-schedule/"}
+# Course Schedule {.problem number="207" classno="19" slot="A" level="Medium" topic="Topological sort" url="https://leetcode.com/problems/course-schedule/"}
 
 ::: statement
 There are `numCourses` courses, numbered 0 to `numCourses − 1`. Each entry `prerequisites[i] = [a, b]` means that you must take course b before course a. Return `True` if you can finish every course, which is possible exactly when the prerequisites contain no cycle, and `False` otherwise.
@@ -2471,7 +2381,7 @@ Each entry of `prerequisites` is a list of two integers, 72 bytes, and the cours
 | Depth-first search with three colors: unvisited, in progress and done | O(V + E) | O(V + E) |
 :::
 
-# Course Schedule II {.problem number="210" classno="20" slot="B" level="Medium" topic="Topological sort" url="https://leetcode.com/problems/course-schedule-ii/"}
+# Course Schedule II {.problem number="210" classno="19" slot="B" level="Medium" topic="Topological sort" url="https://leetcode.com/problems/course-schedule-ii/"}
 
 ::: statement
 The setup is the same as in Course Schedule: `prerequisites[i] = [a, b]` means that you must take course b before course a. Return one order in which you can take all the courses. If no such order exists, because the prerequisites contain a cycle, return an empty list.
@@ -2542,7 +2452,7 @@ The structures are the same as in Course Schedule, plus the order list, which ho
 | Depth-first search, recording the vertices in reverse order of finishing | O(V + E) | O(V + E) |
 :::
 
-# Network Delay Time {.problem number="743" classno="21" slot="A" level="Medium" topic="Shortest paths: Dijkstra" url="https://leetcode.com/problems/network-delay-time/"}
+# Network Delay Time {.problem number="743" classno="20" slot="A" level="Medium" topic="Shortest paths I: Dijkstra's algorithm" url="https://leetcode.com/problems/network-delay-time/"}
 
 ::: statement
 A network has n nodes, labeled 1 to n. Each entry `times[i] = [u, v, w]` is a directed edge: a signal sent from u reaches v after w units of time. A signal is sent from node k. Return the time it takes for all n nodes to receive the signal, or −1 if some node can never receive it.
@@ -2613,7 +2523,7 @@ Each entry of `times` is a list of three integers, 56 + 3 × 8 = 80 bytes, and e
 | Breadth-first search, which works only when every weight is the same | O(V + E) | O(V) |
 :::
 
-# Path With Minimum Effort {.problem number="1631" classno="21" slot="B" level="Medium" topic="Shortest paths: Dijkstra" url="https://leetcode.com/problems/path-with-minimum-effort/"}
+# Path With Minimum Effort {.problem number="1631" classno="20" slot="B" level="Medium" topic="Shortest paths I: Dijkstra's algorithm" url="https://leetcode.com/problems/path-with-minimum-effort/"}
 
 ::: statement
 `heights` is a grid of integers. You start at the top-left cell and want to reach the bottom-right cell, moving up, down, left or right. The effort of a route is the largest absolute difference in height between two consecutive cells on the route. Return the smallest effort of any route.
@@ -2683,6 +2593,149 @@ The `best` table is 100 lists of 100 pointers to the shared integer 0 or the sin
 |----------------------------------------|----------------|----------------|
 | Binary search on the answer, checking each guess with a breadth-first search | O(m × n × log H), where H is the largest height | O(m × n) |
 | Sort the edges by height difference and join cells with union-find, from Class 22 | O(m × n × log(m × n)) | O(m × n) |
+:::
+
+# Find the City With the Smallest Number of Neighbors at a Threshold Distance {.problem number="1334" classno="21" slot="A" level="Medium" topic="Shortest paths II: Bellman-Ford and Floyd-Warshall" url="https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/"}
+
+::: statement
+There are n cities, numbered 0 to n − 1. Each entry `edges[i] = [from, to, weight]` is a road in both directions between two cities, with the given length. The distance between two cities is the length of the shortest route between them. Return the city from which the fewest other cities lie within `distanceThreshold`. If several cities tie, return the one with the largest number.
+
+For example, `n = 4`, `edges = [[0, 1, 3], [1, 2, 1], [1, 3, 4], [2, 3, 1]]` and `distanceThreshold = 4` give 3: cities 0 and 3 each reach two others, and 3 is the larger number.
+
+Start with `def findTheCity(n, edges, distanceThreshold):`
+:::
+
+::: memory
+Estimate the memory for n = 100 cities, which is LeetCode's limit, with a road between every pair, 4,950 roads, whose lengths run from 300 to 10,000.
+:::
+
+::: key
+## Solution
+
+```python
+def findTheCity(n, edges, distanceThreshold):
+    INF = float('inf')
+    dist = [[INF] * n for _ in range(n)]
+    for i in range(n):
+        dist[i][i] = 0
+    for a, b, w in edges:
+        dist[a][b] = w
+        dist[b][a] = w
+    for k in range(n):
+        for i in range(n):
+            for j in range(n):
+                if dist[i][k] + dist[k][j] < dist[i][j]:
+                    dist[i][j] = dist[i][k] + dist[k][j]
+    best = -1
+    fewest = n + 1
+    for i in range(n):
+        count = 0
+        for j in range(n):
+            if i != j and dist[i][j] <= distanceThreshold:
+                count += 1
+        if count <= fewest:
+            fewest = count
+            best = i
+    return best
+```
+
+## How the solution works
+
+1. The problem needs the distance between every pair of cities, not just from one starting city. The Floyd-Warshall algorithm computes all of them at once.
+2. The solution starts with a table in which `dist[i][j]` is the length of the direct road, 0 on the diagonal, and infinity where no road exists.
+3. Floyd-Warshall then lets each city k in turn serve as a stopover. For every pair (i, j), if going through k is shorter than the best route known so far, the solution records the shorter distance. After city k has been tried, every distance in the table is the shortest route that uses only cities 0 to k as stopovers.
+4. When all n cities have served as stopovers, the table holds every shortest distance. This is dynamic programming, with k as the stage.
+5. Finally the solution counts, for each city, the other cities within the threshold. It uses `<=` when comparing counts, so a later city wins every tie, which returns the largest number as the problem asks.
+
+## Time and space
+
+**Time: O(n³).** The three nested loops run n × n × n times, and filling the table and counting take O(n²) and O(E).
+
+**Auxiliary space: O(n²).** The table holds n × n distances.
+
+## Memory estimate
+
+The table is 100 lists of 100 pointers. Its entries start as the input's own road lengths or the single shared value of infinity, but every shorter route that the algorithm finds is a new integer, and in a dense graph most entries are replaced.
+
+| Part | How it is counted | Estimate |
+|----------|-------------------------------------------------|-------------:|
+| Input | 4,950 roads × 80 bytes, the outer list, 56 + 8 × 4,950, and 4,950 lengths × 28 bytes | 561 KB |
+| Auxiliary | the table, 100 × (56 + 800) plus the outer list (84 KB), and up to 10,000 new distances × 28 bytes (273 KB) | up to 357 KB |
+| Total | input plus auxiliary | up to 918 KB |
+
+## Other approaches
+
+| Approach | Time | Auxiliary space |
+|----------------------------------------|----------------|----------------|
+| Dijkstra's algorithm from every city, which is faster when there are few roads | O(n × E log n) | O(n + E) |
+| Bellman-Ford from every city | O(n² × E) | O(n) |
+:::
+
+# Cheapest Flights Within K Stops {.problem number="787" classno="21" slot="B" level="Medium" topic="Shortest paths II: Bellman-Ford and Floyd-Warshall" url="https://leetcode.com/problems/cheapest-flights-within-k-stops/"}
+
+::: statement
+There are n cities. Each entry `flights[i] = [from, to, price]` is a one-way flight with the given price. Return the cheapest price from city `src` to city `dst` using at most k stops in between, or −1 if no such route exists.
+
+For example, with `n = 4` and `flights = [[0, 1, 100], [1, 2, 100], [2, 0, 100], [1, 3, 600], [2, 3, 200]]`, `src = 0`, `dst = 3` and `k = 1` give 700, by flying 0 to 1 to 3. The route 0 to 1 to 2 to 3 costs only 400, but it makes two stops.
+
+Start with `def findCheapestPrice(n, flights, src, dst, k):`
+:::
+
+::: memory
+Estimate the memory for n = 100 cities, which is LeetCode's limit, with 4,950 flights whose prices run from 300 to 10,000, and k = 99.
+:::
+
+::: key
+## Solution
+
+```python
+def findCheapestPrice(n, flights, src, dst, k):
+    INF = float('inf')
+    cost = [INF] * n
+    cost[src] = 0
+    for _ in range(k + 1):
+        new_cost = cost[:]
+        for a, b, price in flights:
+            if cost[a] + price < new_cost[b]:
+                new_cost[b] = cost[a] + price
+        cost = new_cost
+    if cost[dst] == INF:
+        return -1
+    return cost[dst]
+```
+
+## How the solution works
+
+1. A route with at most k stops uses at most k + 1 flights. The Bellman-Ford algorithm suits that limit, because after r rounds it has found the cheapest route of at most r edges.
+2. `cost[v]` holds the cheapest known price to reach city v. It starts at 0 for `src` and infinity everywhere else.
+3. Each round relaxes every flight: if reaching `a` and then flying to `b` is cheaper than the best known price for `b`, the solution records the cheaper price.
+4. The solution reads from `cost`, the prices of the previous round, and writes into a copy, `new_cost`. Reading and writing the same list would let one round chain several flights together and break the limit on stops.
+5. After k + 1 rounds, `cost[dst]` is the cheapest price with at most k stops, or infinity if `dst` cannot be reached in time.
+
+Unlike Dijkstra's algorithm, Bellman-Ford also handles negative prices, and one more round that still improves a price reveals a negative cycle. Dijkstra's algorithm fails here for a different reason: the route that is cheapest so far may be the one that runs out of stops.
+
+## Time and space
+
+**Time: O(k × (n + E)).** There are k + 1 rounds, and each copies n prices and relaxes all E flights.
+
+**Auxiliary space: O(n).** The solution keeps two lists of n prices.
+
+## Memory estimate
+
+Every flight is a list of three integers, and the prices above 256 are integers in the input. The two price lists are 856 bytes each, and the new totals the algorithm finds are new integers, at most one for each city in each list.
+
+| Part | How it is counted | Estimate |
+|----------|-------------------------------------------------|-------------:|
+| Input | 4,950 flights × 80 bytes, the outer list, 56 + 8 × 4,950, and 4,950 prices × 28 bytes | 561 KB |
+| Auxiliary | two price lists of 100 pointers (1.7 KB) and up to 200 new totals × 28 bytes (5.5 KB) | about 7 KB |
+| Total | input plus auxiliary | 568 KB |
+
+## Other approaches
+
+| Approach | Time | Auxiliary space |
+|----------------------------------------|----------------|----------------|
+| Dijkstra's algorithm on (city, stops used) pairs | O(k × E × log(k × n)) | O(k × n) |
+| Breadth-first search by levels, one level per flight, keeping the cheapest price per city | O(k × E) | O(n + E) |
 :::
 
 # Number of Provinces {.problem number="547" classno="22" slot="A" level="Medium" topic="Union-find" url="https://leetcode.com/problems/number-of-provinces/"}
@@ -2818,7 +2871,310 @@ Each edge is a list of two integers, 72 bytes, and the node numbers above 256 ar
 | Before adding each edge, search from a to see whether b is already reachable | O(n²) | O(n) |
 :::
 
-# Implement Trie (Prefix Tree) {.problem number="208" classno="23" slot="A" level="Medium" topic="Tries" url="https://leetcode.com/problems/implement-trie-prefix-tree/"}
+# Min Cost to Connect All Points {.problem number="1584" classno="23" slot="A" level="Medium" topic="Minimum spanning trees" url="https://leetcode.com/problems/min-cost-to-connect-all-points/"}
+
+::: statement
+You are given a list of points on a plane, `points[i] = [x, y]`. Connecting two points costs their Manhattan distance, |x₁ − x₂| + |y₁ − y₂|. Return the smallest total cost that connects all the points, so that there is exactly one path between any two of them.
+
+For example, `points = [[0, 0], [2, 2], [3, 10], [5, 2], [7, 0]]` gives 20, and `points = [[3, 12], [-2, 5], [-4, 1]]` gives 18.
+
+Start with `def minCostConnectPoints(points):`
+:::
+
+::: memory
+Estimate the memory for n = 1,000 points, which is LeetCode's limit, with coordinates as large as 10^6^, so count each coordinate as a new integer.
+:::
+
+::: key
+## Solution
+
+```python
+def minCostConnectPoints(points):
+    n = len(points)
+    INF = float('inf')
+    best = [INF] * n
+    best[0] = 0
+    in_tree = [False] * n
+    total = 0
+    for _ in range(n):
+        u = -1
+        for v in range(n):
+            if not in_tree[v] and (u == -1 or best[v] < best[u]):
+                u = v
+        in_tree[u] = True
+        total += best[u]
+        x, y = points[u]
+        for v in range(n):
+            if not in_tree[v]:
+                d = abs(x - points[v][0]) + abs(y - points[v][1])
+                if d < best[v]:
+                    best[v] = d
+    return total
+```
+
+## How the solution works
+
+1. Connecting every point at the lowest total cost, with exactly one path between any two, is a minimum spanning tree. Every pair of points can be joined, so the graph is complete, with n(n − 1)/2 possible edges.
+2. Prim's algorithm grows the tree from one point. `best[v]` is the cheapest edge from point v to any point already in the tree.
+3. At each step the solution adds the outside point with the smallest `best` value, and adds that cost to the total. Prim's algorithm is greedy: the cheapest edge leaving the tree is always safe to take.
+4. It then updates `best` for every point still outside, because the new point may offer a cheaper connection.
+5. In a complete graph this simple version, which scans for the minimum instead of using a heap, is the right choice: it takes O(n²) time without ever building the n²/2 edges.
+
+## Time and space
+
+**Time: O(n²).** There are n steps, and each scans all n points twice.
+
+**Auxiliary space: O(n).** The solution keeps the `best` and `in_tree` lists.
+
+## Memory estimate
+
+Each point is a list of two integers. The `best` list starts with the single shared infinity, and every distance it records is a new integer.
+
+| Part | How it is counted | Estimate |
+|----------|-------------------------------------------------|-------------:|
+| Input | the outer list, 56 + 8 × 1,000; 1,000 point lists × 72 bytes; 2,000 coordinates × 28 bytes | 133 KB |
+| Auxiliary | `best` and `in_tree`, 2 × (56 + 8 × 1,000), plus up to 1,000 new distances × 28 bytes | 43 KB |
+| Total | input plus auxiliary | 176 KB |
+
+## Other approaches
+
+| Approach | Time | Auxiliary space |
+|----------------------------------------|----------------|----------------|
+| Kruskal's algorithm: build all n(n − 1)/2 edges, sort them, and join points with union-find | O(n² log n) | O(n²) |
+| Prim's algorithm with a heap of candidate edges | O(n² log n) on a complete graph | O(n²) |
+:::
+
+# Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree {.problem number="1489" classno="23" slot="B" level="Hard" topic="Minimum spanning trees" url="https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/" lines="14"}
+
+::: statement
+You are given a connected, undirected graph with n vertices and a list of weighted edges, `edges[i] = [a, b, weight]`. A minimum spanning tree connects every vertex, without cycles, at the smallest total weight. An edge is critical if deleting it from the graph would raise that smallest weight. An edge is pseudo-critical if it appears in some minimum spanning trees but not in all of them. Return `[critical, pseudo]`, the indexes of the critical edges and of the pseudo-critical edges, each in any order.
+
+For example, `n = 4` and `edges = [[0, 1, 1], [1, 2, 1], [2, 3, 1], [0, 3, 1]]` give `[[], [0, 1, 2, 3]]`: all four edges weigh the same, so any three of them form a minimum spanning tree, and no edge is in every one.
+
+Start with `def findCriticalAndPseudoCriticalEdges(n, edges):`
+:::
+
+::: memory
+Estimate the memory for n = 100 vertices and 200 edges, which are LeetCode's limits, with weights spread from 1 to 1,000.
+:::
+
+::: key
+## Solution
+
+```python
+def findCriticalAndPseudoCriticalEdges(n, edges):
+    order = sorted(range(len(edges)), key=lambda i: edges[i][2])
+    def mst_weight(skip, force):
+        parent = list(range(n))
+        def find(x):
+            while parent[x] != x:
+                parent[x] = parent[parent[x]]
+                x = parent[x]
+            return x
+        total = 0
+        used = 0
+        if force != -1:
+            a, b, w = edges[force]
+            parent[find(a)] = find(b)
+            total += w
+            used += 1
+        for i in order:
+            if i == skip:
+                continue
+            a, b, w = edges[i]
+            ra = find(a)
+            rb = find(b)
+            if ra != rb:
+                parent[ra] = rb
+                total += w
+                used += 1
+        if used < n - 1:
+            return float('inf')
+        return total
+    base = mst_weight(-1, -1)
+    critical = []
+    pseudo = []
+    for i in range(len(edges)):
+        if mst_weight(i, -1) > base:
+            critical.append(i)
+        elif mst_weight(-1, i) == base:
+            pseudo.append(i)
+    return [critical, pseudo]
+```
+
+## How the solution works
+
+1. Kruskal's algorithm builds a minimum spanning tree by taking the edges in order of weight and keeping each edge that joins two separate groups. Union-find, from Class 22, tells it whether two vertices are already in the same group.
+2. The helper `mst_weight(skip, force)` runs Kruskal's algorithm with two options: it can leave out one edge, `skip`, or put one edge in first, `force`. If the edges it may use cannot connect every vertex, it returns infinity.
+3. The solution first finds the smallest weight, `base`.
+4. An edge is critical if leaving it out raises the weight above `base`, or disconnects the graph.
+5. An edge that is not critical is pseudo-critical if forcing it in still gives weight `base`: some minimum spanning tree contains it, but not every one does. An edge that fails both tests appears in no minimum spanning tree.
+
+The sort uses `sorted` with a `key`, which is built into Python and allowed at the board. Students who stall usually need the idea in step 2, that one Kruskal routine with two switches answers both questions.
+
+## Time and space
+
+**Time: O(E log E + E × (n + E × α(n))), where E is the number of edges.** Sorting takes O(E log E). The routine runs up to 2E + 1 times, and each run resets n parents and makes up to E nearly constant-time finds.
+
+**Auxiliary space: O(n + E).** The sorted order holds E indexes, each run holds n parents, and the two answer lists hold up to E indexes.
+
+## Memory estimate
+
+Each edge is a list of three integers; the vertex numbers are below 257 and shared, and about three quarters of the weights are above 256. Only one run's parent list exists at a time.
+
+| Part | How it is counted | Estimate |
+|----------|-------------------------------------------------|-------------:|
+| Input | the outer list, 56 + 8 × 200; 200 edge lists × 80 bytes; about 150 weights × 28 bytes | 21 KB |
+| Auxiliary | the sorted order (1.6 KB), one parent list (856 bytes), the two answer lists, and a few frames | about 8 KB |
+| Total | input plus auxiliary | 29 KB |
+
+## Other approaches
+
+| Approach | Time | Auxiliary space |
+|----------------------------------------|----------------|----------------|
+| List every spanning tree and keep the lightest ones, which works only for tiny graphs | exponential | exponential |
+| Group the edges by weight and find bridges within each group with Tarjan's algorithm | O(E log E) | O(n + E) |
+:::
+
+# Subsets {.problem number="78" classno="24" slot="A" level="Medium" topic="Backtracking, P and NP" url="https://leetcode.com/problems/subsets/"}
+
+::: statement
+You are given a list of distinct integers, `nums`. Return every possible subset of the list, in any order, without repeating a subset.
+
+For example, `nums = [1, 2, 3]` gives `[[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]`.
+
+Start with `def subsets(nums):`
+:::
+
+::: memory
+Estimate the memory for n = 10, which is LeetCode's limit, so there are 1,024 subsets with 5,120 entries in all. LeetCode's values run from −10 to 10.
+:::
+
+::: key
+## Solution
+
+```python
+def subsets(nums):
+    result = []
+    path = []
+    def backtrack(start):
+        result.append(path[:])
+        for i in range(start, len(nums)):
+            path.append(nums[i])
+            backtrack(i + 1)
+            path.pop()
+    backtrack(0)
+    return result
+```
+
+## How the solution works
+
+1. A subset is a series of choices: for each number, in the order of the list, you take it or leave it. A list of n numbers therefore has 2^n^ subsets.
+2. `path` holds the subset being built. Every path the search reaches is itself a valid subset, so each call copies it into the result. The slice `path[:]` makes the copy; without it, every entry of the result would be the same list.
+3. The loop picks the next number to add. Starting at index `start` rather than 0 means the solution adds only numbers that come later in the list, so each subset is built in exactly one order and none repeats.
+4. The solution chooses with `path.append`, explores with `backtrack(i + 1)`, and undoes the choice with `path.pop()`.
+5. The tree of choices has 2^n^ nodes, and copying a path costs up to n.
+
+## Time and space
+
+**Time: O(n × 2^n^).** There are 2^n^ subsets, and copying each one into the result costs up to n.
+
+**Auxiliary space: O(n × 2^n^).** The returned subsets count, and together they hold n/2 × 2^n^ numbers. The search itself needs only O(n), for the recursion and the path.
+
+## Memory estimate
+
+Every value from −10 to 10 is a shared small integer, so the numbers cost nothing extra and the subsets hold only pointers. Each subset is an exact-size copy, 56 bytes plus 8 per element.
+
+| Part | How it is counted | Estimate |
+|----------|-------------------------------------------------|-------------:|
+| Input | a list of 10 pointers, 56 + 80 | 136 bytes |
+| Auxiliary | 1,024 lists × 56 bytes plus 5,120 pointers × 8 bytes (96 KB), the result list of 1,024 pointers (8.6 KB), the path and about 10 frames | 105 KB |
+| Total | input plus auxiliary | 105 KB |
+
+## Other approaches
+
+| Approach | Time | Auxiliary space |
+|----------------------------------------|----------------|----------------|
+| Bitmasks: for each number from 0 to 2^n^ − 1, take the elements whose bits are set | O(n × 2^n^) | O(n × 2^n^) for the output |
+| Start with `[[]]` and, for each number, add it to a copy of every subset so far | O(n × 2^n^) | O(n × 2^n^) for the output |
+:::
+
+# N-Queens {.problem number="51" classno="24" slot="B" level="Hard" topic="Backtracking, P and NP" url="https://leetcode.com/problems/n-queens/"}
+
+::: statement
+Place n queens on an n × n chessboard so that no two queens attack each other, which means that no two share a row, a column or a diagonal. Return every distinct solution, each written as a list of n strings with `"Q"` for a queen and `"."` for an empty square.
+
+For example, n = 4 gives `[[".Q..", "...Q", "Q...", "..Q."], ["..Q.", "Q...", "...Q", ".Q.."]]`.
+
+Start with `def solveNQueens(n):`
+:::
+
+::: memory
+Estimate the memory for n = 8, which has 92 solutions, each a list of 8 strings of 8 characters.
+:::
+
+::: key
+## Solution
+
+```python
+def solveNQueens(n):
+    cols = set()
+    diag1 = set()
+    diag2 = set()
+    placed = []
+    result = []
+    def place(r):
+        if r == n:
+            result.append(['.' * c + 'Q' + '.' * (n - c - 1) for c in placed])
+            return
+        for c in range(n):
+            if c in cols or (r - c) in diag1 or (r + c) in diag2:
+                continue
+            cols.add(c)
+            diag1.add(r - c)
+            diag2.add(r + c)
+            placed.append(c)
+            place(r + 1)
+            placed.pop()
+            cols.remove(c)
+            diag1.remove(r - c)
+            diag2.remove(r + c)
+    place(0)
+    return result
+```
+
+## How the solution works
+
+1. Exactly one queen goes in each row, so the only choice at row r is the column. The solution never has to check rows.
+2. Two queens clash when they share a column, the same c; a diagonal running down to the right, the same r − c; or a diagonal running down to the left, the same r + c. The solution keeps three sets of what is taken, so each check takes O(1) time.
+3. `place(r)` tries every column c. If c, r − c or r + c is taken, it skips that column, which prunes the branch. Otherwise it adds all three to the sets, records c, and moves on to row r + 1.
+4. To backtrack, it removes the column from `placed` and the three entries from the sets, so the next column starts clean.
+5. When r equals n, every row has a queen, so the solution builds the board strings from `placed` and saves them.
+
+## Time and space
+
+**Time: O(n!) in the worst case.** Row 0 has n choices, row 1 at most n − 1 safe columns, and so on. The pruning makes the real count far smaller.
+
+**Auxiliary space: O(S × n²), where S is the number of solutions.** The returned boards count, and each holds n strings of n characters. The search itself needs only O(n), for the recursion and the three sets. At n = 8 there are 92 solutions, and at n = 9 there are 352.
+
+## Memory estimate
+
+A string of 8 characters costs 41 + 8 = 49 bytes, and a solution list of 8 strings costs 56 + 64 bytes. The three sets hold at most 8 small integers each, about 730 bytes apiece. The call stack is 8 frames deep, at about 150 bytes each.
+
+| Part | How it is counted | Estimate |
+|----------|-------------------------------------------------|-------------:|
+| Input | one integer | 28 bytes |
+| Auxiliary | 92 solutions × (120 + 8 × 49) bytes, the result list, 3 sets × 730 bytes and 8 frames × 150 bytes | 50 KB |
+| Total | input plus auxiliary | 50 KB |
+
+## Other approaches
+
+| Approach | Time | Auxiliary space |
+|----------------------------------------|----------------|----------------|
+| After each placement, scan the queen's row, column and two diagonals for attacks | O(n × n!) | O(n²) |
+:::
+
+# Implement Trie (Prefix Tree) {.problem number="208" classno="25" slot="A" level="Medium" topic="Tries" url="https://leetcode.com/problems/implement-trie-prefix-tree/"}
 
 ::: statement
 Implement a trie. `insert(word)` stores a word; `search(word)` returns `True` if that exact word was inserted; and `startsWith(prefix)` returns `True` if any inserted word begins with `prefix`. Every string uses lowercase letters only.
@@ -2897,7 +3253,7 @@ Count the nodes level by level. Ten thousand random words fill the first two lev
 | Trie nodes as objects that hold a list of 26 child slots | O(L) per operation | more than the dict version, because every node reserves 26 slots |
 :::
 
-# Word Search II {.problem number="212" classno="23" slot="B" level="Hard" topic="Tries" url="https://leetcode.com/problems/word-search-ii/"}
+# Word Search II {.problem number="212" classno="25" slot="B" level="Hard" topic="Tries" url="https://leetcode.com/problems/word-search-ii/"}
 
 ::: statement
 You are given an m × n board of letters and a list of distinct words. Return every word from the list that can be spelled by a path of neighboring cells, moving horizontally or vertically. A path may use each cell at most once within the same word.
@@ -2948,7 +3304,7 @@ def findWords(board, words):
 
 ## How the solution works
 
-1. Searching the board for one word at a time runs a backtracking search from every cell for each word, which repeats the same work for every word. Backtracking itself is the subject of Class 24, the next class.
+1. Searching the board for one word at a time runs the backtracking search of Class 24 from every cell for each word, which repeats the same work for every word.
 2. The solution puts all the words into one trie instead. A path on the board is worth following only while its letters spell a prefix that the trie holds, so a letter with no matching child in the trie cuts off the whole branch.
 3. `dfs(r, c, parent)` steps onto a cell whose letter is a child of `parent`. If that trie node ends a word, the solution records the word and deletes the end marker, so the word is not found twice.
 4. It marks the cell as used with `"#"`, searches the four neighbors, and then restores the letter. Restoring the letter is the backtracking step.
@@ -2979,145 +3335,7 @@ The trie is the peak. It is built from the same 10,000 random words as in Implem
 | Run a separate board search for every word | O(W × M × 4 × 3^(L\ −\ 1)^), where W is the number of words | O(L) |
 :::
 
-# Subsets {.problem number="78" classno="24" slot="A" level="Medium" topic="Backtracking" url="https://leetcode.com/problems/subsets/"}
-
-::: statement
-You are given a list of distinct integers, `nums`. Return every possible subset of the list, in any order, without repeating a subset.
-
-For example, `nums = [1, 2, 3]` gives `[[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]`.
-
-Start with `def subsets(nums):`
-:::
-
-::: memory
-Estimate the memory for n = 10, which is LeetCode's limit, so there are 1,024 subsets with 5,120 entries in all. LeetCode's values run from −10 to 10.
-:::
-
-::: key
-## Solution
-
-```python
-def subsets(nums):
-    result = []
-    path = []
-    def backtrack(start):
-        result.append(path[:])
-        for i in range(start, len(nums)):
-            path.append(nums[i])
-            backtrack(i + 1)
-            path.pop()
-    backtrack(0)
-    return result
-```
-
-## How the solution works
-
-1. A subset is a series of choices: for each number, in the order of the list, you take it or leave it. A list of n numbers therefore has 2^n^ subsets.
-2. `path` holds the subset being built. Every path the search reaches is itself a valid subset, so each call copies it into the result. The slice `path[:]` makes the copy; without it, every entry of the result would be the same list.
-3. The loop picks the next number to add. Starting at index `start` rather than 0 means the solution adds only numbers that come later in the list, so each subset is built in exactly one order and none repeats.
-4. The solution chooses with `path.append`, explores with `backtrack(i + 1)`, and undoes the choice with `path.pop()`.
-5. The tree of choices has 2^n^ nodes, and copying a path costs up to n.
-
-## Time and space
-
-**Time: O(n × 2^n^).** There are 2^n^ subsets, and copying each one into the result costs up to n.
-
-**Auxiliary space: O(n × 2^n^).** The returned subsets count, and together they hold n/2 × 2^n^ numbers. The search itself needs only O(n), for the recursion and the path.
-
-## Memory estimate
-
-Every value from −10 to 10 is a shared small integer, so the numbers cost nothing extra and the subsets hold only pointers. Each subset is an exact-size copy, 56 bytes plus 8 per element.
-
-| Part | How it is counted | Estimate |
-|----------|-------------------------------------------------|-------------:|
-| Input | a list of 10 pointers, 56 + 80 | 136 bytes |
-| Auxiliary | 1,024 lists × 56 bytes plus 5,120 pointers × 8 bytes (96 KB), the result list of 1,024 pointers (8.6 KB), the path and about 10 frames | 105 KB |
-| Total | input plus auxiliary | 105 KB |
-
-## Other approaches
-
-| Approach | Time | Auxiliary space |
-|----------------------------------------|----------------|----------------|
-| Bitmasks: for each number from 0 to 2^n^ − 1, take the elements whose bits are set | O(n × 2^n^) | O(n × 2^n^) for the output |
-| Start with `[[]]` and, for each number, add it to a copy of every subset so far | O(n × 2^n^) | O(n × 2^n^) for the output |
-:::
-
-# N-Queens {.problem number="51" classno="24" slot="B" level="Hard" topic="Backtracking" url="https://leetcode.com/problems/n-queens/"}
-
-::: statement
-Place n queens on an n × n chessboard so that no two queens attack each other, which means that no two share a row, a column or a diagonal. Return every distinct solution, each written as a list of n strings with `"Q"` for a queen and `"."` for an empty square.
-
-For example, n = 4 gives `[[".Q..", "...Q", "Q...", "..Q."], ["..Q.", "Q...", "...Q", ".Q.."]]`.
-
-Start with `def solveNQueens(n):`
-:::
-
-::: memory
-Estimate the memory for n = 8, which has 92 solutions, each a list of 8 strings of 8 characters.
-:::
-
-::: key
-## Solution
-
-```python
-def solveNQueens(n):
-    cols = set()
-    diag1 = set()
-    diag2 = set()
-    placed = []
-    result = []
-    def place(r):
-        if r == n:
-            result.append(['.' * c + 'Q' + '.' * (n - c - 1) for c in placed])
-            return
-        for c in range(n):
-            if c in cols or (r - c) in diag1 or (r + c) in diag2:
-                continue
-            cols.add(c)
-            diag1.add(r - c)
-            diag2.add(r + c)
-            placed.append(c)
-            place(r + 1)
-            placed.pop()
-            cols.remove(c)
-            diag1.remove(r - c)
-            diag2.remove(r + c)
-    place(0)
-    return result
-```
-
-## How the solution works
-
-1. Exactly one queen goes in each row, so the only choice at row r is the column. The solution never has to check rows.
-2. Two queens clash when they share a column, the same c; a diagonal running down to the right, the same r − c; or a diagonal running down to the left, the same r + c. The solution keeps three sets of what is taken, so each check takes O(1) time.
-3. `place(r)` tries every column c. If c, r − c or r + c is taken, it skips that column, which prunes the branch. Otherwise it adds all three to the sets, records c, and moves on to row r + 1.
-4. To backtrack, it removes the column from `placed` and the three entries from the sets, so the next column starts clean.
-5. When r equals n, every row has a queen, so the solution builds the board strings from `placed` and saves them.
-
-## Time and space
-
-**Time: O(n!) in the worst case.** Row 0 has n choices, row 1 at most n − 1 safe columns, and so on. The pruning makes the real count far smaller.
-
-**Auxiliary space: O(S × n²), where S is the number of solutions.** The returned boards count, and each holds n strings of n characters. The search itself needs only O(n), for the recursion and the three sets. At n = 8 there are 92 solutions, and at n = 9 there are 352.
-
-## Memory estimate
-
-A string of 8 characters costs 41 + 8 = 49 bytes, and a solution list of 8 strings costs 56 + 64 bytes. The three sets hold at most 8 small integers each, about 730 bytes apiece. The call stack is 8 frames deep, at about 150 bytes each.
-
-| Part | How it is counted | Estimate |
-|----------|-------------------------------------------------|-------------:|
-| Input | one integer | 28 bytes |
-| Auxiliary | 92 solutions × (120 + 8 × 49) bytes, the result list, 3 sets × 730 bytes and 8 frames × 150 bytes | 50 KB |
-| Total | input plus auxiliary | 50 KB |
-
-## Other approaches
-
-| Approach | Time | Auxiliary space |
-|----------------------------------------|----------------|----------------|
-| After each placement, scan the queen's row, column and two diagonals for attacks | O(n × n!) | O(n²) |
-:::
-
-# Jump Game {.problem number="55" classno="25" slot="A" level="Medium" topic="Greedy algorithms" url="https://leetcode.com/problems/jump-game/"}
+# Jump Game {.problem number="55" classno="26" slot="A" level="Medium" topic="Greedy algorithms and intervals" url="https://leetcode.com/problems/jump-game/"}
 
 ::: statement
 `nums[i]` is the longest jump you can make from position i. Starting at index 0, return `True` if you can reach the last index, and `False` otherwise.
@@ -3175,7 +3393,7 @@ Every value is the shared integer 1, so the input costs only its pointers.
 | Backtracking with memoization, which is dynamic programming | O(n²) | O(n) |
 :::
 
-# Candy {.problem number="135" classno="25" slot="B" level="Hard" topic="Greedy algorithms" url="https://leetcode.com/problems/candy/"}
+# Candy {.problem number="135" classno="26" slot="B" level="Hard" topic="Greedy algorithms and intervals" url="https://leetcode.com/problems/candy/"}
 
 ::: statement
 n children stand in a line, and `ratings[i]` is the rating of child i. Give each child at least one candy, and give a child with a higher rating than a neighbor more candies than that neighbor. Return the smallest total number of candies.
@@ -3235,138 +3453,6 @@ The ratings run from 0 to 49,999, so the 49,743 ratings above 256 are new intege
 |----------------------------------------|----------------|----------------|
 | Two lists, one for each direction, taking the larger value at each child | O(n) | O(n) |
 | Count the rising and falling stretches of ratings | O(n) | O(1) |
-:::
-
-# Merge Intervals {.problem number="56" classno="26" slot="A" level="Medium" topic="Intervals and sweep line" url="https://leetcode.com/problems/merge-intervals/"}
-
-::: statement
-You are given a list of intervals, each written `[start, end]`. Merge all the intervals that overlap, and return the intervals that cover the same ranges without overlapping. Intervals that touch at an endpoint, such as `[1, 4]` and `[4, 5]`, count as overlapping.
-
-For example, `intervals = [[1, 3], [2, 6], [8, 10], [15, 18]]` gives `[[1, 6], [8, 10], [15, 18]]`.
-
-Start with `def merge(intervals):`
-:::
-
-::: memory
-Estimate the memory for n = 10,000 intervals, which is LeetCode's limit, none of which overlap. This is the worst case, because nothing merges.
-:::
-
-::: key
-## Solution
-
-```python
-def merge(intervals):
-    merged = []
-    for start, end in sorted(intervals):
-        if merged and start <= merged[-1][1]:
-            merged[-1][1] = max(merged[-1][1], end)
-        else:
-            merged.append([start, end])
-    return merged
-```
-
-## How the solution works
-
-1. If the intervals are in random order, any interval might overlap any other, which means O(n²) comparisons. The solution therefore sorts the intervals by their start first.
-2. After sorting, an interval can overlap only the last merged interval, because every earlier merged interval ends before it starts.
-3. For each interval, the solution compares its start with the end of the last merged interval. If the start is at most that end, the two overlap, and the solution extends the end to the larger of the two ends.
-4. Otherwise it starts a new merged interval.
-5. The sort costs O(n log n), and the sweep is a single pass.
-
-## Time and space
-
-**Time: O(n log n).** The sort dominates, and the sweep takes O(n).
-
-**Auxiliary space: O(n).** `sorted()` makes a list of n pointers, and the result holds up to n new interval lists.
-
-## Memory estimate
-
-The sorted copy holds n pointers to the existing interval lists. The result holds n new two-element lists of 72 bytes each, and their numbers are shared with the input.
-
-| Part | How it is counted | Estimate |
-|----------|-------------------------------------------------|-------------:|
-| Input | 10,000 intervals × (72 + 2 × 28) bytes, plus the outer list | 1.3 MB |
-| Auxiliary | the sorted copy, 56 + 8n; the result's 10,000 lists × 72 bytes; and the result list of about 9n | 869 KB |
-| Total | input plus auxiliary | 2.1 MB |
-
-## Other approaches
-
-| Approach | Time | Auxiliary space |
-|----------------------------------------|----------------|----------------|
-| Compare every pair and merge until nothing changes | O(n²) or worse | O(n) |
-:::
-
-# The Skyline Problem {.problem number="218" classno="26" slot="B" level="Hard" topic="Intervals and sweep line" url="https://leetcode.com/problems/the-skyline-problem/"}
-
-::: statement
-Each building is written `[left, right, height]`. Return the skyline: the list of key points `[x, height]` at which the height of the outline changes, sorted by x. The last key point has height 0, and no two consecutive key points have the same height.
-
-For example, `buildings = [[2, 9, 10], [3, 7, 15], [5, 12, 12], [15, 20, 10], [19, 24, 8]]` gives `[[2, 10], [3, 15], [7, 12], [12, 0], [15, 10], [20, 8], [24, 0]]`.
-
-Start with `def getSkyline(buildings):`
-:::
-
-::: memory
-Estimate the memory for n = 10,000 buildings, which is LeetCode's limit, where each building is taller than the one before and starts one unit later, so that every start adds a key point.
-:::
-
-::: key
-## Solution
-
-```python
-import heapq
-
-def getSkyline(buildings):
-    events = []
-    for left, right, height in buildings:
-        events.append((left, -height, right))
-        events.append((right, 0, 0))
-    events.sort()
-    result = []
-    heap = [(0, float('inf'))]
-    for x, neg_height, right in events:
-        while heap[0][1] <= x:
-            heapq.heappop(heap)
-        if neg_height != 0:
-            heapq.heappush(heap, (neg_height, right))
-        top = -heap[0][0]
-        if not result or result[-1][1] != top:
-            result.append([x, top])
-    return result
-```
-
-## How the solution works
-
-1. The outline can change only at the edge of a building, at a left x or a right x. The solution makes an event for each edge: `(x, -height, right)` for a start and `(x, 0, 0)` for an end.
-2. It sorts the events by x. When two events share an x, the key `(x, -height, ...)` puts taller starts first and puts every end after every start. This order keeps the outline from dropping to a lower height and climbing back at the same x.
-3. It sweeps from left to right with a max-heap of the buildings that are open at the moment. Python has only a min-heap, so the heap stores `(-height, right)`, which puts the tallest building at `heap[0]`.
-4. At each event the solution first removes from the top of the heap every building whose right edge is at or before x, because those buildings have ended. Ended buildings deeper in the heap are removed only when they reach the top, a technique called lazy deletion. A sentinel entry, `(0, infinity)`, stands for the ground and is never removed.
-5. After handling the event, the current height of the skyline is the top of the heap. If it differs from the last recorded height, the solution adds `[x, height]`.
-
-Students most often go wrong on the order of events that share an x. Ask a student who stalls what should happen when one building ends exactly where another begins.
-
-## Time and space
-
-**Time: O(n log n).** Sorting 2n events takes O(n log n), and each building is pushed onto the heap and popped from it once, at O(log n) each.
-
-**Auxiliary space: O(n).** The event list has 2n entries, and the heap holds at most n + 1.
-
-## Memory estimate
-
-The event list holds 2n three-element tuples, each 64 bytes plus an 8-byte slot, and each start event carries a new negative height of 28 bytes. The heap peaks near n two-element tuples, 56 + 8 bytes each, when all the buildings overlap. The result holds n key points of 72 bytes plus a new integer of 28 bytes each.
-
-| Part | How it is counted | Estimate |
-|----------|-------------------------------------------------|-------------:|
-| Input | 10,000 buildings × (56 + 24 + 3 × 28) bytes, plus the outer list | 1.6 MB |
-| Auxiliary | events, 2n × (64 + 9); negative heights, 28n; the heap, about 65n; the sort's buffer, about 8n; the result, n × (72 + 28 + 9) | 3.4 MB |
-| Total | input plus auxiliary | 5.0 MB |
-
-## Other approaches
-
-| Approach | Time | Auxiliary space |
-|----------------------------------------|----------------|----------------|
-| Compute the tallest building at every integer x, which works only when the coordinates are small | O(n × W), where W is the width of the city | O(W) |
-| Divide and conquer: build the skylines of the two halves and merge them | O(n log n) | O(n) |
 :::
 
 # House Robber {.problem number="198" classno="27" slot="A" level="Medium" topic="Dynamic programming: one dimension" url="https://leetcode.com/problems/house-robber/"}

@@ -76,7 +76,7 @@ end
 
 local function line_plan(h, key_div)
   local n = code_lines(key_div)
-  if h.attributes.lines then return tonumber(h.attributes.lines), false end
+  if h.attributes.lines then return tonumber(h.attributes.lines), n > 9 end
   if n <= 9 then return 10, false end
   return math.min(n + 3, 18), true
 end

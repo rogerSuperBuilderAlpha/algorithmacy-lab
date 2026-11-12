@@ -1,8 +1,8 @@
 # Algorithms & Data Structures
 
-Professor Roger Hunt wrote this course for Hult International Business School. It runs for 30 classes and uses Python only. In every class, students solve two LeetCode problems by hand at the chalkboard, an easier one and a harder one, and state the running time, the auxiliary space and an estimate of the total memory of each solution in bytes. The problems start at LeetCode's Easy level and end at Hard. Before each class, a take-home names the pattern the class will use, assigns a reading, and lists practice problems.
+Professor Roger Hunt wrote this course for Hult International Business School. It runs for 30 classes. In the first half of every class, students solve two LeetCode problems by hand at the chalkboard, an easier one and a harder one, and state the running time, the auxiliary space and an estimate of the total memory of each solution in bytes. In the second half, they join live projects and put the algorithms and data structures into practice with Java, Python, Cursor and Claude Code. The problems start at LeetCode's Easy level and end at Hard. Before each class, a take-home names the pattern the class will use, assigns a reading, and lists practice problems.
 
-These documents are draft 3. Claude rewrote all four on 12 November 2026 from draft 2, after a review and seven research runs; the footer of every page says so. [REVIEW.md](REVIEW.md) lists every factual correction draft 3 makes, with its evidence, and every design decision left to the instructor. The term, dates, room, credit hours and several grading values are still blank.
+These documents are draft 3. Claude rewrote all four on 12 November 2026 from draft 2, after a review and seven research runs, and then restructured the schedule, grading and class format on the instructor's decisions of the same day; the footer of every page says so. [REVIEW.md](REVIEW.md) lists every factual correction draft 3 makes, with its evidence, and every design decision left to the instructor. The term, dates, room, credit hours, tool licensing and the extra credit for extension problems are still blank.
 
 ## Documents
 

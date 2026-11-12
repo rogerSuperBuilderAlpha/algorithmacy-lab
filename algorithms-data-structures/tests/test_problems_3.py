@@ -1,5 +1,6 @@
-"""Correctness tests for classes 23-30: LeetCode examples, edge cases, random inputs vs brute force,
-and runs at LeetCode's constraint limits. Run: /opt/homebrew/bin/python3.13 test_correctness_23_30.py"""
+"""Correctness tests for 14 board solutions, #208 through #295 (Classes 24 to 30 of draft 3 and
+Class 25's tries): LeetCode examples, edge cases, random inputs vs brute force, and runs at
+LeetCode's constraint limits. Run: python3.13 -s test_problems_3.py"""
 import copy, random, re, sys, time, itertools
 from collections import Counter, deque
 from functools import lru_cache
@@ -150,56 +151,6 @@ for trial in range(1500):
 r = list(range(5 * 10**4))
 t0 = time.perf_counter(); S.candy(r)
 print(f"  n=5*10^4 increasing: {(time.perf_counter()-t0)*1000:.1f} ms")
-
-# ---------------------------------------------------------------- #56
-section("#56 merge")
-check("56 ex1", S.merge([[1, 3], [2, 6], [8, 10], [15, 18]]) == [[1, 6], [8, 10], [15, 18]])
-check("56 ex2", S.merge([[1, 4], [4, 5]]) == [[1, 5]])
-check("56 ex3", S.merge([[4, 7], [1, 4]]) == [[1, 7]])
-check("56 single", S.merge([[0, 0]]) == [[0, 0]])
-check("56 nested", S.merge([[1, 10], [2, 3]]) == [[1, 10]])
-check("56 adjacent ints not touching", S.merge([[1, 2], [3, 4]]) == [[1, 2], [3, 4]])
-for trial in range(5000):
-    iv = []
-    for _ in range(random.randint(1, 8)):
-        a = random.randint(0, 15); b = random.randint(a, 15); iv.append([a, b])
-    inp = copy.deepcopy(iv)
-    covered = sorted({x for a, b in iv for x in range(2 * a, 2 * b + 1)})
-    want, s = [], covered[0]
-    for p, q in zip(covered, covered[1:] + [None]):
-        if q is None or q != p + 1:
-            want.append([s // 2, p // 2]); s = q
-    check("56 random", S.merge(iv) == want, inp)
-    check("56 input unchanged", iv == inp)
-
-# ---------------------------------------------------------------- #218
-section("#218 getSkyline")
-check("218 ex1", S.getSkyline([[2, 9, 10], [3, 7, 15], [5, 12, 12], [15, 20, 10], [19, 24, 8]]) ==
-      [[2, 10], [3, 15], [7, 12], [12, 0], [15, 10], [20, 8], [24, 0]])
-check("218 ex2", S.getSkyline([[0, 2, 3], [2, 5, 3]]) == [[0, 3], [5, 0]])
-check("218 same left", S.getSkyline([[1, 2, 1], [1, 2, 2], [1, 2, 3]]) == [[1, 3], [2, 0]])
-check("218 extreme coords", S.getSkyline([[0, 2**31 - 1, 2**31 - 1]]) == [[0, 2**31 - 1], [2**31 - 1, 0]])
-
-
-def ref_skyline(bs):
-    xs = sorted({x for l, r, h in bs for x in (l, r)})
-    out = []
-    for x in xs:
-        hgt = max([h for l, r, h in bs if l <= x < r], default=0)
-        if not out or out[-1][1] != hgt:
-            out.append([x, hgt])
-    return out
-
-
-for trial in range(5000):
-    bs = []
-    for _ in range(random.randint(1, 7)):
-        l = random.randint(0, 12); r = random.randint(l + 1, 14); bs.append([l, r, random.randint(1, 5)])
-    bs.sort(key=lambda b: b[0])  # LeetCode: sorted by left
-    check("218 random", S.getSkyline(bs) == ref_skyline(bs), bs)
-bs = [[i, 10**9, i + 1] for i in range(10**4)]
-t0 = time.perf_counter(); out = S.getSkyline(bs)
-print(f"  n=10^4 nested rising buildings: {len(out)} key points, {(time.perf_counter()-t0)*1000:.0f} ms")
 
 # ---------------------------------------------------------------- #198
 section("#198 rob")
