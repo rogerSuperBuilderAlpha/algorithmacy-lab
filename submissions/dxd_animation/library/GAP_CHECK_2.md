@@ -126,3 +126,87 @@ Each part of the move has a prior the paper must cite and set apart:
 6. **Hau 2026** — chatbot-as-performance as a competency; nearest (b)-side neighbour (G reserve).
 7. **DeVito 2021** — adaptive folk theorization; the nearest prior idea to intuitive governance tracking.
 8. **Leveson 2000** — first owner of "intent specifications"; cite it or rename the competency.
+
+## Rerun of the failed legs (2026-11-12)
+
+[Run by Claude (Opus 5.5 subagent), 2026-11-12.]
+
+I reran the three legs that failed on 2026-11-11, against the same claim (m7) and the same close-hit rule.
+OpenAlex answered. Semantic Scholar and Scholar Gateway did not. Every record named below was opened this run;
+raw JSON is kept in the session scratchpad, outside the repo.
+
+**Instrument check.** Before reading a zero as a zero, I ran two controls through the same OpenAlex filter.
+`"animation principles"` alone returns 104 records since 2018, and `"animation principles" robot` returns 13,
+all robot-motion papers (e.g., "Animation Techniques in Human-Robot Interaction User Studies," 2019,
+10.1145/3317325). The filter matches quoted phrases and ANDs bare terms, so the zeros below are real zeros in
+OpenAlex's index.
+
+### Queries
+
+All on 2026-11-12. OA rows use `filter=title_and_abstract.search:<query>,from_publication_date:2018-01-01`
+(25 per page, `select=` fields, no key, no email). SB rows use `filter=cites:<id>,from_publication_date:2022-01-01`.
+
+| # | source | exact query | n | hits that bear on m7 |
+|---|---|---|---|---|
+| OA1 | OpenAlex | `"animation principles" chatbot` | 0 | — |
+| OA2 | OpenAlex | `"animation principles" "conversational agent"` | 0 | — |
+| OA3 | OpenAlex | `"animation principles" "large language model"` | 0 | — |
+| OA4 | OpenAlex | `Disney animation principles AI interface` | 1 | "Dreams Designed," 2025, 10.5204/mcj.3204: an essay setting Disney's designed experience against AI-simulated feeling. No interface method, no decisions. |
+| OA5 | OpenAlex | `anticipation animation interface decision` | 2 | Neither concerns AI (a banking customer journey; a journal editors' note). |
+| OA6 | OpenAlex | `keyframe "language model" interface` | 14 | Video retrieval and robot planning (e.g., KINO, arXiv 2609.18869, a keyframe interface for VLM planning of humanoid control). None is a user-facing LLM interface. |
+| OA7 | OpenAlex | `puppetry chatbot design` | 0 | — |
+| OA8 | OpenAlex (added) | `("principles of animation" OR "animation principles" OR "cartoon animation") AND (LLM OR "language model" OR chatbot OR "conversational agent" OR "AI agent" OR generative)` | 12 | All generative AI for animation production (e.g., "A Principle-Based Evaluation of Generative AI Animation," 10.1109/tensymp63728.2025.11145008). None concerns interfaces. |
+| SB1 | OpenAlex snowball | `cites:W4399363127` (L. Stark 2024) | 25; 10 match keywords | "When Human-AI Interactions Become Parasocial" (2024, 10.1145/3630106.3658956); "Walkthrough of Anthropomorphic Features in AI Assistant Tools" (arXiv 2502.16345); Maeda & Buening 2026 (10.1145/3805689.3812282); "'A natural language interface for everyday life'" (2026, 10.1145/3805689.3806481). All critique anthropomorphism or AI discourse; none selects technique or names competencies. Run 1 found 19 citers. |
+| SB2 | OpenAlex snowball | `cites:W2768601511` (Pinhanez 2017) | 1 | Persona-method interfaces for building security systems (10.23939/sisn2024.16.145). Not relevant. |
+| SB3 | OpenAlex snowball | `cites:W2121378366` (Lasseter 1987) | 47; 6 match | Zhang & Davis 2026 (already above); AniBalloons (below). The rest: graphics, motion synthesis, robots. |
+| SB4 | OpenAlex snowball | `cites:W2016721335` (Takayama et al. 2011) | 82; 18 match | Robots generating expressive motion with LLMs or foundation models (10.1145/3610977.3634999; 10.1145/3757279.3785635); a game-derived framework for agent sight cues (10.1145/3491102.3517699). None concerns an LLM interface or a decision. |
+| S1–S5 | Semantic Scholar | `animation principles chatbot`; `animation principles conversational agent`; `animation principles large language model interface`; `anticipation animation interface decision`; `puppetry chatbot design` (`/paper/search`, limit 20) | — | **Failed** (below). |
+| SG4–6 | Scholar Gateway | three natural-language questions: animation principles applied to LLM chatbot or agent interfaces; puppetry or animation craft as a design method for agents that make binding decisions; user competencies for opaque, adaptive intermediaries and animation techniques to support them | — | **Failed:** `ACCESS_DENIED` on all three. |
+
+**Snowball method.** I resolved each DOI with `/works/doi:<DOI>`: Stark W4399363127 (25 citations in
+OpenAlex), Pinhanez W2768601511 (5), Lasseter W2121378366 (637), Takayama W2016721335 (290). The keyword set
+was `LLM OR "language model" OR chatbot OR agent OR generative OR decision`, applied server-side for Lasseter
+and Takayama and locally to all 25 Stark records. OpenAlex holds no abstract for 4 Lasseter citers and 12
+Takayama citers, so I also read every citer title for both.
+
+**Run-1 OpenAlex legs.** `GAP_CHECK.md` records no unrun OpenAlex leg. `SEARCH_LOG.md` shows each OpenAlex
+query for F8, F9, F10 and G returning 25 records on 2026-11-05, so nothing was left to rerun.
+
+### Close hits
+
+**No new close hit.** No record in this rerun does two of (a)–(c). Two neighbours come nearest, both on the
+craft side:
+
+- **An, Zhang, Gao, Zhou, Xiao & Zhao, "AniBalloons: Animated chat balloons as affective augmentation for
+  social messaging and chatbot interaction,"** *IJHCS* 194, 103365, 10.1016/j.ijhcs.2024.103365 (Crossref
+  issued 2025-02; OpenAlex gives 2024). Abstract only, from arXiv 2408.06294; neither Crossref nor OpenAlex
+  carries one. It designs "30 chat-balloon animations conveying Joy, Anger, Sadness, Surprise, Fear, and
+  Calmness" and tests them in instant messaging (N = 72) and a "chatbot service" (N = 70), reporting effects on
+  "perceived interpersonal closeness, or chatbot personality." OpenAlex lists it among Lasseter's citers.
+  **Lacks:** the animation reading of the agent, competencies and decisions; it selects motion for affect.
+- **"Context-Aware Generation and Modulation of Expressive Motion Behavior using Multimodal Foundation
+  Models,"** 2026 conference paper, 10.1145/3757279.3785635 (abstract). It builds on "a unified mathematical
+  implementation of the Principles of Animation using Dynamic Movement Primitives" and uses foundation models
+  to generate robot gestures. **Lacks:** a screen interface, user competencies and decisions.
+
+Zhang & Davis (2026) reappears among Lasseter's citers. The citation link confirms its animation-craft source
+and leaves its entry above unchanged. AniBalloons could join the F9 reserve; it is not carded.
+
+### Legs
+
+- **OpenAlex — ran.** Eight title-and-abstract queries, two controls, four DOI resolutions and four snowballs,
+  all HTTP 200.
+- **Semantic Scholar — failed:** HTTP 429 on every attempt. S1 and S2 got 8 tries each with exponential
+  backoff (waits 5, 15, 45, 90, 90, 90, 90 s). S3 got 2 tries, both 429, before I stopped the job on the
+  coordinator's instruction after two consecutive full failures. S4 and S5 were not attempted.
+- **Scholar Gateway — failed:** `ACCESS_DENIED` on all three calls.
+
+### Revised verdict
+
+**I found no work that selects professional animation techniques through the competencies a person needs to
+decide through an opaque, binding, adaptive intermediary,** in the 2026-11-11 sources plus eight OpenAlex
+title-and-abstract queries and OpenAlex citation snowballs on L. Stark (2024), Pinhanez (2017), Lasseter
+(1987) and Takayama et al. (2011). Semantic Scholar (429) and Scholar Gateway (access denied) failed again, so
+the sentence holds for these sources only. **The rerun does not change the verdict.** It adds no close hit,
+and the five priors in the verdict above still stand. [Claude's wording, for the author to keep, rewrite or
+reject.]

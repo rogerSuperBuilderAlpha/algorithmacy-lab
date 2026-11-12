@@ -265,8 +265,8 @@ An animated film has many hands and binds no one. Nothing a viewer does is evalu
 ### 7.3 Limits
 
 [DRAFTED]
-No study has tested the model. No instrument yet measures algorithmacy, and its three competencies are proposed, not validated, so the bridge between craft and interface is only as strong as that construct. The craft is read through Lasseter (1987), Chang and Ungar (1993) and Thomas and Calder (2001); Thomas and Johnston's (1981) book was not read, and the paper cites it only as others quote it. The search for prior work covered Consensus, arXiv, Crossref, Zenodo and the web, with citation searches on Chang and Ungar and on Thomas and Calder; searches of Scholar Gateway, OpenAlex and Semantic Scholar failed and should be rerun. The paper brackets agent experience, as the introduction does, and works one case.
-[/DRAFTED] [VERIFY: rerun the three failed search legs before submission (library/GAP_CHECK_2.md).]
+No study has tested the model. No instrument yet measures algorithmacy, and its three competencies are proposed, not validated, so the bridge between craft and interface is only as strong as that construct. The craft is read through Lasseter (1987), Chang and Ungar (1993) and Thomas and Calder (2001); Thomas and Johnston's (1981) book was not read, and the paper cites it only as others quote it. The search for prior work covered Consensus, arXiv, Crossref, Zenodo, OpenAlex and the web, with citation searches on Chang and Ungar, Thomas and Calder, Lasseter, Takayama et al., L. Stark and Pinhanez; searches of Scholar Gateway and Semantic Scholar failed (access denied; rate-limited) and should be rerun. The paper brackets agent experience, as the introduction does, and works one case.
+[/DRAFTED] [VERIFY: Scholar Gateway and Semantic Scholar still failed on 2026-11-12 (library/GAP_CHECK_2.md, rerun section); rerun before submission.]
 
 ## 8. Conclusion
 

@@ -317,8 +317,10 @@ precedent. The model's claim to novelty is the combination, and it has to be wor
 **The gap sentence, narrowed [DRAFTED, from `GAP_CHECK_2.md`]:** "I found no work that selects
 professional animation techniques through the competencies a person needs to decide through an
 opaque, binding, adaptive intermediary" — in the sources that check lists (Consensus, arXiv, Crossref,
-Zenodo, web, and citation snowballs on Chang & Ungar and Thomas & Calder; Scholar Gateway, OpenAlex
-and Semantic Scholar legs failed). The paper states the failed legs.
+Zenodo, web, and citation snowballs on Chang & Ungar and Thomas & Calder), plus the OpenAlex legs rerun
+on 2026-11-12 (eight searches; citation snowballs on L. Stark, Pinhanez, Lasseter and Takayama), which
+found no new close hit. Scholar Gateway and Semantic Scholar failed on both days. The paper states the
+failed legs.
 
 ### 2.4 Propositions
 
