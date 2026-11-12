@@ -17,7 +17,7 @@ starts={1,8,15,20, 25,34,40,49,55,62,70,79,87, 91,100,109,117,123,129,138,146,
 heads={1:'## Introduction',25:"## The host's power and the host's duty",91:"## Delegation and the guest's claim: Beyond the host in person?",
        152:'## Assembled hosts at the touchpoint',156:'### Where the person with power sits',175:'### Who must be at the end of the route',
        194:'### Six questions and four cases',207:"### When the route is owed, and the law's floor",225:'### Designing for correction during the stay',237:'## Conclusion'}
-after={195:block('L-1'),213:block('T1'),235:block('T2')}
+after={154:"![](keystone_2026-11/figure1/figure1_v7.png)\n\n**Figure 1.** The host's duty, its holders, and the further duty during the stay.",195:block('L-1'),213:block('T1'),235:block('T2')}
 out=[];cur=[]
 def flush():
     global cur

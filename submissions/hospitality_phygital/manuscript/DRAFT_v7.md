@@ -62,7 +62,11 @@ The law reaches part of this by another road: in United States federal law, a de
 
 ## Assembled hosts at the touchpoint
 
-Once the host is an assembled host and the duty of care follows control, the route a guest's report travels through the host's arrangements comes into view. Germann Molz has shown one part of that route: Airbnb's lawyers argued that 'any penalty should be on the hosts renting out their homes, not on the company' (Mock, as quoted in Germann Molz 2018: 244). We follow the route in hotels, short-term rentals and accommodation for placed guests, and take our cases from published studies and judgments rather than construct them.
+Once the host is an assembled host and the duty of care follows control, the route a guest's report travels through the host's arrangements comes into view (Figure 1). Germann Molz has shown one part of that route: Airbnb's lawyers argued that 'any penalty should be on the hosts renting out their homes, not on the company' (Mock, as quoted in Germann Molz 2018: 244). We follow the route in hotels, short-term rentals and accommodation for placed guests, and take our cases from published studies and judgments rather than construct them.
+
+![](keystone_2026-11/figure1/figure1_v7.png)
+
+**Figure 1.** The host's duty, its holders, and the further duty during the stay.
 
 ### Where the person with power sits
 
@@ -99,7 +103,7 @@ In Rasnick, a guest's wife telephoned a motel repeatedly, and on her account one
 
 ### When the route is owed, and the law's floor
 
-Which decisions need the route most depends on when their effects land. Not every touchpoint needs a person standing by at the moment a decision is taken. Baum and Laux sort forms of human oversight by when they act, and find that only oversight acting before a decision takes effect can change that decision (2026b: 120–122). For hospitality we draw the boundary at correction: the route is owed while correction can still help the guest during the stay, and after the stay the guest's claim runs to repair. Three laws put correction before money: remedy during a package trip, repeat performance of a consumer service, and the rectification of a platform's decision about a worker, with compensation 'Where such rectification is not possible' (Directive (EU) 2015/2302, art. 13; Consumer Rights Act 2015, ss. 55, 56(3); Directive (EU) 2024/2831, art. 11(3)). Earlier intervention is the exception: a claim to a hearing before a deprivation 'rests on the proposition that full relief cannot be obtained at a postdeprivation hearing' (Mathews v Eldridge 1976: 331), and an injunction protects a claimant against harm that damages could not make good (American Cyanamid v Ethicon 1975: 3). Table 1 places common hospitality decisions against this boundary.
+Which decisions need the route most depends on when their effects land. Not every touchpoint needs a person standing by at the moment a decision is taken. Baum and Laux sort forms of human oversight by when they act, and find that only oversight acting before a decision takes effect can change that decision (2026b: 120–122). For hospitality we draw the boundary at correction: the route is owed while correction can still help the guest during the stay, and after the stay the guest's claim runs to repair. Three laws put correction before money: remedy during a package trip, repeat performance of a consumer service, and the rectification of a platform's decision about a worker, with compensation 'Where such rectification is not possible' (Directive (EU) 2015/2302, art. 13; Consumer Rights Act 2015, ss. 55, 56(3); Directive (EU) 2024/2831, art. 11(3)). Earlier intervention is the exception: a claim to a hearing before a deprivation 'rests on the proposition that full relief cannot be obtained at a postdeprivation hearing' (Mathews v Eldridge 1976: 331). Table 1 places common hospitality decisions against this boundary.
 
 **Table 1.** Hospitality decisions by whether correction during the stay can still help, and the route each needs.
 
@@ -145,7 +149,7 @@ A host can act on the argument now, by putting the six questions to each touchpo
 
 ## Acknowledgment of the Use of Generative AI and AI-Assisted Technologies in the Writing Process
 
-[AUTHORS TO WRITE. The journal's template: "Throughout the preparation of this work, the author(s) employed [NAME OF TOOL / SERVICE] to [PURPOSE]. Following the utilization of this tool/service, the author(s) thoroughly reviewed and edited the content as necessary, assuming full responsibility for the publication's content."]
+Throughout the preparation of this work, the authors employed Claude (Anthropic; Fable 5.2 and Opus 5.5) to search for and read sources, check citations and quotations, and draft the revised article and the responses to reviewers. Following the utilization of this tool/service, the authors thoroughly reviewed and edited the content as necessary, assuming full responsibility for the publication's content.
 
 ## References
 
@@ -270,8 +274,6 @@ Xu, Xinzhi and Greiffenhagen, Christian (2024), 'The disciplined customer: A vid
 Airbnb Ireland (2019), Case C-390/18, criminal proceedings against X (Airbnb Ireland), judgment of the Court (Grand Chamber) of 19 December 2019.
 
 Al-Najar v The Cumberland Hotel (London) Ltd [2019] EWHC 1593 (QB).
-
-American Cyanamid Co v Ethicon Ltd [1975] UKHL 1, [1975] AC 396.
 
 Armes v Nottinghamshire County Council [2017] UKSC 60.
 

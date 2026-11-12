@@ -57,4 +57,4 @@ phygital hospitality; algorithmic mediation; host duties; assembled host; servic
 | Full institutional postal address and one email address | outstanding |
 | Ethical statement and conflict of interest statement | outstanding; no human subjects in this study |
 | Funder name and grant number, if applicable | outstanding |
-| AI acknowledgment section | **outstanding.** DRAFT_v7 carries the required heading before the References with the journal's template in brackets. Every sentence of DRAFT_v7 was written by Claude from the authors' arguments and the run's research, so the statement has to say so of whatever text you submit. The same section answers R3.1. |
+| AI acknowledgment section | **drafted, for you to confirm or rewrite.** DRAFT_v7 now carries a truthful statement in the required section. Every sentence of DRAFT_v7 was written by Claude from the authors' arguments and the run's research, which goes beyond the journal's permission ('to enhance readability and language'). The same section answers R3.1. |

@@ -61,7 +61,7 @@ wilsonnash2025captivity
 # --- Cases (listed by hand) ---
 # alnajar2019cumberland
 # airbnb2019cjeu
-# americancyanamid1975ethicon
+# (americancyanamid1975ethicon: cut 12 Nov 2026)
 # armes2017uksc
 # barclays2020uksc
 # billops1978magness

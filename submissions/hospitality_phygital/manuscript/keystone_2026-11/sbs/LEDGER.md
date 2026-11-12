@@ -2212,3 +2212,27 @@ The editor asked for impacts on individual and collective well-being and for ind
   *Paid for S-262a with S-226. S-225 already sets the interface against the institution; S-225 now opens the next paragraph, on the institutional principles.*
 
 **Measured.** Body 8,925 by `wordcount.py` (8,983 by `preflight.py`). Pigac et al. leave the reference list; Jianu et al. and Spektor et al. join it. `check_citations.py`: citations OK.
+
+## Finishing (12 Nov 2026): Figure 1 adopted, the AI acknowledgment drafted
+
+On the user's instruction to finish the paper. The redrawn Figure 1 (`../figure1/`, every label traced to its sentence in the README there) goes after paragraph 4.0, paid for as the README proposed.
+
+- **S-152 ❌ → rewritten.** Was: > Once the host is an assembled host and the duty of care follows control, the route a guest's report travels through the host's arrangements comes into view.
+  Now: > Once the host is an assembled host and the duty of care follows control, the route a guest's report travels through the host's arrangements comes into view (Figure 1).
+  *The callout. No other change.*
+- **S-212 ❌ → rewritten.** Was: > Earlier intervention is the exception: a claim to a hearing before a deprivation 'rests on the proposition that full relief cannot be obtained at a postdeprivation hearing' (Mathews v Eldridge 1976: 331), and an injunction protects a claimant against harm that damages could not make good (American Cyanamid v Ethicon 1975: 3).
+  Now: > Earlier intervention is the exception: a claim to a hearing before a deprivation 'rests on the proposition that full relief cannot be obtained at a postdeprivation hearing' (Mathews v Eldridge 1976: 331).
+  *Paid for the caption. Mathews carries the point that a hearing before effect is the exception; American Cyanamid leaves the Cases list.*
+- **Figure 1 and caption (new, after S-154).** > **Figure 1.** The host's duty, its holders, and the further duty during the stay.
+  - Form ✅ A figure caption, in the tables' form.
+  - Construction ✅
+  - Register ✅ The paper's fixed terms ('holders', 'the further duty').
+  - Value ✅ Answers R2.1, whose 'Figure 1' had stated the withdrawn claim.
+  - Truth ✅ Each label is mapped to its v7 sentence (`figure1/README.md`).
+  - `preflight.py` now accepts bold figure captions as it accepts table captions.
+- **The AI acknowledgment (drafted by Claude for the authors to confirm or rewrite).** > Throughout the preparation of this work, the authors employed Claude (Anthropic; Fable 5.2 and Opus 5.5) to search for and read sources, check citations and quotations, and draft the revised article and the responses to reviewers. Following the utilization of this tool/service, the authors thoroughly reviewed and edited the content as necessary, assuming full responsibility for the publication's content.
+  - The first sentence describes what happened.
+  - The second is the journal's template, and is true only once the authors have reviewed and edited the text.
+  - The journal permits AI 'only' to 'enhance readability and language'; this use goes beyond that, which the authors must weigh before submitting.
+
+**Measured.** Body 8,921 by `wordcount.py`; 8,995 by `preflight.py`, which counts the acknowledgment; citations OK; 58 references, 30 cases, 17 legal instruments.

@@ -113,7 +113,7 @@ def main():
 
     # --- house style -----------------------------------------------------------
     check(body.count('"') == 0, "no double quote marks in the body", f"{body.count(chr(34))} found")
-    bold = [b for b in re.findall(r"\*\*(.+?)\*\*", body, re.S) if not b.startswith("Table ")]
+    bold = [b for b in re.findall(r"\*\*(.+?)\*\*", body, re.S) if not b.startswith(("Table ", "Figure "))]  # figure captions added 12 Nov 2026
     check(not bold, "no bold in running text apart from table captions",
           "; ".join(b[:30] for b in bold[:3]) or "clean")
     ise = [w for w in re.findall(r"\b\w+is(?:e|ed|es|ing|ation)\b", body)

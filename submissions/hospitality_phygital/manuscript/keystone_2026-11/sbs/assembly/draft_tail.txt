@@ -1,7 +1,7 @@
 
 ## Acknowledgment of the Use of Generative AI and AI-Assisted Technologies in the Writing Process
 
-[AUTHORS TO WRITE. The journal's template: "Throughout the preparation of this work, the author(s) employed [NAME OF TOOL / SERVICE] to [PURPOSE]. Following the utilization of this tool/service, the author(s) thoroughly reviewed and edited the content as necessary, assuming full responsibility for the publication's content."]
+Throughout the preparation of this work, the authors employed Claude (Anthropic; Fable 5.2 and Opus 5.5) to search for and read sources, check citations and quotations, and draft the revised article and the responses to reviewers. Following the utilization of this tool/service, the authors thoroughly reviewed and edited the content as necessary, assuming full responsibility for the publication's content.
 
 ## References
 
@@ -126,8 +126,6 @@ Xu, Xinzhi and Greiffenhagen, Christian (2024), 'The disciplined customer: A vid
 Airbnb Ireland (2019), Case C-390/18, criminal proceedings against X (Airbnb Ireland), judgment of the Court (Grand Chamber) of 19 December 2019.
 
 Al-Najar v The Cumberland Hotel (London) Ltd [2019] EWHC 1593 (QB).
-
-American Cyanamid Co v Ethicon Ltd [1975] UKHL 1, [1975] AC 396.
 
 Armes v Nottinghamshire County Council [2017] UKSC 60.
 
