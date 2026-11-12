@@ -1,0 +1,6 @@
+sys.getsizeof(deque()) = 760
+H-tree in 33x33 grid: island cells 721, peak BFS queue 32, min(m,n) = 33, ratio 0.97
+H-tree in 65x65 grid: island cells 2977, peak BFS queue 66, min(m,n) = 65, ratio 1.02
+H-tree in 129x129 grid: island cells 12097, peak BFS queue 156, min(m,n) = 129, ratio 1.21
+H-tree in 257x257 grid: island cells 48769, peak BFS queue 320, min(m,n) = 257, ratio 1.25
+H-tree in 513x513 grid: island cells 195841, peak BFS queue 744, min(m,n) = 513, ratio 1.45

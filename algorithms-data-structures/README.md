@@ -1,12 +1,27 @@
 # Algorithms & Data Structures
 
-First draft. Professor Roger Hunt wrote this course for Hult International Business School. Term, dates, room, credit hours, and several grading numbers are still blank.
+Professor Roger Hunt wrote this course for Hult International Business School. It runs for 30 classes and uses Python only. In every class, students solve two LeetCode problems by hand at the chalkboard, an easier one and a harder one, and state the running time, the auxiliary space and an estimate of the total memory of each solution in bytes. The problems start at LeetCode's Easy level and end at Hard. Before each class, a take-home names the pattern the class will use, assigns a reading, and lists practice problems.
 
-The course is Python only and runs for 30 classes. Difficulty ramps from Easy LeetCode problems, through Medium, to Hard. Each class has a take-home that names the pattern and lists practice problems. In class, students solve two board problems in chalk, one easier and one harder, and state Big-O time, auxiliary space, and total memory for each solution.
+These documents are draft 3. Claude rewrote all four on 12 November 2026 from draft 2, after a review and seven research runs; the footer of every page says so. [REVIEW.md](REVIEW.md) lists every factual correction draft 3 makes, with its evidence, and every design decision left to the instructor. The term, dates, room, credit hours and several grading values are still blank.
 
 ## Documents
 
-- [Syllabus](ADS_Syllabus_Draft.pdf): the 30-class plan, the CPython memory table, and the grading rule. Word file: [ADS_Syllabus_Draft.docx](ADS_Syllabus_Draft.docx).
-- [Take-homes](ADS_Take_Homes.pdf): one sheet per class, naming the pattern, the reading, and the practice problems. Word file: [ADS_Take_Homes.docx](ADS_Take_Homes.docx).
-- [In-class board problems](ADS_In_Class_Board_Problems.pdf): student answer sheets for the easier and the harder chalk problem in each class. Word file: [ADS_In_Class_Board_Problems.docx](ADS_In_Class_Board_Problems.docx).
-- [In-class solutions](ADS_In_Class_Solutions.pdf): the instructor key, with a worked Python solution and the time, space, and memory figures. Word file: [ADS_In_Class_Solutions.docx](ADS_In_Class_Solutions.docx).
+- [Syllabus](ADS_Syllabus_Draft.pdf): the course, the 30-class schedule, the table of CPython memory sizes, the grading rule, the AI policy and Hult's policies. Word file: [ADS_Syllabus_Draft.docx](ADS_Syllabus_Draft.docx).
+- [Take-homes](ADS_Take_Homes.pdf): one two-sided sheet per class, with the pattern, the reading and the practice problems on the front and the student's plan on the back. Word file: [ADS_Take_Homes.docx](ADS_Take_Homes.docx).
+- [In-class board problems](ADS_In_Class_Board_Problems.pdf): the student answer sheet for each of the 60 problems. Word file: [ADS_In_Class_Board_Problems.docx](ADS_In_Class_Board_Problems.docx).
+- [In-class solutions](ADS_In_Class_Solutions.pdf): the instructor key, with a tested Python solution, its explanation, its time and space, a memory estimate and other approaches for every problem. Word file: [ADS_In_Class_Solutions.docx](ADS_In_Class_Solutions.docx).
+
+## Editing and rebuilding
+
+Edit the Markdown in `source/`, not the Word files, which the build overwrites. `source/problems.md` holds all 60 problems and produces both the answer sheets and the key.
+
+```sh
+sh algorithms-data-structures/build/build.sh       # Word and PDF files; needs pandoc 3, python-docx and LibreOffice
+sh algorithms-data-structures/tests/run_tests.sh   # runs every solution in the key; needs Python 3.13
+```
+
+The draft label in the footer is set once, at the top of `build/build.sh`.
+
+## Research
+
+`research_notes/ADS course setup review/` holds the notes from the seven research runs, and its `evidence/` folder holds the scripts and their output.

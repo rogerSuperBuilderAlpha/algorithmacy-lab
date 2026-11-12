@@ -179,8 +179,8 @@ def main(footer_text, out):
 
     set_font(st["Heading 1"], size=17, bold=True)
     spacing(st["Heading 1"], 14, 4, 1.0, True)
-    set_font(st["Heading 2"], size=13, bold=True)
-    spacing(st["Heading 2"], 12, 4, 1.0, True)
+    set_font(st["Heading 2"], size=12.5, bold=True)
+    spacing(st["Heading 2"], 9, 3, 1.0, True)
     set_font(st["Heading 3"], size=11.5, bold=True)
     spacing(st["Heading 3"], 10, 3, 1.0, True)
     set_font(st["Heading 4"], size=11, bold=True, italic=False)
@@ -203,7 +203,7 @@ def main(footer_text, out):
     line.paragraph_format.space_before = Pt(0)
     line.paragraph_format.space_after = Pt(0)
     line.paragraph_format.line_spacing_rule = WD_LINE_SPACING.EXACTLY
-    line.paragraph_format.line_spacing = Pt(23)
+    line.paragraph_format.line_spacing = Pt(22)
     bottom_border(line, 4, "A0A0A0")
 
     field = get_or_add(doc, "Answer Field")
@@ -215,10 +215,19 @@ def main(footer_text, out):
     sheet = get_or_add(doc, "Sheet Header")
     set_font(sheet, size=10)
     spacing(sheet, 0, 10, 1.0)
+    sheet.paragraph_format.page_break_before = True
 
     label = get_or_add(doc, "Problem Label")
     set_font(label, size=10.5)
     spacing(label, 0, 0, 1.0, True)
+
+    # Labels that open a new page. A style-level page break never leaves an
+    # empty page behind, unlike a separate page-break paragraph.
+    for name in ("Key Label", "Continued Label"):
+        st_new = get_or_add(doc, name, base="Problem Label")
+        set_font(st_new, size=10.5)
+        spacing(st_new, 0, 0, 1.0, True)
+        st_new.paragraph_format.page_break_before = True
 
     small = get_or_add(doc, "Small Print")
     set_font(small, size=9.5)

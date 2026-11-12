@@ -1,0 +1,3 @@
+identical results on 2000 of 2000 random cases
+findWords: 10 words, 0.50 s on 12x12 all-'a' board
+findWords_unpruned: 10 words, 1.21 s on 12x12 all-'a' board

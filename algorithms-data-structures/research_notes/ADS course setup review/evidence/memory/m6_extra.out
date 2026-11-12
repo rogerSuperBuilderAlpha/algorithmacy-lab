@@ -1,0 +1,12 @@
+append spare%: n=1000 10.0 n=100000 0.116 n=10000 6.4 n=1e6 5.608
+max spare% over n in 100..2000: 17.431192660550458 mean over 1000..2000: 6.1
+spare% for n in 1000,1100(exp),1101..: [(1100, 0.0), (1101, 12.99), (1200, 3.67), (1239, 0.4), (1240, 0.32), (1241, 0.24)]
+dict {'a':1} 184 {'a':1,'b':2} 184 dict str keys 6 272
+dict str keys 1000 26032 26.0
+dict str keys 100000 3844864 38.4
+empty-instance 48 instance dict 288
+range iter 40 range obj 48 list iter 48
+ints 2^30-1 28 2^30 32 2^60-1 32 2^60 36 neg -2^30 32
+generator 192 frozenset 216 bytes b'' 33 bytearray 56
+str ascii 100k chars 100041
+float list slot: [1.5]*3 80

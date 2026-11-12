@@ -1,0 +1,45 @@
+
+=== #700 searchBST
+  5000-node right chain, val at bottom: 0.55 ms
+
+=== #98 isValidBST
+  children-only check on key's example [5,1,4,null,null,3,6]: False
+  children-only check on [5,4,6,null,null,3,7]: True
+  sys.getrecursionlimit() = 1000
+  right chain of 900 nodes: returned True
+  right chain of 1000 nodes: RecursionError: maximum recursion depth exceeded
+  right chain of 10000 nodes: RecursionError: maximum recursion depth exceeded
+
+=== #703 KthLargest
+  k=10^4, 10^4 nums, 10^4 adds: 27.5 ms
+
+=== #347 topKFrequent
+  n=10^5: 102.1 ms; distinct values possible under constraints: 20001
+
+=== #733 floodFill
+  50x50 uniform: 8.06 ms
+
+=== #200 numIslands
+  300x300 all land: 191.5 ms
+  300x300 checkerboard (45000 islands): 95.6 ms
+
+=== #1971 validPath
+  n=2e5 path graph: True in 360 ms
+
+=== #994 orangesRotting
+
+=== #207 canFinish / #210 findOrder
+  V=2000 chain both: 4.2 ms
+
+=== #743 networkDelayTime
+  V=100, E=6000: 11.2 ms
+
+=== #1631 minimumEffortPath
+  100x100 random heights: 53 ms
+
+=== #547 findCircleNum
+
+=== #684 findRedundantConnection
+
+TOTAL checks: 54057, passed 54057, failed 0
+failures by test: {}

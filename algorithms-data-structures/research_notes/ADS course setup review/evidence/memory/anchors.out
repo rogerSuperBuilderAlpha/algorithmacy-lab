@@ -1,0 +1,6 @@
+200 https://docs.python.org/3/builtins/stdtypes.html | anchor 'bitwise-operations-on-integer-types' id-matches=1 | requested 3/library/stdtypes.html
+200 https://docs.python.org/3/library/sys.html | anchor 'sys.getsizeof' id-matches=1 | requested 3/library/sys.html
+200 https://docs.python.org/3/library/collections.html | anchor 'collections.deque' id-matches=1 | requested 3/library/collections.html
+200 https://docs.python.org/3.13/builtins/stdtypes.html | anchor 'bitwise-operations-on-integer-types' id-matches=1 | requested 3.13/library/stdtypes.html
+200 https://docs.python.org/3.13/library/sys.html | anchor 'sys.getsizeof' id-matches=1 | requested 3.13/library/sys.html
+200 https://docs.python.org/3.13/library/collections.html | anchor 'collections.deque' id-matches=1 | requested 3.13/library/collections.html
