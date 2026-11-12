@@ -54,7 +54,7 @@ The authors argue that reactive human oversight (intervening on an agent's singl
 - **A single human principal.** The authors exclude, in terms, institutions as principals and deployments with several principals (pp. 25, 27). A hotel firm, and a brand, operator and platform hosting together, fall outside the stated scope. Any application to a host is an extension the authors decline to make.
 - **Harm, not performance.** The prospective obligation is to "guard against the harms one's activities impose on others" (p. 20). The dossier's C concerns performance of a service owed to the guest. The two overlap where failed performance harms the guest, but the paper does not speak of duties to perform.
 - **The prospective obligation is not said to be owed to anyone.** The relational element attaches to answerability, the backward-looking side: a liability whose correlative power is "held by certain others" (p. 22). The paper does not say that the prospective obligation itself is owed to those parties.
-- **No real-time route from the affected party.** Affected stakeholders give "input" at inspection (p. 14), and contestability presupposes standing that the framework does not secure (pp. 17, 26-27). Hand-back to a human is triggered by conditions in the agenda (p. 11), not by the affected party. Nothing in the paper requires a channel from the affected party to a person during operation.
+- **A route from affected parties, after the fact and to the principal; none in real time.** The authors require that the agenda be 'contestable' (p. 14), that affected parties can 'challenge the agent's action in terms they can engage with' (p. 17), and that their objections at inspection be how the principal 'learns from experience' (pp. 15-16). Affected stakeholders give "input" at inspection (p. 14), and contestability presupposes standing that the framework does not secure (pp. 17, 26-27). Hand-back to a human is triggered by conditions in the agenda (p. 11), not by the affected party. (Rewritten after CV-H.)
 - **Answerability is not blame and not liability** (pp. 21-22, 25). What strictness yields is an obligation to give an account.
 - **Agentic AI.** The argument is built for systems acting over long horizons with streams of micro-actions (pp. 2-3). Hotel kiosks and room systems are mostly discrete-decision systems, for which the authors call reactive oversight "empirically fragile, yet increasingly well understood" (p. 1).
 - **Preprint under review**, version 1; the SSRN version was not seen.
@@ -82,8 +82,10 @@ The authors argue that reactive human oversight (intervening on an agent's singl
 **What the paper may not say**
 
 - That the authors require a channel from affected parties to a person during operation.
-- That they say the prospective obligation is owed to the affected parties.
+- That they say in terms that the role-grounded prospective obligation is owed to the affected parties. They describe the agenda as representing 'the obligations to others her position generates' (p. 20) and ground standing in 'the role obligations of the principal' (p. 22), which leaves directedness open.
 - That their account covers firms or several firms hosting together.
 - That they treat answerability as liability to compensate (p. 25).
 
 Card written by a Claude (Opus 5.5) subagent, reader R11, from the arXiv v1 PDF read in full, 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-H (`manuscript/keystone_2026-11/VERIFY_CARDS_H.md`): directedness left open, not denied (pp. 20, 22); the authors' contestability requirement added (pp. 14-17): a route from affected parties after the fact, to the principal, as part of how the principal learns. n. 11 also cites Kiener [28].

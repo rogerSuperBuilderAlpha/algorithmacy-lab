@@ -104,3 +104,15 @@
 
 **Effect on ARGUMENT.md.** *The Star Sea* paragraph now says para 117 is about privity, not a duty to enquire, and that the speeches call such failures negligence; Hormio's sentence is tied to her example; the guests at the kiosk were sometimes advised by bystanders.
 
+## CV-H (the R9 and R11 cards): 11 items, 0 FAIL, 288 quotations all MATCH
+
+| Card | What the verifier found | What I changed |
+|---|---|---|
+| `baum2026anticipatory` | The card understated the source: the authors require that affected parties can challenge the agent's action (pp. 14-17), after the fact and to the principal, as part of how the principal learns; directedness is open, not denied | Card corrected; ARGUMENT.md's novelty item names this as the nearest published premise |
+| `kiesewetter2015instrumental` | 'May say' 2 and 3 too strong: Way's concession is reported; p. 937 says 'could' and does not exclude a further 'ought' | Narrowed; ARGUMENT.md 6.2 follows |
+| `herstein2023legal` | The preamble says 'unique or particularly salient to legal rights', not 'particular to' | Narrowed; ARGUMENT.md P3 and risk 1 follow |
+| `lynch2011theorizing` | The 'contestation' sentence sits mid-paragraph; the saved copy is a submitted draft | Corrected; ARGUMENT.md flags the version of record |
+| `petie2025exploring` | 'The single queries were handled' is the Government evaluation's finding; news reports on the same page say no actions were taken | Narrowed; ARGUMENT.md 6.4 follows |
+| `moysidou2023theorizing` | The one complaint to Workaway was at admission, not during a stay | Narrowed (ARGUMENT.md does not use it) |
+| `kekstaite2022beyond`, `ogorman2007discovering`, `pettit2007responsibility` | Stale bib note; sample wording; p. 47 repetition; author-posting access | Notes added; K-D12 extended to authors' own postings |
+

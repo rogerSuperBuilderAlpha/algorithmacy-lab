@@ -65,7 +65,7 @@ Kiesewetter defends the transmission principle: if A ought to φ, and ψ-ing is 
 
 - Kiesewetter defends the principle that if one ought to do something, and an action is a necessary means to doing it, one ought to take that means (p. 922).
 - He restricts the principle to necessary means and notes that a principle not so restricted faces further objections (p. 922 and n. 2).
-- He treats measures that make conformity more secure as matters of "second-order reasons", not of a further 'ought' (p. 937).
+- Discussing an agent's own likely failure to conform, he says the likelihood 'could' supply 'second-order reasons to adopt additional measures that ensure his conformity' without changing the agent's first-order obligations (p. 937). He does not say such measures can never be obligatory.
 
 **What the paper may not say**
 
@@ -74,3 +74,5 @@ Kiesewetter defends the transmission principle: if A ought to φ, and ψ-ing is 
 - That the transmission principle is uncontested. Kiesewetter calls his own argument for it defeasible (p. 946), and he answers published objections from Broome, Raz and Kolodny (pp. 938-944).
 
 Card written by a Claude (Opus 5.5) subagent, reader R11, from the saved version of record read in full (Internet Archive captures of the author's and PhilArchive's copies), 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-H (`manuscript/keystone_2026-11/VERIFY_CARDS_H.md`): 'may say' 2 and 3 narrowed: Way's concession is reported, not Kiesewetter's own objection (p. 922, n. 2); p. 937 says likelihood 'could' supply second-order reasons and does not exclude a further 'ought'.

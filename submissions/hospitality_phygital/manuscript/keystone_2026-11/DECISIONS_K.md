@@ -93,3 +93,5 @@ The critical scholar's report (`REDTEAM_CRIT.md`) finds two fatal and ten seriou
 
 **What I accept now, before R9 reports.** F1: the plate is dropped as footing for C. F2: the 'Answered' status of the 'innkeeper law' objection was wrong, and draft 2 will re-describe what hospitality supplies and what law supplies. M1 and the seven citation errors listed in section 3 of the report are corrected in draft 2.
 
+**K-D12, extended (11 Nov, after CV-H).** An author's own posting of their article (here Pettit 2007, on the author's institutional page, archived 2 Jan 2025) counts as an open copy. It is self-archiving by the author, served without charge or login, and its use evades no paywall. The publisher's copy stays closed, and the card says so.
+

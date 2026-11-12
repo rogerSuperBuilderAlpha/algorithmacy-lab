@@ -74,3 +74,5 @@ Pettit argues that a group agent can be fit to be held responsible in its own ri
 - That he treats a contractual assemblage of firms as a group agent.
 
 Card written by a Claude (Opus 5.5) subagent, reader R11, from the saved version of record read in full (Internet Archive capture of the author's Princeton copy), 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-H (`manuscript/keystone_2026-11/VERIFY_CARDS_H.md`): the publisher's copy is closed; the copy read is the author's institutional posting, archived 2 Jan 2025. Decision K-D12 is extended to cover an author's own posting (see DECISIONS_K.md).

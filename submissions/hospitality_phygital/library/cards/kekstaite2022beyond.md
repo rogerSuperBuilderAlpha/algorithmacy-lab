@@ -74,3 +74,5 @@ Kekstaite interviewed eighteen Brussels residents who sheltered 'illegalised' mi
 - That it supports a host's duty to keep a channel, or says anything about commercial hosts.
 
 Card written by a Claude (Opus 5.5) subagent, reader R9, from the saved Ghent repository file read in full, 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-H (`manuscript/keystone_2026-11/VERIFY_CARDS_H.md`): the 'Bibliography error' note is stale: references.bib now gives 'Kekstaite, Julija'. The sample is '18 respondents, mostly living in Brussels and its surroundings' (AM p. 6); the Ghent record labels the file 'Accepted manuscript'.

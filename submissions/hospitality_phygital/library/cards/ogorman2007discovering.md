@@ -74,3 +74,5 @@ A short illustrated article for a practitioner journal. O'Gorman argues that Rom
 - That the duties on p. 45 attach to commercial hosts.
 
 Card written by a Claude (Opus 5.5) subagent, reader R9, from the saved Strathprints file read in full (page images and extracted text), 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-H (`manuscript/keystone_2026-11/VERIFY_CARDS_H.md`): p. 47 repeats the p. 44 sentence without 'Extensive'; p. 44's 'protected by one legal system' concerns citizens travelling, not inns.
