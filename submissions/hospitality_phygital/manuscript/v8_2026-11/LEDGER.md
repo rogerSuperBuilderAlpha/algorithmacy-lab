@@ -103,6 +103,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ Card: AR 'was perceived as an ice-breaker activity that facilitated social interactions among customers ... and staff' (p. 7); diner: 'the atmosphere was great, the staff smiling' (p. 8).
 
 #### O-009 · answers GM.010 · [C]
+**CUT AT LEDGER (length, V8-D11): O-010 carries the delight and cites Batat (2021) for it.** The entry stays so its id does not move.
 > Diners reported delight, which Batat traces to the 'positive disconfirmation' of what they expected (2021: 10).
 
 - **Form** ✅ ~17w against GM.010's ~31 (−45%) ⚠️ under; the scene closes on one word of the source's, not a slogan.
@@ -546,6 +547,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ Pierre P4.12, adapted (construction: 'It' → 'The systems at these crossings'; reviewer: 'you even see' → 'a guest even sees', R3).
 
 #### O-048.1 · answers GM.041 · [PB] P4.19
+**CUT AT LEDGER (length, V8-D11): O-048.2 opens on the studies themselves.** The entry stays so its id does not move.
 > Some recent work has started to put machines in something like the host's chair, but it keeps asking a different question.
 
 - **Form** ✅ 21w.
@@ -1134,6 +1136,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ v7 S-049, S-051.
 
 #### O-093 · answers GM.091 · [C]
+**CUT AT LEDGER (length, V8-D11): O-091 and O-108 carry the role's place in the argument; v7 S-053 is cut in the crosswalk.** The entry stays so its id does not move.
 > Philosophers dispute whether a role makes a duty bind or only records 'merely others' expectations' (Jeske 2021: §4), and associative theorists reply that critics mistake conditions that disable an obligation for conditions that ground it (Dagger and Lefkowitz 2021: §4.3).
 
 - **Form** ✅ ~42w against GM.091's ~44.
@@ -1330,6 +1333,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 ### PA lead-in
 
 #### O-111 · answers GM.111 · [C]
+**CUT AT LEDGER (length, V8-D11): Slattery is cited in the introduction (O-020).** The entry stays so its id does not move.
 > Chains have replaced unaffiliated venues as the industry's key operators, Slattery observes, and they outsource services to suppliers, investors, consultants and internet companies (2002: 24–25).
 
 - **Form** ✅ ~27w against GM.111's ~14 ⚠️ over; the figure-from-the-actor move with a scholar's observation in place of the firm's own statistics. Departure recorded.
@@ -1560,7 +1564,9 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 ### *The brand* — BR ¶1 · Brands found liable
 
 #### O-131 · answers GM.152 · [C]
-> Ariyogi et al. rest the ownership of a guest's recovery on how the guest evaluates 'the branded service organization' (2026: 78), but hospitality research has rarely asked what a brand owes a guest at a hotel that another firm operates.
+> Hospitality research has rarely asked what a brand owes a guest at a hotel that another firm operates, though Ariyogi et al. rest a guest's recovery on how the guest evaluates 'the branded service organization' (2026: 78).
+
+❌ **First attempt, rewritten (V8-D11):** 'Ariyogi et al. rest the ownership of a guest's recovery on how the guest evaluates 'the branded service organization' (2026: 78), but hospitality research has rarely asked what a brand owes a guest at a hotel that another firm operates.' Reordered so the subsection opens on its gap (GM.152's form) and the neighbour already named at O-074 follows; length unchanged, the cut is elsewhere.
 
 - **Form** ✅ ~38w against GM.152's ~23.
 - **Construction** ✅ GM.152's *With the notable exception of …, scholars have not often …*, as *X rest …, but research has rarely asked …*.
@@ -1724,6 +1730,7 @@ O-144 (Pierre P3.19, 'What it has not yet asked …') is not written: the gap se
 ### *The vendor* — VE ¶1 · Back to the first scene: authority over the rule
 
 #### O-151 · answers GM.199 · [C]
+**CUT AT LEDGER (length, V8-D11): Wirtz et al. are cited at the gap sentence (O-074).** The entry stays so its id does not move.
 > Service research has begun to notice the vendor: Wirtz et al. observe that customer-facing technologies come from vendors whose designs shape how a service firm deals with its customers (2023).
 
 - **Form** ✅ ~31w against GM.199's ~15 ⚠️ over. Departure recorded.
@@ -1889,6 +1896,7 @@ O-144 (Pierre P3.19, 'What it has not yet asked …') is not written: the gap se
 - **Truth** ✅ v7 S-116.
 
 #### O-174a · answers GM.236 · [C]
+**CUT AT LEDGER (length, V8-D11): Brandt is cited in O-175; v7 S-117 to S-119 are cut in the crosswalk.** The entry stays so its id does not move.
 > Moral philosophy divides the same way: Brandt holds that one who delegates a responsibility remains bound to see it fulfilled, since an arrangement with a third party cannot alter what was agreed with the party owed, while O'Neill, as he quotes her, has a careful hand-over transfer the obligation (Brandt 2017).
 
 - **Form** ✅ ~52w.
@@ -1899,7 +1907,9 @@ O-144 (Pierre P3.19, 'What it has not yet asked …') is not written: the gap se
 - **Truth** ✅ v7 S-117, S-118, S-119.
 
 #### O-175 · answers GM.237 · [C]
-> Brandt's delegator, however, steps in only once the delegate is plainly failing, and he leaves a means of finding out as one policy among several; outside package travel, neither the law of delegation nor this literature says that a host must keep a means of learning of a failure in the guest's case while it can still be put right.
+> Outside package travel, neither the law of delegation nor its moral philosophy says that a host must keep a means of learning of a failure in the guest's case while it can still be put right: Brandt's delegator steps in only once the delegate is plainly failing, and leaves a means of finding out as one policy among several (Brandt 2017).
+
+❌ **First attempt, rewritten (V8-D11):** 'Brandt's delegator, however, steps in only once the delegate is plainly failing, and he leaves a means of finding out as one policy among several; outside package travel, neither the law of delegation nor this literature says that a host must keep a means of learning of a failure in the guest's case while it can still be put right.' Brandt's introduction (O-174a) is cut, so the sentence leads with the absence and names Brandt in its evidence.
 
 - **Form** ✅ ~58w against GM.237's ~32 ⚠️ over; it carries v7's two findings that set up the further duty. Departure recorded.
 - **Construction** ✅ Semicolon splits Brandt from the wider absence; 'he' has one antecedent, Brandt; 'it' at the end, 'a failure'.
