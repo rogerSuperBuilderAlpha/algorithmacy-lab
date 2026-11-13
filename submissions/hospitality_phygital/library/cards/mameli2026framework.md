@@ -53,3 +53,7 @@ v4 §7 paragraph on seamlessness; revision §7.
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: counts confirmed; "no discussion of friction" judged PARTLY (word absent, risks discussed as a gap); first-name error in card corrected.
 
 Fable-checked rr-2026-11 (2026-11-08): accepted verifier_4; card title completed with the PDF's subtitle; issue number recorded as Crossref-confirmed; "friction" zero hits re-run on my own extraction; 57/84 counts and the July 2023 search date (p. 6) re-read; verdicts unchanged.
+
+#### correction 2026-11-13 (v8 stage 2 reader)
+
+The Support verdicts propose the wording "the framework never uses the word friction and treats risks only as a research gap, never as a design consideration". The second half goes too far. Table 5 lists among the features of phygital experiences "Integrity | Consistency, coherence, stability, permanence, and ethical alignment, emphasising prioritisation of customers security" and "Accessibility | Ensures independent, equitable, and dignified functioning for individuals with diverse access needs" (p. 10). The framework carries these features forward ("accessibility", "integrity" as features emerging from Study 2, p. 19; "types and features" as a framework element, p. 23). Security and accessibility therefore enter as design features. Risks as such appear only as gaps (pp. 13, 22). The "friction" zero-hit result is confirmed.
