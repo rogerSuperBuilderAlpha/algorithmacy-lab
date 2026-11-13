@@ -2210,3 +2210,399 @@ O-197 (the law's knowledge doctrines and Hormio) is not written: length (V8-D10)
 > Friction, on this reading, is not a good in itself. It is the moment in time at which standing can be exercised.
 
 - **Form** ✅ 20w in two sentences. — **Construction** ✅ 'It' has one antecedent, 'Friction'. — **Register** ✅ Pierre's. — **Value** ✅ R2.3: standing exercised, in time; hook to the touchpoint. — **Counterpart** ✅ D3 placement. — **Truth** ✅ Pierre P7.43–44, verbatim (the August audit merged the two sentences without a factual change; his form stands).
+
+---
+
+## AT THE TOUCHPOINT
+
+### AT ¶1 · The touchpoint itself
+
+#### O-209 · answers GM.268 · [C]
+> In phygital hospitality we must also attend to the touchpoint itself.
+
+- **Form** ✅ 11w against GM.268's 13. — **Construction** ✅ GM.268's *we must also pay attention to …*. — **Register** ✅ Plain. — **Value** ✅ Opens the section. — **Counterpart** ✅ NEW SECTION. — **Truth** ✅ No claim; 'touchpoint' defined at O-033.
+
+#### O-210 · answers GM.269 · [C]
+> The kiosk that reads a face, the code that opens a rental's door, the screen that shows a manager the recommended price: each is a crossing between the digital and the room the guest stands in.
+
+- **Form** ✅ ~36w against GM.269's ~45. — **Construction** ✅ GM.269's definition by inventory, ending on the crossing offline. — **Register** ✅ Concrete nouns; each drawn from a case in the paper. — **Value** ✅ The touchpoints, named. — **Counterpart** ✅ DEFINE-BY-INVENTORY. — **Truth** ✅ v7 S-003 (kiosk), S-004 (self-check-in), S-157 (the manager's dashboard).
+
+#### O-211 · answers GM.270 · [C]
+> Like the parties and the stay, the touchpoint is where the duty is met or missed.
+
+- **Form** ✅ 15w against GM.270's 19. — **Construction** ✅ GM.270's *And like the … I have been discussing, these … also …*. — **Register** ✅ Plain. — **Value** ✅ Link to what came before. — **Counterpart** ✅ LINK-TO-PRIOR. — **Truth** ✅ v7 S-151, S-152.
+
+### AT ¶2 · Where the person with power sits
+
+#### O-214 · answers GM.271–GM.272 · [C]
+> This is perhaps clearest at automated check-in: at the two hotels in China that Xu and Greiffenhagen studied, service workers stayed on site 'for legal and technical reasons', though guests could register alone (2024: 5035).
+
+- **Form** ✅ ~38w against GM.271–272's ~31. — **Construction** ✅ GM.271's *This is perhaps most obvious in …*, then the study frame. — **Register** ✅ Plain. — **Value** ✅ The clearest touchpoint. — **Counterpart** ✅ FOCUS-EXAMPLE + DEFINE-VIA-SCHOLAR. — **Truth** ✅ v7 S-169.
+
+#### O-215 · answers GM.273 · [C]
+> Guests walked past the worker to the kiosk, and a guest who approached the worker was sent back to 'do it yourself' (5022).
+
+- **Form** ✅ ~22w against GM.273's 18. — **Construction** ✅ Plain. — **Register** ✅ The source's words quoted. — **Value** ✅ The worker as fallback. — **Counterpart** ✅ REFORMULATE's slot. — **Truth** ✅ v7 S-170.
+
+#### O-216 · answers GM.274 · [C]
+> Guests whom the kiosk could not process reached the worker only by seeking the worker out (5035).
+
+- **Form** ✅ ~16w against GM.274's 27. — **Construction** ✅ Plain. — **Register** ✅ Plain. — **Value** ✅ The route's weakness. — **Counterpart** ✅ UNDERCUT. — **Truth** ✅ v7 S-171.
+
+O-217 (the authors' own argument that the kiosk disciplines guests) is not written: length (V8-D11). v7 S-172 goes to the crosswalk as cut.
+
+#### O-218 · answers GM.276 · [C]
+> Automation moved the person with power behind the machine; it did not remove them.
+
+- **Form** ✅ 14w against GM.276's 7. — **Construction** ✅ Flat claim after the evidence; 'them' has one antecedent, 'the person'. — **Register** ✅ Plain. — **Value** ✅ The finding v8 rests on. — **Counterpart** ✅ BLUNT-SHORT-CLAIM. — **Truth** ✅ v7 S-174 (at these hotels; the open studies do not show automation removing the person).
+
+#### O-221 · answers GM.280 · [C]
+> The route differs by format, from the Helsinki desk to the co-host's app, but the question put to each is the same: can a failure in a guest's case reach someone with power over it?
+
+- **Form** ✅ ~34w against GM.280's 40. — **Construction** ✅ Ends on the question the next paragraphs answer. — **Register** ✅ Plain. — **Value** ✅ Generalizes across formats (R2.5). — **Counterpart** ✅ FURTHER-CONSEQUENCE. — **Truth** ✅ v7 S-168; O-125, O-147.
+
+### AT ¶3 · Who must be at the end of the route
+
+#### O-222 · answers GM.281 · [C]
+> The end of the route need not always be a person: at the automated hotels most failures of face recognition were cured by guests trying again (5025, 5027, 5030).
+
+- **Form** ✅ ~29w against GM.281's 51. — **Construction** ✅ Claim, then case. — **Register** ✅ Plain. — **Value** ✅ When no person is needed. — **Counterpart** ✅ ACTOR'S-DOCUMENT's slot. — **Truth** ✅ v7 S-175, S-176.
+
+#### O-223 · answers GM.282 · [C]
+> Where retrying cannot cure a failure, correction needs power to depart from what the system produced, as when a worker checked in by hand the 13 guests the kiosk could not process (5035).
+
+- **Form** ✅ ~34w against GM.282's 19. — **Construction** ✅ Plain. — **Register** ✅ Plain. — **Value** ✅ When a person is needed. — **Counterpart** ✅ DIRECT-READER's slot. — **Truth** ✅ v7 S-177.
+
+#### O-225 · answers GM.283–GM.284 · [C]
+> For failures of a documented type a reachable power to override is a precaution a host can foresee needing (Kong 2026: 6), and where no configured process covers a failure and the stakes warrant it, we ask for a natural person at the end of the route.
+
+- **Form** ✅ ~45w against GM.283–284's ~81. — **Construction** ✅ Kong's point, then ours, marked by 'we ask'. — **Register** ✅ Plain. — **Value** ✅ When the person must be natural. — **Counterpart** ✅ SECOND-DOCUMENT + LEGAL-POSITION. — **Truth** ✅ v7 S-178, S-180. (S-179, Kong's 'faultless accident', is folded into 'we ask'; O-224 not written separately.)
+
+#### O-226 · answers GM.285 · [C]
+> From 2 December 2027, European law requires that high-risk AI systems listed in Annex III let their overseers 'disregard, override or reverse the output', and it leaves off that list systems that only confirm who a person is (Regulation (EU) 2024/1689, arts 14(4), 113, as amended by Regulation (EU) 2026/1744; Annex III, point 1(a)).
+
+- **Form** ✅ ~55w against GM.285's 27 ⚠️ over; the law with its exception. Departure recorded. — **Construction** ✅ 'it' has one antecedent, 'European law'. — **Register** ✅ Plain. — **Value** ✅ The law that comes closest, and its gap at check-in. — **Counterpart** ✅ VERDICT. — **Truth** ✅ v7 S-181.
+
+#### O-228 · answers — · [C]
+> The person at the end of the route owes the guest care in using that power: in Groh, guests told a hotel's guard 'We are drunk. We can't drive', and the hotel evicted them, and the court held that the duty of care governed how the stay ended (Westin Operator v Groh 2015: ¶¶ 4, 7).
+
+- **Form** ✅ ~50w. — **Construction** ✅ Claim, colon, case. — **Register** ✅ The guests' words quoted. — **Value** ✅ Power at the end of the route is itself bound by care. — **Counterpart** ✅ Warranted in the outline. — **Truth** ✅ v7 S-182, S-183.
+
+### AT ¶4 · Power that is real, and a route among firms
+
+#### O-229 · answers GM.286 · [C]
+> The holder, for its part, owes the person at the end of the route real authority, which in the Helsinki hotel was unwritten.
+
+- **Form** ✅ ~22w. — **Construction** ✅ 'its' has one antecedent, 'The holder'. — **Register** ✅ Plain. — **Value** ✅ What the holder owes its staff. — **Counterpart** ✅ STRONG-VERDICT's slot. — **Truth** ✅ v7 S-185.
+
+O-230 (the Glasgow staff) is not written: length (V8-D11); Petie et al. are cited at O-059 and O-166. v7 S-186 goes to the crosswalk as cut.
+
+#### O-231 · answers GM.287 · [PB] P7.14 + [PB-a] P7.15
+> Keeping a human in the loop is not enough. An employee who can listen with great sympathy but cannot change anything becomes a place to deposit frustration, not a source of accountability (Sterz et al. 2024; Li and Sun 2025).
+
+- **Form** ✅ 36w in two sentences. — **Construction** ✅ Short claim, then its reason. — **Register** ✅ Pierre's. — **Value** ✅ Why authority, not presence. — **Counterpart** ✅ LAW-VS-PLEDGE's slot. — **Truth** ✅ Pierre P7.14, verbatim; P7.15 adapted (source): the August audit dropped Fink (2025), unpublished; sterz2024effectiveness [full-text], lisun2025accessibility [abstract].
+
+#### O-232 · answers GM.288 · [PB] P7.16
+> Preserving a human face may matter less than preserving human authority.
+
+- **Form** ✅ 11w. — **Construction** ✅ — **Register** ✅ Pierre's. — **Value** ✅ The compact form. — **Counterpart** ✅ CHARACTERIZE. — **Truth** ✅ Pierre P7.16, verbatim.
+
+#### O-233 · answers GM.289 · [C]
+> A route to someone without authority is not a route to correction, so the holder must give that person power in writing, the training to use it, and protection from becoming the object of the route.
+
+- **Form** ✅ ~37w. — **Construction** ✅ 'that person' has one antecedent, 'someone'. — **Register** ✅ Plain. — **Value** ✅ What makes the power real. — **Counterpart** ✅ MECHANISM-VERDICT. — **Truth** ✅ v7 S-187.
+
+#### O-232a · answers — · [PB-a] P6.14 + [PB] P6.15
+> But there is a ceiling on what skill can do. Skill cannot conjure a counterparty.
+
+- **Form** ✅ 15w in two sentences. — **Construction** ✅ 'skill' picks up 'training' in O-233. — **Register** ✅ Pierre's. — **Value** ✅ Competence is not standing, restored where the plan put it (who must be at the end of the route). — **Counterpart** ✅ D3 placement. — **Truth** ✅ Pierre P6.14, adapted (house: ', and it is the hinge of the paper' cut); P6.15 verbatim.
+
+#### O-232c · answers — · [PB] P6.27
+> The distinction can be put in five words: competence is learned, standing is conferred.
+
+- **Form** ✅ 14w. — **Construction** ✅ 'The distinction' is between skill and a counterparty (O-232a). — **Register** ✅ Pierre's. — **Value** ✅ R2.3: having standing versus being able to exercise it. — **Counterpart** ✅ D3 placement. — **Truth** ✅ Pierre P6.27, verbatim (the August audit reworded it in the roadmap only; his form stands).
+
+#### O-234 · answers GM.290 · [C]
+> The holder must also learn across cases, since single reports can together signal a failure, as the UN Guiding Principles expect of any grievance channel (United Nations 2011: 32).
+
+- **Form** ✅ ~29w against GM.290's ~16. — **Construction** ✅ Plain. — **Register** ✅ Plain. — **Value** ✅ The pattern, not only the case. — **Counterpart** ✅ CHARACTERIZE. — **Truth** ✅ v7 S-188 (the Glasgow evaluation is not cited, with O-230), S-189: 'by analysing trends and patterns in complaints, business enterprises can also identify systemic problems' (p. 32).
+
+#### O-235 · answers GM.291 · [C]
+> Where several firms host together, we propose that the party in control of the guest's space routes a guest's report to the firm with power over the failing part, as Lord Denning said the occupiers on the spot should have reported a dangerous handrail to the brewery (Wheat v E Lacon 1966).
+
+- **Form** ✅ ~52w against GM.291's 37 ⚠️ over. Departure recorded. — **Construction** ✅ 'we propose' marks the step as ours. — **Register** ✅ Plain. — **Value** ✅ Who routes among several firms (R2.1–2.2). — **Counterpart** ✅ CLOSE-ON-OPEN-QUESTION, answered. — **Truth** ✅ v7 S-192, S-193.
+
+### AT ¶5 · The questions, and the cases
+
+#### O-236 · answers GM.292 · [C]
+> From these points we derive one test for researchers analysing a touchpoint and for hosts auditing one: can a failure in a guest's case reach, in time, someone able to correct it?
+
+- **Form** ✅ ~33w. — **Construction** ✅ Ends on the test. — **Register** ✅ Plain. — **Value** ✅ The test R1 asked to have introduced. — **Counterpart** ✅ CONCEDE-AND-EXTEND's slot. — **Truth** ✅ v7 S-194.
+
+#### O-237 · answers GM.293 · [C] with [PB] P5.33–35
+> The test puts its questions in the order a report travels:
+> 1. Who perceives a failure in the guest's case: the guest, the staff or the system?
+> 2. Is the guest told of a route, and can the guest use it without depending on the host's goodwill? What does refusing the system cost the guest?
+> 3. Where does the route end, and can whoever is there depart from the system's output in this case? Who can override it?
+> 4. Is that power real: written, supported by training, and protected?
+> 5. Can the report arrive, and the correction be made, while the stay still allows it?
+> 6. Does the holder learn across cases and, among several firms, does one party route the report?
+> 7. After the stay, who must answer if it is disputed?
+
+- **Form** ✅ ~120w; a numbered list, as v7's (the model's one list is a summary of another scholar; the outline warrants this one).
+- **Construction** ✅ One question per line, in the order a report travels.
+- **Register** ✅ Plain. Pierre's three questions, verbatim, placed where they map (ledger I-36).
+- **Value** ✅ The merged set (plan, Stage 3).
+- **Counterpart** ✅ The section's instrument.
+- **Truth** ✅ v7 S-195, L-1; Pierre P5.33 ('Who can override it?'), P5.34 (question 7), P5.35 (in question 2, 'And' dropped as the list's form requires: [PB-a]).
+
+#### O-239 · answers GM.295–GM.297 · [C]
+> At the automated hotels the route ended in a worker able to override the kiosk, but a guest had to seek the worker out, so the touchpoint passes the third question and fails the second (Xu and Greiffenhagen 2024: 5021, 5035); in Groh the report reached guards with power over the case who used it against the guests, so it passes the third and fails the fourth (2015: ¶¶ 7–8, 36).
+
+- **Form** ✅ ~65w. — **Construction** ✅ Two cases, one sentence, semicolon. — **Register** ✅ Plain. — **Value** ✅ The test at work. — **Counterpart** ✅ The cases grouped. — **Truth** ✅ v7 S-197–S-201. (Rasnick's facts, S-202, and R (DMA)'s, S-204–S-205, are not retold here: length; R (DMA) is at O-170–O-172 and Rasnick's holding at O-241f.)
+
+#### O-241 · answers GM.297 · [C]
+> A route can exist and still fail at a different question in each case, and the questions locate where.
+
+- **Form** ✅ 18w. — **Construction** ✅ Plain. — **Register** ✅ Plain. — **Value** ✅ What the test does. — **Counterpart** ✅ VERDICT. — **Truth** ✅ v7 S-206.
+
+### AT ¶5a · The law's floor
+
+#### O-241c · answers — · [C]
+> The law sets a floor beneath the test: in the EU a solely automated decision with significant effects is in principle prohibited outside three exceptions (SCHUFA 2023: paras 52–53), platforms must keep a point of contact that does not 'solely rely on automated tools' (Digital Services Act, art. 12(1)), and in Great Britain a disabled guest whose only route is a kiosk or an app may be owed a reachable person (Equality Act 2010, s. 20(5), (6), (11)).
+
+- **Form** ✅ ~72w; no model counterpart (warrant: Roger's abstract promises 'states what the law requires').
+- **Construction** ✅ Three laws grouped (mechanism 8).
+- **Register** ✅ Plain.
+- **Value** ✅ The law's floor; reasonable adjustments for inclusive design (the call's topic).
+- **Counterpart** ⚠️ Warranted.
+- **Truth** ✅ v7 S-215, S-219, S-220, S-221. (The UK's lawful-with-safeguards rule, DUA Act 2025 s. 80, and the 2029 package-contact rule are not repeated: length.)
+
+#### O-241e · answers — · [C]
+> Outside package travel, platform moderation and solely automated significant decisions, no law we read gives an accommodation guest a route to a natural person with power over the single case.
+
+- **Form** ✅ ~32w. — **Construction** ✅ Plain. — **Register** ✅ Stated flatly. — **Value** ✅ The gap in law. — **Counterpart** ⚠️ Warranted. — **Truth** ✅ v7 S-222.
+
+#### O-241f · answers — · [C]
+> Nor does a missing route add a head of liability, since a party that undertook a service answers for it with or without one (X v Kuoni 2021: para 50), and the Georgia court left a duty to check on guests to its legislature (Rasnick 2011: 569): in law the further duty is a proposal, for legislatures and for hosts' own practice.
+
+- **Form** ✅ ~55w. — **Construction** ✅ The verdict after the colon. — **Register** ✅ Plain. — **Value** ✅ What the further duty is in law. — **Counterpart** ⚠️ Warranted. — **Truth** ✅ v7 S-223, S-224.
+
+O-241a (repeat performance and the package remedy) is not written: the Consumer Rights Act's repeat performance is at O-117, and length (V8-D11). v7 S-216–S-218 go to the crosswalk as cut.
+
+### AT ¶6 · Interruptibility
+
+#### O-242 · answers GM.298 · [PB] P7.31
+> This is also where the field's favourite word, seamlessness, needs a second look.
+
+- **Form** ✅ 13w. — **Construction** ✅ — **Register** ✅ Pierre's ('favourite', mechanical). — **Value** ✅ Opens the critique R1 credited. — **Counterpart** ✅ STRONG-VERDICT's slot. — **Truth** ✅ Pierre P7.31, verbatim.
+
+#### O-243 · answers GM.299 · [PB] P7.32
+> Smoothness has become a central goal in accounts of phygital hospitality (Batat and Hammedi 2023; Batat 2024; Mameli et al. 2026): good technology strips out queues, repetition, uncertainty, and wasted effort so the guest glides through the journey.
+
+- **Form** ✅ 37w. — **Construction** ✅ Citation mid-sentence; the colon delivers the picture. — **Register** ✅ Pierre's. — **Value** ✅ The goal, with its sources. — **Counterpart** ✅ CHARACTERIZE-RESPONSE. — **Truth** ✅ Pierre P7.32, verbatim; the Stage 2 re-read confirms the goal in all three (POSITION_set1: 'continuum' and 'fluidifying' always as a goal in Batat 2024; 'fluid' in Batat and Hammedi 2023: 14, 17; 'seamless integration' in Mameli et al. 2026: 25, with no occurrence of 'friction').
+
+#### O-244 · answers GM.300 · [C]
+> The field is not uncritical: Shabnam et al. question its 'dominant emphasis on efficiency and experience design' (2026: 2), and Batat rates hospitality systems that create 'seamless, efficient, and coherent phygital journeys' as 'good or fair', below what AI can add when it is aligned with human value (2026c: 13, 16).
+
+- **Form** ✅ ~55w against GM.300's 16 ⚠️ over; the narrowing the ledger requires (I-43). Departure recorded.
+- **Construction** ✅ Two allies grouped after a colon.
+- **Register** ✅ Their words quoted.
+- **Value** ✅ Narrows Pierre's critique to the frameworks, and names allies (PHYGITAL_POSITION §4).
+- **Counterpart** ✅ CONCEDE-AND-EXTEND.
+- **Truth** ✅ shabnam2026tpsr p. 2 (POSITION_set1); batat2026phive pp. 13, 16, verified (the Water quadrant is 'good or fair'; the top configuration is value amplification). 'Below what AI can add when it is aligned with human value' glosses the matrix's amplification quadrant (card); **watch**: confirm the gloss against p. 13 at assembly.
+
+#### O-245 · answers — · [PB] P7.39 + [PB-a] P7.40
+> Negotiation needs a moment in which negotiation can happen. A system built never to interrupt the guest can become a system the guest cannot interrupt.
+
+- **Form** ✅ 24w in two sentences. — **Construction** ✅ — **Register** ✅ Pierre's. — **Value** ✅ The interruptibility argument's premise. — **Counterpart** ✅ D3 placement. — **Truth** ✅ Pierre P7.39 verbatim; P7.40 adapted (source): its citations (Star and Ruhleder 1996, abstract-only; Bowker and Star 1999, metadata only) and its second clause dropped; the first clause stands as his claim.
+
+#### O-246 · answers — · [PB] P7.46–47
+> The opposite of frictionless hospitality is not friction-filled hospitality. It is interruptible hospitality.
+
+- **Form** ✅ 13w in two sentences. — **Construction** ✅ — **Register** ✅ Pierre's. — **Value** ✅ The term R1 credited. — **Counterpart** ✅ D3 placement. — **Truth** ✅ Pierre P7.46–47, verbatim (the August audit's rewording of this passage made no factual change).
+
+#### O-247 · answers — · [PB] P7.48
+> The goal is not friction but interruptibility: a point at which the guest can stop the process, ask, redirect, or be handled as an exception, and a counterparty there to catch the interruption.
+
+- **Form** ✅ 33w. — **Construction** ✅ Gloss welded to the term after the colon. — **Register** ✅ Pierre's. — **Value** ✅ Interruptibility defined. — **Counterpart** ✅ D3 placement. — **Truth** ✅ Pierre P7.48, verbatim.
+
+#### O-248 · answers — · [C]
+> Continuity and trust across a crossing, which the phygital literature rightly seeks, require that whoever could answer the guest before the crossing can still be reached after it; interruptibility is the further duty's design consequence.
+
+- **Form** ✅ ~36w. — **Construction** ✅ Semicolon joins the requirement to its name. — **Register** ✅ Plain; 'rightly' marks agreement, not grading of our argument. — **Value** ✅ Joins Pierre's interruptibility to v7's further duty, in the call's terms (PHYGITAL_POSITION §4). — **Counterpart** ✅ Warranted. — **Truth** ✅ Our reading; the call asks for 'continuity, trust' across 'seamless transitions' (cfp p. 2), not cited (no reference entry).
+
+### AT ¶7 · From interface to institution
+
+#### O-250 · answers GM.301 · [PB-a] P7.10–11
+> Explaining a decision where it lands, letting guests correct what a system got wrong and making rule changes visible improve the interaction. None of them decides who is answerable within it.
+
+- **Form** ✅ 30w in two sentences. — **Construction** ✅ His 'These three' replaced by the three named, since his P7.06–09 are not placed. — **Register** ✅ Pierre's. — **Value** ✅ The interface's limit. — **Counterpart** ✅ CONCEDE-AND-EXTEND's slot. — **Truth** ✅ Pierre P7.10–11, adapted (construction; ledger I-42).
+
+#### O-251 · answers GM.302 · [PB-a] P7.20
+> An option that exists on paper but carries a heavy penalty, in money, effort, or embarrassment, is not a real alternative, and turning away from a service reached only through an app 'may carry a personal cost and loss' (Wilson-Nash et al. 2026: 979).
+
+- **Form** ✅ ~43w. — **Construction** ✅ Pierre's claim, then R1's source. — **Register** ✅ Pierre's. — **Value** ✅ The real alternative (Pierre's sixth question, R1's suggested source). — **Counterpart** ✅ STUDY-FRAME's slot. — **Truth** ✅ Pierre P7.20, adapted (source): the August audit dropped Xu et al. (2020) and Boo and Chua (2022); v7 S-262 (Wilson-Nash et al. 2026: 979) added.
+
+#### O-252 · answers GM.296 · [PB-a] P7.56
+> A guest may not fit because of their body, their documents, their language, or simply their circumstances that day, and they then meet a system with no surface on which the misfit can be negotiated.
+
+- **Form** ✅ 36w. — **Construction** ✅ 'they' has one antecedent, 'A guest'. — **Register** ✅ Pierre's. — **Value** ✅ Inclusive design (the call's topic), beside reasonable adjustments (O-241c). — **Counterpart** ✅ WHAT-THE-CROSSING-COSTS. — **Truth** ✅ Pierre P7.56, adapted (source): Costanza-Chock (2020), abstract-only, dropped; the sentence stands as his conditional claim.
+
+#### O-253 · answers GM.302 · [C]
+> We set these principles out in Table 2 as five stages a host can take in turn, the last being accountability after the stay before a forum that 'can pose questions and pass judgement' (Bovens 2007: 450).
+
+- **Form** ✅ ~36w. — **Construction** ✅ Plain. — **Register** ✅ Plain. — **Value** ✅ Points to Table 2. — **Counterpart** ✅ SPECIFY. — **Truth** ✅ v7 S-234, S-235; Table 2 carried from v7.
+
+#### O-254 · answers — · [PB-a] P7.75
+> Such a forum is an institutional place where a claim can be made, someone is obliged to receive it, reasons can be asked for, authority exists to change an outcome, and responsibility is recorded.
+
+- **Form** ✅ 32w. — **Construction** ✅ 'Such a forum' names the antecedent (O-253). — **Register** ✅ Pierre's. — **Value** ✅ Qualifies the 'forum' R3 found unqualified. — **Counterpart** ✅ Warranted. — **Truth** ✅ Pierre P7.75, adapted (construction): 'It is to build an institutional place' → 'Such a forum is an institutional place'.
+
+#### O-255 · answers GM.303 · [C]
+> A small host meets these principles with a telephone number that the owner answers.
+
+- **Form** ✅ 14w against GM.303's 32. — **Construction** ✅ Plain. — **Register** ✅ Concrete. — **Value** ✅ The principles' floor for small hosts (R2.5). — **Counterpart** ✅ SECTION-TAKEAWAY. — **Truth** ✅ v7 S-233.
+
+---
+
+## CONCLUSION
+
+### CO ¶1 · What we argued
+
+#### O-256 · answers GM.304 · [C]
+> In this article we have argued, first, that the role of host specifies what a commercial host owes, care for the guest's safety and care in performing what was undertaken, and that holding out, reliance and control bind that duty to a particular party.
+
+- **Form** ✅ ~42w against GM.304's 27 ⚠️ over. Departure recorded. — **Construction** ✅ GM.304's *In this article, I have offered …*, past tense. — **Register** ✅ Plain. — **Value** ✅ Thesis steps 1–2 recapped. — **Counterpart** ✅ WHAT-WAS-DONE. — **Truth** ✅ v7 S-240.
+
+#### O-257 · answers GM.305 · [C]
+> Second, what stays with the host when others do the work depends on the duty, and the duty of care may lie with several parties at once, each to its degree of control.
+
+- **Form** ✅ ~31w against GM.305's 42. — **Construction** ✅ Plain. — **Register** ✅ Plain. — **Value** ✅ Step 3. — **Counterpart** ✅ WHAT-WAS-DONE-2. — **Truth** ✅ v7 S-241.
+
+#### O-258 · answers GM.305 · [C]
+> Third, and this step is ours, during the stay the guest's claim justifies a further duty, owed to the guest, to keep some timely route by which a failure in the guest's case reaches someone able to correct it.
+
+- **Form** ✅ ~38w. — **Construction** ✅ Key phrase held fixed. — **Register** ✅ Plain. — **Value** ✅ Step 4. — **Counterpart** ✅ As above. — **Truth** ✅ v7 S-242, S-243.
+
+#### O-259 · answers GM.306 · [C]
+> We have seen how algorithmic mediation leaves the host's duties in place and can move the person able to correct a failure behind the machine, as it did at the automated hotels in China.
+
+- **Form** ✅ ~33w against GM.306's 62. — **Construction** ✅ GM.306's *We have seen how …*. — **Register** ✅ Plain. — **Value** ✅ The finding. — **Counterpart** ✅ RECAP-FINDINGS. — **Truth** ✅ v7 S-244; O-218.
+
+### CO ¶2 · What the argument is not
+
+#### O-260 · answers GM.307 · [PB] P8.16
+> None of this is a case against the technology.
+
+- **Form** ✅ 8w. — **Construction** ✅ — **Register** ✅ Pierre's. — **Value** ✅ What the lens is not (GM.307's job). — **Counterpart** ✅ DISCLAIM-THE-LENS. — **Truth** ✅ Pierre P8.16, verbatim.
+
+#### O-261 · answers GM.308 · [PB] P8.17
+> Phygital arrangements deliver real gains in responsiveness, and in how much a small team can offer a large number of guests.
+
+- **Form** ✅ 20w. — **Construction** ✅ — **Register** ✅ Pierre's. — **Value** ✅ The gains, granted. — **Counterpart** ✅ RESTATE. — **Truth** ✅ Pierre P8.17, verbatim.
+
+#### O-262 · answers GM.308 · [C]
+> For staff the gains come with costs: experts expect algorithmic management to raise efficiency in hotels and to intensify work (Jianu et al. 2025: 1, 6).
+
+- **Form** ✅ ~25w. — **Construction** ✅ Plain. — **Register** ✅ Plain. — **Value** ✅ The editor's request on well-being and industry gains (v7 S-262a), compressed. — **Counterpart** ✅ As above. — **Truth** ✅ v7 S-262a (Jianu et al. 2025; the Spektor et al. clause cut for length).
+
+#### O-261a · answers GM.309 · [PB] P9.01
+> Guest-centred phygital hospitality does not depend on making technology invisible, and good hospitality does not require every encounter to stay human.
+
+- **Form** ✅ 21w. — **Construction** ✅ — **Register** ✅ Pierre's ('centred', mechanical). — **Value** ✅ Pierre's phygital close. — **Counterpart** ✅ CALLBACK's slot. — **Truth** ✅ Pierre P9.01, verbatim.
+
+#### O-263a · answers GM.309 · [PB-a] P8.05 (in part) with v7 S-249
+> Human-centricity, on this account, concerns whether a guest can bring a failure to someone able to correct it, and whether that person holds the power to correct it.
+
+- **Form** ✅ ~29w. — **Construction** ✅ 'that person' has one antecedent, 'someone'. — **Register** ✅ Plain. — **Value** ✅ The call's 'human-centric', given content. — **Counterpart** ✅ As above. — **Truth** ✅ v7 S-249 (the governing form, per ledger I-48); Pierre's 'Human-centricity, on this reading' opening adapted.
+
+#### O-263 · answers GM.309 · [C]
+> That is the missing answerable counterparty with which we began, and the further duty is what supplies it.
+
+- **Form** ✅ 18w. — **Construction** ✅ Refers to O-019c, without repeating it. — **Register** ✅ Plain. — **Value** ✅ Closes the loop from the introduction (GM.230's move). — **Counterpart** ✅ RETURN-TO-OPENING. — **Truth** ✅ O-019c; O-258.
+
+### CO ¶3 · The thesis, short
+
+#### O-264 · answers GM.310 · [PB] P9.11–12
+> So, the real question for phygital hospitality is not whether technology can perform the jobs a host used to perform. Increasingly, it plainly can.
+
+- **Form** ✅ 25w in two sentences. — **Construction** ✅ — **Register** ✅ Pierre's. — **Value** ✅ The compact thesis, in his words. — **Counterpart** ✅ COMPACT-THESIS. — **Truth** ✅ Pierre P9.11–12, verbatim.
+
+#### O-265 · answers GM.311 · [PB] P9.13
+> The harder question is where, in an arrangement that has scattered those jobs across guest, employee, vendor, and platform, the obligation of hosting still has an address.
+
+- **Form** ✅ 27w. — **Construction** ✅ — **Register** ✅ Pierre's 'address', read as where the guest can find it (ledger I-56). — **Value** ✅ The research question (4 of 4), in his form. — **Counterpart** ✅ CRITICAL-CLAIM's slot. — **Truth** ✅ Pierre P9.13, verbatim.
+
+#### O-266 · answers GM.312 · [PB] P9.14–15
+> When the jobs move but the obligation is left without one, hospitality is not lost because a machine replaced a person. It is lost because the guest has been left with no one to answer them.
+
+- **Form** ✅ 34w in two sentences. — **Construction** ✅ 'one' refers to 'an address'. — **Register** ✅ Pierre's. — **Value** ✅ The stakes. — **Counterpart** ✅ INCLUSIVE-CRITIQUE's slot, without its irony. — **Truth** ✅ Pierre P9.14–15, verbatim.
+
+### CO ¶4 · What each party owes
+
+#### O-267 · answers GM.313 · [C]
+> The parties meet at one touchpoint, but each owes the guest something different.
+
+- **Form** ✅ 13w against GM.313's 19. — **Construction** ✅ GM.313's both-and. — **Register** ✅ Plain. — **Value** ✅ Turns to the findings by party. — **Counterpart** ✅ BOTH-AND. — **Truth** ✅ The walk's takeaways.
+
+#### O-269 · answers GM.315 · [C]
+> We have seen how the property owes care because it controls the space the guest sleeps in; how a brand answers where it controls the operation or holds itself out; how a platform answers only where it presents itself as the provider; how a vendor holds the rule and answers the guest for injury alone; and how the state's duty to a guest it places remains its own.
+
+- **Form** ✅ ~66w against GM.315's 75. — **Construction** ✅ GM.315's *We see how …; how …; how …; and how …*, one clause per party. — **Register** ✅ Plain. — **Value** ✅ The findings by party (D1's walk, summed). — **Counterpart** ✅ FINDINGS-BY-ACTOR. — **Truth** ✅ O-129, O-138, O-149, O-163, O-170–O-173.
+
+### CO ¶5 · The field's task
+
+#### O-270 · answers GM.316–GM.317 · [C]
+> Soft law and scholarship come close: the UN Guiding Principles ask for grievance channels open directly to those a business may harm (United Nations 2011: 31–32), the White House Office of Science and Technology Policy asks for 'access to a person who can quickly consider and remedy problems' (2022: 46), and Binesh and Syah hold that protecting guests' autonomy requires 'real human override at the service encounter' (2026: 10).
+
+- **Form** ✅ ~65w. — **Construction** ✅ Three sources grouped (mechanism 8). — **Register** ✅ Their words quoted. — **Value** ✅ The neighbours in practice and scholarship. — **Counterpart** ✅ IMPLICATION + CALL-TO-FIELD. — **Truth** ✅ v7 S-245, S-246, S-247 (Canada's directive, Kong and Baum et al. not repeated: length).
+
+#### O-272 · answers GM.318 · [C]
+> In the literature we searched, we found no work that derives a guest's route to correction from the duty a host owes the guest, and that derivation, with the party in control of the space as the party who owes it, is what this article adds.
+
+- **Form** ✅ ~45w against GM.318's 25 ⚠️ over. Departure recorded. — **Construction** ✅ The absence stated in the research rules' form ('we found no work that …'). — **Register** ✅ Plain; no grading of the contribution. — **Value** ✅ The contribution, against the documented search. — **Counterpart** ✅ FIELD-IS-YOUNG's slot. — **Truth** ✅ v7 S-248; GAP_SEARCH §3; READ_gapworks.
+
+#### O-273 · answers GM.319 · [C]
+> Germann Molz asked in this journal whether platforms 'are held accountable' (2018: 246); for a guest inside the host's space, our answer runs through control of that space.
+
+- **Form** ✅ ~30w against GM.319's 24. — **Construction** ✅ Her direction taken up, in the past tense. — **Register** ✅ Plain. — **Value** ✅ Places the article as an answer to the model's own call (D1). — **Counterpart** ✅ ANNOUNCE-DIRECTIONS' slot, turned back. — **Truth** ✅ MODEL_FULL GM.328 (p. 246: 'how, or whether, companies like Airbnb are held accountable').
+
+### CO ¶6 · Directions, and the limit
+
+#### O-274 · answers GM.320–GM.336 · [C]
+> Four studies would test the argument where it is thinnest: how often hotel guests report a failure during the stay, to whom and by what route; whether recovery after a self-service or robot failure differs with and without an employee the guest can reach; how a guest's report travels through unstaffed hotels and self-check-in rentals, and how long correction takes; and, in law, whether courts would count the lack of any route as a want of care.
+
+- **Form** ✅ ~75w; the model's four directions, counted in prose, here in one sentence (length).
+- **Construction** ✅ Semicolon list of four, each distinct.
+- **Register** ✅ Plain.
+- **Value** ✅ R3 asked for a clearer agenda.
+- **Counterpart** ✅ DIRECTIONS.
+- **Truth** ✅ v7 S-256–S-259 (the Irish Act's safety duty question dropped for length).
+
+#### O-279 · answers GM.330 · [C]
+> The further duty asks for correction during the stay and leaves disputed complaints to be judged by others, since a business 'cannot, with legitimacy, both be the subject of complaints and unilaterally determine their outcome' (United Nations 2011: 35).
+
+- **Form** ✅ ~40w. — **Construction** ✅ Plain. — **Register** ✅ Plain. — **Value** ✅ The duty's limit. — **Counterpart** ✅ CALLBACK + limit. — **Truth** ✅ v7 S-255.
+
+### CO ¶7 · What a host can do now, and the close
+
+#### O-280 · answers GM.337 · [C]
+> A host can act on the argument now, by putting the questions to each touchpoint and telling guests, in forms every guest can use, whom to reach and how.
+
+- **Form** ✅ ~28w. — **Construction** ✅ Plain. — **Register** ✅ Plain. — **Value** ✅ Practice. — **Counterpart** ✅ WHO-TO-WORK-WITH's slot. — **Truth** ✅ v7 S-260.
+
+#### O-281a · answers GM.337 · [PB] P9.06–08
+> Guests need a moment where a decision can be questioned. Employees need enough authority to respond. Organizations need to accept responsibility for the rules their automated systems apply.
+
+- **Form** ✅ 27w in three sentences. — **Construction** ✅ Three parties, three needs (rule 7: each distinct). — **Register** ✅ Pierre's. — **Value** ✅ Practice, in his words. — **Counterpart** ✅ As above. — **Truth** ✅ Pierre P9.06–08, verbatim (the August audit's 'answer for' was a rewording; his 'accept responsibility for' stands).
+
+#### O-283 · answers GM.338 · [C] (close, model form)
+> The question for phygital hospitality is whether, in arrangements that spread a host's work across staff, firms and systems, a failure in a guest's case can still reach someone able to correct it.
+
+- **Form** ✅ ~33w against GM.338's 45. — **Construction** ✅ Ends outward, on the question, as the model ends on what the work could become. — **Register** ✅ Plain. — **Value** ✅ The close, in the model's form. — **Counterpart** ✅ CLOSE-OUTWARD. — **Truth** ✅ v7 S-263.
+
+#### O-284 · answers — (alternative close, flagged) · [PB] P9.16
+> However smart, however personalized, however seamless the technology becomes, somebody still owes the guest a welcome.
+
+- **Form** ✅ 16w. — **Construction** ✅ — **Register** ⚠️ An epigram; the house self-check asks to avoid ending on one, and the model's last sentence is a list. — **Value** ✅ Pierre's close; the restore list names it, and no reviewer objected to it. — **Counterpart** ⚠️ Alternative to O-283. — **Truth** ✅ Pierre P9.16, verbatim. **The authors choose O-283, O-284, or both (O-283 then O-284) at the read-aloud.** The draft assembles both, O-284 last, marked.
