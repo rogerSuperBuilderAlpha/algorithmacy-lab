@@ -919,6 +919,48 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 
 - **Form** ✅ 17w. — **Construction** ✅ Definition. — **Register** ✅ Pierre's. — **Value** ✅ Answers R3 ('welcome … not a singular thing') and the call's 'design of welcome'. — **Counterpart** ✅ — **Truth** ✅ Pierre P2.30, verbatim. **Watch**: 'Welcome, in short' follows no long passage here (his P2.28–29 are unplaced); the read-aloud decides whether 'in short' stays.
 
+### TH ¶5 · The nearest neighbours, read as a call
+
+#### O-072 · answers GM.062 · [C]
+> Hospitality scholars Sharma and Mattila come nearest to the question: when a cooking robot's undercooked burgers make diners ill, they ask whether 'The restaurant company, the robotic manufacturer who provided the robot, or the algorithm creators who made it' should be blamed, or the manager on duty (2026: 911).
+
+- **Form** ✅ ~50w against GM.062's ~34 (+47%) ⚠️ over; the question needs its four parties. Departure recorded.
+- **Construction** ✅ GM.062's *Among those who … is [names]* as 'come nearest to the question'; trade tag for scholars carrying a claim (Roger's review).
+- **Register** ✅ Plain; their words quoted.
+- **Value** ✅ The nearest neighbour, named.
+- **Counterpart** ✅ INTRODUCE-KEY-INTERLOCUTOR.
+- **Truth** ✅ sharmamattila2025rights [full-text], p. 911, as the Stage 2 re-read quotes it (POSITION_set2, Q3(b)): 'If an undercooked batch of burgers leads to an outbreak of illness, who should be blamed? The restaurant company, the robotic manufacturer who provided the robot, or the algorithm creators who made it? Or was the manager on duty responsible …'. 'Cooking robot' from p. 911 ('cooking robots … responsible for ensuring safe food preparation').
+
+#### O-073 · answers GM.063 · [C]
+> They leave the answer to governance and risk management (2026: 904).
+
+- **Form** ✅ 11w against GM.063's ~22.
+- **Construction** ✅ 'They' has one antecedent, Sharma and Mattila.
+- **Register** ✅ Plain.
+- **Value** ✅ Where their answer stops.
+- **Counterpart** ✅ REPORT-CALL.
+- **Truth** ✅ p. 904 (abstract): 'governance and risk-management for the industry for eventually clarifying accountability (liability, safety, data protection, consent)'.
+
+#### O-074 · answers GM.070–GM.071 · [C]
+> Others prescribe the route a guest needs — 'a visible route to human assistance' in a phygital hotel (Suh et al. 2026: sec. 6), or 'an identifiable actor authorized to complete recovery', owned at the level of the organization the guest deals with (Ariyogi et al. 2026: 84, 79) — and service research gives the focal firm the governance of its ecosystem because it orchestrates the ecosystem (Wirtz et al. 2023).
+
+- **Form** ✅ ~62w against GM.070's ~46 (+35%).
+- **Construction** ✅ Three neighbours grouped in one sentence (mechanism 8); dash pair holds the two routes; 'it' at the end has one antecedent, 'the focal firm'.
+- **Register** ✅ *prescribe, owned, gives, orchestrates*: plain; their words quoted.
+- **Value** ✅ The gap stated against the phygital and hospitality literature (D1; V8-D6), naming the work that comes closest.
+- **Counterpart** ✅ ADD-POINT, grouped.
+- **Truth** ✅ READ_gapworks Q6: Suh et al. (2026) ask hotels for 'a visible route to human assistance' (the article prints no page numbers; cited by section; **watch**: section number for the journal's style); Ariyogi et al. (2026: 84) 'an identifiable actor authorized to complete recovery', 'recovery ownership at organizational level' (p. 79); Wirtz et al. (2023) place the focal firm 'in the center orchestrating value creation … and governing the ecosystem' (paraphrased, since the HTML read has no page numbers). Parhi (2026) is abstract-only and not cited here.
+
+#### O-075 · answers GM.072 · [C]
+> None of them derives what the guest is owed, or which of several firms owes it, from the role of host, and that is where the law of the host's duty comes in.
+
+- **Form** ✅ ~33w against GM.072's ~34.
+- **Construction** ✅ GM.072's ending on the next subsection's term (mechanism 6).
+- **Register** ✅ Plain.
+- **Value** ✅ The narrowed gap, and the hook.
+- **Counterpart** ✅ EVIDENCE-FOR-READING + hook.
+- **Truth** ✅ GAP_SEARCH §3 ('No work found grounds who owes the guest which duty in the role of host'); READ_gapworks (Ariyogi rests ownership on the guest's evaluation of the brand, p. 78; Wirtz on orchestration; Suh gives no ground).
+
 ### *The host's duty in law* — TL ¶1 · A bridge, and the law's history
 
 #### O-076 · answers GM.073 · [C]
@@ -1515,6 +1557,72 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Counterpart** ✅ TAKEAWAY-2.
 - **Truth** ✅ O-125–O-127. 'Than the guest assumes' is our reading.
 
+### *The brand* — BR ¶1 · Brands found liable
+
+#### O-131 · answers GM.152 · [C]
+> Ariyogi et al. rest the ownership of a guest's recovery on how the guest evaluates 'the branded service organization' (2026: 78), but hospitality research has rarely asked what a brand owes a guest at a hotel that another firm operates.
+
+- **Form** ✅ ~38w against GM.152's ~23.
+- **Construction** ✅ GM.152's *With the notable exception of …, scholars have not often …*, as *X rest …, but research has rarely asked …*.
+- **Register** ✅ Plain.
+- **Value** ✅ Places the brand in the literature.
+- **Counterpart** ✅ GAP-WITH-EXCEPTION.
+- **Truth** ✅ READ_gapworks Q6 (Ariyogi et al. 2026: 78). 'Rarely asked': GAP_SEARCH found no hospitality work on what a franchising brand owes a guest; stated as 'rarely', not 'never'.
+
+#### O-132 · answers GM.154 · [C]
+> In law a brand has answered where it controlled the operation or held itself out: a jury found a motel's franchisor vicariously liable through apparent agency, its 'significant degree of control over the operation' counting (Crinkley 1988: paras 9, 51); a brand may be the operator's principal where it has 'the right to exercise control over the daily operations' (Billops 1978: 198); and a brand that told the public it would find 'a certain level of service' could be liable to a guest (Orlando 1983: 494).
+
+- **Form** ✅ ~75w against GM.154's ~60 (+25%).
+- **Construction** ✅ Claim, then three cases grouped by semicolons (mechanism 8).
+- **Register** ✅ Plain.
+- **Value** ✅ The brand's duty in law.
+- **Counterpart** ✅ GROUPED-LITERATURE.
+- **Truth** ✅ v7 S-110, S-111 (North Carolina, Delaware, Florida; Crinkley and Orlando are agency cases, per v7's audit).
+
+### BR ¶2 · Brands that escaped
+
+#### O-135 · answers GM.167–GM.168 · [C]
+> Brands have also escaped: where the licence required the operator to disclose itself and the guest had not chosen the motel for its brand, and where only logos and products showed the brand (Hayman v Ramada Inn 1987: 279; Mobil Oil v Bransford 1995: 120–121).
+
+- **Form** ✅ ~45w against GM.167–168's ~44.
+- **Construction** ✅ Colon list of two.
+- **Register** ✅ Plain.
+- **Value** ✅ The other side.
+- **Counterpart** ✅ TURN-TO-COST + example.
+- **Truth** ✅ v7 S-112. **Watch**: 'for its brand' — v7 says 'the guest had not chosen the motel'; confirm against Hayman at assembly or drop 'for its brand'.
+
+#### O-136 · answers GM.170 · [C]
+> Control and holding out decide these cases, not the name on the sign.
+
+- **Form** ✅ 12w against GM.170's ~25.
+- **Construction** ✅ Short verdict after a long sentence.
+- **Register** ✅ Plain contrast; 'the name on the sign' recalls Blackstone's sign (O-079).
+- **Value** ✅ The reading.
+- **Counterpart** ✅ GROUPED-FINDINGS' verdict.
+- **Truth** ✅ O-132, O-135; v7 S-110–S-112.
+
+### BR ¶3 · Takeaway: the brand
+
+#### O-138 · answers GM.172 · [C]
+> The brand, then, answers to the guest where it controls the operation or holds itself out as the provider, and escapes where it does neither.
+
+- **Form** ✅ ~25w against GM.172's ~63.
+- **Construction** ✅ Plain.
+- **Register** ✅ Plain.
+- **Value** ✅ TAKEAWAY.
+- **Counterpart** ✅ TAKEAWAY.
+- **Truth** ✅ O-132–O-136.
+
+#### O-139 · answers GM.173 · [C]
+> Holding out matters again where the guest books, and enters, through a platform.
+
+- **Form** ✅ 13w against GM.173's ~40.
+- **Construction** ✅ Ends on the next subsection's term.
+- **Register** ✅ Plain.
+- **Value** ✅ HAND-OFF to the platform.
+- **Counterpart** ✅ HAND-OFF.
+- **Truth** ✅ No new claim.
+
 ### *The platform* — PF ¶1 · What this journal has said about platforms
 
 #### O-142 · answers GM.176 · [PB-a] P3.16
@@ -1613,6 +1721,107 @@ O-144 (Pierre P3.19, 'What it has not yet asked …') is not written: the gap se
 - **Counterpart** ✅ HAND-OFF.
 - **Truth** ✅ No claim.
 
+### *The vendor* — VE ¶1 · Back to the first scene: authority over the rule
+
+#### O-151 · answers GM.199 · [C]
+> Service research has begun to notice the vendor: Wirtz et al. observe that customer-facing technologies come from vendors whose designs shape how a service firm deals with its customers (2023).
+
+- **Form** ✅ ~31w against GM.199's ~15 ⚠️ over. Departure recorded.
+- **Construction** ✅ Scholar as subject after the colon.
+- **Register** ✅ Plain; paraphrase, since the text read has no page numbers.
+- **Value** ✅ Places the vendor in the literature.
+- **Counterpart** ✅ GAP-IN-EVIDENCE's slot, as a beginning.
+- **Truth** ✅ READ_gapworks Q6: vendors' designs 'often dictate how a service firm interacts with its customers' (Wirtz et al. 2023; HTML capture, no pages).
+
+#### O-152 · answers GM.200 · [C]
+> Our first scene showed such a vendor, whose model recommended every price while the manager kept the decision.
+
+- **Form** ✅ ~18w against GM.200's ~16.
+- **Construction** ✅ Back-reference to IN ¶1, not a repeat (avoids verbatim repetition).
+- **Register** ✅ Plain.
+- **Value** ✅ RETURN-TO-OPENING-SCENE (GM.168, GM.230).
+- **Counterpart** ✅ NONETHELESS-EXAMPLES.
+- **Truth** ✅ O-001–O-002.
+
+#### O-152a · answers GM.201 · [PB-a] P4.32
+> As algorithms take on these jobs, three things get redistributed across the arrangement: knowledge, discretion, and authority.
+
+- **Form** ✅ 18w. — **Construction** ✅ Colon list. — **Register** ✅ Pierre's. — **Value** ✅ The redistribution, restored (plan; ledger I-25). — **Counterpart** ✅ D3 placement. — **Truth** ✅ Pierre P4.32, adapted (source): the August audit dropped 'Mosca et al. 2025' from this claim (v4 rewrote the sentence without it); v8 keeps his wording without the citation, as the paper's own claim.
+
+#### O-152b · answers GM.202 · [PB] P4.33, P4.35, P4.37
+> Knowledge is about who is placed to understand what is happening. Discretion is about who can depart from the prescribed answer. Authority is about who can change the rule itself, or answer for it.
+
+- **Form** ✅ 35w in three sentences. — **Construction** ✅ Parallel definitions. — **Register** ✅ Pierre's. — **Value** ✅ The three terms. — **Counterpart** ✅ D3 placement. — **Truth** ✅ Pierre P4.33, P4.35, P4.37, verbatim.
+
+#### O-153 · answers — · [PB] P4.41–42
+> Discretion acts on the single case. Authority acts on the rule.
+
+- **Form** ✅ 10w. — **Construction** ✅ Two short sentences after definitions. — **Register** ✅ Pierre's. — **Value** ✅ The split R1 asked to be reminded of; v7's 'power over the single case' and 'power over the rule' (S-145, S-156). — **Counterpart** ✅ D3 placement. — **Truth** ✅ Pierre P4.41–42, verbatim.
+
+#### O-154 · answers GM.208–GM.209 · [C]
+> At the hotels, authority over the pricing rule lay with the vendor while discretion over each price stayed with the manager, though the study observed managers, not guests.
+
+- **Form** ✅ ~27w against GM.208's 16.
+- **Construction** ✅ Reads the scene through Pierre's terms; the concession in a *though* clause.
+- **Register** ✅ Plain.
+- **Value** ✅ The first scene, read.
+- **Counterpart** ✅ READ-THE-EXAMPLE + CONCEDE.
+- **Truth** ✅ v7 S-159.
+
+#### O-156 · answers — · [PB] P4.44
+> A guest can meet someone with the first power and never reach anyone with the second.
+
+- **Form** ✅ 16w. — **Construction** ✅ 'the first power' and 'the second' refer to discretion and authority (O-153). — **Register** ✅ Pierre's. — **Value** ✅ The guest's position at the vendor's link. — **Counterpart** ✅ D3 placement. — **Truth** ✅ Pierre P4.44, verbatim.
+
+### VE ¶2 · What the vendor answers for
+
+#### O-158 · answers GM.220–GM.221 · [C]
+> In the European Union, the manufacturer of defective software that injures a guest will answer to the guest directly, for products placed on the market after 9 December 2026, but not for a failure of performance that causes no listed damage (Directive (EU) 2024/2853, arts 2(1), 4(1), 5(1), 6(1), 8(1)(a)).
+
+- **Form** ✅ ~50w against GM.220–221's ~42.
+- **Construction** ✅ Plain; the limit in a *but* clause.
+- **Register** ✅ Plain.
+- **Value** ✅ The vendor's direct liability, and its limit.
+- **Counterpart** ✅ LEGAL-TURN + FRAME-LEGAL-QUESTION.
+- **Truth** ✅ v7 S-114.
+
+#### O-162 · answers GM.222–GM.223 · [C]
+> Where several firms host together, each answers for its own part, and a loose collection of firms is not itself an agent (Kong 2026: 9; Pettit 2007: 195).
+
+- **Form** ✅ ~29w against GM.222's ~37.
+- **Construction** ✅ Two claims, two sources.
+- **Register** ✅ Plain.
+- **Value** ✅ Why no one firm answers for the whole by default.
+- **Counterpart** ✅ SCHOLAR'S-ARGUMENT.
+- **Truth** ✅ v7 S-191.
+
+### VE ¶3 · Takeaway: the vendor
+
+#### O-163 · answers — · [C]
+> The vendor, then, holds authority over the rule and answers the guest only for listed damage, while the duty of care stays with the party in control of the guest's space.
+
+- **Form** ✅ ~32w.
+- **Construction** ✅ Plain.
+- **Register** ✅ Plain.
+- **Value** ✅ TAKEAWAY.
+- **Counterpart** ✅ The subsection's verdict.
+- **Truth** ✅ O-154, O-158; v7 S-116.
+
+#### O-163a · answers — · [PB] P4.51
+> The party best placed to know, to decide, and to rewrite the rules may also be the party least available to answer the guest.
+
+- **Form** ✅ 23w. — **Construction** ✅ Plain. — **Register** ✅ Pierre's. — **Value** ✅ The central asymmetry, restored (ledger I-28). — **Counterpart** ✅ D3 placement. — **Truth** ✅ Pierre P4.51, verbatim.
+
+#### O-164 · answers GM.224–GM.225 · [C]
+> We return to the vendor at the touchpoint, where a guest's report must reach it, but first to the state, which places some guests in hotels and pays for them.
+
+- **Form** ✅ ~29w against GM.224–225's ~56.
+- **Construction** ✅ GM.224–225's *Later, I will come back … But first, I want to finish …*, in one sentence.
+- **Register** ✅ Plain.
+- **Value** ✅ FORWARD + RETURN signposts.
+- **Counterpart** ✅ FORWARD-SIGNPOST.
+- **Truth** ✅ No claim.
+
 ### *The state* — ST ¶1 · Placed guests
 
 #### O-166 · answers GM.226–GM.230 · [C]
@@ -1698,3 +1907,296 @@ O-144 (Pierre P3.19, 'What it has not yet asked …') is not written: the gap se
 - **Value** ✅ The hand-off to *During the stay*: what no doctrine requires.
 - **Counterpart** ✅ CLOSING-READING + HOOK.
 - **Truth** ✅ v7 S-120, S-122.
+
+---
+
+## DURING THE STAY
+
+### DS ¶1 · The stay as a time, and the guest inside the space
+
+#### O-176 · answers GM.238 · [C]
+> The scenes we began with hint at time as well: a price is set before arrival and a projection fills one wait, but a stay runs for nights, while the guest is inside the host's space.
+
+- **Form** ✅ ~36w against GM.238's ~12 ⚠️ over; the reread needs both scenes. Departure recorded.
+- **Construction** ✅ GM.238's reread of an opening scene for a new dimension; colon delivers the contrast.
+- **Register** ✅ *hint at*: GM.238's verb, once.
+- **Value** ✅ Opens the time dimension.
+- **Counterpart** ✅ NEW-SECTION-VIA-OPENING-CASE.
+- **Truth** ✅ O-001–O-010; v7 S-123, S-124.
+
+#### O-177 · answers GM.239 · [C]
+> How long can a guest wait for a failure to be put right?
+
+- **Form** ✅ 12w against GM.239's 7.
+- **Construction** ✅ One question; her run of three is not answered (R3).
+- **Register** ✅ Plain.
+- **Value** ✅ The section's question.
+- **Counterpart** ✅ QUESTION-RUN, singly.
+- **Truth** ✅ No claim.
+
+#### O-178 · answers GM.242 · [C]
+> For the length of the stay the guest is on the territory over which the host claims authority, and subject to the host's ordering of it (Pitt-Rivers 2012: 514).
+
+- **Form** ✅ ~29w against GM.242's ~33.
+- **Construction** ✅ 'it' has one antecedent, 'the territory'.
+- **Register** ✅ Plain.
+- **Value** ✅ The guest's subjection: the hosting-specific premise (R2.4).
+- **Counterpart** ✅ NAME-THE-NOTION.
+- **Truth** ✅ v7 S-124; Pitt-Rivers 2012: 514 ('A host is host only on the territory over which on a particular occasion he claims authority', v7 S-036).
+
+#### O-179 · answers GM.244 · [C]
+> Leaving has a cost: an au pair told Moysidou and Stanley that she had not complained because she could not leave (2023).
+
+- **Form** ✅ ~22w against GM.244's ~41.
+- **Construction** ✅ Claim, then the case after the colon.
+- **Register** ✅ Plain.
+- **Value** ✅ Why the guest cannot simply exit.
+- **Counterpart** ✅ RETURN-TO-SOURCE's slot.
+- **Truth** ✅ v7 S-125.
+
+#### O-180 · answers GM.249–GM.250 · [C]
+> Once inside, Bulley observes, neither host nor guest can assert sovereignty without ending the relation (2015), and Moysidou and Stanley treat a guest's effective complaint as a form of power (2023).
+
+- **Form** ✅ ~33w against GM.249's ~54.
+- **Construction** ✅ Two scholars grouped, each as subject.
+- **Register** ✅ *observes, treat*: plain reporting verbs.
+- **Value** ✅ What a complaint is worth inside the space.
+- **Counterpart** ✅ STUDY-FRAME + APPLY-SOURCE.
+- **Truth** ✅ v7 S-126, S-127.
+
+#### O-182 · answers GM.243 · [C]
+> Whether a failure in the guest's case is put right then depends on whether it reaches someone able to put it right.
+
+- **Form** ✅ 22w against GM.243's ~21.
+- **Construction** ✅ 'it' ×2, one antecedent, 'a failure'.
+- **Register** ✅ Plain.
+- **Value** ✅ The hinge to the further duty.
+- **Counterpart** ✅ FORWARD-HOOK.
+- **Truth** ✅ v7 S-128.
+
+### DS ¶2 · The further duty
+
+#### O-182a · answers GM.244 · [C]
+> The guest has a claim to the host's performance: the host's legal duties are owed to the guest, who may sue on them, and on the standard account of rights a duty owed to someone is that person's claim (Wenar and Cruft 2025: §2.1.2).
+
+- **Form** ✅ ~45w.
+- **Construction** ✅ Claim first; the colon delivers law and theory.
+- **Register** ✅ Plain.
+- **Value** ✅ The premise of the further duty (R2.3: the guest's claim, grounded).
+- **Counterpart** ✅ The paragraph's premise.
+- **Truth** ✅ v7 S-084 (Constantine; Thomas v Pick 1955: 665–666), S-086 (Wenar and Cruft 2025: §2.1.2; their dispute over standing to demand, §2.2.2, is not needed).
+
+#### O-183 · answers GM.244 · [C]
+> We argue, and this step is ours, that the claim justifies a further duty during the stay.
+
+- **Form** ✅ 17w.
+- **Construction** ✅ The step flagged as ours (rule 1).
+- **Register** ✅ Plain.
+- **Value** ✅ The further duty, claimed.
+- **Counterpart** ✅ As O-182a.
+- **Truth** ✅ v7 S-129.
+
+#### O-184 · answers GM.245 · [C]
+> In legal theory, Herstein reports, 'the same claim-right seemingly can count in favor of different and changing duties, for instance given changes in factual circumstances' (2023: §8.4), a view he traces to Raz.
+
+- **Form** ✅ ~36w against GM.245's ~14.
+- **Construction** ✅ Attribution mid-sentence; reported source marked.
+- **Register** ✅ The source's words.
+- **Value** ✅ The theory behind the step.
+- **Counterpart** ✅ READ-IMPLICIT's slot, as the authority.
+- **Truth** ✅ v7 S-130.
+
+#### O-185 · answers GM.246 · [C]
+> The facts that change here are delegation and automation: once performance runs through other firms and systems, meeting the guest's claim depends on the host's learning of a failure while it can still be corrected.
+
+- **Form** ✅ ~36w against GM.246's ~17.
+- **Construction** ✅ 'it' has one antecedent, 'a failure'.
+- **Register** ✅ Plain.
+- **Value** ✅ Why the duty arises now.
+- **Counterpart** ✅ READ-EXPLICIT's slot.
+- **Truth** ✅ v7 S-131.
+
+#### O-186 · answers GM.247–GM.248 · [C]
+> An 'ought', Kiesewetter argues, transmits to the necessary means of doing what one ought to do (2015: 922), so the host owes some timely means of learning of failures and correcting them, though not any particular one.
+
+- **Form** ✅ ~38w against GM.247–248's ~47.
+- **Construction** ✅ Premise and conclusion in one sentence; 'them' has one antecedent, 'failures'.
+- **Register** ✅ Plain.
+- **Value** ✅ The duty derived.
+- **Counterpart** ✅ DEEPEN + VERDICT.
+- **Truth** ✅ v7 S-132, S-133.
+
+### DS ¶3 · The route from the guest
+
+#### O-188 · answers GM.251 · [C]
+> Where only the guest perceives a failure, a route from the guest is itself one of those means.
+
+- **Form** ✅ 17w against GM.251's ~32.
+- **Construction** ✅ 'those means' picks up O-186.
+- **Register** ✅ Plain.
+- **Value** ✅ Why the route starts with the guest.
+- **Counterpart** ✅ PARALLEL.
+- **Truth** ✅ v7 S-134.
+
+#### O-189 · answers GM.252 · [C]
+> Hotels do learn of failures this way: a Helsinki hotel relied mainly on guests' feedback (Schumacher and Komppula 2016: 121), and at the automated hotels each guest the kiosk could not process went to find a worker (Xu and Greiffenhagen 2024: 5035).
+
+- **Form** ✅ ~42w against GM.252's 15 ⚠️ over; two studies grouped. Departure recorded.
+- **Construction** ✅ Claim, colon, two cases.
+- **Register** ✅ Plain.
+- **Value** ✅ Evidence for the route from the guest.
+- **Counterpart** ✅ SOURCE-PARALLEL.
+- **Truth** ✅ v7 S-135.
+
+#### O-190 · answers GM.253 · [C]
+> Not every guest reports, however: in restaurant experiments, customers who felt low in power complained less (Min and Kim 2020: 2), and a failure of the whole system needs no report at all (Xu and Greiffenhagen 2024: 5021).
+
+- **Form** ✅ ~38w against GM.253's ~24.
+- **Construction** ✅ *however* placed after the subject (house rule on connectives).
+- **Register** ✅ Plain.
+- **Value** ✅ The limit of the route from the guest.
+- **Counterpart** ✅ SOURCE-DETAIL.
+- **Truth** ✅ v7 S-136.
+
+#### O-191 · answers GM.255 · [C]
+> The evidence is thin, two small hotel studies, and it suggests that the guest's report is the main route for failures in the guest's own case, not the only one.
+
+- **Form** ✅ ~30w against GM.255's ~27.
+- **Construction** ✅ 'it' has one antecedent, 'The evidence'.
+- **Register** ✅ Stated flatly (rule 5).
+- **Value** ✅ The evidence's weight, said once.
+- **Counterpart** ✅ SOURCE-GENERALIZATION.
+- **Truth** ✅ v7 S-137.
+
+#### O-192 · answers GM.256–GM.257 · [C]
+> Because the guest is subject to the host's power and leaving has a cost, the route must also be one the guest can use without depending on the host's goodwill.
+
+- **Form** ✅ ~30w against GM.256–257's ~26.
+- **Construction** ✅ Reason first, requirement last (end-focus).
+- **Register** ✅ Plain.
+- **Value** ✅ What the route must be.
+- **Counterpart** ✅ TRANSFER-TO-CASE.
+- **Truth** ✅ v7 S-138.
+
+### DS ¶4 · Owed to the guest, and what it is not
+
+#### O-193 · answers GM.258 · [C]
+> We take the further duty to be owed to the guest, since the guest's claim justifies it, though Herstein reports that duties a right justifies as facts change arguably strain the correlation between rights and duties (2023: §8.4).
+
+- **Form** ✅ ~40w against GM.258's 10 ⚠️ over. Departure recorded.
+- **Construction** ✅ The concession in a *though* clause.
+- **Register** ✅ Plain.
+- **Value** ✅ To whom the duty is owed: the narrowed gap's second half.
+- **Counterpart** ✅ NEW-ASPECT.
+- **Truth** ✅ v7 S-139.
+
+#### O-194 · answers GM.259–GM.260 · [C]
+> It differs from Hindriks's 'duty of control', which he grounds partly in risk to others and does not say is owed to anyone (2025: 4–5), and from service recovery, which studies how a firm's response to complaints shapes complainants' satisfaction and loyalty (Gelbrich and Roschk 2011), since it binds where recovering a guest does not pay.
+
+- **Form** ✅ ~55w against GM.259–260's ~78.
+- **Construction** ✅ 'It' and the final 'it' have one antecedent, 'the further duty'; 'he' has one, Hindriks.
+- **Register** ✅ Plain.
+- **Value** ✅ What the duty is not.
+- **Counterpart** ✅ CROSS-REFERENCE + GROUPED-JURISDICTIONS' slot.
+- **Truth** ✅ v7 S-140, S-141.
+
+#### O-196 · answers GM.261 · [C]
+> A host that keeps no means of correction during the stay therefore wrongs its guests even if nothing fails.
+
+- **Form** ✅ 19w against GM.261's ~25.
+- **Construction** ✅ Plain.
+- **Register** ✅ Plain.
+- **Value** ✅ The duty's consequence.
+- **Counterpart** ✅ WHAT'S-AT-STAKE.
+- **Truth** ✅ v7 S-142.
+
+#### O-196a · answers — · [C]
+> Design research has proposed such routes already (Ariyogi et al. 2026: 84; Suh et al. 2026: sec. 6); what we add is the ground on which the guest is owed one, and the party who owes it.
+
+- **Form** ✅ ~33w; no model counterpart (the gap search's fourth instruction).
+- **Construction** ✅ Semicolon separates their contribution from ours.
+- **Register** ✅ Plain; no grading of our own contribution.
+- **Value** ✅ Positions the further duty against its nearest neighbours.
+- **Counterpart** ⚠️ No counterpart; warranted by GAP_SEARCH §3 (item 4).
+- **Truth** ✅ READ_gapworks Q6 (Ariyogi et al. 2026: 84; Suh et al. 2026, sec. 6).
+
+O-197 (the law's knowledge doctrines and Hormio) is not written: length (V8-D10). v7 S-146, S-147, S-149, S-150 go to the crosswalk as cut.
+
+### DS ¶5 · When the route is owed
+
+#### O-198 · answers GM.262 · [C]
+> The further duty runs for the stay, as the guest's subjection does, and within the stay what the route carries is correction, by which we mean late performance or the repair of a lapse.
+
+- **Form** ✅ ~33w against GM.262's ~28.
+- **Construction** ✅ Gloss welded to 'correction' (mechanism 4).
+- **Register** ✅ Plain.
+- **Value** ✅ The duty's span and content.
+- **Counterpart** ✅ TEMPORAL-PRESSURE's slot.
+- **Truth** ✅ v7 S-143.
+
+#### O-199 · answers GM.263 · [C]
+> After the stay, the guest's claims run to repair and to accountability, a party's capacity to demand answers and to impose sanctions (Fox 2007: 665).
+
+- **Form** ✅ ~25w against GM.263's ~31.
+- **Construction** ✅ Gloss in apposition.
+- **Register** ✅ Plain.
+- **Value** ✅ What follows the stay.
+- **Counterpart** ✅ EXTEND.
+- **Truth** ✅ v7 S-144 (Fox, after Schedler).
+
+#### O-200 · answers GM.264 · [C]
+> Baum and Laux find that only oversight acting before a decision takes effect can change that decision (2026b: 120–122), and for hospitality we draw the boundary at correction: the route is owed while correction can still help the guest during the stay.
+
+- **Form** ✅ ~43w against GM.264's ~20 ⚠️ over. Departure recorded.
+- **Construction** ✅ Their finding, then our boundary after the colon.
+- **Register** ✅ Plain.
+- **Value** ✅ The boundary (R2.5).
+- **Counterpart** ✅ RECAP-THROUGH-LENS.
+- **Truth** ✅ v7 S-207–S-210 (Baum and Laux 2026b: 120–122).
+
+#### O-202 · answers GM.265–GM.266 · [C]
+> Three laws put correction before money: remedy during a package trip, repeat performance of a consumer service, and rectification of a platform's decision about a worker, with compensation 'Where such rectification is not possible' (Directive (EU) 2015/2302, art. 13; Consumer Rights Act 2015, ss. 55, 56(3); Directive (EU) 2024/2831, art. 11(3)).
+
+- **Form** ✅ ~55w against GM.265's ~26 ⚠️ over. Departure recorded.
+- **Construction** ✅ Colon list of three, each a distinct law (rule 7).
+- **Register** ✅ Plain.
+- **Value** ✅ The law's support for correction first.
+- **Counterpart** ✅ The section's closing run, as findings, not questions.
+- **Truth** ✅ v7 S-211. (S-212, Mathews v Eldridge, cut for length.)
+
+#### O-204 · answers GM.267 · [C]
+> Table 1 places common hospitality decisions against this boundary.
+
+- **Form** ✅ 9w.
+- **Construction** ✅ Plain.
+- **Register** ✅ Plain.
+- **Value** ✅ Points to the table carrying the boundary.
+- **Counterpart** ✅ As above.
+- **Truth** ✅ v7 S-213; Table 1 carried from v7 with its source column ('Our reading' where no source) and without v7's note S-214.
+
+### DS ¶6 · Takeaway: stakes, not preferences
+
+#### O-205 · answers — · [PB-a] P5.46
+> The boundary also explains why we should read findings about 'guests accepting automation' with care.
+
+- **Form** ✅ 15w.
+- **Construction** ✅ 'The boundary' names the antecedent (O-200).
+- **Register** ✅ Pierre's words.
+- **Value** ✅ Turns the boundary on the evidence.
+- **Counterpart** ✅ D3 placement.
+- **Truth** ✅ Pierre P5.46, adapted (construction): 'The test' → 'The boundary', since v8's test comes later (AT ¶5).
+
+#### O-206 · answers — · [PB] P5.47
+> Guests may not mind whether a person or a robot hands them directions at an information desk, because little is at stake (Schmidt et al. 2025).
+
+- **Form** ✅ 25w. — **Construction** ✅ — **Register** ✅ Pierre's. — **Value** ✅ The low-stakes case. — **Counterpart** ✅ D3 placement. — **Truth** ✅ Pierre P5.47, verbatim; schmidt2025field [full-text].
+
+#### O-207 · answers — · [PB] P5.49–50
+> The question is not whether guests prefer humans or machines in general. It is what authority and what consequences ride on this particular encounter.
+
+- **Form** ✅ 24w in two sentences. — **Construction** ✅ 'It' has one antecedent, 'The question'. — **Register** ✅ Pierre's. — **Value** ✅ R2.5: which encounters need answerability. — **Counterpart** ✅ D3 placement; the section's answer where the model leaves questions (MODEL slot GM.265). — **Truth** ✅ Pierre P5.49–50, verbatim.
+
+#### O-208 · answers — · [PB] P7.43–44
+> Friction, on this reading, is not a good in itself. It is the moment in time at which standing can be exercised.
+
+- **Form** ✅ 20w in two sentences. — **Construction** ✅ 'It' has one antecedent, 'Friction'. — **Register** ✅ Pierre's. — **Value** ✅ R2.3: standing exercised, in time; hook to the touchpoint. — **Counterpart** ✅ D3 placement. — **Truth** ✅ Pierre P7.43–44, verbatim (the August audit merged the two sentences without a factual change; his form stands).
