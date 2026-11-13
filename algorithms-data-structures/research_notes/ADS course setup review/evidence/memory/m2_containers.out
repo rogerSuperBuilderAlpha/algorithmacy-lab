@@ -1,0 +1,11 @@
+list []  56 [0] 64 [0]*2 72 [0]*10 136 per slot 8
+1000 append 8856 slots 1100 spare% 10.0 | comp 8856 slots 1100 | [0]*n 8056 | list(range) 8056
+100000 append 800984 slots 100116 spare% 0.12 | comp 800984 slots 100116 | [0]*n 800056 | list(range) 800056
+tuple () 40 (1,) 48 pair 56 triple 64 10 120
+dict {} 64 1 entry 224 5 224 6 352 dict() 64
+1000 dict comp 36952 37.0 B/entry | dict built 36952 37.0 | set(range) 32984 33.0 | set add 32984 33.0
+100000 dict comp 5242960 52.4 B/entry | dict built 5242960 52.4 | set(range) 4194520 41.9 | set add 4194520 41.9
+set() 216 {1} 216
+deque() 760
+1000 deque(range) 8680 8.68 | append 9208 9.21 | fixed overhead 680
+100000 deque(range) 825496 8.25 | append 825496 8.25 | fixed overhead 25496

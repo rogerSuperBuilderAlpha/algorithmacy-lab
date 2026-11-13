@@ -1,0 +1,16 @@
+default recursion limit 1000
+f1 (co_framesize not exposed in 3.13) nlocals 1 stacksize 5
+f3 (co_framesize not exposed in 3.13) nlocals 5 stacksize 6
+f0 (co_framesize not exposed in 3.13) nlocals 3 stacksize 4
+f1 rss {20000: 2932736, 100000: 15122432, 200000: 30375936}
+   per call (400k-100k): 152.5 B;  (100k-20k): 152.4 B
+f1 tm {5000: 152576, 20000: 632576, 40000: 1272576}
+   per call (400k-100k): 32.0 B;  (100k-20k): 32.0 B
+f3 rss {20000: 4997120, 100000: 25559040, 200000: 51249152}
+   per call (400k-100k): 256.9 B;  (100k-20k): 257.0 B
+f3 tm {5000: 456192, 20000: 1896192, 40000: 3816192}
+   per call (400k-100k): 96.0 B;  (100k-20k): 96.0 B
+f0 rss {20000: 3719168, 100000: 19185664, 200000: 38502400}
+   per call (400k-100k): 193.2 B;  (100k-20k): 193.3 B
+f0 tm {5000: 304384, 20000: 1264384, 40000: 2544384}
+   per call (400k-100k): 64.0 B;  (100k-20k): 64.0 B

@@ -1,0 +1,33 @@
+#1480: PASS | examples bad=0 edge bad=0 random 2000 bad=0 | max-size run 0.000s
+#217: PASS | examples bad=0 edge bad=0 random 2000 bad=0 | max-size run 0.061s
+#283: PASS | examples bad=0 edge bad=0 random 2000 bad=0 | max-size run 0.002s
+#88: PASS | examples bad=0 edge bad=0 random 1971 bad=0 | max-size run 0.000s
+#14: PASS | examples bad=0 edge bad=0 random 3000 bad=0 | max-size run 0.006s
+#303: PASS | examples bad=0 edge bad=0 random 1000 bad=0 | max-size run 0.008s
+#242: PASS | examples bad=0 edge bad=0 random 3000 bad=0 | max-size run 0.020s
+#1: PASS | examples bad=0 edge bad=0 random 2000 bad=0 | max-size run 0.004s
+#125: PASS | examples bad=0 edge bad=0 random 8000 bad=0 | max-size run 0.045s
+#977: PASS | examples bad=0 edge bad=0 random 3000 bad=0 | max-size run 0.003s
+#643: PASS | examples bad=0 edge bad=0 random 3000 bad=0 | max-size run 0.015s
+#121: PASS | examples bad=0 edge bad=0 random 3000 bad=0 | max-size run 0.026s
+#20: PASS | examples bad=0 edge bad=0 random 5000 bad=0 | max-size run 0.001s
+#844: PASS | examples bad=0 edge bad=0 random 5000 bad=0 | max-size run 0.000s
+#933: PASS | examples bad=0 edge bad=0 random 2000 bad=0 | max-size run 0.003s
+#232: PASS | examples bad=0 edge bad=0 random 2000 bad=0 | max-size run 0.000s
+#496: PASS | examples bad=0 edge bad=0 random 3000 bad=0 | max-size run 0.001s
+#739: PASS | examples bad=0 edge bad=0 random 3000 bad=0 | max-size run 0.053s
+#206: PASS | examples bad=0 edge bad=0 random 2000 bad=0 | max-size run 0.001s
+#19: PASS | examples bad=0 edge bad=0 random 3000 bad=0 | max-size run 0.000s
+#509: PASS | examples bad=0 edge bad=0 random 31 bad=0 | max-size run 0.000s
+#50: PASS | examples bad=0 edge bad=0 random 5000 bad=0 | max-size run 0.000s
+#136: PASS | examples bad=0 edge bad=0 random 3000 bad=0 | max-size run 0.005s
+#260: PASS | examples bad=0 edge bad=0 random 6000 bad=0 | max-size run 0.008s
+#1331: PASS | examples bad=0 edge bad=0 random 3000 bad=0 | max-size run 0.186s
+#912: PASS | examples bad=0 edge bad=0 random 3000 bad=0 | max-size run 0.329s
+#704: PASS | examples bad=0 edge bad=0 random 3000 bad=0 | max-size run 0.000s
+#34: PASS | examples bad=0 edge bad=0 random 3000 bad=0 | max-size run 0.000s
+#104: PASS | examples bad=0 edge bad=0 random 2000 bad=0 | max-size run 0.007s
+#102: PASS | examples bad=0 edge bad=0 random 2000 bad=0 | max-size run 0.001s
+
+SUMMARY: 30 PASS of 30
+python 3.13.12

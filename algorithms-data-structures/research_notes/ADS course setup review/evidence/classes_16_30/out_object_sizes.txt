@@ -1,0 +1,10 @@
+3.13.12
+int > 256      getsizeof 28  tracemalloc/obj 31.5
+TreeNode(1)    getsizeof 48  tracemalloc/obj 95.8
+TreeNode(big)  tracemalloc/obj incl. int 127.5
+2-tuple        getsizeof 56  tracemalloc/obj 86.7
+3-tuple        getsizeof 64  tracemalloc/obj 94.7
+[a,b] list     getsizeof 72  tracemalloc/obj 102.7
+[a,b,c] list   getsizeof 88  tracemalloc/obj 110.7
+8-char str     getsizeof 49  tracemalloc/obj 48.5
+float          getsizeof 24  tracemalloc/obj 23.5

@@ -1,0 +1,30 @@
+prob  part   key printed   key formula    my formula   measured                       note
+#700  input       488 KB     488.3 KiB     625.0 KiB   628 KiB                        node values 1..10^7 are mostly > 256: add an int each
+#98   aux         2.1 KB       2.1 KiB       2.1 KiB   384 B traced (frames untraced) ok
+#703  aux          88 KB      87.9 KiB      87.9 KiB   83.7 KiB                       ok, but the scenario breaks LeetCode limits
+#347  aux         5.0 MB      4.97 MiB      7.45 MiB   7.50 MiB                       dict resize peak (key's own 1.5x rule) omitted
+#733  aux          79 KB      78.1 KiB      78.1 KiB   77.2 KiB                       ok
+#200  aux         3.1 MB      3.09 MiB      3.09 MiB   3.17 MiB                       ok
+#1971 aux        20.0 MB     20.03 MiB     20.03 MiB   22.44 MiB                      ok (12% low)
+#994  aux         1.9 KB       1.4 KiB       1.4 KiB   2.2 KiB                        ok
+#207  aux         259 KB     258.7 KiB     204.0 KiB   204.8 KiB                      drop the 28V ints: none are created and kept
+#210  aux         276 KB     276.3 KiB     221.6 KiB   220.1 KiB                      drop the 28V ints
+#743  input       469 KB     421.9 KiB     515.7 KiB   521.4 KiB                      a 3-element list is 80 B (not 64) plus the outer list; 469 KiB = 6000 x 80 only
+#1631 aux          98 KB      98.5 KiB      91.5 KiB   94.4 KiB                       ok
+#684  aux          35 KB      35.2 KiB      28.2 KiB   31.6 KiB                       ints 0..256 are cached
+#208  aux        11.6 MB     10.11 MiB     10.22 MiB   10.36 MiB                      53,000 x 200 B is 10.1 MiB, not 11.6; real node count 58,247
+#212  aux        11.6 MB     10.11 MiB     10.22 MiB   10.37 MiB                      same as #208
+#78   input        416 B         416 B         136 B   136 B                          nums are in [-10, 10]: cached ints
+#78   aux         105 KB     105.0 KiB     105.0 KiB   105.3 KiB                      ok
+#51   aux          51 KB      50.5 KiB      50.1 KiB   50.6 KiB                       frames: table says 150 B, key uses 200
+#135  aux         696 KB     696.2 KiB      1.71 MiB   773.7 KiB (n=20k); 1.90 MiB (n=50k) LeetCode limit is n = 5x10^4
+#56   aux         869 KB     869.2 KiB     869.2 KiB   864.6 KiB                      ok
+#218  aux         3.4 MB      3.40 MiB      3.40 MiB   3.38 MiB                       ok
+#322  input        164 B         164 B          80 B   88 B                           coins 1, 2, 5 are cached ints
+#322  aux         316 KB     316.1 KiB     316.1 KiB   351.1 KiB                      ok (int is 32 B traced)
+#300  aux          81 KB      80.9 KiB      80.9 KiB   90.1 KiB                       ok (int is 32 B traced)
+#1143 aux         8.1 MB      8.08 MiB      7.79 MiB   7.79 MiB                       LCS ~ 310-320, not ~400; ints add ~0.08 MiB
+#72   aux         6.3 MB      6.28 MiB      6.67 MiB   6.67 MiB                       share of new ints confirmed (64%); 32 B per traced int
+#10   aux         4.9 KB       4.8 KiB       4.8 KiB   5.1 KiB                        ok
+#127  aux         507 KB     506.6 KiB     506.6 KiB   483.3 KiB                      ok
+#295  aux         1.8 MB      1.76 MiB      1.76 MiB   1.94 MiB                       ok (int is 32 B traced)
