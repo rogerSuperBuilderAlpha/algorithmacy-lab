@@ -1406,7 +1406,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ v7 S-078.
 
 #### O-118a · answers — · [C]
-> A traveller wrongly refused by an inn could sue the innkeeper — 'His right, I think, is founded on the common law' (Constantine 1944: 708) — and the general duty to receive now attaches to a hotel's proprietor (Hotel Proprietors Act 1956, s. 1(1)), while every provider of a service to the public in Great Britain must not refuse it on a protected ground (Equality Act 2010, s. 29(1)).
+> A traveller wrongly refused by an inn could sue the innkeeper — 'His right, I think, is founded on the common law' (Constantine 1944: 708) — and the general duty to receive now attaches to a hotel's proprietor (Hotel Proprietors Act 1956, s. 1(1)). Every provider of a service to the public in Great Britain, moreover, must not refuse it on a protected ground (Equality Act 2010, s. 29(1)).
 
 - **Form** ✅ ~62w; no model counterpart (the outline's warrant: v7's two tiers of duty).
 - **Construction** ✅ Dash pair encloses the court's words; the two modern duties joined by *while*.
@@ -1438,7 +1438,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 ### PP ¶2 · When others do the work
 
 #### O-119 · answers GM.123 · [C]
-> An occupier escapes answering for a contractor's faulty construction, maintenance or repair if it chose the contractor reasonably and took the steps it 'reasonably ought' to check the contractor and the work (Occupiers' Liability Act 1957, s. 2(4)(b)), and Lord Keith held that it need not supervise a contractor it reasonably thinks competent (Ferguson v Welsh 1987: 7).
+> An occupier escapes answering for a contractor's faulty construction, maintenance or repair if it chose the contractor reasonably and took the steps it 'reasonably ought' to check the contractor and the work (Occupiers' Liability Act 1957, s. 2(4)(b)). Lord Keith added that it would not ordinarily be expected to supervise a contractor it reasonably thinks competent (Ferguson v Welsh 1987: 7).
 
 - **Form** ✅ ~60w against GM.123's ~31 ⚠️ over; statute and leading judgment grouped. Departure recorded.
 - **Construction** ✅ 'it' ×3, one antecedent, 'An occupier'.
@@ -1510,7 +1510,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ v7 S-162, S-163.
 
 #### O-126 · answers — · [C]
-> Reservation agents, too, keep a sanctioned latitude to accept a rate below what a revenue-management system prescribes, and how far they use it depends on how they expect management to view it (Bendoly 2013).
+> Reservation agents, too, are often given latitude to accept a rate below what a revenue-management system prescribes, Bendoly notes, and how far they use it turns largely on their judgment and on how they expect management to view it (2013).
 
 - **Form** ✅ ~35w.
 - **Construction** ✅ 'it' ×2, one antecedent, 'a sanctioned latitude'.
@@ -1552,7 +1552,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ O-119–O-123; v7 S-116.
 
 #### O-130 · answers GM.151 · [C]
-> It also shows that the staff who face the guest may hold less power over the guest's case than the guest assumes.
+> It also shows that the staff who face the guest may hold limited power over the guest's case.
 
 - **Form** ✅ ~22w against GM.151's ~26.
 - **Construction** ✅ GM.151's *It also illustrates how …*.
@@ -1564,7 +1564,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 ### *The brand* — BR ¶1 · Brands found liable
 
 #### O-131 · answers GM.152 · [C]
-> Hospitality research has rarely asked what a brand owes a guest at a hotel that another firm operates, though Ariyogi et al. rest a guest's recovery on how the guest evaluates 'the branded service organization' (2026: 78).
+> Hospitality research has rarely asked what a brand owes a guest at a hotel that another firm operates, though Ariyogi et al. assign recovery to the organization the guest deals with, which the guest evaluates as 'the branded service organization' even when technical components are supplied elsewhere (2026: 78–79).
 
 ❌ **First attempt, rewritten (V8-D11):** 'Ariyogi et al. rest the ownership of a guest's recovery on how the guest evaluates 'the branded service organization' (2026: 78), but hospitality research has rarely asked what a brand owes a guest at a hotel that another firm operates.' Reordered so the subsection opens on its gap (GM.152's form) and the neighbour already named at O-074 follows; length unchanged, the cut is elsewhere.
 
@@ -1576,7 +1576,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ READ_gapworks Q6 (Ariyogi et al. 2026: 78). 'Rarely asked': GAP_SEARCH found no hospitality work on what a franchising brand owes a guest; stated as 'rarely', not 'never'.
 
 #### O-132 · answers GM.154 · [C]
-> In law a brand has answered where it controlled the operation or held itself out: a jury found a motel's franchisor vicariously liable through apparent agency, its 'significant degree of control over the operation' counting (Crinkley 1988: paras 9, 51); a brand may be the operator's principal where it has 'the right to exercise control over the daily operations' (Billops 1978: 198); and a brand that told the public it would find 'a certain level of service' could be liable to a guest (Orlando 1983: 494).
+> In law a brand has answered where it controlled the operation or held itself out. A jury found a motel's franchisor vicariously liable through apparent agency, its 'significant degree of control over the operation' counting (Crinkley 1988: paras 9, 51). A brand may also be the operator's principal where it has 'the right to exercise control over the daily operations' (Billops 1978: 198), and a brand that told the public they would find 'a certain level of service' could be liable to a guest (Orlando 1983: 494).
 
 - **Form** ✅ ~75w against GM.154's ~60 (+25%).
 - **Construction** ✅ Claim, then three cases grouped by semicolons (mechanism 8).
@@ -1632,7 +1632,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 ### *The platform* — PF ¶1 · What this journal has said about platforms
 
 #### O-142 · answers GM.176 · [PB-a] P3.16
-> Platform accommodation showed an early version of the break, well before hotels automated their own desks.
+> Platform accommodation shows a version of the break.
 
 - **Form** ✅ 16w against GM.176's ~46 (−65%) ⚠️ under; it opens the subsection, and O-141 carries the framings. Departure recorded.
 - **Construction** ✅ 'the break' picks up O-112b.
@@ -1641,8 +1641,8 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Counterpart** ✅ FRAMINGS-OF-OBJECT (opening).
 - **Truth** ✅ Pierre P3.16, adapted (construction): 'this' → 'the break', since its antecedent in his text (the missing counterparty, P3.15) is not placed.
 
-#### O-141 · answers GM.177 · [PB] P3.17
-> Research on Airbnb and its cousins has documented hosts straining to satisfy rating systems they cannot see (Cheng and Foley 2019), the platform's idea of hospitality shaping what hosts feel they must offer (Roelofsen and Minca 2018; Germann Molz 2018), and guests shut out on the basis of records they never wrote and cannot inspect (Edelman et al. 2017).
+#### O-141 · answers GM.177 · [PB-a] P3.17
+> Research on Airbnb and its cousins has documented hosts straining to satisfy ranking algorithms they cannot see (Cheng and Foley 2019), the platform's idea of hospitality shaping what hosts feel they must offer (Roelofsen and Minca 2018; Germann Molz 2018), and guests with distinctively African-American names accepted less often (Edelman et al. 2017).
 
 - **Form** ✅ 57w against GM.177's ~29 ⚠️ over; three findings grouped in one sentence (mechanism 8). Departure recorded.
 - **Construction** ✅ Each finding with its own citation, mid-sentence.
@@ -1652,7 +1652,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ Pierre P3.17, verbatim. chengfoley2019 and edelman2017discrimination [full-text]; Germann Molz 2018 read in full (the reputation system as social surveillance, pp. 236–237); roelofsenminca2018 [abstract], here alongside Germann Molz, who reports their analysis (p. 244).
 
 #### O-143 · answers GM.178 · [C]
-> In other words, who answers the guest is settled on the platform's terms, as the argument of Airbnb's lawyers quoted above shows.
+> In other words, the platform seeks to settle who answers the guest on its own terms, as the argument of Airbnb's lawyers quoted above shows.
 
 - **Form** ✅ ~22w against GM.178's ~32.
 - **Construction** ✅ GM.178's *In other words, …*; refers back to O-040 rather than repeating the quotation.
@@ -1907,7 +1907,7 @@ O-144 (Pierre P3.19, 'What it has not yet asked …') is not written: the gap se
 - **Truth** ✅ v7 S-117, S-118, S-119.
 
 #### O-175 · answers GM.237 · [C]
-> Outside package travel, neither the law of delegation nor its moral philosophy says that a host must keep a means of learning of a failure in the guest's case while it can still be put right: Brandt's delegator steps in only once the delegate is plainly failing, and leaves a means of finding out as one policy among several (Brandt 2017).
+> Outside package travel, neither the law of delegation nor its moral philosophy says that a host must keep a means of learning of a failure in the guest's case while it can still be put right. Brandt's delegator steps in once it becomes clear that the delegate is failing, and leaves a means of finding out as one policy among several (Brandt 2017).
 
 ❌ **First attempt, rewritten (V8-D11):** 'Brandt's delegator, however, steps in only once the delegate is plainly failing, and he leaves a means of finding out as one policy among several; outside package travel, neither the law of delegation nor this literature says that a host must keep a means of learning of a failure in the guest's case while it can still be put right.' Brandt's introduction (O-174a) is cut, so the sentence leads with the absence and names Brandt in its evidence.
 
@@ -1987,7 +1987,7 @@ O-144 (Pierre P3.19, 'What it has not yet asked …') is not written: the gap se
 ### DS ¶2 · The further duty
 
 #### O-182a · answers GM.244 · [C]
-> The guest has a claim to the host's performance: the host's legal duties are owed to the guest, who may sue on them, and on the standard account of rights a duty owed to someone is that person's claim (Wenar and Cruft 2025: §2.1.2).
+> The guest has a claim to the host's performance: the host's legal duties are owed to the guest, who may sue on them (Constantine 1944: 708), and on the standard account of rights a duty owed to someone is that person's claim (Wenar and Cruft 2025: §2.1.2).
 
 - **Form** ✅ ~45w.
 - **Construction** ✅ Claim first; the colon delivers law and theory.
@@ -2017,7 +2017,7 @@ O-144 (Pierre P3.19, 'What it has not yet asked …') is not written: the gap se
 - **Truth** ✅ v7 S-130.
 
 #### O-185 · answers GM.246 · [C]
-> The facts that change here are delegation and automation: once performance runs through other firms and systems, meeting the guest's claim depends on the host's learning of a failure while it can still be corrected.
+> The facts that change here are delegation and automation: once performance runs through other firms and the systems of a phygital arrangement, meeting the guest's claim depends on the host's learning of a failure while it can still be corrected.
 
 - **Form** ✅ ~36w against GM.246's ~17.
 - **Construction** ✅ 'it' has one antecedent, 'a failure'.
@@ -2145,7 +2145,7 @@ O-197 (the law's knowledge doctrines and Hormio) is not written: length (V8-D10)
 - **Truth** ✅ v7 S-143.
 
 #### O-199 · answers GM.263 · [C]
-> After the stay, the guest's claims run to repair and to accountability, a party's capacity to demand answers and to impose sanctions (Fox 2007: 665).
+> After the stay, the guest's claims run to repair and to accountability, which Fox, after Schedler, takes as a party's capacity to demand answers and to impose sanctions (2007: 665).
 
 - **Form** ✅ ~25w against GM.263's ~31.
 - **Construction** ✅ Gloss in apposition.
@@ -2281,7 +2281,7 @@ O-217 (the authors' own argument that the kiosk disciplines guests) is not writt
 - **Form** ✅ ~45w against GM.283–284's ~81. — **Construction** ✅ Kong's point, then ours, marked by 'we ask'. — **Register** ✅ Plain. — **Value** ✅ When the person must be natural. — **Counterpart** ✅ SECOND-DOCUMENT + LEGAL-POSITION. — **Truth** ✅ v7 S-178, S-180. (S-179, Kong's 'faultless accident', is folded into 'we ask'; O-224 not written separately.)
 
 #### O-226 · answers GM.285 · [C]
-> From 2 December 2027, European law requires that high-risk AI systems listed in Annex III let their overseers 'disregard, override or reverse the output', and it leaves off that list systems that only confirm who a person is (Regulation (EU) 2024/1689, arts 14(4), 113, as amended by Regulation (EU) 2026/1744; Annex III, point 1(a)).
+> From 2 December 2027, European law requires that high-risk AI systems listed in Annex III let their overseers, as appropriate and proportionate, 'disregard, override or reverse the output', and it leaves off that list systems that only confirm who a person is (Regulation (EU) 2024/1689, arts 14(4), 113, as amended by Regulation (EU) 2026/1744; Annex III, point 1(a)).
 
 - **Form** ✅ ~55w against GM.285's 27 ⚠️ over; the law with its exception. Departure recorded. — **Construction** ✅ 'it' has one antecedent, 'European law'. — **Register** ✅ Plain. — **Value** ✅ The law that comes closest, and its gap at check-in. — **Counterpart** ✅ VERDICT. — **Truth** ✅ v7 S-181.
 
@@ -2299,8 +2299,8 @@ O-217 (the authors' own argument that the kiosk disciplines guests) is not writt
 
 O-230 (the Glasgow staff) is not written: length (V8-D11); Petie et al. are cited at O-059 and O-166. v7 S-186 goes to the crosswalk as cut.
 
-#### O-231 · answers GM.287 · [PB] P7.14 + [PB-a] P7.15
-> Keeping a human in the loop is not enough. An employee who can listen with great sympathy but cannot change anything becomes a place to deposit frustration, not a source of accountability (Sterz et al. 2024; Li and Sun 2025).
+#### O-231 · answers GM.287 · [PB-a] P7.14 + [PB-a] P7.15
+> Keeping a human in the loop is not enough. An employee who can listen with great sympathy but cannot change anything becomes a place to deposit frustration, not a source of accountability (Sterz et al. 2024: 2498; Li and Sun 2025).
 
 - **Form** ✅ 36w in two sentences. — **Construction** ✅ Short claim, then its reason. — **Register** ✅ Pierre's. — **Value** ✅ Why authority, not presence. — **Counterpart** ✅ LAW-VS-PLEDGE's slot. — **Truth** ✅ Pierre P7.14, verbatim; P7.15 adapted (source): the August audit dropped Fink (2025), unpublished; sterz2024effectiveness [full-text], lisun2025accessibility [abstract].
 
@@ -2325,12 +2325,12 @@ O-230 (the Glasgow staff) is not written: length (V8-D11); Petie et al. are cite
 - **Form** ✅ 14w. — **Construction** ✅ 'The distinction' is between skill and a counterparty (O-232a). — **Register** ✅ Pierre's. — **Value** ✅ R2.3: having standing versus being able to exercise it. — **Counterpart** ✅ D3 placement. — **Truth** ✅ Pierre P6.27, verbatim (the August audit reworded it in the roadmap only; his form stands).
 
 #### O-234 · answers GM.290 · [C]
-> The holder must also learn across cases, since single reports can together signal a failure, as the UN Guiding Principles expect of any grievance channel (United Nations 2011: 32).
+> The holder must also learn across cases, since single reports can together signal a failure: the UN Guiding Principles note that analysing patterns in complaints can reveal systemic problems, and expect a grievance mechanism to be 'a source of continuous learning' (United Nations 2011: 32, 34).
 
 - **Form** ✅ ~29w against GM.290's ~16. — **Construction** ✅ Plain. — **Register** ✅ Plain. — **Value** ✅ The pattern, not only the case. — **Counterpart** ✅ CHARACTERIZE. — **Truth** ✅ v7 S-188 (the Glasgow evaluation is not cited, with O-230), S-189: 'by analysing trends and patterns in complaints, business enterprises can also identify systemic problems' (p. 32).
 
 #### O-235 · answers GM.291 · [C]
-> Where several firms host together, we propose that the party in control of the guest's space routes a guest's report to the firm with power over the failing part, as Lord Denning said the occupiers on the spot should have reported a dangerous handrail to the brewery (Wheat v E Lacon 1966).
+> Where several firms host together, we propose that the party in control of the guest's space routes a guest's report to the firm with power over the failing part. Lord Denning offers an analogue in occupiers' law: if the occupiers on the spot 'had realised the handrail was dangerous, they should have reported it to the Brewery Company' (Wheat v E Lacon 1966).
 
 - **Form** ✅ ~52w against GM.291's 37 ⚠️ over. Departure recorded. — **Construction** ✅ 'we propose' marks the step as ours. — **Register** ✅ Plain. — **Value** ✅ Who routes among several firms (R2.1–2.2). — **Counterpart** ✅ CLOSE-ON-OPEN-QUESTION, answered. — **Truth** ✅ v7 S-192, S-193.
 
@@ -2359,7 +2359,7 @@ O-230 (the Glasgow staff) is not written: length (V8-D11); Petie et al. are cite
 - **Truth** ✅ v7 S-195, L-1; Pierre P5.33 ('Who can override it?'), P5.34 (question 7), P5.35 (in question 2, 'And' dropped as the list's form requires: [PB-a]).
 
 #### O-239 · answers GM.295–GM.297 · [C]
-> At the automated hotels the route ended in a worker able to override the kiosk, but a guest had to seek the worker out, so the touchpoint passes the third question and fails the second (Xu and Greiffenhagen 2024: 5021, 5035); in Groh the report reached guards with power over the case who used it against the guests, so it passes the third and fails the fourth (2015: ¶¶ 7–8, 36).
+> At the automated hotels the route ended in a worker able to override the kiosk, but a guest the kiosk could not process had to seek the worker out, so the touchpoint passes the third question and fails the second (Xu and Greiffenhagen 2024: 5021, 5035). In Groh the report reached guards with power over the case, who used it against the guests, and Groh alleged that the guards were not trained to attend to intoxicated guests (2015: ¶¶ 7–8, 13, 36); on that allegation the touchpoint passes the third question and fails the fourth.
 
 - **Form** ✅ ~65w. — **Construction** ✅ Two cases, one sentence, semicolon. — **Register** ✅ Plain. — **Value** ✅ The test at work. — **Counterpart** ✅ The cases grouped. — **Truth** ✅ v7 S-197–S-201. (Rasnick's facts, S-202, and R (DMA)'s, S-204–S-205, are not retold here: length; R (DMA) is at O-170–O-172 and Rasnick's holding at O-241f.)
 
@@ -2371,7 +2371,7 @@ O-230 (the Glasgow staff) is not written: length (V8-D11); Petie et al. are cite
 ### AT ¶5a · The law's floor
 
 #### O-241c · answers — · [C]
-> The law sets a floor beneath the test: in the EU a solely automated decision with significant effects is in principle prohibited outside three exceptions (SCHUFA 2023: paras 52–53), platforms must keep a point of contact that does not 'solely rely on automated tools' (Digital Services Act, art. 12(1)), and in Great Britain a disabled guest whose only route is a kiosk or an app may be owed a reachable person (Equality Act 2010, s. 20(5), (6), (11)).
+> The law sets a floor beneath the test. In the EU a solely automated decision with significant effects is in principle prohibited outside three exceptions (SCHUFA 2023: paras 52–53), and platforms must keep a point of contact that does not 'solely rely on automated tools' (Digital Services Act, art. 12(1)). In Great Britain a disabled guest whose only route is a kiosk or an app may be owed a reachable person (Equality Act 2010, s. 20(5), (6), (11)).
 
 - **Form** ✅ ~72w; no model counterpart (warrant: Roger's abstract promises 'states what the law requires').
 - **Construction** ✅ Three laws grouped (mechanism 8).
@@ -2386,7 +2386,7 @@ O-230 (the Glasgow staff) is not written: length (V8-D11); Petie et al. are cite
 - **Form** ✅ ~32w. — **Construction** ✅ Plain. — **Register** ✅ Stated flatly. — **Value** ✅ The gap in law. — **Counterpart** ⚠️ Warranted. — **Truth** ✅ v7 S-222.
 
 #### O-241f · answers — · [C]
-> Nor does a missing route add a head of liability, since a party that undertook a service answers for it with or without one (X v Kuoni 2021: para 50), and the Georgia court left a duty to check on guests to its legislature (Rasnick 2011: 569): in law the further duty is a proposal, for legislatures and for hosts' own practice.
+> Nor, on our reading, does a missing route add a head of liability, since a party that undertook a service answers for its improper performance with or without one, as a tour operator did in X v Kuoni (2021: para 50). A Georgia court left a duty to check on guests to its legislature (Rasnick 2011: 569); in law, the further duty is a proposal, for legislatures and for hosts' own practice.
 
 - **Form** ✅ ~55w. — **Construction** ✅ The verdict after the colon. — **Register** ✅ Plain. — **Value** ✅ What the further duty is in law. — **Counterpart** ⚠️ Warranted. — **Truth** ✅ v7 S-223, S-224.
 
@@ -2414,7 +2414,7 @@ O-241a (repeat performance and the package remedy) is not written: the Consumer 
 - **Counterpart** ✅ CONCEDE-AND-EXTEND.
 - **Truth** ✅ shabnam2026tpsr p. 2 (POSITION_set1); batat2026phive pp. 13, 16, verified (the Water quadrant is 'good or fair'; the top configuration is value amplification). 'Below what AI can add when it is aligned with human value' glosses the matrix's amplification quadrant (card); **watch**: confirm the gloss against p. 13 at assembly.
 
-#### O-245 · answers — · [PB] P7.39 + [PB-a] P7.40
+#### O-245 · answers — · [PB-a] P7.39 + [PB-a] P7.40
 > Negotiation needs a moment in which negotiation can happen. A system built never to interrupt the guest can become a system the guest cannot interrupt.
 
 - **Form** ✅ 24w in two sentences. — **Construction** ✅ — **Register** ✅ Pierre's. — **Value** ✅ The interruptibility argument's premise. — **Counterpart** ✅ D3 placement. — **Truth** ✅ Pierre P7.39 verbatim; P7.40 adapted (source): its citations (Star and Ruhleder 1996, abstract-only; Bowker and Star 1999, metadata only) and its second clause dropped; the first clause stands as his claim.
@@ -2457,7 +2457,7 @@ O-241a (repeat performance and the package remedy) is not written: the Consumer 
 - **Form** ✅ ~36w. — **Construction** ✅ Plain. — **Register** ✅ Plain. — **Value** ✅ Points to Table 2. — **Counterpart** ✅ SPECIFY. — **Truth** ✅ v7 S-234, S-235; Table 2 carried from v7.
 
 #### O-254 · answers — · [PB-a] P7.75
-> Such a forum is an institutional place where a claim can be made, someone is obliged to receive it, reasons can be asked for, authority exists to change an outcome, and responsibility is recorded.
+> Such a forum, on our account, is an institutional place where a claim can be made, someone is obliged to receive it, reasons can be asked for, authority exists to change an outcome, and responsibility is recorded.
 
 - **Form** ✅ 32w. — **Construction** ✅ 'Such a forum' names the antecedent (O-253). — **Register** ✅ Pierre's. — **Value** ✅ Qualifies the 'forum' R3 found unqualified. — **Counterpart** ✅ Warranted. — **Truth** ✅ Pierre P7.75, adapted (construction): 'It is to build an institutional place' → 'Such a forum is an institutional place'.
 
@@ -2514,7 +2514,7 @@ O-241a (repeat performance and the package remedy) is not written: the Consumer 
 
 - **Form** ✅ 21w. — **Construction** ✅ — **Register** ✅ Pierre's ('centred', mechanical). — **Value** ✅ Pierre's phygital close. — **Counterpart** ✅ CALLBACK's slot. — **Truth** ✅ Pierre P9.01, verbatim.
 
-#### O-263a · answers GM.309 · [PB-a] P8.05 (in part) with v7 S-249
+#### O-263a · answers GM.309 · [C] P8.05 (in part) with v7 S-249
 > Human-centricity, on this account, concerns whether a guest can bring a failure to someone able to correct it, and whether that person holds the power to correct it.
 
 - **Form** ✅ ~29w. — **Construction** ✅ 'that person' has one antecedent, 'someone'. — **Register** ✅ Plain. — **Value** ✅ The call's 'human-centric', given content. — **Counterpart** ✅ As above. — **Truth** ✅ v7 S-249 (the governing form, per ledger I-48); Pierre's 'Human-centricity, on this reading' opening adapted.
@@ -2549,14 +2549,14 @@ O-241a (repeat performance and the package remedy) is not written: the Consumer 
 - **Form** ✅ 13w against GM.313's 19. — **Construction** ✅ GM.313's both-and. — **Register** ✅ Plain. — **Value** ✅ Turns to the findings by party. — **Counterpart** ✅ BOTH-AND. — **Truth** ✅ The walk's takeaways.
 
 #### O-269 · answers GM.315 · [C]
-> We have seen how the property owes care because it controls the space the guest sleeps in; how a brand answers where it controls the operation or holds itself out; how a platform answers only where it presents itself as the provider; how a vendor holds the rule and answers the guest for injury alone; and how the state's duty to a guest it places remains its own.
+> We have seen how the property owes care because it controls the space the guest sleeps in, and how a brand answers where it controls the operation or holds itself out. A platform answers as a host only where it presents itself as the provider; a vendor holds the rule and answers the guest only for listed damage; and the state's duty to a guest it places remains its own.
 
 - **Form** ✅ ~66w against GM.315's 75. — **Construction** ✅ GM.315's *We see how …; how …; how …; and how …*, one clause per party. — **Register** ✅ Plain. — **Value** ✅ The findings by party (D1's walk, summed). — **Counterpart** ✅ FINDINGS-BY-ACTOR. — **Truth** ✅ O-129, O-138, O-149, O-163, O-170–O-173.
 
 ### CO ¶5 · The field's task
 
 #### O-270 · answers GM.316–GM.317 · [C]
-> Soft law and scholarship come close: the UN Guiding Principles ask for grievance channels open directly to those a business may harm (United Nations 2011: 31–32), the White House Office of Science and Technology Policy asks for 'access to a person who can quickly consider and remedy problems' (2022: 46), and Binesh and Syah hold that protecting guests' autonomy requires 'real human override at the service encounter' (2026: 10).
+> Soft law and scholarship come close. The UN Guiding Principles ask for grievance channels open directly to those a business may harm (United Nations 2011: 31–32), and the White House Office of Science and Technology Policy asks for 'access to a person who can quickly consider and remedy problems' (2022: 46). Binesh and Syah hold that protecting guests' autonomy requires 'real human override at the service encounter' (2026: 10).
 
 - **Form** ✅ ~65w. — **Construction** ✅ Three sources grouped (mechanism 8). — **Register** ✅ Their words quoted. — **Value** ✅ The neighbours in practice and scholarship. — **Counterpart** ✅ IMPLICATION + CALL-TO-FIELD. — **Truth** ✅ v7 S-245, S-246, S-247 (Canada's directive, Kong and Baum et al. not repeated: length).
 
@@ -2573,7 +2573,7 @@ O-241a (repeat performance and the package remedy) is not written: the Consumer 
 ### CO ¶6 · Directions, and the limit
 
 #### O-274 · answers GM.320–GM.336 · [C]
-> Four studies would test the argument where it is thinnest: how often hotel guests report a failure during the stay, to whom and by what route; whether recovery after a self-service or robot failure differs with and without an employee the guest can reach; how a guest's report travels through unstaffed hotels and self-check-in rentals, and how long correction takes; and, in law, whether courts would count the lack of any route as a want of care.
+> Four studies would test the argument where it is thinnest. Two would ask how often hotel guests report a failure during the stay, to whom and by what route, and whether recovery after a self-service or robot failure differs with and without an employee the guest can reach. A third would follow a guest's report through unstaffed hotels and self-check-in rentals and time its correction, and a fourth, in law, would ask whether courts would count the lack of any route as a want of care.
 
 - **Form** ✅ ~75w; the model's four directions, counted in prose, here in one sentence (length).
 - **Construction** ✅ Semicolon list of four, each distinct.
@@ -2632,3 +2632,33 @@ Reference list, found while drafting the letters (13 Nov): `cited_keys_v8.txt` s
 - **O-053.1**: VERIFY_V8_A fix 11: Pitt-Rivers is in HAU 2(1), not this journal, so he leaves the 'This journal' list; 'had already' because the 2012 text reprints his 1977 essay (publisher's note, p. 501), and he writes as 'the anthropologist' (p. 501). Was: "This journal has named the host's power as well: its founding editorial treats hospitality as a form of social control (Lynch et al. 2011), anthropologist Julian Pitt-Rivers finds that 'It is always the host who ordains, the guest who complies' (2012: 513), and Bulley follows that power past the threshold, into the management of guests already inside (2015)."
 - **O-099**: VERIFY_V8_A fix 12: v8 cites no Irish judgment or statute (Airbnb Ireland is a CJEU judgment). Was: "We read judgments and statutes of England and Wales, Ireland, several United States jurisdictions and the European Union."
 - **O-046.1**: Claude, found while answering R1.5 and R1.6: 'The frameworks' had no antecedent; the two works cited are each a framework (ERT; PH-CX). Was: "The frameworks call this movement fluidity (Batat and Hammedi 2023: 17; Batat 2024: 1220)."
+
+#### Revisions after the v8 claim audit, second half (VERIFY_V8_B.md, hand-checked 13 Nov 2026), and splits for R3.2
+
+- **O-269**: VERIFY_V8_B item 1 (NOT SUPPORTED): Directive 2024/2853 art. 6(1) also covers property and data, so 'for injury alone' → 'only for listed damage', as O-158 and O-163 say; 'as a host' restored from O-149 (DSA art. 6(3) lifts only the consumer-law shield). Split for R3.2 (68 words). Was: "We have seen how the property owes care because it controls the space the guest sleeps in; how a brand answers where it controls the operation or holds itself out; how a platform answers only where it presents itself as the provider; how a vendor holds the rule and answers the guest for injury alone; and how the state's duty to a guest it places remains its own."
+- **O-235**: VERIFY_V8_B item 2: Lord Denning's condition restored, in v7's audited words (keystone LEDGER, CV-I); the Lords found no breach, so 'a dangerous handrail' stated as fact what the case does not find. Was: "Where several firms host together, we propose that the party in control of the guest's space routes a guest's report to the firm with power over the failing part, as Lord Denning said the occupiers on the spot should have reported a dangerous handrail to the brewery (Wheat v E Lacon 1966)."
+- **O-239**: VERIFY_V8_B item 3: (a) v7's limit restored ('a guest the kiosk could not process', VERIFY_V7_B item 8), since p. 5021 has the worker approaching all 51 guests while the kiosk was down; (b) 'fails the fourth' now rests on Groh's allegation of untrained guards (¶ 13), on which the court found genuine issues of fact (¶ 4). Split for R3.2 (71 words); 'it' replaced by 'the touchpoint'. Was: "At the automated hotels the route ended in a worker able to override the kiosk, but a guest had to seek the worker out, so the touchpoint passes the third question and fails the second (Xu and Greiffenhagen 2024: 5021, 5035); in Groh the report reached guards with power over the case who used it against the guests, so it passes the third and fails the fourth (2015: ¶¶ 7–8, 36)."
+- **O-141** (now [PB-a]): VERIFY_V8_B item 4, checked against the cards: Cheng and Foley's hosts struggle with an opaque ranking algorithm ('Algorithm ambiguity'; 'doesn't show up in the search result'), not rating systems; Edelman et al. find applications from guests with distinctively African-American names '16% less likely to be accepted', names the guests supplied, so 'records they never wrote and cannot inspect' does not describe the study. Pierre's P3.17, adapted (source). Was: "Research on Airbnb and its cousins has documented hosts straining to satisfy rating systems they cannot see (Cheng and Foley 2019), the platform's idea of hospitality shaping what hosts feel they must offer (Roelofsen and Minca 2018; Germann Molz 2018), and guests shut out on the basis of records they never wrote and cannot inspect (Edelman et al. 2017)."
+- **O-241f**: VERIFY_V8_B item 5: v7's hedge and scope restored ('on our reading'; 'improper performance'; Kuoni is a tour operator, para 50), as VERIFY_V7_B item 12 required. Split for R3.2 (62 words). Was: "Nor does a missing route add a head of liability, since a party that undertook a service answers for it with or without one (X v Kuoni 2021: para 50), and the Georgia court left a duty to check on guests to its legislature (Rasnick 2011: 569): in law the further duty is a proposal, for legislatures and for hosts' own practice."
+- **O-119**: VERIFY_V8_B item 6: Lord Keith's 'not ordinarily' restored (Ferguson v Welsh p. 7), which v7 kept. Split for R3.2 (58 words). Was: "An occupier escapes answering for a contractor's faulty construction, maintenance or repair if it chose the contractor reasonably and took the steps it 'reasonably ought' to check the contractor and the work (Occupiers' Liability Act 1957, s. 2(4)(b)), and Lord Keith held that it need not supervise a contractor it reasonably thinks competent (Ferguson v Welsh 1987: 7)."
+- **O-175**: VERIFY_V8_B item 7: 'only' and 'plainly' are not Brandt's; v7 S-120's wording ('once it becomes clear that the delegate is failing') restored. Split for R3.2 (61 words). Was: "Outside package travel, neither the law of delegation nor its moral philosophy says that a host must keep a means of learning of a failure in the guest's case while it can still be put right: Brandt's delegator steps in only once the delegate is plainly failing, and leaves a means of finding out as one policy among several (Brandt 2017)."
+- **O-131**: VERIFY_V8_B item 8: Ariyogi et al. assign 'recovery ownership at organizational level' (p. 79); their contrast is brand against technology supplier (p. 78), not brand against operator, and they do not rest recovery on the guest's evaluation. Was: "Hospitality research has rarely asked what a brand owes a guest at a hotel that another firm operates, though Ariyogi et al. rest a guest's recovery on how the guest evaluates 'the branded service organization' (2026: 78)."
+- **O-143**: VERIFY_V8_B item 9: an argument by counsel shows the platform's position, not that the matter is settled (Germann Molz 2018: 244). Was: "In other words, who answers the guest is settled on the platform's terms, as the argument of Airbnb's lawyers quoted above shows."
+- **O-226**: VERIFY_V8_B item 11: art. 14(4)'s chapeau ('as appropriate and proportionate') restored, as v7 S-181 had it. Was: "From 2 December 2027, European law requires that high-risk AI systems listed in Annex III let their overseers 'disregard, override or reverse the output', and it leaves off that list systems that only confirm who a person is (Regulation (EU) 2024/1689, arts 14(4), 113, as amended by Regulation (EU) 2026/1744; Annex III, point 1(a))."
+- **O-234**: VERIFY_V8_B item 12: p. 32 says analysing patterns 'can also' identify systemic problems; the expectation is Principle 31(g), 'A source of continuous learning' (p. 34). 'Any grievance channel' overstated the Principles' scope. Was: "The holder must also learn across cases, since single reports can together signal a failure, as the UN Guiding Principles expect of any grievance channel (United Nations 2011: 32)."
+- **O-182a**: VERIFY_V8_B item 13: the legal clause gets its source again (v7 S-084 had 'as Constantine did'); Thomas v Pick, v7's second source, is not restored, to keep the Cases list as it is. Was: "The guest has a claim to the host's performance: the host's legal duties are owed to the guest, who may sue on them, and on the standard account of rights a duty owed to someone is that person's claim (Wenar and Cruft 2025: §2.1.2)."
+- **O-199**: VERIFY_V8_B item 14: Fox credits 'answerability' to Schedler (p. 665); v7 S-144 said 'in Fox's sense, after Schedler'. Was: "After the stay, the guest's claims run to repair and to accountability, a party's capacity to demand answers and to impose sanctions (Fox 2007: 665)."
+- **O-126**: VERIFY_V8_B item 15: the abstract's 'often' and 'in large part' restored, and the claims attributed to Bendoly, since they are the abstract's premises (abstract only). Was: "Reservation agents, too, keep a sanctioned latitude to accept a rate below what a revenue-management system prescribes, and how far they use it depends on how they expect management to view it (Bendoly 2013)."
+- **O-130**: VERIFY_V8_B item 16: no source shows what guests assume; 'than the guest assumes' dropped. Was: "It also shows that the staff who face the guest may hold less power over the guest's case than the guest assumes."
+- **O-142**: VERIFY_V8_B UNCHECKABLE: the dating clause ('well before hotels automated their own desks') has no source and is dropped; the tense follows. Was: "Platform accommodation showed an early version of the break, well before hotels automated their own desks."
+- **O-231** (now [PB-a]): VERIFY_V8_B item 17: locator added (Sterz et al. p. 2498, 'pseudo-options'); the 'source of accountability' clause rests on Li and Sun's abstract alone. Retagged: the second sentence is P7.15 adapted (Fink 2025 dropped), as the ledger's own note says. Was: "Keeping a human in the loop is not enough. An employee who can listen with great sympathy but cannot change anything becomes a place to deposit frustration, not a source of accountability (Sterz et al. 2024; Li and Sun 2025)."
+- **O-245** (now [PB-a]): VERIFY_V8_B observation: retagged; the second sentence is P7.40 adapted, as the entry's own note says. Text unchanged. Was: "Negotiation needs a moment in which negotiation can happen. A system built never to interrupt the guest can become a system the guest cannot interrupt."
+- **O-254**: VERIFY_V8_B item 18: Bovens's forum is the body that questions and judges (p. 450), not a place where a claim is received and recorded; Pierre's institutional place is marked as our account. Was: "Such a forum is an institutional place where a claim can be made, someone is obliged to receive it, reasons can be asked for, authority exists to change an outcome, and responsibility is recorded."
+- **O-263a** (now [C]): VERIFY_V8_B item 20: retagged [C]; the sentence is v7 S-249 almost word for word, and only its opening traces to Pierre's P8.05. Text unchanged. Was: "Human-centricity, on this account, concerns whether a guest can bring a failure to someone able to correct it, and whether that person holds the power to correct it."
+- **O-132**: Claude, for R3.2 (86 words, the draft's longest) and Roger's review (unpack stacked doctrines): split in three, every reference kept; 'it would find' → 'they would find', since 'it' could be read as the brand. Was: "In law a brand has answered where it controlled the operation or held itself out: a jury found a motel's franchisor vicariously liable through apparent agency, its 'significant degree of control over the operation' counting (Crinkley 1988: paras 9, 51); a brand may be the operator's principal where it has 'the right to exercise control over the daily operations' (Billops 1978: 198); and a brand that told the public it would find 'a certain level of service' could be liable to a guest (Orlando 1983: 494)."
+- **O-241c**: Claude, for R3.2 (78 words): split in three, every reference kept. Was: "The law sets a floor beneath the test: in the EU a solely automated decision with significant effects is in principle prohibited outside three exceptions (SCHUFA 2023: paras 52–53), platforms must keep a point of contact that does not 'solely rely on automated tools' (Digital Services Act, art. 12(1)), and in Great Britain a disabled guest whose only route is a kiosk or an app may be owed a reachable person (Equality Act 2010, s. 20(5), (6), (11))."
+- **O-274**: Claude, for R3.2 (77 words): split in three; the four studies unchanged. Was: "Four studies would test the argument where it is thinnest: how often hotel guests report a failure during the stay, to whom and by what route; whether recovery after a self-service or robot failure differs with and without an employee the guest can reach; how a guest's report travels through unstaffed hotels and self-check-in rentals, and how long correction takes; and, in law, whether courts would count the lack of any route as a want of care."
+- **O-270**: Claude, for R3.2 (69 words): split in three, every reference kept. Was: "Soft law and scholarship come close: the UN Guiding Principles ask for grievance channels open directly to those a business may harm (United Nations 2011: 31–32), the White House Office of Science and Technology Policy asks for 'access to a person who can quickly consider and remedy problems' (2022: 46), and Binesh and Syah hold that protecting guests' autonomy requires 'real human override at the service encounter' (2026: 10)."
+- **O-118a**: Claude, for R3.2 (69 words): split in two, every reference kept. Was: "A traveller wrongly refused by an inn could sue the innkeeper — 'His right, I think, is founded on the common law' (Constantine 1944: 708) — and the general duty to receive now attaches to a hotel's proprietor (Hotel Proprietors Act 1956, s. 1(1)), while every provider of a service to the public in Great Britain must not refuse it on a protected ground (Equality Act 2010, s. 29(1))."
+- **O-185**: Claude, for D1: 'During the stay' was the one body section without the word 'phygital'; the defined term 'phygital arrangement' (O-033) names the systems the sentence already meant. Was: "The facts that change here are delegation and automation: once performance runs through other firms and systems, meeting the guest's claim depends on the host's learning of a failure while it can still be corrected."- **O-237** (record only): VERIFY_V8_B item 19. The list's lead-in and questions 1, 2 (first sentence), 3 (first sentence), 4, 5 and 6 are Claude's (v7 S-195's six, reworded); question 2's second sentence is Pierre's P5.35, question 3's second sentence his P5.33, and question 7 his P5.34 adapted by 'After the stay,'. The list carries no tags in DRAFT_v8_marked.md; this note is the record.
+- **O-036 and O-244** (record only): VERIFY_V8_B item 10 and VERIFY_V8_A fix 7 found '2026' matching neither of the reference list's Batat 2026a and 2026b. Settled by removing the uncited PSR entry (see 'Reference list' above), so PHIVE is plain 2026 in the list as in the text.

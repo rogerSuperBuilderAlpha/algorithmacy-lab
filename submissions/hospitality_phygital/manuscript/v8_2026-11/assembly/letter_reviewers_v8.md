@@ -230,7 +230,7 @@ We checked every quotation and locator in the revision against the text of its s
 
 *Changed in {{L:O-101}}:* "{{O-101}}"
 
-[AUTHORS: CLAIM AUDIT NOTE, filled once the v8 claim audit (v8_2026-11/VERIFY_V8_A.md and VERIFY_V8_B.md) is applied.]
+[AUTHORS: two independent verifiers checked v8 sentence by sentence against the sources (v8_2026-11/VERIFY_V8_A.md, 79 sentences; VERIFY_V8_B.md, 114). They found 2 claims unsupported, 30 partly supported and 1 that no source dates. Every fix was hand-checked and applied, and each is logged in LEDGER.md with the sentence it replaced; seven of them restored hedges that v7's audit had made and v8 had lost. Still yours before submission: the published pages of Garcia et al. (2026), read only as the working paper; the version-of-record page for the Hemmington quotation (the draft gives the author version's p. 15); and six works held only at abstract or chapter-list depth, each carrying one clause (Batat 2019; Bendoly 2013; Germann Molz 2026; Lee and Lu 2024; Li and Sun 2025; Roelofsen and Minca 2018).]
 
 ---
 
