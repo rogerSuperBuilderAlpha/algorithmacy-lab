@@ -7,7 +7,6 @@ cobbe2023understanding
 hemmington2007
 bulley2015ethics
 lynch2011theorizing
-batat2026psr
 batat2024phcx
 shabnam2026tpsr
 kong2026delegation
@@ -38,7 +37,6 @@ batat2021ar
 germannmolz2026
 liu2026hospitableness
 leelu2024consciousness
-casalegno2020circular
 chengfoley2019
 roelofsenminca2018
 edelman2017discrimination

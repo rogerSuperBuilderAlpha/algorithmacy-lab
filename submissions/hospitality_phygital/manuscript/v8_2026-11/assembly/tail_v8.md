@@ -12,9 +12,7 @@ Batat, Wided (2021), 'How augmented reality (AR) is transforming the restaurant 
 
 Batat, Wided (2024), 'What does phygital really mean? A conceptual introduction to the phygital customer experience (PH-CX) framework', *Journal of Strategic Marketing*, 32:8, pp. 1220–1243.
 
-Batat, Wided (2026a), 'Phygital service research (PSR): Advancing FSR and TSR toward human-first experience design in hybrid physical-digital ecosystems', *Journal of Services Marketing*, 40:4, pp. 505–518.
-
-Batat, Wided (2026b), 'The phygital intelligence value experience (PHIVE) matrix: The good, the bad, and the ugly of AI marketing for customer experience design', *Journal of Strategic Marketing*, pp. 1–21.
+Batat, Wided (2026), 'The phygital intelligence value experience (PHIVE) matrix: The good, the bad, and the ugly of AI marketing for customer experience design', *Journal of Strategic Marketing*, pp. 1–21.
 
 Batat, Wided and Hammedi, Wafa (2023), 'The extended reality technology (ERT) framework for designing customer and service experiences in phygital settings: A service research agenda', *Journal of Service Management*, 34:1, pp. 10–33.
 
@@ -33,8 +31,6 @@ Bovens, Mark (2007), 'Analysing and assessing accountability: A conceptual frame
 Brandt, Reuven (2017), 'The transfer and delegation of responsibilities for genetic offspring in gamete provision', *Journal of Applied Philosophy*, 34:5, pp. 665–678.
 
 Bulley, Dan (2015), 'Ethics, power and space: International hospitality beyond Derrida', *Hospitality & Society*, 5:2–3, pp. 185–201.
-
-Casalegno, Cecilia, Civera, Chiara, Mosca, Fabrizio and Freeman, R. Edward (2020), 'Circular economy and relationship-based view', *Symphonya. Emerging Issues in Management*, pp. 149–164.
 
 Cheng, Mingming and Foley, Carmel (2019), 'Algorithmic management: The case of Airbnb', *International Journal of Hospitality Management*, 83, pp. 33–36.
 

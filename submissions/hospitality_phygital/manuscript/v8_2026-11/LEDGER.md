@@ -11,7 +11,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 ### IN ¶1 · Scene one
 
 #### O-001 · answers GM.001 · [C]
-> In nine family-run hotels in Europe, eight of them at resort destinations, an independent revenue-management company supplied the algorithm that recommended the price of every room for every night (Garcia et al. 2026).
+> In nine family-run hotels, eight of them at resort destinations, an independent revenue-management company based in Europe supplied the algorithm that recommended the price of every room for every night (Garcia et al. 2026).
 
 - **Form** ✅ ~33w against GM.001's ~27 (+22%). Her scene frame — setting, actor glossed, act — with the place where her year stands, because the study gives no calendar dates for its data.
 - **Construction** ✅ One subject, one verb chain; the appositive 'eight of them at resort destinations' glosses the hotels in the breath that names them (mechanism 4). Ends on the citation, which the house style discourages; kept because the next sentence opens on 'The manager', not on anything the citation would have to hand on.
@@ -41,7 +41,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ Card (working paper p. 14, Observation 1): 'Managers adjust prices only infrequently, on average, once every 35 days' while recommendations change 'once every seven days'. 'About once a week' renders 'once every seven days'.
 
 #### O-004 · answers GM.004–GM.006 · [PB-a] P5.40
-> The pricing architecture skewed its own recommendations because it counted on the managers to adjust them, and the authors call the recommendations 'strategically biased'.
+> The pricing architecture skewed its own recommendations, exaggerating each change to prod managers who changed prices only rarely, and the authors call the recommendations 'strategically biased'.
 
 - **Form** ✅ ~25w against GM.006's ~33.
 - **Construction** ✅ 'it' has one antecedent, 'The pricing architecture'; 'them' has one, 'its own recommendations'.
@@ -412,7 +412,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ Pierre P4.03, verbatim (the August audit merged it with P4.02 without a factual change; his form stands).
 
 #### O-036 · answers GM.029 · [C]
-> Batat's latest work treats AI 'not as a functional tool but as an "experiential agent"' (2026: 17).
+> Batat's recent work treats AI 'not as a functional tool but as an "experiential agent"' (2026: 17).
 
 - **Form** ✅ 16w against GM.029's ~39 (−59%) ⚠️ under; GM.029 is a trend sentence, and here the trend is one finding, quoted. Departure recorded.
 - **Construction** ✅ Scholar as subject (rule 2).
@@ -432,7 +432,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ Pierre P8.02, adapted (source; ledger I-48): his 'First, it moves AI from a neutral service tool to a constitutive mediator' would claim a move Batat (2026c: 17) has already made (PHYGITAL_POSITION §6), so v8 follows her; his key phrase stands.
 
 #### O-038 · answers GM.032 · [PB-a] P8.03
-> Technology does not merely make an existing relationship faster; by redistributing knowledge, discretion, and authority, it can change the relationship itself (Casalegno et al. 2020).
+> Technology does not merely make an existing relationship faster; by redistributing knowledge, discretion, and authority, it can change the relationship itself.
 
 - **Form** ✅ 25w against GM.032's ~20.
 - **Construction** ✅ Semicolon pair; 'it' has one antecedent, 'Technology'.
@@ -516,7 +516,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ Pierre P4.15, adapted (source): the August audit moved '(Batat 2024)' from this sentence to O-046, whose claim it supports; v8 takes the audited form.
 
 #### O-046.1 · answers GM.039 · [PB-a] P4.17
-> The frameworks call this movement fluidity (Batat and Hammedi 2023: 17; Batat 2024: 1220).
+> Two phygital frameworks call this movement fluidity (Batat and Hammedi 2023: 17; Batat 2024: 1220).
 
 - **Form** ✅ 13w.
 - **Construction** ✅ 'this movement' has one antecedent, O-045's pair.
@@ -557,8 +557,8 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Counterpart** ✅ GM.041's *On this latter point, …*.
 - **Truth** ✅ Pierre P4.19, verbatim.
 
-#### O-048.2 · answers GM.041 · [PB] P4.20
-> Studies of 'robotic hospitableness' test whether a robot can make guests feel welcomed, attended to, and reassured (Liu et al. 2026), and an emerging theory of AI consciousness asks whether guests can experience genuine hospitality from a machine at all (Lee and Lu 2024).
+#### O-048.2 · answers GM.041 · [PB-a] P4.20
+> Studies of 'robotic hospitableness' ask whether a robot can make guests feel welcomed, attended to, and reassured (Liu et al. 2026), and an emerging theory of AI consciousness asks whether guests can experience genuine hospitality from a machine at all (Lee and Lu 2024).
 
 - **Form** ✅ 42w.
 - **Construction** ✅ Two studies grouped in one sentence (mechanism 8).
@@ -620,7 +620,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ v7 S-009, S-030.
 
 #### O-052.2 · answers GM.046 · [C]
-> Telfer, as Hemmington reports her, holds that 'traditionally the most important responsibility of all was the guest's safety', a responsibility Hemmington finds the trade often overlooks (2007: 15).
+> Telfer, as Hemmington reports her, holds that 'traditionally the most important responsibility of all was the guest's safety', a responsibility Hemmington finds 'often overlooked' (2007: 15).
 
 - **Form** ✅ ~29w against GM.046's ~34.
 - **Construction** ✅ Reported source marked ('as Hemmington reports her'), as v7's limits require.
@@ -630,7 +630,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ hemmington2007 [full-text], AV p. 15: 'Telfer (2000) points out that "traditionally the most important responsibility of all was the guest's safety - hospitality was a kind of sanctuary". This is an aspect that is often overlooked …'. v7 S-031, S-032. **Watch**: AV page; the version of record's page to be confirmed at assembly.
 
 #### O-053.1 · answers GM.047 · [C]
-> This journal has named the host's power as well: its founding editorial treats hospitality as a form of social control (Lynch et al. 2011), anthropologist Julian Pitt-Rivers finds that 'It is always the host who ordains, the guest who complies' (2012: 513), and Bulley follows that power past the threshold, into the management of guests already inside (2015).
+> This journal has named the host's power as well: its founding editorial treats hospitality as a form of social control (Lynch et al. 2011), and Bulley follows that power past the threshold, into the management of guests already inside (2015). Anthropologist Julian Pitt-Rivers had already put it plainly: 'It is always the host who ordains, the guest who complies' (2012: 513).
 
 - **Form** ✅ ~55w against GM.047's ~42 (+31%).
 - **Construction** ✅ Three sources grouped in one sentence by what each adds (mechanism 8); a trade tag where the scholar is outside the field (Roger's review, benchmark 3).
@@ -670,7 +670,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ Pierre P2.32, verbatim.
 
 #### O-054a.2 · answers — (Pierre) · [PB-a] P2.33
-> It puts empathy, emotional connection, and the effort to understand the customer on their own terms at the heart of experience design (Batat 2019).
+> It puts empathy and emotional connection at the heart of experience design (Batat 2019).
 
 - **Form** ✅ 24w.
 - **Construction** ✅ 'It' has one antecedent, 'Experience research in the phygital tradition'.
@@ -712,7 +712,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ v7 S-042 (Lashley 2015: 5), S-043 (Slattery 2002: 21).
 
 #### O-057 · answers GM.051 · [PB-a] P1.21
-> Service research has quietly handed the host's role to the employee (Odekerken-Schröder et al. 2022).
+> Service research has, on our reading, quietly handed the host's role to the employee (Odekerken-Schröder et al. 2022).
 
 - **Form** ✅ 15w against GM.051's ~29.
 - **Construction** ✅ Claim first, source trailing, as GM.051.
@@ -944,7 +944,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ p. 904 (abstract): 'governance and risk-management for the industry for eventually clarifying accountability (liability, safety, data protection, consent)'.
 
 #### O-074 · answers GM.070–GM.071 · [C]
-> Others prescribe the route a guest needs — 'a visible route to human assistance' in a phygital hotel (Suh et al. 2026: sec. 6), or 'an identifiable actor authorized to complete recovery', owned at the level of the organization the guest deals with (Ariyogi et al. 2026: 84, 79) — and service research gives the focal firm the governance of its ecosystem because it orchestrates the ecosystem (Wirtz et al. 2023).
+> Others prescribe the route a guest needs: 'a visible route to human assistance' in a phygital hotel (Suh et al. 2026: sec. 6), or 'an identifiable actor authorized to complete recovery', owned at the level of the organization the guest deals with (Ariyogi et al. 2026: 84, 78–79). Service research, for its part, places the focal firm at the centre of its ecosystem, orchestrating and governing it (Wirtz et al. 2023).
 
 - **Form** ✅ ~62w against GM.070's ~46 (+35%).
 - **Construction** ✅ Three neighbours grouped in one sentence (mechanism 8); dash pair holds the two routes; 'it' at the end has one antecedent, 'the focal firm'.
@@ -1193,7 +1193,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ As O-096.
 
 #### O-098 · answers GM.098 · [C]
-> We then searched OpenAlex, Crossref, Semantic Scholar and the web in November 2026 for work that says which of several firms owes a guest what, and found the question posed but not answered from the role of host.
+> We then searched OpenAlex, Crossref and the web in November 2026 for work that says which of several firms owes a guest what, and found the question posed but not answered from the role of host.
 
 - **Form** ✅ ~40w against GM.098's ~54.
 - **Construction** ✅ GM.098's *I conducted a review of … and here, too, I found that …*.
@@ -1203,7 +1203,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ GAP_SEARCH §1 (sources and date; Consensus and Scholar Gateway failed and are not named), §3 (Sharma and Mattila pose it; Parhi and Ariyogi et al. answer in part, not from the role of host).
 
 #### O-099 · answers GM.099 · [C]
-> We read judgments and statutes of England and Wales, Ireland, several United States jurisdictions and the European Union.
+> We read judgments and statutes of England and Wales, several United States jurisdictions and the European Union.
 
 - **Form** ✅ 18w against GM.099's ~21.
 - **Construction** ✅ Plain list.
@@ -2614,3 +2614,21 @@ O-241a (repeat performance and the package remedy) is not written: the Consumer 
 #### Corrections at assembly (13 Nov 2026)
 Year suffixes follow render_refs.py, which letters only works by the same authors in the same year that are both cited: Batat's PHIVE is her only 2026 work cited in v8 (O-036, O-244: '2026c' → '2026'); Baum and Laux is the only Baum 2026 work cited (O-200: '2026b' → '2026'); O'Gorman's 'Discovering commercial hospitality in ancient Rome' is his only 2007 work cited (O-051: '2007a' → '2007'). Odekerken-Schröder et al. take the version-of-record year the bibliography holds (O-057: 2021 → 2022). O-211 gains '(Figure 1)'.
 O-054b: 'toward' → 'towards', the mechanical British spelling the August pass applied to Pierre's text (not counted as an adaptation).
+Reference list, found while drafting the letters (13 Nov): `cited_keys_v8.txt` still held `batat2026psr`, which no v8 sentence cites, so render_refs.py lettered Batat's two 2026 entries 'a' and 'b' while the text cites PHIVE as plain '2026'. The key is removed and the list re-rendered into `assembly/tail_v8.md`; PHIVE is now 'Batat, Wided (2026)', and the list holds 64 entries.
+
+
+#### Revisions after the v8 claim audit, first half (VERIFY_V8_A.md, hand-checked 13 Nov 2026)
+
+- **O-004**: VERIFY_V8_A fix 1, checked: Garcia et al. WP p. 3, the designer 'has an incentive to offer recommendations that exaggerate the change in the optimal price to induce the human manager to update prices faster'. Pierre's mechanism ('counted on the managers to adjust them') is not the paper's. Was: "The pricing architecture skewed its own recommendations because it counted on the managers to adjust them, and the authors call the recommendations 'strategically biased'."
+- **O-038**: VERIFY_V8_A fix 2(a): Casalegno et al. (2020) concern the circular economy and say nothing about technology redistributing knowledge, discretion or authority; the citation is dropped and the sentence stands as the authors' claim, argued at 'The vendor' (O-152a–O-156). casalegno2020circular leaves cited_keys_v8.txt. Was: "Technology does not merely make an existing relationship faster; by redistributing knowledge, discretion, and authority, it can change the relationship itself (Casalegno et al. 2020)."
+- **O-048.2** (now [PB-a]): VERIFY_V8_A fix 3: Liu et al. ask and do not test (p. 3, 'asks whether a robot makes guests feel welcomed'; p. 9, 'Future studies should test the framework'). 'test' → 'ask'. Lee and Lu rests on the card's abstract summary; re-open the abstract before submission. Was: "Studies of 'robotic hospitableness' test whether a robot can make guests feel welcomed, attended to, and reassured (Liu et al. 2026), and an emerging theory of AI consciousness asks whether guests can experience genuine hospitality from a machine at all (Lee and Lu 2024)."
+- **O-054a.2**: VERIFY_V8_A fix 4: Batat (2019) is held at chapter-list depth; 'Empathy capital' and 'Emotional touchpoints' carry the first two items, and the third read a chapter title only. The third item is dropped. Was: "It puts empathy, emotional connection, and the effort to understand the customer on their own terms at the heart of experience design (Batat 2019)."
+- **O-057**: VERIFY_V8_A fix 5: 'host' does not occur in Odekerken-Schröder et al.; their triad has the frontline employee 'substituted or augmented by the service robot' (AM p. 3). The reading is marked as ours. Was: "Service research has quietly handed the host's role to the employee (Odekerken-Schröder et al. 2022)."
+- **O-001**: VERIFY_V8_A fix 6: only the data sponsor 'is based in Europe' (WP p. 9); the paper does not locate the hotels. Was: "In nine family-run hotels in Europe, eight of them at resort destinations, an independent revenue-management company supplied the algorithm that recommended the price of every room for every night (Garcia et al. 2026)."
+- **O-036**: VERIFY_V8_A fix 7: her JSM PSR editorial (online 27 Oct 2026) is later than PHIVE (online 2 Jun 2026), so 'latest' → 'recent'. The year needs no letter now that batat2026psr has left the reference list (see 'Reference list' above). Was: "Batat's latest work treats AI 'not as a functional tool but as an "experiential agent"' (2026: 17)."
+- **O-052.2**: VERIFY_V8_A fix 8, checked against the author version: 'This is an aspect that is often overlooked and is perhaps insufficiently recognized by the industry.' The paraphrase gave the overlooking to 'the trade'; the source's words are now quoted. The page is still the author version's (15); the version of record (SIJ 27:6, pp. 747–755) is needed before submission. WATCH. Was: "Telfer, as Hemmington reports her, holds that 'traditionally the most important responsibility of all was the guest's safety', a responsibility Hemmington finds the trade often overlooks (2007: 15)."
+- **O-074**: VERIFY_V8_A fix 9: Wirtz et al. state no 'because'; their sentence places the firm 'in the center orchestrating value creation, exchange and capture, and governing the ecosystem' (card, 'The Nature of Digital Service Ecosystems'), paraphrased here without the causal claim. Ariyogi p. 78 added for 'the organization the guest deals with'. Split in two for R3.2 (71 words). Was: "Others prescribe the route a guest needs — 'a visible route to human assistance' in a phygital hotel (Suh et al. 2026: sec. 6), or 'an identifiable actor authorized to complete recovery', owned at the level of the organization the guest deals with (Ariyogi et al. 2026: 84, 79) — and service research gives the focal firm the governance of its ecosystem because it orchestrates the ecosystem (Wirtz et al. 2023)."
+- **O-098**: VERIFY_V8_A fix 10: Semantic Scholar served only abstract lookups (GAP_SEARCH §1c), not the search. Was: "We then searched OpenAlex, Crossref, Semantic Scholar and the web in November 2026 for work that says which of several firms owes a guest what, and found the question posed but not answered from the role of host."
+- **O-053.1**: VERIFY_V8_A fix 11: Pitt-Rivers is in HAU 2(1), not this journal, so he leaves the 'This journal' list; 'had already' because the 2012 text reprints his 1977 essay (publisher's note, p. 501), and he writes as 'the anthropologist' (p. 501). Was: "This journal has named the host's power as well: its founding editorial treats hospitality as a form of social control (Lynch et al. 2011), anthropologist Julian Pitt-Rivers finds that 'It is always the host who ordains, the guest who complies' (2012: 513), and Bulley follows that power past the threshold, into the management of guests already inside (2015)."
+- **O-099**: VERIFY_V8_A fix 12: v8 cites no Irish judgment or statute (Airbnb Ireland is a CJEU judgment). Was: "We read judgments and statutes of England and Wales, Ireland, several United States jurisdictions and the European Union."
+- **O-046.1**: Claude, found while answering R1.5 and R1.6: 'The frameworks' had no antecedent; the two works cited are each a framework (ERT; PH-CX). Was: "The frameworks call this movement fluidity (Batat and Hammedi 2023: 17; Batat 2024: 1220)."
