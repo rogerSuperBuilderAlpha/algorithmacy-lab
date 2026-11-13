@@ -48,3 +48,18 @@ SHA-256 at the start of v8: `DRAFT_v7.md` 3a242132016ccfc3abc1eef5ca71a081595f6c
 - **A counting script, against the skill's no-code rule.** The plan asked for measured figures in `STYLE_PROFILE.md`, and the skill forbids code. `tools/style_counts.py` counts only and writes no prose; its splitter was checked against the hand split on the model before use and corrected once (STYLE_PROFILE, 'How the figures were made'). The sentence-level analysis itself was done by reading, as the skill requires.
 - **Headings.** Main headings in bold capitals, subheadings in bold italic: the typeset form, Roger's review, and the journal's 'bold' all agree with it.
 - **Weight, for Stage 4.** Her theoretical context is 21% of the body (about 1,880 words at 9,000) and her method 5.6% (about 510). The plan budgeted 1,100 and 250. Stage 4 sets v8's weights against her figures and the venue band, and brings any trade-off to Roger.
+
+### V8-D5 · 13 Nov · Stage 2: what the Bentley library reaches
+Roger signed in to the Bentley library on 13 Nov. Through its proxy, checked one by one:
+- **Reached and read in full:** Batat (2024) QMR guest editorial (Emerald), Batat (2026) HFPV (SAGE), Batat (2026) PHIVE (Taylor & Francis), and the open-access Berthon et al. (2026) found in the library search. PDFs downloaded with Roger's approval and kept in the git-ignored `revision_2026-11/research/sources/`.
+- **Not reached:** Germann Molz (2026), Riordan (2024), Weaver (2026) and Gao et al. (2026), because Bentley does not take *Hospitality & Society* (the proxy passes Intellect through unproxied, and the journal's ISSN finds nothing in the library search); Batat (2026) PSR, De Vos et al. (2026) and Brochado et al. (2026), because Bentley has no access to the 2026 issues of the *Journal of Services Marketing*. **Roger chose to go without them:** all seven stay at abstract depth and carry nothing beyond their abstracts.
+- **The call for papers:** Roger chose the web page; the original PDF was already on this Mac (`~/Downloads/APA Summit 2026-CFP-Hospitality & Society.pdf`, the file the August digest was checked against), so it is the source, copied to the git-ignored sources folder as `cfp2025apa/`.
+
+### V8-D6 · 13 Nov · The gap statement narrows
+The two positioning re-reads (`stage2/POSITION_set1.md`, `POSITION_set2.md`) found the working gap statement false as worded: Shabnam et al. (2026: 14) and Sharma and Mattila (2026: 911) say who should act and what the customer is owed. What survives is narrower: no text says which of several firms owes a safeguard, and none treats one as the guest's claim. v8's gap sentence is written to the narrow form, with its nearest neighbours named (`OUR_BRIEF.md`).
+
+### V8-D7 · 13 Nov · Stage 3: the Pierre ledger, and a correction to it
+`PIERRE_LEDGER.md` gives each of Pierre's 397 sentences (56 insights) an outcome: 204 VERBATIM-eligible, 84 ADAPTED, 109 CUT. Its first draft numbered sections 4–8 from memory and was off by up to nine places; the ids were corrected against `PIERRE_SENTENCES.tsv`, a committed split of his text, and a check now confirms every bullet's quotation sits at its stated id and every sentence has an outcome. VERBATIM means eligible: the eligible sentences run to about 3,700 words, so Stage 4 chooses among them and records each one it leaves out.
+
+### V8-D8 · 13 Nov · Pierre's text, and what the audits did to it
+His text is commit 3e6828b1, which matches `~/Desktop/WhoHoststheGuest_2026-08-17_PIERRE_original.md` from the abstract to the references. The August audit changed 92 of his sentences; where it corrected a fact or a citation, v8 takes the audited form and the ledger says so. Where it changed wording for no stated reason (the abstract's 'easier'), his wording stands.
