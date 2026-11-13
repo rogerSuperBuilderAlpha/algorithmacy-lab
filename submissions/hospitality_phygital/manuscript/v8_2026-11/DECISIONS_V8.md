@@ -41,3 +41,10 @@ SHA-256 at the start of v8: `DRAFT_v7.md` 3a242132016ccfc3abc1eef5ca71a081595f6c
 
 ### V8-D3 · 13 Nov · The assembly scripts
 `keystone_2026-11/sbs/assembly/assemble.py` and `build_letters.py` read from a scratchpad path that no longer lasts, and hard-code v7's paragraph starts, headings and inserts. v8 gets its own copier in `v8_2026-11/assembly/` once v8's structure exists (stage 6), built from these and reading only files in the repository.
+
+### V8-D4 · 13 Nov · Stage 1: reading the model
+- **Every sentence analysed.** `MODEL.md` holds GM.001–GM.338: 332 of her sentences and six displayed quotations, one entry each, with move, role, question and thesis, register and slot. The full text sits in the git-ignored `rewrite_2026-11/journal/corpus/germannmolz2018/MODEL_FULL.md`; `tools/redact_model.py` copies it to the committed `MODEL.md` with each sentence cut to its first five and last four words (conflict 2).
+- **Paragraphs from the typeset indents.** The plain text lost paragraph breaks, so they were found from first-line indents in the PDF: 67 paragraphs. The v6 reading note gave about 72; a dated correction is appended to `rewrite_2026-11/journal/notes/germannmolz2018.md`.
+- **A counting script, against the skill's no-code rule.** The plan asked for measured figures in `STYLE_PROFILE.md`, and the skill forbids code. `tools/style_counts.py` counts only and writes no prose; its splitter was checked against the hand split on the model before use and corrected once (STYLE_PROFILE, 'How the figures were made'). The sentence-level analysis itself was done by reading, as the skill requires.
+- **Headings.** Main headings in bold capitals, subheadings in bold italic: the typeset form, Roger's review, and the journal's 'bold' all agree with it.
+- **Weight, for Stage 4.** Her theoretical context is 21% of the body (about 1,880 words at 9,000) and her method 5.6% (about 510). The plan budgeted 1,100 and 250. Stage 4 sets v8's weights against her figures and the venue band, and brings any trade-off to Roger.
