@@ -1280,3 +1280,421 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Value** ✅ The assumption, with v7's ground that the holder need not be a person.
 - **Counterpart** ✅ ASSUMPTION.
 - **Truth** ✅ v7 S-087 (the 1956 Act gives the duties to 'the proprietor'; the Irish Act defines the proprietor as 'the person carrying on the business of the hotel'), S-047.
+
+---
+
+## THE PARTIES TO A PHYGITAL ARRANGEMENT
+
+### PA lead-in
+
+#### O-111 · answers GM.111 · [C]
+> Chains have replaced unaffiliated venues as the industry's key operators, Slattery observes, and they outsource services to suppliers, investors, consultants and internet companies (2002: 24–25).
+
+- **Form** ✅ ~27w against GM.111's ~14 ⚠️ over; the figure-from-the-actor move with a scholar's observation in place of the firm's own statistics. Departure recorded.
+- **Construction** ✅ Attribution mid-sentence (rule 2).
+- **Register** ✅ *replaced, outsource*: plain.
+- **Value** ✅ Opens the walk on the many parties.
+- **Counterpart** ✅ FIGURE-FROM-ACTOR.
+- **Truth** ✅ v7 S-088 (Slattery 2002: 24–25).
+
+#### O-112 · answers GM.117 · [C]
+> Yet the classical picture is of one host who holds the house, its rule and the guest's safety together (Pitt-Rivers 2012: 513–514).
+
+- **Form** ✅ ~23w against GM.117's 9 ⚠️ over. Departure recorded.
+- **Construction** ✅ *Yet* turns against O-111.
+- **Register** ✅ Plain.
+- **Value** ✅ The picture the walk tests.
+- **Counterpart** ✅ CLAIM-ABOUT-ACTOR.
+- **Truth** ✅ v7 S-089.
+
+#### O-112a · answers GM.117 · [PB] P3.04–06
+> Traditional hospitality is a straight line: host and guest, where the one who receives you is the one you can address. Commercial hospitality bends the line, slipping the company and its employee between the guest and whoever sets the terms, so the person facing you is acting for an institution whose rules they did not write. Phygital hospitality bends it again, dropping an algorithm in between.
+
+- **Form** ✅ 66w in three sentences.
+- **Construction** ✅ Three steps, each its own subject.
+- **Register** ✅ Pierre's words; generic 'you' twice, flagged for the read-aloud.
+- **Value** ✅ The chain, restored (plan; ledger I-18); R1 asked for host–guest relation in this place.
+- **Counterpart** ✅ D3 placement.
+- **Truth** ✅ Pierre P3.04–06, verbatim.
+
+#### O-112b · answers GM.117 · [PB] P3.07–09
+> Now the guest's claim has to travel down a chain, guest to employee to system to whoever configured the system, and at each link the person in front of them holds a little less of the authority their claim is really aimed at. The problem is not the length of the chain. It is a break in it: the point where the decision gets made can come apart from any point where the guest can be answered.
+
+- **Form** ✅ 72w in three sentences.
+- **Construction** ✅ 'them' and 'their' refer to 'the guest'; 'It' to 'The problem'.
+- **Register** ✅ Pierre's words.
+- **Value** ✅ The break the walk looks for at each link.
+- **Counterpart** ✅ D3 placement.
+- **Truth** ✅ Pierre P3.07–09, verbatim.
+
+#### O-113 · answers GM.118 · [C]
+> We take the links in turn, starting with the property where the guest sleeps.
+
+- **Form** ✅ 14w against GM.118's 11.
+- **Construction** ✅ 'the links' picks up Pierre's chain (tail-head linkage).
+- **Register** ✅ Plain; her journey idiom not repeated.
+- **Value** ✅ Signpost.
+- **Counterpart** ✅ SIGNPOST.
+- **Truth** ✅ No claim.
+
+### *The property* — PP ¶1 · What the property owes
+
+#### O-114 · answers GM.119 · [C]
+> Much of the law of hospitality starts from the house itself.
+
+- **Form** ✅ 10w against GM.119's ~22.
+- **Construction** ✅ GM.119's *Much of the … takes as its point of departure …*.
+- **Register** ✅ Plain.
+- **Value** ✅ Places the subsection.
+- **Counterpart** ✅ PLACE-IN-LITERATURE.
+- **Truth** ✅ v7 S-070.
+
+#### O-115 · answers GM.120 · [C]
+> What the innkeeper received, Sandoval-Strausz writes, was the stranger's person and belongings, overnight, in a house that was not the stranger's own (2005: 62–63).
+
+- **Form** ✅ ~26w against GM.120's ~18.
+- **Construction** ✅ Attribution mid-sentence.
+- **Register** ✅ Plain.
+- **Value** ✅ What is particular to hosting (R2.4).
+- **Counterpart** ✅ CHARACTERIZE-SCALE.
+- **Truth** ✅ v7 S-078.
+
+#### O-118a · answers — · [C]
+> A traveller wrongly refused by an inn could sue the innkeeper — 'His right, I think, is founded on the common law' (Constantine 1944: 708) — and the general duty to receive now attaches to a hotel's proprietor (Hotel Proprietors Act 1956, s. 1(1)), while every provider of a service to the public in Great Britain must not refuse it on a protected ground (Equality Act 2010, s. 29(1)).
+
+- **Form** ✅ ~62w; no model counterpart (the outline's warrant: v7's two tiers of duty).
+- **Construction** ✅ Dash pair encloses the court's words; the two modern duties joined by *while*.
+- **Register** ✅ Plain.
+- **Value** ✅ The duty of admission.
+- **Counterpart** ⚠️ No counterpart; warranted.
+- **Truth** ✅ v7 S-071, S-072, S-073.
+
+#### O-116 · answers — · [C]
+> Once a guest is received, the host owes reasonable care for the guest's person, against the crimes of third parties as well (Al-Najar 2019: paras 187, 240).
+
+- **Form** ✅ ~27w.
+- **Construction** ✅ Plain.
+- **Register** ✅ Plain.
+- **Value** ✅ The duty of reception: core duty 1.
+- **Counterpart** ✅ As O-118a.
+- **Truth** ✅ v7 S-074 (the guests lost on breach, para 240; v8 claims only the duty).
+
+#### O-117 · answers — · [C]
+> A trader must also perform a service 'with reasonable care and skill', and a consumer whose service falls short may require it performed again (Consumer Rights Act 2015, ss. 49, 55).
+
+- **Form** ✅ ~30w.
+- **Construction** ✅ Plain.
+- **Register** ✅ Plain.
+- **Value** ✅ Core duty 2, diligent performance.
+- **Counterpart** ✅ As O-118a.
+- **Truth** ✅ v7 S-075.
+
+### PP ¶2 · When others do the work
+
+#### O-119 · answers GM.123 · [C]
+> An occupier escapes answering for a contractor's faulty construction, maintenance or repair if it chose the contractor reasonably and took the steps it 'reasonably ought' to check the contractor and the work (Occupiers' Liability Act 1957, s. 2(4)(b)), and Lord Keith held that it need not supervise a contractor it reasonably thinks competent (Ferguson v Welsh 1987: 7).
+
+- **Form** ✅ ~60w against GM.123's ~31 ⚠️ over; statute and leading judgment grouped. Departure recorded.
+- **Construction** ✅ 'it' ×3, one antecedent, 'An occupier'.
+- **Register** ✅ Plain.
+- **Value** ✅ What the rule on contractors gives the property.
+- **Counterpart** ✅ CLAIM + GROUPED-EVIDENCE.
+- **Truth** ✅ v7 S-102, S-103 (Lord Goff did not accept Lord Keith's guarded remark about unsafe systems; v8 does not use that remark).
+
+#### O-120 · answers GM.124 · [C]
+> Two hospitality defendants escaped on that footing: a nightclub whose door staff came from a security contractor, and a leisure centre whose machines a contractor maintained (Naylor v Payling 2004: paras 19, 50; Maguire v Sefton 2006: para 30).
+
+- **Form** ✅ ~40w against GM.124's ~15 ⚠️ over. Departure recorded.
+- **Construction** ✅ Colon list of two.
+- **Register** ✅ Plain.
+- **Value** ✅ The rule applied in hospitality.
+- **Counterpart** ✅ SYNTHESIS of grouped cases.
+- **Truth** ✅ v7 S-104.
+
+#### O-121 · answers GM.125 · [C]
+> A duty that cannot be discharged by choosing a careful contractor is, in the Supreme Court's word, 'exceptional' (Armes v Nottinghamshire 2017: para 32), and no case we read applies one to an adult hotel guest in England.
+
+- **Form** ✅ ~38w against GM.125's ~45.
+- **Construction** ✅ Plain.
+- **Register** ✅ Plain; the absence stated flatly.
+- **Value** ✅ The limit of the host's non-delegable duty.
+- **Counterpart** ✅ CONSEQUENCE.
+- **Truth** ✅ v7 S-107.
+
+#### O-122 · answers — · [C]
+> What stays with a host that performs through others therefore depends on the duty, and on the doctrine that governs it.
+
+- **Form** ✅ ~21w.
+- **Construction** ✅ 'it' has one antecedent, 'the duty'.
+- **Register** ✅ Plain.
+- **Value** ✅ Thesis step 3, earned.
+- **Counterpart** ✅ The paragraph's verdict.
+- **Truth** ✅ v7 S-100, S-108.
+
+### PP ¶3 · Several occupiers, and the staff inside
+
+#### O-123 · answers GM.134 · [C]
+> Of a brewery-owned public house whose manager's wife took in paying summer guests, Lord Denning said that 'two or more may be "occupiers"', each owing care 'dependent on his degree of control' (Wheat v E Lacon 1966).
+
+- **Form** ✅ ~37w against GM.134's ~44.
+- **Construction** ✅ The case's facts first, the holding last (end-focus).
+- **Register** ✅ Plain.
+- **Value** ✅ Several holders of the duty of care.
+- **Counterpart** ✅ LITERATURE + TURN-TO-CASE.
+- **Truth** ✅ v7 S-109.
+
+#### O-124 · answers GM.135 · [C]
+> And within the property, who holds the power to put a guest's case right?
+
+- **Form** ✅ 14w against GM.135's 6.
+- **Construction** ✅ A question after a long sentence, as GM.135.
+- **Register** ✅ Plain.
+- **Value** ✅ Turns from the holder of the duty to the person with power.
+- **Counterpart** ✅ QUESTION.
+- **Truth** ✅ No claim.
+
+#### O-125 · answers — · [C]
+> Where that power sits has always varied with the house: at a small hotel in Helsinki, reception staff could give discounts without asking anyone, hesitated to go beyond 10–20 per cent of the room rate, and did not know where their authority ended (Schumacher and Komppula 2016: 121–123).
+
+- **Form** ✅ ~48w.
+- **Construction** ✅ Colon delivers the case; three findings in one sentence.
+- **Register** ✅ Plain.
+- **Value** ✅ The staff's real, unwritten power.
+- **Counterpart** ✅ Evidence in the property.
+- **Truth** ✅ v7 S-162, S-163.
+
+#### O-126 · answers — · [C]
+> Reservation agents, too, keep a sanctioned latitude to accept a rate below what a revenue-management system prescribes, and how far they use it depends on how they expect management to view it (Bendoly 2013).
+
+- **Form** ✅ ~35w.
+- **Construction** ✅ 'it' ×2, one antecedent, 'a sanctioned latitude'.
+- **Register** ✅ Plain.
+- **Value** ✅ Discretion over the single case, shaped by management.
+- **Counterpart** ✅ As O-125.
+- **Truth** ✅ bendoly2013realtime [abstract]: 'hotel agents are often given the latitude to accept rate bids below the pricing prescriptions of these systems'; deviation is 'influenced by their perceptions of how their actions will be viewed by higher levels of management'. Replaces Pierre's P4.63, which the card finds a mis-citation (Bendoly says nothing about front-desk staff manufacturing a guest's sense of control); P4.63 is recorded as CUT (source) in the ledger update below.
+
+#### O-127 · answers — · [PB-a] P4.67
+> Staff can be asked to satisfy a guest while no longer holding the controls that would let them do so, as drivers working for Uber found when the routing app left them 'little flexibility for the driver to adapt to special client requests' (Möhlmann et al. 2021: 2009).
+
+- **Form** ✅ ~45w.
+- **Construction** ✅ 'them' ×2, one antecedent, 'Staff'; the outside case named as such.
+- **Register** ✅ Pierre's 'holding the controls'.
+- **Value** ✅ The staff's side of the missing counterparty (the call: 'guest-staff relationships').
+- **Counterpart** ✅ D3 placement.
+- **Truth** ✅ Pierre P4.67, adapted (source): mohlmann2021algorithmic [full-text], p. 2009: drivers 'expressed discomfort about not always being able to fully satisfy passengers' demands … with little flexibility for the driver to adapt to special client requests'. His 'produce the guest's sense of control' is not in the source and becomes 'satisfy a guest'; Fuller and Smith (1991), abstract-only and about customer feedback as a control on workers, is dropped.
+
+### PP ¶4 · Takeaway: the property
+
+#### O-128 · answers GM.149 · [C]
+> At the property, then, the law finds the host's duties of admission, of care for the guest's person and of careful performance.
+
+- **Form** ✅ ~22w against GM.149's ~21.
+- **Construction** ✅ GM.149's participial frame as 'At the property, then, …'.
+- **Register** ✅ Plain.
+- **Value** ✅ TAKEAWAY 1.
+- **Counterpart** ✅ TAKEAWAY-OPEN.
+- **Truth** ✅ O-116–O-118a.
+
+#### O-129 · answers GM.150 · [C]
+> It shows that control of the guest's space carries the duty of care even when contractors do the work, though not every duty, and that several may hold it at once.
+
+- **Form** ✅ ~31w against GM.150's ~40.
+- **Construction** ✅ 'It' has one antecedent, 'the law' (O-128); 'it', 'the duty of care'.
+- **Register** ✅ GM.150's *It reveals how* as *It shows that*.
+- **Value** ✅ TAKEAWAY 2.
+- **Counterpart** ✅ TAKEAWAY-1.
+- **Truth** ✅ O-119–O-123; v7 S-116.
+
+#### O-130 · answers GM.151 · [C]
+> It also shows that the staff who face the guest may hold less power over the guest's case than the guest assumes.
+
+- **Form** ✅ ~22w against GM.151's ~26.
+- **Construction** ✅ GM.151's *It also illustrates how …*.
+- **Register** ✅ Plain.
+- **Value** ✅ TAKEAWAY 3, the hook to the brand behind the staff.
+- **Counterpart** ✅ TAKEAWAY-2.
+- **Truth** ✅ O-125–O-127. 'Than the guest assumes' is our reading.
+
+### *The platform* — PF ¶1 · What this journal has said about platforms
+
+#### O-142 · answers GM.176 · [PB-a] P3.16
+> Platform accommodation showed an early version of the break, well before hotels automated their own desks.
+
+- **Form** ✅ 16w against GM.176's ~46 (−65%) ⚠️ under; it opens the subsection, and O-141 carries the framings. Departure recorded.
+- **Construction** ✅ 'the break' picks up O-112b.
+- **Register** ✅ Pierre's words.
+- **Value** ✅ Places the platform in the literature.
+- **Counterpart** ✅ FRAMINGS-OF-OBJECT (opening).
+- **Truth** ✅ Pierre P3.16, adapted (construction): 'this' → 'the break', since its antecedent in his text (the missing counterparty, P3.15) is not placed.
+
+#### O-141 · answers GM.177 · [PB] P3.17
+> Research on Airbnb and its cousins has documented hosts straining to satisfy rating systems they cannot see (Cheng and Foley 2019), the platform's idea of hospitality shaping what hosts feel they must offer (Roelofsen and Minca 2018; Germann Molz 2018), and guests shut out on the basis of records they never wrote and cannot inspect (Edelman et al. 2017).
+
+- **Form** ✅ 57w against GM.177's ~29 ⚠️ over; three findings grouped in one sentence (mechanism 8). Departure recorded.
+- **Construction** ✅ Each finding with its own citation, mid-sentence.
+- **Register** ✅ Pierre's words.
+- **Value** ✅ The network-hospitality literature on the platform, in this journal's terms.
+- **Counterpart** ✅ CONSENSUS, grouped.
+- **Truth** ✅ Pierre P3.17, verbatim. chengfoley2019 and edelman2017discrimination [full-text]; Germann Molz 2018 read in full (the reputation system as social surveillance, pp. 236–237); roelofsenminca2018 [abstract], here alongside Germann Molz, who reports their analysis (p. 244).
+
+#### O-143 · answers GM.178 · [C]
+> In other words, who answers the guest is settled on the platform's terms, as the argument of Airbnb's lawyers quoted above shows.
+
+- **Form** ✅ ~22w against GM.178's ~32.
+- **Construction** ✅ GM.178's *In other words, …*; refers back to O-040 rather than repeating the quotation.
+- **Register** ✅ Plain; her 'lands at the doorstep' not copied.
+- **Value** ✅ The platform's position, compressed.
+- **Counterpart** ✅ REFORMULATE.
+- **Truth** ✅ O-040 (Mock, as quoted in Germann Molz 2018: 244).
+
+O-144 (Pierre P3.19, 'What it has not yet asked …') is not written: the gap search found the question asked (Sharma and Mattila 2026: 911), so the sentence would overclaim. Ledger I-19 updated below.
+
+### PF ¶2 · The platform in law, and the co-host
+
+#### O-145 · answers GM.184 · [C]
+> In European law a booking platform is not the provider of a stay where the host sets the price and the platform does not select its hosts (Airbnb Ireland 2019: paras 56–57, 68).
+
+- **Form** ✅ ~33w against GM.184's 12 ⚠️ over. Departure recorded.
+- **Construction** ✅ Plain.
+- **Register** ✅ Plain.
+- **Value** ✅ The platform's legal position.
+- **Counterpart** ✅ BALANCE-TURN.
+- **Truth** ✅ v7 S-113.
+
+#### O-146 · answers GM.185 · [C]
+> It loses its shield from consumer-law liability, however, where consumers would take it for the provider (Digital Services Act, art. 6(3)).
+
+- **Form** ✅ ~21w against GM.185's 16.
+- **Construction** ✅ 'It' and 'it' have one antecedent, 'a booking platform'.
+- **Register** ✅ Plain.
+- **Value** ✅ Holding out again, for the platform.
+- **Counterpart** ✅ EXAMPLE-CLASS.
+- **Truth** ✅ v7 S-113.
+
+#### O-147 · answers GM.190 · [C]
+> On the ground the roles split further: Bosma found that 'host' names several roles on a rental platform, among them primary hosts, listing owners and co-hosts, and one co-host took her instructions from the app rather than from the owner (2022: 601).
+
+- **Form** ✅ ~42w against GM.190's ~51.
+- **Construction** ✅ GM.190's study frame; colon delivers the finding.
+- **Register** ✅ Plain.
+- **Value** ✅ The divided host in a phygital setting.
+- **Counterpart** ✅ STUDY-FINDING.
+- **Truth** ✅ v7 S-165 (Bosma 2022: 601).
+
+#### O-148 · answers GM.191 · [C]
+> On the same platforms, self-check-in replaces the handover of keys (Bosma 2022: 605).
+
+- **Form** ✅ 13w against GM.191's 10.
+- **Construction** ✅ Plain.
+- **Register** ✅ Plain.
+- **Value** ✅ The crossing at the door.
+- **Counterpart** ✅ DETAIL-FROM-STUDY.
+- **Truth** ✅ v7 S-004.
+
+### PF ¶3 · Takeaway: the platform
+
+#### O-149 · answers GM.198 · [C]
+> The platform, then, answers the guest as a host where it holds itself out as the provider, and otherwise the duty of care stays with whoever controls the space, even when an app directs the person in it.
+
+- **Form** ✅ ~38w against GM.198's ~44.
+- **Construction** ✅ 'it' has one antecedent, 'The platform'; 'it' at the end, 'the space'.
+- **Register** ✅ Plain.
+- **Value** ✅ TAKEAWAY.
+- **Counterpart** ✅ TAKEAWAY-OF-SUBSECTION.
+- **Truth** ✅ O-145–O-148; v7 S-116.
+
+#### O-150 · answers — · [C]
+> Behind the app, and behind the hotel's own systems, sits the vendor.
+
+- **Form** ✅ 11w.
+- **Construction** ✅ Inverted subject puts the next subsection's term last (end-focus).
+- **Register** ✅ Plain.
+- **Value** ✅ Hook.
+- **Counterpart** ✅ HAND-OFF.
+- **Truth** ✅ No claim.
+
+### *The state* — ST ¶1 · Placed guests
+
+#### O-166 · answers GM.226–GM.230 · [C]
+> The asylum seekers Petie et al. studied, guests of a hotel, its staff, housing contractors and the local community at once, were housed on a no-choice basis, and hotel staff became hosts almost overnight to people whose needs called for knowledge commercial hospitality does not usually require (2025).
+
+- **Form** ✅ ~48w against the model's three-sentence lead-in to a display (GM.226–230) ⚠️ compressed; the theory section already introduced Petie et al. (O-059). Departure recorded.
+- **Construction** ✅ Back-reference to O-059 in the opening phrase; no repetition of its sentence.
+- **Register** ✅ Plain.
+- **Value** ✅ The state's guests, and the staff who host them.
+- **Counterpart** ✅ RETURN-TO-SOURCE.
+- **Truth** ✅ v7 S-096, S-125, S-167 (Petie et al. 2025).
+
+### ST ¶2 · The state's duty in law
+
+#### O-169 · answers GM.231 · [C]
+> Whose duty is it when the state places the guest?
+
+- **Form** ✅ 10w against GM.231's 8.
+- **Construction** ✅ A question opening a paragraph, as GM.231.
+- **Register** ✅ Plain.
+- **Value** ✅ The subsection's question.
+- **Counterpart** ✅ QUESTION.
+- **Truth** ✅ No claim.
+
+#### O-170 · answers GM.232 · [C]
+> In England the placing minister's duty is a public one that 'remains hers' when contractors perform it (R (DMA) 2020: para 100), whereas a privately owned care home's duties to its residents are, in Lord Scott's words, 'governed by private law' (YL 2007: para 29).
+
+- **Form** ✅ ~45w against GM.232's ~40.
+- **Construction** ✅ *whereas* contrast; two holdings, each attributed.
+- **Register** ✅ Plain.
+- **Value** ✅ The state's duty stays its own.
+- **Counterpart** ✅ EVIDENCE-RANGE.
+- **Truth** ✅ v7 S-115.
+
+#### O-172 · answers GM.233–GM.234 · [C]
+> The Court of Appeal has since read R (DMA) as requiring a system to ensure that contractors performed the minister's duty, not a free-standing duty to monitor (RR v Enfield 2025: paras 80–81).
+
+- **Form** ✅ ~35w against GM.233–234's ~51.
+- **Construction** ✅ Plain.
+- **Register** ✅ Plain.
+- **Value** ✅ What the state must keep: a system, not surveillance.
+- **Counterpart** ✅ INFER + EXTREME-EXAMPLE's slot.
+- **Truth** ✅ v7 S-205a.
+
+### ST ¶3 · Takeaway for the parties, and the hand-off
+
+#### O-173 · answers GM.235 · [C]
+> On these authorities, control of the guest's space carries the duty of care, and several parties may share it.
+
+- **Form** ✅ 18w against GM.235's ~47.
+- **Construction** ✅ Plain.
+- **Register** ✅ Plain.
+- **Value** ✅ The walk's synthesis.
+- **Counterpart** ✅ SYNTHESIS.
+- **Truth** ✅ v7 S-116.
+
+#### O-174 · answers GM.236 · [C]
+> Which party answers for the rest of what a guest is owed, among brand, platform and vendor, is a matter we can only propose.
+
+- **Form** ✅ ~22w against GM.236's 12.
+- **Construction** ✅ Plain.
+- **Register** ✅ Plain; stated flatly.
+- **Value** ✅ The limit of the law's answer.
+- **Counterpart** ✅ The ironic fragment's slot, as a plain limit.
+- **Truth** ✅ v7 S-116.
+
+#### O-174a · answers GM.236 · [C]
+> Moral philosophy divides the same way: Brandt holds that one who delegates a responsibility remains bound to see it fulfilled, since an arrangement with a third party cannot alter what was agreed with the party owed, while O'Neill, as he quotes her, has a careful hand-over transfer the obligation (Brandt 2017).
+
+- **Form** ✅ ~52w.
+- **Construction** ✅ Two positions; reported source marked.
+- **Register** ✅ Plain.
+- **Value** ✅ The philosophical side of delegation (R2.2).
+- **Counterpart** ✅ As O-174.
+- **Truth** ✅ v7 S-117, S-118, S-119.
+
+#### O-175 · answers GM.237 · [C]
+> Brandt's delegator, however, steps in only once the delegate is plainly failing, and he leaves a means of finding out as one policy among several; outside package travel, neither the law of delegation nor this literature says that a host must keep a means of learning of a failure in the guest's case while it can still be put right.
+
+- **Form** ✅ ~58w against GM.237's ~32 ⚠️ over; it carries v7's two findings that set up the further duty. Departure recorded.
+- **Construction** ✅ Semicolon splits Brandt from the wider absence; 'he' has one antecedent, Brandt; 'it' at the end, 'a failure'.
+- **Register** ✅ Plain.
+- **Value** ✅ The hand-off to *During the stay*: what no doctrine requires.
+- **Counterpart** ✅ CLOSING-READING + HOOK.
+- **Truth** ✅ v7 S-120, S-122.
