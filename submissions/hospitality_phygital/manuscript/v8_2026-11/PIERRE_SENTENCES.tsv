@@ -1,0 +1,398 @@
+id	v4_status	cited_sources_and_card_depth	sentence
+PA.01	v4CHANGED		Phygital hospitality promises a smoother welcome: apps, algorithms, and smart interfaces that make a guest's stay faster, easier, and more personal.
+PA.02	v4same		But hospitality was never only about smooth service.
+PA.03	v4same		To be a guest is to have standing, which we define as the recognized position from which a person can ask, object, request an exception, and expect someone to answer.
+PA.04	v4CHANGED		This paper asks a simple question with an awkward answer.
+PA.05	v4same		When an algorithm takes over the work a host used to do, recognizing the guest, pricing the room, deciding who gets in, does it also take on what a host owes the guest?
+PA.06	v4same		It does not.
+PA.07	v4CHANGED		The functions of hosting can move to a machine while the obligation stays behind, and the guest can be left with no one to answer to.
+PA.08	v4CHANGED		We show how phygital mediation redistributes knowledge, discretion, and authority; we offer a plain test for telling help from replacement, built on three things a guest needs (a shared understanding, predictability, and someone accountable); we separate competence, which a person can learn, from standing, which only an institution can grant; and we argue that the goal of good design is not seamlessness but interruptibility.
+PA.09	v4same		The fix is institutional, not merely technical.
+P1.01	v4same		You land after a long flight and reach your hotel.
+P1.02	v4same		Before you say a word, a screen has already chosen your room, set your price, and decided whether your face is enough to let you in.
+P1.03	v4same		The person at the desk smiles warmly.
+P1.04	v4same		But when you ask why the rate jumped since you booked, or why you cannot have the quiet room you always request, they give you a small, apologetic shrug: "That's what the system shows." You have been served quickly and politely.
+P1.05	v4same		Have you been welcomed?
+P1.06	v4same		Most writing on phygital hospitality would call that screen a success.
+P1.07	v4same	batat2024phcx[full-text]; batat2024paradigm[abstract|corr]; brochado2026phygital[abstract]	It presents artificial intelligence, apps, and automated interfaces as tools for a smoother, more personal, more guest-centered experience (Batat 2024, 2026; Brochado et al. 2026).
+P1.08	v4same		From a service point of view, that makes sense.
+P1.09	v4same		But it misses something.
+P1.10	v4same		Hospitality is more than efficient service.
+P1.11	v4same	lashley2000towards[metadata]; lynch2011theorizing[full-text]	It is a relationship built on welcome, recognition, care, presence, and the negotiation of access (Lashley 2000; Lynch et al. 2011).
+P1.12	v4same		A guest is not just a consumer collecting a bundle of services.
+P1.13	v4same	hemmington2007[full-text]	A guest is someone a host is expected to receive (Hemmington 2007).
+P1.14	v4same		Notice how we talk about the technology.
+P1.15	v4same	bitner2000technology[metadata]; Doorn2017[NOBIB]; li2021systematic[abstract]; xing2026algorithmic[abstract]	We call AI a tool, a mediator, a facilitator, a co-creator, a form of social presence (Bitner et al. 2000; van Doorn et al. 2017; Li et al. 2021; Xing and Zhang 2026).
+P1.16	v4same		Every one of those words describes what the technology can do.
+P1.17	v4same		None of them says what, if anything, it owes the guest.
+P1.18	v4same		The language of hospitality is different, because the word host carries an obligation.
+P1.19	v4same		A host does not merely perform tasks.
+P1.20	v4CHANGED	lashley2000towards[metadata]; bulley2015ethics[full-text|corr]	A host takes in the arriving stranger and accepts some responsibility for how that person is received (Lashley 2000; Bulley 2015).
+P1.21	v4same	Larivière2017[NOBIB]; Odekerken-Schröder2021[NOBIB]	Service research has quietly handed the host's role to the employee (Larivière et al. 2017; Odekerken-Schröder et al. 2021).
+P1.22	v4same		But being an employee and being a host are not the same thing.
+P1.23	v4same		A contract can spell out the services you must deliver.
+P1.24	v4same		It cannot, on its own, explain the obligation that runs between a host and a guest.
+P1.25	v4same		That gap matters more than ever now that platforms and automated systems are taking over jobs human hosts used to do.
+P1.26	v4CHANGED	riordan2024digitally[abstract]; Molz2026[NOBIB]	This journal has already asked what happens to hospitality when platforms push the human host out of view (Riordan 2024; Germann Molz 2026).
+P1.27	v4same	Molz2026[NOBIB]	The most recent of these describes "guests without hosts": platform hospitality in which algorithmic governance makes the human host visible, disciplined, and finally dispensable (Germann Molz 2026).
+P1.28	v4same		That work asks what happens as the host is erased.
+P1.29	v4same		We ask the next question.
+P1.30	v4same		If a host can be erased because an algorithm now does the recognizing, the routing, and the admitting, what becomes of what the host owed?
+P1.31	v4same		It is tempting to make the machine the heir and ask: does a system that takes over the functions of hosting also inherit the obligations of the host?
+P1.32	v4same		Put that way, the answer is boring.
+P1.33	v4CHANGED		Almost no one thinks software picks up moral duties, and we do not argue that it does.
+P1.34	v4same		We leave the debates about machine minds and personhood to one side.
+P1.35	v4same		The sharper point is not philosophical but practical.
+P1.36	v4same		When the functions of hosting move into an algorithm, the obligation does not need to move into the machine.
+P1.37	v4same		It needs to stay findable somewhere in the arrangement, attached to a real party who can be reached and who will answer for how the guest is received.
+P1.38	v4same		The trouble is that organizations have built arrangements where the functions move but the person who should answer becomes hard to find, and sometimes impossible to reach.
+P1.39	v4same		The problem is not the missing human face.
+P1.40	v4same		It is the missing answerable counterparty.
+P1.41	v4same		The rest of the paper follows one line of reasoning.
+P1.42	v4same		We start by recovering what makes a guest more than a customer: a standing that lets them make claims someone is bound to answer.
+P1.43	v4same		We show how algorithmic mediation can cut the guest off from that someone.
+P1.44	v4same		We trace how the machinery reshuffles knowledge, discretion, and authority.
+P1.45	v4same		We offer a three-part test for telling mediation that helps hospitality from mediation that replaces it.
+P1.46	v4same		We explain why no amount of individual skill can close the gap, because competence is learned while standing is granted.
+P1.47	v4same		And we draw the design lesson: the aim is not a seamless stay but an interruptible one, with a real person still within reach.
+P1.48	v4CHANGED		Figure 1 sets out the logic that leads to this thesis.
+P2.01	v4same		Being a guest is not a measure of how good the service is.
+P2.02	v4same		It is a position in a relationship, and that position comes with a particular kind of standing.
+P2.03	v4same	lynch2017mundane[metadata]; beatty2016compliance[full-text]	A guest can ask a question, turn down an offer, demand an explanation, challenge a decision, or ask to be treated as an exception to the usual rule (Lynch 2017; Beatty et al. 2016).
+P2.04	v4same		These moves are part of what separates hospitality from plain service.
+P2.05	v4same	lugosi2008[full-text]	A stay can be fast, convenient, and free of any slip-up, and still leave the guest unwelcomed, because no one has actually received them (Lugosi 2008).
+P2.06	v4CHANGED		We should be clear about what "standing" adds, because a skeptical reader will ask how it differs from consumer rights, procedural justice, contestability, or customer participation.
+P2.07	v4same		Each of those is real.
+P2.08	v4same		Each sits in the wrong place for our argument.
+P2.09	v4same		Consumer rights are entitlements you hold against a company whether or not anyone is there to honor them.
+P2.10	v4same		Procedural justice is about how a person judges a process they have been put through.
+P2.11	v4CHANGED		Contestability is a feature of a system: a route by which a decision can be challenged.
+P2.12	v4same		Customer participation is about the guest's own contribution to the service.
+P2.13	v4same		Standing comes before all of these, and it is relational in a stricter sense.
+P2.14	v4same		A guest has standing when their words count as a claim addressed to someone in the matching position of host, someone able to receive it as a claim and obliged to respond.
+P2.15	v4same		Standing, then, is not something the guest owns by themselves.
+P2.16	v4same		It exists only when there is a counterparty who can take their claim as a claim.
+P2.17	v4same		Contestability is one way standing shows up.
+P2.18	v4same		Standing is the prior condition that makes a challenge more than a complaint shouted into the void.
+P2.19	v4same		This does a lot of work later, because you can hold plenty of buttons and sliders and still have little standing, and you can hold almost no control over a decision and still have real standing, depending entirely on whether someone who can answer is still within reach.
+P2.20	v4same		Because so much rides on it, it helps to keep four neighboring words apart.
+P2.21	v4same		Obligation is what the host owes the guest, at a minimum, a welcome.
+P2.22	v4same		Responsibility is about who carries the job of meeting that obligation.
+P2.23	v4same		Authority is the power to change the decision, or the rule behind it.
+P2.24	v4same	bovens2007accountability[full-text|corr]	Accountability, or answerability, is the duty to explain and justify what was done to someone entitled to ask (Bovens 2007).
+P2.25	v4same		In an ordinary face-to-face welcome these four sit in one person.
+P2.26	v4same		The host who owes the welcome is also responsible for it, holds the authority over how the guest is received, and can be asked to answer for it.
+P2.27	v4same		Much of what follows is the story of how algorithmic mediation pries these apart, so that the party with the authority is not the party who must answer, and the obligation is left without an address.
+P2.28	v4CHANGED		We should also be plain about the word "welcome," because we do not mean warmth or a friendly greeting.
+P2.29	v4same		To welcome a guest, in the sense we need, is to recognize them as this particular arrival, to admit them, to stay responsive to whatever they bring that the standard case did not expect, and to keep the power to make an exception when their situation calls for one.
+P2.30	v4same		Welcome, in short, is recognition, admission, responsiveness, and the capacity for a negotiated exception, all held together.
+P2.31	v4same		That is what the last line of this paper has in view, and it asks far more than a smile at the desk.
+P2.32	v4same		Experience research in the phygital tradition gets close to this.
+P2.33	v4same	batat2019experiential[abstract]	It has long insisted that value is created with the guest, and it puts empathy, emotional connection, and the effort to understand the customer on their own terms at the heart of experience design (Batat 2019).
+P2.34	v4same		Hospitality theory adds one observation: these are also the fingerprints of a relationship in which one party holds obligations toward the other, and that becomes urgent the moment the party doing the recognizing is no longer a person.
+P2.35	v4same		This relational side matters because hospitality has always run in two directions.
+P2.36	v4CHANGED	derrida2000hospitality[metadata]; lashley2000towards[metadata]	Ethical traditions stress the mutual bond between host and guest, even when it is unequal or brief (Derrida and Dufourmantelle 2000; Lashley 2000).
+P2.37	v4same		Commercial hospitality tends to flatten it, fixing its gaze on what the company gives the customer.
+P2.38	v4CHANGED	pijls2017measuring[full-text]	So the field has become very good at measuring whether guests feel welcomed, satisfied, comfortable, or cared for, and much less curious about what flows the other way (Pijls et al. 2017).
+P2.39	v4same		Requests, challenges, refusals, and claims for recognition are harder to fit on a survey.
+P2.40	v4same		Consider the evidence we do have.
+P2.41	v4CHANGED	manfreda2025reciprocal[abstract]; manfreda2025pedagogy[abstract]	A recent study of luxury lodges watches guests tidy their rooms for housekeeping, return glasses to the bar, and praise staff in their reviews, and it is careful to call this gratitude, not obligation (Manfreda and Harkison 2025).
+P2.42	v4same	shi2025residents[abstract]	A validated scale now measures what locals feel they gain from meeting visitors (Shi et al. 2025).
+P2.43	v4CHANGED		Neither asks what, if anything, a guest owes a commercial host, and we know of no instrument that measures conduct running in that direction.
+P2.44	v4CHANGED		The guest's side of the bargain remains, for practical purposes, under-theorized, which is one reason the guest's standing, as distinct from their satisfaction, has been so easy to miss.
+P3.01	v4same		The distinctive problem of phygital hospitality is not that another player has joined the game.
+P3.02	v4same		It is that the party who makes the decision may no longer be the party who can answer for it.
+P3.03	v4CHANGED		It helps to see this as a change in the shape of the relationship, not just an extra body in the room.
+P3.04	v4same		Traditional hospitality is a straight line: host and guest, where the one who receives you is the one you can address.
+P3.05	v4same		Commercial hospitality bends the line, slipping the company and its employee between the guest and whoever sets the terms, so the person facing you is acting for an institution whose rules they did not write.
+P3.06	v4same		Phygital hospitality bends it again, dropping an algorithm in between.
+P3.07	v4same		Now the guest's claim has to travel down a chain, guest to employee to system to whoever configured the system, and at each link the person in front of them holds a little less of the authority their claim is really aimed at.
+P3.08	v4same		The problem is not the length of the chain.
+P3.09	v4same		It is a break in it: the point where the decision gets made can come apart from any point where the guest can be answered.
+P3.10	v4same		Algorithmic mediation makes this break visible, because it can leave the guest's standing with no one to face.
+P3.11	v4same		They may still have someone to complain to, and the company may still hand over compensation when something goes wrong.
+P3.12	v4same		But they can lose access to anyone with real power over the rule or the decision they are questioning.
+P3.13	v4same		A front-desk employee can tell you the system assigned that room, denied the upgrade, moved the price, or demanded that particular ID, while having no power at all to change any of it.
+P3.14	v4same		So the guest ends up in a strange spot: admitted as a customer, yet with no one to negotiate with as a guest.
+P3.15	v4same		That is the missing counterparty in its plainest form, and the rest of the paper is written to diagnose it and to say what would fix it.
+P3.16	v4same		Platform accommodation showed an early version of this, well before hotels automated their own desks.
+P3.17	v4same	chengfoley2019[full-text]; roelofsenminca2018[abstract]; Molz2018[NOBIB]; edelman2017discrimination[full-text]	Research on Airbnb and its cousins has documented hosts straining to satisfy rating systems they cannot see (Cheng and Foley 2019), the platform's idea of hospitality shaping what hosts feel they must offer (Roelofsen and Minca 2018; Germann Molz 2018), and guests shut out on the basis of records they never wrote and cannot inspect (Edelman et al. 2017).
+P3.18	v4CHANGED		Hospitality scholarship, in other words, noticed that a third party had unsettled the question of who hosts before the service literature had even named the triad.
+P3.19	v4CHANGED		What it has not yet asked is what that third party owes, and where the obligation goes when the party that performs the reception is not the party that can answer for it.
+P3.20	v4same		That is our question.
+P4.01	v4CHANGED		Before going further, we should be clear about what we are studying.
+P4.02	v4CHANGED		It is not the algorithm as a lone gadget.
+P4.03	v4CHANGED		It is the whole arrangement, the socio-technical setup in which decisions, information, and power are spread across the guest, the employee, the property, the vendor who supplies the system, and whoever, in the corporate office or on the platform, sets its rules.
+P4.04	v4same		When we ask where a decision was made or who can answer for it, the candidates are these parties, not a piece of software acting on its own.
+P4.05	v4same		Keeping the arrangement in view, rather than the gadget, turns our questions into questions of location.
+P4.06	v4same		Inside the arrangement, where does knowledge sit?
+P4.07	v4same		Where does discretion sit?
+P4.08	v4same		Where does authority sit?
+P4.09	v4same		And where does answerability sit?
+P4.10	v4same	Larivière2017[NOBIB]; li2021systematic[abstract]; gursoy2026reconceptualizing[full-text]	Phygital hospitality increasingly arranges these into a three-party relationship: the guest, the hospitality employee or organization, and an algorithmic intermediary (Larivière et al. 2017; Li et al. 2021; Gursoy 2026).
+P4.11	v4same		The intermediary does far more than pass messages between the other two.
+P4.12	v4same		It can classify guests, recommend products, set prices, manage queues, assign rooms, personalize offers, control access, and decide which options you even see.
+P4.13	v4same		This matters because much of that used to be the hands-on work through which hospitality actually happened.
+P4.14	v4same		These encounters are phygital in a precise way.
+P4.15	v4CHANGED	batat2024phcx[full-text]; batat2024paradigm[abstract|corr]	Physical moments are constantly turned into digital records, and digital rulings are constantly turned back into physical facts, a key card that works or does not, a price that appears on the screen at the desk (Batat 2024).
+P4.16	v4same		The guest crosses back and forth between the physical and the digital many times in a single stay.
+P4.17	v4CHANGED		The frameworks call this movement fluidity.
+P4.18	v4same		It is just as accurate to call it a relay, and a relay raises a management question that the word fluidity hides: who holds the authority, and who keeps the room to use judgment, at each handoff?
+P4.19	v4same		Some recent work has started to put machines in something like the host's chair, but it keeps asking a different question.
+P4.20	v4CHANGED	liu2026hospitableness[full-text]; leelu2024consciousness[abstract]	Studies of "robotic hospitableness" test whether a robot can make guests feel welcomed, attended to, and reassured (Liu et al. 2026), and an emerging theory of AI consciousness asks whether guests can experience genuine hospitality from a machine at all (Lee and Lu 2024).
+P4.21	v4same		Those are questions about what guests perceive.
+P4.22	v4same		Whether a party seems hospitable and whether it occupies a position that owes the guest something are two different matters, and only the second is independent of what the guest happens to believe.
+P4.23	v4CHANGED	sharmamattila2025rights[full-text]	Another line of work lists the responsibilities of hospitality robots, but frames them as governance: liability, safety, data protection, consent (Sharma and Mattila 2025).
+P4.24	v4CHANGED		Each of those duties has a different source.
+P4.25	v4same		Care is owed because someone is in need.
+P4.26	v4same		Fiduciary duties are owed because someone has been trusted.
+P4.27	v4CHANGED	kropf2026blame[full-text]; Sio2021[NOBIB]	Governance duties exist because a system creates risk (Kropf et al. 2026; Santoni de Sio and Mecacci 2021).
+P4.28	v4CHANGED		A welcome is owed for one reason only: someone has arrived.
+P4.29	v4CHANGED		And it is the single duty that defines the role of the party who owes it.
+P4.30	v4same	introna2010measure[metadata]	Philosophy of technology has imagined the machine as a guest we might extend hospitality to (Introna 2010).
+P4.31	v4CHANGED		It has not yet imagined the machine as the keeper of the threshold.
+P4.32	v4CHANGED	mosca2025phygital[full-text|corr]; mosca2026ai[full-text]	As algorithms take on these jobs, three things get redistributed across the arrangement: knowledge, discretion, and authority (Mosca et al. 2025).
+P4.33	v4same		Knowledge is about who is placed to understand what is happening.
+P4.34	v4same	rahman2021cage[full-text|corr]; calorosenblat2017taking[abstract]	It drifts toward the system, because the system can hold the guest's history, preferences, spending, and loyalty status at the same time as the property's inventory and constraints (Rahman 2021; Calo and Rosenblat 2017).
+P4.35	v4same		Discretion is about who can depart from the prescribed answer.
+P4.36	v4CHANGED	christin2017practice[abstract|corr]; pedersen2022[full-text|corr]; spektor2025working[full-text]	It splits: staff keep some freedom to act, but more and more of their day goes to reading decisions made elsewhere, explaining them to guests, and working around categories set elsewhere (Christin 2017; Pedersen and Pors 2022; Spektor et al. 2025).
+P4.37	v4same		Authority is about who can change the rule itself, or answer for it.
+P4.38	v4CHANGED	scottorlikowski2012accountability[full-text]; zervas2021reputation[full-text]	It drifts toward whoever designs, configures, or controls the rules (Scott and Orlikowski 2012; Zervas et al. 2021).
+P4.39	v4same		The gap between discretion and authority is easy to blur, and it does a lot of work here, so let us make it sharp.
+P4.40	v4same		An employee may have the discretion to move you to a different room while having no authority to touch the pricing rule that produced a disputed rate for a whole class of guests.
+P4.41	v4same		Discretion acts on the single case.
+P4.42	v4same		Authority acts on the rule.
+P4.43	v4same		That is why, later, "who can override this decision?" and "who can revise or answer for the rule behind this kind of decision?" are not the same question.
+P4.44	v4same		A guest can meet someone with the first power and never reach anyone with the second.
+P4.45	v4CHANGED		The evidence for all this is uneven, and we should say so plainly.
+P4.46	v4CHANGED	spektor2023[abstract|corr]; spektor2023designing[full-text]	The clearest documentation comes from the back of house, where housekeeping systems have been seen to lock task order and withhold information from the very workers carrying it out (Spektor et al. 2023, 2025).
+P4.47	v4CHANGED	bendoly2013realtime[abstract]; garcia2026strategic[full-text]	The front desk looks different: revenue systems there expect staff to override their suggestions, and the overrides are durable and, to a degree, designed for (Bendoly 2013; Garcia et al. 2026).
+P4.48	v4same		The guest-facing half has barely been studied.
+P4.49	v4same		What we can say with confidence is that knowledge, discretion, and authority need not travel together, and that the arrangement can pull them apart.
+P4.50	v4same		That splitting is the central asymmetry of this paper.
+P4.51	v4same		The party best placed to know, to decide, and to rewrite the rules may also be the party least available to answer the guest.
+P4.52	v4same		And this is not automatically a glitch.
+P4.53	v4same	rahman2021cage[full-text|corr]	The asymmetry can appear when the technology is working exactly as intended (Rahman 2021).
+P4.54	v4same	bovens2007accountability[full-text|corr]	So the problem is institutional, not merely technical: the arrangement separates the power to make or shape decisions from the duty to answer for them (Bovens 2007).
+P4.55	v4CHANGED	casalegno2020circular[full-text]	Research on stakeholder relationships shows that roles and their responsibilities can be handed around without the responsibilities dissolving (Casalegno et al. 2020).
+P4.56	v4same		The question algorithmic mediation forces on us is what happens when the handoff carries the functions and leaves the obligation with no forwarding address.
+P4.57	v4CHANGED		One habit of language works quietly against this argument, and it is worth resisting.
+P4.58	v4same		To say that a system "forecasts the guest," "biases its own recommendations," or "revises its rules" reads smoothly, but it hides the people who designed, configured, or approved those processes, and so it reproduces, right there in the prose, the very diffusion of responsibility we are criticizing.
+P4.59	v4same		Where it matters, it is more accurate to say that a pricing architecture generated recommendations that already anticipated staff overrides, or that an update to a model changed the operative rule without telling staff.
+P4.60	v4same		Readable prose sometimes needs the shorthand.
+P4.61	v4same		The analysis should not be taken in by it.
+P4.62	v4same		This split also cuts into the craft of hospitality.
+P4.63	v4same	bendoly2013realtime[abstract]	Skilled front-desk employees often manufacture a guest's sense of control through small acts of discretion (Bendoly 2013).
+P4.64	v4CHANGED		They appear to defer while quietly steering the options, heading off trouble, and nudging the encounter away from the choices likely to disappoint.
+P4.65	v4same		The craft depends on the employee keeping some of the decision-making power they seem to give away.
+P4.66	v4same		Algorithmic direction can snap that link at exactly the wrong point.
+P4.67	v4same	fuller1991consumers[abstract]; Möhlmann2021[NOBIB]	Staff are still asked to produce the guest's sense of control, while no longer holding the controls that would produce it (Fuller and Smith 1991; Möhlmann et al. 2021).
+P5.01	v4same		Does technology help hospitality or replace it?
+P5.02	v4same	raisch2021paradox[full-text]; parasuraman2000types[abstract]	You cannot answer by asking how advanced it is (Raisch and Krakowski 2021; Parasuraman et al. 2000).
+P5.03	v4same		A very clever system can support a real welcome, and a very simple one can wreck it.
+P5.04	v4same		The better question is what stays available to the guest, and to whoever might answer them, once the machine is in the loop.
+P5.05	v4CHANGED	okhuysenbechky2009[full-text]	Three things settle it, and they are best introduced not as imports from the study of organizational coordination but as what the host-guest relationship itself requires (Okhuysen and Bechky 2009).
+P5.06	v4same		First, the parties need a workable picture of what each other, and the system between them, is doing.
+P5.07	v4same		You cannot recognize someone through a fog.
+P5.08	v4same		Call this common understanding.
+P5.09	v4same		Second, the guest needs to be able to anticipate the terms they are acting under, because you cannot negotiate your way through terms that shift under your feet.
+P5.10	v4same	hatherley2025moving[full-text]	Call this predictability, and note that it goes one-sided when the system can forecast the guest ever better while the rules they are subject to change without warning (Hatherley 2025).
+P5.11	v4same		Third, some identifiable party has to be obliged to receive and answer a challenge, because standing is empty if no one must respond.
+P5.12	v4same	bovens2007accountability[full-text|corr]	Call this accountability (Bovens 2007).
+P5.13	v4CHANGED		Read this way, the three are not a borrowed checklist.
+P5.14	v4CHANGED		They are the working requirements of recognition, negotiation, and standing.
+P5.15	v4same		It follows that mediation is not simply "helpful" or "substitutive," on or off.
+P5.16	v4same		Each of the three conditions can be present or absent, and present in degrees, so the pattern across them tells you how much of the hosting relationship survives at a given touchpoint.
+P5.17	v4same		The clearest case of replacement is when all three are gone at once: nothing intelligible, nothing predictable, and no one to answer.
+P5.18	v4same		But that is not the only way hosting fails.
+P5.19	v4same		A guest who understands a system perfectly, and could even predict it, has still been hosted by no one if no party is obliged to answer them.
+P5.20	v4same		Accountability cannot be bought back with the other two.
+P5.21	v4same		So read the conditions as a pattern to be examined, not a line to be crossed.
+P5.22	v4same		This is a different test from the usual one for human-AI teamwork, which asks whether the human-plus-machine pair beats either alone.
+P5.23	v4same	hemmer2025complementarity[abstract]	What stays available to the person the decision is about never enters that calculation (Hemmer et al. 2025).
+P5.24	v4same		This yields a result that sounds backwards at first.
+P5.25	v4same		An opaque algorithm can still help hospitality, if its rules are reasonably steady and an empowered employee can question or override it.
+P5.26	v4same	ananny2018seeing[full-text]; vaccaro2020contesting[full-text]	A perfectly transparent algorithm can still replace hospitality, if no one is obliged to answer for it and no one has the power to change it (Ananny and Crawford 2018; Vaccaro et al. 2020).
+P5.27	v4same		Transparency is worth having.
+P5.28	v4same		But transparency alone cannot make a welcome, because it can satisfy common understanding while leaving accountability untouched.
+P5.29	v4same		You can run this test at any touchpoint with six plain questions.
+P5.30	v4same		What rule or actor determined this outcome?
+P5.31	v4same		Could the guest have anticipated it, and are they told when it changes?
+P5.32	v4same		Who can see how it was made?
+P5.33	v4same		Who can override it?
+P5.34	v4same		Who must answer if it is disputed?
+P5.35	v4same		And what does refusing the system cost the guest?
+P5.36	v4same		The first question is deliberately about locating the decision rather than reading its content, because the first thing to find out is whether it can be pinned on anyone at all.
+P5.37	v4same		Table 1 lays out the questions and what each one reveals; together they cover all three conditions, predictability as well as common understanding and accountability.
+P5.38	v4same		Two examples show the questions at work.
+P5.39	v4same		Hotel pricing is the clearest case of one-sided predictability.
+P5.40	v4CHANGED	garcia2026strategic[full-text]	A recent study of algorithmic pricing found that the pricing architecture skewed its own recommendations because it counted on revenue managers to adjust them, so the rule actually in force was not the rule the staff thought they were using (Garcia et al. 2026).
+P5.41	v4same		That operative rule was not one the guest, or even the staff, could anticipate, and no one at the desk could have explained the price, however willing.
+P5.42	v4CHANGED		The predictability a guest depends on had quietly become one-sided.
+P5.43	v4same		Now the other direction.
+P5.44	v4same	batat2021gastronomy[full-text]; batat2021ar[full-text]	When a restaurant projects an animated chef onto your table while human staff go on hosting the meal, the technology adds delight to an encounter whose rules stay steady and whose staff keep their discretion (Batat 2021).
+P5.45	v4same		The same test that condemns the first case blesses the second.
+P5.46	v4same		The test also explains why we should read findings about "guests accepting automation" with care.
+P5.47	v4same	schmidt2025field[full-text]	Guests may not mind whether a person or a robot hands them directions at an information desk, because little is at stake (Schmidt et al. 2025).
+P5.48	v4CHANGED	garcia2026strategic[full-text]; huanglo2025failure[abstract]; kim2021preference[full-text]	That tells us almost nothing about encounters where the technology decides admission, verifies identity, sets the price, assigns the room, or grants an exception (Garcia et al. 2026; Huang and Lo 2025; Kim et al. 2021).
+P5.49	v4same		The question is not whether guests prefer humans or machines in general.
+P5.50	v4same		It is what authority and what consequences ride on this particular encounter.
+P5.51	v4same		Check-in is the cleanest illustration.
+P5.52	v4same		A system that confirms you are who you say you are does a clerical job faster than a person could.
+P5.53	v4same		A system that weighs your history or your profile to decide how you will be received is doing something entirely different, however similar the two screens look.
+P5.54	v4CHANGED	xu2020facial[abstract|corr]; boochua2022facial[abstract]	Guests seem to feel the difference: their willingness to accept face-recognition at the hotel door is routinely modeled as a trade-off between privacy and benefit, and you only make that calculation when more than convenience is on the line (Xu et al. 2020; Boo and Chua 2022).
+P5.55	v4same		The six questions bite hard on the system that scores the guest, and barely at all on the one that merely confirms them.
+P6.01	v4same		Guests and employees are not sitting ducks.
+P6.02	v4same	eslami2016folk[full-text]; devito2017folk[abstract|corr]; ytrearnemoe2021folk[full-text]; jhaver2018anxiety[abstract]	Through repeated encounters they build working theories of how a system behaves (Eslami et al. 2016; DeVito et al. 2017; Ytre-Arne and Moe 2021; Jhaver et al. 2018).
+P6.03	v4same	cotter2019visibility[abstract]	They learn which requests tend to land, how a preference has to be phrased, and how to tell when the rules have shifted (Cotter 2019).
+P6.04	v4same		We can group these skills into three: reading what the system is doing, stating a wish in terms the system can act on, and adapting when the categories change.
+P6.05	v4same		Hospitality workers often supply these skills on the guest's behalf.
+P6.06	v4CHANGED	Vos2023[NOBIB]	An experienced employee notices that a guest's ordinary way of describing a need does not match any box the system offers (De Vos et al. 2023).
+P6.07	v4CHANGED		So the employee rewrites the request into terms the system will accept.
+P6.08	v4same		In doing so, the employee lends the guest that ability to make the request legible.
+P6.09	v4same		This is a growing and easily missed form of hospitality work.
+P6.10	v4same		It is also fragile, for two reasons.
+P6.11	v4same	hatherley2025moving[full-text]	First, the skill the employee lends is a moving target: when a system quietly revises its rules or categories, the hard-won knowledge depreciates overnight, and no one tells the employee or the guest it has happened (Hatherley 2025).
+P6.12	v4same		Second, the lending only works if the employee is still standing at the point where the guest's request meets the system.
+P6.13	v4same		Design the employee out of that spot and you automate a task and, at the same stroke, remove the person who was quietly translating.
+P6.14	v4same		But there is a ceiling on what skill can do, and it is the hinge of the paper.
+P6.15	v4same		Skill cannot conjure a counterparty.
+P6.16	v4CHANGED	lin2025oscillation[full-text]	A guest can understand a pricing system perfectly and still have no say in what it decides (Lin 2025).
+P6.17	v4same	vaccaro2020contesting[full-text]; are2025appeals[full-text]	Knowing how to file an appeal is not the same as having a right to an answer (Vaccaro et al. 2020; Are 2025).
+P6.18	v4same		This matters because some approaches to "algorithmic competence" quietly treat the ability to appeal as if it were itself a personal skill.
+P6.19	v4CHANGED		The first validated scale of algorithmic competency shows the trap, precisely because it is careful and well built.
+P6.20	v4CHANGED	zhou2025competency[full-text]	Developed with platform workers, it measures understanding, embracing, leveraging, and remediating algorithmic management, and its remediating part includes gathering evidence in order to appeal (Zhou et al. 2025).
+P6.21	v4CHANGED		It is perfectly reasonable for a measure of worker competence to capture the worker's ability to launch an appeal.
+P6.22	v4CHANGED		The point is that there is something it is not built to capture, and could not: whether anyone is obliged to consider the appeal.
+P6.23	v4same		That obligation, where it exists, belongs to the institution, not to any skill of the worker.
+P6.24	v4same		Filing an appeal is an action you can learn to perform.
+P6.25	v4same		Being heard and answered depends on an institution agreeing to recognize it.
+P6.26	v4CHANGED		Appealing is an act; being answerable to the appeal is an institutional relation.
+P6.27	v4CHANGED		The distinction can be put in five words: competence is learned, standing is conferred.
+P6.28	v4same		And it reaches well past hospitality, into algorithmic literacy, digital inclusion, procedural justice, AI governance, employee voice, and consumer vulnerability, because in every one of those fields there is a temptation to lodge in the individual a capacity that in fact depends on institutional recognition.
+P6.29	v4same		The same holds for employees.
+P6.30	v4same		Staff can grow more and more expert about the systems they work with while losing authority over the outcomes.
+P6.31	v4CHANGED	cheng2025silence[abstract]; lin2026voice[full-text]; duggan2026tensions[full-text|corr]	In fact, the employees who see most clearly how little pull they have may grow less willing to talk about algorithmic decisions with guests or managers (Cheng et al. 2025; Lin et al. 2026; Duggan et al. 2026).
+P6.32	v4same	jung2019undermining[abstract]; papadopoulos2021violation[full-text]	So algorithmic mediation lands on top of an old problem in hospitality work: employee silence (Jung and Yoon 2019; Papadopoulos et al. 2021).
+P6.33	v4same		More technical competence does not automatically buy more voice.
+P6.34	v4same		Whether these two silences feed each other is, for now, an open question.
+P6.35	v4same		You would expect a workforce already inclined to keep quiet to react to algorithmic direction differently from one with a strong tradition of speaking up, but no one has tested that interaction.
+P6.36	v4CHANGED	lin2026voice[full-text]; zientara2023unpicking[abstract]	The closest study looks at individual disposition rather than the climate of the workplace (Lin et al. 2026), and hospitality's own voice research finds that workers in the sector often prefer to leave quietly rather than speak up (Zientara et al. 2023).
+P6.37	v4same		This is one of the clearer openings for empirical work that the framework points to.
+P7.01	v4same		Now the design lesson, which starts from a real disagreement in the field: should guests even see the technology?
+P7.02	v4same	Rosa2019[NOBIB]	One study of luxury production found customers so uneasy about technology that it advised keeping its use hidden, to protect the sense of authenticity (Mosca and La Rosa 2019).
+P7.03	v4CHANGED	mosca2025phygital[full-text|corr]; mosca2026ai[full-text]; Vos2026[NOBIB]	More recent work backs transparency and human oversight for high-stakes systems (Mosca 2026), and employees tend to resist technology when its purpose is hidden from them (De Vos et al. 2026).
+P7.04	v4same		Concealment answers the unease by making the system harder to see, while leaving the unease exactly where it was.
+P7.05	v4same		We take the opposite line, and we organize it around a split the argument has already prepared: some conditions can be delivered at the interface, and some can only be built into the institution.
+P7.06	v4same		Three principles live at the interface, and design, communication, and training can largely handle them.
+P7.07	v4same	edwardsveale2017slave[full-text]; pigac2026transparency[full-text|corr]	First, explain a decision where it lands (Edwards and Veale 2017; Pigac et al. 2026): a guest hit by an automated decision should not have to dig through a distant policy to learn why.
+P7.08	v4CHANGED	morosan2016[abstract|corr]; lv2024autonomy[abstract|corr]; yeung2017hypernudge[full-text]	Second, let guests adjust the settings that matter without walking away from the relationship (Morosan and DeFranco 2016; Lv et al. 2024); if the system has misread a preference, give them a way to correct it (Yeung 2017).
+P7.09	v4same	hatherley2025moving[full-text]	Third, make significant rule changes visible, because when rules move in silence the knowledge guests and staff have built becomes a moving target (Hatherley 2025).
+P7.10	v4same		These three improve the interaction.
+P7.11	v4same		None of them decides who is answerable within it.
+P7.12	v4same		The other two principles are about standing, and no amount of individual skill can supply them.
+P7.13	v4same	yurrita2023disentangling[full-text]; lee2019procedural[abstract]	The fourth: a person must stay reachable who can actually reverse or revise the decision (Yurrita et al. 2023; Lee et al. 2019).
+P7.14	v4same		Keeping a human in the loop is not enough.
+P7.15	v4CHANGED	fink2025oversight[full-text]; sterz2024effectiveness[full-text]; lisun2025accessibility[abstract]	An employee who can listen with great sympathy but cannot change anything becomes a place to deposit frustration, not a source of accountability (Fink 2025; Sterz et al. 2024; Li and Sun 2025).
+P7.16	v4same		Preserving a human face may matter less than preserving human authority.
+P7.17	v4CHANGED	Choi2024[NOBIB]; belanche2020[full-text]	Strikingly, when an outcome goes against them, people sometimes judge an algorithmic decider to be fairer than a human one (Choi and Chao 2024), and guests attribute responsibility differently to a robot than to a frontline employee after a service failure or success (Belanche et al. 2020).
+P7.18	v4same		What guests seem to need is not a human presence as such, but someone with the power to change the answer.
+P7.19	v4same		The fifth principle: guests must keep a real alternative.
+P7.20	v4CHANGED	xu2020facial[abstract|corr]; boochua2022facial[abstract]	An option that exists on paper but carries a heavy penalty, in money, effort, or embarrassment, is not a real alternative (Xu et al. 2020; Boo and Chua 2022).
+P7.21	v4same		The penalty is easy to overlook because it is usually paid in effort, not cash.
+P7.22	v4CHANGED	kim2025shadow[abstract]	When self-service is "optional" but the staffed line means a longer wait, a service charge, or the feeling of being a nuisance, guests describe the digital route as work assigned to them, not service given to them (Kim et al. 2025).
+P7.23	v4same		A guest who turns down the automated path is exercising a preference the company claims to honor.
+P7.24	v4CHANGED		She should not be treated as a problem to manage.
+P7.25	v4same		The split between these two sets is itself one of our claims, because it explains why so many "human-centered AI" fixes disappoint.
+P7.26	v4same		The first three are interface conditions.
+P7.27	v4CHANGED	martinwaldman2022legitimate[full-text]; alfrink2023contestable[full-text|corr]; hirsbrunner2025contestation[full-text|corr]	The last two are, in effect, constitutional conditions: they decide who holds authority in the relationship and who must answer within it (Martin and Waldman 2022; Alfrink et al. 2023; Hirsbrunner et al. 2025).
+P7.28	v4same		A hotel that responds to a contestability problem by offering guests more education has misdiagnosed itself.
+P7.29	v4same		Some problems ask people to become more capable.
+P7.30	v4same	yurrita2025needs[full-text]	Others ask institutions to become more answerable (Yurrita et al. 2025).
+P7.31	v4same		This is also where the field's favorite word, seamlessness, needs a second look.
+P7.32	v4same	batathammedi2023ert[full-text]; batat2024phcx[full-text]; batat2024paradigm[abstract|corr]; mameli2026framework[full-text|corr]	Smoothness has become a central goal in accounts of phygital hospitality (Batat and Hammedi 2023; Batat 2024; Mameli et al. 2026): good technology strips out queues, repetition, uncertainty, and wasted effort so the guest glides through the journey.
+P7.33	v4same		Those gains are real, and the field is far from uncritical of its tools.
+P7.34	v4CHANGED	weaver2025fast[abstract]; shabnam2026tpsr[full-text]	Recent work examines technology-driven acceleration in hospitality (Weaver 2025), and the field's own research agendas fault the opacity and rigidity of algorithmic systems (Shabnam et al. 2026).
+P7.35	v4CHANGED		But smoothness itself has stayed a goal rather than a suspect.
+P7.36	v4CHANGED	batathammedi2023ert[full-text]; batat2024phcx[full-text]; batat2024paradigm[abstract|corr]; mameli2026framework[full-text|corr]	Extended-reality frameworks describe their purpose as a "continuum in terms of customer value from physical to digital settings and vice versa" (Batat and Hammedi 2023); the founding framework of phygital customer experience aims to "fluidify" the journey between online and offline (Batat 2024); and the most recent integrative framework for phygital tourism, built from 57 studies and 84 industry cases, contains no discussion of friction at all (Mameli et al. 2026).
+P7.37	v4CHANGED		Our claim here is narrow: this one design value has slipped past the criticism aimed at everything around it.
+P7.38	v4same		It deserves the scrutiny because it bears directly on standing.
+P7.39	v4same		Negotiation needs a moment in which negotiation can happen.
+P7.40	v4same	starruhleder1996infrastructure[abstract]; bowkerstar1999sorting[metadata]	A system built never to interrupt the guest can become a system the guest cannot interrupt (Star and Ruhleder 1996; Bowker and Star 1999); a decision built to pass unnoticed can become hard to question precisely because the guest never meets a moment where it could be challenged.
+P7.41	v4same		Frictionless design can remove not only annoyance but also the occasion for a claim.
+P7.42	v4same		The chain is short, and it runs through everything above: a pause creates a chance for recognition; recognition can expose a mismatch; a mismatch can produce a claim; a claim needs someone able to answer it; and so total smoothness can erase the very moment at which hospitality becomes negotiable.
+P7.43	v4CHANGED		Friction, on this reading, is not a good in itself.
+P7.44	v4CHANGED		It is the moment in time at which standing can be exercised.
+P7.45	v4CHANGED		Put that way, the argument sounds like a defense of inefficiency, and it is worth saying plainly that it is not.
+P7.46	v4CHANGED		The opposite of frictionless hospitality is not friction-filled hospitality.
+P7.47	v4CHANGED		It is interruptible hospitality.
+P7.48	v4CHANGED		The goal is not friction but interruptibility: a point at which the guest can stop the process, ask, redirect, or be handled as an exception, and a counterparty there to catch the interruption.
+P7.49	v4same		Pointless friction, the queue that helps no one, the repetition the system could have spared, should go.
+P7.50	v4same		What must stay is the interruptible moment, and it links straight back to the six questions and to the counterparty: an interruption only means something if someone with authority is placed to answer it.
+P7.51	v4CHANGED	lind1990voice[full-text]; goodwin1992consumer[abstract]; folger1977voice[abstract|corr]	The value of speaking up does not rest entirely on whether the guest gets their way (Lind et al. 1990; Goodwin and Ross 1992; Folger 1977).
+P7.52	v4CHANGED		It also rests on whether there is a point in the relationship where speaking, questioning, declining, or asking for an exception is even possible.
+P7.53	v4same		This matters most for guests whose circumstances fall outside the boxes the system expects.
+P7.54	v4same	nguyen2024stereotypes[full-text|corr]	Research on cultural expectations shows guests are, in effect, scripted before they arrive: service is tuned to assumptions about what a guest of a given nationality, profile, or history will want, and when the guess misses, a person on the spot has traditionally caught the mismatch and improvised around it (Nguyen et al. 2024).
+P7.55	v4same		Algorithmic personalization industrializes the scripting and removes the improviser.
+P7.56	v4same	costanzachock2020design[abstract]	A guest may not fit because of their body, their documents, their language, or simply their circumstances that day, and they then meet a system with no surface on which the misfit can be negotiated (Costanza-Chock 2020).
+P7.57	v4same		They lose the pause at the desk where an experienced employee might once have seen that the standard rule did not fit, and made an exception.
+P7.58	v4CHANGED	andreev2025destination[abstract]; gao2026hostessing[abstract]; gaothebault2026townie[abstract]	These worries grow as evidence shows that AI travel systems can reproduce bias and struggle with relational, contextual, and highly local knowledge (Andreev et al. 2025; Gao and Thebault-Spieker 2026).
+P7.59	v4same		In hospitality that knowledge is not a nice-to-have.
+P7.60	v4same		It is often exactly what lets a host see when the ordinary rule should not be applied in the ordinary way.
+P7.61	v4same		The obvious remedies deserve suspicion too, because the most natural ones deepen the mediation instead of easing it.
+P7.62	v4CHANGED	cui2020reducing[abstract]	When platform reviews were shown to reduce discrimination against guests, the lesson drawn was to expand the role of reputation records (Cui et al. 2020).
+P7.63	v4same		That fix works through the very instrument that caused the harm.
+P7.64	v4CHANGED	filippas2022inflation[abstract]	It shifts the disadvantage onto the guest with no record, the first-timer, the one who paid cash, the one who built their history on another platform, and reputation records carry their own well-documented distortions, including inflation over time (Filippas et al. 2022).
+P7.65	v4same		A remedy that needs the guest to have been legible all along is no use to the guest whose problem is that the system cannot read them.
+P7.66	v4same		So the aim of phygital hospitality should not be to wipe out friction.
+P7.67	v4CHANGED	chalmers2004seamful[full-text]; ehsan2024seamfulxai[full-text]; padigar2024friction[full-text|corr]; phillips2024physical[full-text]	It should be to remove the pointless kind while keeping the moments where recognition, negotiation, and exception stay possible (Chalmers and Galani 2004; Ehsan et al. 2024; Padigar et al. 2024; Phillips et al. 2024).
+P7.68	v4same		For practitioners, these principles line up as a roadmap of rising commitment.
+P7.69	v4same		A property can start by auditing its phygital touchpoints and naming the decisions taking place inside them.
+P7.70	v4same		It can then specify what guests and employees are able to understand, adjust, and challenge, and design the capabilities that support interpretation, specification, and adaptation.
+P7.71	v4CHANGED	bovens2007accountability[full-text|corr]; fink2025oversight[full-text]	The harder stages are institutional, not interactional: constituting a forum that is required to answer challenges and making sure someone in that forum has real authority to act, and preserving a meaningful alternative for those who decline the automated route (Bovens 2007; Fink 2025).
+P7.72	v4same		Each stage costs more, because responsibility cannot be automated as easily as service can.
+P7.73	v4same		A property that stops after prettier interfaces and better-trained staff may have automated its hospitality without ever deciding who answers for it.
+P7.74	v4CHANGED		The verb in the fourth stage is chosen with care: to constitute a forum is not to bolt on another service channel.
+P7.75	v4same		It is to build an institutional place where a claim can be made, someone is obliged to receive it, reasons can be asked for, authority exists to change an outcome, and responsibility is recorded.
+P7.76	v4same		That, in organizational form, is where the guest's standing is either honored or lost.
+P7.77	v4same		Table 2 sums up the roadmap.
+P8.01	v4same		The paper makes three contributions.
+P8.02	v4same		First, it moves AI from a neutral service tool to a constitutive mediator of the hospitality relationship.
+P8.03	v4CHANGED	mosca2025phygital[full-text|corr]; mosca2026ai[full-text]; casalegno2020circular[full-text]	Technology does not merely make an existing relationship faster; by redistributing knowledge, discretion, and authority, it can change the relationship itself (Mosca et al. 2025; Casalegno et al. 2020).
+P8.04	v4same		So, the question is not only what AI does within hospitality, but what kind of hospitality becomes possible once AI is in the room.
+P8.05	v4CHANGED		Human-centricity, on this reading, is about what the arrangement protects or withholds, guest agency, employee discretion, relational judgment, and keeping humans visible in the encounter is neither necessary nor sufficient for any of the three.
+P8.06	v4same		Second, and just as important, the paper separates competence from standing.
+P8.07	v4CHANGED	zhou2025competency[full-text]; are2025appeals[full-text]	Guests and employees can learn to work an algorithmic system, but individual skill cannot create institutional rights, authority, or responsibility (Zhou et al. 2025; Are 2025).
+P8.08	v4CHANGED		This diagnoses a recurring mistake in work on digital literacy and algorithmic competence, lodging in the individual a capacity that in fact depends on institutional recognition, and it travels well beyond hospitality.
+P8.09	v4same		Third, the paper offers a checkable way to tell mediation that helps from mediation that replaces.
+P8.10	v4same	okhuysenbechky2009[full-text]; bovens2007accountability[full-text|corr]	Common understanding, predictability, and accountability, drawn here from the requirements of recognition, negotiation, and standing, give a way to examine what stays available to guests and staff at a given touchpoint, and the six questions turn that examination into something a manager or a researcher can actually do (Okhuysen and Bechky 2009; Bovens 2007).
+P8.11	v4same		This pulls the analysis away from sweeping arguments about whether automation is good or bad and toward the specific institutional arrangements through which it runs.
+P8.12	v4same		These distinctions touch well-being, though the link is best offered as a direction for research rather than a finished theory.
+P8.13	v4CHANGED	anderson2015transformative[abstract|corr]; batat2022tlr[full-text]; batat2022hospsociety[abstract]; Vos2024[NOBIB]; christou2020tourists[abstract]; pan2025dark[metadata]; parkinson2022online[abstract]	Transformative research already asks how service ecosystems shape individual and collective well-being across economic, cognitive, emotional, and social lines (Anderson and Ostrom 2015; Batat 2022), and work on digitally mediated services suggests the outcomes sit on a range, since the same mediation can enchant, disenchant, or re-enchant depending on the surrounding arrangements (De Vos et al. 2024; Christou et al. 2020; Pan et al. 2025; Parkinson et al. 2022).
+P8.14	v4same	moganadas2026wellbeing[full-text]; park2026lobbies[abstract]	The two levels have rarely been studied together where automation is concerned: a recent systematic review of digital transformation and employee well-being treats algorithmic systems entirely at the individual level (Moganadas et al. 2026), while research linking hospitality design to community well-being does so through physical space rather than technology (Park et al. 2026).
+P8.15	v4CHANGED		Our framework suggests one mechanism that might join them, the same withholdings that shrink one guest's standing may, in aggregate, shape what a community can expect from its hospitable institutions, but establishing that is a job for future work, not a claim we have earned here.
+P8.16	v4same		None of this is a case against the technology.
+P8.17	v4same		Phygital arrangements deliver real gains in responsiveness, and in how much a small team can offer a large number of guests.
+P8.18	v4same		The framework's job is to help organizations keep those gains without quietly giving up the relationship that makes them worth having.
+P8.19	v4same		This is a conceptual paper, and its limits follow.
+P8.20	v4same		Its examples illustrate the distinctions rather than test them, and every relationship we propose between the design conditions and guest or employee outcomes still awaits evidence.
+P8.21	v4same		Three studies would move things along.
+P8.22	v4CHANGED		The first would ask hospitality guests directly about the working theories they hold of the systems that recognize and route them, since we know of no such study.
+P8.23	v4same	zhou2025competency[full-text]	The second would operationalize the three competences from Section 6 and see how they relate to the validated competency scale now available (Zhou et al. 2025).
+P8.24	v4same		The third would test whether contestability provisions change how guests experience fairness in a commercial hospitality setting, since the evidence so far comes almost entirely from public-sector and platform contexts.
+P9.01	v4same		Guest-centered phygital hospitality does not depend on making technology invisible, and good hospitality does not require every encounter to stay human.
+P9.02	v4same		The question that matters is whether guests and employees keep real agency over how the technology takes part in the relationship.
+P9.03	v4same		Better interfaces, clearer explanations, and stronger algorithmic skill can support that agency.
+P9.04	v4same		They cannot supply all of it, because they can raise a guest's competence without restoring their standing.
+P9.05	v4same		Some of that agency has to be built into the institution itself.
+P9.06	v4same		Guests need a moment where a decision can be questioned.
+P9.07	v4same		Employees need enough authority to respond.
+P9.08	v4CHANGED		Organizations need to accept responsibility for the rules their automated systems apply.
+P9.09	v4same		Hospitality, then, asks for more than a technically smooth exchange between a guest and a system.
+P9.10	v4same		It asks for someone who can recognize a claim, answer it, and, when the moment calls for it, make an exception.
+P9.11	v4same		So, the real question for phygital hospitality is not whether technology can perform the jobs a host used to perform.
+P9.12	v4same		Increasingly, it plainly can.
+P9.13	v4same		The harder question is where, in an arrangement that has scattered those jobs across guest, employee, vendor, and platform, the obligation of hosting still has an address.
+P9.14	v4same		When the jobs move but the obligation is left without one, hospitality is not lost because a machine replaced a person.
+P9.15	v4same		It is lost because the guest has been left with no one to answer them.
+P9.16	v4same		However smart, however personalized, however seamless the technology becomes, somebody still owes the guest a welcome.

@@ -37,3 +37,14 @@ Editorial positioning AI as general-purpose strategic infrastructure. Argues tha
 ## Where it enters the manuscript
 
 Not yet in the manuscript. Enters section 6 paragraph 1 as the answer to moscalarosa2019, and section 5 paragraph 2 for the interpretation component.
+
+#### correction 2026-11-13 (v8 stage 2 reader)
+
+Re-read in full from `sources/mosca2026ai/fup.pdf` (printed pp. 3–7). Four points where the card and the text differ.
+
+1. **Year.** The card's frontmatter gives `year: 2026`. The PDF prints 2025: "Citation: Mosca, F. (2025)", "Published: December 20, 2025" and the footer "Journal of Emerging Perspectives 2: 3-7, 2025" (p. 3). The essay's reference list cites an item dated 14 January 2026, after that publication date, so Crossref should settle which year the citation takes. `references.bib` also has 2026; it was not edited.
+2. **"Explicit endorsement" of the EU AI Act.** The card's summary says the essay explicitly endorses "the EU AI Act's transparency and human-oversight provisions for high-risk systems". The body never names the AI Act, which appears only in the reference list (p. 7). It reports the EU obligations as a complication for firms: "Such frameworks are imposing tough new obligations: transparency, accountability, and stringent human oversight, especially for high-risk systems. For global firms, this is where strategy gets complicated." (p. 6). Earlier it says the EU's "regulatory focus raises uncomfortable questions about its ability to scale industrially" (p. 5). Mosca does favour human oversight, but as a condition of value: "AI systems tend to deliver the greatest benefits when integrated into end-to-end processes with clear human oversight, feedback loops, and accountability mechanisms." (p. 4). The `references.bib` note ("Names transparency and human oversight as the governance answer") carries the same overstatement.
+3. **Quotation.** The card quotes "interpretation and validation", but that phrase is not in the text. The text reads: "Strategic work shifts from information generation to framing, validation, and interpretation." (p. 4).
+4. **"Governance requirements."** The card's summary calls AI literacy, model governance and ethical oversight "the governance requirements". The text presents them as managerial competencies: "Managers must therefore develop new competencies in AI literacy, model governance, and ethical oversight." (p. 5).
+
+The card's "brutally uneven" (p. 6) and "general-purpose strategic infrastructure" (p. 3) match the text.
