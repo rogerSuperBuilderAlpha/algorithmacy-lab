@@ -127,3 +127,10 @@ A conceptual macromarketing article that gives phygital a second dimension. Bert
 - That its propositions are tested. The work is "purely conceptual" (p. 417).
 
 Card drafted by a Claude (Opus 5.5) subagent from the version of record read in full, 13 Nov 2026; run v8-2026-11-stage2. Quotations machine-checked against the article text the same day; not yet checked by a second reader.
+
+#### correction 2026-11-13 (lead, after independent verification)
+Verified by an independent reader (`manuscript/v8_2026-11/stage2/VERIFY_stage2_cards.md`): every quotation verbatim; 0 unsupported; 3 partly supported. Corrections the lead accepts:
+- The recommendations address consumers as well as firms and policymakers (pp. 416–417, 420); the 'may say' sentence must name all three.
+- The six propositions are stated per dimension (P1–P3 solution type, P4–P6 acquisition mode; Table 3, p. 414), not per cell.
+- The article prizes low friction at entry as well as at exit (pp. 416–417).
+- Omitted: the ride-sharing passage (p. 417) asks that platforms such as ride-sharing services adopt minimum standards; even there nothing is divided among several firms.

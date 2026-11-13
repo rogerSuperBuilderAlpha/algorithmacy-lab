@@ -60,3 +60,6 @@ Peripheral to the v8 thesis. Because the call for papers names it as the source 
 - Not to be said: that this editorial defines or develops phygital service research. Cite batat2026psr for that.
 
 Upgraded from abstract to full text on 13 Nov 2026 (v8 stage 2) by a reading agent, which rewrote the body. The 2026-08-11 P9 correction had already set the status to held. Following the v8 brief, the role changed from evidence to framing and used_by_sections was cleared.
+
+#### correction 2026-11-13 (lead, after independent verification)
+Verified by an independent reader (`manuscript/v8_2026-11/stage2/VERIFY_stage2_cards.md`): every quotation verbatim at its page; no claim unsupported. Two fixes: the call for papers' reference entry for this editorial is on its p. 4, not p. 2; and the editorial uses 'seamless' a third time, on p. 360 ('integration of digital and physical spaces'), besides the two p. 357 uses the card lists.

@@ -79,3 +79,9 @@ PHIVE fixes where the paper's seamlessness claim can stand. The editor's newest 
 - "Batat's own synthesis records AI concierge tools 'enhancing digital planning but failing in physical execution', and lists 'Service failures, unmet expectations, erosion of luxury value, trust breakdown' among the ugly effects (Batat 2026 [phive]: 5, Table 1, summarizing Klaus 2025)." Cite Klaus 2025 directly only after reading it.
 
 Upgraded from metadata to full text on 13 Nov 2026 (v8 stage 2) by a reading agent, which rewrote the body. The abstract-only-debt flag is cleared; must-engage stays because the article is the lead editor's newest framework and narrows `seamlessness-uncritiqued`. Following the v8 brief, used_by_sections was cleared. The earlier entry plan (section 3 paragraph 4 and section 7 paragraph 1 of v7) is superseded by the v8 structure.
+
+#### correction 2026-11-13 (lead, after independent verification)
+Verified by an independent reader (`manuscript/v8_2026-11/stage2/VERIFY_stage2_cards.md`): every quotation verbatim; 0 unsupported; 5 partly supported. Corrections the lead accepts:
+- Discontinuity is the harm of the Air quadrant only; the Earthquake quadrant's harm is techno-centric, low-alignment design (pp. 7–9). Do not write that PHIVE treats discontinuity as 'the' harm.
+- The matrix addresses 'firms'' (plural, p. 7), not one firm's tools; its unit of analysis is 'Lived experience across blended environments' (Table 2, p. 8). Nothing in it divides a duty among several firms.
+- Table 1's Klaus entry records 'misalignment between AI plan and physical service' (p. 5); it does not say the physical service belongs to another party.

@@ -73,3 +73,9 @@ This is the text the v8 gap statement must survive, and the best editors'-own gr
 - "Even the framework that puts human-first experience 'not efficiency or channel optimization' at its centre (Batat 2026 [hfpv]: 273) counts 'designing seamless, coherent, and emotionally resonant transitions' among the processes that create value (275)."
 
 New card, 13 Nov 2026 (v8 stage 2), written by a reading agent from the full text.
+
+#### correction 2026-11-13 (lead, after independent verification)
+Verified by an independent reader (`manuscript/v8_2026-11/stage2/VERIFY_stage2_cards.md`): every quotation verbatim; 0 unsupported; 5 partly supported. Corrections the lead accepts:
+- The Chief Phygital Officer is not confined to one enterprise. HFPV gives the CPO an ecosystem role: the CPO 'orchestrates interdependencies among physical environments, digital platforms, human experience, and societal impact' (p. 271) and 'plays a critical stewardship role, overseeing ethical AI, data governance, and algorithmic accountability' (p. 275). So 'algorithmic accountability' does have an overseer (the CPO); what HFPV never names is to whom the account is rendered.
+- The feedback loops are aggregate but not only prospective: they 'allow systems to respond to lived experience in real time' (p. 275). The defensible point is narrower: the loops act on the system through aggregate signals; none is a route by which a failure in one guest's case reaches someone able to correct it.
+- Safer wording for the paper: 'HFPV charges a Chief Phygital Officer with "ensuring coherence within the phygital enterprise" (271) and with overseeing "algorithmic accountability" (275), and does not say to whom that account is owed or which of several firms' officers answers.'
