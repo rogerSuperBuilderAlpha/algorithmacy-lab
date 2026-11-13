@@ -41,7 +41,7 @@ def main():
     # The body starts at '## 1.' in a numbered draft and at '## Introduction' in an unnumbered
     # one (DRAFT_v6.md, whose headings follow the journal). Added 11 Nov 2026; until then an
     # unnumbered draft crashed here.
-    start = re.search(r"^## (?:1\.|Introduction\s*$)", s, re.M)
+    start = re.search(r"^## (?:1\.|Introduction\s*$)", s, re.M | re.I)  # capitals allowed (v8, 13 Nov 2026)
     if start is None:
         print("ABORT: no body found. Expected a '## 1.' or '## Introduction' heading.")
         return 1

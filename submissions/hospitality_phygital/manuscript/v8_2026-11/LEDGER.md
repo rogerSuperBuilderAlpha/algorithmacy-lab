@@ -412,7 +412,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ Pierre P4.03, verbatim (the August audit merged it with P4.02 without a factual change; his form stands).
 
 #### O-036 · answers GM.029 · [C]
-> Batat's latest work treats AI 'not as a functional tool but as an "experiential agent"' (2026c: 17).
+> Batat's latest work treats AI 'not as a functional tool but as an "experiential agent"' (2026: 17).
 
 - **Form** ✅ 16w against GM.029's ~39 (−59%) ⚠️ under; GM.029 is a trend sentence, and here the trend is one finding, quoted. Departure recorded.
 - **Construction** ✅ Scholar as subject (rule 2).
@@ -600,7 +600,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ v7 S-028.
 
 #### O-051 · answers GM.044 · [C]
-> Kevin O'Gorman's history of ancient hospitality records the host's duties to receive the guest, to protect him and, if need be, to represent him in court (2005: 144–145), though in Rome he finds these duties named only for private hospitality, not for the innkeeper (2007a: 45).
+> Kevin O'Gorman's history of ancient hospitality records the host's duties to receive the guest, to protect him and, if need be, to represent him in court (2005: 144–145), though in Rome he finds these duties named only for private hospitality, not for the innkeeper (2007: 45).
 
 - **Form** ✅ ~48w against GM.044's ~34 (+41%) ⚠️ just over; the qualification v7's audit required keeps the origin honest. Departure recorded.
 - **Construction** ✅ Full name at first mention (model); the qualification in a *though* clause.
@@ -680,7 +680,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ⚠️ Pierre P2.33, adapted (source): his first clause, 'It has long insisted that value is created with the guest, and', dropped, because batat2019experiential is held at chapter-list depth and the list names 'empathy capital', 'emotional touchpoints' and 'the emic and etic process', which carry the rest, but not co-creation.
 
 #### O-054b · answers — (Pierre) · [PB] P2.34
-> Hospitality theory adds one observation: these are also the fingerprints of a relationship in which one party holds obligations toward the other, and that becomes urgent the moment the party doing the recognizing is no longer a person.
+> Hospitality theory adds one observation: these are also the fingerprints of a relationship in which one party holds obligations towards the other, and that becomes urgent the moment the party doing the recognizing is no longer a person.
 
 - **Form** ✅ 38w.
 - **Construction** ✅ 'these' refers to O-054a.2's three terms; 'that' to the observation.
@@ -712,7 +712,7 @@ Verdict axes (skill): **Form** (does it perform the counterpart's move, within �
 - **Truth** ✅ v7 S-042 (Lashley 2015: 5), S-043 (Slattery 2002: 21).
 
 #### O-057 · answers GM.051 · [PB-a] P1.21
-> Service research has quietly handed the host's role to the employee (Odekerken-Schröder et al. 2021).
+> Service research has quietly handed the host's role to the employee (Odekerken-Schröder et al. 2022).
 
 - **Form** ✅ 15w against GM.051's ~29.
 - **Construction** ✅ Claim first, source trailing, as GM.051.
@@ -2155,7 +2155,7 @@ O-197 (the law's knowledge doctrines and Hormio) is not written: length (V8-D10)
 - **Truth** ✅ v7 S-144 (Fox, after Schedler).
 
 #### O-200 · answers GM.264 · [C]
-> Baum and Laux find that only oversight acting before a decision takes effect can change that decision (2026b: 120–122), and for hospitality we draw the boundary at correction: the route is owed while correction can still help the guest during the stay.
+> Baum and Laux find that only oversight acting before a decision takes effect can change that decision (2026: 120–122), and for hospitality we draw the boundary at correction: the route is owed while correction can still help the guest during the stay.
 
 - **Form** ✅ ~43w against GM.264's ~20 ⚠️ over. Departure recorded.
 - **Construction** ✅ Their finding, then our boundary after the colon.
@@ -2228,7 +2228,9 @@ O-197 (the law's knowledge doctrines and Hormio) is not written: length (V8-D10)
 - **Form** ✅ ~36w against GM.269's ~45. — **Construction** ✅ GM.269's definition by inventory, ending on the crossing offline. — **Register** ✅ Concrete nouns; each drawn from a case in the paper. — **Value** ✅ The touchpoints, named. — **Counterpart** ✅ DEFINE-BY-INVENTORY. — **Truth** ✅ v7 S-003 (kiosk), S-004 (self-check-in), S-157 (the manager's dashboard).
 
 #### O-211 · answers GM.270 · [C]
-> Like the parties and the stay, the touchpoint is where the duty is met or missed.
+> Like the parties and the stay, the touchpoint is where the duty is met or missed (Figure 1).
+
+Correction at assembly (13 Nov): '(Figure 1)' added; the figure follows this paragraph, as v7's followed S-152.
 
 - **Form** ✅ 15w against GM.270's 19. — **Construction** ✅ GM.270's *And like the … I have been discussing, these … also …*. — **Register** ✅ Plain. — **Value** ✅ Link to what came before. — **Counterpart** ✅ LINK-TO-PRIOR. — **Truth** ✅ v7 S-151, S-152.
 
@@ -2403,7 +2405,7 @@ O-241a (repeat performance and the package remedy) is not written: the Consumer 
 - **Form** ✅ 37w. — **Construction** ✅ Citation mid-sentence; the colon delivers the picture. — **Register** ✅ Pierre's. — **Value** ✅ The goal, with its sources. — **Counterpart** ✅ CHARACTERIZE-RESPONSE. — **Truth** ✅ Pierre P7.32, verbatim; the Stage 2 re-read confirms the goal in all three (POSITION_set1: 'continuum' and 'fluidifying' always as a goal in Batat 2024; 'fluid' in Batat and Hammedi 2023: 14, 17; 'seamless integration' in Mameli et al. 2026: 25, with no occurrence of 'friction').
 
 #### O-244 · answers GM.300 · [C]
-> The field is not uncritical: Shabnam et al. question its 'dominant emphasis on efficiency and experience design' (2026: 2), and Batat rates hospitality systems that create 'seamless, efficient, and coherent phygital journeys' as 'good or fair', below what AI can add when it is aligned with human value (2026c: 13, 16).
+> The field is not uncritical: Shabnam et al. question its 'dominant emphasis on efficiency and experience design' (2026: 2), and Batat rates hospitality systems that create 'seamless, efficient, and coherent phygital journeys' as 'good or fair', below what AI can add when it is aligned with human value (2026: 13, 16).
 
 - **Form** ✅ ~55w against GM.300's 16 ⚠️ over; the narrowing the ledger requires (I-43). Departure recorded.
 - **Construction** ✅ Two allies grouped after a colon.
@@ -2606,3 +2608,9 @@ O-241a (repeat performance and the package remedy) is not written: the Consumer 
 > However smart, however personalized, however seamless the technology becomes, somebody still owes the guest a welcome.
 
 - **Form** ✅ 16w. — **Construction** ✅ — **Register** ⚠️ An epigram; the house self-check asks to avoid ending on one, and the model's last sentence is a list. — **Value** ✅ Pierre's close; the restore list names it, and no reviewer objected to it. — **Counterpart** ⚠️ Alternative to O-283. — **Truth** ✅ Pierre P9.16, verbatim. **The authors choose O-283, O-284, or both (O-283 then O-284) at the read-aloud.** The draft assembles both, O-284 last, marked.
+
+---
+
+#### Corrections at assembly (13 Nov 2026)
+Year suffixes follow render_refs.py, which letters only works by the same authors in the same year that are both cited: Batat's PHIVE is her only 2026 work cited in v8 (O-036, O-244: '2026c' → '2026'); Baum and Laux is the only Baum 2026 work cited (O-200: '2026b' → '2026'); O'Gorman's 'Discovering commercial hospitality in ancient Rome' is his only 2007 work cited (O-051: '2007a' → '2007'). Odekerken-Schröder et al. take the version-of-record year the bibliography holds (O-057: 2021 → 2022). O-211 gains '(Figure 1)'.
+O-054b: 'toward' → 'towards', the mechanical British spelling the August pass applied to Pierre's text (not counted as an adaptation).

@@ -20,7 +20,8 @@ import re
 import sys
 from pathlib import Path
 
-BODY_START = re.compile(r"^##\s+(?:1\.\s|Introduction\s*$)")
+# Case-insensitive since 13 Nov 2026: v8 sets main headings in capitals, as the journal typesets them.
+BODY_START = re.compile(r"^##\s+(?:1\.\s|Introduction\s*$)", re.I)
 BODY_END = re.compile(r"^##\s+(?!\d+\.)")
 # Where the body of an unnumbered draft ends: its first back-matter heading.
 BACK_MATTER = re.compile(r"^##\s+(?:Acknowledg|References|Notes|Contributor|Appendix|Funding|"
