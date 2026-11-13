@@ -1,0 +1,6 @@
+<!--
+DRAFTED BY CLAUDE (Opus 5.5), 11 Nov 2026, run rr-2026-11-k. DRAFT v7. Every sentence is Claude's, written to the sentence-by-sentence method against Bulley (2015) as model, from the argument dossier keystone_2026-11/ARGUMENT.md (draft 2) and the claim register keystone_2026-11/claims/. Each sentence and its verdicts: keystone_2026-11/sbs/LEDGER.md (S-001 to S-263, A-1 to A-6). What changed from v6 and why: keystone_2026-11/IMPLICATIONS_FOR_V6.md. DRAFT_v6.md is untouched.
+The title is v6's, kept until the authors decide (OUTLINE_PARAGRAPHS.md). The journal's AI policy permits AI only to enhance readability and language; the submitted text and the AI acknowledgment are the authors' decision.
+Delete this comment before submission.
+-->
+

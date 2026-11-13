@@ -70,3 +70,18 @@ v5 carried these; v6 does not.
   - `preflight.py` on a numbered copy: 20 of 23, the same three artefact failures.
   - Reviewer letter: the 27 quotations introduced by 'Changed in …' all match DRAFT_v6 verbatim; none spans the inserted sentences.
   - `build_index.py --check`: OK, 265 cards.
+
+## Corrections to this record after the reviewer pack (11 Nov 2026)
+
+The simulated reviewer pack (`reviews/2026-11-11/`, `SYNTHESIS.md`) found errors this record did not. I confirmed each against its card. They are recorded here as defects of this verification; v6's prose is unchanged until the authors decide.
+
+- **Debt 2 understated the abstract-only sources.** Of v6's cited keys, 19 rest on abstract- or metadata-depth cards, not four: anderson2015transformative, batat2026psr, bendoly2013realtime, brochado2026phygital, calorosenblat2017taking, cheng2025silence, devos2024disabilities, fuller1991consumers, germannmolz2026, hirschman1970exit (metadata), kim2025shadow, king1995what, li2021systematic, morrison2014voice, riordan2024digitally, starruhleder1996infrastructure, weaver2025fast, xing2026algorithmic and xu2020facial. Separately, mohlmann2021algorithmic is full text but superseded by jianu2025.
+- **Xu et al. (2021)** is cited at lines 18 and 99. Its card is abstract-only and records the source as displaced on 8 Aug 2026, and line 99's 'weighs the guest's history' scenario is not the source's.
+- **Martin and Waldman (2023), line 129**, is misframed. The five-way comparison was not run on adverse decisions; only appeal was tested on bad outcomes, and the appeal went to an internal review board.
+- **Garcia et al. (2026), line 99.** 'No one at the desk could explain the price' is my inference; managers keep the final decision.
+- **Wrong pinpoints.** Morgan (2015: 7–8) gives accepted-manuscript pages and Kaniadakis and Farmaki (2022: 14) gives OnlineFirst pages, not the pages of the versions listed.
+- **De Vos et al. (2024), line 155**, is abstract-only and studies an online MBA, yet it carries a claim about communities.
+- **Ivanov and Webster (2024)**, held in the library, sorts hotel decisions by human involvement. It contradicts line 121's 'no study makes them for hospitality'.
+- **The quotation check above** tested wording, and wording holds: the copyeditor found all quotations exact. It did not test whether each paraphrase or case description matches its source, and that is where these errors sit.
+- **Corrected the same day** (`CORRECTIONS_2026-11-11.md`, D18): every item above, and the other confirmed rows of the pack's source-integrity ledger. After the corrections: ledger and manuscript agree; body 8,775 words; 82 references; citation check and preflight unchanged; letter quotations all match; library OK.
+- **Second round, same day.** Six VERIFY items checked; three corrected (C55–C57) and three confirmed. Body 8,779 words, 81 references; all checks re-run with the same results.

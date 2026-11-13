@@ -12,6 +12,7 @@ bendoly2013realtime
 bialski2012technologies
 blain2014hospitableness
 bogen1996innkeeper
+boochua2022facial
 bosma2022platformed
 bovens2007accountability
 brochado2026phygital
@@ -24,7 +25,6 @@ cheng2025silence
 cobbe2023understanding
 crinkley1988holiday
 darwall2013bipolar
-devos2024disabilities
 didomenico2007host
 eslami2016folk
 eu2024aiact
@@ -36,6 +36,7 @@ germannmolz2026
 golubovskaya2017meaning
 hatherley2025moving
 hirschman1970exit
+ivanov2024automated
 jianu2025
 kaniadakis2022responsibilisation
 kim2025shadow
@@ -53,7 +54,6 @@ lynch2011theorizing
 lyons2021conceptualising
 maese2015rethinking
 martinwaldman2022legitimate
-mohlmann2021algorithmic
 morgan2015liability
 morrison2014voice
 mosca2026ai
@@ -69,7 +69,6 @@ pittrivers2012law
 rahman2021cage
 riordan2024digitally
 sandovalstrausz2005travelers
-scottorlikowski2012accountability
 shabnam2026tpsr
 shryock2012breaking
 slattery2002finding
@@ -90,5 +89,4 @@ woodland2013uksc
 wyman1904law
 xiang2022covid
 xing2026algorithmic
-xu2020facial
 yeung2017hypernudge

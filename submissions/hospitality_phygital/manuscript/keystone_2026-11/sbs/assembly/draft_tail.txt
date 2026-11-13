@@ -1,0 +1,221 @@
+
+## Acknowledgment of the Use of Generative AI and AI-Assisted Technologies in the Writing Process
+
+Throughout the preparation of this work, the authors employed Claude (Anthropic; Fable 5.2 and Opus 5.5) to search for and read sources, check citations and quotations, and draft the revised article and the responses to reviewers. Following the utilization of this tool/service, the authors thoroughly reviewed and edited the content as necessary, assuming full responsibility for the publication's content.
+
+## References
+
+Batat, Wided (2024), 'What does phygital really mean? A conceptual introduction to the phygital customer experience (PH-CX) framework', *Journal of Strategic Marketing*, 32:8, pp. 1220–1243.
+
+Batat, Wided (2026), 'Phygital service research (PSR): Advancing FSR and TSR toward human-first experience design in hybrid physical-digital ecosystems', *Journal of Services Marketing*, 40:4, pp. 505–518.
+
+Baum, Kevin and Laux, Johann (2026b), 'Constitutive vs. corrective: A causal taxonomy of human runtime involvement in AI systems', in *Bridging the Gap Between AI and Reality*, Cham: Springer Nature Switzerland, pp. 115–130.
+
+Baum, Kevin, Kiener, Maximilian, Langer, Markus and Laux, Johann (2026a), *Anticipatory human oversight of agentic AI: A philosophical account*, https://doi.org/10.2139/ssrn.7497218.
+
+Binesh, Nasim and Syah, Ahmad (2026), 'AI ethics in hospitality and tourism: Theoretical perspectives, ethical beliefs, and actionable outcomes', *Frontiers in Artificial Intelligence*, 9, 1913343.
+
+Blackstone, William (1768), *Commentaries on the laws of England*, Oxford: Clarendon Press.
+
+Blain, Matthew and Lashley, Conrad (2014), 'Hospitableness: The new service metaphor? Developing an instrument for measuring hosting', *Research in Hospitality Management*, 4:1–2, pp. 1–8.
+
+Bosma, Jelke R. (2022), 'Platformed professionalization: Labor, assets, and earning a livelihood through Airbnb', *Environment and Planning A: Economy and Space*, 54:4, pp. 595–610.
+
+Bovens, Mark (2007), 'Analysing and assessing accountability: A conceptual framework', *European Law Journal*, 13:4, pp. 447–468.
+
+Brandt, Reuven (2017), 'The transfer and delegation of responsibilities for genetic offspring in gamete provision', *Journal of Applied Philosophy*, 34:5, pp. 665–678.
+
+Bulley, Dan (2015), 'Ethics, power and space: International hospitality beyond Derrida', *Hospitality & Society*, 5:2–3, pp. 185–201.
+
+Cobbe, Jennifer, Veale, Michael and Singh, Jatinder (2023), 'Understanding accountability in algorithmic supply chains', *Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency (FAccT '23)*, pp. 1186–1197.
+
+Dagger, Richard and Lefkowitz, David (2021), 'Political obligation', in Zalta, Edward N. (ed.), *The Stanford Encyclopedia of Philosophy*, Metaphysics Research Lab, Stanford University.
+
+Derrida, Jacques and Dufourmantelle, Anne (2000), *Of hospitality*, Stanford, CA: Stanford University Press.
+
+Dogru, Tarik, Hanks, Lydia, Line, Nathan Discepoli, Mody, Makarand Amrish and Suess, Courtney (2025), 'From service to virtue: How organizations harness hospitality for transformative social change', *International Journal of Contemporary Hospitality Management*, 37:12, pp. 4101–4121.
+
+Fox, Jonathan (2007), 'The uncertain relationship between transparency and accountability', *Development in Practice*, 17:4–5, pp. 663–671.
+
+Garcia, Daniel, Tolvanen, Juha and Wagner, Alexander K. (2026), 'Strategic responses to algorithmic recommendations: Evidence from hotel pricing', *Management Science*, 72:1, pp. 609–626.
+
+Gelbrich, Katja and Roschk, Holger (2011), 'A meta-analysis of organizational complaint handling and customer responses', *Journal of Service Research*, 14:1, pp. 24–43.
+
+Germann Molz, Jennie (2018), 'Discourses of scale in network hospitality: From the Airbnb home to the global imaginary of "belong anywhere"', *Hospitality & Society*, 8:3, pp. 229–251.
+
+Golubovskaya, Maria, Robinson, Richard N.S. and Solnet, David (2017), 'The meaning of hospitality: do employees understand?', *International Journal of Contemporary Hospitality Management*, 29:5, pp. 1282–1304.
+
+Habib, Allen (2022), 'Promises', in Zalta, Edward N. and Nodelman, Uri (eds), *The Stanford Encyclopedia of Philosophy*, Metaphysics Research Lab, Stanford University.
+
+Hemmington, Nigel (2007), 'From service to experience: Understanding and defining the hospitality business', *The Service Industries Journal*, 27:6, pp. 747–755.
+
+Herstein, Ori (2023), 'Legal rights', in Zalta, Edward N. and Nodelman, Uri (eds), *The Stanford Encyclopedia of Philosophy*, Metaphysics Research Lab, Stanford University.
+
+Hindriks, Frank A. (2025), 'The moral failures of collective agents: responsibility voids and control gaps', *Synthese*, 205:4.
+
+Hormio, Säde (2018), *Culpable ignorance in a collective setting*, https://doi.org/10.31235/osf.io/85nbu.
+
+Jeske, Diane (2021), 'Special obligations', in Zalta, Edward N. (ed.), *The Stanford Encyclopedia of Philosophy*, Metaphysics Research Lab, Stanford University.
+
+Jianu, Brana, Ashton, Mark and Lugosi, Peter (2025), 'Integrating algorithmic management in hotels: Emerging challenges and opportunities for frontline managers', *International Journal of Hospitality Management*, 129, 104168.
+
+Kiesewetter, Benjamin (2015), 'Instrumental normativity: In defense of the transmission principle', *Ethics*, 125:4, pp. 921–946.
+
+King, Carol A. (1995), 'What is hospitality?', *International Journal of Hospitality Management*, 14:3–4, pp. 219–234.
+
+Kong, Kennedy Chun Yin (2026), 'The delegation illusion: why deploying autonomous AI agents does not diminish principal responsibility', *AI and Ethics*, 6:5, 518.
+
+Koo, Chulmo and Kwon, Jookyung (2026), 'Three ages of hospitality reflection: Origins, contemporary, and future', *International Journal of Contemporary Hospitality Management*, 38:8, pp. 2471–2486.
+
+Kropf, Mario, Spöck, Christoph and Werner, Roman (2026), 'Blame the robot: Role responsibility and ethical issues regarding AI-based care robots', *International Journal of Social Robotics*, 18:2, 30.
+
+Lashley, Conrad (2015), 'Hospitality and hospitableness', *Research in Hospitality Management*, 5:1, pp. 1–7.
+
+Lee, Wing Han Helen, Chan, Suk Ha Grace, Tang, Binglin Martin and Song, Zhiwen (2025), 'Robot or human? Manoeuvring switching intention after robot service failure', *PLOS One*, 20:11, e0333616.
+
+Lynch, Paul, Germann Molz, Jennie, McIntosh, Alison, Lugosi, Peter and Lashley, Conrad (2011), 'Theorizing hospitality', *Hospitality & Society*, 1:1, pp. 3–24.
+
+Min, Hyounae (Kelly) and Kim, Hyun Jeong (2020), 'Do all angry customers complain?', *ICHRIE Research Reports*, 5:1.
+
+Morrison, Alison and O'Gorman, Kevin (2008), 'Hospitality studies and hospitality management: A symbiotic relationship', *International Journal of Hospitality Management*, 27:2, pp. 214–221.
+
+Moysidou, Gesthimani and Stanley, Phiona (2023), 'Theorizing gender in homestay settings: Mobilities and/as power relations', *Hospitality & Society*, 13:3, pp. 241–263.
+
+O'Gorman, Kevin D. (2005), 'Modern hospitality: Lessons from the past', *Journal of Hospitality and Tourism Management*, 12:2, pp. 141–151.
+
+O'Gorman, Kevin D. (2007a), 'Discovering commercial hospitality in ancient Rome', *Hospitality Review*, 9:2, pp. 44–52.
+
+O'Gorman, Kevin D. (2007b), 'The hospitality phenomenon: Philosophical enlightenment?', *International Journal of Culture, Tourism and Hospitality Research*, 1:3, pp. 189–202.
+
+Petie, Olivia, Phillimore, Jenny and Allsopp, Jennifer (2025), 'Exploring hospitality, hostility and (un)home in hotel accommodation for asylum seekers in the United Kingdom', *Hospitality & Society*, 15:1, pp. 23–44.
+
+Pettit, Philip (2007), 'Responsibility incorporated', *Ethics*, 117:2, pp. 171–201.
+
+Pitt-Rivers, Julian (2012), 'The law of hospitality', *HAU: Journal of Ethnographic Theory*, 2:1, pp. 501–517.
+
+Robinson, Martha and Lynch, Paul (2007), 'The power of hospitality: A sociolinguistic analysis', in Lashley, Conrad, Lynch, Paul and Morrison, Alison (eds), *Hospitality: A Social Lens*, Oxford: Elsevier, pp. 141–154.
+
+Sandoval-Strausz, A. K. (2005), 'Travelers, strangers, and Jim Crow: Law, public accommodations, and civil rights in America', *Law and History Review*, 23:1, pp. 53–94.
+
+Schumacher, Satu and Komppula, Raija (2016), 'A case study on service recovery: Frontline employees' perspectives and the role of empowerment', *European Journal of Tourism, Hospitality and Recreation*, 7:2, pp. 117–127.
+
+Shabnam, Saadia, Roy, Sanjit Kumar, Roten, Yonathan Silvain, Singh, Gaganpreet, Suh, Taewon and Li, Hairong (2026), 'Transformative phygital service research (TPSR): An agenda for future research', *Journal of Services Marketing*, pp. 1–17.
+
+Slattery, Paul (2002), 'Finding the hospitality industry', *The Journal of Hospitality Leisure Sport and Tourism*, 1:1, pp. 19–28.
+
+Spektor, Franchesca, Fox, Sarah E., Awumey, Ezra, Riordan, Christine A., Rho, Hye Jin, Kulkarni, Chinmay, Martinez-Lopez, Marlen, Stringam, Betsy, Begleiter, Ben and Forlizzi, Jodi (2023), 'Designing for wellbeing: Worker-generated ideas on adapting algorithmic management in the hospitality industry', *Proceedings of the 2023 ACM Designing Interactive Systems Conference (DIS '23)*, pp. 623–637.
+
+Treasury Board of Canada Secretariat (2025), *Directive on automated decision-making*, https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592.
+
+United Nations, Office of the High Commissioner for Human Rights (2011), *Guiding principles on business and human rights: Implementing the United Nations "protect, respect and remedy" framework*, https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf.
+
+Wenar, Leif and Cruft, Rowan (2025), 'Rights', in Zalta, Edward N. and Nodelman, Uri (eds), *The Stanford Encyclopedia of Philosophy*, Metaphysics Research Lab, Stanford University.
+
+Westmoreland, Mark W. (2008), 'Interruptions: Derrida and hospitality', *Kritike: An Online Journal of Philosophy*, 2:1, pp. 1–10.
+
+White House Office of Science and Technology Policy (2022), *Blueprint for an AI bill of rights: Making automated systems work for the American people*, The White House, https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/10/Blueprint-for-an-AI-Bill-of-Rights.pdf.
+
+Wilson-Nash, Carolyn, Angell, Rob, Qiu, Yuanming, Pavlopoulou, Ismini and Kolyperas, Dimitrios (2026), 'No app, no entry: Conceptualizing digital technology captivity in service access', *Psychology & Marketing*, 43:5, pp. 974–985.
+
+Xiang, Keheng, Huang, Wei-Jue, Gao, Fan and Lai, Qin (2022), 'COVID-19 prevention in hotels: Ritualized host-guest interactions', *Annals of Tourism Research*, 93, 103376.
+
+Xu, Xinzhi and Greiffenhagen, Christian (2024), 'The disciplined customer: A video-based study of automated self-service hotels', *New Media & Society*, 26:9, pp. 5013–5038.
+
+### Cases
+
+Airbnb Ireland (2019), Case C-390/18, criminal proceedings against X (Airbnb Ireland), judgment of the Court (Grand Chamber) of 19 December 2019.
+
+Al-Najar v The Cumberland Hotel (London) Ltd [2019] EWHC 1593 (QB).
+
+Armes v Nottinghamshire County Council [2017] UKSC 60.
+
+Barclays Bank plc v Various Claimants [2020] UKSC 13.
+
+Billops v Magness Construction Co (1978) 391 A.2d 196 (Del.).
+
+Calye's Case (1584) 8 Co Rep 32a, 77 ER 520.
+
+Constantine v Imperial Hotels Ltd [1944] 1 KB 693.
+
+Crinkley v Holiday Inns, Inc (1988) 844 F.2d 156 (4th Cir.).
+
+Everett v Comojo (UK) Ltd [2011] EWCA Civ 13, [2012] 1 WLR 150.
+
+Ferguson v Welsh [1987] UKHL 14, [1987] 1 WLR 1553.
+
+Global-Tech Appliances, Inc v SEB SA (2011) 563 U.S. 754.
+
+Gregg v Scott [2005] UKHL 2.
+
+Hayman v Ramada Inn, Inc (1987) 86 N.C. App. 274.
+
+Maguire v Sefton Metropolitan Borough Council [2006] EWCA Civ 316.
+
+Manifest Shipping Co Ltd v Uni-Polaris Shipping Co Ltd (The Star Sea) [2001] UKHL 1, [2003] 1 AC 469.
+
+Mathews v Eldridge (1976) 424 U.S. 319.
+
+Mobil Oil Corp v Bransford (1995) 648 So. 2d 119 (Fla.).
+
+Naylor (t/a Mainstreet) v Payling [2004] EWCA Civ 560.
+
+Orlando Executive Park, Inc v Robbins (1983) 433 So. 2d 491 (Fla.).
+
+R (DMA) v Secretary of State for the Home Department [2020] EWHC 3416 (Admin).
+
+R (RR) v London Borough of Enfield [2025] EWCA Civ 1390.
+
+R v Rymer (1877) 2 QBD 136.
+
+Rasnick v Krishna Hospitality, Inc (2011) 289 Ga. 565, 713 S.E.2d 835.
+
+SCHUFA: OQ v Land Hessen (2023), Case C-634/21, judgment of the Court (First Chamber) of 7 December 2023.
+
+Thomas v Pick Hotels Corp (1955) 224 F.2d 664 (10th Cir.).
+
+Westin Operator, LLC v Groh 2015 CO 25, 347 P.3d 606 (Colo.).
+
+Wheat v E Lacon & Co Ltd [1966] UKHL 1, [1966] AC 552.
+
+Wong Mee Wan v Kwan Kin Travel Services Ltd [1995] UKPC 42.
+
+X v Kuoni Travel Ltd [2021] UKSC 34.
+
+YL v Birmingham City Council [2007] UKHL 27.
+
+### Legislation and other legal sources
+
+Consumer Rights Act 2015 (c. 15).
+
+Data (Use and Access) Act 2025 (c. 18).
+
+Digest of Justinian 4.9, Nautae caupones stabularii ut recepta restituant (Latin text; English translation in S. P. Scott, *The Civil Law*, vol. III, Cincinnati, 1932).
+
+Digital Markets, Competition and Consumers Act 2024 (c. 13).
+
+Directive 2005/29/EC of the European Parliament and of the Council of 11 May 2005 concerning unfair business-to-consumer commercial practices in the internal market (Unfair Commercial Practices Directive).
+
+Directive (EU) 2015/2302 of the European Parliament and of the Council of 25 November 2015 on package travel and linked travel arrangements.
+
+Directive (EU) 2024/2831 of the European Parliament and of the Council of 23 October 2024 on improving working conditions in platform work.
+
+Directive (EU) 2024/2853 of the European Parliament and of the Council of 23 October 2024 on liability for defective products.
+
+Directive (EU) 2026/1024 of the European Parliament and of the Council of 29 April 2026 amending Directive (EU) 2015/2302.
+
+Equality Act 2010 (c. 15).
+
+Hotel Proprietors Act 1956 (4 & 5 Eliz. 2 c. 62).
+
+Hotel Proprietors Act 1963 (Ireland, No. 7 of 1963).
+
+Occupiers' Liability Act 1957 (5 & 6 Eliz. 2 c. 31).
+
+Package Travel and Linked Travel Arrangements Regulations 2018 (SI 2018/634).
+
+Regulation (EU) 2022/2065 of the European Parliament and of the Council of 19 October 2022 on a Single Market for Digital Services (Digital Services Act).
+
+Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act), OJ L, 12.7.2024.
+
+Regulation (EU) 2026/1744 of the European Parliament and of the Council of 8 July 2026 amending Regulations (EU) 2024/1689, (EU) 2018/1139 and (EU) 2023/1230 as regards the simplification of the implementation of harmonised rules on artificial intelligence (Digital Omnibus on AI).
+

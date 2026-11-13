@@ -57,3 +57,5 @@ Argues that American public-accommodations law grew from the common law of innke
 R2.1a (origin), R2.2a (activation by a traveller seeking lodging), R2.1c (innkeeper answers for servants and others), R2.4 (special legal status of travellers), R3.10 (reasonable rules, exclusion), R2.3a (privilege against obligation, not a right to answer).
 
 Fable-checked rr-2026-11-h (2026-11-10): quotations at pp. 54, 62-63, 63, 63 n. 15, 65, 66, 68 re-found in the saved text with their context, all exact; the Singer label corrected (VERIFY_H_v3 S10 was applied to WS_H1 but not to the card); added p. 64 on damages suits, which qualifies "not rights" (p. 66). Pages 69-94 not re-read by me.
+
+Context checked 11 Nov 2026 in the saved article: the p. 65 sentence on liability for 'other guests or any unidentified party' belongs to the innkeeper's third obligation, to safeguard guests' property. Use it for goods, not persons (DRAFT_v6 corrected, C56).

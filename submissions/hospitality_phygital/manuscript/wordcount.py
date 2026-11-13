@@ -8,6 +8,9 @@ budget gate runs on the body while the ceiling gate runs on the projected total.
 Measures
   BODY   the line '## 1. Introduction' through the line before the next '## ' heading that is not
          a numbered body section -- in practice '## Acknowledgment'. Headings and table rows count.
+         A draft with unnumbered headings (DRAFT_v6.md, on the journal's plan) starts at
+         '## Introduction' and ends at the first back-matter heading (Acknowledgment, References,
+         Notes, Contributor details and the like). Added 11 Nov 2026; numbered drafts count as before.
   ITALIC drafting notes in *...* on their own paragraph are excluded; they are scaffolding.
 
 Usage: python3 wordcount.py DRAFT.md [--refs N]
@@ -17,8 +20,11 @@ import re
 import sys
 from pathlib import Path
 
-BODY_START = re.compile(r"^##\s+1\.\s")
+BODY_START = re.compile(r"^##\s+(?:1\.\s|Introduction\s*$)")
 BODY_END = re.compile(r"^##\s+(?!\d+\.)")
+# Where the body of an unnumbered draft ends: its first back-matter heading.
+BACK_MATTER = re.compile(r"^##\s+(?:Acknowledg|References|Notes|Contributor|Appendix|Funding|"
+                         r"Declaration|Conflict|Supplementary)", re.I)
 NOTE_LINE = re.compile(r"^\*[^*].*\*$")
 
 
@@ -35,11 +41,12 @@ def count(tokens: str) -> int:
 
 
 def body_of(lines):
-    out, inside, in_note = [], False, False
+    out, inside, in_note, numbered = [], False, False, False
     for line in lines:
-        if BODY_START.match(line):
+        if not inside and BODY_START.match(line):
             inside = True
-        elif inside and BODY_END.match(line):
+            numbered = re.match(r"^##\s+1\.", line) is not None
+        elif inside and (BODY_END if numbered else BACK_MATTER).match(line):
             break
         if not inside:
             continue
@@ -72,7 +79,7 @@ def main() -> int:
     lines = open(args.paper, encoding="utf-8").read().splitlines()
     body = count(strip_markdown("\n".join(body_of(lines))))
     if body == 0:
-        print("ABORT: no body found. Expected a '## 1. ' heading.")
+        print("ABORT: no body found. Expected a '## 1. ' or '## Introduction' heading.")
         return 1
 
     # THE AUTHOR HAS RULED THAT REFERENCES DO NOT COUNT. The figure that governs is the

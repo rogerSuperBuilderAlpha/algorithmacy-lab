@@ -51,3 +51,5 @@ v4 §7 seamlessness paragraph; revision §7.
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: quotation and p. 10 confirmed; "describes its purpose" judged PARTLY (purpose sentence is p. 11); smoothness-as-goal confirmed by p. 14.
 
 Fable-checked rr-2026-11 (2026-11-08): accepted verifier_4; card title completed with the subtitle; added that the v4 quotation sits under the abstract's "Findings" heading while "Purpose" says something else (p. 10); three guest editors recorded; quotes on pp. 10, 11, 14, 18, 24 re-read; PARTLY stands.
+
+Checked 11 Nov 2026 against the saved full text: the list 'queues, repetition, uncertainty and wasted effort' is not in the source. DRAFT_v6 now quotes pp. 14 ('flawless interactivity and connectivity') and 18 ('preventing disconnects', said of the five sensory technologies) (C55).

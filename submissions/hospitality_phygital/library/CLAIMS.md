@@ -58,4 +58,15 @@ here and from every card that used it — `--check` will find any you miss.
 | `seamlessness-uncritiqued` | 7 | The phygital frameworks state seamlessness as a design goal and have not questioned it as such, while questioning technocentrism, efficiency logics, speed and AI's harms around it |
 | `wellbeing-levels-unmet` | 8 | Individual-level automation evidence and collective-level well-being evidence have not met inside a single study |
 | `divided-host-unanswered` | v6, Assembled hosts | When hosting is divided among several firms, which of them answers to the guest goes unsettled in practice, and the guest cannot tell where to press a claim |
+| `k1-host-responsibility` | run rr-2026-11-k | K1: in the hospitality canon, to host is to take responsibility for the guest's safety and welfare |
+| `k2-role-not-motive` | run rr-2026-11-k | K2: what a host owes attaches to the role; hospitableness is the manner of performing it |
+| `k3-grounds-of-the-duty` | run rr-2026-11-k | K3: the role specifies the duty; voluntary assumption, invited reliance and dependence bind |
+| `k4-two-tier-duties` | run rr-2026-11-k | K4: a legal duty to receive (inns) and legal duties to those received (every commercial host) |
+| `k5-directed-duty` | run rr-2026-11-k | K5: which of the host's duties are owed to the guest, per duty and per register |
+| `k6-guest-claim` | run rr-2026-11-k | K6: the guest holds the correlative claim; theories of standing to demand |
+| `k7-channel-from-guest` | run rr-2026-11-k | K7: a holder's duty of oversight requires a channel from the guest to a person with power over the single case |
+| `k8-holder-under-delegation` | run rr-2026-11-k | K8: what stays with the role-holder when work is delegated, per duty; allocation among several firms |
+| `k9-mediation` | run rr-2026-11-k | K9: what algorithmic mediation changes before and after reception |
+| `novelty-neighbour` | run rr-2026-11-k | Published work that makes, names or anticipates part of the paper's argument |
+| `touchpoint-evidence` | run rr-2026-11-k | Empirical evidence bearing on the paper's cases, test, tables or roadmap |
 | `editors-own-ground` | 1, 2, 3, 4, 5, 6, 7, 8 | The claim is established, approached or contested in the special issue editors' own published work before any general literature is called |

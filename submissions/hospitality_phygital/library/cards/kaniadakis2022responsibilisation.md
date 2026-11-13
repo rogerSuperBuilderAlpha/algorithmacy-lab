@@ -57,3 +57,5 @@ R2.1e (platform as a possible holder); R2.5b (short-term rentals as a format whe
 Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): added the probable shared dataset with farmaki2019selfperceptions (not independent corroboration).
 
 Fable-checked rr-2026-11-h (2026-11-10): verifier note (shared dataset with farmaki2019selfperceptions) accepted and the applied fix confirmed; all quotations re-matched at pp. 2, 6, 8, 12, 14, 16. Changed: "least authority" in Where-it-enters withdrawn as H3's phrase (hosts decline guests, p. 12); two located host statements of what guests owe (p. 14) and the sample breakdown (p. 8) added.
+
+Version of record read 11 Nov 2026 (Claude, Opus 5.5): the open CC BY journal PDF (New Media & Society 26(10), 2024, pp. 5763-5783), saved at manuscript/revision_2026-11/research/sources/kaniadakis2022responsibilisation/vor.pdf (gitignored). The 'I am not a butler' quotation is on p. 5776 (OnlineFirst PDF p. 14). Cite the 2024 issue year with journal pages.
