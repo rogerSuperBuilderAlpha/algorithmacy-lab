@@ -63,3 +63,8 @@ The two positioning re-reads (`stage2/POSITION_set1.md`, `POSITION_set2.md`) fou
 
 ### V8-D8 · 13 Nov · Pierre's text, and what the audits did to it
 His text is commit 3e6828b1, which matches `~/Desktop/WhoHoststheGuest_2026-08-17_PIERRE_original.md` from the abstract to the references. The August audit changed 92 of his sentences; where it corrected a fact or a citation, v8 takes the audited form and the ledger says so. Where it changed wording for no stated reason (the abstract's 'easier'), his wording stands.
+
+### V8-D9 · 13 Nov · Stage 4 checkpoint (Roger)
+- **Weights: follow the model.** Introduction ~700 · Theoretical context ~1,850 · Approach ~450 · The parties ~2,150 · During the stay ~1,150 · At the touchpoint ~1,650 · Conclusion ~1,050. This replaces the approved plan's section budget.
+- **Opening scenes: Pierre's two contrasting examples.** Hotel pricing shaped by a vendor's model (Garcia et al. 2026, told as v7 corrected it) against Le Petit Chef, the animated chef projected onto diners' tables while staff go on hosting (Batat 2021). Roger first said 'the ones from Berthon's original draft'; asked which, since his opening anecdote is the second-person scene D4 keeps out, he chose the two examples. Ledger I-34 is updated.
+- **Walk by party.** The argument walks the phygital arrangement party by party (the property, the brand, the platform, the vendor, the state), then through the stay, then to the touchpoint, each subsection closed by a takeaway paragraph. v7's claims and order are unchanged.

@@ -229,8 +229,17 @@ Consistent with v7's test, which asks about the route, not about transparency.
 - P5.28 'But transparency alone cannot make a welcome, because it can satisfy common understanding while leaving accountability untouched.' — **ADAPTED** (v7 claim: the conditions are cut, so 'common understanding' needs no term): '… because a guest can understand a decision and still find no one obliged to answer for it.'
 Place: the test's preamble.
 
-### I-34 · Pricing and the animated chef · §5 ¶6 · v7: Garcia kept, corrected; the chef dropped
-- P5.38–P5.45 — **CUT** (reviewer: R3 named 'condemns … blesses'; source: v7 corrected the Garcia reading; batat2021ar is not needed).
+### I-34 · Pricing and the animated chef · §5 ¶6 · v7: Garcia kept, corrected; the chef dropped · **v8: the two opening scenes (Roger, 13 Nov)**
+Roger chose Pierre's two contrasting examples to open v8, as the model's two videos open hers (V8-D9). Each is retold from its source and the sentences below enter where they survive the sources.
+- P5.38 'Two examples show the questions at work.' — **CUT** (the examples move to the introduction).
+- P5.39 'Hotel pricing is the clearest case of one-sided predictability.' — **CUT** (v7 claim: the three conditions are cut, I-32).
+- P5.40 'A recent study of algorithmic pricing found that the pricing architecture skewed its own recommendations because it counted on revenue managers to adjust them, so the rule actually in force was not the rule the staff thought they were using (Garcia et al. 2026).' — **ADAPTED** (source): garcia2026strategic [full-text, working paper] finds the recommendations 'strategically biased' because managers adjust prices rarely (once every 35 days, recommendations every seven), so the first clause stands in the study's terms; the second clause, about what staff thought, is not in the study and goes.
+- P5.41 'That operative rule was not one the guest, or even the staff, could anticipate, and no one at the desk could have explained the price, however willing.' — **CUT** (source: the v6 review pack found the desk claim an inference the study does not make; v7 notes that the study observed managers, not guests).
+- P5.42 'The predictability a guest depends on had quietly become one-sided.' — **CUT** (v7 claim, as P5.39).
+- P5.43 'Now the other direction.' — **VERBATIM**, as the turn to the second scene (GM.007's place).
+- P5.44 'When a restaurant projects an animated chef onto your table while human staff go on hosting the meal, the technology adds delight to an encounter whose rules stay steady and whose staff keep their discretion (Batat 2021).' — **ADAPTED** (reviewer: 'your', R3; source: batat2021ar [full-text] supports the delight, p. 10, and staff who stay social, pp. 7–9, but not 'rules stay steady and staff keep their discretion', which the card marks as the authors' reading): 'your table' becomes 'diners' tables', and the last clause is marked as ours in the sentence that follows.
+- P5.45 'The same test that condemns the first case blesses the second.' — **CUT** (reviewer: R3 named it).
+The scenes' narration beyond these sentences is Claude's, from the two cards, in the model's scene frame (year, actor, act).
 
 ### I-35 · Stakes, not preferences · §5 ¶7 · v7: dropped
 Answers R2.5 (which decisions need answerability).
