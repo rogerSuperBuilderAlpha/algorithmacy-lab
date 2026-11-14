@@ -10503,7 +10503,7 @@
    "kind": "study",
    "id": "scaling_laws_closed_form",
    "title": "Scaling laws closed-form (#47)",
-   "finding": "See [`../mincut_mip/`](../mincut_mip/) and `FORMAL_THEORY_ARC.md`",
+   "finding": "See [`../mincut_mip/`](org_frontier/studies/mincut_mip) and `FORMAL_THEORY_ARC.md`",
    "path": "org_frontier/studies/scaling_laws_closed_form",
    "reproduce": [
     "python org_frontier/studies/scaling_laws_closed_form/verify_laws.py"
@@ -10779,7 +10779,7 @@
    "kind": "foundations",
    "id": "phiid_vs_phi",
    "title": "ΦID-based integrated information (Φ_R, CCS) vs exact IIT-4.0 Φ",
-   "finding": "computed *exactly* from a network's TPM (the [candidate audit](../candidate_audit/)",
+   "finding": "computed *exactly* from a network's TPM (the [candidate audit](foundations/candidate_audit)",
    "path": "foundations/phiid_vs_phi",
    "reproduce": [],
    "runtime": "unregistered"

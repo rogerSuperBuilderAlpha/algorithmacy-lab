@@ -95,8 +95,14 @@ Confirm the toplevel before every commit so a push cannot land in the wrong repo
 ## Set up and run
 
 ```bash
-python3 --version                              # PyPhi needs 3.10+; stock python3 is often 3.9 and will fail
-python3.12 -m venv venv && source venv/bin/activate    # use any 3.10+ interpreter explicitly
+python3 tools/start.py                         # one command: venv, install, instrument controls, first verdicts
+```
+
+Or by hand. PyPhi's pinned build installs on Python 3.10 to 3.12; stock python3 is often 3.9 and fails, and
+3.13 or newer needs a C++ compiler:
+
+```bash
+python3.12 -m venv venv && source venv/bin/activate    # or: uv venv --python 3.12 venv
 pip install -r requirements.txt                # pulls PyPhi + phyid from git: needs network, a few minutes
 ```
 
