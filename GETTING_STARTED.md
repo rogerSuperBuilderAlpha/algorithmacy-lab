@@ -34,11 +34,16 @@ default `python3` is often 3.9, and the install below fails with `requires a dif
 Build the venv with an explicit modern interpreter when the default is too old:
 
 ```bash
-python3 --version                 # if < 3.10, use python3.12 (or any 3.10+) explicitly on the next line
-python3.12 -m venv venv           # plain `python -m venv venv` is fine only if `python` is already 3.10+
+python3 --version                 # use python3.12 (or 3.10, 3.11) explicitly on the next line if this is older or 3.13+
+python3.12 -m venv venv           # or: uv venv --python 3.12 venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
+
+`python3 tools/start.py` does this whole section in one command, then validates the instrument and prints
+two verdicts. On Python 3.13 or newer the install needs a C++ compiler, because `graphillion` has no
+prebuilt wheel there; it fails with `x86_64-linux-gnu-g++: No such file or directory` without one. Python
+3.10 to 3.12 install from prebuilt wheels.
 
 `requirements.txt` pulls PyPhi's IIT-4.0 line and `phyid` from git, so the install needs network
 access and takes a few minutes. The PyPhi line resolves to `wmayner/pyphi` `feature/iit-4.0` at

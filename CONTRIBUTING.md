@@ -12,8 +12,13 @@ conventions that a submission has to meet.
 ## Setup
 
 ```bash
-python3 --version                              # PyPhi's IIT-4.0 line needs 3.10+; stock python3 is often 3.9
-python3.12 -m venv venv && source venv/bin/activate    # use any 3.10+ interpreter explicitly if so
+python3 tools/start.py                         # or by hand, below; the script also validates the instrument
+```
+
+By hand, with Python 3.10 to 3.12 (3.13 or newer needs a C++ compiler for `graphillion`):
+
+```bash
+python3.12 -m venv venv && source venv/bin/activate    # or: uv venv --python 3.12 venv
 pip install -r requirements.txt
 ```
 
