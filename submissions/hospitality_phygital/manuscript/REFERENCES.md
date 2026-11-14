@@ -348,7 +348,7 @@ Walters, Gabby, Huck, Lisa, Robinson, Richard N. S. and Stettler, Jürg (2021), 
 
 Wang, Pola Q. (2024), 'Personalizing Guest Experience with Generative AI in the Hotel Industry: There's More to It than Meets a Kiwi's Eye', *Current Issues in Tourism*, 28:4, pp. 527–544.
 
-Weaver, Adam (2025), '‘Fast Hospitality’ and Technology: Contemporaneous Connections between ‘Liquid’ and ‘Solid’ in Modern Times', *Hospitality & Society*.
+Weaver, Adam (2026), '‘Fast Hospitality’ and Technology: Contemporaneous Connections between ‘Liquid’ and ‘Solid’ in Modern Times', *Hospitality & Society*, 16:2, pp. 155–176.
 
 Wirtz, Jochen, Hofmeister, Johannes, Chew, Patricia Yi Pey and Ding, Xin David (2023), 'Digital Service Technologies, Service Robots, AI, and the Strategic Pathways to Cost-Effective Service Excellence', *The Service Industries Journal*, 43:15-16, pp. 1173–1196.
 
