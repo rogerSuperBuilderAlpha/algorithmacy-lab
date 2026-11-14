@@ -49,14 +49,22 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md MAP.md catalog.json org_frontier/research/INDEX.md org_frontier/research/*/literature/REFERENCES.md research-atlas/cards.json
           if ! git diff --cached --quiet; then
-            git commit -m "docs: regenerate directory and research indexes [skip ci]"
+            git commit -m "docs: regenerate directory and research indexes"
           fi
 
       - name: Pin the committed indexes and source revision
         run: |
-          python research-atlas/build_snapshot.py
-          git add research-atlas/snapshot.json
-          if ! git diff --cached --quiet; then
-            git commit -m "docs: pin atlas snapshot [skip ci]"
+          # A snapshot already bound to these index blobs is current even when
+          # its recorded revision is the parent commit. Rewriting it on every
+          # push only to move that revision produced a [skip ci] head, so the
+          # reproduce check never ran on the commit GitHub was asked to merge.
+          if python research-atlas/build_snapshot.py --check; then
+            echo "snapshot already matches the committed indexes"
+          else
+            python research-atlas/build_snapshot.py
+            git add research-atlas/snapshot.json
+            if ! git diff --cached --quiet; then
+              git commit -m "docs: pin atlas snapshot"
+            fi
           fi
           git push origin HEAD:${{ github.head_ref }}
