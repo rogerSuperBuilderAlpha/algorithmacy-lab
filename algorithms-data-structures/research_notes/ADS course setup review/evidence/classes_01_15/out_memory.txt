@@ -1,0 +1,35 @@
+#1480: INPUT key 3.4 MB | formula 3.43 MB | measured 3.81 MB   AUX key 150 B | formula 150 B | measured peak 382.2 KB, retained 382.1 KB  | sums >= 2**30 (32-byte ints) after the call: 97789; growth 382.1 KB is real, not churn
+      #1480 smallest distinct values 257..100256: final sum 5,025,650,000 (2**30 = 1,073,741,824); sums >= 2**30: 78565; aux peak 307.1 KB, retained growth 307.0 KB
+      #1480 at LeetCode limits (n=1000, |v|<=1e6): aux peak 236 B, retained growth 88 B
+#217: INPUT key 3.4 MB | formula 3.43 MB | measured 3.81 MB   AUX key 4.0 MB (peak ~6 MB) | formula 4.01 MB | measured peak 6.00 MB, retained 88 B  | getsizeof(set of 1e5)=4194520 -> table slots=262145 of 16 B
+#283: INPUT key 2.1 MB | formula 2.10 MB | measured 2.29 MB   AUX key 150 B | formula 150 B | measured peak 236 B, retained 88 B  
+#88: INPUT key 5.1 MB (formula counts 28 B for all 100,000 nums1 slots) | formula 3.81 MB | measured 4.20 MB   AUX key 150 B | formula 150 B | measured peak 216 B, retained 88 B  | key formula 56+8n+28n (n=1e5) + 56+8n/2+28n/2 = 5.15 MB
+#14: INPUT key 49 KB | formula 48.7 KB | measured 48.7 KB   AUX key 341 B | formula 0 B | measured peak 176 B, retained 88 B  | identical case returns the input object itself: True
+      #14 variant (last string differs at char 200): aux peak 416 B, retained 328 B (slice of 199 chars, getsizeof 240)
+#303: INPUT key 352 KB | formula 351.6 KB | measured 390.7 KB   AUX key 352 KB | formula 351.7 KB | measured peak 396.1 KB, retained 396.1 KB  | prefix list getsizeof 85176 vs exact 80064; course formula with 12% append room: 361.0 KB
+#242: INPUT key 98 KB | formula 97.7 KB | measured 97.8 KB   AUX key 2.0 KB | formula 1.9 KB | measured peak 1.9 KB, retained 272 B  | getsizeof(26-key str dict)=832
+#1: INPUT key 352 KB | formula 351.6 KB | measured 390.8 KB   AUX key 781 KB | formula 781.2 KB | measured peak 574.7 KB, retained 252 B  | answer [0, 9999]; getsizeof(dict 9,999 int keys)=294992 = 29.5 B/entry; dict + new index ints = 554.5 KB
+#125: INPUT key 195 KB | formula 195.4 KB | measured 195.4 KB   AUX key 150 B | formula 150 B | measured peak 236 B, retained 88 B  | result True
+#977: INPUT key 352 KB | formula 351.6 KB | measured 387.9 KB   AUX key 352 KB | formula 351.6 KB | measured peak 391.0 KB, retained 390.8 KB  
+#643: INPUT key 3.4 MB | formula 3.43 MB | measured 3.81 MB   AUX key 150 B | formula 150 B | measured peak 300 B, retained 112 B  
+#121: INPUT key 3.4 MB | formula 3.43 MB | measured 3.81 MB   AUX key 150 B | formula 150 B | measured peak 256 B, retained 120 B  
+#20: INPUT key 9.8 KB | formula 9.8 KB | measured 9.8 KB   AUX key 88 KB | formula 87.7 KB | measured peak 83.5 KB, retained 328 B  
+#844: INPUT key 482 B | formula 482 B | measured 570 B   AUX key 3.6 KB | formula 3.6 KB | measured peak 3.5 KB, retained 200 B  
+#933: INPUT key 273 KB (28n ints) | formula 266.4 KB | measured 382.7 KB   AUX key 25 KB | formula 24.9 KB | measured peak 25.5 KB, retained 25.4 KB  | final deque len 3001, getsizeof 25576; measured input includes 56+8n list of pointers
+#232: INPUT key 2.7 MB (28n ints) | formula 2.67 MB | measured 3.81 MB   AUX key 879 KB | formula 875.1 KB | measured peak 782.7 KB, retained 782.7 KB  | inbox getsizeof 800984
+      #232 first pop() pours inbox into outbox: extra peak during that pop 434.0 KB on top of the 782.7 KB inbox
+#496: INPUT key 43 KB | formula 43.1 KB | measured 47.1 KB   AUX key 55 KB | formula 54.7 KB | measured peak 54.4 KB, retained 8.9 KB  | dict entries 993, max stack 12, getsizeof(dict) 36952, answer getsizeof 8856
+#739: INPUT key 781 KB | formula 781.3 KB | measured 781.3 KB   AUX key 4.3 MB | formula 4.29 MB | measured peak 4.19 MB, retained 781.4 KB  
+#206: INPUT key 488 KB | formula 488.3 KB | measured 584.4 KB   AUX key 150 B | formula 150 B | measured peak 120 B, retained 88 B  | per node with LeetCode-range ints 119.7 B, per node with a cached small int 88.0 B; getsizeof(ListNode())=48
+#19: INPUT key 2.9 KB | formula 2.9 KB | measured 2.6 KB   AUX key 250 B | formula 250 B | measured peak 264 B, retained 0 B  | values 0..100 per LeetCode are cached ints
+#509: INPUT key 28 B | formula 28 B | measured 28 B   AUX key 6.4 KB (incl. 4.5 KB frames) | formula 6.0 KB | measured peak 2.3 KB, retained 2.0 KB  | tracemalloc does not see frames; formula counts only F(14)..F(30) as new ints (F(13)=233 is cached)
+#50: INPUT key 52 B | formula 56 B | measured 56 B   AUX key 5.4 KB (32 frames + 32 floats) | formula 5.5 KB | measured peak 840 B, retained 136 B  | n values >256 held by frames on the way down: 23; at most ~2 floats alive at once
+#136: INPUT key 645 KB | formula 644.6 KB | measured 703.2 KB   AUX key 100 B | formula 100 B | measured peak 200 B, retained 120 B  
+#260: INPUT key 645 KB | formula 644.6 KB | measured 732.6 KB   AUX key 250 B | formula 250 B | measured peak 256 B, retained 224 B  
+#1331: INPUT key 3.4 MB | formula 3.43 MB | measured 3.81 MB   AUX key 9.3 MB | formula 9.35 MB | measured peak 10.92 MB, retained 3.81 MB  | getsizeof(dict 1e5)=5242960, answer getsizeof=800984
+#912: INPUT key 1.7 MB | formula 1.72 MB | measured 1.91 MB   AUX key 830 KB | formula 828.1 KB | measured peak 863.7 KB, retained 435.9 KB  | result getsizeof 444376
+#704: INPUT key 352 KB | formula 351.6 KB | measured 390.7 KB   AUX key 100 B | formula 100 B | measured peak 248 B, retained 120 B  
+#34: INPUT key 3.4 MB | formula 3.43 MB | measured 3.81 MB   AUX key 250 B | formula 250 B | measured peak 556 B, retained 272 B  | result [99000, 99999]
+#104: INPUT key 977 KB | formula 976.6 KB | measured 1.06 MB   AUX key 2.1 KB (14 frames) | formula 2.2 KB | measured peak 120 B, retained 88 B  | depth 14; per node: LeetCode values (-100..100) 111.4 B, new int values 128.0 B; getsizeof(TreeNode())=48; frames invisible to tracemalloc
+#102: INPUT key 977 KB | formula 976.6 KB | measured 1.22 MB   AUX key 120 KB | formula 120.0 KB | measured peak 94.9 KB, retained 83.6 KB  | levels 14, last level 1809, widest level 4096; result alone getsizeof sum 85448
+python 3.13.12

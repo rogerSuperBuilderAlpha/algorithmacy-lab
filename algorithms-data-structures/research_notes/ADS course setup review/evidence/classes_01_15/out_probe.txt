@@ -1,0 +1,62 @@
+/private/tmp/claude-501/-Users-ludwitt/a080b693-6f9a-4f5c-ae23-c8dd636db04a/scratchpad/ads-tests/classes_01_15/probe_misc.py:108: SyntaxWarning: "is" with 'str' literal. Did you mean "=="?
+  print(f"  s[0] is 'A': {s[0] is 'A'};  'A'.lower() is 'a': {'A'.lower() is 'a'};  'a'.lower() is 'a': {'a'.lower() is 'a'}")
+/private/tmp/claude-501/-Users-ludwitt/a080b693-6f9a-4f5c-ae23-c8dd636db04a/scratchpad/ads-tests/classes_01_15/probe_misc.py:108: SyntaxWarning: "is" with 'str' literal. Did you mean "=="?
+  print(f"  s[0] is 'A': {s[0] is 'A'};  'A'.lower() is 'a': {'A'.lower() is 'a'};  'a'.lower() is 'a': {'a'.lower() is 'a'}")
+/private/tmp/claude-501/-Users-ludwitt/a080b693-6f9a-4f5c-ae23-c8dd636db04a/scratchpad/ads-tests/classes_01_15/probe_misc.py:108: SyntaxWarning: "is" with 'str' literal. Did you mean "=="?
+  print(f"  s[0] is 'A': {s[0] is 'A'};  'A'.lower() is 'a': {'A'.lower() is 'a'};  'a'.lower() is 'a': {'a'.lower() is 'a'}")
+== (a) int size: sys.getsizeof vs tracemalloc, by how the int is made ==
+  range item 1000.. : getsizeof=28  traced per element (minus 8 B list slot) = 32.00
+  int("...") parse  : getsizeof=28  traced per element (minus 8 B list slot) = 28.01
+  json.loads        : getsizeof=28  traced per element (minus 8 B list slot) = 28.01
+  a + b (compact)   : getsizeof=28  traced per element (minus 8 B list slot) = 32.01
+  getsizeof(2**30-1)=28, getsizeof(2**30+5)=32, getsizeof("")=41, getsizeof("a"*200)=241
+== (b) tracemalloc and recursion frames ==
+  traced peak for 900 nested Python calls: 20632 B  (frames are not visible to tracemalloc)
+  RSS growth per active call, maxDepth at depth 200,000: 136.47872 B (macOS ru_maxrss is in bytes)
+  RSS growth per active call, myPow_shape at depth 200,000: 168.3456 B (macOS ru_maxrss is in bytes)
+  RSS growth per active call, fib_go at depth 200,000: 150.3232 B (macOS ru_maxrss is in bytes)
+== (c) #104 recursion depth on a chain (default limit) ==
+  sys.getrecursionlimit() = 1000
+  chain of 990: returned 990
+  chain of 1000: RecursionError: maximum recursion depth exceeded
+  chain of 10000: RecursionError: maximum recursion depth exceeded
+  after sys.setrecursionlimit(10_100), chain of 10,000: 10000
+== (d) key board code for #933 and #102 run verbatim, without an import line ==
+  #933: NameError name 'deque' is not defined
+== (e) #125: are s[i] and .lower() results cached singletons? ==
+  s[0] is 'A': True;  'A'.lower() is 'a': False;  'a'.lower() is 'a': False
+== (f) list built by append: spare room ==
+  n=200: capacity 200, spare 0.0%
+  n=10000: capacity 10640, spare 6.4%
+  n=10001: capacity 10640, spare 6.4%
+  n=100000: capacity 100116, spare 0.1%
+== (g) dict bytes per entry (int keys), sys.getsizeof ==
+  31 entries: 1168 B = 37.7 B/entry
+  1000 entries: 36952 B = 37.0 B/entry
+  9999 entries: 294992 B = 29.5 B/entry
+  10000 entries: 294992 B = 29.5 B/entry
+  100000 entries: 5242960 B = 52.4 B/entry
+  26 str keys: 832 B;  3-entry pairs dict: 184 B;  memo {0:0,1:1} grown to 31: 1168 B
+== (h) set table for 100,000 elements (#217) ==
+  getsizeof=4194520, empty set=216, table bytes=4194304, slots of 16 B=262144 (= 2**18)
+  same set built by add(): getsizeof=4194520
+== (i) #977 alternative: comparisons made by sorted() on the squares ==
+  n=10,000 sorted input with negatives: 21058 comparisons (n log2 n = 132900); squares form two runs
+  n=10,000 random values: 120180 comparisons
+== (j) list.sort() auxiliary memory (sort alternatives of #217, #136) ==
+  in-place sort of 30,000 random ints: traced peak 119936 B = 4.00 B per element (merge buffer)
+== (k) #14 alternative "sort, compare first and last": character work ==
+  m=200 strings of L=200 sharing a 199-char prefix: 1277 comparisons, 255727 char comparisons; S = m*L = 40000
+== (l) #1331: where is the peak? ==
+  ranks_only: traced peak 10.92 MB
+  arrayRankTransform: traced peak 10.92 MB
+== (m) #232 and #912 timing as n doubles (amortized O(1) / O(n log n)) ==
+  MyQueue 100000 push + 100000 pop: 0.082s
+  MyQueue 200000 push + 200000 pop: 0.109s
+  MyQueue 400000 push + 400000 pop: 0.222s
+  sortArray n=50000: 0.228s
+  sortArray n=100000: 0.408s
+  sortArray n=200000: 1.206s
+== (n) key vs student sheet: statement + example text, and stated memory size ==
+  problems compared: 30; statement/example text differs for: none
+  memory-size sentences: key 30, sheets 30; sheet sentence not a prefix of key assumption: none
