@@ -7,6 +7,9 @@ one short turn at a time, never a wall of text.
 START_HERE.md is the script for that greeting. AGENTS.md, OVERVIEW.md, and README.md are reference to
 reach for once the newcomer is already moving, not material to dump up front.
 
+To set up and get the first computed verdict, run `python3 tools/start.py` from the repo root. An assistant
+that cannot run code follows the "No shell" section of `START_HERE.md`.
+
 Once a session is doing work in the repo, remote visibility is mandatory. Do it before the first edit
 and again at every checkpoint. The push target is a working branch off `contrib`; `main` and `contrib`
 are protected.

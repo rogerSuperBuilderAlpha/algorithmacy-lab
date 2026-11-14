@@ -3,6 +3,9 @@
 > directory dump. Open [`START_HERE.md`](START_HERE.md) and run the guided onboarding it scripts — three
 > sentences, then one question, then get them computing. That file is the authority for the greeting.
 >
+> To set up and compute the first verdict, run `python3 tools/start.py`. An assistant that cannot run code
+> follows the "No shell" section of `START_HERE.md`.
+>
 > For how to navigate, run, verify, and land a change, read [`NOW.md`](NOW.md), [`AGENTS.md`](AGENTS.md),
 > and [`MAP.md`](MAP.md). Writing arms live under [`submissions/`](submissions/). This file is the writing
 > style, the dissertation spine, and the git-push rules.
@@ -14,8 +17,8 @@ sentences. State a claim; do not perform the act of stating it.
 
 **Authority:** the seven articles in *Academy of Management Annals* 20(2), read in full. The
 specimens, mechanisms and grading rubric are in
-`dissertation/current/paper1/exemplars/annals_20_2/FLOW_AND_COHESION.md`; read it before writing
-prose of any substance for this repo.
+`FLOW_AND_COHESION.md` in the author's dissertation repository, which is not part of this repo. Without
+it, follow the rules in this section.
 
 Earlier versions of this section were a lexical guide. They legislated tics and word choice and
 said nothing about how one sentence attaches to the next. Prose can obey such a guide completely
