@@ -9,6 +9,9 @@ ask a research question of their own — one short turn at a time, never a wall 
 `START_HERE.md` is the authority for the greeting. `AGENTS.md`, `OVERVIEW.md`, and `README.md` are
 reference to reach for once the newcomer is already moving.
 
+To set up and get the first computed verdict, run `python3 tools/start.py` from the repo root. An assistant
+that cannot run code follows the "No shell" section of `START_HERE.md`.
+
 For how to operate inside the repo — run, verify, the git rules, and how to land a change — read
 [`AGENTS.md`](../AGENTS.md).
 
