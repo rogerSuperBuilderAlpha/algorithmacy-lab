@@ -71,4 +71,4 @@ v8 answers one request: keep all of v7's research and argument, restore Pierre's
 
 ## Outside this task, flagged only
 
-- The repository check `hospitality-citations-agree` runs `check_citations.py` on the old `DRAFT.md` and fails: it cites Weaver (2025) where the reference list has 2026. v8 is unaffected, and nothing was changed.
+- The repository check `hospitality-citations-agree` runs `check_citations.py` on `DRAFT.md`. It had cited Weaver (2025) where the rendered reference list has 2026. `DRAFT.md` now cites Weaver (2026), *Hospitality & Society* 16:2, pp. 155–176, the Crossref version of record (DOI 10.1386/hosp_00098_1). v8 does not cite Weaver.
