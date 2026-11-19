@@ -51,7 +51,7 @@ not amend art. 26.
 - Point (40)(c) adds a point (d): "Articles 102 to 110 shall apply from 27 July 2026." 2026/1744, art. 1 point (40)(c) [quote]
 - The reason: "the delayed availability of standards, common specifications, and alternative guidance and the delayed establishment of national competent authorities lead to challenges that jeopardise the effective entry into application of those obligations". 2026/1744, recital 40 [quote]
 - "This Regulation shall enter into force on the third day following that of its publication in the Official Journal of the European Union." 2026/1744, art. 4 [quote]
-- A text search of 2026/1744 for "Article 26" finds no hit, so the Omnibus does not amend art. 26. 2026/1744, whole text searched [paraphrase]
+- No point of art. 1 of 2026/1744 amends art. 26 (the amending points run to arts. 25 and 27 and skip it). The text names art. 26 once, in point (36)(a), which rewrites art. 96(1)(a) so that the Commission's guidelines cover "the requirements and obligations referred to in Articles 8 to 15 and in Articles 25 and 26". 2026/1744, art. 1 points (12), (13) and (36)(a) [paraphrase]
 
 ## Critical notes
 
@@ -65,3 +65,4 @@ not amend art. 26.
 - Person acted on gets: record no (art. 26(11) gives notice of use only); brake no; envelope no; standing no; loss
   cover no — and the notice itself only from 2 December 2027, and only for Annex III systems (2026/1744, art. 1
   point (40)(b)).
+- Corrected by V-F: the last Key fact said a search for "Article 26" finds no hit; the Omnibus does name art. 26, in "Articles 25 and 26" (art. 1 point (36)(a), art. 96(1)(a) guidelines). The conclusion stands: no point amends art. 26. The fact now says so with its locators.

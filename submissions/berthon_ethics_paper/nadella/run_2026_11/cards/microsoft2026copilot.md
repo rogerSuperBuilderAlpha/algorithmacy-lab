@@ -42,7 +42,7 @@ sole discretion and without notice, and a user who thinks this a mistake may ask
 - "Words like “you”, “your” and “yours” mean you, the person accessing and using Copilot." Definitions [quote]
 - "“Tasks” refers to the automated set of actions that Copilot takes on your behalf at your request." Definitions [quote]
 - "Always use your judgment and check the information you get from Copilot before you make decisions or act." How you use Copilot [quote]
-- Microsoft may "limit, suspend, or permanently revoke your access to or use of Copilot (and potentially all other Services) in our sole discretion, at any time and without notice"; a user may "ask us to reevaluate our decision" through the Report a Concern form. Our decisions about Copilot [quote]
+- "Unless prohibited by law, we may limit, suspend, or permanently revoke your access to or use of Copilot (and potentially all other Services) in our sole discretion, at any time and without notice"; a user who feels access was "restricted by mistake" may "ask us to reevaluate our decision" through the Report a Concern form. Our decisions about Copilot [quote]
 - "You are responsible for reading and complying with the Merchant’s terms that apply to your purchase". Shopping experiences [quote]
 - "We aren’t responsible or liable for any dispute between you and the Merchant about your purchase." Shopping experiences [quote]
 - "When you request that Copilot take Actions on your behalf, you are solely responsible for those Actions and any results or consequences." Important disclosures & warnings [quote]
@@ -68,3 +68,4 @@ sole discretion and without notice, and a user who thinks this a mistake may ask
 - Person acted on gets: record no (nothing in the terms gives her one); brake no; envelope no; standing no (she is
   not a party; "you" is the user, Definitions); loss cover no (the user is "solely responsible" for Actions and
   indemnifies Microsoft, Important disclosures & warnings).
+- Corrected by V-F: the "Our decisions about Copilot" quotation now starts at "Unless prohibited by law, we may", the qualifier that opens the sentence and that the card had cut; the reevaluation clause now carries the page's condition, "restricted by mistake".

@@ -9,7 +9,7 @@ venue: Journal of Political Philosophy 28(2), 199-221 (online 10 Sep 2019; CC BY
 source_basis: partial-text
 pages_read: "pp. 199-213 (abstract, I, II.A, II.B read whole); pp. 214-216 (III.A opening, nn. 51-56) and p. 219 (conclusion) read in part; references pp. 220-221 skimmed"
 source_url: https://dspace.library.uu.nl/handle/1874/407680
-local_path: /Users/ludwitt/iit-playground/berthon_ethics_local/pdfs/nadella/R3/gadeke2020/gadeke2020.pdf
+local_path: ~/iit-playground/berthon_ethics_local/pdfs/nadella/R3/gadeke2020/gadeke2020.pdf
 sha256: 0ee9d6767a1085a1c14fa652197192c57e6ec178e0b8fea07ef1b0a42a916405
 manuscript_lines: []
 ledger_rows: [N04, N05, K12]
@@ -92,3 +92,4 @@ social analysis, which otherwise misconstrues domination "as an anomaly perpetra
   leaves the terms unenforced are peripheral agents, which the draft can use to place Microsoft.
 
 ## Verifier notes
+- Corrected by V-F (2026-11-19): `local_path` written in the `~/` form the run uses; same file, sha256 unchanged. All eleven Key-fact quotations and their page locators checked against the PDF (printed page = PDF page + 197, folios read on every page); every page and note number is right.
