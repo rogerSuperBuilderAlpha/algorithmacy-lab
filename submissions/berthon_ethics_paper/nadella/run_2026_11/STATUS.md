@@ -20,10 +20,15 @@ Held back from the index: none.
 
 ## Open after the run
 
-- **Author's calls:** `synthesis/ADJUDICATION.md`, "Calls for the author" (15).
-- **Lead's card and file work:** card items done (follow-up F). Remaining: the narrowings to carry into
-  `ARGUMENT_AND_OUTLINE.md`, `STRUCTURE.md`, the concept ledger, `references.bib` notes and `NADELLA_MOVES.md` row 8,
-  which wait for the author's calls; version-of-record page checks (Wachter, Yeung, *Saunders*, Kleinberg).
+- **Author's calls: ruled.** The author delegated all fifteen on 19 Nov 2026; the rulings are in
+  `synthesis/AUTHOR_CALLS_RULED.md`, each reversible.
+- **Narrowings carried (19 Nov 2026):** `ARGUMENT_AND_OUTLINE.md` to v4; `STRUCTURE.md` (each change tagged with
+  its ruling or call); concept ledger N04, N05, L04, E07; `references.bib` notes for guinn1915guinn and
+  saunders1971anglia; `NADELLA_MOVES.md` row 8; `EVIDENCE_MAP.md` and `COUNTER_EVIDENCE.md` (ruling 4's "no duty
+  to fact-check", ruling 5's indemnity); `COVERAGE_PREMISES.md` A7. This line also clears CONF-21.
+- **Still open:** the pending library cards (Lazar ×2, Lassiter, CPPA, Colorado, arbel2025how); s. 201 of the
+  Voting Rights Act as it stood in 1975; version-of-record page checks (Wachter, Yeung, *Saunders*, Kleinberg).
+- **Next:** DRAFT_v2 on the restored structure (call 15).
 - **Erratum:** read ruling 1 and call 8 in `ADJUDICATION.md` with its appended erratum.
 
 ## Spend
