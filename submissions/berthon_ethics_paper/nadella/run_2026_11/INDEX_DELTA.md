@@ -94,3 +94,13 @@ Rebuilt by the scripts, run with and without `--check` (both exited 0 and both r
 - `python3 -I literature/dedup_report.py`: `46 duplicate clusters`. No cluster path names a `run_2026_11` card, so the new cards join no existing duplicate cluster by DOI, title+year or filename.
 
 Generated files: `literature/CARD_INDEX.md`, `literature/DUPLICATES.md`.
+
+## Follow-up, 2026-11-19 (lead)
+
+Six cards cleared by verifier V-F and Fable read F (`verify/VERIFY_V-F.md`, `verify/FABLE_READ_F.md`), all
+`verified: corrected`, copied unchanged (sha256 matched) to `literature/cards/run_2026_11/`:
+levine1982functional, sandiford1994nicaraguan, yilmaz2011learning (abstract-only; previously held back),
+microsoft2026copilot (upgrade; supersedes `berthon_ethics_paper/microsoft2026copilot.md`, dedup cluster 26),
+euaiact2026dates, uscongress1975section201. Library card `berthon_ethics_paper/gadeke2020mugger.md` corrected in place.
+
+New totals: 796 cards indexed; 47 duplicate clusters (the one new cluster is the Copilot upgrade pair). Held back: none.

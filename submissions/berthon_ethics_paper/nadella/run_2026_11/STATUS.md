@@ -14,14 +14,17 @@
 | C Indexer (haiku) | done: 62 cards to `../../literature/cards/run_2026_11/`; CARD_INDEX 728 -> 790; `INDEX_DELTA.md` | 1ac3e4e9 |
 | C Adjudication (fable) | done: `synthesis/ADJUDICATION.md`, 54 rulings (29 upheld, 15 narrowed, 6 overruled, 4 left for the author); 15 calls for the author; verifier error rates | this commit |
 
-Held back from the index: levine1982functional, sandiford1994nicaraguan, yilmaz2011learning (`verified: pending`,
-sources never saved to disk).
+| Follow-up F (lead's card list) | done: sources saved for levine, sandiford, yilmaz; new cards microsoft2026copilot (upgrade), euaiact2026dates, uscongress1975section201; gadeke2020mugger corrected; verifier V-F, Fable read F; all seven `corrected`; ADJUDICATION erratum to ruling 1 (AI Act art. 111(2)); index 796 | this commit |
+
+Held back from the index: none.
 
 ## Open after the run
 
 - **Author's calls:** `synthesis/ADJUDICATION.md`, "Calls for the author" (15).
-- **Lead's card and file work:** `synthesis/ADJUDICATION.md`, "Card and file work still to do (lead)". Edits to
-  `ARGUMENT_AND_OUTLINE.md`, `STRUCTURE.md` and the concept ledger wait for the author's calls.
+- **Lead's card and file work:** card items done (follow-up F). Remaining: the narrowings to carry into
+  `ARGUMENT_AND_OUTLINE.md`, `STRUCTURE.md`, the concept ledger, `references.bib` notes and `NADELLA_MOVES.md` row 8,
+  which wait for the author's calls; version-of-record page checks (Wachter, Yeung, *Saunders*, Kleinberg).
+- **Erratum:** read ruling 1 and call 8 in `ADJUDICATION.md` with its appended erratum.
 
 ## Spend
 

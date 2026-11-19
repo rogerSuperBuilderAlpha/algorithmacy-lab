@@ -240,3 +240,47 @@ Four Crossref records by DOI, on 19 Nov 2026, with the client name `research-fet
 identifier: 10.1017/9781009279079.019, 10.16922/welshnot, 10.1017/9781107705722, 10.1007/bf01047732. I filtered
 each response to title, authors, dates, volume, issue and pages, and saved nothing in the repo. I made no web
 fetch for the legal dates: the two Official Journal texts already on disk settle them.
+
+## Erratum (Fable read F, 2026-11-19)
+
+*Agent-drafted (Fable reader, sitting F, 2026-11-19); appended, with nothing above changed. A working note for the
+author, not paper prose; none of the text is his.*
+
+Ruling 1 dates art. 26(11) too simply. Its Effect column says the paragraph "applies from 2 Dec 2027", and call 8
+repeats the date. Art. 111(2) of Regulation (EU) 2024/1689 limits that date, and the ruling does not cite it. I
+opened it in both Official Journal texts on disk while reading `cards/euaiact2026dates.md`, and the verifier's
+point (`verify/VERIFY_V-F.md`) holds.
+
+- **The text.** Reg. (EU) 2026/1744, art. 1 point (39)(a), replaces art. 111(2): "this Regulation shall apply to
+  operators of high-risk AI systems, other than the systems referred to in paragraph 1 of this Article, that have
+  been placed on the market or put into service before the date of application of Chapter III referred to in
+  Article 113, only if, as from that date, those systems are subject to significant changes in their designs. In
+  any case, the providers and deployers of high-risk AI systems intended to be used by public authorities shall
+  take the necessary steps to comply with the requirements and obligations laid down in this Regulation by
+  2 August 2030." A deployer is an operator (2024/1689, art. 3 point (8)). The rule is older than the Omnibus:
+  art. 111(2) as enacted carried it with the date 2 August 2026, and point (39)(a) moved the cut-off and kept 2030.
+- **Ruling 1, narrowed.** On 19 Nov 2026 art. 26(11) does not apply; that stands. From 2 Dec 2027 (art. 113, third
+  paragraph, point (c)(i), as replaced by 2026/1744, art. 1 point (40)(b)) it binds deployers of Annex III systems
+  placed on the market or put into service on or after that date. For a system placed on the market or put into
+  service before that date, it binds the deployer only once the system's design changes significantly. Where such
+  a system is intended to be used by public authorities, its provider and deployer must comply by 2 Aug 2030 in any
+  case. The texts set no date by which a private deployer of an unchanged earlier system must give the notice.
+- **How far the earlier systems reach.** Recital 39 of 2026/1744 reads the grace period by type and model: once
+  one unit is lawfully on the market or in service before the date, further units of that type and model follow
+  it "as long as the design of that high-risk AI system remains unchanged". Recital 177 of 2024/1689 treats a
+  significant change as "equivalent in substance to the notion of substantial modification" (defined in art. 3
+  point (23)).
+- **Arts. 85 and 86.** Art. 111(2) says "this Regulation", so on its words the same limit reaches what a deployer
+  of such a system owes under art. 86, and leaves an art. 85 complaint about that deployer without an infringement
+  to rest on. No text read says either in terms. The rest of ruling 1 on arts. 85 and 86 stands.
+- **Where the unqualified date stands.** Ruling 1 (Effect) and call 8 ("art. 26(11) from 2 Dec 2027"). The lead's
+  item to card art. 26(11) with point (40)(b) is met by `cards/euaiact2026dates.md`, which now carries point
+  (39)(a) as well. The direction of ruling 1 holds and gains force: on these texts the art. 26(11) notice is owed
+  only for systems placed on the market or put into service from 2 Dec 2027, for earlier systems once their design
+  changes significantly, and for systems intended for public authorities by 2 Aug 2030.
+- **Limits.** I read recitals 39 and 40, art. 1 points (39) and (40) and art. 4 of 2026/1744, and recital 177 and
+  art. 3 points (8) and (23) and arts. 26, 85, 86, 111 and 113 of 2024/1689. Two readings are mine. The paragraph names no date for "the date
+  of application of Chapter III referred to in Article 113"; I take it as 2 Dec 2027 for Annex III systems and
+  2 Aug 2028 for Annex I systems, from point (c) and recital 40. Recital 39 speaks of providers, and neither text
+  says in terms whether a deployer who takes up, after the date, a unit of an earlier type and model owes the
+  notice. I searched for no act later than 24 July 2026 and read no consolidated text, guidance or case law.

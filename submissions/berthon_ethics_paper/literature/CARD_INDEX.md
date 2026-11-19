@@ -5,8 +5,8 @@ from their origin arms (see `../PROVENANCE.md`); fields are parsed from each car
 Basis is normalized: full, partial, abstract, secondary, adapted. Verified is the card's own
 field (Y format) or its S2 verdict (H format). Flags mark abstract-only, secondary, unverified cards.
 
-Cards: 790 — algorithmacy_design_ethics 188, algorithmacy_scaffolding 6, berthon_ethics_course 193, berthon_ethics_paper 145, dxd_foundation 196, run_2026_11 62.
-Basis: abstract 50, adapted 2, full 440, partial 269, record 2, reviews/secondary 1, secondary 26.
+Cards: 796 — algorithmacy_design_ethics 188, algorithmacy_scaffolding 6, berthon_ethics_course 193, berthon_ethics_paper 145, dxd_foundation 196, run_2026_11 68.
+Basis: abstract 53, adapted 2, full 443, partial 269, record 2, reviews/secondary 1, secondary 26.
 
 ## algorithmacy_design_ethics (188)
 
@@ -470,7 +470,7 @@ Basis: abstract 50, adapted 2, full 440, partial 269, record 2, reviews/secondar
 | [frahm2022fixing](cards/berthon_ethics_paper/frahm2022fixing.md) | Frahm, Nina; Doezema, Tess; Pfotenhauer, Sebastian | 2022 | Fixing Technology with Society: The Coproduction of Democratic Deficits and Responsible In | 10.1177/0162243921999100 | full | true |  |
 | [frontiermodelforum2026information](cards/berthon_ethics_paper/frontiermodelforum2026information.md) | {Frontier Model Forum} | 2026 | Issue Brief: Information Sharing, Incident Reporting, and Incident Response for Frontier A |  | full | corrected |  |
 | [furnivall1871four](cards/berthon_ethics_paper/furnivall1871four.md) | Furnivall, Frederick J.; Cowper, J. Meadows | 1871 | Four Supplications, 1529-1553 A.D. (A Supplicacyon for the Beggers; A Supplycacion to Henr |  | partial | corrected |  |
-| [gadeke2020mugger](cards/berthon_ethics_paper/gadeke2020mugger.md) | Gädeke, Dorothea | 2020 | Does a Mugger Dominate? Episodic Power and the Structural Dimension of Domination | 10.1111/jopp.12202 | partial | pending | unverified |
+| [gadeke2020mugger](cards/berthon_ethics_paper/gadeke2020mugger.md) | Gädeke, Dorothea | 2020 | Does a Mugger Dominate? Episodic Power and the Structural Dimension of Domination | 10.1111/jopp.12202 | full | corrected |  |
 | [gallot2026securing](cards/berthon_ethics_paper/gallot2026securing.md) | Gallot, Hayete | 2026 | Securing the agentic insider |  | full | pending | unverified |
 | [garg2026nadella](cards/berthon_ethics_paper/garg2026nadella.md) | Garg, Nitish | 2026 | Nadella's AI Emergency Brake: Models as Insider Risks |  | full | pending | unverified |
 | [google2026agentic](cards/berthon_ethics_paper/google2026agentic.md) | {AP2 project (google-agentic-commerce)} | 2026 | Agentic Payment Protocol (v0.2) |  | partial | corrected |  |
@@ -761,7 +761,7 @@ Basis: abstract 50, adapted 2, full 440, partial 269, record 2, reviews/secondar
 | [yu2026habituation](cards/dxd_foundation/yu2026habituation.md) | Yu, H., Liu, L., Jiang, X., Jia, Y., Wang, S., Qian, P., & C | 2026 | Habituation at the gate: Rising approval and declining scrutiny in human review of AI agen |  | full | S2 confirmed |  |
 | [ziegler2010orthographic](cards/dxd_foundation/ziegler2010orthographic.md) | Ziegler, J. C., Bertrand, D., Tóth, D., Csépe, V., Reis, A., | 2010 | Orthographic depth and its impact on universal predictors of reading: A cross-language inv | 10.1177/0956797610363406 | full | S2 corrected |  |
 
-## run_2026_11 (62)
+## run_2026_11 (68)
 
 | card | authors | year | title | DOI | basis | verified | flags |
 |---|---|---|---|---|---|---|---|
@@ -781,6 +781,7 @@ Basis: abstract 50, adapted 2, full 440, partial 269, record 2, reviews/secondar
 | [dittmar2011information](cards/run_2026_11/dittmar2011information.md) | Dittmar, Jeremiah E. | 2011 | Information Technology and Economic Change: The Impact of the Printing Press | 10.1093/qje/qjr035 | partial | corrected |  |
 | [eci1955report](cards/run_2026_11/eci1955report.md) | Election Commission, India | 1955 | Report on the First General Elections in India 1951-52, Volume I (General) |  | partial | corrected |  |
 | [edpb2023deceptive](cards/run_2026_11/edpb2023deceptive.md) | European Data Protection Board | 2023 | Guidelines 03/2022 on Deceptive design patterns in social media platform interfaces: how t |  | partial | corrected |  |
+| [euaiact2026dates](cards/run_2026_11/euaiact2026dates.md) | European Parliament and Council of the European Union | 2026 | Regulation (EU) 2024/1689 (Artificial Intelligence Act), art. 26(11), with Regulation (EU) |  | partial | corrected |  |
 | [fujiwara2015voting](cards/run_2026_11/fujiwara2015voting.md) | Fujiwara, Thomas | 2015 | Voting Technology, Political Responsiveness, and Infant Health: Evidence from Brazil | 10.3982/ecta11520 | partial | corrected |  |
 | [gingerich2019ballot](cards/run_2026_11/gingerich2019ballot.md) | Gingerich, Daniel W. | 2019 | Ballot Reform as Suffrage Restriction: Evidence from Brazil's Second Republic | 10.1111/ajps.12438 | abstract | corrected | abstract |
 | [google2025secure_agents](cards/run_2026_11/google2025secure_agents.md) | Díaz, Santiago; Kern, Christoph; Olive, Kara | 2025 | Google's Approach for Secure AI Agents: An Introduction |  | full | corrected |  |
@@ -796,11 +797,13 @@ Basis: abstract 50, adapted 2, full 440, partial 269, record 2, reviews/secondar
 | [johnes2024welsh](cards/run_2026_11/johnes2024welsh.md) | Johnes, Martin | 2024 | Welsh Not: Elementary Education and the Anglicisation of Nineteenth-Century Wales | 10.16922/welshnot | partial | corrected |  |
 | [kleinberg2018human](cards/run_2026_11/kleinberg2018human.md) | Kleinberg, Jon; Lakkaraju, Himabindu; Leskovec, Jure; Ludwig | 2018 | Human Decisions and Machine Predictions | 10.1093/qje/qjx032 | partial | corrected |  |
 | [kousser1974shaping](cards/run_2026_11/kousser1974shaping.md) | Kousser, J. Morgan | 1974 | The Shaping of Southern Politics: Suffrage Restriction and the Establishment of the One-Pa | 10.7907/q3m1-we19 | partial | corrected |  |
+| [levine1982functional](cards/run_2026_11/levine1982functional.md) | Levine, Kenneth | 1982 | Functional Literacy: Fond Illusions and False Economies | 10.17763/haer.52.3.77p7168115610811 | abstract | corrected | abstract |
 | [louisiana1965louisiana](cards/run_2026_11/louisiana1965louisiana.md) | Supreme Court of the United States (opinion of the Court by | 1965 | Louisiana v. United States |  | full | corrected |  |
 | [lund2026powerknowledge](cards/run_2026_11/lund2026powerknowledge.md) | Lund, Brady D.; Teel, Zoë Abbie | 2026 | AI Literacy: An Exercise in Power-Knowledge |  | full | corrected |  |
 | [lyons2014power](cards/run_2026_11/lyons2014power.md) | Lyons, Martyn | 2014 | The Power of the Scribe: Delegated Writing in Modern Europe | 10.1177/0265691414526342 | abstract | true | abstract |
 | [maas2023ai](cards/run_2026_11/maas2023ai.md) | Maas, Matthijs M. | 2023 | AI is Like… A Literature Review of AI Metaphors and Why They Matter for Policy | 10.2139/ssrn.4612468 | full | corrected |  |
 | [microsoft2026artificial](cards/run_2026_11/microsoft2026artificial.md) | Microsoft | 2026 | Artificial intelligence (AI) shared responsibility model |  | full | corrected |  |
+| [microsoft2026copilot](cards/run_2026_11/microsoft2026copilot.md) | Microsoft | 2026 | Copilot - Terms of Use (Microsoft Copilot Supplemental Terms of Use) |  | full | corrected |  |
 | [microsoft2026services](cards/run_2026_11/microsoft2026services.md) | Microsoft | 2026 | Microsoft Services Agreement |  | partial | corrected |  |
 | [nadella2025positive](cards/run_2026_11/nadella2025positive.md) | Nadella, Satya | 2025 | Positive Sum Future |  | full | corrected |  |
 | [narayanan2025ai](cards/run_2026_11/narayanan2025ai.md) | Narayanan, Arvind; Kapoor, Sayash | 2025 | AI as Normal Technology: An alternative to the vision of AI as a potential superintelligen |  | full | corrected |  |
@@ -810,6 +813,7 @@ Basis: abstract 50, adapted 2, full 440, partial 269, record 2, reviews/secondar
 | [radin2013boilerplate](cards/run_2026_11/radin2013boilerplate.md) | Radin, Margaret Jane | 2013 | Boilerplate: The Fine Print, Vanishing Rights, and the Rule of Law | 10.1515/9781400844838 | partial | corrected |  |
 | [ragas2007leer](cards/run_2026_11/ragas2007leer.md) | Ragas, José | 2007 | Leer, escribir, votar. Literacidad y cultura política en el Perú (1810-1900) | 10.18800/historica.200701.004 | full | corrected |  |
 | [rasmussen2010attended](cards/run_2026_11/rasmussen2010attended.md) | Rasmussen, Birgit Brander | 2010 | Attended with Great Inconveniences": Slave Literacy and the 1740 South Carolina Negro Act | 10.1632/pmla.2010.125.1.201 | abstract | corrected | abstract |
+| [sandiford1994nicaraguan](cards/run_2026_11/sandiford1994nicaraguan.md) | Sandiford, Peter; Lankshear, Colin; Montenegro, María Martha | 1994 | The Nicaraguan Literacy Crusade — How lasting were its benefits? | 10.1080/096145249100077481 | abstract | corrected | abstract |
 | [saunders1971anglia](cards/run_2026_11/saunders1971anglia.md) | House of Lords (Lord Reid, Lord Hodson, Viscount Dilhorne, L | 1971 | Saunders v Anglia Building Society (sub nom Gallie v Lee) |  | partial | corrected |  |
 | [schwartz2017did](cards/run_2026_11/schwartz2017did.md) | Schwartz, Kathryn A. | 2017 | Did Ottoman Sultans Ban Print? | 10.1353/bh.2017.0000 | abstract | corrected | abstract |
 | [shani2018india](cards/run_2026_11/shani2018india.md) | Shani, Ornit | 2017 | How India Became Democratic: Citizenship and the Making of the Universal Franchise | 10.1017/9781107705722 | partial | corrected |  |
@@ -820,10 +824,12 @@ Basis: abstract 50, adapted 2, full 440, partial 269, record 2, reviews/secondar
 | [susser2019technology](cards/run_2026_11/susser2019technology.md) | Susser, Daniel; Roessler, Beate; Nissenbaum, Helen | 2019 | Technology, autonomy, and manipulation | 10.14763/2019.2.1410 | full | corrected |  |
 | [tang2025darkgui](cards/run_2026_11/tang2025darkgui.md) | Tang, Jingyu; Chen, Chaoran; Li, Jiawen; Zhang, Zhiping; Guo | 2025 | Dark Patterns Meet GUI Agents: LLM Agent Susceptibility to Manipulative Interfaces and the |  | full | corrected |  |
 | [usccr1961voting](cards/run_2026_11/usccr1961voting.md) | United States Commission on Civil Rights (Hannah, John A., C | 1961 | Voting: 1961 Commission on Civil Rights Report, Book 1 |  | partial | corrected |  |
+| [uscongress1975section201](cards/run_2026_11/uscongress1975section201.md) | United States Congress | 1975 | Voting Rights Act of 1965, section 201 (42 U.S.C. 1973aa), as added by Pub. L. 91-285, s. |  | full | corrected |  |
 | [uscongress1975voting](cards/run_2026_11/uscongress1975voting.md) | United States Congress (94th Congress) | 1975 | An Act to amend the Voting Rights Act of 1965 to extend certain provisions for an addition |  | full | corrected |  |
 | [uscongress1982voting](cards/run_2026_11/uscongress1982voting.md) | United States Congress (97th Congress) | 1982 | Voting Rights Act Amendments of 1982, Public Law 97-205, 96 Stat. 131 |  | full | true |  |
 | [vieira2013social](cards/run_2026_11/vieira2013social.md) | Vieira, Kate | 2013 | On the Social Consequences of Literacy | 10.21623/1.1.1.6 | full | corrected |  |
 | [visa2025trusted](cards/run_2026_11/visa2025trusted.md) | Visa | 2025 | Trusted Agent Protocol (repository README) |  | full | corrected |  |
 | [wachter2017right](cards/run_2026_11/wachter2017right.md) | Wachter, Sandra; Mittelstadt, Brent; Floridi, Luciano | 2017 | Why a Right to Explanation of Automated Decision-Making Does Not Exist in the General Data | 10.1093/idpl/ipx005 | full | corrected |  |
 | [yannakakis2021interpreters](cards/run_2026_11/yannakakis2021interpreters.md) | Yannakakis, Yanna | 2021 | Interpreters and the Deep Layer of Spanish Colonial Justice | 10.1353/jem.2021.a899634 | abstract | corrected | abstract |
+| [yilmaz2011learning](cards/run_2026_11/yilmaz2011learning.md) | Yılmaz, Hale | 2011 | Learning to Read (Again): The Social Experiences of Turkey's 1928 Alphabet Reform | 10.1017/s0020743811000900 | abstract | corrected | abstract |
 | [yorta2002members](cards/run_2026_11/yorta2002members.md) | High Court of Australia (Gleeson CJ, Gummow and Hayne JJ joi | 2002 | Members of the Yorta Yorta Aboriginal Community v Victoria |  | partial | corrected |  |

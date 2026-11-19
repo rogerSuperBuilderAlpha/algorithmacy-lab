@@ -5,10 +5,10 @@ authors: United States Congress
 year: 1975
 doi: null
 source_basis: full-text
-pages_read: 89 Stat. 400 (Pub. L. 94-73, long title and s. 102); 84 Stat. 314-315 (Pub. L. 91-285, title, s. 6 and new s. 201(a)-(b)); 42 U.S.C. 1973aa, 1994 edition (whole section with credits and amendment note)
+pages_read: 89 Stat. 400 (Pub. L. 94-73, long title and s. 102); 84 Stat. 314-315 (Pub. L. 91-285, title, s. 6 and new s. 201(a)-(b)); 42 U.S.C. 1973aa, 1994 edition (whole section with credits and amendment note); added in the Fable read: 84 Stat. 317 (new ss. 203-204) and 89 Stat. 403 (Pub. L. 94-73, ss. 302-304)
 local_path: ~/iit-playground/berthon_ethics_local/run_2026_11/F/uscongress1975section201/STATUTE-89-Pg400.pdf
 sha256: c936564bb47326cde264e066cd2b0773e1e6d9ecfb26a022970b6e34aad21de2
-verified: pending
+verified: corrected
 structure_sections: 3.2; 7-D02
 type: statute
 venue: United States Statutes at Large 84, 314-315 (22 June 1970) and 89, 400 (6 Aug. 1975); United States Code, 1994 edition, Title 42, s. 1973aa
@@ -50,15 +50,20 @@ Acts. The long title of the 1975 Act calls this making "permanent the ban agains
 ## Critical notes
 
 - What the texts show: after 6 August 1975, s. 201(a) bars denial of the vote for failure to comply with any test
-  or device, in any federal, state or local election anywhere in the United States, with no end date; and "test or
-  device" includes any requirement to read, write, understand or interpret any matter (s. 201(b)). "Permanent" is
-  the 1975 long title's word; the operative text simply carries no date.
+  or device, in any federal, state or local election in any State or political subdivision of a State, with no end
+  date; and "test or device" includes any requirement to read, write, understand or interpret any matter
+  (s. 201(b)). "Permanent" is the 1975 long title's word; the operative text simply carries no date.
 - Limits: the 1994 Code is the earliest official compilation fetched; that no Act between 1975 and 1994 touched
   s. 201 rests on its credits line, which names only the 1970 and 1975 Acts. The 1976 Code edition and the
   committee reports (H.R. Rep. 94-196, S. Rep. 94-295) were not read. The Supreme Court's upholding of the 1970
   suspension (Oregon v. Mitchell, 400 U.S. 112 (1970)) is reported on the course card usstat1970voting and not read here.
-- The section is a prohibition with no carve-out for literacy shown some other way; s. 201 itself names no remedy
-  (enforcement and penalties sit in the following sections, renumbered by the 1975 Act, ss. 302-304, 89 Stat. 403;
-  not read for this card).
+- The section is a prohibition with no carve-out for literacy shown some other way; s. 201 itself names no remedy.
+  Enforcement and penalty sat in 1970 in the sections after it: s. 203, a suit by the Attorney General for an
+  injunction against a State or subdivision that has enacted or seeks to administer a test or device in violation
+  of s. 201, and s. 204, a
+  fine or imprisonment for depriving a person of a right secured by s. 201 or 202 (PL91-285_84Stat314.pdf, 84
+  Stat. 317) [paraphrase]. The 1975 Act redesignated them ss. 204 and 205 and amended them (STATUTE-89-Pg400.pdf,
+  Pub. L. 94-73, ss. 302-304, 89 Stat. 403) [paraphrase].
 - Bearing: supports 7-D02 (a permanent prohibition of the literacy gate, with no end date, from 6 Aug. 1975) and
-  3.2 (the gate closed by statute nationwide).
+  3.2 (the gate closed by statute in every State and political subdivision).
+- Corrected by the Fable read (sitting F, 2026-11-19): I read 89 Stat. 400 and 84 Stat. 314-315 as page images, not only as OCR, and the 1994 Code page whole; all eight quotations are exact and the s. 102 paraphrase matches the print. Two word-level changes. "Anywhere in the United States" and "nationwide" went past the text, which says "in any State or political subdivision of a State" and s. 201 does not define "State" (s. 202(h), 84 Stat. 317, defines it for s. 202 alone; the Act's general definitions in s. 14(c) were not read); both now follow the text. The pointer to enforcement named ss. 302-304 as if they were the enforcement sections and said they were unread; I read 84 Stat. 317 and 89 Stat. 403, and the note now gives the 1970 sections, their 1975 numbers and both locators.
