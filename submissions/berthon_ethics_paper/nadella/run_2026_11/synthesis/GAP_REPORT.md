@@ -294,3 +294,151 @@ where a library user would find the work; no library is named.
 | 22 | Brandt and Clinton 2002; Brandt 2001 | 1.2 frame | *JLR* 34(3), 337–356; CUP 10.1017/cbo9780511810237 |
 | 23 | Primary items skipped at cap: *Tilden* 1978; Locke's 1695 memorandum; Stamp Act 1712; Macaulay 1835 (copy on disk) | 3.4, 3.5, 3.7 | CanLII / Ontario Reports; Electronic Enlightenment or printed Locke correspondence; Statutes at Large; Sharp (ed.), *Selections from Educational Records* (1920) |
 | 24 | Depth fixes for cleared cards: *Davis* page images; *Saunders* in [1971] AC with Lord Pearson's speech; Olney J's *Yorta Yorta* judgment; VRA committee reports; Chiaramonti 1995; Dittmar version of record | Quotation-grade text and the reasons behind the statutes | F. Supp. vol. 81; Appeal Cases 1971; Federal Court of Australia reports; Congressional Serial Set; *Histórica* / Peruvian sources (not searched); *QJE* 126(3) |
+
+---
+
+# GAP_REPORT — Part B (the present)
+
+Agent-drafted (agent SB, opus, 2026-11-19). The author has not reviewed it and none of the text is his. No sentence
+here is written for the paper. Part A above is agent GA's and is unchanged. Card notation and flags follow
+`EVIDENCE_MAP.md`; "CE-" and "CONF-" point to `COUNTER_EVIDENCE.md` and `CONFLICTS_FOR_LEAD.md`.
+
+## B1. Coverage register, Phase B
+
+### B1.1 Scout and cards
+
+| Measure | Count | Source |
+|---|---|---|
+| Works identified (`scout/SOURCES_B.tsv` rows) | 71 | B1 12, B2 16, B3 20, B4 16, B5 7 |
+| Record `OK` / `NOT FOUND` / `MISMATCH` | 55 / 12 / 4 | `scout/SCOUT_B.log.md` "Tally" |
+| Scout access: full / partial / library / blocked / unsearched | 31 / 2 / 3 / 19 / 16 | same |
+| Citing-work stage (Step 5) | not run | OpenAlex rate-limited, Semantic Scholar blocked; one disk-found row added |
+| Cards written (cap cut to 30 by PLAN §10 cuts 1–5) | 27 | B1 5, B2 4, B3 6, B4 6, B5 6 |
+| Basis after the Fable read: full / partial / abstract / secondary | 15 / 12 / 0 / 0 | card frontmatter |
+| `verified`: true / corrected / pending / rejected | 0 / 27 / 0 / 0 | card frontmatter; `STATUS.md` still lists seven as pending (CONF-21) |
+| Cards whose basis the Fable read raised to full-text after reading the whole source | 5 | narayanan2025ai, burrell2024domination, susser2019technology, tang2025darkgui, wachter2017right; olghamm2026urteil restored to full |
+
+### B1.2 Existing library cards that Phase B sections lean on and that are still pending or unverified
+
+| Card (subfolder, basis) | Section it serves | Status |
+|---|---|---|
+| bep/lazar2024governing (P); bep/lazar2024legitimacy (P) | 2.3 route (ii), 6-authority | pending |
+| bep/gadeke2020mugger (P) | 2.3, ARGUMENT A7(ii) | pending |
+| bep/sparks2022rule (S) | 6-automation | pending, secondary |
+| bep/arbel2025how (A) | 6-smartreader | pending, abstract |
+| bep/cppa2025text (P); bep/colorado2026automated (P); bep/cfpb2026notifications (P) | 4.2, 4.4-contest, D02 | pending |
+| bep/europeancommission2026commission (F); bep/gallot2026securing (F) | ARGUMENT A4 | pending |
+| bep/microsoft2026tutorial (P); bep/openai2025gpt (P) | 4.4 (P9 reasoning record) | pending |
+| bep/appealscentre2026transparency (P) | D04 | pending |
+| bep/talevski2020teach (P); bep/felt2015improving (P) | D06, D07 | pending |
+| bep/lassiter1959northampton (F); bep/thomson1759enquiry (P) | 3.2, 3.1 | pending |
+| ade/sap2019 (F); ade/hofmann2024 (F) | 4.1 dialect row | no verification value in the index |
+| bec/willis2008against (P) | 6-responsibilization | writer-grounded |
+
+## B2. Present-side gaps, by section of `STRUCTURE.md`
+
+| Section | Gap | What would close it |
+|---|---|---|
+| Intro, 4.3 | "The most explicit design for governing agents" rests on no comparison; B2 read four frameworks under the cut (CE-4.3) | Card the skipped frameworks (OWASP, AWS scoping matrix, WEF, OpenAI terms) or drop the superlative |
+| 4.1 monopoly row | No run card on concentration of compute or weights; ledger E07 left it "open" (CONF-46) | A competition-authority source (the CMA 2023 card exists in `bec/`, not reopened) read for a Stationers-type property, or drop the row |
+| 4.1 withheld-competence row | The platform cases show opacity, not a bar on a competence (CE-4.10) | A source on a bar to producing one's own record or instructing the system (e.g. terms invoked against worker tools, ledger D04) |
+| 4.1 promise row | No evaluation evidence on AI-literacy training either way | Tully, Longoni and Appel 2025 (OSF preprint is an untried open route); Ng et al. 2021 (DOAJ-listed); UNESCO and OECD/EC frameworks themselves (not fetched; Lund's p. 4 reading is one paragraph) |
+| 4.1 dialect row | Only `ade/` cards with no verification value | Re-verify sap2019, hofmann2024 or card a verified source |
+| 4.2 | Art. 26(11)'s own text is on no card; arts. 26(11) and 86 not in application in November 2026 (CE-4.8) | Read art. 26 and the Omnibus point (40)(b) into a card; date the rights |
+| 4.2 | "Necessary" (disclosure, training) untested; Berthon p. 457 is about information in digital addiction (CE-4.7) | Evidence for or against the necessity of disclosure; otherwise cite p. 457 as what it is |
+| 4.2 | US state rules rest on pending cards and start in 2027 | Clear cppa2025text and colorado2026automated |
+| 4.2, 4.4 loss | No 2025–26 merits decision on what an agent *did*, as opposed to said | LG München I (28 May 2026) primary text; a search of consumer-court databases for agent acts |
+| 4.3 | Entra Agent ID page on disk, uncarded (scout MISMATCH); "AI agent shared responsibility model" (linked from microsoft2026artificial) not fetched; Microsoft Security Blog posts of 5 and 17 Nov 2026 not fetched | Card the three Microsoft Learn and blog pages |
+| 4.4 record | P15's reader unnamed; the CSRB 2024 report, which would tie the 2023 log widening to an intrusion, not reached; jakkal2023's page modified June 2025 | CSRB report from a government-documents collection; an archived 2023 capture of the post |
+| 4.4 stop | No source gives the person acted on a stop right; Copilot Studio's per-tool approval may land on whoever chats (CE-4.9) | Microsoft documentation of customer-facing approval flows |
+| 4.4 contest | No source on platform-work courts (Amsterdam 2023 judgments not located) | rechtspraak.nl, by case number |
+| 4.4 loss | Where Microsoft's Customer Copyright Commitment is written into contract is not established | Microsoft Product Terms |
+| 2.3 | The domination route for a one-off dealing rests on pending Gädeke and second-hand McCammon, O'Shea, Pettit (CE-2.3) | Gädeke 2020 cleared; Pettit 1997 pp. 52–74; McCammon; Maas 2022 (neo-republican, blocked) |
+| 6-automation | Sparks and Jayaram blocked; Kleinberg's QJE version unread; no critic of Kleinberg read | De Gruyter in a browser; QJE 133(1) |
+| 6-paternalism, 6-cost | No source in the run (CE-6.7, CE-6.8) | Scherer et al. 2023 reopened; a source on the cost of a human route |
+| 6-responsibilization | Shamir 2008 and Draper and Turow 2019 blocked; Willis writer-grounded | Library copies (below) |
+| 6-scale | Narayanan and Kapoor Part IV ("binary distinction", "category error") unanswered by any card (CE-6.3) | A source on graded human oversight under art. 22 / Annex III |
+| D03 | Precedents run toward merchants; no consumer-side envelope found; Visa unused in the record read (CE-7.1) | AP2's linked files (`checkout_mandate.md`, `payment_mandate.md`); evidence of deployment |
+| D08 | No precedent in either phase | Kulesza and other scaffolding sources in the ledger (D08) are outside this run |
+| Commentary | No reply to Nadella's post after 24 Oct 2026 in two WebSearch queries; scholarly indexes and X not searched; no Nadella post after 10 Oct found on the one site checked | Google Scholar; the author's X and LinkedIn accounts |
+
+## B3. Novelty risks — who has already said it
+
+Stated only for the sources read. The unlisted-works search did not run in either phase (B1.1; Part A §1.4), so
+none of these rows can be turned into "no one has said X".
+
+| The paper's claim or move | Who already says it | Locator | Card (basis, verified) | What is left to the paper, on the sources read |
+|---|---|---|---|---|
+| Technological literacy campaigns repeat print literacy's errors; AI literacy is oversold and blames the individual | Kamperman and Graff 2026 | pp. 35–36 ("repeat many of the conceptual errors ... reiterating two harmful myths"; "the fault of the individual") | bec/kamperman2026ai (F, T) | They treat the myth (skills, economic security), not the gate, withholding, record, monopoly or a third party between two people (ledger K08) |
+| New "literacies" are metaphors sold by organisations, coding literacy among them | Graff 2022 | p. 49 | run/graff2022new (F, C) | A contest of the label more than prior art |
+| AI-literacy frameworks train consumers and serve the institutions that build AI | Lund and Teel 2026 (arXiv preprint, no venue) | p. 4 (banking model; "the same institutions that create AI systems"); p. 7 ("not neutral but complicit") | run/lund2026powerknowledge (F, C) | Their only literacy history is Houston 1983 (Fable V-B-2); their remedy is another literacy |
+| Skills training is sold as the pragmatic solution; literacy overpromises; XAI does not reach those harmed | Stamboliev 2023 | p. 218 ("the pragmatic solution to a complex problem"; "may overpromise"); p. 216 (her speculation, not a finding); p. 217 | run/stamboliev2023postcritical (P, C) | Public-sector cases; corporate AI set aside as "harder" (p. 219) |
+| Responsibility for agent failures defaults to the end user | Tang et al. 2025 (arXiv v1) | p. 16 | run/tang2025darkgui (F, C) | Their person at risk is the agent's own user on test sites; they also prescribe user literacy (p. 18) |
+| Notice alone does not neutralise manipulation | Susser, Roessler and Nissenbaum 2019 | p. 13 | run/susser2019technology (F, C) | Carried as support, not novelty; their remedy pairs awareness with curbing data collection by law |
+| The GDPR gives no right to an explanation of a specific decision; art. 22's scope is narrow | Wachter, Mittelstadt and Floridi 2017 | pp. 41, 33–35 | run/wachter2017right (F, C) | A doctrinal forecast; later CJEU cards in `bec/` |
+| Platform discretion is a loss of freedom whether or not users notice; digital domination | Hoeksema 2025; Hamilton 2025 | Hoeksema pp. 24–25; Hamilton (preprint pages) | run/hoeksema2025republican (P, C); bep/hamilton2025digital (F, T) | Neither applies it to an agent acting on a counterparty; Hoeksema doubts the single dealing |
+| Republican liberty applied to AI decisions | Sparrow 2026 | pp. 1, 6–7 | run/sparrow2026slaves (P, C) | Government only |
+| Algorithmic injustice as domination | Burrell 2024 | Abstract, §1, §3 | run/burrell2024domination (F, C) | Young's account, public-sector cases |
+| One vendor's algorithm across many employers excludes the same people | Bommasani et al. 2026; Creel and Hellman 2022 | Bommasani pp. 1–3; Creel and Hellman pp. 34, 37 | bec/bommasani2026algorithmic (F, T); run/creel2022leviathan (P, C) | Support for 4.1's gate row, not a rival thesis |
+| Accountability is spread along the AI supply chain; providers disclaim it by contract | Cobbe, Veale and Singh 2023 | §§4.1–4.3 | run/cobbe2023accountability (P, C) | The proposed Act, not the adopted one |
+| Historical analogies (the printing press) misgovern AI unless their properties are isolated | Qadri, Prabhakaran and Denton 2026; Maas 2023 | Qadri p. 1; Maas Part IV, Table 2 | bec/qadri2026ai (F, T); run/maas2023ai (F, C) | Maas lists 55 analogies and none for print, writing or literacy (Fable V-B-1 text search) |
+| Operator controls (circuit breakers, audits, reversibility) as the right model; reasoning from past technological revolutions | Narayanan and Kapoor 2025 | Parts II–III | run/narayanan2025ai (F, C) | A rival frame, not prior art for the paper's thesis |
+| Programming set beside mass literacy | Vee 2013 (and Vee 2017, unread) | — | bec/vee2013understanding (F, T) [NR] | Ledger K08: power goes to the skilled; no gate, record or third party |
+
+Searched and not reached, so not ruled out: Cinar 2025, Lastowka 2012, Mahardhika 2026 (PLAN §4.6, the nearest prior
+analogies), Vee 2017, Ayres and Balkin 2024, Gabriel et al. 2024, Kasirzadeh and Gabriel 2025.
+
+## B4. Blocked or unread sources, and where a library user would find each
+
+| Work | Status in the run | Where |
+|---|---|---|
+| Cyber Safety Review Board, review of the Summer 2023 Exchange Online intrusion (2024) | CISA PDF 404 twice | CISA publications listing; DHS press release of 2 Apr 2024; government-documents collection |
+| Microsoft Frontier Governance Framework (2025) | 404 at guessed URL | Microsoft's 2025 Responsible AI Transparency Report; an archived capture of microsoft.com |
+| Microsoft Entra "What are agent identities?" | on disk, uncarded (MISMATCH) | Microsoft Learn (open) |
+| Microsoft "AI agent shared responsibility model" | not fetched | Microsoft Learn (open), linked from microsoft2026artificial |
+| Microsoft Security Blog, 5 and 17 Nov 2026 posts | listed, not fetched | Microsoft Security Blog (open) |
+| Microsoft Product Terms (Customer Copyright Commitment) | not opened | Microsoft Product Terms site (open) |
+| OpenAI Terms of Use; ChatGPT agent help page | 403 | publisher's site in a browser |
+| WEF "AI Agents in Action"; OWASP agentic threats; AWS scoping matrix | 403 / skipped at cap | publishers' sites (OWASP and AWS saved locally by the scout) |
+| Ayres and Balkin 2024 | SSRN 403 | SSRN 4862025 in a browser; authors' repositories |
+| Ananny and Crawford 2018 | SAGE challenge | *New Media & Society* 20(3), 10.1177/1461444816676645 |
+| Long and Magerko 2020; Bhatt et al. 2020; Mathur, Mayer and Kshirsagar 2021; Almada 2019 | ACM challenge | ACM Digital Library: 10.1145/3313831.3376727; 10.1145/3351095.3375624; 10.1145/3411764.3445610; ICAIL 2019 |
+| Shamir 2008 | no open route | *Economy and Society* 37(1), 10.1080/03085140701760833 |
+| Draper and Turow 2019 | no open route | *New Media & Society* 21(8), 10.1177/1461444819833331 |
+| Ng et al. 2021 | ScienceDirect 403; repository redirect loop | *Computers and Education: AI* 2, 10.1016/j.caeai.2021.100041 (DOAJ-listed) |
+| Tully, Longoni and Appel 2025 | skipped at cap | *Journal of Marketing*, 10.1177/00222429251314491; OSF preprint 10.31234/osf.io/t9u8g |
+| Luguri and Strahilevitz 2021 | skipped at cap | *Journal of Legal Analysis*, 10.1093/jla/laaa006 |
+| Hoffman et al. 2026, "Echoes of Urgency" | skipped at cap | AERA proceedings, 10.3102/2281796 |
+| OECD and UNESCO AI-literacy / competency frameworks | NOT FOUND or not fetched | oecd.org; unesco.org |
+| Maas 2022 (neo-republican) | ScienceDirect captcha | *Journal of Responsible Technology* |
+| Sparks and Jayaram 2022 | De Gruyter empty response | *Moral Philosophy and Politics* |
+| Widder and Nafus 2023; Adams-Prassl et al. 2023 | SAGE challenge | *Big Data & Society*; SSRN 4373355 |
+| Anderson 2017, *Private Government* | disk file is a different work | Princeton University Press |
+| Karusala et al. 2024 (contestability) | closed | CHI 2024 proceedings |
+| Lazar 2025, "Governing the Algorithmic City" | on disk only as the arXiv Lecture I preprint | *Philosophy & Public Affairs*, 10.1111/papa.12279 |
+| Amsterdam Court of Appeal 2023 (drivers) | case numbers not located | rechtspraak.nl |
+| Kleinberg et al. 2018, QJE version of record | WP read instead | *Quarterly Journal of Economics* 133(1), 237–293 |
+| Sunstein 2019; Sunstein 1993 | closed / not attempted | Project MUSE, SSRN 3300171 in a browser; JSTOR, HeinOnline (106 Harv. L. Rev. 741) |
+| Maas 2023, PDF version | Cloudflare; SSRN 403 | law-ai.org in a browser |
+| Visa TAP press release (full text) | script shell | usa.visa.com in a browser |
+| OLG Hamm press release 16/26 | HTTP 410 | court site archive |
+| LG München I, 28 May 2026 (Google AI Overviews) | secondary reports only | gesetze-bayern.de |
+| IMDA framework pp. 5–24, 31–42, 50–53; IMDA's own statement of the framework's status | unread | imda.gov.sg |
+| ACP machine-readable specs, Webhooks RFC, Delegate Payment spec | unread (two saved) | the repository; OpenAI and Stripe documentation |
+| AP2 linked files | unread | the AP2 repository |
+| Ashkenazi 2025; "Empowering Consumers with Personal AI Agents" | NOT FOUND | — |
+
+## B5. Library list for Phase B, in order of need
+
+1. Gädeke 2020 cleared, with Pettit 1997 and McCammon: they decide CE-2.3, the refund case (ARGUMENT call 2).
+2. AI Act art. 26 and Omnibus point (40)(b), read into a card: CONF-1, CE-4.8.
+3. LG München I (28 May 2026) and any 2026 decision on an agent's acts: CE-4.4.
+4. Microsoft Learn: Entra agent identities, "AI agent shared responsibility model", customer-facing Copilot Studio
+   approvals: CE-4.2, CE-4.9.
+5. Lazar 2025 (P&PA) and the two pending Lazar cards: 2.3 and 6-authority.
+6. Shamir 2008; Draper and Turow 2019; Willis re-read: CE-6.4 against D08.
+7. Tully et al. 2025; Ng et al. 2021; the UNESCO and OECD/EC frameworks: 4.1 promise row and 4.2 "necessary".
+8. CSRB 2024 report: 4.4 record row (jakkal2023).
+9. Microsoft Product Terms; OpenAI Terms of Use: 4.4 loss row, CE-4.5.
+10. Citing-work searches for Kamperman and Graff 2026, Lund and Teel 2026, Stamboliev 2023, Long and Magerko 2020: B3
+    novelty.
