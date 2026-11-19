@@ -8,7 +8,7 @@ does not) the verdict is confirmed not to be a coordination-game-difficulty meas
 Method: for each corpus form, read its commit function; run two fictitious-play learners whose reward is
 the commit; record episodes-to-stable-coordination; correlate with the verdict and compare to Probe 98.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_tom_agents
+Run:  python -m org_frontier.probes.probe_tom_agents
 """
 
 import os

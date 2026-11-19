@@ -8,7 +8,7 @@ choices (does S read W; does S read C; is there a direct W↔C channel), classif
 
 Nodes: 0=W, 1=S, 2=C. Determination S' = (inputs S reads); parties track S, plus any direct channel.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_info_asymmetry
+Run:  python -m org_frontier.probes.probe_info_asymmetry
 """
 
 from .lib import verdict

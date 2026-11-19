@@ -7,7 +7,7 @@ while serial topologies (chain) keep a fixed Φ=2.0 and the single hub does not 
 single-hub, two-hub, and all-required pool forms at n=4 and n=5; report the verdict, Φ, and the change in
 Φ from n=4 to n=5.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_topology_map
+Run:  python -m org_frontier.probes.probe_topology_map
 """
 
 import os

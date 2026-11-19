@@ -6,7 +6,7 @@ lose pivotality once the hub cluster is large enough to carry the integration on
 where the core is not full (n=6, m=3 and m=4), read the major complex and label each in/out node as a hub
 or a party.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_intermediate_hub
+Run:  python -m org_frontier.probes.probe_intermediate_hub
 """
 
 import os

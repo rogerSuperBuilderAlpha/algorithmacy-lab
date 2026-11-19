@@ -6,7 +6,7 @@ holds for AND-all at every size, and OR-all behaves identically by the AND/OR sy
 shows (#7, #10). Method: build the AND-all hub at n=4..7 and the OR-all hub at n=4..6; read Φ and the core.
 (n=8 exact SIA does not finish in reasonable time, so the law is verified across n=4..7.)
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_conjunctive_law
+Run:  python -m org_frontier.probes.probe_conjunctive_law
 """
 
 import os

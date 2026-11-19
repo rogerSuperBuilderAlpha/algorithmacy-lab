@@ -7,7 +7,7 @@ though it does not track success. Method: for each corpus form, find its attract
 flip each node in each attractor state, count deterministic steps to return to the attractor (recovery
 time), and correlate the mean recovery time with the verdict.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_resilience
+Run:  python -m org_frontier.probes.probe_resilience
 """
 
 import os

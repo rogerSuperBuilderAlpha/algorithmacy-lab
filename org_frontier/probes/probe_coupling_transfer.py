@@ -7,7 +7,7 @@ panel, so the cheap instrument reduces to one number. Method: compute the eight 
 n=3, n=4, n=5 (reusing #99's pipeline), then evaluate mean-pairwise-MI alone — its rank-AUC in-sample at
 n=3 and transferred to n=4 and n=5.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_coupling_transfer
+Run:  python -m org_frontier.probes.probe_coupling_transfer
 """
 
 import os

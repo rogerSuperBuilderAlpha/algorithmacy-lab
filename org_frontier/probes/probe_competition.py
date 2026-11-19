@@ -10,7 +10,7 @@ relocates the core to {W1,W2}.
 
 Nodes: 0=W1, 1=S, 2=C, 3=W2.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_competition
+Run:  python -m org_frontier.probes.probe_competition
 """
 
 from .lib import verdict, major_complex

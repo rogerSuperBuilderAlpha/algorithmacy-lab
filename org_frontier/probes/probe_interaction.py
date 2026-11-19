@@ -9,7 +9,7 @@ principal pulls a {S,P}-centric core, or they combine. Honest exploration; repor
 
 Nodes: 0=W, 1=S, 2=C1, 3=C2, 4=P.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_interaction
+Run:  python -m org_frontier.probes.probe_interaction
 """
 
 from .lib import verdict, major_complex

@@ -7,7 +7,7 @@ Method: sample strict-mediation n=4 forms, predict the core as {S} ∪ {outer pa
 coupled to S}, and compare with the actual major complex. Report exact-set match and node-level
 precision/recall.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_team_core_rule [N] [seed]
+Run:  python -m org_frontier.probes.probe_team_core_rule [N] [seed]
 """
 
 import sys

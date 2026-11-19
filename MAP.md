@@ -15,6 +15,7 @@ Start here. The full directory lives in [`README.md`](README.md); the operating 
 | [`AGENTS.md`](AGENTS.md) | Operating manual for agents: map, run/verify, git rule, land flow, done-checklist |
 | [`README.md`](README.md) | What the lab is, the thesis, setup, and the full generated directory |
 | [`OVERVIEW.md`](OVERVIEW.md) | Five-minute orientation: the argument, where it stands, where to contribute |
+| [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md) | The open threads with a status column: what is waiting for someone, and what each needs |
 | [`GETTING_STARTED.md`](GETTING_STARTED.md) | Hands-on: environment → confirm the instrument → scaffold → register → PR |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Code, probe, study, and house-style conventions a submission must meet |
 | [`REPO_LAYOUT.md`](REPO_LAYOUT.md) | The two-repo git trap: this repo vs the nested private dissertation |
@@ -87,6 +88,7 @@ Run the relevant generator after adding content, then verify with its `--check`.
 |---|---|---|
 | [`tools/build_index.py`](tools/build_index.py) | `python tools/build_index.py` | the generated directory in README.md |
 | [`tools/build_map.py`](tools/build_map.py) | `python tools/build_map.py` | this file, MAP.md |
+| [`tools/build_catalog.py`](tools/build_catalog.py) | `python tools/build_catalog.py` | catalog.json — the searchable index of questions, probes, studies, and open threads (`--find`) |
 | [`org_frontier/research/build_research_index.py`](org_frontier/research/build_research_index.py) | `python org_frontier/research/build_research_index.py` | the research watch INDEX.md |
 | [`ci/reproduce.py`](ci/reproduce.py) | `python ci/reproduce.py` | every registered number in ci/reproduce.json |
 
@@ -101,3 +103,4 @@ Run the relevant generator after adding content, then verify with its `--check`.
 | 9 | foundations experiments | `foundations/*/` with a `FINDINGS.md` |
 | 10 | literature reviews | `org_frontier/reviews/*/` with a `FINDINGS.md` |
 | 773 | watch entries (program-level) | `org_frontier/research/*/literature/references.bib` |
+| 15 | open threads | `OPEN_QUESTIONS.md` rows with status `open` |

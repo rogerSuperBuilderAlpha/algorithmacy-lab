@@ -9,7 +9,7 @@ a system sits between the parties. Only a joint determination (algorithmacy) is 
 
 Nodes: 0=W, 1=S, 2=C.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_cmc
+Run:  python -m org_frontier.probes.probe_cmc
 """
 
 from .lib import verdict, major_complex

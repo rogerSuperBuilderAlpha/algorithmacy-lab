@@ -10,7 +10,7 @@ reachability) against the verdict and report the best.
 
 Reads: org_frontier/probes/results/residual_panel.csv (run Probe 125 first).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_attractor_condition
+Run:  python -m org_frontier.probes.probe_attractor_condition
 """
 
 import csv

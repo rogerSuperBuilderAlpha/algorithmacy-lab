@@ -9,7 +9,7 @@ factors) while others persist — so the verdict is grain-relative, a caveat for
 
 Nodes: 0=W, 1=S, 2=C.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_temporal_grain
+Run:  python -m org_frontier.probes.probe_temporal_grain
 """
 
 import numpy as np

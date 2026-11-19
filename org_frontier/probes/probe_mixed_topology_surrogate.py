@@ -7,7 +7,7 @@ archetypes where strict-mediation-only training did not. Method: build two train
 only; strict-mediation plus random arbitrary wirings), score each against the same held-out archetype
 forms (single-hub, OR-hub, chain, pool, parity, majority, two-hub).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_mixed_topology_surrogate
+Run:  python -m org_frontier.probes.probe_mixed_topology_surrogate
 """
 
 import os

@@ -8,7 +8,7 @@ and label forms parity-triadic / conjunctive-triadic / dyadic; for each feature 
 hard contrast (parity-triadic vs dyadic) and on the easy one (conjunctive-triadic vs dyadic); the feature
 with high AUC on the hard contrast is the parity detector.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_parity_detector
+Run:  python -m org_frontier.probes.probe_parity_detector
 """
 
 import os

@@ -6,7 +6,7 @@ seed. Method: over the triadic forms of the strict-mediation n=3 family, compute
 proper subsystems (every single node and pair, with the others as background). A triadic form whose
 best proper subset has Φ = 0 is purely higher-order.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_pure_higher_order
+Run:  python -m org_frontier.probes.probe_pure_higher_order
 """
 
 import itertools

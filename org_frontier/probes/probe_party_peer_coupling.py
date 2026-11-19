@@ -6,7 +6,7 @@ edges — each party reading the other parties as well as the hubs — keeps the
 intermediate m where they otherwise drop. Method: build a symmetric m-hub with added party-to-party
 coupling and compare its core at the intermediate m to the plain symmetric m-hub.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_party_peer_coupling
+Run:  python -m org_frontier.probes.probe_party_peer_coupling
 """
 
 import os

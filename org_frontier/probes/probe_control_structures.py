@@ -8,7 +8,7 @@ require agreement) are the rare fragile ones, which is why the parity blind spot
 practice. Method: model named two-actor control structures as a commit S(W, C); classify each commit's
 type, verdict, and Φ.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_control_structures
+Run:  python -m org_frontier.probes.probe_control_structures
 """
 
 import os

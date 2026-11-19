@@ -8,7 +8,7 @@ dependence measures track correlation, not irreducibility — against the fish-s
 H45: the Φ verdict cleanly separates dyadic/triadic; MI(W;C) and transfer entropy overlap heavily
 between the classes (they measure dependence, not integration).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_phi_vs_mi_te
+Run:  python -m org_frontier.probes.probe_phi_vs_mi_te
 """
 
 import numpy as np

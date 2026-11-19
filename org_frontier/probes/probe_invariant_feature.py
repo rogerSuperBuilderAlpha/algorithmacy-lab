@@ -8,7 +8,7 @@ the verdict across topologies where raw MI does not. Method: over the archetype 
 pairwise MI, total correlation per node, and O-information on noisy trajectories; report each feature's
 cross-topology AUC against the verdict and the pools' raw-MI value.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_invariant_feature
+Run:  python -m org_frontier.probes.probe_invariant_feature
 """
 
 import os

@@ -6,7 +6,7 @@ not separate the groups, so length does not rescue it. Method: across a sample o
 corpus forms, estimate Φ_R from trajectories of increasing length and track the triadic−dyadic group
 separation as length grows.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_phiid_length
+Run:  python -m org_frontier.probes.probe_phiid_length
 """
 
 import os

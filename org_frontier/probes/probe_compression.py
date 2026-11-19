@@ -9,7 +9,7 @@ not read drops out of the worker's footprint in the coordination, even though th
 
 Nodes: 0=W1, 1=W2, 2=S, 3=C. Both intent bits and C track the determination S; only S' varies.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_compression
+Run:  python -m org_frontier.probes.probe_compression
 """
 
 from .lib import verdict, major_complex

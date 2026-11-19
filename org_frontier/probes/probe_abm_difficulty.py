@@ -8,7 +8,7 @@ take longer to converge than on a dyadic commit one agent alone can drive. Metho
 read its commit function S(W,C); run two independent epsilon-greedy Q-learning bandits whose reward is
 the commit value; record episodes-to-stable-success (difficulty); correlate difficulty with the verdict.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_abm_difficulty
+Run:  python -m org_frontier.probes.probe_abm_difficulty
 """
 
 import os

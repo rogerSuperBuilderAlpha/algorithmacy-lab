@@ -9,7 +9,7 @@ reachable dynamics collapsing toward the exited state, so the triad is fragile.
 
 Nodes: 0=W, 1=S, 2=C. Compare a counterpart that always re-engages with one that can exit.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_exit
+Run:  python -m org_frontier.probes.probe_exit
 """
 
 from .lib import verdict, major_complex

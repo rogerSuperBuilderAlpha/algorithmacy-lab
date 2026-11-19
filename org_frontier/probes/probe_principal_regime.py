@@ -8,7 +8,7 @@ and rate how often the major complex is exactly {S,P} (both human parties ejecte
 
 Nodes: 0=W, 1=S, 2=C, 3=P.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_principal_regime
+Run:  python -m org_frontier.probes.probe_principal_regime
 """
 
 import itertools

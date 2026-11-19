@@ -12,4 +12,4 @@
 
 **Caveats.** <size, dynamics, regime, grain/schedule.>
 
-**Reproduce.** `~/iit-playground/venv-4.0/bin/python -m org_frontier.questions.q<NN>_<slug>.probe_<slug>`
+**Reproduce.** From the repo root with the venv active: `python -m org_frontier.questions.q<NN>_<slug>.probe_<slug>` (about <seconds> s).

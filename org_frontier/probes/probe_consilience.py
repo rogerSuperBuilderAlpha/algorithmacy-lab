@@ -10,7 +10,7 @@ cache the panel, and cross-tabulate each measure's best-threshold agreement with
 
 Writes: org_frontier/probes/results/consilience_panel.csv (read by Probes 90, 91).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_consilience
+Run:  python -m org_frontier.probes.probe_consilience
 """
 
 import csv

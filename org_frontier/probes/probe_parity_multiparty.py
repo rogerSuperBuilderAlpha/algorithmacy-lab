@@ -9,7 +9,7 @@ monotone determinations (AND, OR, MAJ) may drop or weaken parties.
 
 Nodes: 0=W, 1=S, 2=C1, 3=C2. W, C1, C2 track S.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_parity_multiparty
+Run:  python -m org_frontier.probes.probe_parity_multiparty
 """
 
 from .lib import verdict, major_complex

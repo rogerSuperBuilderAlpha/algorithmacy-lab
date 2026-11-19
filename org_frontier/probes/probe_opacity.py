@@ -10,7 +10,7 @@ opacity is necessary, and partial opacity may still sustain the triad.
 
 Nodes: 0=W, 1=S, 2=C. W' blends S (opaque) and C (transparent); S'=W∧C; C'=S.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_opacity
+Run:  python -m org_frontier.probes.probe_opacity
 """
 
 import csv

@@ -13,7 +13,7 @@ H12: across arbitrary wirings, (a) a non-bidirectional node is essentially never
 
 Labels A,B,C for nodes 0,1,2.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_family_validation [N] [seed]
+Run:  python -m org_frontier.probes.probe_family_validation [N] [seed]
 """
 
 import csv

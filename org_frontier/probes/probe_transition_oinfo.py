@@ -9,7 +9,7 @@ classify each, sample triadic and dyadic forms, simulate noisy trajectories, and
 O-information on the present-state triple and on the six-variable (present ⊕ next) joint. Compare the
 triadic-vs-dyadic group separation under each measure.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_transition_oinfo
+Run:  python -m org_frontier.probes.probe_transition_oinfo
 """
 
 import os

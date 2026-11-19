@@ -6,7 +6,7 @@ the all-to-all pool (#104) as every node becomes a mediator — more symmetric m
 integration, up to the pool ceiling. Method: a symmetric m-hub at fixed n (m hubs each reading all parties
 and all other hubs; each party reading all hubs); sweep m from 1 to n−1 and read Φ and the core.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_multihub_law
+Run:  python -m org_frontier.probes.probe_multihub_law
 """
 
 import os

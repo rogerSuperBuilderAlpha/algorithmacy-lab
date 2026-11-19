@@ -7,7 +7,7 @@ functions that are non-monotone and depend irreducibly on both parties. Method: 
 corpus forms, recover each commit's truth table, label it conjunctive (monotone) vs parity (XOR/XNOR),
 and cross-tab with the exact Φ (2.0 vs 0.5).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_parity_characterization
+Run:  python -m org_frontier.probes.probe_parity_characterization
 """
 
 import os

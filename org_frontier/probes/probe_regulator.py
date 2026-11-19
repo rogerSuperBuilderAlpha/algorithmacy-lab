@@ -8,7 +8,7 @@ read the major complex.
 
 Nodes: 0=W, 1=S, 2=C, 3=R.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_regulator
+Run:  python -m org_frontier.probes.probe_regulator
 """
 
 from .lib import verdict, major_complex

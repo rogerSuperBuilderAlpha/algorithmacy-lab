@@ -21,7 +21,7 @@ Method: Test the 8 voting/quorum rules from Probe 122 (PR #808) under:
   - All 6 sequential update orders
 Compare whole-system verdict, Phi, and core membership.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_voting_robustness
+Run:  python -m org_frontier.probes.probe_voting_robustness
 """
 
 import itertools

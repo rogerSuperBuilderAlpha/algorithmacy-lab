@@ -1,0 +1,173 @@
+\begin{thebibliography}{10}
+
+\bibitem{albantakis2023iit4}
+Larissa Albantakis, Leonardo Barbosa, Graham Findlay, Matteo Grasso, Andrew~M.
+  Haun, William Marshall, William G.~P. Mayner, Alireza Zaeemzadeh, Melanie
+  Boly, Bj{\o}rn~E. Juel, Shuntaro Sasai, Keiko Fujii, Isaac David, Jeremiah
+  Hendren, Jonathan~P. Lang, and Giulio Tononi.
+\newblock Integrated information theory ({IIT}) 4.0: Formulating the properties
+  of phenomenal existence in physical terms.
+\newblock {\em PLOS Computational Biology}, 19(10):e1011465, 2023.
+
+\bibitem{mayner2018pyphi}
+William G.~P. Mayner, William Marshall, Larissa Albantakis, Graham Findlay,
+  Robert Marchman, and Giulio Tononi.
+\newblock {PyPhi}: A toolbox for integrated information theory.
+\newblock {\em PLOS Computational Biology}, 14(7):e1006343, 2018.
+
+\bibitem{hunt2026algorithmacylab}
+Roger Hunt.
+\newblock algorithmacy-lab: Exact {IIT}-4.0 {$\Phi$} applied to organizational
+  coordination, with an {AI}-assisted research protocol.
+\newblock Software repository, version 0.2.0, 2026.
+
+\bibitem{simmel1950}
+Georg Simmel.
+\newblock The triad.
+\newblock In Kurt~H. Wolff, editor, {\em The Sociology of Georg Simmel}, pages
+  145--169. Free Press, Glencoe, IL, 1950.
+
+\bibitem{rochet2003platform}
+Jean-Charles Rochet and Jean Tirole.
+\newblock Platform competition in two-sided markets.
+\newblock {\em Journal of the European Economic Association}, 1(4):990--1029,
+  2003.
+
+\bibitem{armstrong2006competition}
+Mark Armstrong.
+\newblock Competition in two-sided markets.
+\newblock {\em The RAND Journal of Economics}, 37(3):668--691, 2006.
+
+\bibitem{wageman1995interdependence}
+Ruth Wageman.
+\newblock Interdependence and group effectiveness.
+\newblock {\em Administrative Science Quarterly}, 40(1):145--180, 1995.
+
+\bibitem{simmel1902number1}
+Georg Simmel.
+\newblock The number of members as determining the sociological form of the
+  group. {I}.
+\newblock {\em American Journal of Sociology}, 8(1):1--46, 1902.
+
+\bibitem{simmel1902number2}
+Georg Simmel.
+\newblock The number of members as determining the sociological form of the
+  group. {II}.
+\newblock {\em American Journal of Sociology}, 8(2):158--196, 1902.
+
+\bibitem{peirce1870description}
+Charles~S. Peirce.
+\newblock Description of a notation for the logic of relatives, resulting from
+  an amplification of the conceptions of {Boole's} calculus of logic.
+\newblock {\em Memoirs of the American Academy of Arts and Sciences},
+  9(2):317--378, 1870.
+
+\bibitem{peirce1897relatives}
+Charles~S. Peirce.
+\newblock The logic of relatives.
+\newblock {\em The Monist}, 7(2):161--217, 1897.
+
+\bibitem{richardson2005looking}
+Daniel~C. Richardson and Rick Dale.
+\newblock Looking to understand: The coupling between speakers' and listeners'
+  eye movements and its relationship to discourse comprehension.
+\newblock {\em Cognitive Science}, 29(6):1045--1060, 2005.
+
+\bibitem{connaughton2026ergodicity}
+Colm Connaughton, Jeroen, and Fabien Paillusson.
+\newblock What is ergodicity?
+\newblock Working notes (dated 28 September 2026) for the introduction to a
+  \emph{Philosophical Transactions of the Royal Society A} theme issue on
+  ergodicity, 2026.
+
+\bibitem{birkhoff1931proof}
+George~D. Birkhoff.
+\newblock Proof of the ergodic theorem.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  17(2):656--660, 1931.
+
+\bibitem{shapley1953value}
+Lloyd~S. Shapley.
+\newblock A value for $n$-person games.
+\newblock In Harold~W. Kuhn and Albert~W. Tucker, editors, {\em Contributions
+  to the Theory of Games, Volume {II}}, volume~28 of {\em Annals of Mathematics
+  Studies}, pages 307--317. Princeton University Press, Princeton, NJ, 1953.
+
+\bibitem{quine1954reduction}
+W.~V. Quine.
+\newblock Reduction to a dyadic predicate.
+\newblock {\em The Journal of Symbolic Logic}, 19(3):180--182, 1954.
+
+\bibitem{herzberger1981remarkable}
+Hans~G. Herzberger.
+\newblock {Peirce's} remarkable theorem.
+\newblock In L.~W. Sumner, John~G. Slater, and Fred Wilson, editors, {\em
+  Pragmatism and Purpose: Essays Presented to Thomas A. Goudge}, pages 41--58.
+  University of Toronto Press, Toronto, 1981.
+
+\bibitem{burch1991reduction}
+Robert~W. Burch.
+\newblock {\em A Peircean Reduction Thesis: The Foundations of Topological
+  Logic}.
+\newblock Texas Tech University Press, Lubbock, TX, 1991.
+
+\bibitem{herethcorreia2004power}
+Joachim Hereth~Correia and Reinhard P{\"o}schel.
+\newblock The power of {Peircean} algebraic logic ({PAL}).
+\newblock In Peter Eklund, editor, {\em Concept Lattices: Second International
+  Conference on Formal Concept Analysis (ICFCA 2004)}, volume 2961 of {\em
+  Lecture Notes in Computer Science}, pages 337--351, Berlin, Heidelberg, 2004.
+  Springer.
+
+\bibitem{hereth2011pal}
+Joachim Hereth and Reinhard P{\"o}schel.
+\newblock {Peircean} algebraic logic and {Peirce's} reduction thesis.
+\newblock {\em Semiotica}, 2011(186):141--167, 2011.
+
+\bibitem{koshkin2024reduction}
+Sergiy Koshkin.
+\newblock Logical reduction of relations: From relational databases to
+  {Peirce's} reduction thesis.
+\newblock {\em Logic Journal of the IGPL}, 32(5):779--809, 2024.
+
+\bibitem{williams2010nonnegative}
+Paul~L. Williams and Randall~D. Beer.
+\newblock Nonnegative decomposition of multivariate information, 2010.
+\newblock arXiv:1004.2515 [cs.IT].
+
+\bibitem{mediano2019measuring}
+Pedro A.~M. Mediano, Anil~K. Seth, and Adam~B. Barrett.
+\newblock Measuring integrated information: Comparison of candidate measures in
+  theory and simulation.
+\newblock {\em Entropy}, 21(1):17, 2019.
+
+\bibitem{mediano2021taxonomy}
+Pedro A.~M. Mediano, Fernando~E. Rosas, Andrea~I. Luppi, Robin~L.
+  Carhart-Harris, Daniel Bor, Anil~K. Seth, and Adam~B. Barrett.
+\newblock Towards an extended taxonomy of information dynamics via integrated
+  information decomposition.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  122(39):e2423297122, 2025.
+\newblock Preprint first circulated in 2021 as arXiv:2109.13186 [q-bio.NC].
+
+\bibitem{belousov2027dial}
+Anatolii Belousov, Joseph Macey, Mila Buji{\'c}, Timo Ojell-J{\"a}rventausta,
+  and Juho Hamari.
+\newblock Designing the future of consciousness: A components framework and
+  speculative implications.
+\newblock {\em International Journal of Human-Computer Studies}, 218:103926,
+  2027.
+
+\bibitem{hoel2013causal}
+Erik~P. Hoel, Larissa Albantakis, and Giulio Tononi.
+\newblock Quantifying causal emergence shows that macro can beat micro.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  110(49):19790--19795, 2013.
+
+\bibitem{marshall2026intrinsic}
+William Marshall, Graham Findlay, Larissa Albantakis, and Giulio Tononi.
+\newblock Intrinsic units: Identifying the grain of units for integrated
+  information theory.
+\newblock {\em Entropy}, 28(4):385, 2026.
+
+\end{thebibliography}

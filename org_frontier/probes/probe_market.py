@@ -7,7 +7,7 @@ and classify.
 
 Nodes: 0=B (buyer), 1=S (clearinghouse), 2=Se (seller), and for the two-buyer case 3=B2.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_market
+Run:  python -m org_frontier.probes.probe_market
 """
 
 from .lib import verdict, major_complex

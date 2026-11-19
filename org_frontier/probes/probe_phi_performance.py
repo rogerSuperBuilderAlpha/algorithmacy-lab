@@ -11,7 +11,7 @@ H48: Φ correlates positively with the performance proxy — more integrated coo
 successful determinations more reliably (the Engel-Malone direction), OR the relationship is weak
 (as Probe 29 hinted: triadic ≠ automatically higher success). Report whichever holds.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_phi_performance
+Run:  python -m org_frontier.probes.probe_phi_performance
 """
 
 from org_frontier.classifier.classifier import classify_rules

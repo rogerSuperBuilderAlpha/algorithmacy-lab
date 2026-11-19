@@ -6,7 +6,7 @@ node relabeling is an IIT isomorphism. Method: over the strict-mediation n=3 fam
 W↔C-swapped form (swap nodes 0 and 2, and swap the mediator's two inputs), classify, and compare Φ and
 verdict to the original. Count any flips or Φ differences.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_role_symmetry
+Run:  python -m org_frontier.probes.probe_role_symmetry
 """
 
 from org_frontier.classifier.classifier import classify_rules

@@ -1,0 +1,22 @@
+# Flags: *Organization Science*, AI-Enabled Frontiers
+
+[DRAFTED by Claude, 26 Oct 2026. Cautions kept out of the prose.]
+
+1. **Due 1 Nov 2026,** with three parts: a proposal, a technical appendix and an anonymized repository. The editors' FAQ says "just send us an email" for slight lateness. Do not rely on that.
+2. **Anonymity versus the public repo.** algorithmacy-lab is public under the author's GitHub name. The submission needs an anonymized copy (for example an anonymous mirror) with no author names and no commit history. This is the largest practical obstacle.
+3. **Fit is low to moderate.** The call is about AI as a research method, not AI as a topic. The proposal only fits if the AI-assisted pipeline and the case-to-model module are the contribution. A paper about algorithmacy does not fit.
+4. **Do not claim live LLM-agent probes.** The lab's AI and multi-agent arc uses "in-silico Boolean / tabular / small neural proxies (not live LLM calls...)" (`org_frontier/AI_MULTIAGENT_ARC.md`). The AI in this proposal is the research pipeline (`question_pipeline.js` uses `agent()` calls) and the proposed case-to-model module.
+5. **Numbers:** 24 of 256 triadic is in `ci/reproduce.json` (checks 303 and 503). The proxy rank-AUCs (0.563 and 0.629) are in `org_frontier/proxy_bridge/FINDINGS.md` and have **no CI check**. Add one before the appendix cites them. The best-threshold accuracy for the whole-minus-sum proxy is 0.778, so "near chance" refers to rank-AUC only.
+6. **Dissertation spine:** Φ is presented as a principled instrument. Nothing here calls it decorative or unnecessary. The limits stated are encoding sensitivity and the validation gap.
+7. **The INFORMS PDF was not read.** Format details come from the editors' Substack posts.
+
+8. **Re-run on 26 Oct 2026** [DRAFTED by Claude]. Census: 24/256; 24/160 = 15.0%; 0/96. Proxy rank-AUCs: 0.563 and 0.629. Controls: pass. The Q43 H1 and H3 checks pass. The anonymized package reproduces all of these standalone. The R1 conditional rates and R2 proxy statistics still have no dedicated `ci/reproduce.json` check.
+9. **Correction** [DRAFTED by Claude]. `question_pipeline.js` has no human-approval gate between stages. The researcher chooses the question and accepts or rejects the output. The summary that said "with a human approving each stage" was corrected, and the proposal states human approval only for the *proposed* case-to-model module.
+10. **The anonymized repository** is a scrubbed copy: no names, no lab or institution, no git history, and local paths, PR numbers and "dissertation" removed. The call asks for a Git repository, so it must be hosted somewhere anonymous before submission (see the README).
+11. **v2, 26 Oct 2026** [DRAFTED by Claude]. The author found v1 did not address the CFP. v2 makes the AI loop the contribution and Φ the oracle. New numbers: 512 hypotheses across 163 parsed questions (77.9% confirmed, 20.5% refuted, 1.6% partial), from an automated parse (`tools/tally_verdicts.py` in the anonymized repo). The refuted share is 17.1% for Q1–Q117 and 24.5% for Q118 onward, which is descriptive only. The audit facts come from `org_frontier/CRITICAL_REVIEW_Q111_Q117.md`. Hand-check a sample of the parse before the workshop.
+12. **Anonymity** [DRAFTED by Claude]. In the anonymized repo the coined construct name is replaced by "triadic competence", because searching for it would lead to the public lab. A contributor's workflow log (Q219) is removed.
+13. **Proprietary model** [DRAFTED by Claude]. The loop runs on a commercial model today. The FAQ asks for infrastructure others can access, and the proposal commits to an open-weight configuration.
+14. **v3, 26 Oct 2026** [DRAFTED by Claude]. Rewritten after the author ruled that v2 missed the CFP. Thesis wording for the author's ruling: the author said organizations will "rely exclusively on irreducible triadic infrastructure"; the proposal says "increasingly coordinate through such infrastructure", because the repo's census finds most mediated structures factor (232/256). Restore "exclusively" if wanted.
+15. **Anonymity dropped** [DRAFTED by Claude]. The CFP PDF does not require it. The repo is public under the author's name (MIT; CITATION.cff with ORCID).
+16. **Example predictions** [DRAFTED by Claude]. The examples' predictions were written knowing the lab results, and the repo README says so. Only the logged AI runs are blind.
+17. **The [REPOSITORY URL] placeholder** appears in PROPOSAL.md and TECHNICAL_APPENDIX.md and must be replaced before the PDFs are rebuilt.

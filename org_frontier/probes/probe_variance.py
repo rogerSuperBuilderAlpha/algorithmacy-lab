@@ -13,7 +13,7 @@ structure demands algorithmacy; who succeeds depends on the worker's competence 
 
 Nodes: 0=W, 1=S, 2=C.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_variance
+Run:  python -m org_frontier.probes.probe_variance
 """
 
 from .lib import verdict

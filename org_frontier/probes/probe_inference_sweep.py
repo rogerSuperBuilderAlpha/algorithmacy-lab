@@ -10,7 +10,7 @@ counterpart rather than adding to it.
 
 Nodes: 0=W, 1=S, 2=C, 3=M.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_inference_sweep
+Run:  python -m org_frontier.probes.probe_inference_sweep
 """
 
 import csv

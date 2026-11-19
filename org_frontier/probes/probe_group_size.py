@@ -13,7 +13,7 @@ H44: irreducible coordination has a strong size dependence — the constructed p
 size while the chance a random form is irreducible collapses by n=5. (Niizato's animal result is the
 exact-Φ precedent for a size-dependent transition; ours is on coordination forms.)
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_group_size
+Run:  python -m org_frontier.probes.probe_group_size
 """
 
 from .lib import verdict

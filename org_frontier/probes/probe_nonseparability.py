@@ -8,7 +8,7 @@ residual to zero error. Method: enumerate the 4096 wirings; for each compute con
 (edges, bidirectional-node count) and synergy features (the interaction term of each node's function,
 summarized); fit a decision tree and check whether the verdict is now separated perfectly.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_nonseparability
+Run:  python -m org_frontier.probes.probe_nonseparability
 """
 
 import os

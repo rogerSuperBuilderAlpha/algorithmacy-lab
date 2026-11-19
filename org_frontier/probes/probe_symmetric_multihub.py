@@ -7,7 +7,7 @@ a symmetric two-hub holds the whole group like the single hub. Method: build a s
 and n=7 (each hub = the other hub AND all parties; each party = both hubs) and compare its core to the
 single hub and to the asymmetric two-hub of #103.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_symmetric_multihub
+Run:  python -m org_frontier.probes.probe_symmetric_multihub
 """
 
 import os

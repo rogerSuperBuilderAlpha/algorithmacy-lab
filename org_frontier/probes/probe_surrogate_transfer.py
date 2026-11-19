@@ -8,7 +8,7 @@ Method: compute fixed-length aggregate features (mean/min/max over nodes and pai
 information, transfer entropy, plus the full-joint O-information) on noisy trajectories; train on the 256
 n=3 forms; test on n=4 and n=5 strict-mediation samples.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_surrogate_transfer
+Run:  python -m org_frontier.probes.probe_surrogate_transfer
 """
 
 import os

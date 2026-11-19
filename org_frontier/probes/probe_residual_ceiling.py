@@ -9,7 +9,7 @@ and the feature importances.
 
 Reads: org_frontier/probes/results/residual_panel.csv (run Probe 125 first).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_residual_ceiling
+Run:  python -m org_frontier.probes.probe_residual_ceiling
 """
 
 import csv

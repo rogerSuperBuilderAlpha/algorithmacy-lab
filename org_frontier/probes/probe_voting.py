@@ -7,7 +7,7 @@ rule; members track the decision. Classify each.
 
 Nodes: 0=W, 1=S (decision), 2=C1, 3=C2.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_voting
+Run:  python -m org_frontier.probes.probe_voting
 """
 
 from .lib import verdict, major_complex

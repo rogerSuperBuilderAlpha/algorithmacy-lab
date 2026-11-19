@@ -8,7 +8,7 @@ inertia (sticky) and parity-memory (XOR) move the magnitude but the verdict hold
 
 Nodes: 0=W, 1=S, 2=C.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_self_ref
+Run:  python -m org_frontier.probes.probe_self_ref
 """
 
 from .lib import verdict, major_complex

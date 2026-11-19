@@ -6,7 +6,7 @@ core, displacing the principal. Method: build coalition-of-k counterparts (each 
 counterparts) with an active gating+monitoring principal, for k=2 (n=5) and k=3 (n=6), and read the
 major complex.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_coalition_size
+Run:  python -m org_frontier.probes.probe_coalition_size
 """
 
 from .lib import verdict, major_complex

@@ -8,7 +8,7 @@ epoch.
 
 Nodes: 0=W, 1=S, 2=C. S' = W ∧ (C perceived at reliability r_e); W'=S; C'=S.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_adaptive
+Run:  python -m org_frontier.probes.probe_adaptive
 """
 
 import numpy as np

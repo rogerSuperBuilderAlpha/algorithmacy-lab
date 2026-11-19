@@ -9,7 +9,7 @@ regulators whose joint approval gates the commit (S requires R1∧R2). Read the 
 
 Nodes: 0=W, 1=S, 2=C, 3=R1, 4=R2.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_regulator_coalition
+Run:  python -m org_frontier.probes.probe_regulator_coalition
 """
 
 import os

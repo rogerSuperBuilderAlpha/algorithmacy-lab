@@ -7,7 +7,7 @@ a two-party worker–counterpart system; only when the AI is a peer element on t
 triadic. Method: classify the 3-element loop (A as a separate party), then build the effective two-party
 system with A absorbed into the worker (sequential within-step composition) and classify that.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_aimc_boundary
+Run:  python -m org_frontier.probes.probe_aimc_boundary
 """
 
 from org_frontier.classifier.classifier import classify_rules

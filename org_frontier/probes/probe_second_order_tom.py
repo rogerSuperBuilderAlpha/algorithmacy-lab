@@ -8,7 +8,7 @@ first-order model (W'=S∧M1), and read the major complex.
 
 Nodes: 0=W, 1=S, 2=C, 3=M1, 4=M2.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_second_order_tom
+Run:  python -m org_frontier.probes.probe_second_order_tom
 """
 
 from .lib import verdict, major_complex

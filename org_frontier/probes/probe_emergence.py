@@ -9,7 +9,7 @@ coarse-graining?
 H49: triadic forms have higher effective information than dyadic; causal emergence is ~orthogonal to
 the verdict (triadic forms do not systematically emerge), echoing emergence_vs_phi.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_emergence
+Run:  python -m org_frontier.probes.probe_emergence
 """
 
 from pyphi import convert

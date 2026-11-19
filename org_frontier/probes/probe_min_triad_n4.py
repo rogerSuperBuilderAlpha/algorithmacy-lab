@@ -7,7 +7,7 @@ n=4 family and find the fewest causal edges among triadic forms.
 H35: the n=4 minimal triad needs more edges than n=3's four — the joint determination must read all
 three outer parties and they must read back, so the floor rises.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_min_triad_n4 [N] [seed]
+Run:  python -m org_frontier.probes.probe_min_triad_n4 [N] [seed]
 """
 
 import collections

@@ -7,7 +7,7 @@ minimal structure that makes coordination irreducible, and what maximizes it?
 H30: the minimal triad has exactly the edges of a joint determination read back by both parties
 (no slack); the maximal-Φ forms cluster on a specific determination type.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_extremes
+Run:  python -m org_frontier.probes.probe_extremes
 """
 
 from org_frontier.classifier.classifier import classify_rules, cm_from_rules

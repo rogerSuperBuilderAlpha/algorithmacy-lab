@@ -18,8 +18,16 @@ pip install -r requirements.txt
 ```
 
 PyPhi installs from its IIT-4.0 line (see `requirements.txt`) and requires **Python 3.10 or newer** — the
-install fails with `requires a different Python` on an older default interpreter. Run probes and
-experiments from the repo root so `org_frontier.*` and `foundations.*` resolve.
+install fails with `requires a different Python` on an older default interpreter. That line is
+`wmayner/pyphi` `feature/iit-4.0` at `b78d0e342d37175cbd55cf35a6d52ae035b4c50f`
+(`1.2.1.dev1470+gb78d0e342`, 26 December 2025). `ci/reproduce.py` calls `pyphi.Network`,
+`pyphi.Subsystem`, and `pyphi.new_big_phi` on it, so the pin URL stays on
+`feature/iit-4.0`. Ternary and mixed-radix work uses `third_party/pyphi_iit4_mv`, packaged on
+`rogerSuperBuilderAlpha/pyphi@feat/multivalued-iit4-radix-k` (`3d96339a`). Upstream PyPhi 2.0 is
+`wmayner/pyphi` `main` at `134a8f31` (tag `v2.0.0rc4`, version line `2.0.0rc5.dev0`): `Substrate` /
+`System` / `analyze`, with `pyphi.iit4_2023()` matching the pinned controls and `pyphi.iit4_2026()`
+the Mayner, Marshall, and Tononi (2026) default. Run probes and experiments from the repo root so
+`org_frontier.*` and `foundations.*` resolve.
 
 ## The research protocol
 
@@ -49,8 +57,11 @@ input to a verdict.
   strict numeric order, so there is no scaffolder for a plain probe number — take the next free one as the
   current maximum plus one:
   `grep -oE '^\| [0-9]+' org_frontier/probes/PROBES.md | grep -oE '[0-9]+' | sort -n | tail -1`.
-- A full question goes through the pipeline and lands under `org_frontier/questions/q<NN>_<slug>/`. Copy
-  [`org_frontier/protocol/template/`](org_frontier/protocol/template/), or run the orchestration.
+- A full question goes through the pipeline and lands under `org_frontier/questions/q<NN>_<slug>/`. Place
+  it first with `python tools/build_catalog.py --find "<keywords>"` (the nearest prior questions, probes,
+  and studies), then scaffold it with `python -m org_frontier.protocol.new_question --slug <slug>`, which
+  copies [`org_frontier/protocol/template/`](org_frontier/protocol/template/) and names the probe stub.
+  Open threads waiting for someone are in [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md).
 - Reuse the shared infrastructure rather than rebuilding it: `org_frontier/classifier/`,
   `org_frontier/probes/lib.py`, `org_frontier/probes/_info.py`, `foundations/proxy_audit/exact_phi.py`.
 
@@ -106,15 +117,16 @@ and leaves it to the nightly job.
 A contribution that registers no number — a qualitative or survey study — still triggers the `core`
 instrument control on the per-PR gate, and that control needs a working PyPhi environment (Python 3.10+).
 CI runs it for you on every PR, so a contributor without a compute environment verifies locally with the
-three index `--check`s (`build_index.py`, `build_map.py`, `build_research_index.py`) and lets CI run the
-control. The study stands on `directory-current`: once `python tools/build_index.py` indexes it, the gate
+four index `--check`s (`build_index.py`, `build_map.py`, `build_catalog.py`, `build_research_index.py`)
+and lets CI run the control. The study stands on `directory-current`: once `python tools/build_index.py` indexes it, the gate
 confirms it is listed.
 
 ## Prose
 
-All prose follows the house style in [`CLAUDE.md`](CLAUDE.md): no first person, plain declarative
-sentences, section titles as short noun phrases, and a de-slop pass (cut the antithesis machine,
-self-narration of rigor, and metronomic openers). Citations resolve to real sources.
+All prose follows the house style in [`CLAUDE.md`](CLAUDE.md), its current rules: claim-first paragraphs,
+named agents in active voice, first person only for authorial labor (I searched, I coded), no sentence
+commenting on the paper's own rigor, no emphasis-marker openers, section titles as short noun phrases, and
+the flow self-check run on each paragraph. Citations resolve to real sources.
 
 ## Git and the two repositories
 

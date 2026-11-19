@@ -8,7 +8,7 @@ is the only correct convention and must be stated. Method: over the triadic corp
 verdict under grain-1 synchronous (canonical), grain-2 synchronous, and grain-1 sequential update; report
 how each condition calls them and what an across-condition majority would conclude.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_invariant_verdict
+Run:  python -m org_frontier.probes.probe_invariant_verdict
 """
 
 import os

@@ -8,7 +8,7 @@ clock did not. Method: build regime forms with varying coupling and read the maj
 
 Nodes: 0=W, 1=S, 2=C, 3=R (regime that switches S' between W∧C and W∨C).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_lifted_regime
+Run:  python -m org_frontier.probes.probe_lifted_regime
 """
 
 from .lib import verdict, major_complex

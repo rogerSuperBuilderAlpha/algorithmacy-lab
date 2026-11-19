@@ -6,7 +6,7 @@ Question: as a worker is "trained" toward higher coordination success, does Φ t
 functions; for each compute the success rate (mean attractor match-rate) and exact Φ. A learning loop
 visits increasing-success policies; report whether Φ tracks success along that ordering.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_learning
+Run:  python -m org_frontier.probes.probe_learning
 """
 
 from org_frontier.classifier.classifier import classify_rules

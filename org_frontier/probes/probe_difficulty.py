@@ -14,7 +14,7 @@ H18: triadic verdicts coincide with coordination-required determinations, and th
 both Φ and the proxy derive from the determination, so agreement is structural consistency, not
 independent validation — reported honestly, as Paper 3 frames its own behavioral check.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_difficulty
+Run:  python -m org_frontier.probes.probe_difficulty
 """
 
 import csv

@@ -7,7 +7,7 @@ an irreducible third party shows up as higher-order relations a per-node feature
 over the 256-form corpus, compute the Φ-structure suite on a reachable state of each form, and report
 the rank-AUC of each CES count against the exact verdict, plus a combined logistic model.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_ces_predictor
+Run:  python -m org_frontier.probes.probe_ces_predictor
 """
 
 import os

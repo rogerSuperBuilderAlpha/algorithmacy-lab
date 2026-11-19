@@ -85,6 +85,18 @@ def _count_bib(pattern: str) -> int:
     return total
 
 
+def _count_open_threads() -> int:
+    """Rows of the OPEN_QUESTIONS.md table whose status cell reads `open`."""
+    path = os.path.join(_ROOT, "OPEN_QUESTIONS.md")
+    try:
+        with open(path, encoding="utf-8") as fh:
+            return sum(1 for line in fh
+                       if re.match(r"^\|\s*O\d+\s*\|", line)
+                       and [c.strip().lower() for c in line.split("|")][3:4] == ["open"])
+    except OSError:
+        return 0
+
+
 def _row(label_link: str, gloss: str) -> str:
     return f"| {label_link} | {gloss} |"
 
@@ -101,6 +113,7 @@ _ENTRY_DOCS = [
     ("AGENTS.md", "Operating manual for agents: map, run/verify, git rule, land flow, done-checklist"),
     ("README.md", "What the lab is, the thesis, setup, and the full generated directory"),
     ("OVERVIEW.md", "Five-minute orientation: the argument, where it stands, where to contribute"),
+    ("OPEN_QUESTIONS.md", "The open threads with a status column: what is waiting for someone, and what each needs"),
     ("GETTING_STARTED.md", "Hands-on: environment → confirm the instrument → scaffold → register → PR"),
     ("CONTRIBUTING.md", "Code, probe, study, and house-style conventions a submission must meet"),
     ("REPO_LAYOUT.md", "The two-repo git trap: this repo vs the nested private dissertation"),
@@ -115,6 +128,7 @@ _ENTRY_DOCS = [
 _MACHINERY = [
     ("tools/build_index.py", "python tools/build_index.py", "the generated directory in README.md"),
     ("tools/build_map.py", "python tools/build_map.py", "this file, MAP.md"),
+    ("tools/build_catalog.py", "python tools/build_catalog.py", "catalog.json — the searchable index of questions, probes, studies, and open threads (`--find`)"),
     ("org_frontier/research/build_research_index.py",
      "python org_frontier/research/build_research_index.py", "the research watch INDEX.md"),
     ("ci/reproduce.py", "python ci/reproduce.py", "every registered number in ci/reproduce.json"),
@@ -248,6 +262,7 @@ def _at_a_glance() -> list:
          "`org_frontier/reviews/*/` with a `FINDINGS.md`"),
         ("watch entries (program-level)", _count_bib("org_frontier/research/*/literature/references.bib"),
          "`org_frontier/research/*/literature/references.bib`"),
+        ("open threads", _count_open_threads(), "`OPEN_QUESTIONS.md` rows with status `open`"),
     ]
     out = ["## At a glance", "", "| count | what | source |", "|---|---|---|"]
     for label, n, source in counts:

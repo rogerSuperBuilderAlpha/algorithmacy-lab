@@ -11,7 +11,7 @@ with AI-MC the one boundary case flagged.
 
 Nodes vary per form; labels given per entry.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_discriminant_map
+Run:  python -m org_frontier.probes.probe_discriminant_map
 """
 
 from .lib import verdict

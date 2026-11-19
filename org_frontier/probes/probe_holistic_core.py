@@ -9,7 +9,7 @@ predicted probability sits to the 0.5 boundary.
 
 Reads: org_frontier/probes/results/residual_panel.csv (run Probe 125 first).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_holistic_core
+Run:  python -m org_frontier.probes.probe_holistic_core
 """
 
 import csv

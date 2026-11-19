@@ -7,7 +7,7 @@ structure_suite.suite.extract_suite (one pyphi.new_big_phi.phi_structure call).
 H36: triadic forms carry more distinctions and (especially) more relations than dyadic forms — the
 irreducible coordination is structurally richer, not just higher-Φ.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_ces_richness
+Run:  python -m org_frontier.probes.probe_ces_richness
 """
 
 from org_frontier.classifier.classifier import classify_rules, tpm_from_rules, cm_from_rules

@@ -10,7 +10,7 @@ each.
 
 Nodes: 0=A1, 1=P, 2=A2.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_mas
+Run:  python -m org_frontier.probes.probe_mas
 """
 
 from .lib import verdict, major_complex

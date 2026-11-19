@@ -8,7 +8,7 @@ H17: Φ magnitude tracks structural quantities — the mediator's arity (how man
 whether its rule is parity (XOR/XNOR), and the parties' feedback richness — even though it is not a
 coordination-readability scale.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_magnitude
+Run:  python -m org_frontier.probes.probe_magnitude
 """
 
 import csv

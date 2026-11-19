@@ -12,7 +12,7 @@ Stress-test that with two batteries:
 H14: verdict-flip rate = 0 under (A) with zero Φ variance; under (B) verdict stays triadic while Φ
 varies (magnitude is the soft part, verdict the hard part).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_robustness
+Run:  python -m org_frontier.probes.probe_robustness
 """
 
 import numpy as np

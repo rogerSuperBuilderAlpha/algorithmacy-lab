@@ -11,7 +11,7 @@ shares.
 
 Writes: org_frontier/probes/results/residual_panel.csv (read by Probes 126, 127).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_residual_characterization
+Run:  python -m org_frontier.probes.probe_residual_characterization
 """
 
 import csv

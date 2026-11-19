@@ -7,7 +7,7 @@ and the influence graph is strongly connected. Method: enumerate the 4096 wiring
 exact verdict, build structural features (edge count, number of bidirectional nodes, strong connectivity),
 and fit a shallow decision tree; if it separates the verdict perfectly, the tree is the N&S condition.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_ns_theorem
+Run:  python -m org_frontier.probes.probe_ns_theorem
 """
 
 import os
