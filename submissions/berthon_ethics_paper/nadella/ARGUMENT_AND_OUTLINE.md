@@ -6,6 +6,11 @@ and the fifteen calls the author delegated (`run_2026_11/synthesis/AUTHOR_CALLS_
 author's wording. Ledger IDs point to `../consolidation/CONCEPT_LEDGER.md`; P-numbers are paragraphs of Nadella's
 post; card keys are in `../literature/cards/`.*
 
+> **Superseded in part, 19 Nov 2026.** `STRUCTURE.md` v5 rebuilds the paper around seventeen errors on the author's
+> instruction, with the AI-ethics movement as subject and Nadella as case. A1's five questions become five families,
+> and A2's list of practices becomes the seventeen errors. The premises below still hold for the Nadella case and the
+> duties; an argument v5 in standard form waits on the author's calls in STRUCTURE v5. *(Claude's note.)*
+
 ## What changed from v3
 
 - **The charge falls on the architecture as built** (call 7). The essay's sentences name no reader (P15), no

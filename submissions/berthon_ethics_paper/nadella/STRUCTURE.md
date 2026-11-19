@@ -1,205 +1,284 @@
 <!--
-DRAFTED BY CLAUDE (Opus 5.5), 2026-11-18, by hand. Not the author's wording. Where the author's own words are
-used they are quoted and their file named. This file replaces neither ARGUMENT_AND_OUTLINE.md (v3) nor
-rebuild/OUTLINE.md; it puts the overall structure back around them.
-Revised by Claude (Opus 5.5), 2026-11-19, to carry run_2026_11's rulings (run_2026_11/synthesis/ADJUDICATION.md)
-and the fifteen calls the author delegated (run_2026_11/synthesis/AUTHOR_CALLS_RULED.md). Each change names its
-ruling or call in brackets.
+DRAFTED BY CLAUDE (Opus 5.5), 2026-11-19, by hand. Not the author's wording. Where the author's own words are used
+they are quoted and their file named. v5 replaces v4 (in git history at commit 70d58144) on the author's
+instruction of 19 Nov 2026 to "rebuild the outline around the 17 errors". Evidence for the literacy side is in
+lit_ethics_review_2026_11/reports/Literacy ethics deeper sources.md (cited below as "Report") and REVIEW.md;
+evidence for the present side is in run_2026_11 (cards, EVIDENCE_MAP, ADJUDICATION, AUTHOR_CALLS_RULED). No
+quotation in the literacy review has yet been checked by an independent verifier.
 -->
 
-# The paper's overall structure, restored (v4 structure)
+# The paper's structure, rebuilt around seventeen errors (v5)
 
-## The author's instruction (verbatim, 2026-11-18)
+## The author's instruction (verbatim, 19 Nov 2026)
 
-> We are arguing that since AI is bringing us to a new -acy, in this case algorithacy, we can look at historical
-> paralells to the design decisions through the development and expansion of literacy which were unethical, and then
-> reflect on how those mistakes and examine how we are moving through algorithmacy and try to prevent those same
-> mistakes.
+> so we should be arguing that as we moved to literacy, we committed grave design ethics errors. the current
+> movement in AI ethics is committing the same errors. We need to list and explore all those errors. Satya is our
+> primary case study
 
-> Nadella is important becuse his solutions would lead us to make the same mistakes we did trough literacy. we just
-> need to add back the overall structure, rather than just cirticize him.
+> rebuild the outline around the 17 errors
 
-## What changes, and what stays
+## What changed from v4
 
-The October drafts (`manuscript/DRAFT_v1.md`, `rebuild/MANUSCRIPT.md`) never use the word "algorithmacy". They read
-Nadella's essay against the history of literacy and stop there, so the paper reads as a critique of one executive.
-The restored structure makes the transition the subject. Algorithmacy is the new competence; literacy's growth is the
-record of how an earlier transition was managed and where it failed; Nadella's architecture is the clearest present
-proposal for managing this one, and it steers the transition onto literacy's failed course. The duties then belong
-to the transition, not only to Microsoft.
+- **The subject is the AI-ethics movement; Nadella is the case.** v4 judged one architecture against literacy's
+  record. v5 judges the movement's standard remedies (disclosure, explanation, human oversight, AI literacy) and uses
+  Nadella's trust architecture, as Microsoft builds it, as the clearest instance. The author's 05 draft already names
+  that remedy family (05:11: "mandating disclosure, grounding a moral right to an explanation (Kim & Routledge, 2022),
+  and training the user under the banner of 'AI literacy.'").
+- **Seventeen errors, not five.** The author's instruction reverses call 5 of `AUTHOR_CALLS_RULED.md` ("five"). The
+  errors sit in five families so the paper reads as an argument, not a catalogue.
+- **"Grave" rests on each era's own standard.** Each error is grave because people at the time objected, a professed
+  standard was broken, or a promise went unmet. The verdict on the present still rests on the two present routes
+  (Microsoft's professed standards; non-domination for standing relations), as ruled in calls 1–2.
+- **History and present together, error by error.** The reader meets each error in literacy, then in AI ethics, then
+  in Nadella's architecture, instead of reading the history in one section and the present in another.
 
-Kept from the October work: the opening on Nadella's essay, the two recurring choices (work moved onto the artifact
-versus work left with the weaker party), the five questions a design settles, the two present routes to a verdict
-(the actor's own professed standards; non-domination), the objections and the six duties. Restored from the author's
-drafts (`sources/04_AUTHOR_DRAFT.md`, `sources/05_AUTHOR_DRAFT_v2.md`) and the verified v3 (`sources/07_MANUSCRIPT_v3.md`):
-the definition of algorithmacy, the answer to Kamperman and Graff, the three internal standards, the five
-institutional practices, the platform table, and the two places the analogy breaks.
+## Thesis
 
-## Section plan
+Literacy spread through design choices, and many of them were grave errors that people at the time recognised as
+wrongs. The AI-ethics movement's remedies repeat those errors for the people AI agents act on. Nadella's trust
+architecture makes most of them in their clearest form. Each error has an inverse, and literacy's own record shows
+that the inverse was available.
 
-Word budget assumes BEQ's 12,000 words; whether that includes references is still unresolved (memory, v3 note).
+## Evidence key
 
-### Introduction (~1,300)
+**[carded]** the present-day claim rests on a run_2026_11 or library card. **[read]** on a text read in the literacy
+review. **[abs.]** abstract only. **[hypothesis]** no source yet supports the present-day pairing; the draft may not
+assert it until one does. Literacy-side citations below are in the Report or REVIEW.md, with their locators and
+access flags ([OCR], my translation, second-hand).
 
-Opens as `rebuild/MANUSCRIPT.md` opens, on Nadella's "trust architecture" (P2, P3, P5, P11, P21) and Microsoft's
-products that already build it. The turn comes in the fourth paragraph: Nadella writes as if the problem were
-familiar enterprise risk (P8), but his proposal is a plan for managing a change in what people must be able to do.
-AI is bringing a new competence into being, algorithmacy, as writing once brought literacy, and the history of
-literacy is therefore the precedent that matters. Thesis in the author's terms: literacy's growth was managed through
-choices, many of which its own contemporaries recognised as wrongs; Nadella's architecture would repeat those choices
-for the people its agents act on; and the transition can still be steered the other way.
+## Section plan (≈12,500 words against BEQ's 12,000; trim in §3)
 
-Contributions (from `04_AUTHOR_DRAFT.md`, restated for the merged paper): (1) it frames the AI transition as a
-transition to algorithmacy and so makes literacy's record evidence, not metaphor; (2) it disaggregates "how we failed"
-into documented institutional practices judged by their own era's standards; (3) it shows the leading present design
-reoccupying those practices' positions; (4) it derives duties for the transition, each the inverse of a failure.
-One roadmap paragraph, first person.
+### Introduction (~1,100)
 
-### 1. Algorithmacy: the competence a new medium demands (~1,200)
+Opens on Nadella's "trust architecture" (P2, P3, P5, P11, P21) and the Microsoft products that already build it. The
+turn comes in the third paragraph. AI is bringing a new competence into being, algorithmacy, as writing brought
+literacy, and the AI-ethics movement has answered with literacy's own remedies: tell people, explain to people, train
+people. The author's sentence carries the limit, in his wording (05:11): "As Berthon, Pitt, and Campbell (2019,
+p. 457) observe of digital addiction, 'information is necessary, but not sufficient to change behavior'." Thesis as
+above. Contributions: (1) an error-by-error account of literacy's distribution as design ethics; (2) the mapping of
+each error onto the AI-ethics remedies, which the gap check found in no prior work (Report, "AI scholarship holds both
+halves"); (3) a case showing one firm's architecture making the errors; (4) duties, each the inverse of an error. One
+roadmap paragraph, first person.
 
-- **1.1 From oracy to literacy to algorithmacy.** The author's definition, in his later wording: "the relational
-  competence demanded when human agents must coordinate with one another through an automated third party that
-  processes, evaluates, and enforces outcomes binding on both sides" (`05_AUTHOR_DRAFT_v2.md`, line 31) [call 3; the
-  04 wording is his earlier one]. Writing demanded a competence at the gates institutions built around it; the
-  intermediary does the same, and the present question is where agents are made such gates [ruling 18]. Concrete
-  anchors: the applicant screened by a shared hiring model (Bommasani et al. 2026), the driver
-  with fifteen seconds to accept a fare (Rosenblat and Stark 2016), the customer whose refund an agent decides.
-- **1.2 Why literacy, and not as a metaphor.** Kamperman and Graff (2026, p. 35) fault "literacy" used "uncritically
-  as a metaphor" and already make the overselling argument for AI literacy (p. 36). The comparison here runs across
-  institutional positions in compulsory mediation, not across cognition (`04_AUTHOR_DRAFT.md` §2.1).
-- **1.3 What any transition settles.** The five questions from `ARGUMENT_AND_OUTLINE.md` A1: who does the work of
-  understanding, who keeps the record, who can stop the process, who may refuse or contest, who carries the loss.
-  These organise both the history (§3) and the present (§4).
+### 1. Algorithmacy and why literacy is the precedent (~1,000)
 
-### 2. How to judge a transition (~1,300)
+- **1.1 The definition**, in the author's later wording: "the relational competence demanded when human agents must
+  coordinate with one another through an automated third party that processes, evaluates, and enforces outcomes
+  binding on both sides" (`05_AUTHOR_DRAFT_v2.md`, line 31). A competence is demanded at the gates institutions build
+  around it (ruling 18).
+- **1.2 Not a metaphor.** Kamperman and Graff (2026, pp. 35–36) fault "literacy" used as metaphor and already argue the
+  AI-literacy movement repeats the literacy myth. Kalantzis and Cope (2024, preprint p. 4) say early print drew
+  "illiteracy as a line of exclusion" and carry the point to generative AI; they do not criticise the remedies. That
+  join is this paper's. The comparison runs across institutional positions, not cognition.
+- **1.3 Guardrail.** Literacy is neither liberating nor oppressive in itself (Matusov and St. Julien 2004, abs.); people
+  sought it because it gave real agency. The critique is of design and allocation, never of the competence.
 
-- **2.1 Bounding literacy's transition.** Literacy as a mandatory gate versus an optional, rewarding capability
-  (author's §2.2). Guardrail from the author's §2.6: people sought literacy because it gave real agency (Johansson;
-  Washington); the critique is of what institutions did with it.
-- **2.2 Three internal standards.** Contemporary objection, a broken professed standard, an unmet promise (author's
-  §2.3). Responsibility is traced to courts, legislatures, chartered companies and campaigns, not to "society"; "the
-  global community" only for the international campaigns (round-one ruling).
-- **2.3 From an old verdict to a present actor.** History is evidence for the historical half and analogy for the
-  inference (ruling of 13 Oct). Bartha's articulation model for when an analogy carries a verdict; Walzer's limit;
-  the two present routes from `DRAFT_v1.md` §1 (Microsoft's own Responsible AI Standard and P3, P9; non-domination).
-  Route (i) carries every pairing, a one-off dealing included; route (ii) judges standing relations and aggregated
-  small decisions (Gädeke p. 200; Hoeksema 2025 pp. 31–33), and the paper does not claim one refund is domination
-  [calls 1–2]. Moody-Adams on affected ignorance enters here only as paraphrase: an earlier "quotation" was not in her article.
+### 2. How to judge a transition (~900)
 
-### 3. Literacy's record: one correction and five failures (~2,600)
+- **2.1 Grave by its own era's standard.** Three tests: a contemporary objected; a professed standard was broken; a
+  promise went unmet. Fifteen of the seventeen errors have a named contemporary on file. Error 3 rests on a historian's
+  report and error 6 on an institutional evaluation, and §3 says so.
+- **2.2 From an old verdict to a present actor.** Bartha's articulation model for when an analogy carries a verdict.
+  Route (i), Microsoft's own professed standards (Responsible AI Standard v2, T1.3 and A5.4; P3, P9), carries every
+  pairing, a single refund included. Route (ii), non-domination, judges standing relations and aggregated small
+  decisions (Gädeke p. 200; Hoeksema 2025 pp. 31–33) (calls 1–2).
+- **2.3 The five families.** Who gets in (A); what competence is given (B); who holds the medium and the record (C);
+  who bears the burden (D); how success is claimed (E). Families A–D answer v4's five questions; family E is new and
+  concerns the designer's own account of success.
 
-- **3.1 The correction.** The page took on the reader's work: word separation for readers to whom Latin was foreign;
-  the second interpreter and the clerk owed to the weaker side (Easton 1757). This is the course not taken.
-- **3.2 The gate.** Discretionary reading tests: Alabama 1901 (Knox's opening address reports the objection to
-  registrars' discretion, p. 11 [ruling 15]), *Davis v. Schnell* and USCCR 1961 on arbitrary power with no standard,
-  record or review [ruling 14], *Katzenbach*, *Gaston County*; Australia's dictation test; Brazil 1881. For 1975,
-  say only that Congress made permanent "the ban against certain prerequisites to voting" until s. 201 as it then
-  stood is read [ruling 16].
-- **3.3 The withheld competence.** Anti-literacy statutes (South Carolina 1740, s. XLV, which penalises teaching to
-  write and does not mention reading [ruling 21; call 5]; Virginia and North Carolina 1831), each narrower than its
-  usual summary; Douglass.
-- **3.4 The record over the voice.** *Marshall*, *Delgamuukw*, Waitangi; notice the hearer could neither understand
-  nor answer (the Requerimiento); the presumption that the signer had read (*L'Estrange*), with its three exits:
-  fraud, misrepresentation, *non est factum* [ruling 24].
-- **3.5 The monopoly.** The Stationers' charter and the press regime of 1557–1695; the Commons' 1695 refusal to renew.
-  Their purpose is contested (Blayney; Clegg; Johns) and the section says so.
-- **3.6 The oversold promise.** Dakar's commitment (para 7, a 50 per cent improvement in adult literacy by 2015),
-  with Jomtien as the proposal countries "may wish" to adopt [ruling 17]; 739 million adults in 2024 (UIS);
-  Graff on literacy beyond job requirements.
-- **3.7 Boundary case.** Residential schools: the reports blame removal and language suppression, not teaching
-  reading. What carries over is compulsory participation and an enforced language standard.
+### 3. Seventeen errors, then and now (~6,500)
 
-Each subsection ends by naming the question from §1.3 it answered, and for whom.
+Each entry gives the literacy error and its strongest instance; the contemporary who objected; the AI-ethics remedy
+that repeats it; Nadella's move, where he makes one; and the evidence status. Each family ends on the duty that
+inverts it (§7). Numbers are the review's, kept for traceability.
 
-### 4. How we are moving through algorithmacy (~2,800)
+#### 3A. Who gets in
 
-- **4.1 The positions reoccupied.** The author's table (`04_AUTHOR_DRAFT.md` §4), rebuilt as accepted on 13 Oct:
-  the gate (shared hiring screens), the withheld competence (hidden dispatch terms, scores no one can read), the
-  record (logs the platform keeps), the monopoly (compute and model weights), the promise ("AI literacy" sold as the
-  remedy), compulsion and standard (dialect penalties). The monopoly row keeps the author's sentence as he wrote it
-  ("Classical monopolies restricted physical printing presses; contemporary monopolies restricted infrastructure and
-  model weights", 04:109). **Flag for the author, not a change:** ledger E07 is open, no card on concentration of
-  compute or weights exists, and Nadella's P5 and P14 argue against single-supplier dependence [call 4; ruling 25].
-  One table and two paragraphs [call 15].
-- **4.2 The remedies on offer.** Disclosure and AI-literacy training. The author's own sentence carries the limit of
-  information, in his introduction where he put it (05:11, "of digital addiction"; p. 457 reports it from Worsley
-  2002) [call 6; ruling 3]. Here the limit of the literacy remedy rests on Tang et al. (2025), whose p. 16 finds
-  responsibility "defaults to end users least able to manage the risk" and whose p. 18 then prescribes "AI safety
-  literacy" [call 12; ruling 12]. The law as of November 2026, in three layers: notice before the decision (GDPR arts.
-  13(2)(f), 14(2)(g)), a prohibition in principle with a contract exception (art. 22(1)–(2); *SCHUFA* para 52),
-  safeguards after (art. 22(3); *Dun & Bradstreet*) [ruling 2]; AI Act art. 85 as a complaint that feeds market
-  surveillance and art. 86 only for Annex III systems; *Moffatt* and OLG Hamm holding operators to their chatbots'
-  words after the loss (Hamm quotations marked as the drafter's translations) [ruling 4; call 14]. One dated
-  sentence on what is scheduled: art. 26(11) from 2 Dec 2027 for new Annex III systems, earlier systems on a
-  significant change, public-authority systems by 2 Aug 2030 [call 8; ruling 1 and erratum]. The safeguards claim
-  stays narrowed to "no independent, binding check at the point of decision". The counter-instance: IMDA's framework
-  (v1.5, 20 May 2026, p. 47) asks deployers to tell customers the agent's range of action and a human contact, as
-  what organisations "should consider"; the other course is on offer now [call 9; ruling 10].
-- **4.3 Nadella's architecture: the plan for the transition.** Why it matters: it is the clearest statement of an
-  allocation the industry shares (Anthropic's and Google's frameworks make the same one, CE-4.3), its author both
-  supplies models and deploys agents, and it runs in Agent 365; the Agent Control Specification is announced, with
-  no deployment reported [call 14; ruling 22]. What it gets right: for the deploying organisation it is a real
-  correction, and its controls outside the model (P11–P12) have the correction's form.
-- **4.4 Where it steers.** For the customer, applicant or counterparty, each move takes literacy's failed course.
-  The charge is to the architecture as Microsoft builds it: the essay's sentences leave the second party unnamed,
-  and the products and terms fill each gap with the deployer [call 7]. Built from `DRAFT_v1.md` §§3.1–3.4 as a
-  table, one row per question:
+- **1. The gate.** Discretionary reading tests: "the absence of any well-founded measure of function and competence"
+  eased abuse (Branch 2015, p. 48); Louisiana's Understanding Clause cut Black registration by "nearly 30 percentage
+  points" (Keele et al. 2021, abs.); Aboriginal pupils excluded from Western Australian state schools "well into the
+  1930s" (Renganathan and Kral 2018, p. 146). *Objector:* Cowan, "a mockery in the name of a barrier" (Branch, p. 45).
+  *Now:* automated screens at the gates of credit and work, with "human oversight" held by the deployer. *Nadella:* the
+  brake belongs to "An authorized person" (P19, no authoriser named); approvals route to Teams and Microsoft 365
+  Copilot (roadmap 570434) [carded]. Gate versus brake is the disanalogy to argue (§5).
+- **10. Competence as a cover.** A neutral-looking standard that targets a group. By 1869 Congress knew the test could
+  disfranchise "based on race while seeming to do so on the basis of literate ability" (Branch, p. 46); Natal tested
+  people "perfectly well able to read and write in their own language" (Lake, lib.); the Chinese examination was open
+  to "almost anyone" while peasants, traders and artisans, "over 90 percent of the population", never reached the
+  palace (Magone 2014; Elman 2014; both abs.). *Objector:* Wilson's 1917 veto, "tests of opportunity surely may be"
+  objected to (lib.). *Now:* "responsible use" and AI-literacy criteria used to screen people [hypothesis].
+  *Nadella:* no move found; the error stands at movement level only.
+- **11. The self-justifying gate.** Withhold the competence, then cite its absence. *Objectors:* Scofield, 1866, "They
+  debased him by law to fit him for slavery, and justified slavery because he was debased"; Shellabarger, 1869
+  (Branch, pp. 59–60). Naidu measures the loop: Black teacher-child ratios fell "by 10-23%" (2012). Sub-case: deferral
+  ("not yet ready"), with Mill's 1861 condition and Du Bois's objection. *Now:* Tang et al. find responsibility
+  "defaults to end users least able to manage the risk" (p. 16), then prescribe user literacy (p. 18) [carded].
+  *Nadella:* reasoning is withheld from deployer and user alike, and a provider summary given instead
+  (openai2026reasoning; palod2026evaluating) [carded]; P9 calls chain of thought "not sufficient or dependable". The
+  loop closes only if the person is then faulted for not understanding; for Microsoft's own terms that step is
+  [hypothesis].
+- **17. The accommodated veto.** The rule opens the school to all, and the state yields to the dominant group's
+  boycott. The 1858 Despatch declared schools "open to all classes"; the Hunter Commission (1883, paras. 202, 588–589
+  [OCR]) records Brahman boys seceding at Dharwar and names the motive, "to keep the low castes in a state of
+  subjection"; Australian settler school strikes (Marsden 2026, abs.). *Objector:* the Commission itself. *Now:* a
+  right opened and then yielded to the stronger party's contract: GDPR art. 22(1) is a prohibition in principle
+  (*SCHUFA* para 52) with an exception where the decision is necessary for a contract (art. 22(2)(a)) [carded].
+  *Nadella:* the deployer's contract with the person supplies that exception; whether Microsoft's agents rely on it
+  is [hypothesis].
 
-  | Question (§1.3) | Literacy's failure (§3) | Nadella's move, and the products that settle it | What it leaves the person acted on |
-  |---|---|---|---|
-  | Who holds the medium | Custody by an interested party [call 4; ruling 7] | Authority separated from supply (P5); controls outside the model (P11); the organisation determines what a model can access (P17) | No sight of the envelope in the essay or the Microsoft documents read [ruling 10] |
-  | Who keeps the record | Record over the voice | "Every meaningful model action must leave tamper-proof human readable evidence" (P15, no reader named); the tenant reads it in Purview [ruling 8] | No record of her own |
-  | Who can stop it | The gate held by an official | "An authorized person" (P19, no authoriser named); approval requests in Teams and Microsoft 365 Copilot (roadmap 570434) [ruling 9] | No brake she is shown to hold |
-  | Who may refuse or contest | Notice she cannot answer | Disclosure "to those affected", after failure (P20) | Notice after the loss |
-  | Who carries the loss | Presumption that the signer had read; competence withheld then promised | Microsoft's terms make the principal "solely responsible" and take an indemnity from him; they are for no other person's benefit (§16); Elevate's credential pledge [ruling 5] | The reading and the loss, by the terms' silence |
+#### 3B. What competence is given
 
-### 5. Where the parallel breaks (~900)
+- **2. Withheld competence, including the receive-only split.** Anti-literacy statutes; Phule on the Bhats who
+  "forbade the Shudras any access to learning" (1873, p. 50); women taught to read but not to write (Chamberlain 2014,
+  abs.; Monaghan 1988, partial; Hubbard 2015, abs.); women's required skill at baptism "generally very low" in German
+  East Africa (Montgomery 2017, p. 234). *Objectors:* Nicolás Antonio (c. 1648), men "have always kept women away from
+  the instruments of command"; Wollstonecraft 1792. *Now:* explanation is owed but delivered to developers; the person
+  receives an output and cannot answer it. *Nadella:* P9's transparency is addressed to the deploying organisation;
+  reasoning summaries go to developers who opt in [carded].
+- **15. Protective withholding.** Denial presented as a favour to the denied: Chen Jiru held women "are rather
+  remaining illiterate" (You and Nussey 2022, second-hand); Verwoerd's "false expectations" (Moore 2017, p. 119,
+  second-hand) as the rationing sub-case. *Objector:* Wollstonecraft, "kept in ignorance under the specious name of
+  innocence" (ch. II). *Now:* capability and reasoning withheld for safety. *Nadella:* raw reasoning is withheld
+  across providers [carded]; that the withholding is justified as protecting the user is [hypothesis] until a provider
+  document saying so is carded.
+- **12. Selective provision by usefulness.** Teach those who will serve the economy: donors abandoned universal adult
+  provision for "a selective approach" (Boughton 2023, p. 22); children "to be fitted to be employees and labourers" at
+  the Cape (Fourie et al. 2014, second-hand); Colombia's 0.988 against 0.047 pesos (España-Eljaiek et al. 2023, p. 26).
+  *Objectors:* Du Bois 1903, "Teach thinkers to think"; the *Christian Recorder* on Bantu Education, "not education at
+  all" (Moore, p. 120). *Now:* AI skilling aimed at the workforce firms want. *Nadella:* Microsoft Elevate's credential
+  pledge trains workers; nothing is offered to the person an agent acts on [carded].
+- **13. Literacy taught for docility.** The Bristol adult schools' "meekness, Christian fortitude, and resignation"
+  (Quigley 2021, p. 43); the 1918 Soviet decree on "the mobilisation of the literate and the organisation of
+  propaganda" (Gluschenko 2015, p. 250, my translation); Cape readers teaching "obedience" (Kallaway 2022, p. 63).
+  *Objectors:* Zitkala-Ša, "For the white man's papers I had given up my faith in the Great Spirit"; Du Bois. *Now:* AI
+  literacy that "prepares learners for compliance with AI systems" (Paljor et al. 2026, abs.) and a "consumer"
+  orientation (Lund and Teel 2026) [carded]. *Nadella:* the competence on offer is using Copilot well; whether that
+  counts as docility is the author's call.
 
-The intermediary adapts to the person as the page never did, which makes the burden heavier, not lighter. Yeung
-(2016 online, 2017 in the issue) carries this for decision guidance, the hypernudge; that a deciding agent also
-adapts is the paper's inference and is stated as one [ruling 13]. The procedural buffers built around scribes
-(notaries, dual interpreters, *non est factum*) have only partial successors. Closest disanalogies, each shown
-non-critical or conceded: gate versus brake; intent (the 1901 tests) versus position (agents), weaker than it looks,
-since *Davis v. Schnell* and USCCR 1961 condemned the arbitrary power itself [ruling 14]; one firm versus a realm-wide
-monopoly. The paper imputes no motive to Nadella or Microsoft.
+#### 3C. Who holds the medium and the record
 
-### 6. Objections (~1,100)
+- **4. Custody of the medium.** The Stationers' "ultimate say in what got printed" (Nipps 2014, p. 495); the Index cut
+  Italian output by a modelled 43 percent (Blasutto and de la Croix 2023); Qing bans, an 18 percent drop in titles per
+  SD of censorship (Bai et al. 2024, WP); Ottoman print licensed with conditions, 33 books in the eighteenth century
+  (Coşgel et al., WP). Sub-cases: restriction by script; custody by price. *Objectors:* printers against the 1559 Index
+  (Becker et al., p. 8); the Commons' 1695 refusal to renew. *Now:* governance written by "a security or compliance
+  team". *Nadella:* authority separated from supply and held by the deployer (P5, P11, P17); the Agent Control
+  Specification [carded]. The author's sentence stays in his words with its flag (04:109; ledger E07 open; P5 and P14
+  argue against single-supplier dependence).
+- **3. Record over the voice.** Archives that "perpetuate a form of documentary elitism"; the king's order to burn "all
+  documentary records produced by the rebels" (Castillo Gómez and Martínez 2024, pp. 27, 23); the 1849 Cape census that
+  did not record women's literacy at some stations (Fourie et al., WP p. 7). *Objector:* none quoted; the text says so.
+  *Now and Nadella:* "Every meaningful model action must leave tamper-proof human readable evidence" (P15), read by the
+  tenant in Purview and by no one outside it [carded]. No AI work in the gap check has a counterpart for this error,
+  so it is the paper's sharpest original pairing.
+- **7. Capture by intermediaries.** Brahman accountants who "conjure fake papers" (Jaywant 2022, p. 388); Phule on the
+  Brahmin "monopoly of all higher offices" (p. 23); priests as "interlocutors between mystically inaccessible ruling
+  text and popular belief" (Kalantzis and Cope, preprint p. 4). *Objectors:* Padwal 1861, "Is there no end to this
+  injustice?"; Phule 1873. *Now:* under the EU's 2022 Code of Practice, the firms "creating the problem" help design
+  the media-literacy tools (Oleart and Flores Moleon 2026, §4) [read]. *Nadella:* the agent acts on the person and
+  answers to the deployer; its envelope is declared to the deployer alone [carded]. IMDA (v1.5, p. 47) shows the other
+  course.
+- **9. Restriction by reader class.** Downward filtration ("the light must touch the mountain tops", Hunter 1883,
+  ch. II); the 1543 Act's bar on women, artificers and serving men reading the English Bible (Sanders and Ferguson
+  2002, abs.); samurai-only official schools (Hmeljak Sangawa 2017, p. 153). *Objectors:* Wharton in the Commons, 1807,
+  on who is "fit for the plough" (lib.); Du Bois. *Now and Nadella:* protection sold by tier. Audit logs were sold by
+  licence tier until 2023 (jakkal2023expanding); Microsoft defends paying commercial customers against copyright claims
+  and takes an indemnity from consumers (smith2023microsoft; microsoft2026copilot) [carded].
 
-From `DRAFT_v1.md` §4 and `ARGUMENT_AND_OUTLINE.md`: automation reduces domination; paternalism; designer-adopted
-duties lack authority (Lazar, once his cards clear); the "smart reader" (Arbel and Becher 2022: who runs it, and
-who bears its error); speed and scale; cost; gaming the envelope; responsibilization (Willis; Docherty; Tang et al.
-2025) against the scaffolding duty [call 12].
+#### 3D. Who bears the burden
 
-### 7. Not repeating the mistakes: duties for the transition (~1,500)
+- **5. Notice she cannot answer; the presumption of reading.** The Requerimiento; *L'Estrange* with its three exits.
+  *Objectors:* Las Casas, "cosa es de reir, ó de llorar por mejor decir" (Bk III ch. 57, pp. 162–163); Oviedo, 1514
+  (lib.). *Now:* disclosure as the remedy. *Nadella:* disclosure "to those affected" after failure (P20); the principal
+  "solely responsible" under the Copilot terms [carded]. Counter-evidence to state: *Moffatt* and OLG Hamm refuse to
+  presume that consumers check chatbot answers.
+- **8. Blame and stigma.** Quigley's "age-old prejudice" (2021, p. 43); "bespis'mennye narody" (Toimbek 2023, p. 25).
+  Sub-cases: stigma on the competent; denial of demand (Kunte to the Hunter Commission, rejected, para. 588).
+  *Objectors:* Kozol 1980 (in Boughton, p. 29); Feng Menglong and Yuan Mei (second-hand). *Now:* responsibility that
+  "defaults to end users least able to manage the risk" (Tang et al., p. 16). *Nadella:* the terms make the user, not
+  the system, responsible; the person acted on is not mentioned [carded].
+- **16. Taxed for one's own exclusion.** Phule: revenue spent "on the education of the higher classes ... is anything
+  but just or equitable" (Preface, p. 22); the Hunter Commission conceded low castes "contribute to the local cesses"
+  (para. 587). Sub-case: paid but voiceless (Toimbek, p. 29). *Objector:* Phule. *Now and Nadella:* [hypothesis] on
+  every candidate (public skilling funds; people's data used in training). Literacy-side evidence is also thin; call 2.
 
-Each duty is the inverse of a failure, with its bearer and its precedent. The author's three principles
-(`04_AUTHOR_DRAFT.md` §6) lead and are given their names: structural refusal (D02, against the gate), the declared
-operating envelope (D03, against custody; AP2 and Visa show it can be built, owed so far to merchants, and IMDA asks
-for it toward customers [calls 9, 11]), infrastructural counter-delegation (D04, against the one-sided record; the
-reader chosen by the person and independent of the deployer, on s. 208's model, which answers the Election
-Commission's objection to an official helper [calls 5, 10]). Then check understanding and carry the risk (D06),
-change the medium at the point of use (D07), and scaffold toward algorithmacy inside the system (D08, a proposal,
-against the promise). Bearers: the deployer, the provider, both for Microsoft's own agents; the law where design
-cannot reach (D05), where the paper meets Berthon, Pitt and Campbell as the author's 05:437 does [call 6].
+#### 3E. How success is claimed
+
+- **6. The oversold promise.** Dakar's commitment and its miss; human capital theory that "implies that people can
+  escape from poverty by raising their education level, without any need to transform the social system" (Boughton,
+  p. 30); Kalantzis and Cope's "ideology of opportunity". *Objector:* only institutional (the UNESCO/UNDP 1976
+  evaluation); the text says so. *Now:* the AI-literacy movement (Kamperman and Graff 2026) [carded]. *Nadella:*
+  Elevate's pledge [carded].
+- **14. Mismeasured progress.** Designer and objector inside one institution: Lowe, 1862, "If it is not cheap it shall
+  be efficient; if it is not efficient it shall be cheap"; Arnold, HM Inspector, 1867, children passing "without their
+  really knowing how to read, write, or cipher" (p. 124). Barakat 2016 on rates that rise with no adult taught.
+  Sub-cases: the gated instrument (signatures; the 1849 Cape census); recitation without comprehension; inflated
+  statistics. *Now:* trainings, credentials or literacy-scale scores counted as protection [hypothesis]. *Nadella:* no
+  move found.
+
+#### Boundary: compulsion and an enforced standard
+
+Residential and boarding schools; the 1919 Soviet decree making literacy "not a right but precisely a duty" (my
+translation); standard-language policing (Cushing 2020). *Objector:* Zitkala-Ša, "one of many little animals driven by
+a herder". *Now:* the agent as the only channel, where consent is thin (A8) [carded]. It stays a boundary because the
+reports blame removal and language suppression, not the teaching of reading.
+
+### 4. Nadella's architecture as the case (~1,000)
+
+- **4.1 Why him.** The clearest statement of an allocation the industry shares (Anthropic's and Google's frameworks make
+  the same one, CE-4.3); its author supplies models and deploys agents; it runs in Agent 365. For the deploying
+  organisation it is a real correction, and its controls outside the model (P11–P12) have the correction's form.
+- **4.2 The record in one table.** Seventeen rows: error, Nadella's move, evidence status. On present evidence, twelve
+  errors have a carded Nadella or Microsoft move (1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, and 11 in part); two have the move
+  carded and its motive or application a hypothesis (15, 17); three stand at movement level only (10, 14, 16). The text
+  says so: Nadella is the case for most errors, not all.
+- **4.3 The charge.** The essay's sentences leave the person acted on unnamed; the products and terms fill each gap with
+  the deployer (call 7). Srivastava (2026, pp. 48–49) is the only scholarly critique of Microsoft's framing the gap
+  check found.
+
+### 5. Where the parallel breaks, and what is contested (~700)
+
+The intermediary adapts to the person as the page never did (Yeung on decision guidance; the rest is inference,
+ruling 13). Gate versus brake; one firm versus a realm-wide monopoly; intent versus position, weaker than it looks
+(ruling 14). Five contested historical claims, stated on both sides (Report, "Five claims are contested"): the Ottoman
+print "ban" (no decree text survives; write "restriction", not "ban"); the Chinese examination as ladder or gate; the
+script as barrier; likbez as control or as access; mission schooling as harm or provision. The paper imputes no motive
+to Nadella or Microsoft.
+
+### 6. Objections (~700)
+
+Automation reduces domination (Sparks and Jayaram); paternalism (Scherer et al. 2023); designer-adopted duties lack
+authority (Lazar, once his cards clear); the smart reader (Arbel and Becher 2022); cost; gaming the envelope;
+responsibilization against the scaffolding duty; and, new in v5, that seventeen errors make a list, not an argument.
+The reply is the families and the single allocation they share.
+
+### 7. Not repeating the errors: duties by family (~900)
+
+| Family | Duty (inverse) | Precedent | Status |
+|---|---|---|---|
+| A Who gets in | D02 structural refusal: a route around the agent at no penalty, with no exception that yields to the stronger party's contract | GDPR art. 22(1) as prohibition in principle; the 1858 Despatch, had it been enforced | partial |
+| B What competence is given | D08 scaffold inside the system, for the person acted on; D07 change the medium at the point of use | none for D08; Felt et al. 2015 for D07 | proposal; working |
+| C Medium and record | D03 a declared envelope binding toward the people acted on; D04 a record and a reader owed to the second party, chosen by her and independent of the deployer | AP2 and Visa (built, owed to merchants); IMDA p. 47; Easton 1757; VRA s. 208 | partial; working with limits |
+| D Burden | D06 check understanding and carry the risk | teach-back; the 1883 affidavit rule; *Jones v. Meehan* | partial |
+| E Success claims | D09 measure the person acted on, not the trainings delivered | Arnold's 1867 report as the warning; no present precedent | proposal (Claude's, new in v5) |
+
+What design cannot do (D05) bounds the table; there the paper meets Berthon, Pitt and Campbell as the author's 05:437
+does.
 
 ### Conclusion (~400)
 
-The transition is under way and its terms are being written now. Literacy's record shows that both courses were
-available at each step. Nadella's architecture makes a clear choice for the organisation and leaves the person acted
-on where literacy's failures left the reader. The duties describe the other course.
+Literacy's record shows both courses open at each step and people at the time saying which was wrong. The AI-ethics
+movement has chosen literacy's remedies, and Nadella's architecture shows where they lead for the person acted on. The
+duties describe the other course.
 
 ## Calls for the author
 
-*Ruled 19 Nov 2026 under the author's delegation (`run_2026_11/synthesis/AUTHOR_CALLS_RULED.md`, calls 5 and 15):
-title as the placeholder below; five failures; one table and two paragraphs in §4.1; a new DRAFT_v2 on this
-structure, carrying the author's 04/05 wording verbatim where it fits, every Claude sentence marked. The text
-below is kept as the record of the defaults.*
-
-1. **Title.** "The print stage" is retired (ARGUMENT v3). A placeholder in the restored frame: *Repeating Literacy's
-   Mistakes: Algorithmacy and the Ethics of Nadella's Trust Architecture*.
-2. **Five failures or six.** The author's drafts carry five practices; the October work splits the record further
-   (notice without understanding; the presumption of reading). Default: the author's five, with the two October items
-   folded into §3.4.
-3. **How much platform material in §4.1.** Default: one table and two paragraphs, so Nadella stays the central case.
-4. **Method for the draft.** Continue the sentence-by-sentence rebuild against Diamantis (2025) with this structure,
-   or revise `DRAFT_v1.md` in place with marked changes.
+1. **Families or a flat list of seventeen.** Default: five families, so §3 argues rather than catalogues.
+2. **Errors with no Nadella move (10, 14, 16).** Default: keep them at movement level and say so in §4.2. The
+   alternative is to cut 16, whose literacy evidence is also thin.
+3. **Length.** §3 at ~6,500 words gives each error ~380. Default: trim to 12,000 by shortening 16 and the boundary
+   case, or ask BEQ whether references count.
+4. **Title.** Placeholder: *Repeating Literacy's Mistakes: Algorithmacy, AI Ethics and Nadella's Trust Architecture*.
+5. **Verification before drafting.** The literacy quotations are agent-gathered and unverified; OCR passages (Hunter,
+   Ambedkar, Arnold) need page images; Monaghan 1988, *Dido's Daughters*, Nichols et al. 2024 and Pangrazio 2026 need
+   library copies.
