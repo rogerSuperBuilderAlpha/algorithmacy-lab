@@ -8,7 +8,10 @@
 | A0 scout, A1 drafting | done: 38 cards, five facet reports | 376b80e2 |
 | A2 verify, A3 Fable read, A4 gap report | done: 5 true, 30 corrected, 3 pending (Levine, Sandiford, Yılmaz: no saved source); `synthesis/GAP_REPORT.md` Part A | 659b4abc |
 | Author stop after A4 | skipped on the author's instruction to run everything at once; Phase B proceeds on the default "no sixth failure" | — |
-| B0–B4, C | running (workflow `wf_2ce86abf-1d7`), Phase B cut to 30 cards (PLAN §10 cuts 1–5) because actual spend could not be read from inside the session | — |
+| B0–B4 | done (workflow `wf_2ce86abf-1d7`, cut to 30 cards per PLAN §10 cuts 1–5): scout, five facets, 27 cards, `NADELLA_MOVES.md`, precheck, verifiers V-B-1/V-B-2, Fable reads B | see below |
+| SB, adjudication, X (indexer) | NOT RUN: the session hit the API usage limit on 2026-11-19 03:21 UTC (access returns 2026-12-01); the workflow returned null for all three. `GAP_REPORT.md` Part B does not exist yet | — |
+
+Seven Phase B cards still read `verified: pending` (narayanan, olghamm, smith, tang, susser, wachter, visa) and await adjudication.
 
 ## Spend
 
