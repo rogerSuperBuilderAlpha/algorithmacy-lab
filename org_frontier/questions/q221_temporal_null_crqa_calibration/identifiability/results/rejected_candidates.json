@@ -1,0 +1,20 @@
+[
+ {
+  "id": "A/B/C (A_self, B_xor, B_xor_memory)",
+  "status": "rejected",
+  "reason": "q161 targets ineligible (empty B) - rule 1",
+  "facts": "see variants_abc.txt"
+ },
+ {
+  "id": "nsi(0,3,3) vs aff(6,9,5)",
+  "status": "rejected",
+  "reason": "constant node X'=0; X marginal 2/25 vs 1/2",
+  "facts": "preserved as failing example in test_invariants.py"
+ },
+ {
+  "id": "aff(6,9,5) vs aff(11,9,5)",
+  "status": "rejected",
+  "reason": "isomorphic: swap Y,H + flip Y,H values (48-group)",
+  "facts": "iso_check_hassan_pair.txt"
+ }
+]

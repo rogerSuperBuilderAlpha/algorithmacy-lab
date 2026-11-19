@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "irreducibility-pipeline: exact irreducibility analysis of coordinative structures with PyPhi"
+authors:
+  - family-names: Hunt
+    given-names: Roger
+    orcid: "https://orcid.org/0009-0000-7262-1779"
+version: 0.1.0
+date-released: "2026-10-31"
+license: MIT
+keywords:
+  - integrated information theory
+  - PyPhi
+  - organization theory
+  - coordination
+  - platforms
+  - triads
+  - AI-assisted research

@@ -6,7 +6,7 @@ year: 2019
 doi: 10.1007/s12599-018-00574-z
 venue: "Business & Information Systems Engineering"
 cluster: platform-hospitality
-status: cited
+status: held
 role: evidence
 used_by_sections: [3]
 claims: [authority-redistribution]
@@ -17,6 +17,7 @@ source_basis: "Crossref-verified against the publisher record; abstract read."
 generated_run: 2026-08-11-p9
 flags: []
 superseded_by: "zervas2021reputation"
+hold_rationale: "Cited in the August draft; not in the reference list of v4 as submitted. Reconciled to v4 in rr-2026-11."
 ---
 
 > **Status corrected 2026-08-11 (P9 reconciliation).** This card's frontmatter had gone out of step with the manuscript, which moved after the 8 August build while the library stood still. The frontmatter below is now true; the prose beneath it predates the correction and has not been rewritten.

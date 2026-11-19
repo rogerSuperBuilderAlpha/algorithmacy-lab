@@ -4,15 +4,15 @@
 
 **Current version:** the up-to-date proposal is the author's Google Doc: <https://docs.google.com/document/d/1fhM_C7pz6e3sR7aXY3_89oys06B-UyK9Vyf93bt1zFA/edit>. The Markdown files here are Claude's v3 draft and the review against that doc; where they differ, the Google Doc governs.
 
-**Status:** v3 drafted 26 Oct 2026 and not yet submitted. It was planned against the CFP PDF only, with Fable planning the writing. The proposal (1,984 words) presents the AI + PyPhi pipeline that tests a coordinative structure for irreducibility, and the strategic model as Stage 2. The submission repository `irreducibility-pipeline` is built and committed locally at `~/iit-playground/irreducibility-pipeline` (tag `v0.1-stage1`; 19 tests and 17 reproduce checks pass in a fresh venv) and is not yet pushed to GitHub. v1 and v2 are retired. **Due 1 Nov 2026.**
+**Status:** v3 drafted 26 Oct 2026. The reviewed Stage 1 export (v7) and the current deck are in [`../proposals/orgsci_ai_2026/`](../proposals/orgsci_ai_2026/). The prototype lives in this repository at [`../../irreducibility-pipeline/`](../../irreducibility-pipeline/). v1 and v2 are retired. **Due 1 Nov 2026.**
 
-**The call:** a special issue that develops AI-enabled research infrastructure, with a workshop at Duke on 19–20 Feb 2027. Digest: [`cfp/README.md`](cfp/README.md).
+**The call:** a special issue that develops AI-enabled research infrastructure. The development workshop is **27–28 February 2027 (tentative)**. Digest: [`cfp/README.md`](cfp/README.md).
 
 | Milestone | Date (from the editors) |
 |---|---|
 | Proposal, technical appendix and repository | **1 Nov 2026** |
-| Development workshop | 19–20 Feb 2027 (date may change) |
-| Final papers (2,500–4,500 words) | Summer 2027 |
+| Development workshop | 27–28 February 2027 (tentative) |
+| Final papers | Summer 2027 |
 
 **Angle (v3):** exactly how AI and PyPhi test a coordinative structure for irreducibility, and why that matters for strategy as organizations rely on triadic infrastructure. The GitHub repo is the prototype.
 

@@ -4,6 +4,14 @@ A standing bibliography and review for each of the six programs, refreshed so ne
 appears. The shared rules live in the root [`../../AGENTS.md`](../../AGENTS.md). This note covers the
 watch's local workflow.
 
+## Remote visibility
+
+Before the first edit: `git fetch --all --prune`, read `git branch -r --sort=-committerdate` and
+`gh pr list --state open`, create a branch off `origin/contrib`, and `git push -u origin <branch>`.
+Commit and `git push` after every program appended and again after the changelog and indexes.
+Re-check open branches and pull requests while the sweep runs. The full rule is **Remote visibility**
+in the root [`../../AGENTS.md`](../../AGENTS.md). Do not push to `main` or `contrib`.
+
 ## The two modes
 
 Both are spelled out in [`DAILY_REFRESH.md`](DAILY_REFRESH.md), and the daily cron fires the first:

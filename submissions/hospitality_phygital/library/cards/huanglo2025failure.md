@@ -6,7 +6,7 @@ year: 2025
 doi: 10.1007/s40558-025-00314-6
 venue: "Information Technology & Tourism"
 cluster: ai-automation
-status: held
+status: cited
 role: evidence
 used_by_sections: [4]
 claims: [human-contact-conditional]

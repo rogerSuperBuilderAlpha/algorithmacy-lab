@@ -12,8 +12,13 @@ conventions that a submission has to meet.
 ## Setup
 
 ```bash
-python3 --version                              # PyPhi's IIT-4.0 line needs 3.10+; stock python3 is often 3.9
-python3.12 -m venv venv && source venv/bin/activate    # use any 3.10+ interpreter explicitly if so
+python3 tools/start.py                         # or by hand, below; the script also validates the instrument
+```
+
+By hand, with Python 3.10 to 3.12 (3.13 or newer needs a C++ compiler for `graphillion`):
+
+```bash
+python3.12 -m venv venv && source venv/bin/activate    # or: uv venv --python 3.12 venv
 pip install -r requirements.txt
 ```
 
@@ -133,6 +138,18 @@ the flow self-check run on each paragraph. Citations resolve to real sources.
 This tree contains a separate, private dissertation repo nested at `dissertation/`, gitignored here. Where
 you run git from decides the remote. Read [`REPO_LAYOUT.md`](REPO_LAYOUT.md) before committing, and never
 `git add -f dissertation/`.
+
+Remote visibility is mandatory, and it starts before the first edit. The full command block is in
+[`AGENTS.md`](AGENTS.md) under **Remote visibility**.
+
+1. **Branch and push first.** `git fetch --all --prune`, create a branch off `origin/contrib`, and
+   `git push -u origin <branch>` before substantive work. Open a draft pull request into `contrib`
+   with the first commit. `main` and `contrib` are protected.
+2. **Push every meaningful step.** Commit the hypotheses before the results, and `git push` after that
+   commit and after every later probe, artifact, or checkpoint. Remote state is the recoverable state.
+3. **Read the other open work.** `git branch -r --sort=-committerdate`, recent commits across those
+   branches, and `gh pr list --state open`, before starting and again while working. When another
+   branch or open pull request already covers the question, join it or stop.
 
 ## Reporting a problem
 

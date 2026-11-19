@@ -1,0 +1,30 @@
+box-run: queued 'q221-pair-search' [test, 2000 MB]: all 1 test slot(s) busy
+box-run: start 'q221-pair-search' [test, 2000 MB est, as-cap off MB, timeout 2400s] after 30s wait
+stage1: 8192 forms, 2999 distinct cross-profile classes, 2823 classes with >1 member covering 8016 forms (1.4s)
+group 0/2823  orbits cached 2  found 0  1s
+group 25/2823  orbits cached 42  found 0  3s
+group 50/2823  orbits cached 82  found 0  5s
+group 75/2823  orbits cached 142  found 2  10s
+group 100/2823  orbits cached 170  found 2  11s
+group 125/2823  orbits cached 204  found 2  13s
+group 150/2823  orbits cached 222  found 2  14s
+group 175/2823  orbits cached 246  found 2  15s
+group 200/2823  orbits cached 254  found 3  16s
+group 225/2823  orbits cached 272  found 4  18s
+group 250/2823  orbits cached 274  found 4  18s
+group 275/2823  orbits cached 280  found 4  20s
+group 300/2823  orbits cached 316  found 11  29s
+group 325/2823  orbits cached 348  found 14  36s
+group 350/2823  orbits cached 384  found 14  45s
+group 375/2823  orbits cached 402  found 20  52s
+group 400/2823  orbits cached 420  found 26  56s
+group 425/2823  orbits cached 432  found 30  60s
+group 450/2823  orbits cached 450  found 31  64s
+group 475/2823  orbits cached 456  found 38  65s
+group 500/2823  orbits cached 462  found 40  67s
+group 525/2823  orbits cached 462  found 40  67s
+group 550/2823  orbits cached 468  found 53  68s
+group 575/2823  orbits cached 502  found 62  76s
+group 600/2823  orbits cached 530  found 71  84s
+group 625/2823  orbits cached 562  found 84  94s
+group 650/2823  orbits cached 576  found 84  98s

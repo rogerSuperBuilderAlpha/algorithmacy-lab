@@ -36,3 +36,5 @@ silence, working through a perceived breach of the psychological contract.
 ## Where it enters the manuscript
 
 Section 5, the employee half of the competence-and-limit argument.
+
+Abstract re-read 11 Nov 2026 from OpenAlex: 'data were collected from 355 frontline service employees in Chinese hotels using a two-wave survey'. DRAFT_v6's 'frontline hospitality employees' is accurate.

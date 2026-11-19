@@ -6,6 +6,27 @@ stages but needs the Claude Code Workflow tool, which an ordinary contributor do
 manual path below is the authoritative one, and the protocol calls it the fallback for exactly
 that reason.
 
+## 0. Put the work on the remote first
+
+Do this before the environment, the scaffold, or any edit. A local branch nobody else can see is not
+a start. `main` and `contrib` are protected; the push target is the working branch. The full rule is
+**Remote visibility** in [`AGENTS.md`](AGENTS.md).
+
+```bash
+git fetch --all --prune
+git branch -r --sort=-committerdate
+git for-each-ref --sort=-committerdate --format='%(committerdate:short) %(refname:short) %(subject)' refs/remotes | head -30
+gh pr list --repo rogerSuperBuilderAlpha/algorithmacy-lab --state open --limit 40
+git checkout -b study/your-slug origin/contrib          # fork: upstream/contrib, then push to origin
+git push -u origin study/your-slug
+```
+
+Read those branches and pull requests before you pick a slug. When one of them already covers the
+question, join it or stop. After this push, commit and `git push` again at every meaningful step
+(hypotheses, probe, findings, index). Open a draft pull request into `contrib` with the first commit,
+and keep it current. Repeat the fetch and the `gh pr list` before a long run and before you mark the
+pull request ready.
+
 ## 1. Environment
 
 PyPhi's IIT-4.0 line requires **Python 3.10 or newer**. Check your interpreter first — a stock machine's
@@ -13,11 +34,16 @@ default `python3` is often 3.9, and the install below fails with `requires a dif
 Build the venv with an explicit modern interpreter when the default is too old:
 
 ```bash
-python3 --version                 # if < 3.10, use python3.12 (or any 3.10+) explicitly on the next line
-python3.12 -m venv venv           # plain `python -m venv venv` is fine only if `python` is already 3.10+
+python3 --version                 # use python3.12 (or 3.10, 3.11) explicitly on the next line if this is older or 3.13+
+python3.12 -m venv venv           # or: uv venv --python 3.12 venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
+
+`python3 tools/start.py` does this whole section in one command, then validates the instrument and prints
+two verdicts. On Python 3.13 or newer the install needs a C++ compiler, because `graphillion` has no
+prebuilt wheel there; it fails with `x86_64-linux-gnu-g++: No such file or directory` without one. Python
+3.10 to 3.12 install from prebuilt wheels.
 
 `requirements.txt` pulls PyPhi's IIT-4.0 line and `phyid` from git, so the install needs network
 access and takes a few minutes. The PyPhi line resolves to `wmayner/pyphi` `feature/iit-4.0` at
@@ -168,23 +194,29 @@ pushing.
 
 ## 8. Open a pull request
 
-Work lands through `contrib`, never `main` directly. Read `REPO_LAYOUT.md` first if you have not —
+The branch has been on the remote since section 0, and every meaningful step since then has been
+pushed. Work lands through a pull request into `contrib`. Read `REPO_LAYOUT.md` first if you have not —
 this tree nests a second, private git repo under `dissertation/`, and the directory you run git
 from decides which repo you touch.
 
-Working from a fork, add this repository as `upstream` once, then branch off its `contrib`:
+Fetch again and re-read the open branches and pull requests before you open or update the pull
+request. Working from a fork, add this repository as `upstream` once, branch off its `contrib`, and
+push the working branch to your fork:
 
 ```bash
 gh repo fork rogerSuperBuilderAlpha/algorithmacy-lab --clone   # or fork on GitHub and clone yours
 cd algorithmacy-lab                  # --clone already adds `upstream`; a hand-made clone needs `git remote add upstream https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab.git`
-git fetch upstream contrib
+git fetch --all --prune
 git checkout -b study/your-slug upstream/contrib
-git add <your files> && git commit -m "..."   # hypotheses committed before results
-git push -u origin study/your-slug
-gh pr create --repo rogerSuperBuilderAlpha/algorithmacy-lab --base contrib
+git push -u origin study/your-slug                       # immediately, before the edits
+git add <your files> && git commit -m "..."              # hypotheses first; push after this and every later step
+git push
+gh pr create --repo rogerSuperBuilderAlpha/algorithmacy-lab --base contrib --draft
 ```
 
-With write access to this repository, `origin` is `upstream` and the first two lines are not needed.
+With write access to this repository, `origin` is the lab and the fork lines are not needed: branch
+off `origin/contrib` and `git push -u origin study/your-slug` before editing. Mark the draft ready
+when the definition of done in `AGENTS.md` is met.
 
 `PUBLISHING.md` describes the four-pass review your PR will get (reproduction, pre-commitment
 audit, argument, prose) and `CONTRIBUTING.md` covers house style.

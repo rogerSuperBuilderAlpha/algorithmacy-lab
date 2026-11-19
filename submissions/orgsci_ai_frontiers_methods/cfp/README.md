@@ -11,7 +11,7 @@
 
 ## Stages (verbatim)
 - "Stage 1: Submit research proposal and package (Deadline: November 1, 2026)"
-- "Stage 2: Engage in development process (January-May, 2027)". The workshop is at Duke on 19–20 Feb 2027, per the 9 Oct post. The July post said 27–28 Feb.
+- "Stage 2: Engage in development process (January-May, 2027)". The workshop date in this package is 27–28 February 2027 (tentative); the call names no venue. The 9 Oct post had said Duke on 19–20 Feb 2027; the July post said 27–28 Feb.
 - "Stage 3: Finalization of research projects (Summer, 2027)"
 - Final papers are "Nature-style ... between 2,500 and 4,500 words."
 

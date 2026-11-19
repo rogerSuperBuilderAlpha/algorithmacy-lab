@@ -45,14 +45,35 @@ def _first_heading(path: str) -> str:
     return ""
 
 
+_LINK = re.compile(r"\]\(([^)\s#]+)(#[^)\s]*)?\)")
+
+
+def _rebase_links(text: str, path: str) -> str:
+    """Rewrite relative markdown link targets so they resolve from the repo root.
+
+    A summary line copied out of `org_frontier/threads/x/THREAD.md` lands in README.md, where
+    `../../essays/foo.md` points outside the repo. Rebase each relative target onto the root.
+    """
+    base = os.path.dirname(path)
+
+    def fix(m: "re.Match") -> str:
+        target = m.group(1)
+        if target.startswith(("http://", "https://", "mailto:", "/")):
+            return m.group(0)
+        rebased = os.path.relpath(os.path.normpath(os.path.join(base, target)), _ROOT).replace(os.sep, "/")
+        return f"]({rebased}{m.group(2) or ''})"
+
+    return _LINK.sub(fix, text)
+
+
 def _first_paragraph(path: str) -> str:
-    """The first non-empty, non-heading, non-table paragraph line."""
+    """The first non-empty, non-heading, non-table paragraph line, with relative links rebased."""
     try:
         with open(path, encoding="utf-8") as fh:
             for line in fh:
                 s = line.strip()
                 if s and not s.startswith(("#", "|", ">", "<", "-", "*", "```")):
-                    return s
+                    return _rebase_links(s, path)
     except OSError:
         pass
     return ""

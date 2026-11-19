@@ -6,7 +6,7 @@ year: 2023
 doi: 10.1145/3579466
 venue: "Proceedings of the ACM on Human-Computer Interaction"
 cluster: ai-automation
-status: cited
+status: held
 role: evidence
 used_by_sections: [3]
 claims: [discretion-redistribution]

@@ -19,3 +19,20 @@
 - "Unclear accountability structures may obscure responsibility for service failures or might facilitate unintended harmful outcomes"
 - "Algorithmic opacity makes it difficult for customers to understand, question or contest adverse decisions."
 - Topics: "Accountability and responsibility in human–AI service interactions"; "Human oversight and hybrid human–AI service models"; "Transparency and explainability in automated service decisions".
+
+## Verification attempt, 27 Oct 2026
+
+[DRAFTED by Claude, 27 Oct 2026.]
+
+**Network state.** The session's egress proxy refused every outbound host (CONNECT 403), and WebFetch returned ENOTFOUND. No page was read directly; only search snippets were available.
+
+**URLs tried**
+- https://www.tandfonline.com/action/authorSubmission?journalCode=fsij&page=instructions — WebFetch: ENOTFOUND; curl: blocked. Failed.
+- https://think.taylorandfrancis.com/ — curl: 000 (blocked). Failed.
+- WebSearch, three queries ("Service Industries Journal" instructions / word limit / fsij20) — succeeded, but no result returned the instructions-for-authors page. Only the journal homepage (https://www.tandfonline.com/journals/fsij20) and About page (https://www.tandfonline.com/journals/fsij20/about-this-journal) surfaced.
+
+**Word limit:** still unverified. No snippet carried a figure for SIJ. (The only figure that appeared, "10,000 word maximum", belongs to SAGE's *Journal of Service Research* and does not apply.)
+
+**Review (About-page snippet, search-snippet text):** "All articles in SIJ undergo rigorous peer review, based on initial Editor-in-Chief and Methodology Editor screening followed by double-anonymized refereeing using at least two anonymous referees." Consistent with the call's "double-blind review".
+
+**Article types, template, prior-publication rules:** still unverified.

@@ -42,8 +42,9 @@ results CSV.
 the genuine two-party `{W,S}` coupling a dyad has. It therefore over-calls every coupled dyad a
 triad. The correct binary test is Φ_MIP = 0: a dyad factors along its own least-damaging cut
 (`{W,S}|{C}`), which the MIP finds; a triad has no such factoring cut. The MIP is itself a
-party-respecting partition, so the verdict is still about party-line factorization. Demonstrated in
-`dissertation/paper2_construct/party_partition.py`.
+party-respecting partition, so the verdict is still about party-line factorization. The worked
+demonstration is in the private dissertation repository; `ats_feedback_factors` in `forms.py` is the
+public case (triadic wiring, dyadic verdict).
 
 ## Controls (run before any verdict)
 
@@ -67,8 +68,8 @@ library), per `../landscape/SURVEY_FINDINGS.md`.
 ## Reproducibility
 
 ```bash
-~/iit-playground/venv-4.0/bin/python -m org_frontier.classifier.validate   # controls
-~/iit-playground/venv-4.0/bin/python -m org_frontier.classifier.run        # library -> CSV
+python -m org_frontier.classifier.validate   # controls (repo root, venv active)
+python -m org_frontier.classifier.run        # library -> CSV
 ```
 
 Built on the same PyPhi IIT-4.0 line as the rest of the repo (`requirements.txt`).

@@ -96,14 +96,23 @@ def main() -> int:
     rel = os.path.relpath(dest, _REPO_ROOT)
     module = f"org_frontier.questions.q{qid}_{args.slug}.probe_{args.slug}"
     print(f"Scaffolded {rel} (probes start at {start}).")
+    print("Remote visibility (AGENTS.md) — do this before filling the scaffold, if the branch")
+    print("is not already on the remote:")
+    print("  git fetch --all --prune")
+    print("  git branch -r --sort=-committerdate && gh pr list --state open")
+    print("  git checkout -b <topic>/<slug> origin/contrib && git push -u origin <topic>/<slug>")
+    print("Commit and git push after every stage below. Re-check open branches and pull requests")
+    print("before computing. Do not push to main or contrib.")
     print("Next, following org_frontier/protocol/RESEARCH_PROTOCOL.md:")
     print(f"  1. fill review.md (prior probes: `python tools/build_catalog.py --find ...`),")
-    print(f"     then hypotheses.md, and commit BEFORE computing")
+    print(f"     then hypotheses.md, commit BEFORE computing, and git push")
     print(f"  2. write methods.md and probe_{args.slug}.py (add more probe_*.py as needed);")
     print(f"     run from the repo root: python -m {module}")
+    print(f"     commit and git push the probe and its output")
     print(f"  3. write FINDINGS.md and paper.md, then register numbers in ci/reproduce.json")
+    print(f"     commit and git push")
     print(f"  4. run `python tools/build_index.py` and `python tools/build_catalog.py` so the")
-    print(f"     question is indexed")
+    print(f"     question is indexed; commit and git push; keep the draft PR into contrib current")
     return 0
 
 

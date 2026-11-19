@@ -1,0 +1,291 @@
+{
+ "stages": [
+  {
+   "stage": "S0 all candidates",
+   "pairs": 7488,
+   "unique_node_perm": 689,
+   "unique_48group_nonisomorphic": 74
+  },
+  {
+   "stage": "S1 no constant node",
+   "pairs": 6816,
+   "unique_node_perm": 593,
+   "unique_48group_nonisomorphic": 67
+  },
+  {
+   "stage": "S2 + equal stationary channel marginals",
+   "pairs": 6432,
+   "unique_node_perm": 525,
+   "unique_48group_nonisomorphic": 67
+  },
+  {
+   "stage": "S3 + equal self-recurrence profiles (lags 0..20)",
+   "pairs": 180,
+   "unique_node_perm": 30,
+   "unique_48group_nonisomorphic": 3
+  },
+  {
+   "stage": "S4 + exact cross-profile re-check",
+   "pairs": 180,
+   "unique_node_perm": 30,
+   "unique_48group_nonisomorphic": 3
+  },
+  {
+   "stage": "S5 + not 48-group isomorphic",
+   "pairs": 144,
+   "unique_node_perm": 24,
+   "unique_48group_nonisomorphic": 3
+  }
+ ],
+ "survivors_48group_unique": [
+  {
+   "a": [
+    "aff",
+    9,
+    6,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    15,
+    10
+   ],
+   "a_tables": [
+    [
+     1,
+     1,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     1,
+     0,
+     0,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     1,
+     1,
+     0,
+     1,
+     0
+    ]
+   ],
+   "b_tables": [
+    [
+     1,
+     1,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     1,
+     0,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     1,
+     1,
+     0,
+     1,
+     0
+    ]
+   ],
+   "marginals": [
+    "1/2",
+    "1/2",
+    "1/2"
+   ]
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    6,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    15,
+    12
+   ],
+   "a_tables": [
+    [
+     1,
+     1,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     1,
+     0,
+     0,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     1,
+     1,
+     0,
+     1,
+     0
+    ]
+   ],
+   "b_tables": [
+    [
+     1,
+     1,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     1,
+     0,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     1,
+     1,
+     0,
+     0
+    ]
+   ],
+   "marginals": [
+    "1/2",
+    "1/2",
+    "1/2"
+   ]
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    6,
+    11
+   ],
+   "b": [
+    "aff",
+    9,
+    14,
+    10
+   ],
+   "a_tables": [
+    [
+     1,
+     1,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     1,
+     0,
+     0,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     1,
+     0,
+     0,
+     1,
+     0,
+     1
+    ]
+   ],
+   "b_tables": [
+    [
+     1,
+     1,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     1,
+     0,
+     1,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     0,
+     1,
+     1,
+     0,
+     1,
+     0
+    ]
+   ],
+   "marginals": [
+    "1/2",
+    "1/2",
+    "1/2"
+   ]
+  }
+ ]
+}

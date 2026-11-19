@@ -29,7 +29,11 @@ body = re.sub(r"\s+", " ", body)
 
 # The key list must match the paper. Rendering the wrong one made every entry unique to
 # the other draft look like a year disagreement.
-_keys = ARM / "manuscript" / "cited_keys_draft.txt"
+# An optional second argument names the key list, so a later draft can be checked against its own
+# list (added 10 Nov 2026 for DRAFT_v6 and cited_keys_v6.txt; the default is unchanged).
+_keys = Path(sys.argv[2]) if len(sys.argv) > 2 else ARM / "manuscript" / "cited_keys_draft.txt"
+if not _keys.is_absolute():
+    _keys = Path.cwd() / _keys
 refs = subprocess.run(
     ["python3", str(ARM / "manuscript" / "render_refs.py"), "--cited", str(_keys)],
     capture_output=True, text=True).stdout

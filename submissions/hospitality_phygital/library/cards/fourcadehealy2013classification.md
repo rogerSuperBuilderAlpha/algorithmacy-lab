@@ -6,7 +6,7 @@ year: 2013
 doi: 10.1016/j.aos.2013.11.002
 venue: "Accounting, Organizations and Society"
 cluster: mediation-sovereignty
-status: cited
+status: held
 role: evidence
 used_by_sections: [7]
 claims: [torque]
@@ -16,6 +16,7 @@ verified_date: 2026-08-08
 source_basis: "Full text obtained 2026-08-08 via open access (13,385 words) and read; identity confirmed against title and author before use. Bibliographic details verified against the publisher record."
 generated_run: 2026-08-08-oa-full-text-pass
 flags: []
+hold_rationale: "Cited in the August draft; not in the reference list of v4 as submitted. Reconciled to v4 in rr-2026-11."
 ---
 
 ## Summary

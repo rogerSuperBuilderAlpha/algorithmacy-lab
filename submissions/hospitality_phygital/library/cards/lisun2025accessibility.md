@@ -6,7 +6,7 @@ year: 2025
 doi: 10.1111/gove.70067
 venue: "Governance"
 cluster: mediation-sovereignty
-status: held
+status: cited
 role: evidence
 used_by_sections: [6]
 claims: [institutional-not-trainable, published-nulls]

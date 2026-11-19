@@ -4,6 +4,14 @@ The measure-validation experiments that established exact Φ as the lab's ground
 systems small enough to compute exact Φ, what tracks integrated information. The shared rules live in the
 root [`../AGENTS.md`](../AGENTS.md). This note covers what is local here.
 
+## Remote visibility
+
+Before the first edit: `git fetch --all --prune`, read `git branch -r --sort=-committerdate` and
+`gh pr list --state open`, create a branch off `origin/contrib`, and `git push -u origin <branch>`.
+Commit and `git push` after every experiment, findings file, or registered number. Re-check open
+branches and pull requests while working. The full rule is **Remote visibility** in the root
+[`../AGENTS.md`](../AGENTS.md). Do not push to `main` or `contrib`.
+
 ## Layout
 
 Each experiment is a directory with a `FINDINGS.md` and its scripts:

@@ -3,6 +3,14 @@
 Pairing exact Φ with cross-recurrence quantification: Φ reads a coordination model's structure,
 cross-recurrence reads a run of it. The shared rules live in the root [`../../AGENTS.md`](../../AGENTS.md).
 
+## Remote visibility
+
+Before the first edit: `git fetch --all --prune`, read `git branch -r --sort=-committerdate` and
+`gh pr list --state open`, create a branch off `origin/contrib`, and `git push -u origin <branch>`.
+Commit and `git push` after every experiment script, findings file, or registered number. Re-check
+open branches and pull requests while working. The full rule is **Remote visibility** in the root
+[`../../AGENTS.md`](../../AGENTS.md). Do not push to `main` or `contrib`.
+
 ## Local entry points
 
 - [`README.md`](README.md) — the arm. [`CONCEPTS.md`](CONCEPTS.md) — what each measure indexes and how Φ

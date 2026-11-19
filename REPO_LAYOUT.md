@@ -45,23 +45,38 @@ otherwise you are pushing **algorithmacy-lab**.
 ## Worked examples
 
 **Pushing PyPhi / code work (→ algorithmacy-lab):** `main` and `contrib` are branch-protected, so
-changes go through a pull request, not a direct push to `main` (see [`PUBLISHING.md`](PUBLISHING.md)).
+changes go through a pull request into `contrib` (see [`PUBLISHING.md`](PUBLISHING.md) and **Remote
+visibility** in [`AGENTS.md`](AGENTS.md)). Push the working branch before the first edit, and push
+again after every meaningful step. Read the other remote branches and open pull requests first.
+
 ```bash
 cd ~/iit-playground/pyphi-experiments        # outer repo (NOT dissertation/)
-git checkout contrib && git pull
-git checkout -b topic/my-change              # branch off contrib
+git fetch --all --prune
+git branch -r --sort=-committerdate
+gh pr list --state open
+git checkout -b topic/my-change origin/contrib
+git push -u origin topic/my-change          # immediately, before substantive edits
 git add <files> && git commit -m "..."
-git push -u origin topic/my-change
-gh pr create --base contrib                  # open a PR into contrib; merge after review
+git push                                    # again after every meaningful step
+gh pr create --base contrib --draft         # with the first commit; mark ready when done
 ```
+
 The owner can still merge as a repository admin while there is one maintainer. Promotion to `main` is a
 separate `contrib` → `main` pull request.
 
-**Pushing dissertation work (→ algorithmacy-dissertation, private):**
+**Pushing dissertation work (→ algorithmacy-dissertation, private):** the same three visibility rules
+apply on this remote. The repo is not branch-protected, so a direct push to its `main` is accepted;
+the default when a session is editing is still a working branch pushed before the edits and after
+every meaningful step, after reading the other branches.
+
 ```bash
 cd ~/iit-playground/pyphi-experiments/dissertation   # nested repo
+git rev-parse --show-toplevel                # must end in dissertation
+git fetch --all --prune && git branch -r --sort=-committerdate
+git checkout -b topic/my-change
+git push -u origin topic/my-change
 git add <files> && git commit -m "..."
-git push origin main
+git push
 ```
 
 ## Cautions

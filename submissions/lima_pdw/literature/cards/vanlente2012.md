@@ -1,0 +1,18 @@
+# van Lente, H. (2012). Navigating foresight in a sea of expectations: Lessons from the sociology of expectations. *Technology Analysis & Strategic Management*, 24(8), 769–782.
+
+**Identifier:** 10.1080/09537325.2012.715478  ·  **Read depth:** abstract_only  ·  **Source read:** the abstract, as search-engine excerpts of the Maastricht and Utrecht repository records and the Taylor & Francis record, in two overlapping fragments that together appear to cover it. The repository pages (cris.maastrichtuniversity.nl; dspace.library.uu.nl handle 1874/257104, which lists a file), ResearchGate, Academia.edu and the publisher were all refused by this session's egress proxy on 27 Oct 2026, so the body was not read and the three lessons the abstract promises were not obtained.
+**Source-tier:** primary_journal
+**Evidence basis:** publisher_summary
+**Cluster:** expectations-hype
+
+## What it argues
+
+The paper starts from the observation that socio-technical developments are saturated with formal and informal anticipations, and asks what that condition means for foresight, the organised practice of producing anticipations on purpose. It reviews the range of foresight studies alongside the main results of the sociology of expectations, which studies how expectations about science and technology are produced and circulated informally, and from that comparison derives three generic lessons and discusses how they support or limit foresight's ambitions. The abstract does not state the lessons and no citing source I reached reproduces them. Van Lente's research page describes his standing concern as the performativity of expectations and promises and places foresight and scenario planning among the sites where expectations are produced, which is the paper's framing: a foresight exercise is not a view from outside the sea of expectations but one more vessel on it. One citing summary attributes to the paper the warning that foresight exercises tend to reproduce prevailing narratives rather than create new insight, risking lock-in to existing pathways, and that bringing in diverse stakeholders helps only partly because new coalitions can reflect existing power. I could not confirm that attribution against the text.
+
+## Relation to the argument
+
+Arm: `io_hype_ai_literacy`. Van Lente is a guest editor of the target special issue, and this paper is his own application of the 2006 framework to a practice that claims to stand above expectations. The arm can use it as a template, because AI literacy makes the same claim about itself that foresight does: it presents itself as the sober corrective to hype rather than as a product of it. The paper's move — treat the corrective as one more expectation and ask what it performs — is the arm's move with the object changed. If the lessons, once read, say what the citing summary says they say, the arm gains a second point: a remedy that reproduces the prevailing narrative locks in the pathway, and the prevailing narrative about AI at work is that the deficit is in the person. The arm's conclusion, that hype around AI literacy is organizationally useful because it leaves the arbiter unexamined, is a lock-in claim of that kind.
+
+## Caution
+
+Abstract only. The three lessons are the paper's contribution and I do not know what they are; the lock-in reading is one citing summary's and is unverified. One Maastricht profile page gives the pages as 789–802, against 769–782 on the DOI record and the other listings; use 769–782. Do not cite the lessons, or attribute any position on foresight to van Lente, until the Utrecht repository file has been opened.

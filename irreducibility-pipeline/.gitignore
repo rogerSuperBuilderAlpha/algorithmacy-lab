@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+studies/results/
+__pyphi_cache__/
+pyphi.log

@@ -1,0 +1,132 @@
+{
+  "structure": "Car dealer vs clearinghouse: intrinsic or contingent intermediation (stipulated description)",
+  "source": "prose.md",
+  "parties": [
+    {
+      "label": "U",
+      "name": "upstream party (maker / first counterparty)",
+      "active": "acting"
+    },
+    {
+      "label": "I",
+      "name": "intermediary (dealer / clearinghouse)",
+      "active": "passing on or settling"
+    },
+    {
+      "label": "V",
+      "name": "downstream party (buyer / second counterparty)",
+      "active": "acting"
+    }
+  ],
+  "mediator": "I",
+  "encodings": [
+    {
+      "id": "dealer",
+      "account": "franchised dealer under a ban on direct sales",
+      "role": "design",
+      "rules": {
+        "U": "V",
+        "I": "U",
+        "V": "I"
+      },
+      "evidence": {
+        "U": [
+          {
+            "source": "prose.md",
+            "locator": "¶1",
+            "quote": "The maker ships to the dealer; the dealer delivers to the buyer; the maker builds to the dealer's orders, which follow the buyers'."
+          }
+        ],
+        "I": [
+          {
+            "source": "prose.md",
+            "locator": "¶1",
+            "quote": "The maker ships to the dealer; the dealer delivers to the buyer; the maker builds to the dealer's orders, which follow the buyers'."
+          }
+        ],
+        "V": [
+          {
+            "source": "prose.md",
+            "locator": "¶1",
+            "quote": "The maker ships to the dealer; the dealer delivers to the buyer; the maker builds to the dealer's orders, which follow the buyers'."
+          }
+        ]
+      },
+      "alternative": {
+        "I": {
+          "rule": "U and V",
+          "why": "A dealer that also screens buyers would commit a joint determination; ¶1 describes a pass-through."
+        }
+      },
+      "predicted": {
+        "structure": "triadic",
+        "core": [
+          "U",
+          "I",
+          "V"
+        ],
+        "reason": "The closed maker-dealer-buyer ring binds all three while the bypass is forbidden."
+      },
+      "bypass": {
+        "party": "I",
+        "downstream": "V",
+        "upstream": "U",
+        "mode": "replace"
+      }
+    },
+    {
+      "id": "clearinghouse",
+      "account": "clearinghouse settling two legs",
+      "role": "design",
+      "rules": {
+        "U": "I",
+        "I": "U and V",
+        "V": "I"
+      },
+      "evidence": {
+        "U": [
+          {
+            "source": "prose.md",
+            "locator": "¶2",
+            "quote": "A trade settles only when both legs are confirmed; each party acts on the clearinghouse's settlement notice."
+          }
+        ],
+        "I": [
+          {
+            "source": "prose.md",
+            "locator": "¶2",
+            "quote": "A trade settles only when both legs are confirmed; each party acts on the clearinghouse's settlement notice."
+          }
+        ],
+        "V": [
+          {
+            "source": "prose.md",
+            "locator": "¶2",
+            "quote": "A trade settles only when both legs are confirmed; each party acts on the clearinghouse's settlement notice."
+          }
+        ]
+      },
+      "alternative": {
+        "I": {
+          "rule": "U",
+          "why": "A clearinghouse that settled on one leg would be a relay; ¶2 says both legs."
+        }
+      },
+      "predicted": {
+        "structure": "triadic",
+        "core": [
+          "U",
+          "I",
+          "V"
+        ],
+        "reason": "Settlement needs both legs; no direct tie reproduces the joint condition."
+      },
+      "bypass": {
+        "party": "I",
+        "downstream": "V",
+        "upstream": "U",
+        "mode": "replace"
+      }
+    }
+  ]
+}

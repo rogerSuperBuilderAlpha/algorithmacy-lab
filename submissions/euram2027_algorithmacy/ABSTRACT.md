@@ -2,6 +2,8 @@
 
 [DRAFTED by Claude, 26 Oct 2026. The author's own OT abstract (`../algorithmacy_ot/`) may be used instead; this version is written for an OB/HRM track. The limit is 400 words. Due 12 Jan 2027, 14:00 Brussels.]
 
+[Revised by Claude, 27 Oct 2026, against the CFP: the implications paragraph now names ST09_03's stated concerns (job quality, autonomy, fairness). See `../CFP_FIT_REVIEW_2026-10-27.md`.]
+
 **Title:** Algorithmacy: The Competence to Coordinate When an Algorithm Judges Both Sides
 
 ## Abstract
@@ -11,7 +13,7 @@ This paper classifies communicative competence by what stands between the people
 
 Algorithmacy is the competence that restores those conditions, and it has three practices. Interpreting ambiguous results restores accountability. Specifying intent so the counterpart can read it through the system restores common understanding. Tracking rule changes the operator does not announce restores predictability. The paper describes two failure modes. In the first, a person collapses the triad into a pair with the machine and ignores the counterpart. In the second, a person treats the system as a neutral channel and ignores its judgement.
 
-For OB and HRM, the argument has three implications. First, simplifying a task through algorithmic management raises its relational demands, so deskilling and the demand for algorithmacy rise together. Second, people subject to the same rules will differ in outcomes according to this competence, which training in AI literacy does not supply. Third, if generative AI enters appraisal, hiring and collaboration, these demands will move from platform work into professional work.
+For research on managing people through algorithms, the argument bears on job quality, autonomy and fairness in three ways. First, simplifying a task through algorithmic management raises its relational demands, so deskilling and the demand for algorithmacy rise together. Second, people subject to the same rules will differ in outcomes according to this competence, a fairness problem that training in AI literacy does not address. Third, if generative AI enters appraisal, hiring and collaboration, these demands will move from platform work into professional work.
 
 **Keywords:** algorithmic management; algorithmacy; coordination; competence; triads
 

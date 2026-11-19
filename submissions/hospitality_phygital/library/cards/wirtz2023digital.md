@@ -6,7 +6,7 @@ year: 2023
 doi: 10.1080/02642069.2023.2226596
 venue: "The Service Industries Journal"
 cluster: ai-automation
-status: cited
+status: held
 role: framing
 used_by_sections: [1]
 claims: [framing-argued-past]
@@ -16,6 +16,7 @@ verified_date: 2026-08-07
 source_basis: "Crossref-verified against the publisher record; abstract read."
 generated_run: 2026-08-08-library-build
 flags: [swap-candidate]
+hold_rationale: "Cited in the August draft; not in the reference list of v4 as submitted. Reconciled to v4 in rr-2026-11."
 ---
 
 ## Summary

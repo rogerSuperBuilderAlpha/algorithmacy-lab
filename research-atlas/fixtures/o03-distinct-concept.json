@@ -1,0 +1,16 @@
+{
+  "question": "Is algorithmacy distinct from directive algorithmic management?",
+  "answer": "O03 remains open. It asks whether any coordination arrangement is algorithmacy without directive algorithmic management, or whether none exists. The atlas proposes comparing system acceptance with counterpart understanding, but that lens does not resolve O03. A real-world distinction still needs evidence from an arrangement.",
+  "claims": [
+    {
+      "kind": "open_question",
+      "text": "O03 asks whether the distinct arrangement exists and remains open.",
+      "evidence": [{"path": "OPEN_QUESTIONS.md", "quote": "| O03 | Is there a coordination arrangement that is algorithmacy but not directive algorithmic management, or does none exist? | open | compute |", "snapshot": "b6c5a5251c2d8f06089da6d30d46f381ba010b3a"}]
+    },
+    {
+      "kind": "open_question",
+      "text": "The acceptance and understanding matrix is a proposed lens.",
+      "evidence": [{"path": "research-atlas/index.html", "quote": "O03 · PROPOSED RESEARCH LENS", "snapshot": "b6c5a5251c2d8f06089da6d30d46f381ba010b3a"}, {"path": "research-atlas/index.html", "quote": "System acceptance and counterpart understanding are separate observations.", "snapshot": "b6c5a5251c2d8f06089da6d30d46f381ba010b3a"}]
+    }
+  ]
+}

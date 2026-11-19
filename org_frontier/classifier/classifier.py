@@ -13,18 +13,18 @@ The verdict:
 
 The test is Φ over the MIP (the least-damaging partition PyPhi finds), NOT Φ over the complete
 {W}{S}{C} cut. The complete cut over-calls: it severs the genuine two-party coupling a dyad has
-and so labels every coupled dyad a triad. See
-``dissertation/paper2_construct/party_partition.py`` for the worked demonstration. The MIP is
+and so labels every coupled dyad a triad (the worked demonstration is in the private dissertation
+repository; the regression forms in ``forms.py`` carry the same contrast). The MIP is
 itself party-respecting (nodes vs blocks of nodes), so the verdict is about party-line
 factorization.
 
-This wraps the repo's exact-Φ oracle (``proxy_audit.exact_phi``). It is a structural
+This wraps the repo's exact-Φ oracle (``foundations.proxy_audit.exact_phi``). It is a structural
 CLASSIFIER, validated behaviourally at the binary contrast. It is NOT a graded readability
 score: the magnitude of Φ depends on the encoding and is not a reliable scale (the dissertation
 withdrew that claim). Use the binary verdict; read the magnitude as at most an ordinal hint.
 
-Run the built-in validation controls before trusting any verdict:
-    ~/iit-playground/venv-4.0/bin/python -m org_frontier.classifier.validate
+Run the built-in validation controls before trusting any verdict (repo root, venv active):
+    python -m org_frontier.classifier.validate
 """
 
 import os
@@ -32,7 +32,7 @@ import sys
 from dataclasses import dataclass, field
 from typing import Callable, Optional, Sequence
 
-# Repo root on the path so the sibling `proxy_audit` package imports.
+# Repo root on the path so the `foundations.proxy_audit` package imports.
 _REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 if _REPO_ROOT not in sys.path:
     sys.path.insert(0, _REPO_ROOT)
@@ -63,7 +63,7 @@ def tpm_from_rules(rules: Sequence[Callable], n: Optional[int] = None) -> np.nda
 
     ``rules[j]`` maps the current node-state tuple (little-endian: index 0 = first party)
     to node j's next value in {0, 1}. Little-endian indexing matches PyPhi and
-    ``proxy_audit.exact_phi``.
+    ``foundations.proxy_audit.exact_phi``.
     """
     n = len(rules) if n is None else n
     tpm = np.zeros((2 ** n, n))

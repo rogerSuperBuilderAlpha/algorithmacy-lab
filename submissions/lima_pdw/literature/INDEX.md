@@ -1,6 +1,6 @@
 # Lima PDW — literature index
 
-415 cards in [`cards/`](cards/). Grouped by cluster, then by read depth. Blurb is the first sentence of **Relation to the argument**. Regenerate with `_build_index.py`.
+427 cards in [`cards/`](cards/). Grouped by cluster, then by read depth. Blurb is the first sentence of **Relation to the argument**. Regenerate with `_build_index.py`.
 
 This is the working library for the Lima support arm. Paper 2's 44 cited works are mapped in [`COVERAGE.md`](COVERAGE.md). Citation hazards are in [`TRAPS.md`](TRAPS.md). How to add a card is in [`README.md`](README.md).
 
@@ -18,33 +18,36 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 |---|---|
 | Full text | 127 |
 | Extended preview | 38 |
-| Abstract only | 217 |
+| Abstract only | 224 |
 | Metadata only | 26 |
 | Abstract plus author secondary | 1 |
 | Preview | 1 |
-| Secondary summary | 4 |
+| Secondary summary | 9 |
 | Secondary via citing source | 1 |
 
 ## Clusters
 
 | Cluster | Count |
 |---|---|
-| accountability-contestation | 56 |
-| ai-productivity-variance | 24 |
+| accountability-contestation | 59 |
+| agency-standing | 3 |
+| ai-productivity-variance | 25 |
 | algorithmacy-lineage | 1 |
 | algorithmic-competence-rivals | 67 |
 | communication-competence | 75 |
-| coordination-forms | 31 |
+| coordination-forms | 32 |
 | coordinative-co-optation-empirical-motivation | 1 |
 | coordinative-co-optation-source | 3 |
+| expectations-hype | 2 |
 | opacity-folk-theories | 49 |
 | qualitative-method | 67 |
 | situated-learning | 39 |
+| technological-mediation | 2 |
 | (unclustered) | 2 |
 
 ---
 
-## accountability-contestation (56)
+## accountability-contestation (59)
 
 ### Full text
 
@@ -93,6 +96,8 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   This is the article that keeps §5's accountability claim from collapsing into a claim about opacity, and the distinction matters because a reviewer will otherwise ask why explanation does not solve the problem.
 - **[Bies, R. J., & Moag, J. S. (1986). Interactional justice: Communication criteria of fairness. In R. J. Lewicki, B. H. Sheppard, & M. H. Bazerman (Eds.), *Research on negotiations in organizations* (Vol. 1, pp. 43–55). JAI Press.](cards/biesmoag1986.md)**  
   Interactional justice is the piece of the justice literature closest to the paper's accountability condition, and its structure is the answer to a reviewer's question about whether organisational justice already makes §5's distinction.
+- **[Bolton, G., Greiner, B., & Ockenfels, A. (2013). Engineering trust: Reciprocity in the production of reputation information. *Management Science*, 59(2), 265–285.](cards/bolton2013.md)**  
+  For `egos2027_st64_rules_of_play`, this is the source for reviews read as compliments: when both sides rate and each can see the other's rating before giving its own, a rating becomes a move in an exchange between the two parties rather than a report to…
 - **[Bovens, M., Goodin, R. E., & Schillemans, T. (Eds.). (2014). *The Oxford handbook of public accountability*. Oxford University Press.](cards/bovensgoodinschillemans2014.md)**  
   The handbook makes §5's definitional move look like standing scholarship rather than one article's framing: a field has organised itself around the forum requirement for over a decade.
 - **[Bucher, E., Schou, P. K., & Waldkirch, M. (2024). Just another voice in the crowd? Investigating digital voice formation in the gig economy. *Academy of Management Discoveries*, 10(3), 488–511.](cards/bucherschouwaldkirch2024.md)**  
@@ -111,10 +116,14 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   Diakopoulos is where the phrase "algorithmic accountability" enters the literature the paper is drawing on, and it belongs in §6 rather than §5, for a reason the paper should make explicit.
 - **[Edelman, L. B., Uggen, C., & Erlanger, H. S. (1999). The endogeneity of legal regulation: Grievance procedures as rational myth. *American Journal of Sociology*, 105(2), 406–454.](cards/edelman1999.md)**  
   This is the single most important corrective to §6, and the paper currently lacks it.
+- **[Espeland, W. N., & Sauder, M. (2007). Rankings and reactivity: How public measures recreate social worlds. *American Journal of Sociology*, 113(1), 1–40.](cards/espelandsauder2007.md)**  
+  For `jms_organizing_truth_arbiter`, this is the source for reactivity to a record that counts as fact.
 - **[Felstiner, W. L. F., Abel, R. L., & Sarat, A. (1980–1981). The emergence and transformation of disputes: Naming, blaming, claiming... *Law & Society Review*, 15(3–4), 631–654.](cards/felstiner1981.md)**  
   This is the canonical citation for the pattern in the paper's first participant interview, and it is more precise than any organisational-behaviour source.
 - **[Folger, R. (1977). Distributive and procedural justice: Combined impact of "voice" and improvement on experienced inequity. *Journal of Personality and Social Psychology*, 35(2), 108–119.](cards/folger1977.md)**  
   Folger is the single best organisational-psychology citation for §5, and it says something sharper than either the paper or the voice literature usually reports.
+- **[Fradkin, A., Grewal, E., & Holtz, D. (2021). Reciprocity and unveiling in two-sided reputation systems: Evidence from an experiment on Airbnb. *Marketing Science*, 40(6), 1013–1029.](cards/fradkin2021.md)**  
+  For `jms_organizing_truth_arbiter` §5, this is the field evidence that the arbiter's record is produced under rules the arbiter can change and that the parties' reports change with them.
 - **[Gray, M. L., & Suri, S. (2019). *Ghost work: How to stop Silicon Valley from building a new global underclass*. Houghton Mifflin Harcourt.](cards/graysuri2019.md)**  
   The rejection-without-reason finding is the cleanest illustration of §5's accountability claim in the literature: a determination that removes payment, delivered with no account, to a party with no route to demand one.
 - **[Greenberg, J. (1993). The social side of fairness: Interpersonal and informational classes of organizational justice. In R. Cropanzano (Ed.), *Justice in the workplace: Approaching fairness in human resource management* (pp. 79–103). Lawrence Erlbaum Associates.](cards/greenberg1993.md)**  
@@ -164,7 +173,18 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 - **[Wieringa, M. (2020). What to account for when accounting for algorithms: A systematic literature review on algorithmic accountability. In *Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency (FAT\* '20)* (pp. 1–18). ACM.](cards/wieringa2020.md)**  
   Wieringa is the citation that shows the paper's §5 definition is the settled one in the algorithmic case, not an import the author chose because it suited the argument.
 
-## ai-productivity-variance (24)
+## agency-standing (3)
+
+### Secondary summary
+
+- **[Emirbayer, M., & Mische, A. (1998). What is agency? *American Journal of Sociology*, 103(4), 962–1023.](cards/emirbayermische1998.md)**  
+  Arm: `orgsci_agency_triad`.
+- **[Murray, A., Rhymer, J., & Sirmon, D. G. (2021). Humans and technology: Forms of conjoined agency in organizations. *Academy of Management Review*, 46(3), 552–571.](cards/murrayrhymersirmon2021.md)**  
+  Arm: `orgsci_agency_triad`.
+- **[Pettit, P. (1997). *Republicanism: A theory of freedom and government*. Oxford University Press.](cards/pettit1997.md)**  
+  Arm: `orgsci_agency_triad`.
+
+## ai-productivity-variance (25)
 
 ### Full text
 
@@ -220,6 +240,8 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   Cite only as corroboration of direction, and only alongside the peer-reviewed studies.
 - **[Toner-Rodgers, A. (2024). Artificial intelligence, scientific discovery, and product innovation. arXiv:2412.17866. **WITHDRAWN — DO NOT CITE.**](cards/tonerrodgers2024.md)**  
   A negative entry, carded so that it does not enter the manuscript by accident.
+- **[Tong, S., Jia, N., Luo, X., & Fang, Z. (2021). The Janus face of artificial intelligence feedback: Deployment versus disclosure effects on employee performance. *Strategic Management Journal*, 42(9), 1600–1631.](cards/tong2021.md)**  
+  For `jitcar_post_ai_enterprise`, this is the empirical anchor for AI performance feedback inside the firm.
 - **[Zhou, L., Lei, X., Cooke, F. L., Huang, X., & Zhang, J. (2025). The dual effects of algorithmic management on platform workers: An attribution perspective. *Human Resource Management*, 64(6), 1687–1707.](cards/zhou2025.md)**  
   This is the wedge §1 needs and the only peer-reviewed study in this cluster that supplies it.
 
@@ -543,7 +565,7 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 - **[Wing, L. (2016). Ethical principles for online dispute resolution: A GPS device for the field. *International Journal of Online Dispute Resolution*, 3(1), 12–29.](cards/wing2016.md)**  
   Cited once in the manuscript, at the point (line 252 in the current draft) where the paper names the closest available benchmark of values an institutional intermediary owes its participants, before arguing that algorithmic coordination regimes withhold…
 
-## coordination-forms (31)
+## coordination-forms (32)
 
 ### Full text
 
@@ -594,6 +616,8 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   Prior art of an uncomfortably close kind, and the paper should meet it rather than hope it stays buried.
 - **[Moynihan, D. P., Herd, P., & Harvey, H. (2015). Administrative burden: Learning, psychological, and compliance costs in citizen-state interactions. *Journal of Public Administration Research and Theory*, 25(1), 43–69.](cards/moynihan2015.md)**  
   This is the most serious prior art for the seventh row's *logic*, and the paper is stronger for engaging it than for not having found it.
+- **[Orlikowski, W. J., & Scott, S. V. (2014). What happens when evaluation goes online? Exploring apparatuses of valuation in the travel sector. *Organization Science*, 25(3), 868–891.](cards/orlikowskiscott2014.md)**  
+  For `jms_organizing_truth_arbiter` §3–4, the abstract supports exactly one claim: that an online, consumer-produced apparatus of valuation differs in its practices and outcomes from an expert, institutional one, and that the difference is a matter of what…
 - **[Ritter, T. (1999). The networking company: Antecedents for coping with relationships and networks effectively. *Industrial Marketing Management*, 28(5), 467–479.](cards/ritter1999.md)**  
   Useful mainly for dating the construct.
 - **[Ritter, T., Wilkinson, I. F., & Johnston, W. J. (2002). Measuring network competence: Some international evidence. *Journal of Business & Industrial Marketing*, 17(2/3), 119–138.](cards/ritterwilkinsonjohnston2002.md)**  
@@ -639,6 +663,15 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 
 - **[Selznick, P. (1949). *TVA and the Grass Roots: A Study in the Sociology of Formal Organization*. University of California Press.](cards/selznick1949.md)**  
   Cited (by my count) 5–6 times across the body text, a definitional bullet list, and Appendix A's comparative table.
+
+## expectations-hype (2)
+
+### Abstract only
+
+- **[Borup, M., Brown, N., Konrad, K., & van Lente, H. (2006). The sociology of expectations in science and technology. *Technology Analysis & Strategic Management*, 18(3–4), 285–298.](cards/borup2006.md)**  
+  Arm: `io_hype_ai_literacy`.
+- **[van Lente, H. (2012). Navigating foresight in a sea of expectations: Lessons from the sociology of expectations. *Technology Analysis & Strategic Management*, 24(8), 769–782.](cards/vanlente2012.md)**  
+  Arm: `io_hype_ai_literacy`.
 
 ## opacity-folk-theories (49)
 
@@ -981,6 +1014,15 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   The participation/reification duality is the sharpest tool this cluster offers §10.
 - **[Wenger, E., McDermott, R., & Snyder, W. M. (2002). Cultivating communities of practice: A guide to managing knowledge. *Harvard Business School Press*.](cards/wenger2002.md)**  
   This card exists to mark a trap rather than to supply support.
+
+## technological-mediation (2)
+
+### Secondary summary
+
+- **[Ihde, D. (1990). *Technology and the lifeworld: From garden to earth*. Indiana University Press.](cards/ihde1990.md)**  
+  Arm: `spm2027_lived_arbiter`.
+- **[Verbeek, P.-P. (2005). *What things do: Philosophical reflections on technology, agency, and design* (R. P. Crease, Trans.). Pennsylvania State University Press. (Original work published 2000)](cards/verbeek2005.md)**  
+  Arm: `spm2027_lived_arbiter`.
 
 ## Unclustered (2)
 

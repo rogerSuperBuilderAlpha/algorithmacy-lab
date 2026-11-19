@@ -6,7 +6,7 @@ year: 1999
 doi: 10.1177/109467059913006
 venue: "Journal of Service Research"
 cluster: hospitality-theory
-status: cited
+status: held
 role: evidence
 used_by_sections: [7]
 claims: [cultural-scripts]
@@ -16,6 +16,7 @@ verified_date: 2026-08-07
 source_basis: "Crossref-verified against the publisher record; abstract read."
 generated_run: 2026-08-08-library-build
 flags: [swap-candidate]
+hold_rationale: "Cited in the August draft; not in the reference list of v4 as submitted. Reconciled to v4 in rr-2026-11."
 ---
 
 ## Summary

@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "candidate_id": "q221-affine-lead-PQ",
+  "scientific_status": "EXPLORATORY_EXACT_R_PROFILE_CERTIFICATE",
+  "state_order": "s = X + 2Y + 4H; binary nodes; all eight states",
+  "systems": {
+    "P": {
+      "affine_codes": [
+        9,
+        6,
+        10
+      ],
+      "rules": [
+        "NOT H",
+        "X XOR Y",
+        "X XOR H"
+      ],
+      "reported_q161_core": [
+        0,
+        2
+      ],
+      "reported_q161_phi": 2,
+      "reported_q161_leave_one_out_drops": [
+        2,
+        0,
+        2
+      ],
+      "reported_q161_bottleneck_set": [
+        0,
+        2
+      ]
+    },
+    "Q": {
+      "affine_codes": [
+        9,
+        15,
+        10
+      ],
+      "rules": [
+        "NOT H",
+        "NOT (X XOR Y XOR H)",
+        "X XOR H"
+      ],
+      "reported_q161_core": [
+        0,
+        2
+      ],
+      "reported_q161_phi": 2,
+      "reported_q161_leave_one_out_drops": [
+        1,
+        0,
+        2
+      ],
+      "reported_q161_bottleneck_set": [
+        2
+      ]
+    }
+  },
+  "observation_model": {
+    "independent_node_flip": "2/25",
+    "stationary_law": "uniform 1/8 (checked by exact rational row/column sums)",
+    "trajectory_law_equal": false
+  },
+  "recurrence_observable": {
+    "formula": "r_ij(k) = Sum_{s,z} pi(s)*(K^k)[s,z]*1{s_i=z_j}",
+    "ordered_pairs": "all 9 (auto and cross)",
+    "lags_verified_exactly": "0..15",
+    "exact_fraction_equalities": 144,
+    "all_integer_lags_extension": "Cayley-Hamilton degree-16 product recurrence, plus stationarity reversal for negative lags",
+    "isomorphism_group": "6 permutations times 8 per-node binary flips",
+    "allowed_isomorphisms_found": 0,
+    "population_q220_peak_minus_median_lags_minus10_to_10": [
+      "0",
+      "0",
+      "0"
+    ],
+    "population_q220_no_evidence_centrality": [
+      0,
+      0,
+      0
+    ],
+    "population_q220_tie_aware_scores": {
+      "P": "2/3",
+      "Q": "1/3"
+    },
+    "population_q220_peak_diagnostic_scope": "Population functional only; empirical finite-sample prominence may be nonzero."
+  },
+  "conditional_inference": {
+    "exact_full_bottleneck_set_identifiability": "NO: same input R, different full sets",
+    "correct_single_node_impossible": "NO SUCH CLAIM: H belongs to both target sets and would score correctly on either",
+    "identifiability_of_transition_law_from_R": "NO for this pair",
+    "full_trajectory_observational_identifiability": "NOT EQUIVALENT: transition matrices differ; transition-based baseline separates",
+    "exact_set_accuracy_bound_balanced_prior": "0.5 optimum under complete-set zero-one loss",
+    "correct_single_node_accuracy_bound_balanced_prior": "1.0 optimum by selecting H"
+  },
+  "pinned_iit_evidence": {
+    "reported_implementation": "PyPhi feature/iit-4.0 commit b78d0e34",
+    "iit_formalism_version": "repository-pinned historical IIT 4.0; do not equate with PyPhi 2.0 IIT_4_0_2026 default",
+    "source": "identifiability/results/rep_verify.txt",
+    "independent_external_pyphi_rerun_done": false,
+    "clamp_to_0_and_1_reported_agree": true
+  },
+  "references": {
+    "exact_certificate_git_blob": "871e6759b9c9211983d454387d3c81fed6a7a7e6",
+    "exact_proof_git_blob": "961c25bba137712e92161afa0b3247c65c4d2fa3",
+    "pinned_pyphi_script_git_blob": "34ebb8eb4fdca4319a92e2e52d0846dfdfbf95df",
+    "pinned_pyphi_receipt_git_blob": "de1606bd57ae27c0953e1eec02056a24017a6339",
+    "candidate_filter_git_blob": "d996e094b9c1b8ceaefa604bc9cf29afbe655523",
+    "baseline_results_git_blob": "aeba58bcb589cb04a96d1f819b050438a95063a4",
+    "exact_regression_tests_git_blob": "d19b54543a70b05f0474f1ff5faba893278d8b32"
+  },
+  "limitations": [
+    "Search and candidate selection retrospective",
+    "No independently repeated external PyPhi computation",
+    "Not a proof of equal finite-sample feature distributions",
+    "No out-of-form generalization",
+    "No novelty certification of precise construction",
+    "No proof q220 cannot choose a correct node"
+  ],
+  "constructive_sufficient_observable": {
+    "name": "state-conditioned one-step next-node means",
+    "number_of_conditional_probabilities": 24,
+    "formula": "P(S_{t+1}^j=1|S_t=s) = epsilon + (1-2*epsilon)*f_j(s)",
+    "rule_recovery": "f_j(s) = 1{ conditional mean > 1/2 } for epsilon<1/2",
+    "verified_by_exact_rational_script": true,
+    "not_claimed_minimal": true,
+    "not_applicable_without_full_state_observation": true
+  }
+}

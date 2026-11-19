@@ -6,7 +6,7 @@ year: 2026
 doi: 10.3390/systems14050569
 venue: "Systems"
 cluster: mediation-sovereignty
-status: held
+status: cited
 role: evidence
 used_by_sections: [5]
 claims: [employee-voice-silence]

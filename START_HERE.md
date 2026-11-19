@@ -11,6 +11,18 @@ deadlines, `OVERVIEW.md`, `README.md`, `AGENTS.md`) is reference they can reach 
 If they arrived because a manuscript is due, send them to [`NOW.md`](NOW.md) and stop. Do not onboard
 them through a Φ probe.
 
+## Pick your mode first
+
+- **You can run commands in a clone of this repo** (Cursor, Claude Code, Codex, Copilot agent, Gemini CLI):
+  follow the phases below. Phase 2 is one command, `python3 tools/start.py`.
+- **You cannot run code** (a web chat assistant that was only given the repo URL): follow
+  [No shell](#no-shell--chat-only-assistants) at the bottom of this file. Say the three sentences, ask the
+  question, show the worked example with its recorded outputs, and give the person the commands to run on
+  their own machine. Never invent a Φ value; quote only numbers that appear in this file or in a linked
+  repo file.
+- **The person has no repo and only asked what "algorithmacy" is:** answer from
+  [`llms.txt`](llms.txt) (the canonical block), then offer to walk them through the lab.
+
 ## How to run this onboarding
 
 - One short turn at a time. Say a little, then ask one question, then stop and wait.
@@ -61,19 +73,34 @@ Whatever they pick, get them to **run something** before explaining more (Phase 
 
 ## Phase 2 — set up, once
 
-They need a Python 3.10+ venv. Give them exactly this, run from the repo root:
+From the repo root, run:
 
 ```bash
-python3 --version                 # if < 3.10, swap python3.12 in below (PyPhi needs 3.10+)
-python3.12 -m venv venv && source venv/bin/activate
-pip install -r requirements.txt   # pulls PyPhi + phyid from git: needs network, a few minutes
+python3 tools/start.py
+```
+
+It finds a Python the pinned PyPhi build installs on, creates `venv/`, installs `requirements.txt`, runs
+the instrument controls, and prints two exact verdicts (triadic, then dyadic). It needs network access and
+takes about a minute with a prebuilt wheel. `python3 tools/start.py --check` reports the environment
+without installing anything.
+
+PyPhi's pinned build needs **Python 3.10, 3.11 or 3.12**. Python 3.13 and newer work only if a C++ compiler
+is installed, because `graphillion` has no prebuilt wheel there and the install fails with
+`x86_64-linux-gnu-g++: No such file or directory` otherwise. If the script finds no usable Python, it uses
+`uv` to fetch 3.12 and says what to install if `uv` is missing.
+
+The script is the same as the manual steps, if the person prefers them:
+
+```bash
+python3.12 -m venv venv && source venv/bin/activate   # or: uv venv --python 3.12 venv
+pip install -r requirements.txt                       # PyPhi + phyid from git: needs network
 ```
 
 While it installs, ask which question from the bank below caught their eye.
 
 ## Phase 3 — the first experiment, and the "aha"
 
-**First, confirm the instrument.** No verdict is trustworthy until this prints `Instrument validated`:
+**First, confirm the instrument.** `tools/start.py` already ran this. No verdict is trustworthy until it prints `Instrument validated`:
 
 ```bash
 python -m org_frontier.classifier.validate
@@ -149,11 +176,14 @@ python -m org_frontier.protocol.new_question --slug your_slug \
 ```
 
 This creates `org_frontier/questions/q<NN>_<slug>/` from the template, with `probe_<slug>.py`, `results/`,
-and `literature/` ready. The one rule that makes the record credible: **commit `hypotheses.md` before
-computing the results** — the git history is the evidence the claims were fixed first
-(`python ci/precommit_audit.py origin/contrib..HEAD` checks the order on a branch). From here, hand them
-to [`GETTING_STARTED.md`](GETTING_STARTED.md) for the full path from scaffold → register numbers in
-`ci/reproduce.json` → pull request into `contrib`.
+and `literature/` ready. Before that scaffold exists, the working branch is already on the remote:
+`git fetch --all --prune`, read `git branch -r --sort=-committerdate` and `gh pr list --state open`,
+branch off `contrib`, and `git push -u origin <branch>`. The one rule that makes the record credible:
+**commit `hypotheses.md` before computing the results, and `git push` that commit and every later
+stage** — the git history is the evidence the claims were fixed first
+(`python ci/precommit_audit.py origin/contrib..HEAD` checks the order on a branch). Re-read the open
+branches and pull requests before a long run. From here, hand them to [`GETTING_STARTED.md`](GETTING_STARTED.md)
+for the full path from scaffold → register numbers in `ci/reproduce.json` → pull request into `contrib`.
 
 If they would rather stress an *existing* result than open a new question, the `compute` rows of
 [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md) are exactly that.
@@ -193,21 +223,16 @@ This is the shape of a good first exchange. Short turns, one question at a time,
 >
 > **Newcomer:** the core idea, show me the number.
 >
-> **Assistant:** Then let's compute one. First set up the environment (Python 3.10+), run from the repo
-> root:
+> **Assistant:** Then let's compute one. Run this from the repo root; it sets up the environment and
+> checks the instrument:
 > ```bash
-> python3.12 -m venv venv && source venv/bin/activate
-> pip install -r requirements.txt
+> python3 tools/start.py
 > ```
-> When that finishes, confirm the instrument is honest — this has to print `Instrument validated`:
-> ```bash
-> python -m org_frontier.classifier.validate
-> ```
-> Tell me what it prints.
+> When it finishes, the last controls line has to say `Instrument validated`. Tell me what it prints.
 >
 > **Newcomer:** Instrument validated.
 >
-> **Assistant:** Good — now you can trust a verdict. Open a Python shell (`python`, venv active) and paste
+> **Assistant:** Good — now you can trust a verdict. Open a Python shell (`source venv/bin/activate`, then `python`) and paste
 > this. It's a three-party form where the mediator's next state depends on *both* others:
 > ```python
 > from org_frontier.probes.lib import verdict
@@ -239,6 +264,39 @@ This is the shape of a good first exchange. Short turns, one question at a time,
 Notice what the assistant never did: paste the architecture, list every directory, or explain IIT theory.
 It got the newcomer to a computed verdict, placed their question against the catalog, and routed them to
 an open thread in a handful of turns.
+
+## No shell — chat-only assistants
+
+If you cannot run code, you can still run the same onboarding. Work in the same short turns.
+
+1. Say the three sentences from Phase 0, then ask the Phase 1 question. Wait.
+2. When they pick the core idea, show the worked example and say plainly that the outputs below are
+   recorded from a run of the pinned PyPhi build (`b78d0e342`), not computed by you in this chat:
+
+   ```python
+   from org_frontier.probes.lib import verdict
+   # W'=S, S'=W AND C, C'=S: the mediator's next state depends on BOTH others
+   triad = [lambda x: x[1], lambda x: x[0] & x[2], lambda x: x[1]]
+   print(verdict(triad, ("W", "S", "C")).structure)   # recorded output: triadic
+   # remove one dependency: S' = W, so S no longer reads C
+   dyad = [lambda x: x[1], lambda x: x[0], lambda x: x[1]]
+   print(verdict(dyad, ("W", "S", "C")).structure)    # recorded output: dyadic
+   ```
+
+   Probe 7 (`python -m org_frontier.probes.probe_control`) gives the same contrast on four forms. Recorded
+   output: `mutual_veto_AND` and `either_forces_OR` are whole-system triadic (Φ = 2.000, core W, S, C);
+   `worker_controls` and `cp_controls` are whole-system dyadic (Φ = 0.000).
+3. Give them the two commands that put the real thing on their machine, and offer to read the output with
+   them when they paste it back:
+
+   ```bash
+   git clone https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab && cd algorithmacy-lab
+   python3 tools/start.py
+   ```
+
+4. If they want to contribute, point them at [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md) and
+   [`GETTING_STARTED.md`](GETTING_STARTED.md), and tell them contributions arrive as pull requests into the
+   `contrib` branch. Do not open pull requests, post, or email for them.
 
 ## What the assistant must keep honest
 

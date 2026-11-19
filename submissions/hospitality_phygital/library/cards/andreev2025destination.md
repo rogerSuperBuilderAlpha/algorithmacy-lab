@@ -6,7 +6,7 @@ year: 2025
 doi: 10.3390/ai6090236
 venue: "AI"
 cluster: ai-automation
-status: held
+status: cited
 role: evidence
 used_by_sections: [7]
 claims: [cultural-scripts]

@@ -6,7 +6,7 @@ year: 2025
 doi: 10.1016/j.jhtm.2025.01.011
 venue: "Journal of Hospitality and Tourism Management"
 cluster: hospitality-theory
-status: held
+status: cited
 role: rival
 used_by_sections: [2]
 claims: [guest-obligation-untheorized]

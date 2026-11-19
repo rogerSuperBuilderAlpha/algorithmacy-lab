@@ -1,0 +1,15 @@
+box-run: queued 'q221-ident-fs' [test, 2000 MB]: waiting behind earlier test job 'q220pm-recheck2' (FIFO)
+box-run: queued 'q221-ident-fs' [test, 2000 MB]: waiting behind earlier test job 'q221-ident-ab' (FIFO)
+box-run: start 'q221-ident-fs' [test, 2000 MB est, as-cap off MB] after 62s wait
+R = 400 trajectories per system, seeds 41000..41399
+statistic                                    A_self              B_xor
+mean max pairwise prominence         0.0617 ±0.0013     0.0590 ±0.0011
+mean max centrality                  0.0571 ±0.0029     0.0532 ±0.0026
+any pair above 0.05                  0.5875 ±0.0246     0.5925 ±0.0246
+lag-0 cross match (pair mean)        0.5011 ±0.0014     0.5012 ±0.0015
+H lag-1 self-match                   0.9202 ±0.0005     0.7499 ±0.0010
+A_self: no-evidence 0.412; among evidence runs, tie-aware argmax share X/Y/H = 0.345/0.340/0.315; mean argmax-set size 2.228
+B_xor: no-evidence 0.407; among evidence runs, tie-aware argmax share X/Y/H = 0.352/0.342/0.306; mean argmax-set size 2.243
+A_self mean prominence per pair (XY, XH, YH): [0.0414, 0.0396, 0.041]
+B_xor mean prominence per pair (XY, XH, YH): [0.0414, 0.0402, 0.0394]
+box-run: done 'q221-ident-fs' rc=0 waited=62s ran=5s

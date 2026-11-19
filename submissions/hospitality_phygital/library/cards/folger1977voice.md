@@ -6,7 +6,7 @@ year: 1977
 doi: 10.1037/0022-3514.35.2.108
 venue: "Journal of Personality and Social Psychology"
 cluster: mediation-sovereignty
-status: cited
+status: held
 role: evidence
 used_by_sections: [7]
 claims: [voice-independent-of-outcome]
@@ -16,6 +16,7 @@ verified_date: 2026-08-08
 source_basis: "Crossref-verified; volume, issue and pages confirmed against OpenAlex as 35:2, pp. 108-119. Full text NOT obtained. Closed in Unpaywall, OpenAlex, Semantic Scholar, CORE, OpenAIRE and Internet Archive; APA PsycNet renders only a loading shell to WebFetch; ERIC coverage of this journal begins after 1977. Needs institutional access."
 generated_run: 2026-08-08-folger-retrieval
 flags: [abstract-only-debt, claim-contradicted]
+hold_rationale: "Cited in the August draft; not in the reference list of v4 as submitted. Reconciled to v4 in rr-2026-11."
 ---
 
 ## Summary

@@ -35,8 +35,12 @@ reuses algorithmacy and coordinative sovereignty. It does **not** add Φ probes 
 
 ## Land changes
 
-Branch off `contrib`, commit in `algorithmacy-lab`, push, open a PR into `contrib`. Confirm
-toplevel and remote before every commit:
+Remote visibility applies before the first edit. `git fetch --all --prune`, read
+`git branch -r --sort=-committerdate` and `gh pr list --state open`, create a branch off
+`origin/contrib`, and `git push -u origin <branch>` before editing. Commit and `git push` after every
+meaningful step, and re-check the open branches and pull requests while working. Open a draft pull
+request into `contrib` with the first commit. The full rule is **Remote visibility** in
+[`../../AGENTS.md`](../../AGENTS.md). Confirm toplevel and remote before every commit:
 
 ```bash
 git rev-parse --show-toplevel

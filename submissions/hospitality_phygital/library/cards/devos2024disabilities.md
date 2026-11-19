@@ -6,7 +6,7 @@ year: 2024
 doi: 10.1080/0267257X.2024.2329090
 venue: "Journal of Marketing Management"
 cluster: mediation-sovereignty
-status: held
+status: cited
 role: evidence
 used_by_sections: [8]
 claims: [wellbeing-valence, editors-own-ground]

@@ -1,0 +1,342 @@
+{
+ "status": "exploratory",
+ "seed": 2215001,
+ "rows": [
+  {
+   "persistence": 0.5,
+   "statistic": "pearson",
+   "surrogate": "shuffle",
+   "rejections": 13,
+   "n": 250,
+   "fpr": 0.052,
+   "wilson95": [
+    0.0306,
+    0.0869
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 0
+  },
+  {
+   "persistence": 0.5,
+   "statistic": "pearson",
+   "surrogate": "circular",
+   "rejections": 10,
+   "n": 250,
+   "fpr": 0.04,
+   "wilson95": [
+    0.0219,
+    0.0721
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 0
+  },
+  {
+   "persistence": 0.5,
+   "statistic": "pearson",
+   "surrogate": "block",
+   "rejections": 13,
+   "n": 250,
+   "fpr": 0.052,
+   "wilson95": [
+    0.0306,
+    0.0869
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 0
+  },
+  {
+   "persistence": 0.5,
+   "statistic": "pearson",
+   "surrogate": "markov1",
+   "rejections": 14,
+   "n": 250,
+   "fpr": 0.056,
+   "wilson95": [
+    0.0336,
+    0.0918
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 0
+  },
+  {
+   "persistence": 0.5,
+   "statistic": "q220_prominence",
+   "surrogate": "shuffle",
+   "rejections": 8,
+   "n": 250,
+   "fpr": 0.032,
+   "wilson95": [
+    0.0163,
+    0.0619
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 0
+  },
+  {
+   "persistence": 0.5,
+   "statistic": "q220_prominence",
+   "surrogate": "circular",
+   "rejections": 11,
+   "n": 250,
+   "fpr": 0.044,
+   "wilson95": [
+    0.0247,
+    0.0771
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 0
+  },
+  {
+   "persistence": 0.5,
+   "statistic": "q220_prominence",
+   "surrogate": "block",
+   "rejections": 8,
+   "n": 250,
+   "fpr": 0.032,
+   "wilson95": [
+    0.0163,
+    0.0619
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 0
+  },
+  {
+   "persistence": 0.5,
+   "statistic": "q220_prominence",
+   "surrogate": "markov1",
+   "rejections": 8,
+   "n": 250,
+   "fpr": 0.032,
+   "wilson95": [
+    0.0163,
+    0.0619
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 0
+  },
+  {
+   "persistence": 0.9,
+   "statistic": "pearson",
+   "surrogate": "shuffle",
+   "rejections": 74,
+   "n": 250,
+   "fpr": 0.296,
+   "wilson95": [
+    0.2428,
+    0.3553
+   ],
+   "band": "outside",
+   "degenerate_pairs": 0
+  },
+  {
+   "persistence": 0.9,
+   "statistic": "pearson",
+   "surrogate": "circular",
+   "rejections": 13,
+   "n": 250,
+   "fpr": 0.052,
+   "wilson95": [
+    0.0306,
+    0.0869
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 0
+  },
+  {
+   "persistence": 0.9,
+   "statistic": "pearson",
+   "surrogate": "block",
+   "rejections": 14,
+   "n": 250,
+   "fpr": 0.056,
+   "wilson95": [
+    0.0336,
+    0.0918
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 0
+  },
+  {
+   "persistence": 0.9,
+   "statistic": "pearson",
+   "surrogate": "markov1",
+   "rejections": 14,
+   "n": 250,
+   "fpr": 0.056,
+   "wilson95": [
+    0.0336,
+    0.0918
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 0
+  },
+  {
+   "persistence": 0.9,
+   "statistic": "q220_prominence",
+   "surrogate": "shuffle",
+   "rejections": 68,
+   "n": 250,
+   "fpr": 0.272,
+   "wilson95": [
+    0.2206,
+    0.3303
+   ],
+   "band": "outside",
+   "degenerate_pairs": 0
+  },
+  {
+   "persistence": 0.9,
+   "statistic": "q220_prominence",
+   "surrogate": "circular",
+   "rejections": 11,
+   "n": 250,
+   "fpr": 0.044,
+   "wilson95": [
+    0.0247,
+    0.0771
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 0
+  },
+  {
+   "persistence": 0.9,
+   "statistic": "q220_prominence",
+   "surrogate": "block",
+   "rejections": 8,
+   "n": 250,
+   "fpr": 0.032,
+   "wilson95": [
+    0.0163,
+    0.0619
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 0
+  },
+  {
+   "persistence": 0.9,
+   "statistic": "q220_prominence",
+   "surrogate": "markov1",
+   "rejections": 5,
+   "n": 250,
+   "fpr": 0.02,
+   "wilson95": [
+    0.0086,
+    0.046
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 0
+  },
+  {
+   "persistence": 0.98,
+   "statistic": "pearson",
+   "surrogate": "shuffle",
+   "rejections": 183,
+   "n": 250,
+   "fpr": 0.732,
+   "wilson95": [
+    0.6739,
+    0.7831
+   ],
+   "band": "outside",
+   "degenerate_pairs": 5
+  },
+  {
+   "persistence": 0.98,
+   "statistic": "pearson",
+   "surrogate": "circular",
+   "rejections": 12,
+   "n": 250,
+   "fpr": 0.048,
+   "wilson95": [
+    0.0277,
+    0.082
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 5
+  },
+  {
+   "persistence": 0.98,
+   "statistic": "pearson",
+   "surrogate": "block",
+   "rejections": 42,
+   "n": 250,
+   "fpr": 0.168,
+   "wilson95": [
+    0.1268,
+    0.2193
+   ],
+   "band": "outside",
+   "degenerate_pairs": 5
+  },
+  {
+   "persistence": 0.98,
+   "statistic": "pearson",
+   "surrogate": "markov1",
+   "rejections": 18,
+   "n": 250,
+   "fpr": 0.072,
+   "wilson95": [
+    0.046,
+    0.1109
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 5
+  },
+  {
+   "persistence": 0.98,
+   "statistic": "q220_prominence",
+   "surrogate": "shuffle",
+   "rejections": 107,
+   "n": 250,
+   "fpr": 0.428,
+   "wilson95": [
+    0.3682,
+    0.49
+   ],
+   "band": "outside",
+   "degenerate_pairs": 5
+  },
+  {
+   "persistence": 0.98,
+   "statistic": "q220_prominence",
+   "surrogate": "circular",
+   "rejections": 13,
+   "n": 250,
+   "fpr": 0.052,
+   "wilson95": [
+    0.0306,
+    0.0869
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 5
+  },
+  {
+   "persistence": 0.98,
+   "statistic": "q220_prominence",
+   "surrogate": "block",
+   "rejections": 16,
+   "n": 250,
+   "fpr": 0.064,
+   "wilson95": [
+    0.0398,
+    0.1014
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 5
+  },
+  {
+   "persistence": 0.98,
+   "statistic": "q220_prominence",
+   "surrogate": "markov1",
+   "rejections": 15,
+   "n": 250,
+   "fpr": 0.06,
+   "wilson95": [
+    0.0367,
+    0.0966
+   ],
+   "band": "inconclusive",
+   "degenerate_pairs": 5
+  }
+ ]
+}

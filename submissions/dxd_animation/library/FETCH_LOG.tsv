@@ -1,0 +1,86 @@
+key	doi	oa_route	url	http	bytes	sha256	txt_bytes	pages	status
+silvio2010animation	10.1111/j.1548-1395.2010.01078.x			Crossref 200; records only	0		0		records-only
+silvio2019puppets	10.1515/9780824880989			Crossref 200; records only	0		0		records-only
+ngai2004animatedness	10.4159/9780674041523-003			Crossref 200; records only	0		0		records-only
+bukatman2012poetics	10.1525/9780520951501			Crossref 200; records only	0		0		records-only
+wertheimer2012experimental	10.7551/mitpress/9222.003.0003			Crossref 200; records only	0		0		records-only
+smith2012attentional	10.3167/proj.2012.060102			Crossref 200; records only	0		0		records-only
+payne1992behavioral	10.1146/annurev.ps.43.020192.000511			Crossref 200; records only	0		0		records-only
+bettman1998constructive	10.1086/209535			Crossref 200; records only	0		0		records-only
+norman1986cognitive	10.1201/9780367807320-3			Crossref 200; records only	0		0		records-only
+chen2026do	10.1002/mar.70189			Crossref 200; records only	0		0		records-only
+ananny2018seeing	10.1177/1461444816676645			Crossref 200; records only	0		0		records-only
+chiou2023trusting	10.1177/00187208211009995			Crossref 200; records only	0		0		records-only
+heer2007animated	10.1109/tvcg.2007.70539			Crossref 200; records only	0		0		records-only
+gonzalez1996does	10.1145/238386.238396			Crossref 200; records only	0		0		records-only
+guttman1998agent	10.1017/s0269888998002082			Crossref 200; records only	0		0		records-only
+heider1944experimental	10.2307/1416950			Crossref 200; records only	0		0		records-only
+slovic1995construction	10.1037/0003-066x.50.5.364			Crossref 200; records only	0		0		records-only
+klein2006making	10.1109/mis.2006.75			Crossref 200; records only	0		0		records-only
+simon1955behavioral	10.2307/1884852			Crossref 200; records only	0		0		records-only
+horvitz1999principles	10.1145/302979.303030			Crossref 200; records only	0		0		records-only
+chang1993animation	10.1145/168642.168647			Crossref 200; records only	0		0		records-only
+furniss2008art				openlibrary search 200, 2 top hits of 2	0		0		records-only
+thomas1981illusion				openlibrary search 200, 0 top hits of 0	0		0		records-only
+lamarre2009anime				openlibrary search 200, 3 top hits of 3	0		0		records-only
+wells1998understanding				openlibrary search 200, 2 top hits of 2	0		0		records-only
+mccloud1993understanding				openlibrary search 200, 1 top hits of 1	0		0		records-only
+sheridan2002humans				openlibrary isbn 9780471234289 200; work /works/OL4274945W 200	0		0		records-only
+flyverbom2016transparency				openalex W2908084374 200	0		0		records-only
+gnewuch2018faster				openalex W2906833531 200	0		0		records-only
+wertheimer1912experimentelle				openalex W3088045382 200	0		0		records-only
+anderson1993myth				openalex W165434426 200	0		0		records-only
+cholodenko2014first	10.1215/9780822376811-007		https://doi.org/10.1215/9780822376811-007	HTTP Error 403: Forbidden	0		0		closed
+ruddell2008from	10.1177/1746847708091890	openalex_best_oa_pdf	https://bura.brunel.ac.uk/bitstream/2438/8723/2/Fulltext.pdf	200	722220	6abed98cef72cb5dd4a32e1e7fa28f85b2ff848313fc4a4511b0b20cef79e554	45178	26	open
+maeda2025anthropomorphism	10.1609/aies.v8i2.36664		https://ojs.aaai.org/index.php/AIES/article/view/36664	200 non-pdf (7088 bytes)	0		0		closed
+century2022norman	10.7551/mitpress/10818.003.0005		https://doi.org/10.7551/mitpress/10818.003.0005	HTTP Error 403: Forbidden	0		0		closed
+smith2008edit	10.16910/jemr.2.2.6	openalex_location_pdf	https://bop.unibe.ch/JEMR/article/download/2264/3460	200	331270	c499b58c856ef56095e0f253ea151f1c7a3f0f8e199a46100009168a4fc6b312	107958	17	open
+magliano2011impact	10.1111/j.1551-6709.2011.01202.x		https://pmc.ncbi.nlm.nih.gov:443/articles/PMC3208769/	200 non-pdf (259657 bytes)	0		0		closed
+hoerl2015seeing	10.1111/j.1468-0378.2012.00565.x		https://doi.org/10.1111/j.1468-0378.2012.00565.x	HTTP Error 403: Forbidden	0		0		closed
+steinman2000phi	10.1016/s0042-6989(00)00086-9		https://linkinghub.elsevier.com/retrieve/pii/S0042698900000869	200 non-pdf (2698 bytes)	0		0		closed
+weizenbaum1966eliza	10.1145/365153.365168		https://doi.org/10.1145/365153.365168	HTTP Error 403: Forbidden	0		0		closed
+natale2019if	10.1177/1461444818804980	openalex_best_oa_pdf	https://iris.unito.it/bitstream/2318/1768376/1/AuthorDraft_If%20software%20is%20narrative.pdf	200	275429	fffdb3b0356d0656e579d6240cd1726d27aeeafc4dfbc135f5a4fab56b433d3c	59025	32	open
+shanahan2023role	10.1038/s41586-023-06647-8	openalex_best_oa_pdf	https://www.nature.com/articles/s41586-023-06647-8.pdf?error=cookies_not_supported&code=4dda35e3-bc35-4a30-8c93-481421838e0b	200	1403195	a2d447b85abd5c9e3630b6a4b682d0daccd90fbe48b67cff6a6d49e1e9e218b2	54444	6	open
+appel2012does	10.1155/2012/324694		https://doaj.org/article/95fa24a64d0d4c5f86e189db5602541f	HTTP Error 403: Forbidden	0		0		closed
+gambino2020building	10.30658/hmc.1.5		https://doaj.org/article/2fbcf65534a14e578b8bf78ab3844e5b	HTTP Error 403: Forbidden	0		0		closed
+abercrombie2023mirages	10.18653/v1/2023.emnlp-main.290	openalex_best_oa_pdf	https://aclanthology.org/2023.emnlp-main.290.pdf	200	360412	30e1a49b23ddd63b7677e77324d10abde6de86ba7e73d216ad231b9935b765ab	86522	15	open
+shneiderman1984response	10.1145/2514.2517		https://doi.org/10.1145/2514.2517	HTTP Error 403: Forbidden	0		0		closed
+lipshitz2001taking	10.1002/bdm.381		https://stars.library.ucf.edu/scopus2000/371/	200 non-pdf (31979 bytes)	0		0		closed
+subramonyam2024bridging	10.1145/3613904.3642754	openalex_best_oa_pdf	https://arxiv.org/pdf/2309.14459	200	11372296	a64068cce89ec7d08029e1fc3d4517a65627d5f8d903d0c92b667965f176c6d0	166822	19	open
+saracay2026beyond	10.48550/arxiv.2606.30863	openalex_best_oa_pdf	https://arxiv.org/pdf/2606.30863	200	2565269	5b98d6da00e3786d38e8383679a3627595690f07bec4f428dc822b969e1c8a6e	231086	61	open
+simonson2008will	10.1016/j.jcps.2008.04.002		https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID1026358_code363555.pdf?abstractid=1026358	HTTP Error 403: Forbidden	0		0		closed
+weinmann2016digital	10.1007/s12599-016-0453-1	openalex_best_oa_pdf	https://link.springer.com/content/pdf/10.1007/s12599-016-0453-1.pdf?error=cookies_not_supported&code=b2bc60ee-21df-4903-af6d-1b664ff4d3d1	200	331944	c70013fb586234268369cb31cb64b51543b3b7607110b73e2dd9e8eea4bb3ac3	20430	4	open
+schneider2018digital	10.1145/3213765		https://doi.org/10.1145/3213765	HTTP Error 403: Forbidden	0		0		closed
+jachimowicz2019when	10.1017/bpp.2018.43	openalex_best_oa_pdf	https://www.cambridge.org/core/services/aop-cambridge-core/content/view/67AF6972CFB52698A60B6BD94B70C2C0/S2398063X1800043Xa.pdf/div-class-title-when-and-why-defaults-influence-decisions-a-meta-analysis-of-default-effects-div.pdf	200	581364	9295917b78d155bf5194bea1f6e35181a9711b37ff9565c269f3e67e7b149f23	96105	28	open
+shi2026siren	10.1145/3772318.3791149	openalex_location_pdf	https://arxiv.org/pdf/2509.10830	200	2645886	c4579a69c355291d647f774432d53fe1170e65881ffdc33cd7b88c7fba4a9484	226907	23	open
+maier2022no	10.1073/pnas.2200300119	openalex_location_pdf	https://pure.uva.nl/ws/files/100872641/pnas.2200300119.pdf	200	815156	b8fd3d69d7f387853843a3b72ef09a6c7c5859a6390667a57ccd5bdf2912ac29	36746	3	open
+siles2019mutual	10.1093/ccc/tcz025		https://academic.oup.com/ccc/advance-article/doi/10.1093/ccc/tcz025/5560017?guestAccessKey=7c07bba6-c337-4488-b224-e38e617372e8	HTTP Error 403: Forbidden	0		0		closed
+hollanek2023ai	10.1007/s00146-020-01110-y	openalex_best_oa_pdf	https://link.springer.com/content/pdf/10.1007/s00146-020-01110-y.pdf?error=cookies_not_supported&code=f9dd31d9-700f-441c-9c3e-6628f1659cc3	200	1153677	d2ad739fbed2af58c9cbec849df25df4d3b7918e09556262e7d2f604ee484dcd	54586	9	open
+cameron2024social	10.1007/s12369-023-01048-3	openalex_best_oa_pdf	https://link.springer.com/content/pdf/10.1007/s12369-023-01048-3.pdf?error=cookies_not_supported&code=ce5595ae-26c9-4714-8e59-c5dac93aa672	200	392990	38031b7892f883a2804b435aa0fc6724be83208b74ef75dde31a854c5a5dfce7	96861	14	open
+stanton2006distributed	10.1080/00140130600612762	openalex_best_oa_pdf	https://bura.brunel.ac.uk/bitstream/2438/1419/1/Distributed_situation_awareness_in_dynamic_systems_Stanton_et_al.pdf	200	550781	e9a9d751d1981152d79a1f538795b6a58085406bc47ce6c6ca336c45871c7e6b	54817	34	open
+chevalier2016animations	10.1145/2909132.2909255		http://hdl.handle.net/20.500.12210/24915	HTTP Error 500: Internal Server Error	0		0		closed
+dragicevic2011temporal	10.1145/1978942.1979233		https://inria.hal.science/inria-00556177	200 non-pdf (12610 bytes)	0		0		closed
+may2003using	10.1207/s15327051hci1804_1	openalex_best_oa_pdf	https://eprints.whiterose.ac.uk/id/eprint/470/1/mayj3.pdf	200	1371751	ea3bd9adf162cfbcc6284c2fc139c6d27a0f3c0889237e765521db05345d948c	128942	49	open
+ash2018digital	10.1177/0263775818767426		https://outputs.ncl.ac.uk/articles/journal_contribution/Digital_Interface_Design_and_Power_Friction_Threshold_Transition/34350858/1	202 non-pdf (1995 bytes)	0		0		closed
+wadi2026shopping	10.48550/arxiv.2609.28372	openalex_best_oa_pdf	https://arxiv.org/pdf/2609.28372	200	4989648	2a0a762e0e3290b93bcb0c85e0dd190a4794c413eb78386580bf03516f891a09	258223	58	open
+jones2026animating	10.1017/s0267190526100312	openalex_best_oa_pdf	https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0CF50080A95380B7AF063E694E40D87E/S0267190526100312a.pdf/div-class-title-animating-ai-language-variation-and-enoughness-in-voice-user-interfaces-div.pdf	200	610416	6d09afc457d64102338abe241ae232648d17ca3ae851a53fa12e326abd70fb6b	97988	22	open
+siskind2024would	10.3389/frobt.2024.1256937	html	https://pmc.ncbi.nlm.nih.gov:443/articles/PMC11076854/	200	250391	cc392bdf7f15f9c964b0789bf7a75655359d6daca5dcbb85d2098eea8a7367f1	85147		open
+lasseter1987principles	10.1145/37401.37407		https://doi.org/10.1145/37401.37407	HTTP Error 403: Forbidden	0		0		closed
+epley2007seeing	10.1037/0033-295x.114.4.864			no candidates	0		0		closed
+mori2012uncanny	10.1109/mra.2012.2192811			no candidates	0		0		closed
+luger2016like	10.1145/2858036.2858288			no candidates	0		0		closed
+johnson2012beyond	10.1007/s11002-012-9186-1	openalex_best_oa_pdf	https://ojs.unbc.ca/index.php/design/article/download/1264/1080	200	254858	74aa7e16803479f88adfe37b0762ae8d5a5f65b2bbf9c254730c1c2c2890785d	67138	18	open
+thomas1981illusion				openlibrary search 200, 3 top hits of 3	0		0		records-only
+maeda2025anthropomorphism	10.1609/aies.v8i2.36664		https://ojs.aaai.org/index.php/AIES/article/view/36664	200 non-pdf (7088 bytes); 200 non-pdf (7088 bytes)	0		0		closed
+magliano2011impact	10.1111/j.1551-6709.2011.01202.x		https://pmc.ncbi.nlm.nih.gov:443/articles/PMC3208769/	HTTP Error 403: Forbidden; 200 non-pdf (259657 bytes)	0		0		closed
+dragicevic2011temporal	10.1145/1978942.1979233		https://inria.hal.science/inria-00556177	200 non-pdf (12610 bytes); 200 non-pdf (12610 bytes)	0		0		closed
+ash2018digital	10.1177/0263775818767426		https://outputs.ncl.ac.uk/articles/journal_contribution/Digital_Interface_Design_and_Power_Friction_Threshold_Transition/34350858/1	HTTP Error 403: Forbidden; 202 non-pdf (1995 bytes)	0		0		closed
+chevalier2016animations	10.1145/2909132.2909255		http://hdl.handle.net/20.500.12210/24915	200 non-pdf (12610 bytes); HTTP Error 500: Internal Server Error	0		0		closed
+siles2019mutual	10.1093/ccc/tcz025		https://academic.oup.com/ccc/advance-article/doi/10.1093/ccc/tcz025/5560017?guestAccessKey=7c07bba6-c337-4488-b224-e38e617372e8	HTTP Error 500: Internal Server Error; HTTP Error 403: Forbidden	0		0		closed
+lipshitz2001taking	10.1002/bdm.381		https://stars.library.ucf.edu/scopus2000/371/	HTTP Error 403: Forbidden; 200 non-pdf (31979 bytes)	0		0		closed
+maeda2025anthropomorphism	10.1609/aies.v8i2.36664	explicit_url_curl	https://ojs.aaai.org/index.php/AIES/article/download/36664/38802	200	135388	07de333360fb75016a54c6815ce9bbeb8a4cb527dc7f8b843c4734f3cbc3b6f3	95291	13	ok
+dragicevic2011temporal	10.1145/1978942.1979233	explicit_url_curl	https://inria.hal.science/inria-00556177/document	200	711408	b6a7c995774f5d197e3cde1fa0763874f33faabce7f6b5a0cbc392fddc0eb893	72188	11	ok
+chevalier2016animations	10.1145/2909132.2909255	explicit_url_curl	https://enac.hal.science/hal-01322962/document	200	1160377	bec93627de462aa519291af4ed807ad2c1f3006742cf066d8f697e1254de4cd0	70274	9	ok
+hoerl2015seeing	10.1111/j.1468-0378.2012.00565.x	explicit_url_curl (S7 follow-up)	https://wrap.warwick.ac.uk/50746/1/WRAP_Hoerl_ejop565.pdf	200	374419	6f1939bfe0d53373465e6f9cbdbc6e0bd96c8e37b67b37c44d4c777ab5cc6e67	96032	28	ok (accepted version)
+gnewuch2018faster		explicit_url_curl (S7 follow-up)	https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1112&context=ecis2018_rp	200					fail: HTML, not PDF; browser list
+wu2026ainimation	10.48550/arxiv.2607.18507	arxiv_pdf (post-S10, author request)	https://arxiv.org/pdf/2607.18507	200	6347829	99afbd26650775f5ef47ff7e15ebf28c15f1aa5a725e993d264a1c63e6e85f47	131724	12	ok (arXiv v1)

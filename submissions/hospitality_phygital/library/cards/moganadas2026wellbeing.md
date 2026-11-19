@@ -6,7 +6,7 @@ year: 2026
 doi: 10.3390/soc16070213
 venue: "Societies"
 cluster: ai-automation
-status: held
+status: cited
 role: evidence
 used_by_sections: [8]
 claims: [wellbeing-levels-unmet, wellbeing-valence]

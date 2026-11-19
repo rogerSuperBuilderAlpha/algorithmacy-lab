@@ -33,16 +33,22 @@ Alternative interpretations are first-class. Disagreement is a feature of the ca
 
 ## Propose a pull request
 
-The lab integrates on **`contrib`** (not direct pushes to `main`).
+The lab integrates on **`contrib`**. `main` and `contrib` are protected. Push the working branch
+before editing, and push again after the catalog row. Read the other open branches and pull requests
+first, and join one that already adds the same work. The full rule is **Remote visibility** in the
+root [`AGENTS.md`](../../../AGENTS.md).
 
 ```bash
-git fetch origin contrib
+git fetch --all --prune
+git branch -r --sort=-committerdate
+gh pr list --state open
 git checkout -b cultural/scifi-<short-slug> origin/contrib
+git push -u origin cultural/scifi-<short-slug>          # immediately, before the edits
 # edit works/… and README catalog table
 git add submissions/dial_response_algorithmacy/corpus/
 git commit -m "docs(scifi): add <work or alternative>"
-git push -u origin cultural/scifi-<short-slug>
-# open a PR with base = contrib
+git push
+gh pr create --base contrib --draft
 ```
 
 House operating rules (instrument, reproduce, no outreach on the project's behalf) live in root [`AGENTS.md`](../../../AGENTS.md) and [`PUBLISHING.md`](../../../PUBLISHING.md). For this cultural arm, the bar is: clear prose, signed alternatives, no fabricated results.

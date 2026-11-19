@@ -1,0 +1,131 @@
+{
+  "structure": "Gig dispatch: one match between a driver, the dispatch platform and a rider",
+  "source": "prose.md",
+  "parties": [
+    {
+      "label": "D",
+      "name": "driver",
+      "active": "1 = the driver is available in the zone and goes when a trip is shown; 0 = waiting. This collapses location, eligibility and the accept decision into one bit."
+    },
+    {
+      "label": "P",
+      "name": "dispatch platform",
+      "active": "1 = a trip is assigned and shown to the parties; 0 = no assignment. This collapses matching, pricing and notification into one bit."
+    },
+    {
+      "label": "R",
+      "name": "rider",
+      "active": "1 = the rider has requested and confirmed a ride, then waits at the curb; 0 = no live request. This collapses opening the app, requesting, confirming and waiting into one bit."
+    }
+  ],
+  "mediator": "P",
+  "encodings": [
+    {
+      "id": "platform_commits",
+      "account": "The platform's operations manual: the system commits on a joint condition of driver availability and rider confirmation.",
+      "role": "rival",
+      "rules": {
+        "P": "D and R",
+        "D": "P",
+        "R": "P"
+      },
+      "evidence": {
+        "P": [
+          {
+            "source": "prose.md",
+            "locator": "¶2",
+            "quote": "The system assigns a trip only when an eligible driver is available and a rider has confirmed the request; the assignment is binding on both and sets the fare."
+          }
+        ],
+        "D": [
+          {
+            "source": "prose.md",
+            "locator": "¶4",
+            "quote": "When the trip comes up I go. If nothing comes up I wait."
+          }
+        ],
+        "R": [
+          {
+            "source": "prose.md",
+            "locator": "¶4",
+            "quote": "Once it says a driver is assigned, I wait at the curb."
+          }
+        ]
+      },
+      "alternative": {
+        "P": {
+          "rule": "D",
+          "why": "The drivers' account in ¶3 says the app only conveys what the driver sets. The evidence does not settle which account is right, so it is encoded as a separate rival."
+        },
+        "R": {
+          "rule": "P or D",
+          "why": "One rider in ¶6 texts a regular driver when the app is slow. This is a single unsupported claim, and other cities ban off-app arrangements. It is recorded as an alternative, not an edge."
+        },
+        "D": {
+          "rule": "P or R",
+          "why": "The same ¶6 off-app contact would let a driver act on a rider directly. Only some drivers and riders do this, and no log or agreement among the parties documents it."
+        }
+      },
+      "predicted": {
+        "structure": "triadic",
+        "core": [
+          "D",
+          "P",
+          "R"
+        ],
+        "reason": "The platform's rule is an AND of driver and rider that neither party can compute alone, and both parties then read the platform's output, so the loop through the mediator should not reduce to pairwise links."
+      }
+    },
+    {
+      "id": "drivers_suggestion",
+      "account": "The drivers' account: the app conveys a signal the driver sets and follows what the driver does.",
+      "role": "rival",
+      "rules": {
+        "P": "D",
+        "D": "P",
+        "R": "P"
+      },
+      "evidence": {
+        "P": [
+          {
+            "source": "prose.md",
+            "locator": "¶3",
+            "quote": "The app just pings me with whatever is nearby. I decide. It's a suggestion, it follows what I do."
+          }
+        ],
+        "D": [
+          {
+            "source": "prose.md",
+            "locator": "¶4",
+            "quote": "When the trip comes up I go. If nothing comes up I wait."
+          }
+        ],
+        "R": [
+          {
+            "source": "prose.md",
+            "locator": "¶4",
+            "quote": "Once it says a driver is assigned, I wait at the curb."
+          }
+        ]
+      },
+      "alternative": {
+        "P": {
+          "rule": "D and R",
+          "why": "The manual in ¶2 says assignment requires rider confirmation and is binding. A single driver's description does not rule this out, and it is encoded as the other rival."
+        },
+        "R": {
+          "rule": "P or D",
+          "why": "One rider in ¶6 texts a regular driver when the app is slow. This is a single unsupported claim, not an edge."
+        }
+      },
+      "predicted": {
+        "structure": "dyadic",
+        "core": [
+          "D",
+          "P"
+        ],
+        "reason": "If the platform only relays the driver's state, the driver and platform form a two-party loop, and the rider only reads the platform's output without feeding back into anyone."
+      }
+    }
+  ]
+}

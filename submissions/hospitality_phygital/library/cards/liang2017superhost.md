@@ -6,7 +6,7 @@ year: 2017
 doi: 10.1016/j.tourman.2017.01.007
 venue: "Tourism Management"
 cluster: platform-hospitality
-status: cited
+status: held
 role: evidence
 used_by_sections: [2]
 claims: [platform-unsettled-hosting]
@@ -16,6 +16,7 @@ verified_date: 2026-08-07
 source_basis: "Crossref-verified against the publisher record; abstract read. Read-depth debt checked 2026-08-08: paywalled; needs institutional access. Retrieval route: https://doi.org/10.1016/j.tourman.2017.01.007. Automated acquisition returned NOT_FREE for all eight debts, which was a tool artefact — publishers block scripted fetching — and not a statement about availability."
 generated_run: 2026-08-08-library-build
 flags: [abstract-only-debt, swap-candidate]
+hold_rationale: "Cited in the August draft; not in the reference list of v4 as submitted. Reconciled to v4 in rr-2026-11."
 ---
 
 ## Summary

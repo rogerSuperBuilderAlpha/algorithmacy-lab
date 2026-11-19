@@ -1,0 +1,239 @@
+{
+  "structure": "Insurance claim adjudication: who decides a claim? Five stipulated routing designs (claimant C, auto-adjudication engine E, human adjuster A)",
+  "source": "prose.md",
+  "parties": [
+    {
+      "label": "C",
+      "name": "Claimant",
+      "active": "1 = paid, 0 = still pursuing. This collapses the whole claim lifecycle (filed, under review, partly paid, denied, appealed, closed) into paid or not paid."
+    },
+    {
+      "label": "E",
+      "name": "Auto-adjudication engine",
+      "active": "1 = approves, 0 = flags. This collapses the engine's screening score, the claim's size and type, and the reason for a flag into a single approve/flag bit."
+    },
+    {
+      "label": "A",
+      "name": "Human adjuster",
+      "active": "1 = acts on the claim, 0 = does not. This collapses approve, deny, adjust, request information and override into one 'acts' bit."
+    }
+  ],
+  "mediator": "E",
+  "encodings": [
+    {
+      "id": "design1_pipe",
+      "account": "Stipulated Design 1 (the pipe). The prose names all three edges but does not state the polarity of the engine and adjuster bits, so the NOT in A is my reading, not the source's. No conflicting accounts, so there are no rival encodings.",
+      "role": "design",
+      "rules": {
+        "E": "C",
+        "A": "not E",
+        "C": "A"
+      },
+      "evidence": {
+        "E": [
+          {
+            "source": "prose.md",
+            "locator": "¶2",
+            "quote": "The engine reads the claimant, the adjuster reads the engine, and the claimant reads the adjuster."
+          },
+          {
+            "source": "prose.md",
+            "locator": "¶2",
+            "quote": "The engine forwards every claim to the adjuster; the adjuster's decision goes back to the claimant."
+          }
+        ],
+        "A": [
+          {
+            "source": "prose.md",
+            "locator": "¶2",
+            "quote": "The engine reads the claimant, the adjuster reads the engine, and the claimant reads the adjuster."
+          },
+          {
+            "source": "prose.md",
+            "locator": "¶2",
+            "quote": "The engine forwards every claim to the adjuster; the adjuster's decision goes back to the claimant."
+          }
+        ],
+        "C": [
+          {
+            "source": "prose.md",
+            "locator": "¶2",
+            "quote": "The engine reads the claimant, the adjuster reads the engine, and the claimant reads the adjuster."
+          },
+          {
+            "source": "prose.md",
+            "locator": "¶2",
+            "quote": "The engine forwards every claim to the adjuster; the adjuster's decision goes back to the claimant."
+          }
+        ]
+      },
+      "alternative": {
+        "E": {
+          "rule": "not C",
+          "why": "The engine is the mediator. The evidence shows it conveys the claimant's state ('forwards every claim'), but it gives no polarity. A reversed mapping between the claimant bit and the flag is not ruled out. Neither is a rule that also commits on a second condition, since ¶1 says the engine 'screens' the claim."
+        },
+        "A": {
+          "rule": "E",
+          "why": "The prose gives the edge (the adjuster reads the engine) but not the polarity. I took a forwarded claim to mean flagged (E = 0) and the adjuster acting (A = 1). A plain copy is not ruled out."
+        }
+      },
+      "predicted": {
+        "structure": "triadic",
+        "core": [
+          "C",
+          "E",
+          "A"
+        ],
+        "reason": "Each party reads exactly one other and the three form a single cycle, so no pair of parties is closed under its own inputs and the mediator carries the loop."
+      }
+    },
+    {
+      "id": "design2_threshold_auto_approval",
+      "account": "Stipulated Design 2 (threshold auto-approval). The engine's rule is not written: the prose says small claims are approved, which depends on claim size, and names no party state as its input. The alternative below records this gap. The researcher must supply the engine's input before this encoding can be computed.",
+      "role": "design",
+      "rules": {
+        "C": "E and not A",
+        "A": "not E and not C"
+      },
+      "evidence": {
+        "C": [
+          {
+            "source": "prose.md",
+            "locator": "¶3",
+            "quote": "The claimant is paid when the engine approves and the adjuster has not intervened; the adjuster acts when the engine flags a claim the claimant is pursuing."
+          }
+        ],
+        "A": [
+          {
+            "source": "prose.md",
+            "locator": "¶3",
+            "quote": "The claimant is paid when the engine approves and the adjuster has not intervened; the adjuster acts when the engine flags a claim the claimant is pursuing."
+          },
+          {
+            "source": "prose.md",
+            "locator": "¶3",
+            "quote": "Small claims are approved automatically; the adjuster reviews only claims the engine flags."
+          }
+        ]
+      },
+      "alternative": {
+        "E": {
+          "rule": "C",
+          "why": "Missing evidence: no passage says which party's state the engine reads in this design. 'Small claims are approved automatically' points to claim size, which is not a party bit, so the engine may be exogenous here. If the engine screens the claim the claimant filed, it could read C, but the prose does not say so."
+        }
+      },
+      "predicted": {
+        "structure": "dyadic",
+        "core": [
+          "C",
+          "A"
+        ],
+        "reason": "The documented edges give C and A a mutual loop while the engine has no documented input from either, so it acts as an external gate and not as a joint constraint."
+      }
+    },
+    {
+      "id": "design3_fraud_flag_loop_learning",
+      "account": "Stipulated Design 3 (fraud-flag loop with override learning). The prose states that the engine's flag reads both the claim and the adjuster, but not the function. The adjuster's reading of the flag is the only other documented edge. The engine's rule and the claimant's rule are therefore not written, and the researcher must supply them.",
+      "role": "design",
+      "rules": {
+        "A": "not E"
+      },
+      "evidence": {
+        "A": [
+          {
+            "source": "prose.md",
+            "locator": "¶4",
+            "quote": "The engine flags claims for the adjuster and retrains on the adjuster's overrides."
+          }
+        ]
+      },
+      "alternative": {
+        "E": {
+          "rule": "C and not A",
+          "why": "The prose says only 'The engine's flag reads both the claim and the adjuster.' So E depends on C and A, but the function is open. One commit-style reading is that the engine approves only a paid claim the adjuster has not overridden. Other joint functions (xor, or) are not ruled out."
+        },
+        "C": {
+          "rule": "A",
+          "why": "Missing evidence: ¶4 says nothing about the claimant's rule. The pipe's rule (the claimant reads the adjuster's decision) would be the natural carry-over, but this paragraph does not state it."
+        }
+      },
+      "predicted": {
+        "structure": "triadic",
+        "core": [
+          "C",
+          "E",
+          "A"
+        ],
+        "reason": "The engine reads both the claim and the adjuster while the adjuster reads the engine, so the mediator joins two parties in a feedback loop. This prediction is provisional because the claimant's own rule is undocumented."
+      }
+    },
+    {
+      "id": "design4_loop_without_learning",
+      "account": "Stipulated Design 4: the Design 3 loop with the engine no longer retraining on overrides. I read this as removing the engine's edge from the adjuster. That removal is my inference, since ¶5 does not name the edge. The engine's remaining rule and the claimant's rule are not documented, so neither is written.",
+      "role": "design",
+      "rules": {
+        "A": "not E"
+      },
+      "evidence": {
+        "A": [
+          {
+            "source": "prose.md",
+            "locator": "¶4",
+            "quote": "The engine flags claims for the adjuster and retrains on the adjuster's overrides."
+          },
+          {
+            "source": "prose.md",
+            "locator": "¶5",
+            "quote": "The engine no longer retrains on overrides."
+          }
+        ]
+      },
+      "alternative": {
+        "E": {
+          "rule": "C",
+          "why": "With the adjuster's input removed, the engine's flag still reads the claim (¶4), so a dependence on C alone is not ruled out. The prose gives no function, and the engine may read nothing from the parties."
+        },
+        "C": {
+          "rule": "A",
+          "why": "Missing evidence: no passage states the claimant's rule in this design. The pipe's copy of the adjuster's decision is the likeliest, but it is not documented."
+        }
+      },
+      "predicted": {
+        "structure": "dyadic",
+        "core": [],
+        "reason": "Without the engine's edge from the adjuster, influence runs from the engine to the adjuster only, so the engine is not part of any joint loop and no triad closes."
+      }
+    },
+    {
+      "id": "design5_frozen_claimant",
+      "account": "Stipulated Design 5: the claimant's state no longer reads the decision. Only this one edge is documented and the prose does not say which other design it modifies. No rule is written for any party. The researcher must choose the base design and the claimant's replacement rule.",
+      "role": "design",
+      "rules": {},
+      "evidence": {
+        "C": [
+          {
+            "source": "prose.md",
+            "locator": "¶6",
+            "quote": "The claimant is not told the outcome until the file closes."
+          },
+          {
+            "source": "prose.md",
+            "locator": "¶6",
+            "quote": "The claimant's state no longer reads the decision."
+          }
+        ]
+      },
+      "alternative": {
+        "C": {
+          "rule": "0",
+          "why": "Missing evidence: the prose removes the claimant's input but gives no replacement. A constant (here 0, still pursuing) and a self-hold (C) both fit, and the evidence does not choose between them."
+        }
+      },
+      "predicted": {
+        "structure": "dyadic",
+        "core": [],
+        "reason": "With the claimant reading nothing, the loop that returns the outcome to the claimant is cut, so the engine and adjuster cannot form an irreducible triad with the claimant."
+      }
+    }
+  ]
+}

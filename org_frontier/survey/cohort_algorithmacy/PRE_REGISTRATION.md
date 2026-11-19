@@ -14,7 +14,7 @@ new dated entry under "Amendments," never an edit to what was registered.
   v1.0. A substantial change to the consent, the study design, or the protocol requires a Research
   Progress & Review Form to the IRB before fielding.
 - **Field site.** Hult Cohort Program, Fall 2026 cohort.
-- **Design registered on.** `<COMMIT DATE — set by the commit that lands this file>`, before Wave 1 opens.
+- **Design registered on.** 2026-09-08 (landed on `main` in commit `05f49e8`, PR #728; the file has not changed since), before Wave 1 opens. [Placeholder filled by Claude, 27 Oct 2026, from the git history.]
 - **Waves.** W1 baseline (before week 1); W2 (week 4, after the first build-and-review cycle); W3 (end of
   session, week 16).
 - **Population.** All enrolled participants; voluntary; not a condition of enrollment or assessment.

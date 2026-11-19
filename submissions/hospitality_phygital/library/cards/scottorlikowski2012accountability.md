@@ -40,3 +40,5 @@ answerability thinned.
 ## Where it enters the manuscript
 
 Section 3, opening the authority redistribution.
+
+Support verdict 11 Nov 2026: the paper shows accountability in travel redistributed from internal lines of authority to online reviews. It does not support 'authority over the rule drifts towards whoever designs, configures or controls it'; removed from that DRAFT_v6 sentence (C57).

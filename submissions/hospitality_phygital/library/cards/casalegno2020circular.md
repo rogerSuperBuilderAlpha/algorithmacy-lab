@@ -6,7 +6,7 @@ year: 2020
 doi: 10.4468/2020.1.12casalegno.civera.mosca.freeman
 venue: "Symphonya. Emerging Issues in Management"
 cluster: mediation-sovereignty
-status: held
+status: cited
 role: framing
 used_by_sections: [1, 3]
 claims: [authority-redistribution, discretion-redistribution, editors-own-ground]

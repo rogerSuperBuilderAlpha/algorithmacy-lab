@@ -6,7 +6,7 @@ year: 2021b
 doi: 10.1386/hosp_00046_2
 venue: "Hospitality & Society"
 cluster: hospitality-theory
-status: cited
+status: held
 role: evidence
 used_by_sections: [2]
 claims: [hospitality-exceeds-service]
@@ -16,6 +16,7 @@ verified_date: 2026-08-07
 source_basis: "Crossref-verified against the publisher record; abstract read."
 generated_run: 2026-08-08-library-build
 flags: []
+hold_rationale: "Cited in the August draft; not in the reference list of v4 as submitted. Reconciled to v4 in rr-2026-11."
 ---
 
 ## Summary

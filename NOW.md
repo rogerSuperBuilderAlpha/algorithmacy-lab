@@ -7,6 +7,10 @@ a date on it. Last updated 2026-10-27.
 in a few minutes, then places your own question against what the lab has asked and routes it to an open
 thread. The open threads, with status and what each needs, are in [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md).
 
+**Agents editing this tree:** before the first edit, push a working branch off `contrib` and read the
+open remote branches and pull requests. `git push` after every meaningful step. The rule is **Remote
+visibility** in [`AGENTS.md`](AGENTS.md). `main` and `contrib` are protected.
+
 **Coming from the ALGOCON talk?** The slides, script and open questions are in
 [`submissions/triadic_reduction/`](submissions/triadic_reduction/).
 

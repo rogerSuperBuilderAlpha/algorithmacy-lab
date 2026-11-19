@@ -57,14 +57,20 @@ The repository keeps two branches that matter to contributors. `main` is the pub
 is the integration branch where reviewed work collects before it is promoted. Contributors never push to
 `main`.
 
-1. **Fork** the repository and create a branch off `contrib`, named for the work
-   (`essay/platform-as-form`, `study/q44-matrix-structure`).
+1. **See what is already in flight, then fork and push a branch.** `git fetch --all --prune`, read
+   `git branch -r --sort=-committerdate` and `gh pr list --state open`, and join an existing branch
+   when it already covers the work. Otherwise create a branch off `contrib`, named for the work
+   (`essay/platform-as-form`, `study/q44-matrix-structure`), and `git push -u origin <branch>` before
+   writing. Open a draft pull request into `contrib` with the first commit.
 2. **Write** the essay or run the study, meeting the three commitments above. Commit your hypotheses
-   before your results so the history shows the order.
-3. **Open a pull request into `contrib`** (not `main`). The PR description states the claim, lists the
-   exact commands a reviewer runs to reproduce every number, and names the scope.
+   before your results so the history shows the order, and `git push` after that commit and after
+   every later meaningful step. Remote state is the recoverable state. Re-read the open branches and
+   pull requests while the work is in progress.
+3. **Keep the pull request into `contrib` current.** The description states the claim, lists the
+   exact commands a reviewer runs to reproduce every number, and names the scope. Mark the draft
+   ready when that description is true.
 4. **Review happens on the PR**, in the open (next section). You respond to it in commits on the same
-   branch.
+   branch, and each of those commits is pushed.
 5. **Sign-off.** A reviewer approves the PR, and it merges into `contrib`. Branch protection requires
    one approving review on every pull request.
 6. **Promotion.** Periodically the owner promotes `contrib` to `main` through a pull request. A promotion

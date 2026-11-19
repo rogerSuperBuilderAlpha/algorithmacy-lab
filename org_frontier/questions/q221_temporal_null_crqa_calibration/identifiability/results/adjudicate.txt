@@ -1,0 +1,17 @@
+box-run: start 'q221-adjudicate' [research, 2000 MB est, as-cap off MB, timeout 1800s] after 0s wait
+48-group-unique candidate pairs: 74
+  with a constant-rule node in either member: 7 ; with NO constant node: 67
+  same univariate means: 67 (no-constant subset 67); same auto profiles: 3 (no-constant subset 3); both: 3
+  min B margin over all members: 1.0000
+  core tie gap over checked members: min 0.0000 (n=134)
+
+REPRESENTATIVE pair: ('aff', 9, 6, 10) vs ('aff', 9, 15, 10)
+  a rules (minterms where next=1): X'={~X~Y~H,X~Y~H,~XY~H,XY~H}; Y'={X~Y~H,~XY~H,X~YH,~XYH}; H'={X~Y~H,XY~H,~X~YH,~XYH}
+     target: {'core': [0, 2], 'phi': 2.0, 'B': [0, 2], 'base': 2.0, 'drops': [2.0, 0.0, 2.0]} ; B margin 2.0000 ; core tie gap 1.0 ; const nodes []
+  b rules (minterms where next=1): X'={~X~Y~H,X~Y~H,~XY~H,XY~H}; Y'={~X~Y~H,XY~H,X~YH,~XYH}; H'={X~Y~H,XY~H,~X~YH,~XYH}
+     target: {'core': [0, 2], 'phi': 2.0, 'B': [2], 'base': 2.0, 'drops': [1.0, 0.0, 2.0]} ; B margin 1.0000 ; core tie gap 1.0 ; const nodes []
+  same means True ; same auto True
+  (b) exact rational cross profiles equal at all 6 ordered pairs x lags 0..40 (=> -40..40): True
+  (c) a: maxprom 0.0607±0.0010; anyev 0.6800±0.0234; noev 0.3200±0.0234; score_own 0.6433±0.0134; score_other 0.3142±0.0129; mean_x 0.5013±0.0017; mean_y 0.4986±0.0014; mean_h 0.4983±0.0018; tie-aware pick share X/Y/H [0.3292, 0.3567, 0.3142]
+  (c) b: maxprom 0.0606±0.0009; anyev 0.6925±0.0231; noev 0.3075±0.0231; score_own 0.3300±0.0137; score_other 0.6375±0.0136; mean_x 0.5013±0.0017; mean_y 0.4993±0.0014; mean_h 0.4983±0.0018; tie-aware pick share X/Y/H [0.3075, 0.3625, 0.33]
+box-run: done 'q221-adjudicate' rc=0 waited=0s ran=37s

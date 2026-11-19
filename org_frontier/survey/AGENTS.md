@@ -5,6 +5,14 @@ arrangement — the measurement side of the validation gap the other arms cannot
 panel study; pre-fieldwork, no data collected yet. The shared rules live in the root
 [`../../AGENTS.md`](../../AGENTS.md).
 
+## Remote visibility
+
+Before the first edit: `git fetch --all --prune`, read `git branch -r --sort=-committerdate` and
+`gh pr list --state open`, create a branch off `origin/contrib`, and `git push -u origin <branch>`.
+Commit and `git push` the instrument and hypotheses before any data, and push again after every later
+artifact. Re-check open branches and pull requests while working. The full rule is **Remote
+visibility** in the root [`../../AGENTS.md`](../../AGENTS.md). Do not push to `main` or `contrib`.
+
 ## Local entry points
 
 - [`README.md`](README.md) — the arm and its first pre-registered panel study.

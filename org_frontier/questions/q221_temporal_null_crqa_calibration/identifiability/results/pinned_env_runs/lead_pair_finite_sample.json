@@ -1,0 +1,97 @@
+{
+  "P": {
+    "truth_tables": [
+      [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    ],
+    "max_prominence_mean": 0.060498297258556356,
+    "max_centrality_mean": 0.06082475115049973,
+    "any_prominence_above_floor": 0.6933333333333334,
+    "no_evidence": 0.30666666666666664,
+    "bn_score": 0.6611111111111111,
+    "bn_score_se": 0.015756125852464182,
+    "bn_score_vs_other_target": 0.3372222222222222,
+    "chance": 0.6666666666666666
+  },
+  "Q": {
+    "truth_tables": [
+      [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    ],
+    "max_prominence_mean": 0.06165315798433628,
+    "max_centrality_mean": 0.060931425786858874,
+    "any_prominence_above_floor": 0.6666666666666666,
+    "no_evidence": 0.3333333333333333,
+    "bn_score": 0.3327777777777778,
+    "bn_score_se": 0.01623366044012731,
+    "bn_score_vs_other_target": 0.6622222222222223,
+    "chance": 0.3333333333333333
+  },
+  "design": {
+    "exploratory": true,
+    "script": "independent_audit/candidate_finite_sample.py (simulate, measure)",
+    "seeds_per_system": 300,
+    "seeds": "0..N-1, same for P and Q",
+    "steps": 600,
+    "warmup": 20,
+    "flip": 0.08,
+    "max_lag": 10,
+    "prom_floor": 0.05
+  }
+}

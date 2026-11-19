@@ -6,7 +6,7 @@ year: 2022
 doi: 10.1016/j.ijhm.2022.103316
 venue: "International Journal of Hospitality Management"
 cluster: hospitality-theory
-status: cited
+status: held
 role: rival
 used_by_sections: [2, 3]
 claims: [not-that-triad]
@@ -16,6 +16,7 @@ verified_date: 2026-08-07
 source_basis: "Crossref-verified; abstract read."
 generated_run: 2026-08-08-library-build
 flags: []
+hold_rationale: "Cited in the August draft; not in the reference list of v4 as submitted. Reconciled to v4 in rr-2026-11."
 ---
 
 ## Summary

@@ -1,0 +1,45 @@
+{
+  "status": "exploratory",
+  "seed": 2212026,
+  "rows": [
+    {
+      "persistence": 0.5,
+      "independent_pairs": 250,
+      "timepoints": 240,
+      "surrogates": 199,
+      "degenerate_pairs": 0,
+      "shuffle_rejections": 14,
+      "circular_shift_rejections": 12,
+      "shuffle_fpr": 0.056,
+      "circular_shift_fpr": 0.048
+    },
+    {
+      "persistence": 0.9,
+      "independent_pairs": 250,
+      "timepoints": 240,
+      "surrogates": 199,
+      "degenerate_pairs": 0,
+      "shuffle_rejections": 85,
+      "circular_shift_rejections": 14,
+      "shuffle_fpr": 0.34,
+      "circular_shift_fpr": 0.056
+    },
+    {
+      "persistence": 0.98,
+      "independent_pairs": 250,
+      "timepoints": 240,
+      "surrogates": 199,
+      "degenerate_pairs": 4,
+      "shuffle_rejections": 168,
+      "circular_shift_rejections": 5,
+      "shuffle_fpr": 0.672,
+      "circular_shift_fpr": 0.02
+    }
+  ],
+  "caveats": [
+    "Absolute zero-lag Pearson correlation, not CRQA",
+    "Undefined constant-series correlations mapped to zero",
+    "Circular shifts are not generally valid under all dependence regimes",
+    "Surrogate draws are not independent experimental units"
+  ]
+}

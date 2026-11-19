@@ -6,7 +6,7 @@ year: 2024
 doi: 10.1080/13683500.2023.2300030
 venue: "Current Issues in Tourism"
 cluster: ai-automation
-status: cited
+status: held
 role: evidence
 used_by_sections: [7]
 claims: [cultural-scripts]

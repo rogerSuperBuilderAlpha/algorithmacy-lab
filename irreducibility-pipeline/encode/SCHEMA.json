@@ -1,0 +1,189 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Encodings of one coordinative structure",
+  "description": "One coordinative structure, several rival encodings. Each encoding is a Boolean model of who reads whom and what each party commits, with the evidence behind every rule and the prediction fixed before computing. irreducibility.encoding.validate enforces the evidence, alternative and prediction rules.",
+  "type": "object",
+  "required": [
+    "structure",
+    "parties",
+    "encodings"
+  ],
+  "properties": {
+    "structure": {
+      "type": "string",
+      "description": "the bounded recurring act, e.g. 'Gig dispatch: one match'"
+    },
+    "source": {
+      "type": "string"
+    },
+    "parties": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "label",
+          "name",
+          "active"
+        ],
+        "properties": {
+          "label": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9_]*$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "active": {
+            "type": "string",
+            "description": "what the party's bit = 1 means; say what it collapses"
+          }
+        }
+      }
+    },
+    "mediator": {
+      "type": "string",
+      "description": "label of the mediating system, if any"
+    },
+    "encodings": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "rules",
+          "evidence",
+          "predicted"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "account": {
+            "type": "string",
+            "description": "whose account or which design this encoding represents"
+          },
+          "role": {
+            "enum": [
+              "rival",
+              "design"
+            ],
+            "description": "rival = a competing reading of the same arrangement; design = a deliberate change to it"
+          },
+          "labels": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "override the party list (e.g. pooled drivers)"
+          },
+          "rules": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "party -> Boolean expression over party labels using and, or, not, xor, 0, 1"
+          },
+          "evidence": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": [
+                  "source",
+                  "locator",
+                  "quote"
+                ],
+                "properties": {
+                  "source": {
+                    "type": "string",
+                    "description": "file or document the passage comes from"
+                  },
+                  "locator": {
+                    "type": "string",
+                    "description": "paragraph, page, timestamp or line"
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "the passage, verbatim"
+                  }
+                }
+              }
+            }
+          },
+          "alternative": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "required": [
+                "rule",
+                "why"
+              ],
+              "properties": {
+                "rule": {
+                  "type": "string"
+                },
+                "why": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "predicted": {
+            "type": "object",
+            "required": [
+              "structure",
+              "reason"
+            ],
+            "properties": {
+              "structure": {
+                "enum": [
+                  "dyadic",
+                  "triadic"
+                ]
+              },
+              "core": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "reason": {
+                "type": "string"
+              }
+            }
+          },
+          "bypass": {
+            "type": "object",
+            "required": [
+              "party",
+              "downstream",
+              "upstream"
+            ],
+            "properties": {
+              "party": {
+                "type": "string"
+              },
+              "downstream": {
+                "type": "string"
+              },
+              "upstream": {
+                "type": "string"
+              },
+              "mode": {
+                "enum": [
+                  "replace",
+                  "add"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

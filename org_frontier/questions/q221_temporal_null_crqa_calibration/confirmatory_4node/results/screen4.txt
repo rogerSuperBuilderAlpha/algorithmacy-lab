@@ -1,0 +1,9 @@
+S0: |GL(4,2)| = 20160 ; systems = 322560
+S3 prep: orbits under G (384 maps) = 1864 (1.2s)
+S1/S2: recurrence-equal classes = 66121 ; multi-member = 64201 ; largest = 192 (7.3s)
+S3: classes with >= 2 orbits = 30216 ; unordered non-isomorphic system pairs = 1366408 ; unordered orbit pairs = 1872
+S4: law difference holds for every distinct (A,c) (distinct maps => distinct TPMs; Prop 2); checked in V2
+V1: Prop-1 closed form == brute-force exact profiles (lags 0..20, all i,j) and marginals 1/2: 300/300 (8.7s)
+V2: study pairs with exact profiles equal (lags 0..20) & TPMs differ & non-isomorphic (384 maps): 40/40 (9.0s)
+study pairs: number of differing update rows (A only) -> count: {0: 2, 1: 12, 2: 17, 3: 7, 4: 2}
+total 9.0s

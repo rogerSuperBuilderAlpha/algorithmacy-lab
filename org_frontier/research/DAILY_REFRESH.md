@@ -13,8 +13,11 @@ refresh** re-researches every program and topic from scratch and rewrites the re
 A light pass that only catches new work. Six recency-bounded searches, an adversarial check, and an append.
 No review is rewritten and no topic is re-researched.
 
-1. **Sync.** From the repo root, fetch and branch off `contrib`:
-   `git fetch origin contrib && git checkout -b research/sweep-<date> origin/contrib`.
+1. **Sync, and look at what else is in flight.** From the repo root:
+   `git fetch --all --prune`, then `git branch -r --sort=-committerdate`, recent commits across those
+   branches, and `gh pr list --state open`. Join a branch that already holds today's sweep. Otherwise
+   `git checkout -b research/sweep-<date> origin/contrib` and `git push -u origin research/sweep-<date>`
+   before editing. Open a draft pull request into `contrib` with the first commit.
 2. **Read each program's last run.** Every program report opens with `<!-- run: YYYY-MM-DD | sources: N |
    verified: M -->` in `literature/deep_research_report.md`. The `run` date sets the recency window: the
    sweep looks for work dated after it.
@@ -33,8 +36,11 @@ No review is rewritten and no topic is re-researched.
 7. **Log and index.** Append a dated entry to [`CHANGELOG.md`](CHANGELOG.md): per program, the count added
    and the new total. A program with no new work records `+0`. Regenerate the indexes:
    `python org_frontier/research/build_research_index.py`, then `python tools/build_index.py`.
-8. **Land it.** Commit, push, open a PR into `contrib` with the changelog entry as the body, confirm CI is
-   green (`directory-current`), admin-merge, then promote `contrib` to `main`. Delete the branch.
+8. **Land it.** Commit and `git push` after the bibliography append and again after the changelog and
+   indexes. The draft pull request into `contrib` has been open since step 1; put the changelog entry
+   in the body, confirm CI is green (`directory-current`), admin-merge, then promote `contrib` to
+   `main`. Delete the branch. Re-read `gh pr list --state open` before merging so a parallel sweep is
+   not overwritten.
 
 A sweep that finds nothing new still lands: it bumps the run dates, records `+0` across the board, and
 leaves a dated changelog entry showing the watch ran. The history stays legible either way.
@@ -45,7 +51,9 @@ A full re-research of every program and topic. It re-synthesizes the reviews and
 from scratch, so it catches reframings and displaced topics that an append-only sweep misses. Run it on a
 long cadence (monthly is enough) or by hand when a program's framing has moved.
 
-1. **Sync.** Branch off `contrib` as `research/refresh-<date>`.
+1. **Sync.** `git fetch --all --prune`, read `git branch -r --sort=-committerdate` and
+   `gh pr list --state open`, branch off `contrib` as `research/refresh-<date>`, and
+   `git push -u origin research/refresh-<date>` before the research. Push again after each program.
 2. **Research each program.** Run deep research on each seed question: real search across the web and the
    academic databases. Synthesize the program-level review and write its bibliography.
 3. **Confirm the ten topics.** Each program holds ten topics (listed in its `README.md`). Re-research each,

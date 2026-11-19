@@ -1,0 +1,415 @@
+{
+  "structure": "Gig dispatch: one match (stipulated description)",
+  "source": "prose.md",
+  "parties": [
+    {
+      "label": "D",
+      "name": "driver",
+      "active": "available and accepting this match"
+    },
+    {
+      "label": "P",
+      "name": "dispatch platform",
+      "active": "commits this match"
+    },
+    {
+      "label": "R",
+      "name": "rider",
+      "active": "requesting and accepting this match"
+    }
+  ],
+  "mediator": "P",
+  "encodings": [
+    {
+      "id": "A",
+      "account": "platform's account: dispatch commits a binding match",
+      "role": "rival",
+      "rules": {
+        "D": "P",
+        "P": "D and R",
+        "R": "P"
+      },
+      "evidence": {
+        "D": [
+          {
+            "source": "prose.md",
+            "locator": "¶4",
+            "quote": "When the trip comes up I go. If nothing comes up I wait."
+          }
+        ],
+        "P": [
+          {
+            "source": "prose.md",
+            "locator": "¶2",
+            "quote": "The system assigns a trip only when an eligible driver is available and a rider has confirmed the request"
+          }
+        ],
+        "R": [
+          {
+            "source": "prose.md",
+            "locator": "¶4",
+            "quote": "Once it says a driver is assigned, I wait at the curb."
+          }
+        ]
+      },
+      "alternative": {
+        "P": {
+          "rule": "D",
+          "why": "Drivers describe dispatch as a suggestion that follows the driver (¶3); the evidence does not rule out a relay."
+        }
+      },
+      "predicted": {
+        "structure": "triadic",
+        "core": [
+          "D",
+          "P",
+          "R"
+        ],
+        "reason": "The platform commits a match neither party sets alone, and both act on it."
+      },
+      "bypass": {
+        "party": "P",
+        "downstream": "R",
+        "upstream": "D",
+        "mode": "replace"
+      }
+    },
+    {
+      "id": "B",
+      "account": "driver's account: dispatch relays a suggestion",
+      "role": "rival",
+      "rules": {
+        "D": "P",
+        "P": "D",
+        "R": "P"
+      },
+      "evidence": {
+        "D": [
+          {
+            "source": "prose.md",
+            "locator": "¶4",
+            "quote": "When the trip comes up I go. If nothing comes up I wait."
+          }
+        ],
+        "P": [
+          {
+            "source": "prose.md",
+            "locator": "¶3",
+            "quote": "It's a suggestion, it follows what I do."
+          }
+        ],
+        "R": [
+          {
+            "source": "prose.md",
+            "locator": "¶4",
+            "quote": "Once it says a driver is assigned, I wait at the curb."
+          }
+        ]
+      },
+      "alternative": {
+        "P": {
+          "rule": "D and R",
+          "why": "The manual describes a binding assignment that needs both driver and rider (¶2)."
+        }
+      },
+      "predicted": {
+        "structure": "dyadic",
+        "reason": "A relay that only follows the driver commits nothing of its own; the rider is downstream."
+      }
+    },
+    {
+      "id": "C",
+      "account": "pooled drivers: any eligible driver will do",
+      "role": "rival",
+      "labels": [
+        "D1",
+        "D2",
+        "P",
+        "R"
+      ],
+      "rules": {
+        "D1": "P",
+        "D2": "P",
+        "P": "(D1 or D2) and R",
+        "R": "P"
+      },
+      "evidence": {
+        "D1": [
+          {
+            "source": "prose.md",
+            "locator": "¶4",
+            "quote": "When the trip comes up I go. If nothing comes up I wait."
+          }
+        ],
+        "D2": [
+          {
+            "source": "prose.md",
+            "locator": "¶4",
+            "quote": "When the trip comes up I go. If nothing comes up I wait."
+          }
+        ],
+        "P": [
+          {
+            "source": "prose.md",
+            "locator": "¶5",
+            "quote": "Any eligible driver in range may be assigned."
+          }
+        ],
+        "R": [
+          {
+            "source": "prose.md",
+            "locator": "¶4",
+            "quote": "Once it says a driver is assigned, I wait at the curb."
+          }
+        ]
+      },
+      "alternative": {
+        "P": {
+          "rule": "D1 and R",
+          "why": "Outside dense hours one driver is in range and the match needs that driver (¶1)."
+        }
+      },
+      "predicted": {
+        "structure": "dyadic",
+        "reason": "Interchangeable drivers make no single driver pivotal, so the structure factors."
+      }
+    },
+    {
+      "id": "O1",
+      "account": "outside options: both captive (off-app contact banned)",
+      "role": "design",
+      "rules": {
+        "D": "P",
+        "P": "D and R",
+        "R": "P"
+      },
+      "evidence": {
+        "D": [
+          {
+            "source": "prose.md",
+            "locator": "¶6",
+            "quote": "drivers there have no way to reach riders except through the platform"
+          }
+        ],
+        "P": [
+          {
+            "source": "prose.md",
+            "locator": "¶2",
+            "quote": "The system assigns a trip only when an eligible driver is available and a rider has confirmed the request"
+          }
+        ],
+        "R": [
+          {
+            "source": "prose.md",
+            "locator": "¶6",
+            "quote": "drivers there have no way to reach riders except through the platform"
+          }
+        ]
+      },
+      "alternative": {
+        "P": {
+          "rule": "D",
+          "why": "Drivers describe dispatch as a suggestion that follows the driver (¶3); the evidence does not rule out a relay."
+        }
+      },
+      "predicted": {
+        "structure": "triadic",
+        "reason": "The platform's core is itself plus the parties with no outside option.",
+        "core": [
+          "D",
+          "P",
+          "R"
+        ]
+      }
+    },
+    {
+      "id": "O2",
+      "account": "outside options: complementary direct tie (repeat trips need app and contact)",
+      "role": "design",
+      "rules": {
+        "D": "P and R",
+        "P": "D and R",
+        "R": "P and D"
+      },
+      "evidence": {
+        "D": [
+          {
+            "source": "prose.md",
+            "locator": "¶6",
+            "quote": "If the app is slow I just text my regular driver."
+          }
+        ],
+        "P": [
+          {
+            "source": "prose.md",
+            "locator": "¶2",
+            "quote": "The system assigns a trip only when an eligible driver is available and a rider has confirmed the request"
+          }
+        ],
+        "R": [
+          {
+            "source": "prose.md",
+            "locator": "¶6",
+            "quote": "If the app is slow I just text my regular driver."
+          }
+        ]
+      },
+      "alternative": {
+        "P": {
+          "rule": "D",
+          "why": "Drivers describe dispatch as a suggestion that follows the driver (¶3); the evidence does not rule out a relay."
+        }
+      },
+      "predicted": {
+        "structure": "triadic",
+        "reason": "The platform's core is itself plus the parties with no outside option.",
+        "core": [
+          "D",
+          "P",
+          "R"
+        ]
+      }
+    },
+    {
+      "id": "O3",
+      "account": "outside options: captive driver, mobile rider",
+      "role": "design",
+      "rules": {
+        "D": "P",
+        "P": "D and R",
+        "R": "P or D"
+      },
+      "evidence": {
+        "D": [
+          {
+            "source": "prose.md",
+            "locator": "¶6",
+            "quote": "drivers there have no way to reach riders except through the platform"
+          }
+        ],
+        "P": [
+          {
+            "source": "prose.md",
+            "locator": "¶2",
+            "quote": "The system assigns a trip only when an eligible driver is available and a rider has confirmed the request"
+          }
+        ],
+        "R": [
+          {
+            "source": "prose.md",
+            "locator": "¶6",
+            "quote": "If the app is slow I just text my regular driver."
+          }
+        ]
+      },
+      "alternative": {
+        "P": {
+          "rule": "D",
+          "why": "Drivers describe dispatch as a suggestion that follows the driver (¶3); the evidence does not rule out a relay."
+        }
+      },
+      "predicted": {
+        "structure": "triadic",
+        "reason": "The platform's core is itself plus the parties with no outside option.",
+        "core": [
+          "D",
+          "P"
+        ]
+      }
+    },
+    {
+      "id": "O4",
+      "account": "outside options: mobile driver, captive rider",
+      "role": "design",
+      "rules": {
+        "D": "P or R",
+        "P": "D and R",
+        "R": "P"
+      },
+      "evidence": {
+        "D": [
+          {
+            "source": "prose.md",
+            "locator": "¶6",
+            "quote": "If the app is slow I just text my regular driver."
+          }
+        ],
+        "P": [
+          {
+            "source": "prose.md",
+            "locator": "¶2",
+            "quote": "The system assigns a trip only when an eligible driver is available and a rider has confirmed the request"
+          }
+        ],
+        "R": [
+          {
+            "source": "prose.md",
+            "locator": "¶6",
+            "quote": "drivers there have no way to reach riders except through the platform"
+          }
+        ]
+      },
+      "alternative": {
+        "P": {
+          "rule": "D",
+          "why": "Drivers describe dispatch as a suggestion that follows the driver (¶3); the evidence does not rule out a relay."
+        }
+      },
+      "predicted": {
+        "structure": "triadic",
+        "reason": "The platform's core is itself plus the parties with no outside option.",
+        "core": [
+          "P",
+          "R"
+        ]
+      }
+    },
+    {
+      "id": "O5",
+      "account": "outside options: both mobile (substitute direct tie)",
+      "role": "design",
+      "rules": {
+        "D": "P or R",
+        "P": "D and R",
+        "R": "P or D"
+      },
+      "evidence": {
+        "D": [
+          {
+            "source": "prose.md",
+            "locator": "¶6",
+            "quote": "If the app is slow I just text my regular driver."
+          }
+        ],
+        "P": [
+          {
+            "source": "prose.md",
+            "locator": "¶2",
+            "quote": "The system assigns a trip only when an eligible driver is available and a rider has confirmed the request"
+          }
+        ],
+        "R": [
+          {
+            "source": "prose.md",
+            "locator": "¶6",
+            "quote": "If the app is slow I just text my regular driver."
+          }
+        ]
+      },
+      "alternative": {
+        "P": {
+          "rule": "D",
+          "why": "Drivers describe dispatch as a suggestion that follows the driver (¶3); the evidence does not rule out a relay."
+        }
+      },
+      "predicted": {
+        "structure": "triadic",
+        "reason": "The platform's core is itself plus the parties with no outside option.",
+        "core": [
+          "D",
+          "R"
+        ]
+      }
+    }
+  ]
+}

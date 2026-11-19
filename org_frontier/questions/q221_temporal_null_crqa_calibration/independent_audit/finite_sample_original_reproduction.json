@@ -1,0 +1,42 @@
+{
+  "A": {
+    "mean_max_pair_prominence": 0.06265039192738366,
+    "mean_max_centrality": 0.061000217335478675,
+    "mean_lag0_cross_match": 0.5041527777777778,
+    "mean_H_self_lag1_match": 0.9200208681135226,
+    "fraction_any_prominence_over_0_05": 0.645,
+    "max_prominence_quantiles": [
+      0.030023571637789223,
+      0.05808916345417006,
+      0.11252564762149755
+    ]
+  },
+  "B": {
+    "mean_max_pair_prominence": 0.054162956739293604,
+    "mean_max_centrality": 0.03782560430264648,
+    "mean_lag0_cross_match": 0.5003,
+    "mean_H_self_lag1_match": 0.501389816360601,
+    "fraction_any_prominence_over_0_05": 0.47,
+    "max_prominence_quantiles": [
+      0.02767983375066009,
+      0.04872836765391375,
+      0.09774302504905552
+    ]
+  },
+  "design": {
+    "n_replicates_per_model": 400,
+    "steps": 600,
+    "warmup": 20,
+    "flip": 0.08,
+    "max_lag": 10,
+    "prom_floor": 0.05,
+    "seeds": "0..399 separately for each model",
+    "status": "exploratory",
+    "IIT_target_computed": false
+  },
+  "theory": {
+    "H_self_lag1_A": 0.92,
+    "H_self_lag1_B": 0.5,
+    "cross_pair_profile_both": 0.5
+  }
+}

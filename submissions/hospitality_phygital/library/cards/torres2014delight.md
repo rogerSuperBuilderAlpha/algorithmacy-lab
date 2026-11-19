@@ -6,7 +6,7 @@ year: 2014
 doi: 10.1016/j.ijhm.2013.09.007
 venue: "International Journal of Hospitality Management"
 cluster: hospitality-theory
-status: cited
+status: held
 role: evidence
 used_by_sections: [7]
 claims: [cultural-scripts]
@@ -17,6 +17,7 @@ source_basis: "Crossref-verified against the publisher record; abstract read."
 generated_run: 2026-08-11-p9
 flags: []
 superseded_by: "mattila1999"
+hold_rationale: "Cited in the August draft; not in the reference list of v4 as submitted. Reconciled to v4 in rr-2026-11."
 ---
 
 > **Status corrected 2026-08-11 (P9 reconciliation).** This card's frontmatter had gone out of step with the manuscript, which moved after the 8 August build while the library stood still. The frontmatter below is now true; the prose beneath it predates the correction and has not been rewritten.

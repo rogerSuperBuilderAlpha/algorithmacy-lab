@@ -1,0 +1,6 @@
+key	source	copied_from	date	note
+silvio2019puppets	dxd_animation_local	pdfs/silvio2019puppets	2026-11-08	upgrade; contents: crossref.json 
+thomas1981illusion	dxd_animation_local	pdfs/thomas1981illusion	2026-11-08	upgrade; contents: openlibrary_search.json 
+lasseter1987principles	dxd_animation_local	pdfs/lasseter1987principles	2026-11-08	upgrade; contents: crossref.json openalex.json 
+hoerl2015seeing	dxd_animation_local	pdfs/hoerl2015seeing	2026-11-08	upgrade; contents: crossref.json hoerl2015seeing.pdf hoerl2015seeing.readorder.txt hoerl2015seeing.txt openalex.json provenance.txt 
+dorin2024what	berthon_artl_arm	sources/dorin_stepney_2024_artl_e_00435.pdf	2026-11-08	Checkpoint B ruling 3; text layer made with pdftotext

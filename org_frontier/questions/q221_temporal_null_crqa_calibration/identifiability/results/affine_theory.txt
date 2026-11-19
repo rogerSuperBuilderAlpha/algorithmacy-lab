@@ -1,0 +1,14 @@
+box-run: start 'q221-theory' [research, 2000 MB est, as-cap off MB, timeout 1800s] after 0s wait
+affine forms 4096: invertible A 1344, singular A 2752, not affine 0
+Prop 1 closed form == exact profiles (lags 0..20, all i,j) and marginals 1/2: 1344/1344
+partition by Prop-1 signature == partition by exact (marginals, auto, cross): True ; classes 498 ; multi-member classes 450
+Prop 2 one-step parity statistics == exact (all 8 v x 3 j): 1344/1344
+P: A rows (X,Y,H coefficients) = [[0, 0, 1], [1, 1, 0], [1, 0, 1]] ; c = [1, 0, 0] ; det = 1
+   unit-vector path (A^T)^m e_X, m=0..4: 100 001 101 100 001
+   unit-vector path (A^T)^m e_Y, m=0..4: 010 110 111 010 110
+   unit-vector path (A^T)^m e_H, m=0..4: 001 101 100 001 101
+Q: A rows (X,Y,H coefficients) = [[0, 0, 1], [1, 1, 1], [1, 0, 1]] ; c = [1, 1, 0] ; det = 1
+   unit-vector path (A^T)^m e_X, m=0..4: 100 001 101 100 001
+   unit-vector path (A^T)^m e_Y, m=0..4: 010 111 011 010 111
+   unit-vector path (A^T)^m e_H, m=0..4: 001 101 100 001 101
+box-run: done 'q221-theory' rc=0 waited=0s ran=46s

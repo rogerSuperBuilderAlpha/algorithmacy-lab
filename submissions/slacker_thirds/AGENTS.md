@@ -4,6 +4,15 @@ Live file: [`chapter.md`](chapter.md). Title: **"You gotta be somewhere": *Slack
 
 This folder is a writing arm of the outer `algorithmacy-lab` repo. Confirm `git rev-parse --show-toplevel` before any commit. Do not mix with `dissertation/`.
 
+## Remote visibility
+
+When a session has been asked to land changes here, the lab rule applies before the first edit:
+`git fetch --all --prune`, read `git branch -r --sort=-committerdate` and `gh pr list --state open`,
+create a branch off `origin/contrib`, and `git push -u origin <branch>`. Commit and `git push` after
+every meaningful step, and re-check open branches and pull requests while working. The full rule is
+**Remote visibility** in the root [`../../AGENTS.md`](../../AGENTS.md). Do not push to `main` or
+`contrib`. Unsolicited chapter edits stay uncommitted; the line under **Do not** still governs that.
+
 ## The only thesis
 
 This essay argues that *Slacker* shows how a modern platform works: an indifferent machine that packs people into the same space and picks who meets whom, so that connection, shared belief, and a yes are not required.
@@ -32,4 +41,4 @@ Spoken first-person film-studies essay (the author's 13 September rewrite). Cont
 - Let voice do coordinating work, or call Reuters Monitor a matching venue.
 - Trim for the 5,000 ceiling without the author's say-so; the length is an open editor question.
 - Contact editors. See [`AUTHOR_TASKS.md`](AUTHOR_TASKS.md).
-- Commit unless asked.
+- Commit chapter prose that nobody asked to land. A session that was asked follows **Remote visibility** above: the branch is pushed before editing, and every commit is pushed.
