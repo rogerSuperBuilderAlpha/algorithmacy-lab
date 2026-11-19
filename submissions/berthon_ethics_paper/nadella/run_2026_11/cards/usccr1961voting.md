@@ -8,7 +8,7 @@ source_basis: partial-text
 pages_read: pp. 58-67 (Part II ch. 3, "Test of interpretation" and "Treatment of white applicants"); pp. 133-142 (ch. 8, Conclusions, Findings 1-20, Recommendations 1-5, dissents)
 local_path: ~/iit-playground/berthon_ethics_local/run_2026_11/A2/usccr1961/usccr1961_book1.pdf
 sha256: 1b97d00c94a2b3d55faba91d4059f2c4ec1b41344bde953b37d97a52ddfe562f
-verified: pending
+verified: corrected
 structure_sections: 3.2; 4.4-record; 7-D02; 7-D04; counter
 type: report
 venue: U.S. Government Printing Office, Washington, 1961 (424-page PDF scan)
@@ -36,10 +36,10 @@ suffice.
 
 - Louisiana's State Board directive said the applicant "shall be able to understand and give a reasonable interpretation of any section of either Constitution when read to him by the Registrar," but "the uniform practice has been to require the applicant to read the" provision himself (the sentence runs across the page break). pp. 58-59 [quote]
 - A contemporary named the test's purpose: at a Joint Legislative Committee conference W. M. Shaw called interpretation "our best test of intelligence" and said "The registrar uses his own discretion in determining whether or not the applicant meets the constitutional test." p. 58 [quote]
-- Some registrars refused to give the test; the Caddo Parish registrar said it was "more or less setting up the blockade to persons who might otherwise be eligible to register and vote who could not interpret the Constitution." p. 58 [quote]
+- Some registrars did not give the test; the Caddo Parish registrar said it was "more or less setting up the blockade to persons who might otherwise be eligible to register and vote who could not interpret the Constitution." p. 58 [quote]
 - Webster Parish registrar, asked how she chose whom to test: "I don't know." She tested fewer people she knew, and knew more white people. p. 61 [quote]
 - No record: Morgan, like every Black applicant refused in Webster Parish since early 1957, was given no application form, and no written record exists of his attempt or of the reason for rejection. p. 62 [paraphrase]
-- Plaquemines Parish used 25 written test cards checked against official answers; the registrar's policy was "not to disclose her reasons for rejection," and cards Nos. 2 and 8 went to 86 percent of the sampled registrants, all white. p. 64 [paraphrase]
+- Plaquemines Parish used 25 written test cards checked against official answers; the registrar's policy was "not to disclose her reasons for rejection," and cards Nos. 2 and 8 went to 86 percent of the sampled registrants, all white. pp. 63-64 [quote]
 - Finding 11(g) lists among arbitrary procedures "Providing assistance to some would-be voters but declining to provide it for others." p. 138 [quote]
 - Finding 13: strict standards applied to all new registrants after discrimination ends can "perpetuate discrimination which has previously occurred." p. 138 [quote]
 - Recommendation 2: where a literacy, understanding, interpretation or educational test applies, "it shall be sufficient for qualification that the elector have completed at least six grades of formal education." p. 141 [quote]
@@ -48,7 +48,7 @@ suffice.
 ## Critical notes
 
 - Limits: a fact-finding body's report built on hearings it convened; the registrars' side is in it (testimony at
-  pp. 58-62, 84) but the selection of parishes was the Commission's. Only twenty of 424 pages were read; the Alabama,
+  pp. 58-64, 67) but the selection of parishes was the Commission's. Only twenty of 424 pages were read; the Alabama,
   Mississippi and statistics chapters were not opened.
 - Form of correction (question 3): Recommendation 2 moves the check off the examiner onto an objective proxy (a
   school record), a structural limit on discretion; Recommendation 1 is a prohibition; the 1960 Act's records
@@ -59,3 +59,4 @@ suffice.
 - Bearing: supports 3.2 (the gate as discretion, named as such in 1961 by the Commission and by one registrar);
   4.4-record (no written record of rejection, reasons withheld); 7-D02 (Rec. 1 and 2); 7-D04 (Finding 11(g):
   assistance withheld as a wrong); counter (Storey's dissent states the contemporary case for the test).
+- Corrected at the Fable read (V-A-2-1, 2026-11-18): "Some registrars refused to give the test" now reads "did not give", as the report has it (p. 58: "does not give the test"). The Plaquemines fact carries an exact phrase from p. 64 and draws the 25 cards and official answers from p. 63, so it is retagged [quote] with locator pp. 63-64. Under Limits, "84" was the PDF index of printed p. 64; the registrars' testimony read is at pp. 58-64 and 67.

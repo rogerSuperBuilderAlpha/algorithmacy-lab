@@ -8,7 +8,7 @@ source_basis: abstract
 pages_read: abstract only
 local_path: ~/iit-playground/berthon_ethics_local/run_2026_11/A4/yannakakis2021/abstract.txt
 sha256: 8e7d0ba705c6e9311972d25f9622277b2cb46971bb1fbcf1f77db55e45a0904c
-verified: pending
+verified: corrected
 structure_sections: 3.4; 5; new-category
 type: article
 venue: Journal for Early Modern Cultural Studies 21(4), 101-128
@@ -25,7 +25,7 @@ Abstract only; paraphrase. Yannakakis studies the General Interpreter, an office
 
 ## Key facts it relies on
 
-- The General Interpreter was an office that made translations of Native-language petitions into Spanish for the courts. [paraphrase] (abstract)
+- The office of General Interpreter bridged the jurisdictions of Native lords and municipal authorities and the colonial ecclesiastical and civil jurisdictions; interpreters penned Spanish translations of the petitions, notarial records, letters and memoriales that Native scribes produced. [paraphrase] (abstract)
 - Interpreters' work was shaped by patronage, economic cooperation and exploitation, and inter-ethnic networks. [paraphrase] (abstract)
 - Evidence outside colonial centers is fragmentary and scattered across local archives. [paraphrase] (abstract)
 
@@ -33,4 +33,5 @@ Abstract only; paraphrase. Yannakakis studies the General Interpreter, an office
 
 - Abstract only: what bound interpreters (fees, oaths, penalties) and whether petitioners could check a translation are not in the abstract.
 - The abstract frames exploitation as one strand among cooperation and patronage, so it does not show that interpreters served only the stronger side.
-- Bearing: supports 3.4 and 5 (the dual-interpreter safeguard needs the full text); new category (candidate 7) partial, documented as a possibility, not shown.
+- Bearing: supports 3.4 in part: the abstract places interpreters between Native-language writing and the Spanish record, and says patronage and exploitation shaped their translation practices. For 5 it shows nothing yet: the abstract mentions no dual-interpreter safeguard and no other buffer, so that support waits on the full text. New category (candidate 7) partial, documented as a possibility, not shown.
+- Corrected at the Fable read (sitting V-A-2-2): fact 1 no longer says the office made translations "for the courts", which the abstract does not say, and now gives the abstract's two statements (the office bridged jurisdictions; interpreters penned the Spanish translations); the Bearing line no longer claims support for section 5, because the dual-interpreter safeguard is absent from the abstract. Both points were raised in the verifier's row.

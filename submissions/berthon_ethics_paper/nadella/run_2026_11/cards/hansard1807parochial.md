@@ -8,7 +8,7 @@ source_basis: full-text
 pages_read: cc. 798-806 (the whole debate)
 local_path: ~/iit-playground/berthon_ethics_local/run_2026_11/A2/hansard1807/hansard1807.html
 sha256: 1ef2afe9ea7c572b10ae15dd20ef243cc2f5203bfff5bf064bc1e726e44e6566
-verified: pending
+verified: corrected
 structure_sections: 3.3; 3.5; new-category; counter
 type: parliamentary debate
 venue: Parliamentary Debates (Hansard), House of Commons, vol. 9, cc. 798-806
@@ -26,7 +26,7 @@ Hansard of 1807 reports speeches in the third person and in summary, so the word
 verbatim transcript. Samuel Whitbread moved the second reading of his bill for parish schools for the children of
 the poor. Davies Giddy moved to put it off three months, arguing that schooling the labouring poor would make them
 despise their lot, read seditious pamphlets and grow insolent to their superiors. Others objected to cost,
-compulsion and the burden on magistrates. George Rose would have the poor taught to read but doubted writing, since
+compulsion and the burden on magistrates. Mr. Rose would have the poor taught to read but doubted writing, since
 those who wrote well would leave the plough for the counting-house. Whitbread, Romilly, Lushington, Lord Milton and
 Lord Henry Petty answered for diffusion. The Chancellor of the Exchequer preferred a commission of inquiry and
 warned of harm to voluntary schools. The bill was read a second time without a division, and the Commons voted 47 to
@@ -58,3 +58,4 @@ warned of harm to voluntary schools. The bill was read a second time without a d
   withholding literacy at all.
 - Bearing: supports 3.3 (withheld competence argued openly by rank); new category (reading without writing);
   counter (much of the opposition rests on cost and compulsion, and the Commons majority favoured the bill).
+- Corrected at the Fable read (V-A-2-1, 2026-11-18): the Summary named "George Rose"; the file gives only "Mr. Rose" (c. 800) and does not link him to a member record, so the first name is removed. "Samuel" Whitbread stands on the file's member link. The Chancellor of the Exchequer is not named in the file.

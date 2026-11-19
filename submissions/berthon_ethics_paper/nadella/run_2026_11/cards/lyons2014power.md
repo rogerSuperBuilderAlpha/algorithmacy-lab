@@ -8,7 +8,7 @@ source_basis: abstract
 pages_read: abstract only
 local_path: ~/iit-playground/berthon_ethics_local/run_2026_11/A4/lyons2014/abstract.txt
 sha256: 4af503e2bba258979396d79977f8294401670e0e1793cbab2e633dce02de9d72
-verified: pending
+verified: true
 structure_sections: 3.4; 5; new-category
 type: article
 venue: European History Quarterly 44(2), 244-262

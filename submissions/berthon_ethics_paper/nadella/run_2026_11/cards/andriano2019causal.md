@@ -8,7 +8,7 @@ source_basis: full-text
 pages_read: pp. 1765-1790 (whole article; appendix not read)
 local_path: ~/iit-playground/berthon_ethics_local/run_2026_11/A1/andriano2019causal/a.pdf
 sha256: 264f48dedf66cb51c95d8788a7d76e9e5bda70deb902af80a239089e38257c61
-verified: pending
+verified: true
 structure_sections: 2.1; counter
 type: article
 venue: Demography 56(5), 1765-1790

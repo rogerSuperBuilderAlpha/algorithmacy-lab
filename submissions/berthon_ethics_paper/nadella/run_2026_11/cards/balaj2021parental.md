@@ -8,7 +8,7 @@ source_basis: full-text
 pages_read: Introduction, Research in context, Methods, Results and Discussion (Europe PMC full text; no page numbers in this copy)
 local_path: ~/iit-playground/berthon_ethics_local/run_2026_11/A1/balaj2021parental/b.xml
 sha256: ac19e1fab22b2ddd75296377be3a1381ad8906c771a2b385f2ff5d0ba14c59b2
-verified: pending
+verified: corrected
 structure_sections: 2.1; counter
 type: article
 venue: The Lancet 398(10300), 608-620
@@ -25,11 +25,13 @@ Read in full (Europe PMC copy of the Lancet article; locators are section names 
 ## Key facts it relies on
 - Exposure is defined broadly. [quote] Methods, Search strategy: "(defined as years of schooling, highest educational attainment, or literacy)"
 - "Each additional year of maternal education, compared with a mother with no education, was associated on average with a reduction in mortality for children younger than 5 years of 3·0% (95% CI 2·8–3·2)." [quote] Results, Maternal and paternal education
-- "Only 89 (4·1%) of observations met our criteria for appropriately controlled effect sizes (ie, controlling for the other parent's education and wealth or income)." [quote] Results, Quality and risk of bias
+- "Only 89 (4·1%) of observations met our criteria for appropriately controlled effect sizes (ie, controlling for the other parent's education and wealth or income)." [quote] Results, opening section (before "Maternal and paternal education and their relationship with under-5 mortality")
 - "wealth and income are both determinants and outcomes of education." [quote] Discussion
 - The authors say the pooled estimate is an average, and that "more granular effects, such as those specific to a location or time, also warrant careful consideration." [quote] Discussion
 
 ## Critical notes
 - It measures schooling and literacy together and reports associations. It does not test whether literacy as such, or the way institutions used it, helped or harmed anyone. It is evidence that people who acquired education fared better on child survival, not evidence about any practice in the paper's five.
-- Causal identification is the open issue the authors themselves name (Discussion). A quasi-experimental study is in card andriano2019causal.
-- Bearing: narrows 2.1. The guardrail that literacy brought real benefits has a global evidence base. The critique targets institutions' conduct, and these data do not touch it. Counter to any reading of the frame as "literacy did harm".
+- The limits the authors name are limits of control, not causal identification as such: few observations controlled for both the other parent's education and wealth or income, and covariates such as smoking, antenatal care and the mother's age at birth lie on the causal pathway (Discussion). The headline estimates are worded as associations, though the article also speaks of the "protective effect" of parental education (Discussion). A quasi-experimental study is in card andriano2019causal.
+- Bearing: narrows 2.1. The guardrail that literacy brought real benefits has a global evidence base for parental education, in which literacy is one of three measures of exposure and is not reported apart. The critique targets institutions' conduct, and these data do not touch it. Counter to any reading of the frame as "literacy did harm".
+- Corrected by V-A-1: locator of the "Only 89 (4·1%)" quotation changed from "Results, Quality and risk of bias" (a Methods heading) to the opening section of Results, where the words stand.
+- Corrected at the Fable read (V-A-1-1): the Critical note that said the authors name "causal identification" as the open issue now states what the Discussion says (too few adequately controlled observations; covariates on the causal pathway), settling the verifier's note; the Bearing line now says the evidence base is for parental education, with literacy not reported apart. Quotations unchanged.

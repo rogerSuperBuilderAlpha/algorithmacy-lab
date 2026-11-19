@@ -8,7 +8,7 @@ source_basis: partial-text
 pages_read: pp. 3, 7, 15, 17, 18 read closely; other pages searched for key terms only
 local_path: ~/iit-playground/berthon_ethics_local/run_2026_11/A5/bulgerdavison2018/ds_report.pdf
 sha256: 03592a178cb0fcbc1e38fd85f4e2780caf6dc70d9d018a1d7e0c968cc412b473
-verified: pending
+verified: true
 structure_sections: 3.6; counter
 type: report
 venue: Data & Society Research Institute, February 2018 (journal version: Journal of Media Literacy Education 10(1), 2018)

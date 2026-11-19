@@ -8,7 +8,7 @@ source_basis: abstract
 pages_read: abstract only (opening sentence)
 local_path: ~/iit-playground/berthon_ethics_local/run_2026_11/A4/spencer1973/abstract.txt
 sha256: 2a0d34315db5898e607c9f9f0cf24cdbf5edfc985ee3814459d2f8296a9bcf1a
-verified: pending
+verified: true
 structure_sections: 3.4; 5
 type: article
 venue: Cambridge Law Journal 32(1), 104-122

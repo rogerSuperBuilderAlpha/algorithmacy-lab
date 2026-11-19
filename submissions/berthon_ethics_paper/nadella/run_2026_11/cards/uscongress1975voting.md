@@ -8,7 +8,7 @@ source_basis: full-text
 pages_read: 89 Stat. 400-406 (whole Act, titles I-IV, and the legislative-history note)
 local_path: ~/iit-playground/berthon_ethics_local/run_2026_11/A2/vra1975/stat89_400.pdf
 sha256: c936564bb47326cde264e066cd2b0773e1e6d9ecfb26a022970b6e34aad21de2
-verified: pending
+verified: corrected
 structure_sections: 3.1; 3.2; 3.7; 7-D02; 7-D07
 type: statute
 venue: United States Statutes at Large 89, 400-406 (approved 6 August 1975)
@@ -24,8 +24,9 @@ written: 2026-11-18
 Read in full: the seven-page Act as printed in the Statutes at Large. The OCR is poor in places, with spaced
 letters and margin notes in the text, so quotations below come only from clean lines. Title I extended the
 preclearance coverage period and, by striking the 6 August 1975 end date from section 201(a) of the 1965 Act, made
-the ban on tests or devices permanent; section 201 itself is not reprinted here. Title II found voting discrimination
-against language minorities "pervasive and national in scope," tied it to unequal schooling and "continuing
+permanent what the long title calls "the ban against certain prerequisites to voting"; section 201 itself is not
+reprinted here, so the print does not say what the ban covers. Title II found voting discrimination against
+language minorities "pervasive and national in scope," tied it to unequal schooling and "continuing
 illiteracy in the English language," and redefined English-only election materials as a "test or device" where a
 single language minority exceeds five percent of voting-age citizens. Covered jurisdictions must provide every
 registration and voting notice, form, instruction, assistance and ballot in the minority language as well as in
@@ -49,13 +50,17 @@ persons standing, allowed attorney's fees, and ordered Census registration surve
 ## Critical notes
 
 - Form of correction (question 3): the work moved onto the instrument (the ballot and every election material made
-  in the voter's language, or oral where the language has no script), plus a prohibition (the permanent ban on
-  tests or devices). It is the clearest statutory case in this facet of the medium changed at the point of use.
+  in the voter's language, or oral where the language has no script), plus a prohibition (the ban made permanent by
+  s. 102, whose terms are not in this print). It is the clearest statutory case in this facet of the medium changed at the point of use.
 - The Act names the wrong in its own findings and assigns it to "State and local governments" (s. 4(f)(1)); the
   committee reports (H.R. Rep. 94-196, S. Rep. 94-295) were not read.
 - Limits: the bilingual duty is triggered by census thresholds, not by an individual's need; Title III's duty
-  expired in 1985 under this text (later extended, outside this card); determinations are unreviewable. Section
-  201 of the 1965 Act, which carries the literacy-test ban itself, is amended here but not printed, so this card
-  does not quote the ban.
-- Bearing: supports 3.1 and 7-D07 (the page takes on the reader's work); supports 7-D02 (permanent prohibition);
-  3.2 (the gate closed by statute); 3.7 (the language standard named as an exclusion by Congress).
+  expired in 1985 under this text (extended to 6 August 1992 by Pub. L. 97-205, s. 4, 96 Stat. 134; card
+  uscongress1982voting); determinations are unreviewable; and a jurisdiction may sue for a declaratory judgment
+  permitting English-only materials if the group's illiteracy rate is at or below the national rate (new s. 203(d),
+  89 Stat. 403). Section 201 of the 1965 Act is amended here but not printed. That it bans tests or devices, and
+  that these include literacy tests, is stated nowhere in this print; the card cannot carry that claim, which needs
+  the text of sections 201 and 4(c) of the Act as amended (margin notes: 42 U.S.C. 1973aa, 1973b).
+- Bearing: supports 3.1 and 7-D07 (the page takes on the reader's work); supports 7-D02 (permanent prohibition)
+  and 3.2 (the gate closed by statute) only together with the text of section 201, which this print lacks; 3.7 (the language standard named as an exclusion by Congress).
+- Corrected at the Fable read (V-A-2-1, 2026-11-18): the Summary and two Critical notes called section 201(a) "the ban on tests or devices" and "the literacy-test ban". The print gives only the amending words (s. 102, 89 Stat. 400) and the long title's "ban against certain prerequisites to voting"; what section 201 bans came from outside the file and is now marked as not shown. The "later extended" remark is tied to the 1982 Act on disk (96 Stat. 134). New s. 203(d), the declaratory-judgment exit the verifier noted, is added under Limits.

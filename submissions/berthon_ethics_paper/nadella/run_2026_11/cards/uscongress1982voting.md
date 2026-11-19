@@ -8,7 +8,7 @@ source_basis: full-text
 pages_read: 96 Stat. 131-135 (whole Act, ss. 1-6, and the legislative-history note)
 local_path: ~/iit-playground/berthon_ethics_local/run_2026_11/A2/vra1982/stat96_131.pdf
 sha256: ec5eff03de55e2224d09c3ed2274dbe96cc1ed22fe420182824dc14384c4b55b
-verified: pending
+verified: true
 structure_sections: 3.1; 7-D04; 7-D07
 type: statute
 venue: United States Statutes at Large 96, 131-135 (approved 29 June 1982)

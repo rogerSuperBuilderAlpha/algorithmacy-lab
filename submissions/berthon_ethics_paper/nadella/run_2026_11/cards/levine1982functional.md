@@ -5,7 +5,7 @@ authors: Levine, Kenneth
 year: 1982
 doi: 10.17763/haer.52.3.77p7168115610811
 source_basis: abstract
-pages_read: abstract only (Crossref and OpenAlex records)
+pages_read: abstract only (OpenAlex record; the Crossref record carries no abstract)
 local_path: null
 sha256: null
 verified: pending
@@ -21,7 +21,7 @@ written: 2026-11-18
 
 ## Summary
 
-Abstract only; paraphrase. Levine, a British sociologist, argues that the concept of functional literacy has shaped adult basic education since the Second World War. He says behind its surface appeal lies a tangle of flawed assumptions and ambiguities. He offers a critique of the existing notion and proposes a different approach that places literacy competencies in their social context. The abstract does not describe the evidence he uses or the campaigns he cites.
+Abstract only; paraphrase. Levine, a British sociologist, argues that the concept of functional literacy has shaped adult basic education since the Second World War. He says the concept's appeal hides flawed assumptions and ambiguities. He offers a critique of the existing notion and proposes a different approach that places literacy competencies in their social context. The abstract does not describe the evidence he uses or the campaigns he cites.
 
 ## Key facts it relies on
 
@@ -33,3 +33,4 @@ Abstract only; paraphrase. Levine, a British sociologist, argues that the concep
 
 Not read beyond the abstract, so I do not know whether he links functional literacy to the Experimental World Literacy Programme or to blame on learners. Written by an academic sociologist as a critique, not an evaluation. Not found open access.
 Bearing: supports 3.6 (a contemporary critique of the literacy promise); read in full before it carries a claim.
+- Fable read (V-A-1-2), not settled: no file stands at `local_path`, so the card stays `pending`. I checked the record at Crossref and the abstract at OpenAlex on 2026-11-18 without saving either. The record matches, and the three paraphrases follow the abstract. One Summary sentence repeated the abstract's own words ("lies a tangle of flawed assumptions and ambiguities") without quotation marks; an abstract card carries no quotation, so I reworded it. `pages_read` now names OpenAlex as the one record with an abstract.

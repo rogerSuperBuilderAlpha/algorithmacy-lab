@@ -1,7 +1,7 @@
 ---
 citekey: yilmaz2011learning
 title: Learning to Read (Again): The Social Experiences of Turkey's 1928 Alphabet Reform
-authors: Yilmaz, Hale
+authors: Yılmaz, Hale
 year: 2011
 doi: 10.1017/s0020743811000900
 source_basis: abstract
@@ -33,3 +33,4 @@ Abstract only; paraphrase. Yilmaz reconsiders Turkey's 1928 alphabet reform by l
 
 Not read beyond the abstract; I cannot say from it whether people who could read the old script were stranded or what penalties applied. The abstract frames the public as active, which complicates a story of simple imposition. The candidate that a script reform strands the already competent is not tested by this abstract.
 Bearing: new category (standard changed under the competent), unconfirmed pending full text of the article.
+- Fable read (V-A-1-2), not settled: no file stands at `local_path`, so the card stays `pending`. I checked the record at Crossref, which carries the abstract, and at OpenAlex on 2026-11-18 without saving either. The record matches, and the Summary and the three paraphrases follow the abstract. The author's surname is now spelled as on the record (Yılmaz). The pronoun "she" is the drafter's; the abstract speaks of "this article" and does not say.

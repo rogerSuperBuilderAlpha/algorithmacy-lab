@@ -8,7 +8,7 @@ source_basis: partial-text
 pages_read: pp. 10-11 (ch. on adult suffrage); pp. 80-92 (ch. IX, Symbols, with the plate facing p. 84)
 local_path: ~/iit-playground/berthon_ethics_local/run_2026_11/A2/eci1952/eci1955_vol1.pdf
 sha256: b4bc158a6829f49ddcacdcbf359f066cd34da430c0f8c7e8ea0b377407ed6c74
-verified: pending
+verified: corrected
 structure_sections: 3.1; 7-D07; 7-D04; counter
 type: report
 venue: Manager of Publications, Delhi (Government of India Press, New Delhi), 1955
@@ -21,16 +21,17 @@ written: 2026-11-18
 
 ## Summary
 
-Read in part: the case for adult suffrage despite illiteracy (pp. 10-11) and the whole of chapter IX on symbols
-(pp. 80-92), in a 269-page scan of the official 1955 print. The copy is hosted in a news organisation's online
-library, not on the Commission's site. Printed page numbers run six behind the PDF index. The report records the
+Read in part: the case for adult suffrage despite illiteracy (pp. 10-11) and chapter IX on symbols as far as p. 92
+(the chapter runs pp. 80-94), in a 269-page scan of the official 1955 print. The copy is hosted in a news
+organisation's online library, not on the Commission's site. Printed page numbers run six behind the PDF index up to
+p. 84; two unnumbered plates (facing pp. 84 and 86) widen the gap to eight from p. 87. The report records the
 objection that mass illiteracy would make an election "a farce" unless a system let an illiterate voter vote
-intelligently and in secret. It then explains the Commission's answer. A ballot with printed names would have
-excluded most voters. Officials marking ballots for illiterate voters would have given up the secret ballot. The
-Commission therefore put one ballot box per candidate in the booth, each bearing a distinctive pictorial symbol, so
-that the voter made no mark and dropped a plain token in the chosen box. Symbols had to be easy to recognise and
-distinguish, and no religious or sentimental object was allowed. Party symbols were fixed nationally after a
-conference with the parties, and the report judges the system a success.
+intelligently and in secret. It then explains the Commission's answer. A ballot with printed names would have excluded
+most voters. Officials marking ballots for illiterate voters would have given up the secret ballot. The Commission
+therefore put one ballot box per candidate in the booth, each bearing a distinctive pictorial symbol, so that the
+voter made no mark and dropped a plain token in the chosen box. Symbols had to be easy to recognise and distinguish,
+and no religious or sentimental object was allowed. Party symbols were fixed nationally after a conference with the
+parties, and the report judges the system a success.
 
 ## Key facts it relies on
 
@@ -41,7 +42,7 @@ conference with the parties, and the report judges the system a success.
 - Colours were rejected because too many would be needed; Mylapore had 14 validly nominated candidates. pp. 80-81 [paraphrase]
 - "It is not necessary for a voter, whether literate or illiterate, to make any mark on the ballot paper; he has merely to place it in the box marked with the symbol of the candidate of his choice." p. 81 [quote]
 - Design rule: symbols "should be familiar to, and easily recognizable by, illiterate and ignorant voters and readily distinguishable by them from each other," with no religious or sentimental objects (cow, temple, National Flag, spinning wheel). p. 81 [quote]
-- Parties proposed their own designs; the Commission barred any design containing part of another symbol and printed about 42.1 million symbols. pp. 90-91 [paraphrase]
+- Parties proposed their own designs; the Commission barred any design containing part of another symbol; the States printed the symbols, 42.1 million in all. pp. 90-91 [paraphrase]
 - The Commission's own verdict: "In fact no case was reported in which a voter found it difficult to locate or understand a" symbol (the scan reads "gymbol"). p. 91 [quote]
 - After the elections, recognition (a reserved symbol) was limited to parties with at least 3 percent of valid votes; four national parties kept it from 6 February 1953. p. 92 [paraphrase]
 
@@ -61,3 +62,4 @@ conference with the parties, and the report judges the system a success.
 - Bearing: supports 3.1 and 7-D07 (the medium changed at the point of use for those who cannot read); contests or
   narrows 7-D04 (an official helper named as a threat to the voter); counter (the Commission's own success claim
   is unverified).
+- Corrected at the Fable read (V-A-2-1, 2026-11-18): the Summary said "the whole of chapter IX"; the chapter runs to p. 94 and the card rests on pp. 80-92 (pp. 93-94 hold the revised list of state parties, the extension of party symbols to local-body elections and a results table). The page-offset sentence held only to p. 84; the two plates shift it. The symbols were printed by the States to designs the Commission approved (p. 90, instruction 5), not by the Commission.
