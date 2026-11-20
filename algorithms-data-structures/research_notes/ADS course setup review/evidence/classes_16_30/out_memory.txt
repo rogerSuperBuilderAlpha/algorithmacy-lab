@@ -1,0 +1,41 @@
+#700 n=5000 balanced BST           input   628.1 KiB (key  488 KB) | aux peak        88 B (key   100 B) | kept after call 88 B
+   sys.getsizeof(TreeNode instance) = 48 ; height of 10,000-node balanced BST = 14
+#98 n=10000 balanced BST           input    1.22 MiB (key  977 KB) | aux peak       384 B (key  2.1 KB) | kept after call 384 B
+#703 k=1e4, 1e5 distinct ints>256  input    3.81 MiB (key  2.7 MB) | aux peak    83.7 KiB (key   88 KB) | kept after call 83.6 KiB
+#703 LeetCode max: k=1e4,1e4+1e4 vals input   786.0 KiB (key       -) | aux peak   245.3 KiB (key       -) | kept after call 83.4 KiB
+#347 n=1e5 all distinct, k=100     input    3.81 MiB (key  3.4 MB) | aux peak    7.50 MiB (key  5.0 MB) | kept after call 6.6 KiB
+#347 LeetCode max: n=1e5 in [-1e4,1e4] input    3.78 MiB (key       -) | aux peak   864.2 KiB (key       -) | kept after call 6.6 KiB
+#733 50x50 one colour, start 0,0   input    22.7 KiB (key   23 KB) | aux peak    77.2 KiB (key   79 KB) | kept after call 67.4 KiB
+#733 50x50 one colour, start 25,25 input    22.7 KiB (key   23 KB) | aux peak    43.3 KiB (key   79 KB) | kept after call 37.9 KiB
+#200 300x300 all land              input   722.0 KiB (key  722 KB) | aux peak    3.17 MiB (key  3.1 MB) | kept after call 109.5 KiB
+   peak stack length, 50x50 from (0,0): 1226 of 2500; from (25,25): 686 ; 300x300 from (0,0): 44851 of 90000
+#1971 n=1e5 path graph             input   13.72 MiB (key 13.0 MB) | aux peak   22.44 MiB (key 20.0 MB) | kept after call 4.6 KiB
+#994 10x10, one rotten corner      input     1.5 KiB (key  1.5 KB) | aux peak     2.2 KiB (key  1.9 KB) | kept after call 888 B
+#207 V=2000 chain                  input   265.3 KiB (key  266 KB) | aux peak   204.8 KiB (key  259 KB) | kept after call 4.6 KiB
+#210 V=2000 chain                  input   265.3 KiB (key  266 KB) | aux peak   220.1 KiB (key  276 KB) | kept after call 20.4 KiB
+#743 V=100 E=6000 w=1..100         input   521.4 KiB (key  469 KB) | aux peak   572.0 KiB (key  590 KB) | kept after call 113.9 KiB
+   #743 heap peak entries, total pushes, max distance: (2847, 3004, 23)
+#1631 100x100 flat except goal     input    84.5 KiB (key   84 KB) | aux peak    94.4 KiB (key   98 KB) | kept after call 13.3 KiB
+   #1631 flat case: heap peak entries, pushes: (100, 10000)
+   #1631 random heights: heap peak entries, pushes: (5372, 14905)
+#547 n=200 identity matrix         input   325.1 KiB (key  325 KB) | aux peak     2.1 KiB (key  1.8 KB) | kept after call 192 B
+#684 n=1000 path + [1,n] last      input   124.6 KiB (key  133 KB) | aux peak    31.6 KiB (key   35 KB) | kept after call 264 B
+#208 10,000 random 8-letter words  input   556.7 KiB (key  557 KB) | aux peak   10.36 MiB (key 11.6 MB) | kept after call 10.36 MiB
+   #208 trie dict count incl. root: 58247; distinct prefixes: 58246; key's own formula sum min(26^d,10000) = 60702
+   sys.getsizeof({}) = 64 ; {'a': {}} = 184 ; dict with 6 keys = 272
+#212 10,000 words, 12x12 board     input   564.1 KiB (key  559 KB) | aux peak   10.37 MiB (key 11.6 MB) | kept after call 16.3 KiB
+#78 n=10                           input       136 B (key   416 B) | aux peak   105.3 KiB (key  105 KB) | kept after call 105.1 KiB
+#51 n=8                            input         0 B (key    28 B) | aux peak    50.6 KiB (key   51 KB) | kept after call 50.0 KiB
+#55 n=10,000 all 1                 input    78.2 KiB (key   78 KB) | aux peak       300 B (key   200 B) | kept after call 88 B
+#135 n=20,000 increasing           input   773.3 KiB (key  703 KB) | aux peak   773.7 KiB (key  696 KB) | kept after call 228 B
+#135 n=50,000 increasing (real limit) input    1.90 MiB (key       -) | aux peak    1.90 MiB (key       -) | kept after call 232 B
+#56 n=10,000 disjoint              input    1.37 MiB (key  1.3 MB) | aux peak   864.6 KiB (key  869 KB) | kept after call 786.4 KiB
+#218 n=10,000 rising, nested       input    1.45 MiB (key  1.6 MB) | aux peak    3.38 MiB (key  3.4 MB) | kept after call 1.30 MiB
+#198 n=100 values<=400             input     4.0 KiB (key  3.6 KB) | aux peak       232 B (key   150 B) | kept after call 120 B
+#322 amount=10,000 coins [1,2,5]   input        88 B (key   164 B) | aux peak   351.1 KiB (key  316 KB) | kept after call 256 B
+#300 n=2,500 increasing            input    89.7 KiB (key   88 KB) | aux peak    90.1 KiB (key   81 KB) | kept after call 232 B
+#1143 m=n=1000 random              input     2.1 KiB (key  2.0 KB) | aux peak    7.79 MiB (key  8.1 MB) | kept after call 4.5 KiB
+#72 m=n=500 random                 input     1.1 KiB (key  1.1 KB) | aux peak    6.67 MiB (key  6.3 MB) | kept after call 4.5 KiB
+#10 m=n=20                         input         0 B (key   122 B) | aux peak     5.1 KiB (key  4.9 KB) | kept after call 1.3 KiB
+#127 N=3125 over a-e, aaaaa->eeeee input   165.8 KiB (key  165 KB) | aux peak   483.3 KiB (key  507 KB) | kept after call 74.7 KiB
+#295 n=50,000 adds in [-1e5,1e5]   input    1.95 MiB (key  1.3 MB) | aux peak    1.94 MiB (key  1.8 MB) | kept after call 1.94 MiB
