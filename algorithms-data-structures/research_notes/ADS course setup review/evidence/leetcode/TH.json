@@ -1,0 +1,902 @@
+[
+ {
+  "file": "Take-Homes",
+  "line": 40,
+  "cls": 1,
+  "pat": "Complexity analysis.",
+  "num": 1672,
+  "title": "Richest Customer Wealth",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/richest-customer-wealth/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 44,
+  "cls": 1,
+  "pat": "Complexity analysis.",
+  "num": 1929,
+  "title": "Concatenation of Array",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/concatenation-of-array/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 48,
+  "cls": 1,
+  "pat": "Complexity analysis.",
+  "num": 1295,
+  "title": "Find Numbers with Even Number of Digits",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/find-numbers-with-even-number-of-digits/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 111,
+  "cls": 2,
+  "pat": "Arrays: read and write indexes.",
+  "num": 26,
+  "title": "Remove Duplicates from Sorted Array",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 115,
+  "cls": 2,
+  "pat": "Arrays: read and write indexes.",
+  "num": 27,
+  "title": "Remove Element",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/remove-element/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 119,
+  "cls": 2,
+  "pat": "Arrays: read and write indexes.",
+  "num": 66,
+  "title": "Plus One",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/plus-one/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 181,
+  "cls": 3,
+  "pat": "Strings and prefix sums.",
+  "num": 724,
+  "title": "Find Pivot Index",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/find-pivot-index/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 185,
+  "cls": 3,
+  "pat": "Strings and prefix sums.",
+  "num": 28,
+  "title": "Find the Index of the First Occurrence in a String",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 189,
+  "cls": 3,
+  "pat": "Strings and prefix sums.",
+  "num": 58,
+  "title": "Length of Last Word",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/length-of-last-word/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 250,
+  "cls": 4,
+  "pat": "Hashing: sets and dicts.",
+  "num": 383,
+  "title": "Ransom Note",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/ransom-note/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 254,
+  "cls": 4,
+  "pat": "Hashing: sets and dicts.",
+  "num": 387,
+  "title": "First Unique Character in a String",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/first-unique-character-in-a-string/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 258,
+  "cls": 4,
+  "pat": "Hashing: sets and dicts.",
+  "num": 219,
+  "title": "Contains Duplicate II",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/contains-duplicate-ii/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 320,
+  "cls": 5,
+  "pat": "Two pointers.",
+  "num": 344,
+  "title": "Reverse String",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/reverse-string/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 324,
+  "cls": 5,
+  "pat": "Two pointers.",
+  "num": 167,
+  "title": "Two Sum II - Input Array Is Sorted",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 328,
+  "cls": 5,
+  "pat": "Two pointers.",
+  "num": 11,
+  "title": "Container With Most Water",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/container-with-most-water/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 390,
+  "cls": 6,
+  "pat": "Sliding window.",
+  "num": 1984,
+  "title": "Minimum Difference Between Highest and Lowest of K Scores",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 394,
+  "cls": 6,
+  "pat": "Sliding window.",
+  "num": 1456,
+  "title": "Maximum Number of Vowels in a Substring of Given Length",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 398,
+  "cls": 6,
+  "pat": "Sliding window.",
+  "num": 3,
+  "title": "Longest Substring Without Repeating Characters",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 464,
+  "cls": 7,
+  "pat": "Stack (last in, first out).",
+  "num": 682,
+  "title": "Baseball Game",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/baseball-game/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 468,
+  "cls": 7,
+  "pat": "Stack (last in, first out).",
+  "num": 155,
+  "title": "Min Stack",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/min-stack/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 472,
+  "cls": 7,
+  "pat": "Stack (last in, first out).",
+  "num": 150,
+  "title": "Evaluate Reverse Polish Notation",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 538,
+  "cls": 8,
+  "pat": "Queue and deque (first in, first out).",
+  "num": 225,
+  "title": "Implement Stack using Queues",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/implement-stack-using-queues/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 542,
+  "cls": 8,
+  "pat": "Queue and deque (first in, first out).",
+  "num": 622,
+  "title": "Design Circular Queue",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/design-circular-queue/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 546,
+  "cls": 8,
+  "pat": "Queue and deque (first in, first out).",
+  "num": 1700,
+  "title": "Number of Students Unable to Eat Lunch",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 614,
+  "cls": 9,
+  "pat": "Monotonic stack / monotonic deque.",
+  "num": 503,
+  "title": "Next Greater Element II",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/next-greater-element-ii/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 618,
+  "cls": 9,
+  "pat": "Monotonic stack / monotonic deque.",
+  "num": 901,
+  "title": "Online Stock Span",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/online-stock-span/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 622,
+  "cls": 9,
+  "pat": "Monotonic stack / monotonic deque.",
+  "num": 239,
+  "title": "Sliding Window Maximum",
+  "lvl": "Hard",
+  "url": "https://leetcode.com/problems/sliding-window-maximum/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 687,
+  "cls": 10,
+  "pat": "Linked lists: pointer rewiring.",
+  "num": 21,
+  "title": "Merge Two Sorted Lists",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/merge-two-sorted-lists/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 691,
+  "cls": 10,
+  "pat": "Linked lists: pointer rewiring.",
+  "num": 141,
+  "title": "Linked List Cycle",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/linked-list-cycle/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 695,
+  "cls": 10,
+  "pat": "Linked lists: pointer rewiring.",
+  "num": 876,
+  "title": "Middle of the Linked List",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/middle-of-the-linked-list/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 761,
+  "cls": 11,
+  "pat": "Recursion and divide and conquer.",
+  "num": 231,
+  "title": "Power of Two",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/power-of-two/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 765,
+  "cls": 11,
+  "pat": "Recursion and divide and conquer.",
+  "num": 22,
+  "title": "Generate Parentheses",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/generate-parentheses/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 769,
+  "cls": 11,
+  "pat": "Recursion and divide and conquer.",
+  "num": 24,
+  "title": "Swap Nodes in Pairs",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/swap-nodes-in-pairs/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 833,
+  "cls": 12,
+  "pat": "Bit manipulation.",
+  "num": 191,
+  "title": "Number of 1 Bits",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/number-of-1-bits/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 837,
+  "cls": 12,
+  "pat": "Bit manipulation.",
+  "num": 338,
+  "title": "Counting Bits",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/counting-bits/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 841,
+  "cls": 12,
+  "pat": "Bit manipulation.",
+  "num": 268,
+  "title": "Missing Number",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/missing-number/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 908,
+  "cls": 13,
+  "pat": "Sorting (merge sort and friends).",
+  "num": 75,
+  "title": "Sort Colors",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/sort-colors/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 912,
+  "cls": 13,
+  "pat": "Sorting (merge sort and friends).",
+  "num": 148,
+  "title": "Sort List",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/sort-list/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 916,
+  "cls": 13,
+  "pat": "Sorting (merge sort and friends).",
+  "num": 506,
+  "title": "Relative Ranks",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/relative-ranks/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 977,
+  "cls": 14,
+  "pat": "Binary search.",
+  "num": 35,
+  "title": "Search Insert Position",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/search-insert-position/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 981,
+  "cls": 14,
+  "pat": "Binary search.",
+  "num": 69,
+  "title": "Sqrt(x)",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/sqrtx/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 985,
+  "cls": 14,
+  "pat": "Binary search.",
+  "num": 33,
+  "title": "Search in Rotated Sorted Array",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1053,
+  "cls": 15,
+  "pat": "Binary trees: DFS and BFS.",
+  "num": 226,
+  "title": "Invert Binary Tree",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/invert-binary-tree/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1057,
+  "cls": 15,
+  "pat": "Binary trees: DFS and BFS.",
+  "num": 111,
+  "title": "Minimum Depth of Binary Tree",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/minimum-depth-of-binary-tree/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1061,
+  "cls": 15,
+  "pat": "Binary trees: DFS and BFS.",
+  "num": 199,
+  "title": "Binary Tree Right Side View",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/binary-tree-right-side-view/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1127,
+  "cls": 16,
+  "pat": "Binary search tree property.",
+  "num": 108,
+  "title": "Convert Sorted Array to Binary Search Tree",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1131,
+  "cls": 16,
+  "pat": "Binary search tree property.",
+  "num": 230,
+  "title": "Kth Smallest Element in a BST",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1135,
+  "cls": 16,
+  "pat": "Binary search tree property.",
+  "num": 235,
+  "title": "Lowest Common Ancestor of a Binary Search Tree",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1202,
+  "cls": 17,
+  "pat": "Heap / priority queue.",
+  "num": 1046,
+  "title": "Last Stone Weight",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/last-stone-weight/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1206,
+  "cls": 17,
+  "pat": "Heap / priority queue.",
+  "num": 973,
+  "title": "K Closest Points to Origin",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/k-closest-points-to-origin/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1210,
+  "cls": 17,
+  "pat": "Heap / priority queue.",
+  "num": 215,
+  "title": "Kth Largest Element in an Array",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1278,
+  "cls": 18,
+  "pat": "Graphs: DFS and grids.",
+  "num": 463,
+  "title": "Island Perimeter",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/island-perimeter/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1282,
+  "cls": 18,
+  "pat": "Graphs: DFS and grids.",
+  "num": 695,
+  "title": "Max Area of Island",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/max-area-of-island/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1286,
+  "cls": 18,
+  "pat": "Graphs: DFS and grids.",
+  "num": 133,
+  "title": "Clone Graph",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/clone-graph/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1350,
+  "cls": 19,
+  "pat": "Graphs: BFS and shortest path by edges.",
+  "num": 542,
+  "title": "01 Matrix",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/01-matrix/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1354,
+  "cls": 19,
+  "pat": "Graphs: BFS and shortest path by edges.",
+  "num": 1091,
+  "title": "Shortest Path in Binary Matrix",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1358,
+  "cls": 19,
+  "pat": "Graphs: BFS and shortest path by edges.",
+  "num": 752,
+  "title": "Open the Lock",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/open-the-lock/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1417,
+  "cls": 20,
+  "pat": "Topological sort: dependencies.",
+  "num": 1557,
+  "title": "Minimum Number of Vertices to Reach All Nodes",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1421,
+  "cls": 20,
+  "pat": "Topological sort: dependencies.",
+  "num": 802,
+  "title": "Find Eventual Safe States",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/find-eventual-safe-states/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1425,
+  "cls": 20,
+  "pat": "Topological sort: dependencies.",
+  "num": 2115,
+  "title": "Find All Possible Recipes from Given Supplies",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1490,
+  "cls": 21,
+  "pat": "Dijkstra with a heap.",
+  "num": 787,
+  "title": "Cheapest Flights Within K Stops",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1494,
+  "cls": 21,
+  "pat": "Dijkstra with a heap.",
+  "num": 1514,
+  "title": "Path with Maximum Probability",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/path-with-maximum-probability/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1498,
+  "cls": 21,
+  "pat": "Dijkstra with a heap.",
+  "num": 778,
+  "title": "Swim in Rising Water",
+  "lvl": "Hard",
+  "url": "https://leetcode.com/problems/swim-in-rising-water/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1564,
+  "cls": 22,
+  "pat": "Union-find (disjoint sets).",
+  "num": 990,
+  "title": "Satisfiability of Equality Equations",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/satisfiability-of-equality-equations/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1568,
+  "cls": 22,
+  "pat": "Union-find (disjoint sets).",
+  "num": 1319,
+  "title": "Number of Operations to Make Network Connected",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1572,
+  "cls": 22,
+  "pat": "Union-find (disjoint sets).",
+  "num": 721,
+  "title": "Accounts Merge",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/accounts-merge/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1640,
+  "cls": 23,
+  "pat": "Trie (prefix tree).",
+  "num": 720,
+  "title": "Longest Word in Dictionary",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/longest-word-in-dictionary/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1644,
+  "cls": 23,
+  "pat": "Trie (prefix tree).",
+  "num": 648,
+  "title": "Replace Words",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/replace-words/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1648,
+  "cls": 23,
+  "pat": "Trie (prefix tree).",
+  "num": 1268,
+  "title": "Search Suggestions System",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/search-suggestions-system/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1714,
+  "cls": 24,
+  "pat": "Backtracking: choose, explore, undo.",
+  "num": 46,
+  "title": "Permutations",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/permutations/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1718,
+  "cls": 24,
+  "pat": "Backtracking: choose, explore, undo.",
+  "num": 39,
+  "title": "Combination Sum",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/combination-sum/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1722,
+  "cls": 24,
+  "pat": "Backtracking: choose, explore, undo.",
+  "num": 79,
+  "title": "Word Search",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/word-search/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1786,
+  "cls": 25,
+  "pat": "Greedy choice.",
+  "num": 455,
+  "title": "Assign Cookies",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/assign-cookies/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1790,
+  "cls": 25,
+  "pat": "Greedy choice.",
+  "num": 122,
+  "title": "Best Time to Buy and Sell Stock II",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1794,
+  "cls": 25,
+  "pat": "Greedy choice.",
+  "num": 134,
+  "title": "Gas Station",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/gas-station/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1858,
+  "cls": 26,
+  "pat": "Intervals: sort, then sweep.",
+  "num": 228,
+  "title": "Summary Ranges",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/summary-ranges/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1862,
+  "cls": 26,
+  "pat": "Intervals: sort, then sweep.",
+  "num": 57,
+  "title": "Insert Interval",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/insert-interval/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1866,
+  "cls": 26,
+  "pat": "Intervals: sort, then sweep.",
+  "num": 452,
+  "title": "Minimum Number of Arrows to Burst Balloons",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1925,
+  "cls": 27,
+  "pat": "Dynamic programming: one dimension.",
+  "num": 70,
+  "title": "Climbing Stairs",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/climbing-stairs/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1929,
+  "cls": 27,
+  "pat": "Dynamic programming: one dimension.",
+  "num": 746,
+  "title": "Min Cost Climbing Stairs",
+  "lvl": "Easy",
+  "url": "https://leetcode.com/problems/min-cost-climbing-stairs/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1933,
+  "cls": 27,
+  "pat": "Dynamic programming: one dimension.",
+  "num": 213,
+  "title": "House Robber II",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/house-robber-ii/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 1996,
+  "cls": 28,
+  "pat": "Dynamic programming: sequences.",
+  "num": 139,
+  "title": "Word Break",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/word-break/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 2000,
+  "cls": 28,
+  "pat": "Dynamic programming: sequences.",
+  "num": 53,
+  "title": "Maximum Subarray",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/maximum-subarray/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 2004,
+  "cls": 28,
+  "pat": "Dynamic programming: sequences.",
+  "num": 152,
+  "title": "Maximum Product Subarray",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/maximum-product-subarray/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 2067,
+  "cls": 29,
+  "pat": "Dynamic programming: two dimensions.",
+  "num": 62,
+  "title": "Unique Paths",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/unique-paths/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 2071,
+  "cls": 29,
+  "pat": "Dynamic programming: two dimensions.",
+  "num": 64,
+  "title": "Minimum Path Sum",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/minimum-path-sum/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 2075,
+  "cls": 29,
+  "pat": "Dynamic programming: two dimensions.",
+  "num": 221,
+  "title": "Maximal Square",
+  "lvl": "Medium",
+  "url": "https://leetcode.com/problems/maximal-square/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 2143,
+  "cls": 30,
+  "pat": "Mixed review: all patterns.",
+  "num": 42,
+  "title": "Trapping Rain Water",
+  "lvl": "Hard",
+  "url": "https://leetcode.com/problems/trapping-rain-water/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 2147,
+  "cls": 30,
+  "pat": "Mixed review: all patterns.",
+  "num": 76,
+  "title": "Minimum Window Substring",
+  "lvl": "Hard",
+  "url": "https://leetcode.com/problems/minimum-window-substring/"
+ },
+ {
+  "file": "Take-Homes",
+  "line": 2151,
+  "cls": 30,
+  "pat": "Mixed review: all patterns.",
+  "num": 23,
+  "title": "Merge k Sorted Lists",
+  "lvl": "Hard",
+  "url": "https://leetcode.com/problems/merge-k-sorted-lists/"
+ }
+]
