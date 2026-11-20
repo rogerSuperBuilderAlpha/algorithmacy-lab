@@ -179,7 +179,7 @@ inverts it (§7). Numbers are the review's, kept for traceability.
   answers to the deployer; its envelope is declared to the deployer alone [carded]. IMDA (v1.5, p. 47) shows the other
   course.
 - **9. Restriction by reader class.** Downward filtration ("the light must touch the mountain tops", Hunter 1883,
-  ch. II); the 1543 Act's bar on women, artificers and serving men reading the English Bible (Sanders and Ferguson
+  para. 143); the 1543 Act's bar on women, artificers and serving men reading the English Bible (Sanders and Ferguson
   2002, abs.); samurai-only official schools (Hmeljak Sangawa 2017, p. 153). *Objectors:* Wharton in the Commons, 1807,
   on who is "fit for the plough" (lib.); Du Bois. *Now and Nadella:* protection sold by tier. Audit logs were sold by
   licence tier until 2023 (jakkal2023expanding); Microsoft defends paying commercial customers against copyright claims
