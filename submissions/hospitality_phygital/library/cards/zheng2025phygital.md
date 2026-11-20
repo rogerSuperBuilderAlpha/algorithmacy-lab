@@ -48,3 +48,11 @@ configuration rather than a setting.
 
 Section 3, in the consolidated rival paragraph, and cited again for the dual-place process
 alongside Batat 2024b.
+
+#### correction 2026-11-13 (v8 stage 2 reader)
+
+Read in full on 13 Nov 2026 from the University of Surrey author's accepted manuscript (CC BY 4.0), saved to `manuscript/revision_2026-11/research/sources/zheng2025phygital/user_pdf/fulltext.pdf`. Title, authors, journal, volume, article number and DOI match this card. Locators below are AAM PDF pages (p. 1 is the repository cover sheet), not journal pages. The version of record was not reachable (ScienceDirect HTTP 403; Unpaywall lists the DOI as closed).
+
+1. The card says the paper cites Tussyadiah's "2020 automation review". The text does not: its reference list cites Tussyadiah only as Tussyadiah, Jung and tom Dieck (2018a) and Tussyadiah, Wang, Jung and tom Dieck (2018b) (AAM pp. 23–26), and no 2020 Tussyadiah item appears in the text.
+2. The Summary says the triad is "physical, digital and social elements". The Critical notes say the elements are "embodied action, technological affordance and spatial configuration". The abstract supports the second wording ("the alignment of cognitive and embodied actions, technological affordances, and spatial configurations", AAM p. 2). The body names the triad itself as three spaces: "integrates three spatial layers— physical tourism space, virtual tourism space, and self-location space" (AAM p. 18), restated as "a triadic structure, comprising (1) virtual spaces, (2) physical spaces depicted in virtual content, and (3) self-location spaces" (AAM p. 23).
+3. "Where it enters" says the paper is cited for the dual-place process "alongside Batat 2024b". Zheng et al. take the two processes from "Batat, 2024", the PH-CX article in *Journal of Strategic Marketing* (AAM pp. 20–21; reference list), which this library keys as batat2024phcx ("2024a"). Check which Batat item the manuscript pairs with it.

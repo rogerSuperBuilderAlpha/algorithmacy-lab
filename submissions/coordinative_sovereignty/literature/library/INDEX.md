@@ -1,6 +1,6 @@
 # Library index — Algorithmacy and Sovereignty
 
-Built 2026-08-23; completed same day. 405 cards, complete against sources.json (405).
+Built 2026-08-23; completed same day. 408 cards, complete against sources.json (408); mentxaka2026trustworthy, hleg2019ethics and buhmann2023deep added 2026-10-25.
 
 Priority: cited = in the chapter now; must/should/optional = proposed by the 2026-08-23 evidence audit and literature sweep.
 
@@ -234,6 +234,7 @@ Priority: cited = in the chapter now; must/should/optional = proposed by the 202
 | [bratton2015stack](cards/bratton2015stack.md) | Bratton, B. H. (2015). The stack: On software and sovereignty. MIT Press. | optional | support | ["Additional Reading"] | abstract |
 | [braun2025digital](cards/braun2025digital.md) | Braun, M., & Hummel, P. (2025). Is digital sovereignty normatively desirable? Information, Communication & Society, 28(10), 1721–1734. https | optional | optional | [] | abstract |
 | [brown2024maori](cards/brown2024maori.md) | Brown, P. T., Wilson, D., West, K., Escott, K.-R., Basabas, K., Ritchie, B., Lucas, D., Taia, I., Kusabs, N., & Keegan, T. T. (2024). Māori  | optional | position_against | ["Key Terms"] | abstract |
+| [buhmann2023deep](cards/buhmann2023deep.md) | Buhmann, A., & Fieseler, C. (2023). Deep learning meets deep democracy: Deliberative governance and responsible innovation in artificial intellig | optional | support | ["§3"] | full |
 | [burrell2021society](cards/burrell2021society.md) | Burrell, J., & Fourcade, M. (2021). The society of algorithms. Annual Review of Sociology, 47(1), 213–237. https://doi.org/10.1146/annurev-s | optional | support | ["§2.3", "§4"] | api |
 | [carroll2020care](cards/carroll2020care.md) | Carroll, S. R., Garba, I., Figueroa-Rodríguez, O. L., Holbrook, J., Lovett, R., Materechera, S., Parsons, M., Raseroka, K., Rodriguez-Lonebe | optional | support | [] | full |
 | [cheneylippold2016jus](cards/cheneylippold2016jus.md) | Cheney-Lippold, J. (2016). Jus algoritmi: How the National Security Agency remade citizenship. International Journal of Communication, 10, 1 | optional | position_against | ["Key Terms"] | abstract |
@@ -258,6 +259,7 @@ Priority: cited = in the chapter now; must/should/optional = proposed by the 202
 | [gruber2023importance](cards/gruber2023importance.md) | Gruber, J., & Hargittai, E. (2023). The importance of algorithm skills for informed Internet use. Big Data & Society, 10(1). https://doi.org | optional | optional | ["§4"] | abstract |
 | [healy2025triangular](cards/healy2025triangular.md) | Healy, J., & Pekarek, A. (2025). The triangular relationship in platform gig work: Consumers, platform beneficence and worker vulnerability. | optional | support | ["§3.1"] | full |
 | [heemsbergen2022introduction](cards/heemsbergen2022introduction.md) | Heemsbergen, L., Treré, E., & Pereira, G. (2022). Introduction to algorithmic antagonisms: Resistance, reconfiguration, and renaissance for  | optional | optional | ["§4"] | abstract |
+| [hleg2019ethics](cards/hleg2019ethics.md) | High-Level Expert Group on Artificial Intelligence. (2019). Ethics guidelines for trustworthy AI. European Commission. https://ec.europa.eu/newsr | optional | position_against | ["§3"] | full |
 | [hobbes1651leviathan](cards/hobbes1651leviathan.md) | Hobbes, T. (1651). Leviathan, or the matter, forme and power of a common-wealth ecclesiasticall and civill. Andrew Crooke. | optional | support | [] | search |
 | [jarrahi2020platformic](cards/jarrahi2020platformic.md) | Jarrahi, M. H., Sutherland, W., Nelson, S. B., & Sawyer, S. (2020). Platformic management, boundary resources for gig work, and worker auton | optional | optional | ["§3"] | abstract |
 | [kalantzis2024literacy](cards/kalantzis2024literacy.md) | Kalantzis, M., & Cope, B. (2024). Literacy in the time of artificial intelligence. Reading Research Quarterly, 60(1), Article e591. https:// | optional | optional | ["§4"] | full |
@@ -271,6 +273,7 @@ Priority: cited = in the chapter now; must/should/optional = proposed by the 202
 | [maffie2025hrm](cards/maffie2025hrm.md) | Maffie, M. D., & Lakhani, T. (2025). Human resource management in new service arrangements: Extending the ability, motivation, opportunity f | optional | support | ["§5.3"] | full |
 | [mariotto2020pays](cards/mariotto2020pays.md) | Mariotto, C., & Verdier, M. (2020). Platform–merchant competition for sales services. Journal of Economics & Management Strategy, 29(4), 834 | optional | optional | ["§5.4"] | abstract |
 | [meisner2023networked](cards/meisner2023networked.md) | Meisner, C. (2023). The weaponization of platform governance: Mass reporting and algorithmic punishments in the creator economy. Policy & In | optional | optional | ["§4"] | full |
+| [mentxaka2026trustworthy](cards/mentxaka2026trustworthy.md) | Mentxaka, O., Díaz-Rodríguez, N., Coeckelbergh, M., López de Prado, M., Gómez, E., Fernández-Llorca, D., Herrera-Viedma, E., & Herrera, F. (2026). Tru | optional | position_against | ["§3"] | full |
 | [mill1859liberty](cards/mill1859liberty.md) | Mill, J. S. (1859). On liberty. John W. Parker and Son. | optional | support | [] | search |
 | [musiani2025digital](cards/musiani2025digital.md) | Musiani, F. (2025). Reassessing \"infrastructuring digital sovereignty\": Digital self-determination as a set of infrastructure-embedded pra | optional | optional | ["§6"] | full |
 | [nieborg2018platformization](cards/nieborg2018platformization.md) | Nieborg, D. B., & Poell, T. (2018). The platformization of cultural production: Theorizing the contingent cultural commodity. New Media & So | optional | support | ["§1", "§8"] | api |

@@ -285,6 +285,16 @@ open.
   intelligibility half, triadic only in its accountability half.
 - ✓* [Floridi, L., & Cowls, J. (2019). A unified framework of five principles.](floridicowls2019.md)
   — corrected a page citation.
+- [High-Level Expert Group on AI (2019). Ethics guidelines for trustworthy AI.](hleg2019.md) — added
+  2026-10-25, S2 not yet run; names the person "for whom decisions are made" and gives contest, redress and
+  explanation on demand, but the override sits with the operator; opt-out "without detriment" (p. 34) is the
+  nearest establishment precedent for a counter-delegated control.
+- [Buhmann, A., & Fieseler, C. (2023). Deep learning meets deep democracy.](buhmann2023.md) — added
+  2026-10-25, S2 not yet run; BEQ: disclosure can itself produce expert opacity; remedy sits with deliberative
+  venues, not with the coordinated person.
+- [Mentxaka, O., et al. (2026). Trustworthy AI and democracy: A dual taxonomy.](mentxaka2026.md) — added
+  2026-10-25, S2 not yet run; a current trustworthy-AI framework whose remedies sit with institutions and the
+  artifact (transparency mapped to six of seven risks); the affected person holds no control.
 - ✓ [Taddeo, M. (2010). Modelling trust in artificial agents.](taddeo2010.md)
 - ✓* [Mittelstadt, B. D., et al. (2016). The ethics of algorithms: Mapping the debate.](mittelstadt2016.md)
 - ✓ [Tsamados, A., et al. (2022). The ethics of algorithms: Key problems and solutions.](tsamados2022.md)
