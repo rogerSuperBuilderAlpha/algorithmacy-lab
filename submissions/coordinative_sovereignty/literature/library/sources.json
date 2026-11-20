@@ -1549,6 +1549,38 @@
   "notes": ""
  },
  {
+  "id": "buhmann2023deep",
+  "type": "article",
+  "authors": [
+   "Buhmann, A.",
+   "Fieseler, C."
+  ],
+  "year": 2023,
+  "title": "Deep learning meets deep democracy: Deliberative governance and responsible innovation in artificial intelligence",
+  "container": "Business Ethics Quarterly",
+  "volume": "33",
+  "issue": "1",
+  "pages": "146–179",
+  "publisher": "Cambridge University Press",
+  "doi": "10.1017/beq.2021.42",
+  "url": "https://doi.org/10.1017/beq.2021.42",
+  "origin": [
+   "author_requested"
+  ],
+  "chapter_sections": [
+   "§3"
+  ],
+  "role": "support",
+  "tags": [
+   "ai_governance",
+   "transparency",
+   "political_csr"
+  ],
+  "priority": "optional",
+  "verified": "full",
+  "notes": "Added 2026-10-25 in the berthon_ethics_paper session; disclosure as a source of opacity and transparency as excuse (§3)"
+ },
+ {
   "id": "bunders2024paradoxical",
   "type": "article",
   "authors": [
@@ -6117,6 +6149,37 @@
   "notes": "U21: add locators ch. 3, ch. 5 (\"How monopoly can be comforted by competition\"), ch. 7 loyalty"
  },
  {
+  "id": "hleg2019ethics",
+  "type": "report",
+  "authors": [
+   "High-Level Expert Group on Artificial Intelligence"
+  ],
+  "year": 2019,
+  "title": "Ethics guidelines for trustworthy AI",
+  "container": "",
+  "volume": "",
+  "issue": "",
+  "pages": "",
+  "publisher": "European Commission",
+  "doi": "",
+  "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419",
+  "origin": [
+   "author_requested"
+  ],
+  "chapter_sections": [
+   "§3"
+  ],
+  "role": "position_against",
+  "tags": [
+   "ai_governance",
+   "transparency",
+   "contestability"
+  ],
+  "priority": "optional",
+  "verified": "full",
+  "notes": "Added 2026-10-25 in the berthon_ethics_paper session; the guidelines the transparency-first literature maps onto; names contest and redress but places the override with operators (§3)"
+ },
+ {
   "id": "hobbes1651leviathan",
   "type": "book",
   "authors": [
@@ -8055,6 +8118,44 @@
   "priority": "optional",
   "verified": "search",
   "notes": "Near miss (strand 1): \"Meisner 2023 P&I\"; title from knowledge"
+ },
+ {
+  "id": "mentxaka2026trustworthy",
+  "type": "article",
+  "authors": [
+   "Mentxaka, O.",
+   "Díaz-Rodríguez, N.",
+   "Coeckelbergh, M.",
+   "López de Prado, M.",
+   "Gómez, E.",
+   "Fernández-Llorca, D.",
+   "Herrera-Viedma, E.",
+   "Herrera, F."
+  ],
+  "year": 2026,
+  "title": "Trustworthy AI and democracy: A dual taxonomy and operational framework of democratic risks and contributions",
+  "container": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+  "volume": "",
+  "issue": "",
+  "pages": "1–18",
+  "publisher": "IEEE",
+  "doi": "10.1109/TSMC.2026.3743429",
+  "url": "https://doi.org/10.1109/TSMC.2026.3743429",
+  "origin": [
+   "author_supplied"
+  ],
+  "chapter_sections": [
+   "§3"
+  ],
+  "role": "position_against",
+  "tags": [
+   "political_theory",
+   "ai_governance",
+   "transparency"
+  ],
+  "priority": "optional",
+  "verified": "full",
+  "notes": "Added 2026-10-25 from the accepted PDF the author supplied in the berthon_ethics_paper session; instance of the transparency-first dominant view (§3)"
  },
  {
   "id": "meyer2024competing",
