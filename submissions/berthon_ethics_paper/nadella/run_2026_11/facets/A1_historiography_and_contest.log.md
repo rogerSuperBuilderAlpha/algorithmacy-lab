@@ -1,0 +1,30 @@
+# A1 log (append-only). Date 2026-11-18.
+- 20:52 | read PLAN s8 + Brief A1, STRUCTURE s1-3, SOURCES_A rows A1 | no prior log; fresh start
+- 20:52 | crossref 10.21623/1.9.1.4 | resolves; Graff 2022, LiCS 9.1, pp. 47-53 | record ok
+- 20:52 | fetch licsjournal.org/.../download/1393/1845 (already on disk from scout) | 7 pp, text extracted, sha256 8ace4d76... | DONE graff2022
+- 20:52 | crossref 10.21623/1.1.1.4 | resolves; Graff 2013, LiCS 1.1, pp. 15-17 | record ok
+- 20:52 | fetch licsjournal.org/.../download/806/631 into A1/graff2013 | sha256 d955f2f9... identical to disk copy pdfs/M1/graff2013.pdf; clean diamond-OA route now recorded | DONE graff2013
+- 20:52 | crossref 10.21623/1.1.1.6 | resolves; Vieira 2013, LiCS 1.1, pp. 26-32 | record ok
+- 20:52 | fetch licsjournal.org/.../download/803/625 into A1/vieira2013 | sha256 b7d1e154... identical to disk copy; clean route recorded | DONE vieira2013
+- 20:52 | crossref 10.1080/17508487.2014.904809 (Black and Yasukawa 2014, pp. 213-228) and 10.1207/s15548430jlr3403_4 (Brandt and Clinton 2002, pp. 337-356) | records resolve | record ok
+- 20:52 | openalex doi lookups for graff2010, graffduffy (10.1007/978-3-319-02252-9_4), brandt2001, vee2017, kaestle1985, houston1982, mitch2003, stone1969, black2014, brandtclinton2002, vann2004 | oa_status closed, no OA location for each | see per-source lines
+- 20:52 | openalex doi lookup bloxham2020 | green location is a recensio.net review of the book, not the book | not used
+- 20:52 | semantic scholar searches x6 | 429 Too Many Requests on all; not retried more than once | none used
+- 20:52 | crossref 10.1016/s0140-6736(21)00534-1 | Balaj et al., Lancet 398(10300) 608-620, 2021 | record ok
+- 20:52 | fetch europepmc fullTextXML PMC8363948 into A1/balaj2021parental; parsed with python3 -I | full text, no page numbers; locators by section | DONE balaj2021parental
+- 20:52 | crossref 10.1596/1813-9450-8402 | Psacharopoulos and Patrinos, WB PRWP 8402, April 2018 | record ok
+- 20:52 | fetch documents1.worldbank.org/.../WPS8402.pdf into A1/psacharopoulos2018returns | 25 pp, sha256 3f27d4a2... | DONE psacharopoulos2018returns
+- 20:55 | crossref 10.1007/s13524-019-00812-3 | Andriano and Monden, Demography 56(5) 1765-1790, 2019; CC BY | record ok
+- 20:55 | fetch link.springer.com/content/pdf/10.1007/s13524-019-00812-3.pdf into A1/andriano2019causal | 17 pp, sha256 264f48de... | DONE andriano2019causal
+- 20:55 | fetch tandfonline.com/doi/pdf/10.1080/17508487.2014.904809 | HTTP 403 Cloudflare challenge | BLOCKED black2014 (library user: Critical Studies in Education 55(2), 213-228)
+- 20:55 | fetch journals.sagepub.com/doi/pdf/10.1207/s15548430jlr3403_4 | HTTP 403 challenge; disk copy pdfs/M1/brandtclinton2002.pdf is 5.5 KB HTML, not the article | BLOCKED brandtclinton2002 (Journal of Literacy Research 34(3), 337-356)
+- 20:55 | fetch muse.jhu.edu/article/383254 | verification page | BLOCKED graff2010 (Journal of Social History 43(3), 635-661; via Project MUSE or a journal subscription)
+- 20:55 | fetch direct.mit.edu Coding Literacy pages, doi.org/10.7551/mitpress/10655.003.0008, mitpress.mit.edu | HTTP 403 challenge on all three | BLOCKED vee2017 (MIT Press, 2017; book)
+- 20:55 | openalex search x4 | rate limited (retryAfter 35 s), no result; crossref bibliographic searches x4 instead ("literacy myth" critique; history of literacy historiography; programming literacy; AI literacy history) | only closed items or items already known; no new open lead
+- 20:55 | graffduffy (Literacy Myths, Springer 2017 chapter) | openalex closed; no open route | BLOCKED graffduffy (Springer encyclopedia chapter)
+- 20:55 | brandt2001, kaestle1985, houston1982, mitch2003, stone1969, vann2004 | openalex closed, no open route found | BLOCKED each (Brandt: Cambridge UP book; Kaestle: Review of Research in Education 12; Houston: Past and Present 96; Mitch: Interchange 34; Stone: Past and Present 42; Vann: History and Theory 43)
+- 20:55 | bloxham2020 | only OA item is a review of the book, not the book | BLOCKED bloxham2020 (OUP book)
+- 20:55 | stuckey1991, vincent2000 | no open route; scout found only reviews (Friedenberg; Holzman; Gildea; Sutherland); a review is not a read of the book | BLOCKED stuckey1991, vincent2000 (books)
+- 20:55 | graff1979 | inbox/ has no 1979 pages; 1991 reissue already carded (graff1991literacy) | SKIPPED graff1979 (condition not met)
+- 20:55 | kamperman2026ai, street2003whats, graff1991literacy | already carded; not re-carded | SKIPPED (carded)
+- 20:55 | quote check: every quoted string in the six cards found in its extracted text | pass | 6 cards written
