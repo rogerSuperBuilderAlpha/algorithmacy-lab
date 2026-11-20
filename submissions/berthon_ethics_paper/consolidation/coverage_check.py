@@ -31,7 +31,8 @@ SRC = os.path.join(ARM, "sources")
 NOTES = os.path.join(SRC, "notes")
 CARDS = os.path.join(ARM, "literature", "cards")
 SHORT = {"bec": "berthon_ethics_course", "ade": "algorithmacy_design_ethics",
-         "dxf": "dxd_foundation", "scf": "algorithmacy_scaffolding"}
+         "dxf": "dxd_foundation", "scf": "algorithmacy_scaffolding",
+         "bep": "berthon_ethics_paper"}
 VERSIONS = sorted(os.path.basename(p) for p in glob.glob(os.path.join(SRC, "0*.md")))
 ID_RE = re.compile(r"\b([KHNEDOLMP]\d{2})\b")
 
