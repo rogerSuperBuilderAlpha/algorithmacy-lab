@@ -131,7 +131,7 @@ inverts it (§7). Numbers are the review's, kept for traceability.
 - **2. Withheld competence, including the receive-only split.** Anti-literacy statutes; Phule on the Bhats who
   "forbade the Shudras any access to learning" (1873, p. 50); women taught to read but not to write (Chamberlain 2014,
   abs.; Monaghan 1988, partial; Hubbard 2015, abs.); women's required skill at baptism "generally very low" in German
-  East Africa (Montgomery 2017, p. 234). *Objectors:* Nicolás Antonio (c. 1648), men "have always kept women away from
+  East Africa (Montgomery 2017, p. 234). *Objectors:* Nicolás Antonio (1672), men "have always kept women away from
   the instruments of command"; Wollstonecraft 1792. *Now:* explanation is owed but delivered to developers; the person
   receives an output and cannot answer it. *Nadella:* P9's transparency is addressed to the deploying organisation;
   reasoning summaries go to developers who opt in [carded].
