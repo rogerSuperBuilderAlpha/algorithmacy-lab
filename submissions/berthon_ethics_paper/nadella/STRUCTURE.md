@@ -32,6 +32,25 @@ quotation in the literacy review has yet been checked by an independent verifier
 - **History and present together, error by error.** The reader meets each error in literacy, then in AI ethics, then
   in Nadella's architecture, instead of reading the history in one section and the present in another.
 
+## DRAFT_v3 numbering and pruning (20 Nov 2026)
+
+*Added by Claude (Opus 5.5) after the full rewrite to DRAFT_v3, which the author asked for against two reviews. This
+file keeps the v5 numbers below. DRAFT_v3 numbers the errors 1–14 in the order they appear and moves three
+candidates to §5, because no present counterpart is established for them (Bartha's second condition, §2). The author
+left pruning to Claude's judgement. The full log is in the local `manuscript/V3_CHANGES.md`.*
+
+| v5 | v3 | | v5 | v3 |
+|---|---|---|---|---|
+| 1 The gate | 1 | | 3 Record over the voice | 8 |
+| 11 The self-justifying gate | 2 | | 7 Capture by intermediaries | 9 |
+| 17 The accommodated veto | 3 | | 9 Restriction by reader class | 10 |
+| 2 Withheld competence | 4 | | 5 Notice she cannot answer | 11 |
+| 12 Selective provision | 5 | | 8 Blame and stigma | 12 |
+| 13 Literacy for docility | 6 | | 6 The oversold promise | 13 |
+| 4 Custody of the medium | 7 | | 14 Mismeasured progress | 14 |
+| 10 Competence as a cover | §5 | | 15 Protective withholding | §5 |
+| 16 Taxed for one's own exclusion | §5 | | | |
+
 ## Thesis
 
 Literacy spread through design choices, and many of them were grave errors that people at the time recognised as
