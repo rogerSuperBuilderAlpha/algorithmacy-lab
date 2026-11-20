@@ -8,32 +8,80 @@ venue: "Journal of Strategic Marketing"
 cluster: phygital-service
 status: held
 role: framing
-used_by_sections: [3, 7]
-claims: [seamlessness-uncritiqued, editors-own-ground]
-read_depth: metadata
+used_by_sections: []
+claims: [seamlessness-uncritiqued, editors-own-ground, framing-argued-past]
+read_depth: full-text
 verified: verified
-verified_date: 2026-08-11
-source_basis: "Crossref record verified for title, author, journal and year. Abstract not retrievable from any reachable source; publisher returns 403 and the article is too recent for repository deposit."
-generated_run: 2026-08-11-p9
-flags: [must-engage, abstract-only-debt]
-hold_rationale: "Found by the P9 pass. The manuscript's seamlessness claim is worded against a literature assumed not to criticize itself; this article's title alone shows the lead editor now theorizes AI's bad and ugly outcomes. The claim cannot be finalized until somebody reads it."
+verified_date: 2026-11-13
+source_basis: "Read in full from the version-of-record PDF obtained through the Bentley University library proxy on 13 Nov 2026, saved at manuscript/revision_2026-11/research/sources/batat2026phive/vor.pdf (git-ignored; plain.txt beside it). Taylor & Francis, Journal of Strategic Marketing, online first: 22 PDF pages, a publisher cover sheet (published online 2 June 2026) and article pages 1-21. The cover sheet is skipped; locators are the online-first page numbers printed on the article pages. Figure 1 (p. 9) and Tables 1, 4 and 5 (pp. 5, 16, 18) were read from the rendered pages. Title, author and DOI match."
+generated_run: v8-2026-11-stage2
+flags: [must-engage]
+hold_rationale: "Found by the P9 pass. The manuscript's seamlessness claim is worded against a literature assumed not to criticize itself; this article's title alone shows the lead editor now theorizes AI's bad and ugly outcomes. The claim cannot be finalized until somebody reads it. Read in full 13 Nov 2026 (v8 stage 2): the matrix ranks seamless mobility and hospitality systems as good but shallow (Water) and keeps seamlessness in its benchmark, so the claim survives in narrowed form; the matrix addresses one firm's leaders and allocates nothing among firms."
 ---
+
 ## Summary
 
-The lead editor's newest framework, and the first in her corpus to organize itself around negative outcomes of AI-driven phygital design. Nothing beyond the title is known. Its existence is what forces the paper's seamlessness claim to narrow from a critique the field has not made to a critique of the design value specifically.
+A self-described "position paper" (p. 2) written for a *Journal of Strategic Marketing* special issue on generative AI and phygital customer experience. The PHIVE Matrix crosses two axes. The first, AI phygital integration depth, counts how many of ERT's four experiential extensions an AI activates. The second, AI human-value alignment, measures fit with PH-CX's six value pillars (pp. 7-8). The result is four quadrants (Figure 1, p. 9; Table 4, p. 16):
+
+- **Air**: fracture, value destruction (low integration, high alignment).
+- **Earthquake**: erosion (low, low).
+- **Water**: support, functional value (high integration, low alignment).
+- **Fire**: amplification (high, high).
+
+The article also introduces "phygital intelligence" (PI) as distinct from AI (p. 7; Table 2, p. 8), and it closes with managerial actions for each quadrant (Table 5, p. 18). It is the most direct of the three Batat texts about AI's harms: dehumanization, surveillance, loss of autonomy and exclusion. Its master value is continuity. Discontinuity is the harm it diagnoses, and seamlessness belongs both to the "good/fair" quadrant and to the Fire benchmark. It addresses firms' leaders and says nothing on duties, recourse or the allocation of responsibility among firms.
 
 ## Key facts / verified quotes with loci
 
-- Sole author is the special issue's lead editor, University of Lyon 2 [metadata]
-- Published online 2 June 2026 in Journal of Strategic Marketing, the same journal as the PH-CX framework [metadata]
-- Title organizes the argument around good, bad and ugly outcomes of AI marketing for customer experience design [metadata]
+- Phygitality defined: "Phygitality, an ontological condition in which physical and digital environments are inseparably entangled, extends beyond the simple integration of channels." (p. 2) [full-text]
+- PHIVE defined: "Accordingly, the PHIVE Matrix is defined as: a strategic decision-making tool that evaluates how firms' AI-driven tools and strategies generate, sustain, or undermine experiential value in phygital environments by assessing the interplay between two main pillars/axes, namely AI phygital integration depth and AI human-value alignment." (p. 7) [full-text]
+- PI defined: "PI refers to a system's capacity to sustain experiential continuity, emotional coherence, ethical human-centric design, and embodied engagement across intertwined physical and digital realms." (p. 7). Also: "AI optimizes tasks; PI orchestrates meaning." (p. 7) [full-text]
+- Addressee: "The PHIVE Matrix is a strategic decision-making tool that helps leaders evaluate how AI shapes experiential value in phygital marketplaces" (p. 2); "For brands and organizations, understanding this configuration is essential for responsible AI marketing strategies." (p. 10); "Each quadrant carries explicit managerial implications: redesign imperatives for value destruction, corrective integration pathways for value erosion, investment priorities for value support, and scaling strategies for value amplification." (p. 17) [full-text]
+- AI's harms named: AI "may contribute to dehumanization, emotional dissonance, surveillance, identity distortion, cognitive overload, or experiential fragmentation (Song et al., 2026) when technological efficiency supersedes human-centric experience design principles (Addis et al., 2022)." (p. 2); "In such cases, AI may reinforce stigma, foster surveillance and loss of autonomy, induce dehumanization, or impose unattainable norms of self-optimization." (p. 11) [full-text]
+- Evaluation beyond performance: "These outcomes show that AI-mediated experiences must be evaluated not only through technical performance but also through their emotional, ethical, symbolic, and cultural consequences." (p. 4) [full-text]
+- The Fire safeguards: "Value-amplifying technologies operate sensitively and transparently, respecting agency, emotional well-being, and cultural diversity (Anderson, 2026). Rather than imposing norms or exploiting data, they empower consumers and support authentic self-expression. Trust emerges from both technical reliability and the sense that AI genuinely enriches lived experience." (p. 16) [full-text]
+- Human presence kept: "It also reinforces the importance of AI systems that support; rather than replace; human creativity, empathy, and relational presence." (p. 17); "For practitioners, it underscores the need for intentional, human-centric AI integration that enriches rather than replaces human presence and fosters trust and continuity across phygital journeys." (p. 19). Replacement is listed as a harm: "Mental-health apps that replace human care" (p. 4) [full-text]
+- Remedies for the Earthquake quadrant (Table 5, "Repair & Rebuild"): "Use phyginography to generate smart insights and restore trust and emotional safety" and "Eliminate harmful features or extractive mechanisms" (p. 18) [full-text]
+- Discontinuity is the diagnosed harm: "A third limitation is the fragmented deployment of AI across customer journeys. Many systems operate within isolated digital touchpoints (e.g. recommendation engines, automated service interfaces, mobile apps) without supporting continuity across the broader phygital journey (Adam et al., 2021; Hill et al., 2015). This produces disconnected transitions and inconsistent experiential narratives, particularly problematic in phygital settings where consumers expect fluid movement across experiential realms." (pp. 3-4) [full-text]
+- The Air quadrant is a failure of continuity: "However, because AI activates only a limited set of phygital extensions, it fails to sustain the continuity required across blended physical-digital environments." (p. 9); "When AI disrupts this continuity, experiences may remain emotionally engaging while becoming psychologically destabilizing." (p. 10); the Table 5 remedy includes "Restore phygital continuity" (p. 18) [full-text]
+- The Water quadrant is smooth and "good/fair": "This quadrant aligns with the metaphor of water: experiences that flow smoothly, stabilize interactions, and create coherence without necessarily reaching emotional depth." (p. 12); "This form of value creation can therefore be understood as a good or fair improvement of phygital experience." (p. 13); Figure 1 labels it "Smooth, efficient, coherent experiences" (p. 9) [full-text]
+- Hospitality is placed in the Water quadrant: the Table 4 example reads "AI-enabled mobility or hospitality systems that create seamless, efficient, and coherent phygital journeys", with the outcome "Experience becomes useful, seamless, and moderately engaging" (p. 16) [full-text]
+- Seamlessness in the Fire benchmark: the human experience "is elevated through the seamless convergence of technological precision, emotional resonance, and experiential meaning." (p. 13); "AI becomes embedded within the 'phygital flow', defined as the seamless, continuous poly-creation of meaning across humans, technology, environment, and context." (p. 14); "AI reduces friction, enhances responsiveness, and expands experiential possibilities" (p. 15); "The PHIVE Matrix positions this state as the benchmark for future AI-mediated phygital experience design." (p. 16) [full-text]
+- AI as an agent, not a tool: "Its first contribution is reframing AI not as a functional tool but as an 'experiential agent' whose influence depends on how it extends, supports, or disrupts the embodied, emotional, social, and symbolic dimensions of phygital experience design." (p. 17); "AI increasingly acts as a relational, cultural, and emotional actor influencing identity, trust, vulnerability, and meaning-making." (p. 4) [full-text]
+- A hospitality-adjacent failure at the physical-digital crossing, as synthesized from Klaus (2025) in Table 1: role "AI concierge tools shape luxury phygital journeys by enhancing digital planning but failing in physical execution"; Bad "Emotional disconnect, lack of human warmth, misalignment between AI plan and physical service"; Ugly "Service failures, unmet expectations, erosion of luxury value, trust breakdown" (p. 5) [full-text]
+- A guest's dietary needs pass through an AI and then human chefs (Kitchen Theory, Fire quadrant): "Guests begin by sharing flavor preferences, dietary needs, emotional states, and experiential expectations. AI systems analyze these inputs in real time to generate bespoke multi-course culinary narratives. Human chefs then interpret and materialize these AI-generated suggestions through creative craftsmanship, multisensory design, and contextual storytelling." (p. 14) [full-text]
+- Employees: "technological extensions should support the holistic nature of both consumer and employee lived experiences rather than amplify isolated dimensions of optimization." (p. 10); Table 1 lists "workforce displacement" among the Ugly effects in Doherty et al. (p. 5); Doherty et al. are reported as pointing to "the emergence of new roles such as the Chief Experience Marketing Officer (CXMO)" (p. 6) [full-text]
+- Consumer agency: "AI enhances experience only when it supports meaning, coherence, and human agency within fused physical-digital environments." (p. 19); "The result is a fragmented experience in which consumers gain information but lose emotional balance or agency." (p. 11) [full-text]
+- Institutions appear only as a research question: "(3) how cultural, social, and institutional environments shape the development of phygital intelligence" (p. 18) [full-text]
+- Article history: received 19 May 2026, accepted 22 May 2026 (p. 1) [full-text]
 
 ## Critical notes & threats
 
-- If her dark sides include smoothness, the paper's claim narrows again and section 7 must be rewritten around a different distinction.
-- If they do not, the paper gains its strongest formulation: the programme criticized AI's harms, its technocentrism and its efficiency logics while leaving seamlessness alone. Either way the sentence depends on a document nobody here has read.
-- The author is a likely reviewer. Citing her newest framework from the title alone would be visible.
+- **`seamlessness-uncritiqued` survives, narrowed.** The old card asked whether the "dark sides" would include smoothness. They do not. The Air and Earthquake quadrants are failures of continuity and of human alignment (pp. 9-11), and smoothness sits in the "good or fair" Water quadrant (pp. 12-13, 16). The editor now holds that seamlessness is not *sufficient*: Water is "structurally coherent yet emotionally shallow" (p. 12). She does not question it as a *goal*. It stays in the Fire benchmark (pp. 13-14), and its absence is the harm she diagnoses (pp. 3-4, 9-10). The slug's sentence should say "questions whether seamlessness suffices, not whether it is safe".
+- **`framing-argued-past` is contested.** PHIVE reframes AI "not as a functional tool but as an 'experiential agent'" (p. 17). My reading: the agency granted is experiential, and AI is never a party that owes or answers. The paper can make that its point, but it should drop the word "instrument" when it describes this text.
+- **Hospitality enters on the editor's own page.** Table 4 places "AI-enabled mobility or hospitality systems" in Water (p. 16). That ranking judges experiential depth. It does not ask whether a hospitality system that is "seamless, efficient, and coherent" leaves the guest anyone to answer to.
+- **Two cases bear on the paper's duties.** This is my interpretation, not the author's claim. The Klaus concierge (Table 1, p. 5) records a failure between an AI's plan and another party's physical execution, which is the divided-hosting case, and says nothing on who answers for it. The Kitchen Theory case (p. 14) routes a guest's "dietary needs" through an AI and then human chefs. In the paper's terms that is a duty of care for the guest's safety, discharged by a human between the AI and the plate. PHIVE presents the chefs as creative interpreters, not as the party who answers for an AI error. Neither case should be cited as Batat's view on responsibility.
+- **The gap statement.** PHIVE prescribes trust, transparency, respect for agency and well-being (pp. 16-19), addressed to a firm's leaders (pp. 2, 7, 10, 17). It names no one to whom these are owed beyond "consumers" in general. It never mentions several firms or allocation, and its remedies are redesign actions (Table 5, p. 18), not routes for an individual's case.
+- **Genre and evidence.** A position paper accepted three days after receipt (p. 1). Its cases (Kitchen Theory, H. Moser & Cie., transport platforms) are illustrations, not data.
+- **Citation labels.** In PHIVE, 2024a is PH-CX, 2024b the QMR editorial, 2025 the PSR article and 2026a HFPV (p. 20). It cites "The phygital research paradigm (Batat, 2024b, 2025)" (p. 6), which pairs the QMR editorial with the PSR article.
+- The author's semicolons, which stand in for dashes (e.g. "support; rather than replace;"), are printed so and kept. Hyphens and quotation marks are normalized.
 
-## Where it enters the manuscript
+## Where it bears on the argument
 
-Not yet in the manuscript. Enters section 3 paragraph 4 as evidence that the frameworks have begun criticizing themselves, and section 7 paragraph 1 as the boundary of that self-criticism.
+PHIVE fixes where the paper's seamlessness claim can stand. The editor's newest framework criticizes AI's harms, criticizes techno-centrism and ranks seamless hospitality systems below transformation. It still treats continuity as the value whose loss is the harm, and seamlessness as part of its benchmark. The paper's distinctive point is then available on her terms: seamlessness can be complete while the guest has no one to answer to. The matrix cannot register that failure, because both of its axes measure experience. It also supports the second half of the gap statement: an evaluative tool for one firm's AI, with nothing on several firms or on the individual case.
+
+**What the paper may say** (candidate sentences drafted by the reader, not the author's text; online-first page numbers; the year label needs disambiguating from batat2026psr and batat2026hfpv)
+
+- "Batat's PHIVE Matrix places 'AI-enabled mobility or hospitality systems that create seamless, efficient, and coherent phygital journeys' in its Water quadrant (Batat 2026 [phive]: 16), 'a good or fair improvement of phygital experience' that stops short of transformation (13)."
+- "PHIVE treats discontinuity as the harm: in its Air quadrant AI 'fails to sustain the continuity required across blended physical-digital environments' (Batat 2026 [phive]: 9), and its prescribed remedy is to 'Restore phygital continuity' (18)."
+- "PHIVE's benchmark, the 'phygital flow', is 'the seamless, continuous poly-creation of meaning across humans, technology, environment, and context' (Batat 2026 [phive]: 14)."
+- "PHIVE reframes AI 'not as a functional tool but as an "experiential agent"' (Batat 2026 [phive]: 17); the agency it grants is experiential, and the matrix assigns AI no standing as a party that answers."
+- "The matrix evaluates 'how firms' AI-driven tools and strategies generate, sustain, or undermine experiential value' (Batat 2026 [phive]: 7); its unit is one firm's tools."
+- "Batat's own synthesis records AI concierge tools 'enhancing digital planning but failing in physical execution', and lists 'Service failures, unmet expectations, erosion of luxury value, trust breakdown' among the ugly effects (Batat 2026 [phive]: 5, Table 1, summarizing Klaus 2025)." Cite Klaus 2025 directly only after reading it.
+
+Upgraded from metadata to full text on 13 Nov 2026 (v8 stage 2) by a reading agent, which rewrote the body. The abstract-only-debt flag is cleared; must-engage stays because the article is the lead editor's newest framework and narrows `seamlessness-uncritiqued`. Following the v8 brief, used_by_sections was cleared. The earlier entry plan (section 3 paragraph 4 and section 7 paragraph 1 of v7) is superseded by the v8 structure.
+
+#### correction 2026-11-13 (lead, after independent verification)
+Verified by an independent reader (`manuscript/v8_2026-11/stage2/VERIFY_stage2_cards.md`): every quotation verbatim; 0 unsupported; 5 partly supported. Corrections the lead accepts:
+- Discontinuity is the harm of the Air quadrant only; the Earthquake quadrant's harm is techno-centric, low-alignment design (pp. 7–9). Do not write that PHIVE treats discontinuity as 'the' harm.
+- The matrix addresses 'firms'' (plural, p. 7), not one firm's tools; its unit of analysis is 'Lived experience across blended environments' (Table 2, p. 8). Nothing in it divides a duty among several firms.
+- Table 1's Klaus entry records 'misalignment between AI plan and physical service' (p. 5); it does not say the physical service belongs to another party.

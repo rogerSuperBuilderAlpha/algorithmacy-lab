@@ -74,3 +74,6 @@ There is no limitations paragraph in the conclusion and no heading for implicati
 - **'In other words'** welds a restatement onto a definition.
 - **Lists inside sentences** run long: five to seven items.
 - **What it never does:** tables, numbered propositions, a contributions list, a managerial implications section.
+
+#### correction 2026-11-13 (Claude, Opus 5.5, v8 Stage 1)
+Paragraphs counted from the first-line indents of the typeset PDF give **67**, not about 72: Introduction 6; Theoretical context 4 + 5 + 4 (not 4 + 6 + 4); Methodological considerations 3; Spatial scales 1 + 7 + 4 + 5 + 4 + 3 (the neighbourhood has 4, not 6); Temporal scales 6; Digital scales 6; Conclusion 9. Her own words, without displayed quotations, total 8,925 in 332 sentences; the mean paragraph is still about 133 words. Source: `manuscript/v8_2026-11/MODEL_BRIEF.md`.

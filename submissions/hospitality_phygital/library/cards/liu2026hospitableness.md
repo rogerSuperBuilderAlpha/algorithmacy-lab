@@ -58,3 +58,10 @@ Fable-checked rr-2026-11 (2026-11-08): four quotes match the OpenAlex abstract r
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: "test" confirmed wrong (authors defer testing, p. 9), so YES→PARTLY on the verb; the robot is denied moral agency (p. 9), which supports v4's perceive/owe contrast; abstract-only-debt removed.
 
 Fable-checked rr-2026-11 (2026-11-08): verifier_3 PASS accepted; 'Future studies should test the framework' (p. 9) and 'relationally experienced' (p. 9) confirmed against the full text in sources/; PARTLY on 'test' stands; no change.
+
+#### correction 2026-11-13 (v8 stage 2 reader)
+
+Re-read in full (pp. 1–11, figures viewed as images). Two statements in the critical notes go further than the text.
+
+1. **The card says** "human staff appear only as the fallback for 'complex interactions' (p. 7)". **The text** also makes staff coordinated partners, in one of the three elements of robot-assisted hospitableness: "Service coordination involves seamless collaboration between robots and staff." and "When robots and staff are visibly aligned, guests experience the organization as caring and well organized." (p. 7). The video stimulus includes a "staff collaboration display" (Table 3, p. 4).
+2. **The card says** "Nothing in the article discusses responsibility, accountability, or who answers the guest when the robot's welcome fails." Accountability, and who answers when the robot fails, are indeed absent. **But the text** uses duty language once, in the subheading "Effort reduction as host responsibility" (p. 7). It also attributes the robot's conduct to the hotel: "Using appropriate honorifics signals that the robot (and by extension, the establishment) recognizes and respects the guest’s cultural identity." (p. 6). And it frames data safeguards as care owed to the guest: "transparency in data use, guest control over personal information, and revocable consent as core expressions of care" (p. 8).

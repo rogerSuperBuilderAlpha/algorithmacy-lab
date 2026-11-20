@@ -207,7 +207,8 @@ def render(kind, f, suffix=""):
 
     if kind == "book":
         imp = imprint()
-        return head + f"*{title}*" + (f", {imp}" if imp else "") + "."
+        vol = clean(f.get("volume", ""))      # multi-volume works: 'vol. 3' (added 13 Nov 2026, v10)
+        return head + f"*{title}*" + (f", vol. {vol}" if vol else "") + (f", {imp}" if imp else "") + "."
 
     if kind == "incollection":
         eds = authors(f["editor"]) if f.get("editor") else ""
