@@ -14,7 +14,7 @@ read_depth: full_vor_cover (publisher's typeset version, wrapped in a one-page L
 object_read: "orlikowski2023.pdf sha256 c4121267ae35bd627143e820e9bd94833ba2dbde29541c69b461bc527e6c77e1"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 1, platforms: 1, coordination: 2, communication: 1, literacy_competence: 1, evaluation_accountability: 2}
 run: ot-oq-2026-11
@@ -23,12 +23,12 @@ run: ot-oq-2026-11
 # Orlikowski, W. J., & Scott, S. V. (2023). The digital undertow and institutional displacement: A sociomaterial approach.
 
 ## What it argues
-Orlikowski and Scott argue that waves of digitalization carry an undertow: corollary effects, distant in space and time from the visible program of digital change, that erode the institutional apparatuses governing an industry. Two cases carry the argument. Digitized books no longer correspond to the ISBN standard, which presumes a bound paper object moving through a physical supply chain; online reviews and algorithmic rankings fall outside hospitality accreditation schemes built on formal inspection. Because each apparatus constitutively excludes the newly digital form of the core phenomenon, its capacity to coordinate and regulate the industry weakens. Tactical tensions build into existential ones, and if revision fails the apparatus is sidelined or replaced, a sequence the authors call institutional displacement (Figure 1 gives the process model). The authors hold that conventional theories of technological and institutional change cannot see these effects, and they make the case for strong sociomateriality, grounded in Barad's agential realism, as the lens that can. (reader's paraphrase)
+Orlikowski and Scott argue that waves of digitalization carry an undertow: corollary effects, distant in space and time from the visible program of digital change, that erode the institutional apparatuses governing an industry. Two cases carry the argument. Digitized books no longer correspond to the ISBN standard, which presumes a bound paper object moving through a physical supply chain; online reviews and algorithmic rankings fall outside hospitality accreditation schemes built on formal inspection. Because each apparatus constitutively excludes the newly digital form of the core phenomenon, its capacity to coordinate and regulate the industry weakens. Tactical tensions build into existential ones, and if revision fails the apparatus is sidelined or replaced, a sequence the authors call institutional displacement. They hold that conventional theories of technological and institutional change cannot see these effects, and they make the case for strong sociomateriality, grounded in Barad's agential realism, as the lens that can. (reader's paraphrase)
 
 ## The conversation it joins
 - Positions against / extends: distinguishes its "corollary effects" from the unintended-consequences literature: "Our articulation of the digital undertow as corollary effects, in contrast, is not tied to such direct changes." (p. 5, "The Digital Undertow"); and against weak sociomateriality, the authors argue that "the tendency to analyze separate entities, study mutually dependent ensembles, or investigate co-constitution is less effective in a world in which most work is 'digital work'" (p. 5, "Sociomaterial entanglement").
 - Named interlocutors: Barad (2003, 2007, 2013); Cooren (2020), with whom the authors dispute the reading of "entanglement" as metaphor; Jones (2014); Leonardi (2011, 2013); Panayiotou et al. (2019) and McKinley and Scherer (2000) on unintended consequences; Yoo, Henfridsson and Lyytinen (2010) and Tilson et al. (2010) on waves of digitalization; the authors' own Scott and Orlikowski (2022, *ISR*), the source study for the book case.
-- Exchange-set members named: none. The piece predates the 5(3) set; phillips2024 and hsu2024 both cite it, and hsu2024 takes its title concept from it.
+- Exchange-set members named: none. The piece predates the 5(3) set; phillips2024, hsu2024 and grodal2024 all cite it, and hsu2024 takes its title concept from it. (grodal2024 added at hand-check; see `EDGES.tsv`.)
 - OT articles it cites: Cooren (2020), "Beyond entanglement: (Socio-)materiality and organization studies," 1(3); Davis & Sinha (2021), "Varieties of uberization," 2(1); Faraj & Pachidi (2021), "Beyond uberization," 2(1); Zuboff (2022), "Surveillance capitalism or democracy?," 3(3).
 - Move: new concept (digital undertow, institutional displacement) plus process model, with a methodological argument for strong sociomateriality.
 
@@ -138,6 +138,8 @@ Orlikowski and Scott argue that waves of digitalization carry an undertow: corol
 - Figure 1 (the process model, p. 10) is an image; the extraction holds only its caption. The record relies on the prose description on pp. 9–10.
 - Quote self-check (22 Nov): 9 of 9 OQ quotes exact; all other quoted passages also match the text.
 - Not counted (verifier's recall sweep; printed pages): p. 4, "it remains in relation to the waves" and p. 7, "what is excluded remains entangled" describe the theory, not work for others; p. 14, "What is a 'history of the present'?" and the p. 15–16 question-mark and "research agenda" hits are reference-list titles. The p. 7 framing questions and the p. 13 "research agendas" sentence are OQ-03, OQ-04 and OQ-08. (added by verifier)
+- Not counted (added at hand-check; paraphrased to keep quotation low): p. 2, the roadmap sentence offering the concept as a basis from which organizational scholars can further examine institutional change announces the invitation that OQ-06 and OQ-09 state; p. 5, the sentence calling it crucial to gain insight into the indirect, less visible institutional shifts completes OQ-02; p. 13, the sentence on developing the capacity to investigate the range of digital transformations heads OQ-07; p. 14, "they remain underexamined" restates OQ-09 in the same paragraph.
+- A passage that is not an OQ but bears on fit (hand-check): the authors describe "opaque and distributed platforms with inscrutable, mutable, and executable algorithms" (p. 7, "Apparatus"). It is an aside in the argument for attending to exclusions, and the article asks nothing about the people who work through such systems.
 
 ## Verification
 - Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
@@ -150,7 +152,14 @@ Orlikowski and Scott argue that waves of digitalization carry an undertow: corol
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- OQ-orlikowski2023-07: A=2 B=1 → final 1. The contact is the list of technologies; the call faults studies that stay "proximate in time and space to the program of digitalization" (p. 13) and asks for effects at a distance on industry-wide apparatuses, which is the reverse of the brief's level, a person in an interaction with the system.
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: (0) What it argues: trimmed from 157 to 150 words to meet the schema limit (the parenthesis on Figure 1 cut; "The authors hold" to "They hold"); no claim changed. (1) Exchange-set line: grodal2024 also cites the article (its p. 5 and reference list), so all three 5(3) pieces do. (2) Not counted: four hits added (pp. 2, 5, 13, 14). (3) Caution: a note on the p. 7 passage about opaque platforms, which is not an OQ. All nine OQ quotations, the eight construct definitions and the seven flag quotations match the text at their printed-page locators (printed page = pdf page − 1).
+- OQs added / removed / reclassified: none. OQ-03 and OQ-04 stay `own_research_question`; the process model (pp. 8–11) answers them.
+- Flags changed: none. platforms stays at 1, as the verifier and the lead left it: platforms carry the hospitality case, and the theory concerns institutional apparatuses. communication stays at 1 on Barad's "material-discursive practices" alone.
+- Fit adjudications: 1 line; disagreements resolved: 1 (OQ-07, a one-point gap, settled at the lower score)
+- Exchange set: `v5i3-digital-undertow-genai` confirmed as the anchor. The article names no member of the set; `read_depth: full_vor_cover` is already applied.
+- Verdict: indexed_with_corrections

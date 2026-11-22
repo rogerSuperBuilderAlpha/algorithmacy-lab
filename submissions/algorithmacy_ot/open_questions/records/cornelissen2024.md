@@ -14,7 +14,7 @@ read_depth: full_vor
 object_read: "cornelissen2024.pdf sha256 5e38f005420c9bae2be7c3184db6b4475fe7597ff258e471b179d2667597c080"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 2, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -23,7 +23,7 @@ run: ot-oq-2026-11
 # Cornelissen, J., Höllerer, M. A., Boxenbaum, E., Faraj, S., & Gehman, J. (2024). Large language models and the future of organization theory.
 
 ## What it argues
-The editors sketch theorizing as acts that turn priors into understanding of phenomena through styles of reasoning and epistemic aims, then explain how transformer-based LLMs work. LLMs do well at basic, automatable tasks such as summarizing a literature or extending propositions, which fits a propositional style. They interpolate familiar outputs, cannot carry out thought experimentation, cannot reflect on what they produce, and reproduce biases in their training data. LLMs therefore cannot substitute for human ampliative reasoning. The editors accept that an augmentation logic is persuasive but warn that widespread LLM-augmented theorizing could narrow plural epistemic aims to machine prediction, a "predictive delusion". The essay closes with the journal's policy: a precautionary, case-by-case judgement, no ban, mandatory disclosure of LLM use, and an account of how LLM output sits in the author's chain of reasoning. (reader's paraphrase)
+The editors sketch theorizing as acts that turn priors into understanding of phenomena through styles of reasoning and epistemic aims, then explain how transformer-based LLMs work. LLMs do well at basic, automatable tasks such as summarizing a literature or extending propositions, which fits a propositional style. They interpolate familiar outputs, cannot carry out thought experimentation, cannot reflect on what they produce, and reproduce biases in their training data. LLMs therefore cannot, without human modification, substitute for human ampliative reasoning. The editors accept that an augmentation logic is persuasive but warn that widespread LLM-augmented theorizing could narrow plural epistemic aims to machine prediction, a "predictive delusion". The essay closes with the journal's policy: a precautionary, case-by-case judgement, no ban, mandatory disclosure of LLM use, and an account of how LLM output sits in the author's chain of reasoning. (reader's paraphrase)
 
 ## The conversation it joins
 - Positions against / extends: "So far, the debate in the field around LLMs has – perhaps unsurprisingly – been divided between critics and evangelists" (p. 2, untitled introduction); against the augmentation logic: "Notwithstanding its appeal, the augmentation logic comes with a catch." (p. 10, "Automating, augmenting, or displacing human theorizing?")
@@ -39,7 +39,7 @@ The editors sketch theorizing as acts that turn priors into understanding of phe
 | Styles (of theorizing) | "theorizing is not confined to one form but features multiple established forms of theoretically reasoning about phenomena" (p. 4, "Acts of Theorizing") | Borrowed from Cornelissen et al. (2021) |
 | Ampliative (reasoning) | "the conclusion that is reached in this way (i.e. a novel theoretical claim about a phenomenon) has additional content beyond the priors" (p. 4, "Acts of Theorizing") | Borrowed term, applied here |
 | Augmentation logic | "Its central underlying assumption is that crucial parts of the reasoning that we, as human researchers, do as part of our theorizing can now or in the (immediate) future be transferred and offloaded onto LLMs" (p. 10, "Automating, augmenting, or displacing human theorizing?") | Borrowed (Bailey et al., 2022), characterized here |
-| Predictive delusion | "algorithmic models drive and limit the range of what we understand phenomena to be, and what in turn we can theoretically say about them" (pp. 10–11, "Automating, augmenting, or displacing human theorizing?") | Borrowed from Lepore (2023) |
+| Predictive delusion | "algorithmic models drive and limit the range of what we understand phenomena to be, and what in turn we can theoretically say about them" (p. 11, "Automating, augmenting, or displacing human theorizing?") | Borrowed from Lepore (2023) |
 
 ## Open questions
 ### OQ-cornelissen2024-01
@@ -139,7 +139,7 @@ The editors sketch theorizing as acts that turn priors into understanding of phe
 - Paraphrase: A second sub-question asks what LLM-assisted theorizing leaves out of its human aspects; the essay answers it through reflexivity and ampliative reasoning. (reader's paraphrase) (added by verifier)
 
 ### OQ-cornelissen2024-13
-- Quote: "In the future, then, might it be conceivable that LLMs develop the capability to produce, say, a reasonable enough process theory" (pp. 8–9, "Abstract reasoning and creativity")
+- Quote: "In the future, then, might it be conceivable that LLMs develop the capability to produce, say, a reasonable enough process theory" (p. 8, "Abstract reasoning and creativity")
 - Form: own_research_question
 - Scope: whether future LLMs can produce a process theory or post-colonial critique
 - Addressee: the editors themselves
@@ -152,7 +152,7 @@ The editors sketch theorizing as acts that turn priors into understanding of phe
 - Scope: the uses of LLMs in acts of theorizing, now and in future
 - Addressee: the editors themselves
 - Level of analysis: field
-- Paraphrase: The section opens by asking the editors' own view of LLM uses and answers at once that LLMs cannot substitute for human ampliative reasoning. (reader's paraphrase) (added by verifier; moved from Not counted under the lead's ruling)
+- Paraphrase: The section opens by asking the editors' own view of LLM uses and answers at once that LLMs cannot directly substitute for human ampliative reasoning. (reader's paraphrase) (added by verifier; moved from Not counted under the lead's ruling)
 
 ## Implicit openings
 - (reader's inference) The editors claim that increasing LLM use "may come to (pre)structure and channel the theorizing that is done by scores of researchers in a specific direction" (p. 11, "Automating, augmenting, or displacing human theorizing?"). They state this as a risk; whether such channelling occurs is an empirical question about the field that the essay does not test.
@@ -189,7 +189,12 @@ The editors sketch theorizing as acts that turn priors into understanding of phe
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: (1) predictive-delusion locator pp. 10–11 → p. 11, reverting the verifier's change: the quoted words sit wholly on p. 11 of the PDF, and the "11" inside the extraction is the page number printed mid-page; (2) OQ-13 locator pp. 8–9 → p. 8, where the quoted words sit (the sentence runs on to p. 9); (3) "What it argues" and the OQ-14 paraphrase now carry the text's qualifier, that LLMs cannot substitute without human modification (p. 9). The eight OT citations, the six constructs and all 14 OQ quotations match the text.
+- OQs added / removed / reclassified: none (OQ-01 to OQ-03 and OQ-11 to OQ-14 stay own_research_question; OQ-06 stays explicit_question because the editors withhold a conclusive answer, p. 7)
+- Flags changed: none
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Verdict: indexed_with_corrections

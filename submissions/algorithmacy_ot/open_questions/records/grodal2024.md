@@ -14,7 +14,7 @@ read_depth: full_vor
 object_read: "grodal2024.pdf sha256 8fd23480bcba18a86bdb4be6fd02f89f88744c4a46964418f09302f29925f7e2"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 2, platforms: 1, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -126,7 +126,7 @@ The authors reply to Phillips, Kalvapalle and Kennedy (2024). They accept that h
 - platforms: 1 — "the technologies underlying the sharing economy, gig-work platforms, data analytics, and mobile devices, had affordances which facilitated easy engagement and instant connectivity" (p. 5, "The technology’s affordances")
 - coordination: 0
 - communication: 1 — "The radical technology could do what no machine had done before: mimic humans’ complex linguistic abilities." (p. 1, "Abstract")
-- literacy_competence: 1 — "However, stakeholders’ abilities and their vested interests in the diffusion of the technology will also play a role in this process." (p. 6, "The technology’s affordances")
+- literacy_competence: 1 — "generative AI even creates opportunities for new jobs to emerge—jobs that will require, once more, uniquely human abilities" (p. 5, "The consequences of challenging the human–machine boundary") (quotation replaced at hand-check; the reader's quotation, "stakeholders’ abilities and their vested interests" (p. 6), concerns stakeholders' capacity to steer diffusion, not skill)
 - evaluation_accountability: 1 — "By guiding how bankers evaluate and trade stock, quantitative trading participates in the social construction of the stock market" (p. 2, "Introduction")
 
 ## Caution
@@ -134,7 +134,8 @@ The authors reply to Phillips, Kalvapalle and Kennedy (2024). They accept that h
 - Crossref dates: published online 2024-10-05, issue dated July 2024 (volume 5, issue 3).
 - The future-research paragraph sits at the end of the section "Powerful stakeholders with vested interests" (p. 7), not under its own heading; hence closing_form "distributed" (it also spans the introduction and the conclusion).
 - Typos in the original are quoted verbatim: "migth" (OQ-07), "resaerch", "devleopment"; "humanmachine" in OQ-04 is a line-end join in the text.
-- The topic-flag quotation for literacy_competence is in passing; "abilities" there refers to stakeholders generally.
+- The topic-flag quotation for literacy_competence is in passing; "abilities" there refers to stakeholders generally. (Hand-check: quotation replaced; see Topic flags. The flag stays at 1 on the p. 5 passage about jobs and skills.)
+- Citation of the lead essay (added at hand-check): the reference list (p. 10) gives Phillips, Kalvapalle & Kennedy (2024) under a pre-publication title, "Understanding the implications of generative AI for the social construction of categories"; the published title is "Exploring the implications of generative AI for category construction" (`phillips2024`, p. 1). The quotation attributed to "Phillips et al., 2024, p. 20" (p. 4) follows manuscript pagination: the passage is on p. 8 of the version of record, whose p. 20 is references. The target is the same article, so the `EDGES.tsv` edge stands. Grodal et al. credit the participation game to Phillips et al. (2024); Phillips et al. credit it to Kennedy & Phillips (2023) (`phillips2024`, p. 3).
 - The printed label "Conversations and Controversies" appears above the title on p. 1.
 - Not counted: "Why?" (p. 1, "Abstract"; p. 8, "Conclusion") — rhetorical, answered immediately by the argument. The Chui et al. (2016) question on overtrusting humanoid technology (p. 4) — a quoted question from another source, not posed by the authors. "Only time will tell." (p. 8) — closing line, recorded within OQ-08/09. The Figure 1 box "Do people believe that the technology challenges the human-machine boundary?" (p. 3) — a decision node in the authors' model, not a question left open (added by verifier).
 
@@ -149,7 +150,14 @@ The authors reply to Phillips, Kalvapalle and Kennedy (2024). They accept that h
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- No OQ was rated 2 or more by either scorer, and the full read gives no reason to raise one: every call concerns how audiences, customers and powerful stakeholders categorize a technology, at field level, and none asks what a person working through such a system must be able to do.
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: (1) Topic flags: the literacy_competence quotation is replaced with a passage about skills (p. 5); the score is unchanged. (2) Caution: a note added on the pre-publication title and manuscript page number under which the essay cites Phillips et al. (2024), and on the attribution of the participation game. All nine OQ quotations, the five construct definitions and the three implicit-opening quotations match the version of record at their locators.
+- OQs added / removed / reclassified: none. OQ-01 stays `own_research_question` (Figure 1 answers it). OQ-06 and OQ-07 are one call in two sentences, general then for AI; they stay separate as the reader and verifier left them, and both score ≤ 1.
+- Flags changed: none in score; literacy_competence quotation replaced
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Exchange set: `v5i3-digital-undertow-genai` confirmed. The essay answers Phillips et al. (2024) by name, cites Hsu and Bechky (2024) on the screenwriters' strike (pp. 6–7) and Orlikowski and Scott (2023) on the digitalization of books (p. 5); all three are in its reference list.
+- Verdict: indexed_with_corrections

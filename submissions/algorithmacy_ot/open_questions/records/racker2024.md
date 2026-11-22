@@ -14,7 +14,7 @@ read_depth: full_vor
 object_read: "racker2024.pdf sha256 4dc5fe5f5a84f5b2517442aaa3398cd44c733e507266a8d06c547e2b769c8b34"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 2, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -172,7 +172,15 @@ Coordination research has treated physical space as context. Drawing on the spat
 - Verdict: verified_with_corrections (Not-counted list only)
 
 ## Fit
-pending
+- OQ-racker2024-05: A=2 B=1 → final 1. The sentence is a conjecture offered as an example under the call to compare settings (OQ-04), and the authors keep virtual settings inside their model ("virtual settings involve physical space as well", p. 12); virtual collaboration as such is a channel, the brief's moderated dyad, and the text names no algorithm or intermediary through which algorithmacy could enter.
+- OQ-racker2024-10: A=2 B=2 → final 2. The article ties coordinating mechanisms to Okhuysen and Bechky's integrating conditions, the same three the brief's parts restore, so a paper could cite the call when it sets an algorithmic intermediary beside roles, routines and space; the call asks how those mechanisms interact, and on interplay algorithmacy says nothing.
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: none. I read all 18 pages. The 12 OQ quotations, the seven construct definitions, the two conversation quotations and the flag quotations match the text at their locators; the checker's one miss and two ends-only matches are the page break, the lost hyphen and the note-column break listed in Caution. The summary runs 141 words.
+- OQs added / removed / reclassified: none. OQ-12 is a boundary condition in the strict sense: note 1 limits the framework to physical space. OQ-05 and OQ-06 are conjectures about settings where the mechanism may work less well or better, offered as examples under OQ-04, and the authors place neither setting outside their model. I left both as boundary_condition because `QUESTIONS.tsv` uses that form for contingency statements of this kind (suddaby2024-05, whyte2023-08). If the lead applies the V11 criterion strictly (only conditions the authors place outside their model), both become parts of OQ-04's call; no fit score changes either way.
+- Flags changed: none. The four zero flags are right: the text names no algorithm, platform, intermediary or third party, and outside the reference list "virtual" appears in one sentence (p. 12). evaluation_accountability stays at 1 under the lead's ruling on the V10 query.
+- Fit adjudications: 2 lines; disagreements resolved: 1 (OQ-05, a one-point gap settled at the lower score)
+- Exchange set: `exchange_id: none` confirmed. The article cites no corpus article (its one OT citation, Beyes & Holt, 2020, is in volume 1), and no other corpus text names it.
+- Verdict: indexed

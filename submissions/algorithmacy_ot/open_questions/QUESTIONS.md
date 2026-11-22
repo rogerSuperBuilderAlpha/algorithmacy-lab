@@ -2,7 +2,7 @@
 
 > Compiled by `tools/compile_questions.py` from the records; every quotation is the article's own words, located, and verified at S5. Form `own_research_question` marks a question the paper answers itself.
 
-681 entries from 65 articles; 619 excluding the papers' own research questions.
+682 entries from 65 articles; 620 excluding the papers' own research questions.
 
 ## Bacq, Toubiana, Ruebottom, Ormiston & Ajunwa (2023). Entrepreneurship Out of Shame: Entrep
 `bacq2023` · 4(1) · theory
@@ -220,10 +220,10 @@
 - **OQ-scherer2023-06** (invitation; organization): “Perhaps it is time for the MBA oath (see Anderson, 2009) to be revisited and adjusted for the purposes of maintaining democracy in a digitalized society.” (p. 17, "Counteracting infantilization")
 - **OQ-scherer2023-07** (invitation; field): “An important part of this project would be the strict regulation of applications of ChatGPT/large language models” (p. 18, "Counteracting infantilization")
 - **OQ-scherer2023-08** (invitation; interaction): “In response to questions such as ‘what are the norms of digital civic spaces?’, we offer the Habermas-Kant framework as a starting point for shaping digital civic behaviours.” (p. 18, "Counteracting infantilization")
-- **OQ-scherer2023-09** (boundary_condition; field): “We appreciate that achieving favourable communicative conditions for organized maturity against totalization is not easy – and it is likely to become even harder as surveillance capitalism shapes different ‘consciousnesses’ across generations” (p. 19, "Counteracting totalization")
+- **OQ-scherer2023-09** (limitation (hand-check: was boundary_condition; the authors concede a difficulty for their own remedy and do not place generational change outside their model); field): “We appreciate that achieving favourable communicative conditions for organized maturity against totalization is not easy – and it is likely to become even harder as surveillance capitalism shapes different ‘consciousnesses’ across generations” (p. 19, "Counteracting totalization")
 - **OQ-scherer2023-10** (boundary_condition; field): “we are aware that most states are not rule-of-law democracies, and therefore the emergence of appropriate legislation protecting citizens' rights is even less likely, and the struggle of organized citizens and social movements even more necessary and intense” (p. 20, "Making Zuboff’s Project Possible")
 - **OQ-scherer2023-11** (invitation; organization): “In addition to individual citizens, we emphasize working organizations as sources of change and sites for learning and experimenting with social norms.” (p. 20, "Making Zuboff’s Project Possible")
-- **OQ-scherer2023-12** (boundary_condition; multi-level): “We argue that, without a culture of Enlightenment as common practice of maturity and resistance to organized immaturity ... Zuboff’s (2022) call for an institutional revolution to abolish surveillance capitalism will remain mere utopia.” (p. 21, "Making Zuboff’s Project Possible")
+- **OQ-scherer2023-12** (; ): “” 
 - **OQ-scherer2023-13** (future_research_call; multi-level): “Organization theory and business ethics have a crucial role to play in advancing our understanding of how individual and collective human action can be further organized to foster the communicative conditions needed for mature citizens” (p. 21, "Conclusion")
 
 ## Jørgensen & Beyes (2023). Organizing Half-Things: Knowing, Theorizing and Studying Atmosph
@@ -298,7 +298,7 @@
 - **OQ-cornelissen2024-10** (editor_call; individual): “we urge authors to be careful and reflexive when they use LLMs to assist (parts of) their theorizing, and to transparently disclose this use in their manuscripts.” (p. 1, "Abstract")
 - **OQ-cornelissen2024-11** (own_research_question; field): “will it indeed enhance our capacity to theoretically understand phenomena?” (p. 2, untitled introduction)
 - **OQ-cornelissen2024-12** (own_research_question; field): “what is potentially excluded or fundamentally changed in terms of the very human aspects of the theorizing process” (p. 2, untitled introduction)
-- **OQ-cornelissen2024-13** (own_research_question; field): “In the future, then, might it be conceivable that LLMs develop the capability to produce, say, a reasonable enough process theory” (pp. 8–9, "Abstract reasoning and creativity")
+- **OQ-cornelissen2024-13** (own_research_question; field): “In the future, then, might it be conceivable that LLMs develop the capability to produce, say, a reasonable enough process theory” (p. 8, "Abstract reasoning and creativity")
 - **OQ-cornelissen2024-14** (own_research_question; field): “what is our take on their possible uses, now and in the future, as part of acts of theorizing?” (p. 9, "Automating, augmenting, or displacing human theorizing?")
 
 ## du Gay, P., & Lopdrup Hjorth, T. (2024). Organizing States: The continuing relevance of fo
@@ -339,7 +339,7 @@
 - **OQ-jaser2024-05** (future_research_call; field): “We need to pay more attention to the neoliberal ideological context in which HS has arisen, and from which it has derived undue legitimacy and power.” (p. 17, "Conclusion")
 - **OQ-jaser2024-06** (invitation; field): “The need to exercise democratic oversight and restraint must be reasserted, through collective action, ideological struggle against the managerialist tenets of neoliberalism and, where necessary, legislative fiat.” (p. 16, "Discussion")
 - **OQ-jaser2024-07** (invitation; field): “Becoming aware of the perils of HS can help us avoid a future where surveillance becomes even more normalized than it already is. This requires more than individualized forms of resistance, the presence of online forums, exit, or even trade union modes of organization.” (p. 17, "Conclusion")
-- **OQ-jaser2024-08** (boundary_condition; individual): “While we recognize that our theory is future looking, and that the concept of HS will become more relevant as the use of surveillance increases, we also argue that the cyberized, totalized and thespianized worker is, to a considerable extent, already here.” (p. 14, "The Totally Surveilled Worker")
+- **OQ-jaser2024-08** (limitation (hand-check: was boundary_condition; the authors concede that the theory looks to a future that "after all may never materialize" (p. 14), a caveat on its status, not a condition they place outside the model); individual): “While we recognize that our theory is future looking, and that the concept of HS will become more relevant as the use of surveillance increases, we also argue that the cyberized, totalized and thespianized worker is, to a considerable extent, already here.” (p. 14, "The Totally Surveilled Worker")
 - **OQ-jaser2024-09** (boundary_condition; interaction): “We acknowledge that some liminal spaces remain for resistance, since while the technology aspires towards a totalitarian reach, it cannot fully achieve this, at least at present.” (p. 13, "Performative display")
 - **OQ-jaser2024-10** (boundary_condition; field): “Our theory recognizes that, despite the increase in the performance of consent and beyond the possibility of overt resistance to its immediate manifestations, much depends on the durability of the neoliberal ideological context in which HS is practised.” (pp. 16–17, "Resistance")
 - **OQ-jaser2024-11** (boundary_condition; individual): “It is beyond the scope of this paper to engage with the debate on whether these activities constitute resistance or represent more or less willing forms of compliance.” (p. 19, note 16)
@@ -547,6 +547,7 @@
 - **OQ-hinds2024-22** (explicit_question; individual): “What are the conditions under which progressive encapsulation leads to a loss of orientation for individuals” (p. 11, "Discussion")
 - **OQ-hinds2024-23** (future_research_call; multi-level): “we call for process theories on emerging technologies to complement variance theories on AI.” (p. 11, "Discussion")
 - **OQ-hinds2024-24** (invitation; multi-level): “we need 'prospective theorizing' with speculative vigor (e.g., Gümüsay & Reinecke, 2024)” (p. 12, "Discussion")
+- **OQ-hinds2024-25** (future_research_call; interaction): “We need theorizing that captures what shapes team participants' dynamic relations with AI to coordinate their work.” (p. 8, "Team coordination")
 
 ## Krautzberger & Tuckermann (2024). Navigating Both/And and Either/Or Approaches in Response
 `krautzberger2024` · 5(4) · theory
@@ -932,11 +933,11 @@
 - **OQ-porsfelt2026-09** (future_research_call; multi-level): “These promising avenues for future inquiry include exploration of (i) the layered pragmatics of images as they travel and acquire meaning, (ii) everyday forms of imaginative detachment and return, and (iii) enacted practices of collective imagination” (p. 26, "Moving Forward")
 
 ## Schoeneborn, D., Dobusch, L., & Seidl, D. (2026). Toward a Theory of Organizationality: A 
-`schoeneborn2026` · 7(3) · theory
+`schoeneborn2026` · 7(3) · theory · exchange `v6i4-organizationality`
 
 - **OQ-schoeneborn2026-01** (invitation; multi-level): “we provide the field of organization theory with a research agenda for further exploring such practices and their dynamic interplay in constituting organizationality over time.” (p. 3, "Introduction")
 - **OQ-schoeneborn2026-02** (invitation; field): “To further advance this approach and enable cumulative knowledge development, it is first necessary to clarify and agree on its conceptual foundations. Only by doing so can a cumulative research program on organizationality take shape.” (pp. 4–5, "Collective Actorhood as a Defining Criterion of Organizationality")
-- **OQ-schoeneborn2026-03** (explicit_question; field): “Our framework then raises follow-up questions, for instance, how loose and fluid social phenomena can sustain their existence despite a rather low degree of organizationality.” (p. 13, "Dynamizing Organizationality")
+- **OQ-schoeneborn2026-03** (explicit_question; organization): “Our framework then raises follow-up questions, for instance, how loose and fluid social phenomena can sustain their existence despite a rather low degree of organizationality.” (p. 13, "Dynamizing Organizationality")
 - **OQ-schoeneborn2026-04** (explicit_question; multi-level): “What are the different (explicit or implicit) motivations for charging collectives with or discharging them of collective actorhood?” (p. 14, "Conclusion and Research Agenda")
 - **OQ-schoeneborn2026-05** (explicit_question; field): “The second question is whether there are any typical temporal patterns related to charging collectives with or discharging them of actorhood.” (p. 14, "Conclusion and Research Agenda")
 - **OQ-schoeneborn2026-06** (explicit_question; multi-level): “What does the recurrent charging or discharging of a collective social address with actorhood imply for individual as opposed to collective responsibility?” (p. 14, "Conclusion and Research Agenda")

@@ -14,7 +14,7 @@ read_depth: full_vor
 object_read: "scherer2023.pdf sha256 d976d10c33a1e93b67dc6d812eee61ea5c789ea0d69da5c5c6a8ec0d7227f90d"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: distributed
 topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 2, platforms: 1, coordination: 0, communication: 2, literacy_competence: 2, evaluation_accountability: 2}
 run: ot-oq-2026-11
@@ -39,6 +39,7 @@ The authors argue that the loss of autonomy documented in critiques of surveilla
 | Surveillance capitalism | "‘new form of information capitalism [that] aims to predict and modify human behavior as a means to produce revenue and market control’" (p. 4, "Surveillance Capitalism: An Evaluation Of Zuboff's Critique") | Borrowed (Zuboff, 2015) |
 | Public reason | "the individual's exercise of reason for collective benefit, and in relation with, other individuals" (p. 6, same section) | Borrowed (Kantian), defined here |
 | Infantilization | "patterns that induce subordination of individuals' judgement to external judgement by systems, algorithms and/or machines that ‘know better’" (p. 6, "Organized Immaturity in Surveillance Capitalism: Emerging Patterns") | Coined |
+| Reductionism | "patterns that reduce individual human complexity to datafiable and commodifiable information" (p. 6, same section) | Coined (row added at hand-check; the reader defined two of the three patterns) |
 | Totalization | "those patterns that extend datafication and surveillance processes to all aspects of an individual's life" (p. 6, same section) | Coined |
 | Introspective maturity | "As all three principles refer to an individual's ability to engage in independent reflective thinking (or introspection), we may refer to this kind of ability as introspective maturity." (p. 10, "Kant's mentalist conception of (im)maturity") | Coined label for Kantian principles |
 | Socialized maturity | "The post-conventional judgement abilities characterize what, in contrast with Kantian introspection, may be called socialized maturity." (p. 14, "Habermas's communicative conditions...") | Coined label for Habermasian principles |
@@ -110,7 +111,7 @@ The authors argue that the loss of autonomy documented in critiques of surveilla
 
 ### OQ-scherer2023-09
 - Quote: "We appreciate that achieving favourable communicative conditions for organized maturity against totalization is not easy – and it is likely to become even harder as surveillance capitalism shapes different ‘consciousnesses’ across generations" (p. 19, "Counteracting totalization")
-- Form: boundary_condition
+- Form: limitation (hand-check: was boundary_condition; the authors concede a difficulty for their own remedy and do not place generational change outside their model)
 - Scope: generational change in consciousness under surveillance capitalism
 - Addressee: scholars and citizens pursuing countermeasures
 - Level of analysis: field
@@ -133,12 +134,7 @@ The authors argue that the loss of autonomy documented in critiques of surveilla
 - Paraphrase: Working organizations are put forward as sites for learning and testing democratic norms. (reader's paraphrase)
 
 ### OQ-scherer2023-12
-- Quote: "We argue that, without a culture of Enlightenment as common practice of maturity and resistance to organized immaturity ... Zuboff’s (2022) call for an institutional revolution to abolish surveillance capitalism will remain mere utopia." (p. 21, "Making Zuboff’s Project Possible")
-- Form: boundary_condition
-- Scope: preconditions of Zuboff's institutional program
-- Addressee: critics of surveillance capitalism
-- Level of analysis: multi-level
-- Paraphrase: Institutional reform against surveillance capitalism depends on a prior culture of maturity. (reader's paraphrase)
+- Removed at hand-check: the sentence is the article's thesis, a precondition the authors assert for Zuboff's programme. It asks nothing and calls for nothing, and it bounds another author's project from inside the authors' own model, so it is not a boundary condition under the run's ruling (only conditions the authors place outside their model count). The calls it implies are OQ-04 and OQ-13. Former quote: "We argue that, without a culture of Enlightenment as common practice of maturity and resistance to organized immaturity ... Zuboff’s (2022) call for an institutional revolution to abolish surveillance capitalism will remain mere utopia." (p. 21, "Making Zuboff’s Project Possible"). Listed under Not counted.
 
 ### OQ-scherer2023-13
 - Quote: "Organization theory and business ethics have a crucial role to play in advancing our understanding of how individual and collective human action can be further organized to foster the communicative conditions needed for mature citizens" (p. 21, "Conclusion")
@@ -155,7 +151,7 @@ The authors argue that the loss of autonomy documented in critiques of surveilla
 
 ## Topic flags
 - triads_third_parties: 1 — "this capacity to influence individual and collective behaviours can be economized and sold to third parties without the targets' awareness" (p. 7, "Reductionism")
-- intermediaries: 1 — "an elusive interlocutor, with ill-defined responsibilities and unclear public accountability" (p. 16, "Counteracting Organized Immaturity")
+- intermediaries: 1 — "individuals are targeted by algorithms that aim to predict and control their behaviour to serve the interests of opaque authorities" (p. 13, "Habermas's communicative conditions...", on technology-mediated communication such as social media) (quotation replaced at hand-check; the reader's quotation, "an elusive interlocutor" (p. 16), casts the system as a counterpart in dialogue, not as a party between parties)
 - algorithms_ai: 2 — "But the rise of algorithms and intelligent machines in the governance space takes challenges to democracy and individual autonomy as we know it to a new level" (p. 16, "Counteracting Organized Immaturity")
 - platforms: 1 — "The first stage (voluntary submission) is illustrated by the advent of IT and social media platforms such as, respectively, Google and Facebook, to which users deliberately subscribe" (p. 8, "Totalization")
 - coordination: 0
@@ -170,6 +166,7 @@ The authors argue that the loss of autonomy documented in critiques of surveilla
 - Quote self-check: OQ-04 reports ends-only; the only break is the printed page number "7" that the extraction inserts mid-sentence. The quote is verbatim.
 - Note 1 says Kant (1784) quotations are the authors' own translations.
 - Not counted: p. 3, the stated need to "further theorize and apply countermeasures" (taken up in this paper's own text); p. 6, the call to "take a closer look" at immaturity-inducing patterns (answered in the next section); p. 13, the need "to explore the essential communicative conditions" (answered via Habermas's reconstruction of Kohlberg); p. 2, Zuboff's "who decides who decides" questions, quoted as description, not posed as research questions); p. 20 recommendations on journalism codes, alternative platforms, stakeholder dialogues and NGO-led movements (practical recommendations listed within the countermeasure programme; OQ-11 and OQ-13 stand for them).
+- Not counted (added at hand-check; paraphrased to keep within the quotation cap): p. 2, the statement that organized immaturity needs careful examination, together with the role of organizations and organizing in promoting or inhibiting it (the article takes this up; OQ-13 carries what remains); pp. 2–3, two gap statements (critical organizational analysis has yet to catch up; theoretical foundations for the critique are yet to be established) lead into OQ-02; p. 14, the admission that the challenge is significant is the same concession as OQ-09; p. 21, the thesis sentence formerly recorded as OQ-12.
 
 ## Verification
 - Verifier: claude-opus-5-5, 2026-11-22
@@ -182,7 +179,14 @@ The authors argue that the loss of autonomy documented in critiques of surveilla
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- OQ-scherer2023-13: A=2 B=1 → final 2. The article's construct is a communicative capacity that opaque socio-technological systems erode, which sits beside the brief's capacity for working through such a system, so a paper on algorithmacy could cite the call; it answers none of it, because the call asks how to organize action for democratic deliberation, and the authors' remedy is to step outside the systems (skills "independent of digital assistance", p. 18), where the brief describes competence inside them.
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: (1) Key constructs: Reductionism row added, the third of the article's three patterns. (2) Topic flags: the intermediaries quotation is replaced with the p. 13 passage on technology-mediated communication; the score is unchanged. (3) Not counted: four items added (pp. 2, 2–3, 14, 21). All other quotations (12 remaining OQs, eight original constructs, seven flags, three implicit openings) match the version of record at their locators; the p. 21 column order is as the Caution describes.
+- OQs added / removed / reclassified: removed OQ-scherer2023-12 (the article's thesis, not a question or a call); reclassified OQ-scherer2023-09 from boundary_condition to limitation. OQ-10 stays `boundary_condition` (states that are not rule-of-law democracies lie outside the framework's legal remedies). OQ-01 and OQ-03 stay `own_research_question`. OQ-06 and OQ-07 are practical recommendations of the same kind as the p. 20 items left uncounted; they stay as invitations because the text words them as calls.
+- Flags changed: none in score; intermediaries quotation replaced. evaluation_accountability stays at 2, as the lead accepted (accountability of impersonal systems recurs on pp. 4, 9, 16, 19 and 21).
+- Fit adjudications: 1 line; disagreements resolved: 1 (OQ-13, a one-point gap, settled at the higher score)
+- Exchange set: `exchange_id: none` confirmed. The article answers Zuboff (2022, *Organization Theory* 3(3)), which predates the corpus, and it names no corpus article.
+- Verdict: indexed_with_corrections

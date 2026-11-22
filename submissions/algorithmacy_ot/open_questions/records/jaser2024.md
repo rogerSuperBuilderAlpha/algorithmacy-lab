@@ -14,7 +14,7 @@ read_depth: full_vor
 object_read: "jaser2024.pdf sha256 c7b102eb89260764e332c08e5d440ba5f43b062ca8162382b6ec8cd89e01e7bf"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 2, platforms: 1, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 2}
 run: ot-oq-2026-11
@@ -101,7 +101,7 @@ Opening with the Royal Mail "Outdoor Actuals" PDA tracking system, agreed with t
 
 ### OQ-jaser2024-08
 - Quote: "While we recognize that our theory is future looking, and that the concept of HS will become more relevant as the use of surveillance increases, we also argue that the cyberized, totalized and thespianized worker is, to a considerable extent, already here." (p. 14, "The Totally Surveilled Worker")
-- Form: boundary_condition
+- Form: limitation (hand-check: was boundary_condition; the authors concede that the theory looks to a future that "after all may never materialize" (p. 14), a caveat on its status, not a condition they place outside the model)
 - Scope: temporal reach of the theory (future scenario versus present)
 - Addressee: readers; empirical researchers
 - Level of analysis: individual
@@ -153,6 +153,8 @@ Opening with the Royal Mail "Outdoor Actuals" PDA tracking system, agreed with t
 - Quote self-check: 11 quotes, 8 exact, 3 ends-only, 0 miss. The ends-only cases are page breaks (OQ-09 crosses the page number "13"; OQ-10 spans pp. 16–17) and a footnote marker "3" after "Adler-Bell & Miller, 2018)" omitted in OQ-01.
 - The intro's "rank them against their colleagues" testimony (p. 2) is the parliamentary chair's words, not the authors'.
 - Not counted: "Are you really telling us today, Mr Thompson, that is not true?" (p. 2) – quoted testimony, not an authorial question. "Current theories are not sufficient to explain its inescapability and its pervasiveness." (p. 10) – answered by the paper's turn to Gramsci. "it is impossible to say how much of this voluntariness was genuine and how much coerced" (p. 13) – declared not to matter for the theory. Mitigation suggestions such as Tomczak et al. (2018) (p. 16) – the authors dismiss them; recorded as an implicit opening. "It is not inevitable that HS will produce the dystopian environment ... But nor is it inevitable that it will not." (p. 17) – restates OQ-10. "Ultimately, resisting its dominance is a battle of ideas." (p. 17) – closing claim. Note 12 (p. 18) refers readers to debates on the panopticon as "not central to our argument" – a pointer to existing literature, not a call. (Verifier) The chair's earlier question "Mr Thompson, what are those yellow dots?" (p. 2) – quoted testimony. "Space remains for resistance." (p. 12) – a claim, carried as a boundary by OQ-09. The p. 9 sentence on a "private zone behind the curtain where the individual mind remains free" – a supposition the paper then rejects.
+- Not counted (added at hand-check; paraphrased to keep within the quotation cap): p. 3, the authors' concern that the dynamics behind the normalization of consent are insufficiently understood – the gap the paper sets out to fill, carried by OQ-01. p. 17, the sentence that human beings need to assert their own agency against technological systems – a normative claim of the same kind as the closing sentence on a battle of ideas.
+- Citation anomaly, recorded not adjudicated (hand-check): the text cites Sommers & Bohns (2018) on p. 12 and Sommers & Bohns (2019) on pp. 2 and 11; the reference list (p. 23) holds only the 2019 article.
 
 ## Verification
 - Verifier: claude-opus-5-5, 2026-11-22
@@ -165,7 +167,17 @@ Opening with the Royal Mail "Outdoor Actuals" PDA tracking system, agreed with t
 - Verdict: verified_with_corrections (Not-counted list only)
 
 ## Fit
-pending
+- OQ-jaser2024-11: A=2 B=0 → final 1. The note sets aside a labour-process debate about covert distancing from management, and the brief shares one word with it, compliance, so the contact is vocabulary and no more.
+  - The question in context (p. 16, "Resistance", and note 16, p. 19): "these activities" are "cynicism, gossip, foot-dragging, humour, nostalgia talk and the simulation of productivity", observed in call centres. The authors do not ask anyone to settle the debate. They place it outside the paper and state their own view, "resistance through distance" (Collinson, 1994).
+  - Why not A's 2: the brief holds no account of resistance, consent or control, so the "third reading" A proposes is A's extension of the brief, not the brief. The listed activities are ways of standing apart from management priorities; none is work done with a counterpart through an intermediary. Under hegemonic surveillance the system monitors the worker for the manager and binds no second party, so the triad is absent, as A's own caveat says. The debate's sources are Collinson (1994) and Ybema and Horvers (2017), which the article cites; the note adds no question of its own for a paper on algorithmacy to cite.
+  - Why not B's 0: the brief names its dyadic failure mode "pacifying the algorithm", the title phrase of Bucher et al. (2021), which the article cites for "anticipatory compliance" (p. 2). Compliance with a monitoring system is common vocabulary here, as it is for OQ-02 and OQ-09, which both scorers rated 1.
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: (1) OQ-08 reclassified (below). (2) Not counted: two items added (pp. 3, 17). (3) Caution: a citation anomaly noted (Sommers & Bohns, 2018 / 2019). All 11 OQ quotations, the eight construct quotations and the six flag quotations match the version of record at their locators; "What it argues" and the conversation section say what the text says.
+- OQs added / removed / reclassified: reclassified OQ-jaser2024-08 from boundary_condition to limitation. OQ-09 (spaces the technology cannot reach), OQ-10 (the theory holds while the neoliberal context lasts) and OQ-11 (a debate the authors place "beyond the scope of this paper") stay `boundary_condition`. OQ-01 stays `own_research_question`.
+- Flags changed: none. triads_third_parties stays at 1: the union's consent is a third party in passing, and the article does not theorize it.
+- Fit adjudications: 1 line; disagreements resolved: 1 (OQ-11, the run's one two-point gap, settled at 1 against both scorers)
+- Exchange set: `exchange_id: none` confirmed. The article and scherer2023 both theorize surveillance and both cite Zuboff (2022) and Power (2022); neither cites the other.
+- Verdict: indexed_with_corrections

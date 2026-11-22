@@ -14,9 +14,9 @@ read_depth: full_vor
 object_read: "suddaby2024.pdf sha256 ca544a7a903b0c0040b21271437da7f24dff9404b97ad531b05ecad04c87bbb2"
 reader_model: claude-opus-5-5
 verified: yes
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: distributed
-topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 1, platforms: 0, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 0}
+topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 1, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 0}
 run: ot-oq-2026-11
 ---
 
@@ -100,7 +100,7 @@ Suddaby critiques Abend's essay, book (2023) and article (2008) as a call for ac
 - platforms: 0
 - coordination: 0
 - communication: 1 — "The more likely one is that, despite Abend’s protests, clearly expressed constructs actually help social scientists talk to each other." (p. 5, "If Construct Clarity is so Bad, why is Abend so Good at it?")
-- literacy_competence: 0
+- literacy_competence: 1 — "We should never underestimate human ingenuity in countermanding totalitarianism, or purposely trying to confound governance by algorithm." (p. 7, "Whence Theory?") (hand-check: raised from 0; the closing paragraph names, in passing, a human ability exercised on algorithms, the one OQ-06 quotes)
 - evaluation_accountability: 0
 
 ## Caution
@@ -123,7 +123,13 @@ Suddaby critiques Abend's essay, book (2023) and article (2008) as a call for ac
 - Verdict: verified
 
 ## Fit
-pending
+- OQ-suddaby2024-06: A=1 B=2 → final 2. The sentence names a human ability exercised on how algorithms read behavior, which an algorithmacy paper could cite as an OT voice, but it is one closing line about resisting data-mined science, it sets a person against an algorithm with no counterpart, and it asks no question.
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: none to the argument, the constructs or the OQs (one flag raised, below). The argument, the exchange note (Abend named; Prasad not named; the abend2024 essay absent from the reference list), the four constructs and all six OQ quotations match the text.
+- OQs added / removed / reclassified: none (OQ-02 stays own_research_question; OQ-03 and OQ-05 stay boundary_condition)
+- Flags changed: literacy_competence 0 → 1 (p. 7, human ingenuity and ability against governance by algorithm, in passing)
+- Fit adjudications: 1 line; disagreements resolved: 1
+- Verdict: indexed_with_corrections

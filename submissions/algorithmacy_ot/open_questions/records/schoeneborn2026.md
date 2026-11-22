@@ -8,13 +8,13 @@ published_online: 2026-09-19
 band: window
 article_type_printed: "Theory Article"
 article_type_norm: theory
-exchange_id: none
+exchange_id: v6i4-organizationality
 license: CC BY-NC 4.0 (printed on p. 1; crossref license content-version "vor")
 read_depth: full_vor
 object_read: "schoeneborn2026.pdf sha256 ab7545f9dce90680d7f68e1e706b44e8110960957315615cfc973f63df8f2701"
-reader_model: Claude Opus 5.5 (claude-opus-5-5)
+reader_model: claude-opus-5-5
 verified: yes
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: question_list
 topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 0, platforms: 1, coordination: 0, communication: 2, literacy_competence: 0, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -29,6 +29,7 @@ Organization theory faces an "openness-specificity dilemma": a narrow, entity-ba
 - Positions against / extends: against narrow, entitative definitions and overly broad processual ones: "an overly narrow approach risks rendering organization studies irrelevant by failing to account for new organizational phenomena, an excessively broad view risks blurring the distinction between organization and sociality in general" (p. 1, "Abstract"). Extends Wilhoit and Kisselburgh's axial view, which does "not clarify the conceptual grounds on which such variations can be accounted for" (p. 4, "Organizationality as a 'Third-Way' Approach"), and responds to the critique that the approach is underdeveloped (Dion et al., 2025; p. 2, "Introduction").
 - Named interlocutors: Dobusch & Schoeneborn (2015); Wilhoit & Kisselburgh (2015); Grothe-Hammer (2019); Ahrne & Brunsson (2011) and Ahrne, Brunsson & Seidl (2016) on partial organization; King, Felin & Whetten (2010) on the organization as social actor; Dion, Cooren & Dupuis (2025); du Gay (2020) and du Gay & Vikkelsø (2016) on formal organization; Luhmann (2018) on initial conceptual distinctions; List & Pettit (2011) on group agency; Bromley & Sharkey (2017) on expanding actorhood.
 - OT articles it cites: Dion, Cooren & Dupuis (2025), "Organization theory and ontological claims: Working out tensions in CCO scholarship and organization studies"; Roulet & Pichler (2020), "Blame game theory: Scapegoating, whistleblowing and discursive struggles following accusations of organizational misconduct"; Winkler & Schoeneborn (2025), "The escalating dis/organization of post-truth communication".
+- Exchange set `v6i4-organizationality` (set at hand-check on the lead's instruction; TIERS.md lists the pair as X4): the article names the set's other member, Dion, Cooren & Dupuis (2025), four times. It reports their charge that the approach "risks relapsing into entitative notions of organization (Dion et al., 2025)" (p. 2, "Introduction"). It presents its attention to temporal dynamics (p. 9) and its processual account (p. 13, "Dynamizing Organizationality") as things Dion et al. called for, and it cites them on the ambiguities in the approach's foundations (p. 12). dion2025 appeared first and names only Schoeneborn and colleagues' earlier work (2014–2022), so the exchange runs critique, then reply.
 - Move: synthesis (typology of configurational, stage-based and axial logics) plus new conceptual framework (gradual collective actorhood; charging/discharging) and agenda-setting.
 
 ## Key constructs
@@ -54,7 +55,7 @@ Organization theory faces an "openness-specificity dilemma": a narrow, entity-ba
 ### OQ-schoeneborn2026-02
 - Quote: "To further advance this approach and enable cumulative knowledge development, it is first necessary to clarify and agree on its conceptual foundations. Only by doing so can a cumulative research program on organizationality take shape." (pp. 4–5, "Collective Actorhood as a Defining Criterion of Organizationality")
 - Form: invitation
-- Scope: conceptual foundations of the organizationality approach
+- Scope: conceptual foundations of the organizationality approach (hand-check: the paper supplies its own proposal for those foundations, pp. 5–6; agreement across the field stays open, so the call stays an OQ, as with skade2025 OQ-04 in DECISIONS)
 - Addressee: organizationality scholars
 - Level of analysis: field
 - Paraphrase: Scholars in this line must settle on shared foundations before a cumulative research program can form. (reader's paraphrase)
@@ -62,9 +63,9 @@ Organization theory faces an "openness-specificity dilemma": a narrow, entity-ba
 ### OQ-schoeneborn2026-03
 - Quote: "Our framework then raises follow-up questions, for instance, how loose and fluid social phenomena can sustain their existence despite a rather low degree of organizationality." (p. 13, "Dynamizing Organizationality")
 - Form: explicit_question
-- Scope: loose and fluid collectives (e.g., hacker collectives, protest movements)
+- Scope: loose and fluid collectives (e.g., hacker collectives, protest movements) (hand-check: the next two sentences sketch an answer, that such collectives must evoke collective actorhood at least occasionally, p. 13; the question stays partly open. Level changed from field at hand-check, since the question concerns how a collective persists)
 - Addressee: organizationality researchers
-- Level of analysis: field
+- Level of analysis: organization
 - Paraphrase: How do collectives with little organizationality persist over time? (reader's paraphrase)
 
 ### OQ-schoeneborn2026-04
@@ -159,7 +160,12 @@ Organization theory faces an "openness-specificity dilemma": a narrow, entity-ba
 - Verdict: verified
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: exchange_id none → v6i4-organizationality, with an exchange note added (the article cites dion2025 at pp. 2, 9, 12 and 13); reader_model normalized to the model id; OQ-03 level field → organization; scope notes on OQ-02 and OQ-03. The argument, the seven constructs and all ten OQ quotations match the text.
+- OQs added / removed / reclassified: none
+- Flags changed: none
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Verdict: indexed_with_corrections

@@ -14,7 +14,7 @@ read_depth: full_vor
 object_read: "hinds2024.pdf sha256 672412ee8bf6068c05e1342730a30f6c1e1602c935decfbe77e01e3d091667db"
 reader_model: Claude Opus 5.5 (claude-opus-5-5)
 verified: yes
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: question_list
 topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 2, platforms: 1, coordination: 2, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -81,7 +81,7 @@ The authors extend Bailey et al.'s (2022) relational view of technology, which s
 - Scope: formal and informal coordination of team interdependencies
 - Addressee: coordination theorists
 - Level of analysis: interaction
-- Paraphrase: Which parts of formal and informal coordination will GenAI encapsulate? The authors add that theory must capture what shapes members' dynamic relations with AI. (reader's paraphrase)
+- Paraphrase: Which parts of formal and informal coordination will GenAI encapsulate? (reader's paraphrase; the hand-check moved its second sentence, on theory of members' relations with AI, to OQ-25)
 
 ### OQ-hinds2024-06
 - Quote: "how such twins fare when coordination needs to change due to increasing uncertainty, new glitches, or crises" (p. 8, "Team coordination")
@@ -235,6 +235,14 @@ The authors extend Bailey et al.'s (2022) relational view of technology, which s
 - Level of analysis: multi-level
 - Paraphrase: Against scholars who would avoid researching a fast-changing technology, the authors invite more speculative, future-oriented theorizing on GenAI. (reader's paraphrase)
 
+### OQ-hinds2024-25
+- Quote: "We need theorizing that captures what shapes team participants' dynamic relations with AI to coordinate their work." (p. 8, "Team coordination")
+- Form: future_research_call
+- Scope: what shapes team members' relations with GenAI, and with one another, as coordination practices are encapsulated
+- Addressee: coordination and team theorists
+- Level of analysis: interaction
+- Paraphrase: Theory should capture what shapes team members' changing relations with the AI as they coordinate their work; the next sentence has participants who "dynamically relate to the AI and other team members" (p. 8, "Team coordination"). (hand-checker's paraphrase) (added at hand-check; the reader had folded this call into OQ-05's paraphrase, and it asks for something OQ-05 does not)
+
 ## Implicit openings
 - The authors call encapsulation "a relational accomplishment" and conjecture that users find it "increasingly convenient to accept these services in exchange for more task-related data and support" (pp. 5–6, "Generative AI and Progressive Encapsulation"). The users' own part in driving encapsulation is stated but not developed into a question. (reader's inference)
 - The theme-park example describes GenAI forming relations with customers, stores and rides (p. 4, "A Relational Perspective on Generative AI"), yet the illustration and research questions stay with teams inside organizations. Encapsulation in relations that cross organizational boundaries remains open. (reader's inference)
@@ -242,7 +250,7 @@ The authors extend Bailey et al.'s (2022) relational view of technology, which s
 
 ## Topic flags
 - triads_third_parties: 1. "GenAI may be ideally placed to broker human resources, physical resources" (p. 9, "Team coordination")
-- intermediaries: 1. "The GenAI sits at the center of these relations." (p. 4, "A Relational Perspective on Generative AI")
+- intermediaries: 1. "The GenAI sits at the center of these relations." (p. 4, "A Relational Perspective on Generative AI") In the brokerage passage it stands between two parties: "GenAI may reduce the level of conflict between resource holders and resource takers" (p. 9, "Team coordination"). (second quotation added at hand-check)
 - algorithms_ai: 2. "We argue that this encapsulation is key to theorizing about the role of GenAI in organizations and organizing." (p. 2, "Introduction")
 - platforms: 1. "Cameron (2021), for example, describes how ride-sharing drivers play games with the algorithm in order to achieve their goals." (p. 4, "A Relational Perspective on Generative AI")
 - coordination: 2. "we examine implications for theorizing about team coordination." (p. 6, "Implications for Theory through the Illustration Team Coordination")
@@ -259,6 +267,7 @@ The authors extend Bailey et al.'s (2022) relational view of technology, which s
 - The back matter states both that the authors received grant support (Declaration of conflicting interests) and that they "received no financial support" (Funding), p. 12. Recorded, not resolved.
 - closing_form: the Discussion holds the five-domain question list, but many questions also sit in the "Team coordination" section (pp. 7–9). The questions are therefore partly distributed.
 - Several original passages run across page breaks (e.g., pp. 5–6 "increasingly / convenient"); quotations were checked against a reading-order text extraction (pdftotext) of the PDF, ignoring running headers and page numbers.
+- Not counted (hand-check): pp. 5 and 6 "raise critically important questions of how GenAI progressively begins to encapsulate functions and relations" names the article's own subject; p. 6 "we need a theoretical apparatus to understand the importance of this process" opens the passage OQ-02 quotes; p. 8 "we might want to theorize the constellation of functions being performed by the GenAI" is the authors' route to OQ-04 and is folded there; p. 9 "provide a starting point for further theory development" is folded into OQ-10.
 - Not counted (verifier's recall sweep): p. 1 "invites us, as organizational scholars, to evaluate the sufficiency of our existing theories" frames the essay's own task; pp. 9–10 "it remains unclear how" states the gap the article itself takes up; p. 10 "needs refinement in future work" is the sentence that opens OQ-12; p. 12 "so why bother?" is a rhetorical question the authors answer; pp. 13–14 question marks are reference titles. Sub-questions folded into existing OQs rather than counted separately: p. 8 "less necessary" (OQ-04); p. 8 "To what extent are the emergence of such mental models" (OQ-08); p. 10 "alternative sources of power" (OQ-13); p. 10 "How do the relations between sources of data", "Do hitherto marginalized", "Or does the largely impersonal coordination" (OQ-15); p. 11 "hyper-specialization" and "amalgamate" (OQ-17); p. 11 "how can GenAI become a valuable idea source" (OQ-18); p. 11 "What alternative sources of power emerge if knowledge confers less power?" (OQ-20). (added by verifier)
 
 ## Verification
@@ -272,7 +281,33 @@ The authors extend Bailey et al.'s (2022) relational view of technology, which s
 - Verdict: verified
 
 ## Fit
-pending
+- OQ-hinds2024-01: A=2 B=1 → final 1. The call asks researchers for a process theory that maps the technology's relations and functions at input and at output; the algorithmacy cycle resembles that mapping from the participant's side, which is an analogy and no part of the theory the authors ask for.
+- OQ-hinds2024-03: A=2 B=2 → final 2. If GenAI absorbs informal coordination, team members work with one another through it, which is the setting algorithmacy describes, but the question asks about cohesion, psychological safety and conflict, team outcomes the brief does not predict.
+- OQ-hinds2024-04: A=3 B=3 → final 3. Blind following is the brief's first failure mode, the member treating the system as the counterpart, so algorithmacy says when the first horn of the question holds and names the capacity that keeps the interdependence; it needs a change of scope.
+  - Why 3: the question is open in the text (the authors pose both horns and answer neither), it sits at the brief's level (a member's conduct in an interaction with colleagues), and the passage supplies the three positions. GenAI deduces each specialist's needs and turns them into statements that "prompt each participant to reflect on their work as it relates to the activities of other participants" (p. 7). It stands between interdependent colleagues, it is opaque by the article's own concept, and it adapts as it learns. A member who takes those prompts as instructions from a machine has dropped the colleague from view. That is the collapse the brief names, and its three parts describe the member who does not collapse.
+  - What a hostile reader says: (a) The answer renames the mechanism the question already proposes ("because team members blindly follow guidance from the AI", p. 7); what algorithmacy adds is the counterpart who drops from view and the capacity that prevents it. (b) The brief's intermediary "evaluates and binds" both parties, and its failure mode, "pacifying the algorithm", is appeasing an evaluator. Here the GenAI issues guidance, and nothing in the passage says it evaluates the members or binds them. Elsewhere in the article GenAI does evaluate and allocate (job assignments and pay, p. 4; hiring, p. 6; resources between teams, p. 9). (c) The second horn asks whether emergent interdependence becomes "less necessary" (p. 8); algorithmacy presupposes interdependent work and does not show that it stays needed. (d) Emergent interdependence is Mayo's construct for a core team and its shifting periphery, and the brief speaks of single members.
+  - Change needed: scope, from an intermediary that evaluates and binds to one that guides coordination. With that change the answer covers the first horn only.
+- OQ-hinds2024-05: A=2 B=2 → final 1. Against both scorers: each answer addresses the follow-on call, which I split out as OQ-25; the quoted question asks which parts of coordination GenAI will encapsulate, and on that algorithmacy is silent.
+- OQ-hinds2024-06: A=2 B=1 → final 1. The question asks how the system's digital twin fares when coordination needs change; keeping track has a person following a changing rule, and this question is about the system's performance.
+- OQ-hinds2024-07: A=2 B=2 → final 2. The deskilling paradox suggests that encapsulating some practices moves demand toward working through the system, which bears on what teams can still evolve, but the question concerns a team's capacity in crises and the brief's construct is individual.
+- OQ-hinds2024-08: A=2 B=2 → final 2. Specifying intent restores shared understanding, the condition collective mental models rest on, when encapsulation hides coordination practices from members; the brief gives no account of how one person's capacity adds up to heedful interrelating in a high-reliability team.
+- OQ-hinds2024-09: A=1 B=2 → final 1. The question follows from GenAI that may "propose novel team compositions" and rearrange boundaries (p. 9), so it concerns membership, which the triad does not address.
+- OQ-hinds2024-10: A=2 B=2 → final 2. The brokerage passage is the article's clearest three-party arrangement with a third that allocates (GenAI between "resource holders and resource takers", p. 9), and algorithmacy describes the people on either side, but the call asks for theory of GenAI's relation to resource holders and of power and identity around brokerage.
+- OQ-hinds2024-16: A=2 B=2 → final 2. The deskilling paradox gives one shape the division of labor could take; the brief states it for the co-opted person on platforms, and the question asks about organizations.
+- OQ-hinds2024-17: A=3 B=3 → final 2. Against both scorers: the question fixes its axis (general versus specialized tasks) and the deskilling paradox answers on another, so it fits no better than it fits OQ-16, which both scorers put at 2 on the same content.
+  - The question in context (pp. 10–11, "Discussion"): it is the second of three sub-questions under OQ-16, and a third option already follows it ("Or will these patterns of division of labor amalgamate?", p. 11). Its second horn already leaves people the relational general tasks: members "increasingly attend to general tasks, such as systems engineering, supplier negotiations, strategy, and leadership" (p. 11).
+  - Why not 3: both scorers present the relational residue as a third outcome. The second horn holds a version of that outcome already, and the relational demand the brief means is narrower: the work of reaching a counterpart through an intermediary. The question starts from organizations that "deploy GenAI for coordination purposes" (p. 11), but both horns turn on GenAI performing tasks (translation, accounting, R&D), and neither places it between two people, so the mechanism behind the paradox is absent. The answer would need two changes, of level (the person to the division of labor) and of scope (platform work to GenAI inside organizations). After both it still would not say which tasks go where. Scorer A's own caveat says as much: algorithmacy "changes the axis rather than picking a side".
+- OQ-hinds2024-20: A=1 B=2 → final 1. The brief makes no claim that the ability is a base of power or a condition for GenAI working well in multi-team systems; scorer B's link runs through an extension the brief does not contain.
+- OQ-hinds2024-21: A=2 B=2 → final 2. The question sits at the brief's level, the individual inside a new relational fabric, and differences in the ability could bear on a person's sense of control, but it asks for psychological responses and algorithmacy is a capacity.
+- OQ-hinds2024-22: A=1 B=2 → final 1. The authors gloss loss of orientation as "an unmaking of meaning at work" (p. 11), which makes it a question about meaning and not about following a rule that changes.
+- OQ-hinds2024-25: no S6 scores (added at hand-check) → final 2. Algorithmacy is one account of how members coordinate with one another through the AI, and a person's turns at the cycle are one thing that shapes the relation, but the call asks what conditions shape members' relations with the AI over time, and the brief offers no process account. Neither scorer rated this call on its own.
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: (1) OQ-05's paraphrase cut back to the quoted question; its second sentence is now OQ-25. (2) intermediaries: a second quotation (p. 9); the score stands. (3) Caution: four Not-counted sentences added (pp. 5–6, 6, 8, 9). I read all 14 pages. The 24 OQ quotations, the seven construct definitions and the flag quotations match the text at their locators; the four checker misses are the hyphen, running-header and page-break cases the verifier listed.
+- OQs added / removed / reclassified: added OQ-hinds2024-25 (p. 8, future_research_call). No OQ is the paper's own research question: the article is a thought experiment and answers none of the questions it poses. The record holds no boundary_condition OQ, and I found none to add.
+- Flags changed: none. intermediaries stays at 1: GenAI stands between colleagues and between teams through the illustration (pp. 7–9), but the authors theorize it as absorbing relations ("minimize the relations between team members", p. 7), not as a party between parties. evaluation_accountability stays at 1 (evaluating employees, p. 4; hiring, p. 6).
+- Fit adjudications: 15 lines (14 scored at S6, plus OQ-25); disagreements resolved: 5 (OQ-01, OQ-06, OQ-09, OQ-20, OQ-22, each a one-point gap settled at the lower score). Against both scorers: OQ-05 (2 to 1, after the split) and OQ-17 (3 to 2).
+- Exchange set: `exchange_id: none` confirmed. The article cites two corpus articles (cornelissen2024, gumusay2024) and names no member of the 5(3) set; its one Orlikowski reference is Orlikowski (2000). friedrich2026 cites it.
+- Verdict: indexed_with_corrections

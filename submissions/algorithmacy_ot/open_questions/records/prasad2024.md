@@ -14,7 +14,7 @@ read_depth: full_vor
 object_read: "prasad2024.pdf sha256 77f6f6ac3f8fed830e9fe25bf115146b76d20479aeea6ec50fdb4d3ec5bc31c4"
 reader_model: claude-opus-5-5
 verified: yes
-hand_check: pending
+hand_check: indexed
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -130,7 +130,12 @@ Prasad responds to Abend's complaint that unresolved disagreement over words blo
 - Verdict: verified
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: none. The argument, the exchange note (Abend 2023 and 2024 named; Suddaby not named), the four constructs and all seven OQ quotations match the text.
+- OQs added / removed / reclassified: none (OQ-01, OQ-02 and OQ-05 stay own_research_question; OQ-03 and OQ-04 stay boundary_condition)
+- Flags changed: none
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Verdict: indexed

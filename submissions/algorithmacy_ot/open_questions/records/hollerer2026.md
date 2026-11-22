@@ -14,7 +14,7 @@ read_depth: full_vor
 object_read: "hollerer2026.pdf sha256 1286fd43336322a7817807ee8827057fb3274366fbb919426149a0f2b5d7a8f9"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 1, platforms: 0, coordination: 0, communication: 0, literacy_competence: 0, evaluation_accountability: 0}
 run: ot-oq-2026-11
@@ -29,6 +29,7 @@ The co-editors introduce a fourth section of the journal, "Catalysing & Crystall
 - Positions against / extends: extends the journal's founding position: "Organization Theory is a multidisciplinary journal, firmly rooted in the social sciences, inspired by diversity and paradigmatic plurality and open to commentary and debate" (p. 2, "Introduction")
 - Named interlocutors: earlier OT editorials (Cornelissen & Höllerer, 2020; Cornelissen et al., 2021; Reinecke et al., 2022; Cornelissen et al., 2024); Reinecke et al. (2024) on interdisciplinary theorizing; the authors of past C&C exchanges cited as examples (entrepreneurial imagination; democratizing; key concepts; person-institutions).
 - OT articles it cites: Abend (2024), "Democratizing social scientists' words and distinctions"; Adler (2022), "Capitalism, socialism, and the climate crisis"; Battilana et al. (2022), "Democratizing work"; Chiles et al. (2021), "Mind, body, and soul"; Cornelissen & Höllerer (2020), "An open and inclusive space for theorizing"; Cornelissen, Höllerer & Seidl (2021), "What theory is and can be"; Cornelissen et al. (2024), "Large language models and the future of organization theory"; Grimes & Vogus (2021), "Inconceivable!"; Hawbaker & Hallett (2025), "Call it what you want, just not an institution"; Nigam, Amis & Logue (2025), "People as institutions"; Prasad (2024), "Disagreeing to agree"; Reinecke, Boxenbaum & Gehman (2022), "Impactful theory"; Robinson & Atanasova (2025), "The organizational ontology of person-institutions"; Sarasvathy (2021), "Even-if"; Suddaby (2024), "What theory is, what theory was".
+- Exchange sets it names (added at hand-check): as examples of controversy the editors cite the three pieces of `v5i4-abend` (Abend, 2024; Prasad, 2024; Suddaby, 2024), glossed as a debate on "how to decide as a scholarly community on key concepts for organizational research", and the three pieces of `v6i4-person-institutions` (Hawbaker & Hallett, 2025; Nigam et al., 2025; Robinson & Atanasova, 2025) (p. 3, "'Conversations & Controversies'"). The editorial belongs to neither set.
 - Move: agenda-setting editorial; announcement of a new journal section and its call.
 
 ## Key constructs
@@ -121,7 +122,12 @@ The co-editors introduce a fourth section of the journal, "Catalysing & Crystall
 - Verdict: verified_with_corrections (Not-counted list only)
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: none to existing content; one line added to "The conversation it joins" naming the two exchange sets the editors cite on p. 3. The argument, the 15 OT citations, the four constructs and all six OQ quotations match the text.
+- OQs added / removed / reclassified: none (all six stay editor_call)
+- Flags changed: none
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Verdict: indexed_with_corrections

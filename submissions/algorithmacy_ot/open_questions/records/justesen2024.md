@@ -14,16 +14,16 @@ read_depth: full_vor
 object_read: "justesen2024.pdf sha256 0904c37f02251f96834ac4d82ec22ff6493bbe35ca7299604fe200c1619bd307"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
-topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 2, platforms: 2, coordination: 1, communication: 0, literacy_competence: 1, evaluation_accountability: 1}
+topic_flags: {triads_third_parties: 1, intermediaries: 2, algorithms_ai: 2, platforms: 2, coordination: 1, communication: 0, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
 ---
 
 # Justesen, L., & Plesner, U. (2024). Invisible digi-work: Compensating, connecting, and cleaning in digitalized organizations.
 
 ## What it argues
-Research on digitalized organizations attends to what digital technologies enable and make visible (connectivity, automation, visibility), guided by spatial root metaphors of seamless, frictionless, illuminated digital space. Drawing on feminist STS and the concept of invisible work (work that is out of sight and devalued), the authors propose "invisible digi-work" as a corollary to Orlikowski and Scott's concept of digital work. They distinguish three types: connecting work (maintaining and repairing digital connections), compensating work (making up for shortcomings of technologies that promise more than they deliver) and cleaning work (removing digital waste, dirt or disturbing content). Using secondary empirical examples, they locate each type far from the core (platform microworkers), in and around the core (professionals, managers, self-employed) and supporting the core (technicians, data workers), with different mechanisms of invisibility and devaluation (Table 1). Devaluation mechanisms multiply with distance from the core. The paper closes with suggestions on temporal perspectives and methods. (reader's paraphrase)
+Research on digitalized organizations attends to what digital technologies enable and make visible (connectivity, automation, visibility), guided by spatial root metaphors of seamless, frictionless, illuminated digital space. Drawing on feminist STS and the concept of invisible work (work that is out of sight and devalued), the authors propose "invisible digi-work" as a corollary to Orlikowski and Scott's concept of digital work. They distinguish three types: connecting work (maintaining and repairing digital connections), compensating work (making up for shortcomings of technologies that promise more than they deliver) and cleaning work (removing digital waste, dirt or disturbing content). Using secondary examples, they locate each type far from the core (platform microworkers), in and around the core (professionals, managers, self-employed) and supporting the core (technicians, data workers), with different mechanisms of invisibility and devaluation (Table 1). Devaluation mechanisms multiply with distance from the core. It closes with suggestions on temporal perspectives and methods. (reader's paraphrase)
 
 ## The conversation it joins
 - Positions against / extends: "the literature on organization and digitalization has been disproportionately occupied with what is enabled or made visible in the digitalized organization" (p. 4, "Digital Work and Digitalized Organizations – attention to the core and the enabled")
@@ -50,6 +50,7 @@ Research on digitalized organizations attends to what digital technologies enabl
 - Addressee: organization scholars of digitalization
 - Level of analysis: organization
 - Paraphrase: Systematic knowledge of the work that keeps connected, automated organizations running is still missing; the paper offers a framework toward it. (reader's paraphrase)
+- Hand-check note: This sentence states the gap the paper itself takes up; its next sentence begins the framework. It stays an OQ because the paper supplies a vocabulary and secondary examples, not the systematic knowledge, and repeats the need for empirical study on p. 22 (OQ-11). (added at hand-check)
 
 ### OQ-justesen2024-02
 - Quote: "we suggest that future research could supplement this approach with a temporal perspective, conceptualization and metaphors" (p. 21, "Future research: Some suggestions")
@@ -194,7 +195,7 @@ Research on digitalized organizations attends to what digital technologies enabl
 
 ## Topic flags
 - triads_third_parties: 1. "Neither Emily nor the driver knows that their meeting hinges on another woman, two oceans away – perhaps her name is Ayesha." (p. 10, "Far from the core: Maintaining and repairing connectivity in the platform economy"; quoting Gray & Suri, 2019)
-- intermediaries: 1. "This study shows how technicians become 'middlemen' who perform largely invisible work to ensure that users stay connected to the grid." (p. 11, "Supporting the core: Mediating and linking digital elements")
+- intermediaries: 2 (raised from 1 at hand-check, under the lead's ruling on the V10 query). "This study shows how technicians become 'middlemen' who perform largely invisible work to ensure that users stay connected to the grid." (p. 11, "Supporting the core: Mediating and linking digital elements") Support workers who mediate hold one of the paper's three positions (supporting the core): beside the technicians stand documentation specialists who act as a "mediating bridge" (p. 12, "Supporting the core: Mediating and linking digital elements") and data staff with an "intermediary function" (p. 16, "Supporting the core: Cleaning datasets"). Far from the core, connecting work puts a hidden worker between rider and driver (pp. 10–11). These intermediaries are people working out of sight, not systems.
 - algorithms_ai: 2. "They help maintain the automation illusion by compensating for the fact that AI is often less artificial and less intelligent than we tend to assume" (p. 12, "Far from the core: Upholding the automation illusion")
 - platforms: 2. "Digital platforms are connective technologies (Kolb et al., 2020) par excellence, enabling contact and transactions between service providers and users." (p. 10, "Far from the core: Maintaining and repairing connectivity in the platform economy")
 - coordination: 1. "data must be worked on to create coherence across professional and organizational boundaries" (p. 12, "Supporting the core: Mediating and linking digital elements")
@@ -222,7 +223,21 @@ Research on digitalized organizations attends to what digital technologies enabl
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- OQ-justesen2024-01: A=2 B=2 → final 2. Interpreting, specifying intent and keeping track are unrecognized work that keeps automated, connected relations running, near what the authors call compensating work, but the call asks for systematic empirical knowledge of the work that maintains the organization's digital features, and algorithmacy is an ability that measures no one.
+- OQ-justesen2024-04: A=2 B=1 → final 1. The sentence offers a second way of observing the paper's own examples, as work before and after the core task that prepares and repairs the organization's digital features; the specify-then-interpret cycle shares that before-and-after shape and nothing else.
+- OQ-justesen2024-13: A=2 B=1 → final 2. The three parts of algorithmacy are unintended tasks and mental loads that digitalization places on people, so a paper can cite the call; the call itself asks for a fuller empirical accounting, which a theory article cannot give.
+- OQ-justesen2024-16: A=3 B=2 → final 2. The invitation treats the invisible as work that is out of sight and devalued, and note 1 excludes "the hidden operations of big tech companies" (p. 22) from the concept, so the brief's move from technical transparency to situated competence meets it only through a shared word and a change of genus, from ability to work.
+  - Why not A's 3: A's answer reads the system's opacity as a case of the authors' invisibility. Justesen and Plesner separate the two. Their sentence grants that "visibility is connected to opacity" (p. 21) and then turns to the invisible "in a particular sense" (p. 21), as work that is "distributed, practical and embodied" (p. 21); note 1 puts hidden corporate operations outside the concept. "Practical" here describes located, bodily work, and the brief says nothing of place or embodiment. A names the change the answer needs (recast algorithmacy as work), and the brief does not make that change.
+  - What a paper can still do: propose that exercising the ability is itself invisible digi-work, closest to compensating work. That would be a new claim for the paper to argue, not an answer the brief already holds.
+- All other OQs: final = max(A,B) ≤ 1 (OQ-18 is an own research question and scores x)
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: (1) What it argues: two words cut to meet the 150-word cap (it stood at 152); no claim changed. (2) OQ-01: a note that the sentence states the gap the paper itself takes up, and why it stays open. (3) Topic flags: intermediaries raised (below). I read all 26 pages. The 18 OQ quotations, the seven construct definitions and the flag quotations match the text at their locators; the three checker misses are page breaks. The eight OT citations match the reference list. Quoted words before `## Verification` now number 792 of the 800 allowed, so I paraphrased the two recall notes below instead of quoting them.
+- Recall: I read two further sentences and did not count them. On p. 7 the authors say different topographies of digital work need developing, and the paper develops them. On p. 8 they raise the question of for whom work is invisible and answer it in the same paragraph.
+- OQs added / removed / reclassified: none. OQ-18 stays own_research_question (the text after it answers it, pp. 17–18). OQ-17 stays boundary_condition: note 1 places secret operations outside the concept. OQ-14 and OQ-15 stay limitations.
+- Flags changed: intermediaries 1 → 2 (the lead's ruling on the V10 query; support workers who mediate hold one of the paper's three positions, pp. 11–12, 16, and a hidden worker stands between rider and driver, pp. 10–11). evaluation_accountability stays at 1 under the same ruling: devaluation is the social valuation of work, and customer reviews enter once (p. 15). algorithms_ai and platforms stay at 2.
+- Fit adjudications: 4 lines; disagreements resolved: 3 (OQ-04 and OQ-16 settled at the lower score, OQ-13 at the higher)
+- Exchange set: `exchange_id: none` confirmed. The article cites orlikowski2023, the anchor of the 5(3) set, and answers its call for work on the less visible effects of digitalization (pp. 4, 19–21). It replies to no one, and no other corpus text names it.
+- Note for synthesis: the article quotes Bucher et al. (2021) on workers' effort "aimed through direct and indirect practices at pacifying the algorithm" (p. 15) and files that effort under cleaning work, as labour the digitalized organization depends on. The brief uses the same phrase for its first failure mode. The two readings of one practice differ, and a paper that cites this article should say which it takes.
+- Verdict: indexed_with_corrections

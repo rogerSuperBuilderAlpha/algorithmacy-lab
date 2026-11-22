@@ -136,3 +136,18 @@ one OQ differs by 2 or more (jaser2024-11: A=2, B=0). Neither scorer gave a 4. A
 both gave 3 to stark2024-01, stark2024-06, hinds2024-04 and hinds2024-17. 38 OQs scored 2 or more from at
 least one scorer, and Fable adjudicates them at S7. Caveat: both scorers used the same brief, so their
 agreement measures the brief's reliability, not its validity. The S11 critics test validity.
+
+## 22 Nov 2026: S7 rulings (the lead)
+
+- **schoeneborn2026 exchange_id `v6i4-organizationality`.** The lead instructed this at H3, with TIERS X4
+  as the basis. Hand-check found the stronger basis: Schoeneborn et al. name Dion et al. (2025) four times
+  and list it in their references.
+- **schoeneborn2026 `evaluation_accountability`** stays at 1. Accusation and scapegoating attribute
+  actorhood; they do not evaluate performance.
+- **scherer2023-12 removed** at hand-check, because it states the thesis and asks nothing. The H2
+  reclassifications (scherer-09 and jaser-08 to `limitation`) are accepted.
+- **H1.** Final fit 3 holds for stark2024-06 and hinds2024-04 only. Fable lowered stark-01 and hinds-17
+  from 3/3 to 2, against both scorers, and gave reasons from the text. racker2024-05/06 stay as
+  `boundary_condition`. Quotations in Fit and Hand-check sections fall outside the 800-word cap, the same
+  as Verification. OQ-hinds2024-25 was added at hand-check, so it has no S6 scores; Fable's 2 stands, and
+  the S11 critics will test it with the rest.

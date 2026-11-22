@@ -14,7 +14,7 @@ read_depth: full_vor
 object_read: "abend2024.pdf sha256 08f87bb2035dff52d1df7f696646b35b1ad3aea99bcce9986a67ad3a98762a80"
 reader_model: claude-opus-5-5
 verified: yes
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 1, communication: 2, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -23,7 +23,7 @@ run: ot-oq-2026-11
 # Abend, G. (2024). Democratizing Social Scientists’ Words and Distinctions: Where and Why Moral Reasons Are Decisive.
 
 ## What it argues
-Abend, presenting his book Words and Distinctions for the Common Good, argues that social scientists should stop asking "what is F?" (what an organization, institution or capitalism is), because such questions have no truth to be found. How a key word is used and which distinctions are drawn are instead practical-reason questions, like a group of friends deciding what to cook for dinner. These choices are consequential for empirical claims, policy and careers, yet individual researchers treat them as theirs to make, which breeds incommensurable findings and lets powerful actors call the shots. Appeals to "usefulness" are elliptical: useful for what, to whom, at what cost? He therefore invites social science communities and their stakeholders to decide word uses, distinctions and decision procedures through equal, democratic deliberation aimed at the common good, with experts in an advisory role only. The piece is the lead essay of a set; it answers Prasad and Suddaby in passing and in a note. (reader's paraphrase)
+Abend, presenting his book Words and Distinctions for the Common Good, argues that social scientists should stop asking "what is F?" (what an organization, institution or capitalism is), because such questions have no truth to be found. How a key word is used and which distinctions are drawn are instead practical-reason questions, like a group of friends deciding what to cook for dinner. These choices are consequential for empirical claims, policy and careers, yet individual researchers treat them as theirs to make, which breeds incommensurable findings and lets powerful actors call the shots. Appeals to "usefulness" are elliptical: useful for what, to whom, at what cost? He therefore invites social science communities and their stakeholders to decide word uses, distinctions and decision procedures through equal, democratic deliberation aimed at the common good, with experts in an advisory role only. (reader's paraphrase)
 
 ## The conversation it joins
 - Positions against / extends: "In general, social scientists consider themselves entitled to define key words and draw distinctions as they see fit. [...] I think this state of affairs is infelicitous." (p. 7, "5. Democracy, Unfreedom, Usefulness")
@@ -118,7 +118,7 @@ Abend, presenting his book Words and Distinctions for the Common Good, argues th
 - coordination: 1 — "the community must make decisions about its practices and norms regarding word uses and distinctions" (p. 6, "4. What Experts Can’t Do")
 - communication: 2 — "Researchers and labs often talk past one another. Their findings aren’t commensurable." (p. 2, "1. Words And Distinctions Matter")
 - literacy_competence: 1 — "Yet, experts’ expertise doesn’t comprise what race really is." (p. 5, "4. What Experts Can’t Do")
-- evaluation_accountability: 1 — "there are numerous overlapping definitions, concepts, or conceptualizations of it, but no clear method and criteria to determine their relative worth." (p. 2, "1. Words And Distinctions Matter")
+- evaluation_accountability: 1 — "journal editors must accept and reject manuscripts, funding agencies must select grant and fellowship awardees, and recruitment committees must make job offers" (p. 5, "3. What’s At Stake") (hand-check: quotation replaced, score unchanged. The reader's quotation, from p. 2, concerned criteria for judging definitions, which DECISIONS excludes from this flag; this one shows people evaluated in practice.)
 
 ## Caution
 - Version: publisher's version of record (SAGE header, DOI, "Volume 5: 1–9" on p. 1). Printed pages match PDF pages 1–9; locators use printed pages.
@@ -140,7 +140,12 @@ Abend, presenting his book Words and Distinctions for the Common Good, argues th
 - Verdict: verified
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: "What it argues" cut from 159 words to 139, under the 150-word cap; the sentence removed (lead essay of a set; answers Prasad and Suddaby) repeats the exchange note. The argument, the exchange note (Prasad named on p. 3; Suddaby on p. 7 and in note 6; both thanked in note 1), the four constructs and all eight OQ quotations match the text.
+- OQs added / removed / reclassified: none (OQ-01 stays own_research_question; OQ-08 stays boundary_condition)
+- Flags changed: evaluation_accountability stays 1, with its quotation replaced (p. 2 to p. 5) under the DECISIONS ruling on the V06 query
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Verdict: indexed_with_corrections
