@@ -43,3 +43,13 @@
 | dion2025 | 6(4) | Organization Theory and Ontological Claims: Working out tensions in CC | https://journals.sagepub.com/doi/pdf/10.1177/26317877251404484 |
 | hollerer2026 | 7(2) | “Catalysing &amp; Crystallizing” and “Conversations &amp; Controversie | https://journals.sagepub.com/doi/pdf/10.1177/26317877261466261 |
 | corver2026 | 7(2) | Modeling Corporate Sustainability Change: A Deweyan Pragmatist Alterna | https://journals.sagepub.com/doi/pdf/10.1177/26317877261467772 |
+
+## Version of record wanted (a repository copy was read)
+
+| key | reason |
+|---|---|
+| derekrobinson2025 | accepted manuscript read; page numbers will not match the published article |
+
+| sasaki2024 | peer-review-stage manuscript read ("For Peer Review" watermark); wording may differ from the published article |
+
+Other repository copies are checked at S5; any that turn out to be accepted manuscripts are added here.
