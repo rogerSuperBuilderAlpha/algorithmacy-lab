@@ -63,3 +63,15 @@
 - **V04 queries.** All five defaults stand (hsu-07 as `own_research_question`; the phillips p. 5 paired
   question stays not counted; orlikowski `platforms: 1`; inner quotation marks rendered as single marks
   are acceptable; licence taken from Crossref). The Fable hand-check may revisit any of them.
+
+## 22 Nov 2026: the author's standing instruction
+
+The author connected Chrome and said: keep going, launch the reader batches, do not ask for approvals, get
+through the whole process, read all the papers carefully and compile all the open questions. Taken as:
+`ALGORITHMACY_BRIEF.md` is approved as written; the lead rules every query a stage raises and logs it
+here; the run continues to `REPORT.md` without stopping at gates other than Gate 1.
+
+- **S3 via Chrome.** PDFs fetched in the author's logged-in Chrome from the article page's own origin
+  (`/doi/pdf/<doi>?download=true`), one every 8 s, saved to `~/Downloads` as `otoq_<key>.pdf`, then moved
+  into the store by `work/register_downloads.sh`. Versions of record replaced the four manuscript copies
+  (kept as `<key>_repo.pdf`).
