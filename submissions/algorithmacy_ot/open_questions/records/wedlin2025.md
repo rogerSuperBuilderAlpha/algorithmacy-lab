@@ -14,7 +14,7 @@ read_depth: full_vor (publisher's version, pp. 1-21; printed pages equal pdf pag
 object_read: "wedlin2025.pdf sha256 591bd13cfe6194aa65703001df312739ada61c80b47b9dcbd7464d546697467f"
 reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 1, platforms: 1, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 2}
 run: ot-oq-2026-11
@@ -72,6 +72,7 @@ The authors treat hype as a process of translation that can alter or disrupt ins
 - Addressee: hype and translation researchers
 - Level of analysis: multi-level
 - Paraphrase: Accounts of hype should include a wider set of translators and enablers across fields. (reader's paraphrase)
+- Form note (hand-check): in context the sentence states the model's contribution to hype research, which has centred on entrepreneurs, and the model itself supplies the two actor categories. It stays a `future_research_call` on the skade2025-04 precedent, because the paper closes the gap only in part: the next paragraph says the model gives "specific means to understand, identify, and further theorize the agency and activities of a broader set of actors" (p. 17).
 
 ## Implicit openings
 - (reader's inference) The model's third phase turns on "a lack of competence to evaluate the newly rationalized pathway" (p. 16, "The integrative phase: Immunization"); who holds or lacks that competence, and how it could be built, is not examined.
@@ -104,7 +105,15 @@ The authors treat hype as a process of translation that can alter or disrupt ins
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- OQ-wedlin2025-01 and OQ-wedlin2025-02: `own_research_question`, so the score is x in both fit files and stays x.
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (pp. 1–3, the abstract and "Introduction"; pp. 14–17, "The integrative phase: Immunization", "The End of Hype?" and "Concluding Discussion"; every quotation read at its locator)
+- Corrections: one Form note on OQ-04; nothing else changed. The argument, both *Organization Theory* citations (the only two in the reference list, neither a corpus article), the five constructs, all four OQ quotations, the three implicit openings and the six flag quotations match the text at their locators. The three phase names (energizing, exploratory, integrative) come from Lawrence (2017), as the text says on p. 11; materialization, mobilization and immunization are the authors' labels.
+- OQs added / removed / reclassified: none. The own_research_question ruling already holds for both cases it covers. OQ-01 is the question the authors ask on p. 3 ("we ask"), and the Concluding Discussion answers it with the three mechanisms (p. 17). OQ-02 is a question the section "The End of Hype?" puts and answers in its next sentence (p. 16). The closing section holds one invitation (OQ-03) and one prescription (OQ-04), and I found no third.
+- Flags changed: none. evaluation_accountability stays at 2: the third phase of the model is a pathway's escape from "institutionalized evaluative accountability practices" (p. 11), and the section on it names accountability mechanisms, control and scrutiny throughout (pp. 15–16). intermediaries stays at 1: carriers, translators and enablers move a pathway from one field into another and lend it legitimacy, and they do not stand between two parties who deal with each other through them (the reading the lead gave for whyte2023). algorithms_ai stays at 1: AI is the running illustration (pp. 2, 13, 16) and never the subject.
+- Fit adjudications: 0 lines; disagreements resolved: 0. Both scorers gave 0 to OQ-03 and OQ-04, and I agree: both concern how hype moves across institutional fields.
+- For synthesis: the passage nearest the brief is not an OQ. The authors list "a lack of competence to evaluate the newly rationalized pathway" among the conditions that insulate a hyped pathway from scrutiny (p. 16; implicit opening 1). That competence belongs to those who would evaluate a technology at the level of a field. The brief's competence belongs to a person whom a system evaluates.
+- Exchange set: `exchange_id: none` confirmed. `EDGES.tsv` has no edge to or from this article.
+- Verdict: indexed_with_corrections

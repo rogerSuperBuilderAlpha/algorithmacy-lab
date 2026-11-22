@@ -14,7 +14,7 @@ read_depth: full_vor (publisher's version, 19 pages; printed pages 1-19 coincide
 object_read: "friesl2023.pdf sha256 efa1bced76361ad802325b56fe48dc233d0f1080fb7062be841eb1bfbb5bdc97"
 reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 2, communication: 1, literacy_competence: 1, evaluation_accountability: 2}
 run: ot-oq-2026-11
@@ -57,6 +57,7 @@ The article argues that research on participative and open strategy takes partic
 - Addressee: The authors, partly answered in the paper
 - Level of analysis: interaction
 - Paraphrase: Why do particular individuals choose to engage, and how far do strategy practices depend on who is present? The paper addresses the first part with the model and leaves the second to empirical work. (reader's paraphrase)
+- Hand-check note: The text says of both questions, "This paper therefore addresses these questions" (p. 13, same section), and its third implication takes up the second: how practices are enacted "is also influenced by the people present" (p. 14, same section). That the second is left to empirical work is the reader's inference; OQ-07 to OQ-09 carry the empirical calls. (added at hand-check)
 
 ### OQ-friesl2023-03
 - Quote: "Unveiling the social processes underpinning self-selection allows future research to study why certain actors participate in open strategy or why they abstain from doing so." (p. 13, "Discussion and Theoretical Implications")
@@ -84,7 +85,7 @@ The article argues that research on participative and open strategy takes partic
 
 ### OQ-friesl2023-06
 - Quote: "This realization renders selfselection an important theoretical boundary condition for empirical studies investigating strategizing practices." (p. 14, "Discussion and Theoretical Implications")
-- Form: boundary_condition
+- Form: future_research_call (hand-check: was boundary_condition; the condition falls on other researchers' studies, not on the authors' model, and the sentence before it states the call: "we need to acknowledge" the "self-selection dynamics that gave rise to a particular trajectory of participation", p. 14)
 - Scope: Empirical studies of strategizing practices
 - Addressee: Strategy-as-practice researchers
 - Level of analysis: interaction
@@ -132,6 +133,7 @@ The article argues that research on participative and open strategy takes partic
 - Version of record, pagination 1-19 matches pdf pages. Figure 1 is not extractable as text; the model is taken from the running text.
 - Source typos are preserved in quotes where used ("selfselection", the checker normalizes punctuation only). The extraction runs "selfselection" together at a line break in OQ-06.
 - Not counted: "key questions remain: Why those individuals? What made" (p. 12), whose second half is recorded as OQ-02 (the quote is split by a page break); "what are the social processes that influence why certain actors become involved in strategy making and what are the participatory implications for strategy work?" (p. 4) and "why do actors get involved in strategy making in the first place?" (p. 3), both restatements of OQ-01 that the paper answers; "Yet, how do shifts in self-selection dynamics occur in strategy work?" (p. 10) and "how does the selection context come to bear on individual choices to participate in such events?" (p. 7), both questions the paper's theory answers in the following paragraphs and are signposts rather than research gaps. (added by verifier) The opening question "How is strategy work coordinated and accomplished?" (p. 2) frames the paper and is answered by it; the p. 4 and p. 5 statements that self-selection "remains an implicit phenomenon" and "remains poorly understood" are the gap the paper itself fills; the p. 15 question “why do firms differ?” is a classic question cited (Nelson, 1991) as a payoff, not posed as new work.
+- Not counted (hand-check): "The conceptual ideas developed in this paper therefore have the potential to inform future empirical research on self-selection" (p. 15) is the lead-in to OQ-07. "Yet, we forget to consider under which circumstances this might be the case" (p. 13) raises a question the authors go on to answer with their managed and unmanaged contexts.
 
 ## Verification
 - Verifier: claude-opus-5-5, 2026-11-22
@@ -144,7 +146,13 @@ The article argues that research on participative and open strategy takes partic
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; both scorers rated every open OQ 0. Read: pp. 1–4, pp. 12–15, and every quotation at its locator on pp. 5–11)
+- Corrections: (1) OQ-06 reclassified (below). (2) A note on OQ-02's paraphrase. (3) One Not-counted line added. The argument, the conversation (two OT citations, Cloutier & Langley 2020 and Kornberger & Mantere 2020, reference list pp. 16–17), the six constructs and all nine OQ quotations match the text at their locators.
+- OQs added / removed / reclassified: reclassified OQ-06 from boundary_condition to future_research_call. The authors use the words "boundary condition", but the condition bounds other researchers' findings about strategizing practices. Under the run's ruling a boundary condition is one the authors place outside their own model (DECISIONS, V11 query 4; the werner2026-07 precedent at H5). OQ-01 and OQ-02 stay `own_research_question`. None added, none removed.
+- Flags changed: none. coordination stays at 2: the article opens on "How is strategy work coordinated and accomplished?" (p. 2) and closes on self-selection as "the coordinating force" beside hierarchy (p. 14). evaluation_accountability stays at 2 under the lead's ruling on the V09 query. For the lead: "moral evaluating" is an actor's judgement of the rules of participation (p. 3), and it evaluates no person or organization. On the reading of the flag in the ruling on the V06 query it would be a 1, as accusation was for schoeneborn2026.
+- Fit adjudications: 0 lines; disagreements resolved: 0. Both scorers gave 0, and scorer A's notes give the reason: the article treats coordination with no intermediary. I agree. Self-selection coordinates by people opting in under rules of participation, and nothing stands between them and evaluates them.
+- Exchange set: `exchange_id: none` confirmed. Both OT articles it cites predate the corpus. `EDGES.tsv` lists one corpus article citing this one (langenmayr2024).
+- Verdict: indexed_with_corrections

@@ -14,7 +14,7 @@ read_depth: full_vor (publisher's version, 20 pages; printed pages 1-20 coincide
 object_read: "jackwerthrice2023.pdf sha256 9568c248a84abebc0e7cb7f8319dd030631861b62761615ee9f3534bcd253601"
 reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: distributed
 topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 0, platforms: 1, coordination: 0, communication: 1, literacy_competence: 2, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -75,7 +75,7 @@ The article asks which resources institutional entrepreneurs (IEs) use, and show
 
 ### OQ-jackwerthrice2023-05
 - Quote: "it remains an open question to what degree IEs’ structural embeddedness influences their ability to mobilize resources during different stages of institutional entrepreneurship" (p. 15, "Discussion and Conclusion")
-- Form: future_research_call
+- Form: explicit_question (hand-check: was future_research_call; the text calls it "an open question", and the record classes the like sentence in OQ-02 as an explicit question)
 - Scope: Stages of institutional entrepreneurship (envisioning change, overcoming resistance, diffusing change)
 - Addressee: Institutional entrepreneurship researchers
 - Level of analysis: field
@@ -137,7 +137,7 @@ The article asks which resources institutional entrepreneurs (IEs) use, and show
 - triads_third_parties: 1. "being perceived as a neutral broker" (p. 10, "The resources of central IEs in mature fields")
 - intermediaries: 1. "especially discursive, framing and brokering skills" (p. 13, "The resources of peripheral IEs in emerging fields"); see also the "neutral broker" quotation under triads_third_parties (p. 10). (raised by verifier)
 - algorithms_ai: 0. (Note 6 mentions the Web of Science keywords-plus "algorithm" as a search detail only.)
-- platforms: 1. "the world’s first Androidbased platform, an open car communications platform" (p. 12, "The resources of peripheral IEs in mature fields")
+- platforms: 1. "the world’s first Androidbased platform, an open car communications platform" (p. 12, "The resources of peripheral IEs in mature fields") The opening lists platform-era changes among the transformations traced to institutional entrepreneurship: "the rise of social media, industry 4.0, the sharing economy" (p. 2, "Introduction"). (second quotation added at hand-check)
 - coordination: 0.
 - communication: 1. "the case studies cite communicative skills such as framing and convincing" (p. 12, "The resources of peripheral IEs in mature fields")
 - literacy_competence: 2. "Peripheral IEs ... draw primarily on their personal resources and above all their skills in mobilizing free field resources" (p. 15, "Discussion and Conclusion")
@@ -160,7 +160,13 @@ The article asks which resources institutional entrepreneurs (IEs) use, and show
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; both scorers rated every open OQ 0. Read: pp. 1–3, pp. 14–16, and every quotation at its locator on pp. 4–13)
+- Corrections: (1) OQ-05 reclassified (below). (2) A second quotation for the platforms flag, score unchanged. The argument, the conversation, the five constructs and all eleven OQ quotations match the text at their locators. A search of the reference list across line breaks confirms that it holds no *Organization Theory* entry.
+- OQs added / removed / reclassified: reclassified OQ-05 from future_research_call to explicit_question. OQ-01 stays `own_research_question`. OQ-02 stays open: the authors raise it from a count in Table 2 and move on (p. 9). OQ-03 and OQ-10 stay limitations. None added, none removed.
+- Flags changed: none in score. literacy_competence stays at 2: skills are the main resource of peripheral entrepreneurs in the framework (Table 3, p. 14; p. 15) and the subject of OQ-08. intermediaries stays at 1 on brokering (pp. 10, 13), as the lead accepted.
+- Fit adjudications: 0 lines; disagreements resolved: 0. OQ-08 asks for finer attention to institutional entrepreneurs' skills. These are "discursive, framing and brokering skills" for mobilizing resources (p. 13), and no intermediary evaluates anyone, so the contact with the brief stops at the word.
+- Exchange set: `exchange_id: none` confirmed; `EDGES.tsv` holds no edge to or from it.
+- Verdict: indexed_with_corrections

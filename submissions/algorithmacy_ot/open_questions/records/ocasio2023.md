@@ -14,7 +14,7 @@ read_depth: full_vor (publisher's version, pp. 1-21, journal header and "Volume 
 object_read: "ocasio2023.pdf sha256 a44e204e713fd943401251766895c4d3b60095778a4b4ab8a15431a3ab717eaa"
 reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 1, communication: 1, literacy_competence: 0, evaluation_accountability: 0}
 run: ot-oq-2026-11
@@ -28,7 +28,7 @@ Ocasio defines an institution as a taken-for-granted, organized system of roles 
 ## The conversation it joins
 - Positions against / extends: "there is no consensus in the social sciences more generally, or in organization theory more specifically, on what is and what is not an institution" (p. 2, "Introduction"); "I depart from Berger and Luckmann, who, building on Schutz (1972) and Mead (1934), focus on" (p. 2, "Introduction"); "a more useful empirical strategy would be to examine the functional origins of institutions" (p. 15, "The functional basis of institutions").
 - Named interlocutors: Berger & Luckmann (1967); Alvesson & Spicer (2019) and Alvesson & Blom (2022) as critics of institutional theory; Zucker (1977); DiMaggio (1993) on "Nadel's paradox"; Lounsbury (2007); Tolbert & Zucker (1983, 1999); Thornton, Ocasio & Lounsbury (2012); Barley (2019) on micro-institutions.
-- OT articles it cites: none found in the reference list (reader checked the list for "Organization Theory" entries; only running headers matched).
+- OT articles it cites: Cornelissen, Höllerer & Seidl (2021), "What theory is and can be: Forms of theorizing in organizational scholarship" (cited p. 16; reference list p. 18); Lounsbury & Wang (2020), "Into the clearing: Back to the future of constitutive institutional analysis" (cited p. 4; reference list p. 19). (corrected at hand-check: the reader found none because the journal's name breaks across lines in the text layer)
 - Move: synthesis and conceptual reformulation (cross-level theory of institutionalization; new concept of micro-institution; expanded concept of sedimentation).
 
 ## Key constructs
@@ -67,6 +67,14 @@ Ocasio defines an institution as a taken-for-granted, organized system of roles 
 - Level of analysis: multi-level
 - Paraphrase: Researchers should trace institutions' functional origins and how those origins show up in history and imprinting, rather than separate the institutional from the functional basis. (reader's paraphrase)
 
+### OQ-ocasio2023-04
+- Quote: "institutional explanations may be overused, and other factors such as power, status, demography, resource dependencies, cognition, emotions, identity, and meaning have effects that are not reducible to institutions" (p. 15, "The ubiquity of institutions and their limits")
+- Form: boundary_condition
+- Scope: the reach of institutional explanation; the effects of power, status, demography, resource dependence, cognition, emotions, identity and meaning
+- Addressee: not specified (institutional theorists and their critics, hand-checker's inference)
+- Level of analysis: multi-level
+- Paraphrase: The theory stops where these other factors act in their own right. Their institutional manifestations can be studied, but the author places their existence outside institutions. (hand-checker's paraphrase) (added at hand-check; the verifier listed the passage under Not counted because it sets no task, but it marks where the theory stops, as OQ-02 does, and the run's ruling keeps such passages as boundary conditions)
+
 ## Implicit openings
 - (reader's inference) The author notes that sedimentation and objectivation "are overlapping and need to be clearly demarcated, particularly not when the processes are still occurring" (p. 7, "Sedimentation"); the point at which a practice counts as sedimented in a live case is left unsettled.
 - (reader's inference) The claim that "the locus of sedimentation ... occurs at multiple levels" is illustrated by single cases (mutual funds, hospital medicine, the Catholic Church) (pp. 8-9, "The Macro Structure of Institutions"); no comparative test of locus is proposed.
@@ -86,7 +94,9 @@ Ocasio defines an institution as a taken-for-granted, organized system of roles 
 - Notes 1-8 are printed on p. 17 and the start of p. 18 in extracted text; not otherwise used.
 - Quote self-check: 3 quotes, 1 exact, 2 ends-only, 0 miss; the two ends-only quotes (OQ-02 "crosslevel", OQ-03 "microinstitutions") differ from the repository text only at line-end hyphenation.
 - No dedicated future-research section. The Discussion and Conclusion carry the closing function.
-- Not counted: "Unless both role structures and interactions become sedimented, in my judgment, researchers should not claim they are studying institutions or institutionalization" (p. 16, a prescription on usage, not a research call); "I emphasize the need for greater clarity and coherence in the definition of institutions" (p. 2, the paper's own aim); the remark that institutional typologies are "a methodological tool and not as an ontological claim" (p. 12, a clarification, not a research call). Gap statements the paper itself addresses, not left open (added by verifier): "Significant ambiguity remains regarding the concept of institution" (p. 2); the processes of typification, objectivation and sedimentation "remain opaque" (p. 4); sedimentation "remains unclearly theorized and understood" (p. 6). The concession that "institutional explanations may be overused" (p. 15, "The ubiquity of institutions and their limits") qualifies the theory's reach but sets no task and poses no question (added by verifier).
+- Not counted: "Unless both role structures and interactions become sedimented, in my judgment, researchers should not claim they are studying institutions or institutionalization" (p. 16, a prescription on usage, not a research call); "I emphasize the need for greater clarity and coherence in the definition of institutions" (p. 2, the paper's own aim); the remark that institutional typologies are "a methodological tool and not as an ontological claim" (p. 12, a clarification, not a research call). Gap statements the paper itself addresses, not left open (added by verifier): "Significant ambiguity remains regarding the concept of institution" (p. 2); the processes of typification, objectivation and sedimentation "remain opaque" (p. 4); sedimentation "remains unclearly theorized and understood" (p. 6). The concession that "institutional explanations may be overused" (p. 15, "The ubiquity of institutions and their limits") qualifies the theory's reach but sets no task and poses no question (added by verifier). (Hand-check: this passage is now OQ-04, a boundary_condition.)
+- Not counted (hand-check): the Conclusion's rule that institutional analysis should identify the institution it studies and its name (p. 16) is a prescription on usage, like the sedimentation rule beside it; its remark that practice approaches mostly ignore roles (p. 16) is a gap the paper addresses.
+- The p. 7 sentence quoted in the first implicit opening is garbled in the source ("need to be clearly demarcated, particularly not when"); the quotation keeps the printed words. (added at hand-check)
 
 ## Verification
 - Verifier: claude-opus-5-5, 2026-11-22
@@ -99,7 +109,14 @@ Ocasio defines an institution as a taken-for-granted, organized system of roles 
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- OQ-ocasio2023-04: no S6 scores (added at hand-check) → final 0. A limit on institutional explanation; the brief makes no institutional claim.
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; both scorers rated every OQ 0. Read: pp. 1–3, pp. 13–17, and every quotation at its locator on pp. 4–12)
+- Corrections: (1) The OT-citation line was wrong: the reference list holds two OT entries, Cornelissen et al. (2021) and Lounsbury & Wang (2020). (2) OQ-04 added (below). (3) Two Not-counted items and a note on a garbled source sentence added. The argument, the seven constructs, the three original OQ quotations and both flag quotations match the text at their locators.
+- OQs added / removed / reclassified: added OQ-04 (p. 15) as a `boundary_condition`, for uniform treatment with OQ-02. The section is headed "The ubiquity of institutions and their limits", and it places eight named factors outside institutional explanation. OQ-02 stays `boundary_condition`: the author claims the cross-level structure for modern societies only (p. 14). None removed.
+- Flags changed: none. No algorithm, platform, intermediary or third party appears; "information technologies" occurs once, in a historical aside (p. 11).
+- Fit adjudications: 0 lines for scores of 2 or more (1 line scores the added OQ at 0); disagreements resolved: 0
+- Exchange set: `exchange_id: none` confirmed. The article answers critics of institutional theory who published elsewhere (Alvesson & Spicer 2019 in *Organization Studies*; Alvesson & Blom 2022 in *Human Relations*). Both OT articles it cites predate the corpus. `EDGES.tsv` lists two corpus articles citing this one, both in the person-institutions set (nigam2025, derekrobinson2025).
+- Verdict: indexed_with_corrections

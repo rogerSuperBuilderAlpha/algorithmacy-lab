@@ -14,7 +14,7 @@ read_depth: full_vor (publisher's version, 24 pages; printed pages 1-24 coincide
 object_read: "petriglieri2023.pdf sha256 ae420b75cc11a0e5317387b4ea67dc83d7e194eae25b1338b0871c456822f456"
 reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 0, communication: 0, literacy_competence: 0, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -28,7 +28,7 @@ The essay reads management academia through a study of independent workers (free
 ## The conversation it joins
 - Positions against / extends: "Seen in the mirror of independent work, our preoccupation, or more precisely obsession, with productivity conceals a longing for connection." (p. 5, "Beyond Silence and Hysteria"). It sets itself apart from both instrumental and political prescriptions: "Our advice is pragmatic even if not instrumental, and radical even if not quite critical." (p. 5, "Beyond Silence and Hysteria")
 - Named interlocutors: Howard-Grenville (2021), Cornelissen, Höllerer & Seidl (2021) and Cunliffe (2022) on a pluralist, potent and personal organization theory; Fleming (2020), Alakavuklar et al. (2017), Contu (2020) and Tourish (2020) on neoliberal management academia and resistance; Winnicott (1975), Kahn (2001) and Petriglieri & Petriglieri (2010) on holding environments; Courpasson et al. (2021); Petriglieri, Ashford & Wrzesniewski (2019).
-- OT articles it cites: Cornelissen, Höllerer & Seidl (2021), "What theory is and can be"; Cunliffe (2022), "Must I grow a pair of balls to theorize about theory"; Howard-Grenville (2021), "Caring, courage and curiosity"; Petriglieri (2020), "F**k science!? An invitation to humanize organization theory".
+- OT articles it cites: Cornelissen, Höllerer & Seidl (2021), "What theory is and can be"; Cunliffe (2022), "Must I grow a pair of balls to theorize about theory"; Howard-Grenville (2021), "Caring, courage and curiosity"; Petriglieri (2020), "F**k science!? An invitation to humanize organization theory". Also Courpasson, Younes & Reed (2021), "Durkheim in the neoliberal organization" (Organization Theory, 2; reference list p. 22, cited p. 20), which the reader listed among the interlocutors only. (added at hand-check)
 - Move: essay / reflexive lens (analogy between two worlds of work) with prescriptive advice.
 
 ## Key constructs
@@ -47,6 +47,7 @@ The essay reads management academia through a study of independent workers (free
 - Addressee: Management scholars writing about academic work
 - Level of analysis: individual
 - Paraphrase: Scholars should produce fresh accounts of, and strategies for, academic careers that no longer follow predictable paths. (reader's paraphrase)
+- Hand-check note: The essay offers itself as one such chronicle and strategy. Its next sentences sort the existing ones into instrumental and political, and then: "This essay follows the invitation to trace an interpretive third way" (p. 20, same section). The call stays an OQ because it asks for chronicles and strategies in the plural and the essay supplies one (the skade2025-04 precedent). OQ-02 is a call of the same kind: the essay documents one field as a mirror and asks others to do likewise. (added at hand-check)
 
 ### OQ-petriglieri2023-02
 - Quote: "it is also worth documenting how our research fields might serve as a mirror for our work and for our selves." (p. 19, "Making Organization Theory Personal, Plural, and Potent")
@@ -110,7 +111,13 @@ The essay reads management academia through a study of independent workers (free
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; both scorers rated every open OQ 0. Read: pp. 1–7, pp. 9–15 around the quotations, pp. 18–21, and every quotation at its locator)
+- Corrections: (1) A fifth *Organization Theory* citation added: Courpasson, Younes & Reed (2021). (2) A note on OQ-01: the essay answers its own call in part. The argument, the four constructs, the five OQ quotations and both flag quotations match the text at their locators.
+- OQs added / removed / reclassified: none. OQ-03 stays `own_research_question`; the essay answers it with the four connections (pp. 14–18). OQ-04 stays `boundary_condition`: the authors limit the analogy to "some" academics (p. 7). OQ-05 is an invitation to practice, as the record says. The closing section (pp. 18–21) holds no call beyond OQ-01, OQ-02 and OQ-05.
+- Flags changed: none. platforms stays at 1: digital platforms appear twice (pp. 5, 9), and the authors set platform workers aside as "less than 20%" of independent work (p. 5). evaluation_accountability stays at 1 on an informant's "directly accountable" and on teaching evaluations (both p. 10).
+- Fit adjudications: 0 lines; disagreements resolved: 0. The essay's independent workers sell to a market with no organization and no intermediary in view, so the brief's triad has no purchase on its questions.
+- Exchange set: `exchange_id: none` confirmed. All five OT articles it cites predate the corpus (volumes 1–3), and `EDGES.tsv` holds no edge to or from it.
+- Verdict: indexed_with_corrections

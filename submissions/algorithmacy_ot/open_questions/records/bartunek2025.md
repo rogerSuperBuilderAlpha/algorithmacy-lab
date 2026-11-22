@@ -10,11 +10,11 @@ article_type_printed: "Theory Article"
 article_type_norm: theory
 exchange_id: none
 license: CC BY-NC 4.0 (printed on the article and in crossref)
-read_depth: full_vor (publisher's typeset SAGE article, pp. 1-20 with a repository cover sheet prepended as pdf p. 1; all 21 pdf pages read; printed page = pdf page minus 1)
+read_depth: full_vor_cover (publisher's typeset SAGE article, pp. 1-20 with a repository cover sheet prepended as pdf p. 1; all 21 pdf pages read; printed page = pdf page minus 1)
 object_read: "bartunek2025.pdf sha256 6a07f73adac17eab19e154372a87db03b4e2bef1018245a8c733b098d23345e6"
-reader_model: Sonnet 5.5
+reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 0}
 run: ot-oq-2026-11
@@ -37,12 +37,12 @@ run: ot-oq-2026-11
 | Generative resistance | "resistance in and of itself can address both theoretical and practical tensions pertinent to change" (p. 1, Abstract) | Coined (the authors' label) |
 | Resistance as tethered shadow | "change agents and scholars have linked resistance to change as its shadow side." (p. 3, "What resistance means in relation to change and control") | Borrowed (Tinsley et al., 2024; Jung) |
 | Sociology of radical change | "its basic concern is to find explanations for the radical change, deep-seated structural conflict, modes of domination and structural contradiction" (p. 6, "Resistance as signalling fundamental societal conflict", quoting Burrell & Morgan, 1979, p. 17) | Borrowed (Burrell & Morgan) |
-| Neither/nor | "resistance, and responses to it, may be more an indication of “neither/nor” than “both/and,”" (p. 7, World Vision vignette) | Borrowed term, extended by the authors |
+| Neither/nor | "resistance, and responses to it, may be more an indication of “neither/nor” than “both/and,”" (p. 7, World Vision vignette) | Authors' label; the text sets the term in quotation marks and names no source for it (corrected at hand-check; the reader had "Borrowed term") |
 | Sustaining differences | "preserving or retaining an important (particular) viewpoint that differs from the viewpoint(s) of others." (p. 9, "Resistance as sustaining differences") | Authors' usage |
 | Resistance as identity construction | "resistance is a way to construct identity (Ybema et al., 2016)" (p. 8, "Resistance as identity construction") | Borrowed (Ybema et al.; Mumby) |
 
 ## Open questions
-None stated. (reader's paraphrase) The article has no section headed future research or limitations. The "Implications for generative practice" section (pp. 14-15) and the "Conclusion" (pp. 14-15) give advice to leaders, change agents and change recipients, and the closing hope is stated as a hope, not as a request to researchers: "Hopefully, however, the narratives about resistance we have presented will stimulate new and productive ways of leading, managing, and responding to organizational change" (p. 15, "Conclusion"). I did not code that as an invitation to research.
+None stated. (reader's paraphrase) The article has no section headed future research or limitations. The "Implications for generative practice" section (p. 14; locator corrected at hand-check) and the "Conclusion" (pp. 14-15) give advice to leaders, change agents and change recipients, and the closing hope is stated as a hope, not as a request to researchers: "Hopefully, however, the narratives about resistance we have presented will stimulate new and productive ways of leading, managing, and responding to organizational change" (p. 15, "Conclusion"). I did not code that as an invitation to research.
 
 ## Implicit openings
 1. (reader's inference) "Of course, sustaining tensions over time is not at all easy." (p. 12, "Contradictory and interrelated elements") leaves open what conditions let actors hold differences in "reflexive dialectic tension" rather than shutting conversation down, as in the World Vision case.
@@ -75,7 +75,13 @@ None stated. (reader's paraphrase) The article has no section headed future rese
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- No OQ to score: the record holds none, and neither fit file has a row for this key.
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (the introduction, pp. 1–3; the closing sections, pp. 11–15, from "Resistance and paradox" to the end of the "Conclusion"; every quotation read at its locator)
+- Corrections: (1) `read_depth` full_vor → full_vor_cover, per the lead's ruling on repository cover sheets (DECISIONS, V03 queries); pdf p. 1 is the ThinkTech cover sheet. (2) `reader_model` normalized to the model id. (3) Key constructs: "Neither/nor" was marked a borrowed term; the text sets it in quotation marks eight times and attaches no source to it, so the row now says so. (4) The "Implications for generative practice" section sits wholly on p. 14; the locator said pp. 14-15. The argument, the three vignettes, the other five constructs, the three implicit openings and both flag quotations match the text at their printed-page locators.
+- OQs added / removed / reclassified: none. "None stated" stands. I read the closing sections for a call and found the ones the verifier listed: advice to scholars and practitioners together about practice (p. 12), the gap the paper says it fills (p. 13), and a closing hope about leading and managing change (p. 15). None asks researchers for work.
+- Flags changed: none. communication stays at 1: narrative carries the vignettes and one of the three contributions ("skilled, respectful resistance through narrative", p. 11), and the authors make no claim about communication as organizing. A judge and a Supreme Court appear in the death-penalty vignette (p. 10) as the setting of the attorneys' motions; the authors theorize no third party, so triads_third_parties stays at 0.
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Exchange set: `exchange_id: none` confirmed. The article cites seidemann2024 four times (pp. 11–13) as support for its "neither/nor" stance, which is use, not reply. It names neither keller2025 (same issue, same theme) nor krautzberger2024, and keller2025 does not name it.
+- Verdict: indexed_with_corrections

@@ -14,9 +14,9 @@ read_depth: full_vor (publisher's version, pp. 1-24; printed pages equal pdf pag
 object_read: "krautzberger2024.pdf sha256 8115588120f2b5a5fa652ef1763b75562a0d1410772ea880d83bb9dd382a649c"
 reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
-topic_flags: {triads_third_parties: 1, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 0}
+topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 0}
 run: ot-oq-2026-11
 ---
 
@@ -36,7 +36,7 @@ The authors start from the point that paradox theory now treats either/or respon
 |---|---|---|
 | Meta-both/and approach | "Because our model applies both/and thinking to the level of both/and and either/or approaches, we refer to it as a meta-both/and approach." (p. 3, "Introduction") | Authors' label |
 | Decision paradox | "decision-making is paradoxical because it involves treating something as an alternative and not an alternative at the same time" (p. 6, "The decision paradox of both/and and either/or approaches") | Borrowed (Luhmann 2018) |
-| Invisibilizing | "“Invisibilizing” happens alongside visibilizing during decision-making and involves ignoring certain aspects in the decision-making process." (p. 7, "Navigating Both/And and Either/Or Approaches") | Borrowed (Tuckermann 2019) |
+| Invisibilizing | "“invisibilizing” happens alongside visibilizing during decision-making and involves ignoring certain aspects in the decision-making process." (p. 7, "Navigating Both/And and Either/Or Approaches") | Borrowed (Tuckermann 2019) |
 | Episode | "An episode is a mechanism through which a system can suspend its established structures (Seidl, 2005) and initiate a reflection on and alteration of these structures." (p. 14, "Navigating a meta-both/and approach in reflective episodes") | Borrowed (Hendry & Seidl 2003) |
 | Meta-undecidability | "This uncertainty, or meta-undecidability, arises when members question whether they should treat the tensions between paradoxical demands as decidable or undecidable." (p. 14, "Initiating reflective episodes") | Authors' term |
 
@@ -151,13 +151,13 @@ The authors start from the point that paradox theory now treats either/or respon
 - The empirical anchor is Covid-19 hospital resource allocation (p. 11); whether the model holds in other settings is untested in the text. (reader's inference)
 
 ## Topic flags
-- triads_third_parties: 1. "Additionally, future research could examine the role of external participants in reflective episodes, such as action researchers (Jay, 2013; Lüscher & Lewis, 2008), consultants (Bucher & Langley, 2016), supporting actors (Pradies et al., 2021), and peers (Pamphile, 2022)." (p. 20, "Directions for future research"; raised by verifier: outside parties entering an organization's reflection, named only in the agenda)
+- triads_third_parties: 0. (hand-check: reverted from the verifier's 1, as the lead's ruling on the V08 query allows. The verifier's passage is the p. 20 call quoted in OQ-10, on external participants in reflective episodes. Outside parties also appear in the model itself: a researcher in top-management meetings, supportive actors and peers, p. 14, and action researchers and external facilitators, p. 15. In each place the outsider joins one organization's reflection on its own approach. The text names no second party between whom and the organization the outsider stands, and it lists facilitators beside changed locations, devil's advocacy, serious play and simulations as means to the "principle of otherness", p. 15. An outsider to one party is not a third party.)
 - intermediaries: 0
 - algorithms_ai: 0 (the word "algorithm" appears once, in "there is no “algorithm” to determine the outcome of a particular input", p. 5, as a figure of speech about decisions)
 - platforms: 0
 - coordination: 0
 - communication: 1. "Such episodes serve as communicative social settings within an organization, temporarily replacing everyday structures with their own" (p. 14, "Navigating a meta-both/and approach in reflective episodes").
-- literacy_competence: 1. "Organizations that develop and maintain both/and capabilities may achieve the consistent application of both/and approaches to meet multiple paradoxical demands over an extended period." (p. 17, "Oscillating between reflective episodes and enacting a meta-both/and approach")
+- literacy_competence: 1. "Organizations that develop and maintain both/and capabilities may achieve the consistent application of both/and approaches to meet multiple paradoxical demands over an extended period." (p. 17, "Oscillating between reflective episodes and enacting a meta-both/and approach") (hand-check: this passage concerns an organization's capabilities; the flag's individual side is the "ironic mindset" that helps individuals decide under undecidability, p. 20, "Directions for future research". Score unchanged.)
 - evaluation_accountability: 0
 
 ## Caution
@@ -177,7 +177,13 @@ The authors start from the point that paradox theory now treats either/or respon
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1 (both scorers gave OQ-03 to OQ-13 0; OQ-01 and OQ-02 are own research questions, scored x by both, and the text confirms each)
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; no scorer rated an OQ above 0. Read: pp. 1–3, pp. 14–15, pp. 18–20, and every quotation at its locator)
+- Corrections: (1) `triads_third_parties` reverted 1 → 0 (below). (2) The "invisibilizing" quotation set to the text's lower-case initial (p. 7). (3) A note on the `literacy_competence` passage. The argument, the five construct definitions, the one OT citation (Weiser & Laamanen 2022, p. 23) and all thirteen OQ quotations match the text at their locators.
+- OQs added / removed / reclassified: none. OQ-01 and OQ-02 are rightly `own_research_question`: the authors follow OQ-01 with "To address this question, we integrate" (p. 2), and reflective episodes answer OQ-02 (pp. 12–17). OQ-03 to OQ-13 cover the four avenues of "Directions for future research" (pp. 19–20).
+- Flags changed: `triads_third_parties` 1 → 0. OQ-10 keeps the call on external participants, so synthesis can still find it. For the brief, the nearest reading is a facilitator who helps one collective see its own choice, which is a two-party relation.
+- Exchange set: `exchange_id: none` confirmed. The text never names Seidemann, whose critique of both/and shares issue 5(4), and her text never names these authors. keller2025 cites both articles (`EDGES.tsv`), so the link among the three runs through the later piece only.
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Verdict: indexed_with_corrections

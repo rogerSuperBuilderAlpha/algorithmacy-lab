@@ -169,3 +169,26 @@ agreement measures the brief's reliability, not its validity. The S11 critics te
   `hand_check/HC_H1.md`, which hold fit notes on four articles, plus the hand-check lines inside records.
   F's conversations were already fixed by then, so the lead judges the clustering unaffected. The
   disclosure is kept here.
+- **H6.** All 110 scored rows are at final 0 or x. Its five calls are accepted: ocasio2023-04 added;
+  friesl2023-06 is a call; friesl2023 evaluation stays 2, because its "moral evaluating" is people
+  judging work in practice; jorgensen2023 intermediaries 0; fotaki2023-07 kept. Records missed OT
+  citations wherever the text layer breaks "Organization / Theory" across lines, so `EDGES.tsv` is rebuilt
+  with whitespace normalized (S8 v2).
+- **H7.** Nothing in the batch is above fit 1. Accepted: wright2023-01 as an `own_research_question`;
+  krautzberger2024 triads 0; garud2025 algorithms_ai and platforms stay 1, literacy_competence 2;
+  lantela2024 evaluation 0. mutch2025-06 stays: "organizational scholars need to take the law seriously"
+  is addressed to others, unlike scherer2023-12, which states the thesis. seidemann2024-16 stays separate.
+- **Compiler fix.** `compile_questions.py` now skips any block beginning "- Removed" (it missed
+  scherer2023-12's "Removed at hand-check").
+- **H8.** Nothing in the batch is above fit 1. Five reclassified to `own_research_question` (friedrich-01,
+  pavlisa-01, porsfelt-01/02/03). ernst2026 literacy_competence 2 and mena2026 triads 1 stand. The
+  nine friedrich-03 to -11 questions are put to practitioners, not researchers, and synthesis weights
+  them accordingly.
+
+## 22 Nov 2026: S7 complete
+
+All 66 records have been hand-checked by Fable (H1–H8). `fit/FIT_FINAL.tsv` holds the final score for
+every OQ, using Fable's adjudication wherever either scorer gave 2 or more, and otherwise max(A, B) ≤ 1.
+The counts: 0 = 484, 1 = 94, 2 = 25, 3 = 2, 4 = 0, x = 79. The two 3s are stark2024-06 and hinds2024-04.
+The 2s sit in stark2024 (7), hinds2024 (8), justesen2024 (3), phillips2024 (3), hsu2024, scherer2023,
+racker2024 and suddaby2024 (1 each).

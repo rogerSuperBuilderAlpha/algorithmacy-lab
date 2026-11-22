@@ -12,11 +12,11 @@ exchange_id: none
 license: CC BY-NC 4.0 (printed on p. 1 and crossref)
 read_depth: full_vor (publisher's version of record; printed pages 1-22 coincide with pdf pages 1-22; pp. 17-22 are references and Table A1, which I scanned rather than read line by line)
 object_read: "georgiou2023.pdf sha256 5a34abc86bcfd30ba1d9ddf7775c501a5261294671e7b865f7151b307d341efe"
-reader_model: Claude Sonnet 5.5 (claude-sonnet-5-5)
+reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
-topic_flags: {triads_third_parties: 1, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 1, communication: 1, literacy_competence: 0, evaluation_accountability: 1}
+topic_flags: {triads_third_parties: 1, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
 ---
 
@@ -43,9 +43,9 @@ Thornton, Ocasio and Lounsbury (2012) added community to the inter-institutional
 ## Open questions
 ### OQ-georgiou2023-01
 - Quote: "Even assuming that it exists, how is it manifested in the various types of communities of the organization and management field? The answer seems tantalizingly elusive." (p. 2, "Introduction")
-- Form: explicit_question
+- Form: own_research_question (hand-check: was explicit_question; the review answers it with one variant of the logic per community type, pp. 10–13, and a common boundary, p. 13, and the reader's paraphrase already calls it the paper's founding question)
 - Scope: how the community logic appears across types of community
-- Addressee: institutional-logics scholars
+- Addressee: the authors (answered by the review); the reader had institutional-logics scholars
 - Level of analysis: field
 - Paraphrase: The paper's founding question, which the review then tries to answer. (reader's paraphrase)
 
@@ -148,13 +148,15 @@ Thornton, Ocasio and Lounsbury (2012) added community to the inter-institutional
 - platforms: 1. "They are usually formed around a product, service, or platform" (p. 8, "Communities of users")
 - coordination: 1. "members establish ‘thick’ relationships and work together in pursuing interdependent goals" (p. 13, "Discussion")
 - communication: 1. "open communication within and among communities" (p. 7, "Communities of practice")
-- literacy_competence: 0
+- literacy_competence: 1 (raised from 0 at hand-check). "expertise is a key source of authority and norms" (p. 11, "The variant of communities of practice"); in passing, as the organizing principle of one of the four variants.
 - evaluation_accountability: 1. "establishing reputation systems" (p. 12, "The variant of communities of firms")
 
 ## Caution
 VOR; printed page equals pdf page. On pdf p. 16 the extraction mixes the right column: the Conclusion's lines are interleaved with the Funding and Acknowledgments blocks, so the final Conclusion paragraph reads out of order in the text file. Table 1 (p. 10) extracts cell by cell and is not reliable as a table. Quotations in the Discussion and Future Research sections that span a page break (the definition of institutional logics, pp. 2-3; the limitation in OQ-10, which sits on p. 6 but is broken by a mid-page running header, corrected by verifier) interrupt at a running header, which is fine. The quote in OQ-02 follows a sentence that starts earlier on p. 15; I quote only the second sentence.
 
 Not counted (verifier's recall sweep): pp. 1-2, "avenues for future research" (twice) signposts the Future Research section; p. 2, "offering scope for comparative future research" and p. 14, "enables comparative research" are covered by OQ-03; p. 4, "transcends the limitations of the craft guild" is quoted from Adler et al.; p. 14, "the community logic remains coherent" is a finding; p. 15, "future research could explore cases in which community groups face institutional complexity" is the lead-in to OQ-04, and "community groups might yield equally interesting contexts" is folded into OQ-04; p. 16, "In taking on this ambitious research agenda" introduces the hurdles and method advice now in OQ-12; pp. 17-22, question marks are reference titles. (added by verifier)
+
+Not counted (hand-check): p. 15, "Scholars might benefit from identifying key situational and temporal factors" in the emergence, domination and blending of logics in communities. It is the middle sentence of the passage OQ-04 quotes and is folded into OQ-04.
 
 ## Verification
 - Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
@@ -167,7 +169,14 @@ Not counted (verifier's recall sweep): pp. 1-2, "avenues for future research" (t
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- OQ-georgiou2023-01: A=0 B=0 → final x. Reclassified `own_research_question` at hand-check; the review asks it and answers it.
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; both scorers rated every OQ 0. Read: pp. 1–3, pp. 13–16, and every quotation at its locator, with pp. 6–8 and 11–12 around the constructs and flags)
+- Corrections: (1) OQ-01 reclassified (below). (2) literacy_competence raised to 1. (3) `reader_model` normalized to the model id. (4) One Not-counted sentence added. The argument, the conversation (one OT citation, Mutch 2021, reference list p. 20), the five constructs and the other eleven OQ quotations match the text at their locators.
+- OQs added / removed / reclassified: reclassified OQ-01 from explicit_question to own_research_question. OQ-10 stays a limitation: the authors concede that their list of community types "may not be comprehensive" (p. 6). None added: the Future Research section (pp. 15–16) holds no question or call beyond OQ-02 to OQ-09, OQ-11 and OQ-12. None removed.
+- Flags changed: literacy_competence 0 → 1 (frontmatter and Topic flags agree). platforms stays at 1: a platform is one of three things a user community forms around (p. 8), and the authors find that online communities "do not represent a distinctive type" (p. 6). triads_third_parties stays at 1 on one clause about brokerage (p. 12).
+- Fit adjudications: 0 lines for scores of 2 or more (1 line sets the reclassified OQ to x); disagreements resolved: 0. OQ-07 and OQ-08 ask how communities and organizations work together across logics; the relation joins collectives, and no intermediary stands in it.
+- Exchange set: `exchange_id: none` confirmed. Mutch (2021), the critic the review answers, appeared in volume 2 and lies outside the corpus. `mutch2025` is a different article, and `EDGES.tsv` holds no edge to or from this record.
+- Verdict: indexed_with_corrections

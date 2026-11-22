@@ -12,9 +12,9 @@ exchange_id: none
 license: CC BY 4.0 (printed on the article and in crossref)
 read_depth: full_vor (publisher's typeset SAGE article, pp. 1-24; all 24 pdf pages read; printed page = pdf page)
 object_read: "keller2025.pdf sha256 ad086d01ce2310141cdabf7a8bcfaf687d9c2c3e443e25cafb4dddcba9120c17"
-reader_model: Sonnet 5.5
+reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 1, platforms: 0, coordination: 1, communication: 1, literacy_competence: 0, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -28,7 +28,7 @@ run: ot-oq-2026-11
 ## The conversation it joins
 - Positions against / extends: "Over three decades ago, Marshall Scott Poole and Andrew Van de Ven proposed using paradoxes to develop more rigorous and robust organizational theories. We reignite their efforts while offering two important advances." (p. 1, Abstract). Against a cognitive-only view: "Often theorizing is conceptualized as an individual endeavor based on formal analysis and reasoning (Shapira, 2011)." (p. 2, introduction)
 - Named interlocutors: Poole & Van de Ven (1989); Smith & Lewis (2011, 2022); Clegg, Cunha & Berti (2022); Swedberg (2016, 2017); Schad, Lewis & Smith (2019); Wright et al. (2023); Cornelissen (2023); Lewis & Grimes (1999); Hargrave & Van de Ven (2017); Berti & Cunha (2023).
-- OT articles it cites: Benschop (2021), Grand challenges, feminist answers; Cunliffe (2022), Must I grow a pair of balls to theorize about theory in organization and management studies?; Hamann et al. (2020), Neither colony nor enclave: Calling for dialogical contextualism; Krautzberger & Tuckermann (2024), Navigating both/and and either/or approaches in response to paradoxical demands; Mair & Seelos (2021), Organizations, social problems, and system change; Reinecke, Boxenbaum & Gehman (2022), Impactful theory: Pathways to mattering; Seidemann (2024), Blinded by the light. Note that Krautzberger & Tuckermann (2024) and Seidemann (2024) are cited as recent contributions in a dialectical debate on paradox theory (p. 15, Discussion).
+- OT articles it cites: Benschop (2021), Grand challenges, feminist answers; Cunliffe (2022), Must I grow a pair of balls to theorize about theory in organization and management studies?; Hamann et al. (2020), Neither colony nor enclave: Calling for dialogical contextualism; Krautzberger & Tuckermann (2024), Navigating both/and and either/or approaches in response to paradoxical demands; Mair & Seelos (2021), Organizations, social problems, and system change; Reinecke, Boxenbaum & Gehman (2022), Impactful theory: Pathways to mattering; Seidemann (2024), Blinded by the light. Note that Krautzberger & Tuckermann (2024) and Seidemann (2024) are cited as recent contributions in a dialectical debate on paradox theory (p. 15, Discussion). Added at hand-check, three *Organization Theory* items the list above missed: Cooren (2020), Beyond entanglement: (Socio-)materiality and organization studies (cited p. 13); Cornelissen, Höllerer & Seidl (2021), What theory is and can be (cited p. 1); Wright, Kent, Hällgren & Rouleau (2023), Theorizing as mode of engagement in and through extreme contexts research (cited pp. 4, 6; in this corpus as wright2023). The reference list holds ten *Organization Theory* items in all.
 - Move: process model plus typology (four stages by four modalities); agenda-setting for a reflexive paradox research on scholars' own work.
 
 ## Key constructs
@@ -58,6 +58,7 @@ run: ot-oq-2026-11
 - Addressee: theorists attempting paradoxical theorizing; no one is directly asked to research it
 - Level of analysis: field
 - Paraphrase: The approach assumes that fixed material and institutional constraints can be identified, and the article does not say how they should be studied. (reader's paraphrase)
+- Form note (hand-check): the sentence closes the fourth stage of the model ("managing issues") for the material modality, so it is a requirement the model states. It stays a `boundary_condition` because the constraints it names (rhythm, space, technology, disciplinary reward systems) are ones the authors treat as fixed and do not theorize. No one is asked to study them, and synthesis should weigh it as the weakest kind of OQ.
 
 ### OQ-keller2025-03
 - Removed by verifier: the two p. 4 questions ("What is an opposing theory...? What might be the opposite understanding of this theory?") are method prompts for the first stage of the model, as the record itself noted; they state no work for others and leave no question open. Listed under Not counted.
@@ -82,6 +83,7 @@ run: ot-oq-2026-11
 - Table 1 (p. 7) extracted as scrambled cell text; I did not quote it.
 - The one aside quoted in the AI flag ("The emergence of generative artificial intelligence (AI)") fails exact matching only because a running page number (13) sits between "artificial" and "intelligence" in the text layer; the wording is verbatim.
 - OQ-03 is a method prompt, not an open question for the field; I recorded it because the brief says interrogative sentences count.
+- Reference-list anomaly (hand-check): the list prints the article number 26317877241290250 for both Krautzberger & Tuckermann (2024) and Seidemann (2024). Crossref has 26317877241290249 and 26317877241290248. The titles identify both targets.
 - Not counted (verifier's recall sweep): p. 4 method-prompt questions (former OQ-03); the many "invite(s)" hits on pp. 3, 5, 6, 9, 14, 15 and 16 describe what the approach does ("paradoxical approaches invite greater diversity of voices"), not work for others; p. 16 "what we call embrained modality" is definitional; pp. 17–23 question marks are reference titles. The p. 16 Discussion and Conclusion sentences "Future scholarship can continue to expand upon how we can navigate the tensions in our work as scholars" sit under OQ-01. (added by verifier)
 
 ## Verification
@@ -95,7 +97,13 @@ run: ot-oq-2026-11
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (pp. 1–6, the introduction through the two-by-two of modalities; pp. 13–16, the material modality, "Juxtaposing tensions across interwoven modalities", "Discussion" and "Conclusion"; every quotation read at its locator)
+- Corrections: (1) "OT articles it cites" listed seven items and the reference list holds ten; Cooren (2020), Cornelissen, Höllerer & Seidl (2021) and Wright et al. (2023) are added, the last a corpus article that `EDGES.tsv` already carries. (2) `reader_model` normalized to the model id. (3) A Caution line on the reference list's duplicated article number. The argument, the seven constructs, both OQ quotations, the three implicit openings and the five flag quotations match the text at their locators.
+- OQs added / removed / reclassified: none. OQ-01 stays an invitation; the Discussion and the Conclusion state it three times on p. 16. OQ-02 stays a `boundary_condition`, with a Form note. The verifier's removal of OQ-03 stands: the two p. 4 questions are prompts the model gives a theorist.
+- Flags changed: none. intermediaries stays at 1 on one word in a list of the forms materiality takes (p. 13). algorithms_ai stays at 1: generative AI appears on pp. 13–14 as one of a theorist's technologies, beside word processors and drawing tools. evaluation_accountability stays at 1: peer review enters as a tension between "assessors" and "creatives" (p. 12), which is evaluation of people's work as practice and so within the flag as the lead read it for the V06 queries.
+- Fit adjudications: 0 lines; disagreements resolved: 0. Both scorers gave 0 to OQ-01 and OQ-02, and I agree: both concern how scholars theorize.
+- Exchange set: `exchange_id: none` confirmed. TIERS lists this article beside the 5(4) paradox pair. It cites seidemann2024 and krautzberger2024 together (p. 15) as signs of a "dialectical debate" and krautzberger2024 once more (p. 5); it replies to neither, and it does not name bartunek2025, which shares its issue and its theme.
+- Verdict: indexed_with_corrections

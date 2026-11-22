@@ -14,7 +14,7 @@ read_depth: full_vor (publisher's version, 31 pages; printed pages 1-31 coincide
 object_read: "leitzinger2023.pdf sha256 89794a39f9c0e6387fa6fd5fe900e7d118cdd820963c64ee79edcf6601609b3c"
 reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: distributed
 topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 0, platforms: 1, coordination: 1, communication: 1, literacy_competence: 0, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -28,7 +28,7 @@ The review claims that research on social movements and markets has neglected th
 ## The conversation it joins
 - Positions against / extends: "The few studies that do consider movement goals generally take them as a given" (p. 2, "Introduction"). It also complements existing typologies: "elimination movements are typically composed of radical activist groups" (p. 22, "Discussion and Conclusion").
 - Named interlocutors: Den Hond & De Bakker (2007) on radical and reformative wings; Briscoe & Gupta (2016) on activism in and around organizations; King & Pearce (2010); Soule (2012); Weber, Rao & Thomas (2009) and Weber et al. (2008); Maguire & Hardy (2009); Cross & Snow (2012); Massa (2017); Lounsbury et al. (2003); Sine & Lee (2009); Reinecke & Ansari (2021); Odziemkowska (2022).
-- OT articles it cites: Haack & Rasche (2021), "The legitimacy of sustainability standards: A paradox perspective". No other OT item found in the reference list.
+- OT articles it cites: Haack & Rasche (2021), "The legitimacy of sustainability standards: A paradox perspective". Also Roulet & Pichler (2020), "Blame game theory" (Organization Theory, 1(4); reference list p. 29, cited p. 9). (added at hand-check; the reader's line said the list held no other OT item)
 - Move: typology plus process (life-cycle) model built from a literature review; agenda-setting.
 
 ## Key constructs
@@ -336,7 +336,13 @@ The review claims that research on social movements and markets has neglected th
 - Verdict: verified_with_corrections (one OQ added; Caution not-counted list completed). Total quoted words are close to the 800 cap (about 775 after the addition); the lead may wish to trim.
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; both scorers rated every OQ 0. Read: pp. 1–3, pp. 21–24, all 33 OQ quotations in context on pp. 6–21, and the construct and flag quotations at their locators)
+- Corrections: a second *Organization Theory* citation added (Roulet & Pichler, 2020). Nothing else changed. The argument, the five constructs and all 33 OQ quotations match the text at their locators; OQ-27 is split only by the printed page number, as the Caution says.
+- OQs added / removed / reclassified: none. My own sweep of pp. 1–24 for gap and call phrases found no sentence that the OQs and the Not-counted list leave out. OQ-32 stays `boundary_condition`: the authors treat the three types as discrete "For the purposes of this review" and expect them to be "much more permeable" in practice (p. 6). OQ-01, OQ-23 and OQ-30 are gaps in the literature that the record classes as limitations, while OQ-26, a gap of the same kind, is a future_research_call. The corpus table mixes the two forms for such sentences, and synthesis weighs them alike, so I left them. OQ-33 stays separate from OQ-29, as the lead ruled.
+- Flags changed: none. The six nonzero flags are all in passing: stakeholders as a third party to movement and target (p. 7), intermediaries of targets (p. 21), online activism (p. 12), coordination by goals (p. 2), moral rhetoric (p. 14) and certification (p. 5).
+- Fit adjudications: 0 lines; disagreements resolved: 0. For synthesis: "cooptation" recurs (pp. 8, 10, 15–19, 23; OQ-15 to OQ-18). It means firms or late entrants absorbing a movement, not a platform co-opting its users as in stark2024, so the contact with the brief is one word.
+- Exchange set: `exchange_id: none` confirmed. Both OT articles it cites predate the corpus, and `EDGES.tsv` holds no edge to or from it.
+- Verdict: indexed_with_corrections

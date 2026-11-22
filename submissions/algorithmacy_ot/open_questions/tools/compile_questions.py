@@ -49,7 +49,7 @@ def main():
         body = sec.group(1) if sec else ""
         for m in re.finditer(r"^### (OQ-[\w-]+)\s*\n(.*?)(?=^### |\Z)", body, re.S | re.M):
             oq, block = m.group(1), m.group(2)
-            if re.search(r"^- Removed by", block, re.M):
+            if re.search(r"^- Removed\b", block, re.M):
                 removed.append(oq)
                 continue
             q = field(block, "Quote")
@@ -59,7 +59,7 @@ def main():
                 "volume": fm.get("volume", ""), "issue": fm.get("issue", ""),
                 "published_online": fm.get("published_online", ""), "band": fm.get("band", ""),
                 "article_type_norm": fm.get("article_type_norm", ""), "exchange_id": fm.get("exchange_id", ""),
-                "form": field(block, "Form"), "level": field(block, "Level of analysis"),
+                "form": (field(block, "Form").split() or [""])[0].strip(";,("), "level": field(block, "Level of analysis"),
                 "addressee": field(block, "Addressee"), "scope": field(block, "Scope"),
                 "quote": qm.group(1) if qm else q, "locator": (qm.group(2) or "") if qm else "",
                 "paraphrase": field(block, "Paraphrase"), "verified": fm.get("verified", ""),

@@ -14,7 +14,7 @@ read_depth: full_vor (publisher's version, pp. 1-15; printed pages equal pdf pag
 object_read: "mutch2025.pdf sha256 e6ed6c83edb8dc5f378c9f03b459280520b5e953b38b06c0fa55db3125a6aed6"
 reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: distributed
 topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -75,7 +75,7 @@ Mutch argues that law is a distinct societal institutional logic and that organi
 
 ### OQ-mutch2025-05
 - Quote: "It is recognized that these contrasts can only be indicative in nature" (p. 13, "Implications")
-- Form: boundary_condition
+- Form: limitation (hand-check: was boundary_condition; Mutch concedes that his own contrasts are indicative and places no legal system or setting outside the argument, so the sentence marks no point where the theory stops)
 - Scope: the common versus civil law contrasts in Table 1
 - Addressee: readers and later researchers applying the contrasts
 - Level of analysis: field
@@ -83,7 +83,7 @@ Mutch argues that law is a distinct societal institutional logic and that organi
 
 ### OQ-mutch2025-06
 - Quote: "This article has sought to argue that organizational scholars need to take the law seriously as a key influence on organizational life." (p. 13, "Conclusion")
-- Form: future_research_call
+- Form: invitation (hand-check: was future_research_call; the sentence names no study, and OQ-03 and OQ-04, the next two sentences of the same paragraph, are invitations. It stays an OQ although it restates the thesis, because the thesis is worded as something organizational scholars need to do.)
 - Scope: law as a taken-for-granted context of organizational life
 - Addressee: organizational scholars
 - Level of analysis: field
@@ -121,7 +121,12 @@ Mutch argues that law is a distinct societal institutional logic and that organi
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1 (both scorers gave all six OQs 0)
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; no scorer rated an OQ above 0. Read: pp. 1–2, pp. 9–10 around the two flag passages, pp. 12–13, and every quotation at its locator)
+- Corrections: two OQs reclassified (below). The argument, the five construct definitions, the one OT citation (Lounsbury & Wang, dated 2019 in the reference list, p. 15) and all six OQ quotations match the text at their locators.
+- OQs added / removed / reclassified: reclassified OQ-05 from boundary_condition to limitation, on the criterion the lead accepted for scherer2023-09 and jaser2024-08; reclassified OQ-06 from future_research_call to invitation. The record now holds no boundary_condition; the text states none. None added, none removed.
+- Flags changed: none. `triads_third_parties: 1` holds on a real third party named in passing: in adversarial systems the judge is "a neutral umpire" between the contending parties' representatives (p. 10). `intermediaries: 1` holds on the Council of State's section that reviews legislation and so stands between politicians and legal text (p. 9); the whyte2023 ruling keeps passing mediation of this kind at 1. For synthesis: the brief's arbitrator who holds the verdict has a legal counterpart here, in one clause of a contrast between common and civil law, and no OQ takes it up.
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Verdict: indexed_with_corrections

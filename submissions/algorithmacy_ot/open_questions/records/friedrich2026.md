@@ -12,9 +12,9 @@ exchange_id: none
 license: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
 read_depth: full_vor (publisher's version of record, 26 pdf pages; printed page numbers 1-26 match the pdf page markers, so locators use the printed page)
 object_read: "friedrich2026.pdf sha256 4283c39028d5feea2a5937c1ddc17f9e72eb8ad25fe4e34494b6363c1dfd2550"
-reader_model: Claude Sonnet 5.5 (claude-sonnet-5-5)
+reader_model: claude-sonnet-5-5
 verified: yes
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: question_list
 topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 1, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -42,9 +42,9 @@ run: ot-oq-2026-11
 ## Open questions
 ### OQ-friedrich2026-01
 - Quote: "What are the implications for theorizing organizational democracy when humans’ intricate relationships and interdependencies within natural systems are recognized as constitutive?" (p. 3, "Organizational Democracy Beyond the Human")
-- Form: explicit_question
+- Form: own_research_question (hand-check: was explicit_question; the text introduces it with "This raises the following research question" and continues "To address this question, I turn to" Braidotti, p. 3; the three registers answer it, pp. 10–14, as the contributions section restates on p. 16. V02 flagged it, and DECISIONS lists it for uniform treatment.)
 - Scope: organizational democracy and the more-than-human; the paper's research question
-- Addressee: organizational democracy theorists
+- Addressee: the author (answered by the three registers); organizational democracy theorists as readers
 - Level of analysis: multi-level
 - Paraphrase: How does democracy theory change once ecological dependence is treated as constitutive? (reader's paraphrase)
 
@@ -167,6 +167,7 @@ run: ot-oq-2026-11
 - Addressee: democratic organizing researchers
 - Level of analysis: organization
 - Paraphrase: How democratic organizing can resist co-optation and connect to ecological others is under-researched. (reader's paraphrase)
+- Form note (hand-check): a gap statement from the review section. The paper takes up its second half itself, since the three registers are its account of how democratic organizing might connect with ecological others. The first half stays open: the word "co-optation" appears once in the text, here, and it means regressive ideologies taking hold inside democratic organizations (p. 5). The OQ stays on that half.
 
 ### OQ-friedrich2026-17
 - Quote: "This dual role demands the utmost critical scrutiny in future research, as technological instruments—biotech, AI, military applications, green tech, and so on—are themselves entangled in power-laden assemblages." (p. 19, "Posthuman feminism for organization theory")
@@ -190,7 +191,7 @@ run: ot-oq-2026-11
 
 ## Topic flags
 - triads_third_parties: 0
-- intermediaries: 1. "technological mediations (techno)" (p. 8, "Decentering Subjectivity in Zoe/geo/technobodies")
+- intermediaries: 1. "the Cobalt Child speaks through AI-generated data on extractivism" (p. 2, vignette). Quotation replaced at hand-check; the reader had "technological mediations (techno)" (p. 8). On the lead's reading for whyte2023, technology that mediates experience is not a party or device standing between parties. The vignette's device does stand between an absent party and the assembly, once and in passing, so the score stays at 1.
 - algorithms_ai: 1. "an AI algorithm tilts selection toward marginality and surprise, unsettling who counts" (p. 2, vignette)
 - platforms: 0
 - coordination: 0
@@ -201,6 +202,7 @@ run: ot-oq-2026-11
 ## Caution
 Text is two-column and the extraction interleaves lines; quotations were rejoined by hand. Printed page equals pdf page (1-26). The nine propositional questions (pp. 12-14) are numbered I-III within each register in the source and are quoted here by their opening clause only; the quotation is shortened, the question continues in the source. The Lantela (2024) reference breaks across a page; the volume and issue come from the continuation ("Theory, 5(2)"). The vignette on p. 2 gives "Lithium Vein from Congo" and the later text (p. 11) gives "Lithium Vein from Bolivia"; I did not quote either. The article has no section titled limitations; the one limitation (OQ-18) is embedded in the contributions discussion.
 - Not counted (verifier's recall sweep): the follow-up questions inside the numbered items, p. 12 "How are these interfaces shaped by inequity, power, and asymmetric capacities to act and flourish?" (folded into OQ-04) and p. 14 "How can hopeful speculation be practiced so that ethical orientations arise from storytelling, imaginative worldbuilding, and sensing into not-yet, more equal worlds?" (folded into OQ-11); p. 19 "it opens a critical and affirmative, assemblage-based research agenda" (folded into OQ-18) and "This paper also opens a posthuman research agenda that takes the materiality of technology seriously" (folded into OQ-17); p. 17 "this study invites posthuman organizing" (a call to practice that restates the paper's own proposal); p. 5 "the contribution of democratic organizing to ecological sustainability remains uncertain" and p. 10 "invites theorizing democratic organizing" (gaps the paper itself takes up).
+- Not counted (added at hand-check; paraphrased): the call on pp. 19–20 for an orientation in organizational theorizing grounded in affirmation, and the p. 4 sentence that the approach encourages speculative, explorative and hopeful scholarship (calls the paper carries out itself in its vignette and questions; DECISIONS, V10 queries); the p. 17 and p. 19 claims that posthuman feminist organizing "opens the way" to explore relational infrastructures and "opens avenues" for normative layers in assemblage theorizing (claims about what the approach opens, beside the two the verifier folded into OQ-17 and OQ-18); p. 17 "This perspective asks how democratic organizing transforms when entanglements are fundamentally more-than-human" (the paper's own question restated, followed at once by OQ-12).
 
 ## Verification
 - Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
@@ -213,7 +215,15 @@ Text is two-column and the extraction interleaves lines; quotations were rejoine
 - Verdict: verified (recall: Not-counted list added; no quotation, OQ or bibliographic field changed)
 
 ## Fit
-pending
+- OQ-friedrich2026-01: A=0 B=0 → final x. Reclassified `own_research_question` at hand-check; the article states it as its research question and answers it, so it is not open.
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (pp. 1–5, the abstract, the vignette, "Organizational Democracy Beyond the Human" and the start of "Organizational Democracy’s Disconnects"; pp. 15–20, Table 2 and "Posthuman democracy and affirmative organizational theory: Contributions and conclusions" to the end of the text; pp. 9 and 11–14 for the method statement and the nine propositional questions; every other quotation read at its locator)
+- Corrections: (1) OQ-01 reclassified (below). (2) The intermediaries quotation replaced, score unchanged. (3) A Form note on OQ-16. (4) One Not-counted line added. (5) `reader_model` normalized to the model id. The argument, the eight *Organization Theory* citations, the four constructs, all 18 OQ quotations, both implicit openings and the other four flag quotations match the text at their locators; the three quotations the checker cannot match (the p. 3 definition, OQ-14 and OQ-16) differ only by a line-end dash or a printed page number, as the verifier said.
+- OQs added / removed / reclassified: reclassified OQ-friedrich2026-01 from explicit_question to own_research_question, the case DECISIONS lists (V02's query). None added, none removed. OQ-03 to OQ-11 stay explicit questions: the text calls them "Propositional questions that may guide" organizing (pp. 11, 13, 14) and says they "invite the reader into a space of co-creation" (p. 9); the author puts them to readers and answers none, and Table 2 offers "Speculative examples" beside them (p. 15). They are questions for practice more than for research, and synthesis should read their addressee that way. OQ-02 stays as the invitation that frames the nine.
+- Flags changed: none in score. intermediaries stays at 1 with a new quotation. algorithms_ai stays at 1: an AI algorithm selects participants and AI-generated data speaks for an absent child in the vignette (p. 2), AI appears in OQ-08 and OQ-17, and the paper's subject is democratic organizing.
+- Fit adjudications: 0 lines for scores of 2 or more (1 line sets the reclassified OQ to x); disagreements resolved: 0. Both scorers gave 1 to OQ-08 and OQ-17, and I agree with 1: both name AI, as a tool for attunement (p. 13) and as an instrument that needs scrutiny (p. 19), and neither asks about a person who works with a counterpart through a system that evaluates both.
+- For synthesis: (1) The article cites hinds2024 once, for a "relational perspective on technology" (p. 19), in a sentence that also quotes Glaser et al. (2024) on agency that "resides in assemblages—not humans, algorithms, or data". This is the article's one tie to the corpus's AI conversation. (2) Implicit opening 1 is the passage nearest the brief: in the vignette an algorithm decides who is seated in an assembly (p. 2), and the article asks nothing about it.
+- Exchange set: `exchange_id: none` confirmed. TIERS lists this article and mena2026 as a same-issue pair on democracy. Neither names the other in its text or reference list. `EDGES.tsv` has three edges from this article (gumusay2024, hinds2024, lantela2024) and none to it.
+- Verdict: indexed_with_corrections

@@ -12,9 +12,9 @@ exchange_id: none
 license: CC BY-NC 4.0 (printed on the article and in crossref)
 read_depth: full_vor (publisher's typeset SAGE article, pp. 1-23; all 23 pdf pages read; printed page = pdf page; the separate kalkman2026_repo.pdf was ignored as instructed)
 object_read: "kalkman2026.pdf sha256 7874ed83b7fb43f14829e47e1c4c3b7399b3b2fbdcd79703747d47e65b06889c"
-reader_model: Sonnet 5.5
+reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -106,6 +106,7 @@ run: ot-oq-2026-11
 - Addressee: empirical researchers
 - Level of analysis: organization
 - Paraphrase: Causal assessment of crisis interventions is hard, so process-based moral scrutiny is offered as a partial substitute. (reader's paraphrase)
+- Form note (hand-check): the difficulty belongs to outcome-based evaluation across the field, which the author cites from four earlier sources; it is not a limit of the article's own proposal. It stays a `limitation` because the schema has no closer form, and the causal problem itself is left standing.
 
 ## Implicit openings
 1. (reader's inference) "Resistance to reorganizing crisis management around a care-based purpose is to be anticipated, though, because conservative actors will try to preserve the status quo" (p. 13, "Toward a New Purpose for Crisis Management"). How that resistance plays out against care-oriented change agents is left open.
@@ -142,7 +143,13 @@ run: ot-oq-2026-11
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (pp. 1–4, the abstract, "Introduction" and the start of "Purpose in the Crisis Management Literature"; pp. 13–16, the end of "Toward a New Purpose for Crisis Management", "Discussion" with its three subsections; every other quotation read at its locator, pp. 4–12)
+- Corrections: (1) A Form note on OQ-08. (2) `reader_model` normalized to the model id. Nothing else changed. The argument, the six *Organization Theory* citations (each found in the reference list), the seven constructs, all eight OQ quotations, the three implicit openings and the four flag quotations match the text at their locators. The summary's "he" is supported: the author describes himself in the positionality statement on p. 2.
+- OQs added / removed / reclassified: none. No OQ takes `own_research_question`: the article poses no question that it answers. The section "Implications for Empirical Research" (pp. 14–15) holds six calls and one stated difficulty, and OQ-02 to OQ-08 carry them. OQ-05 lists four questions that the author calls "open questions that empirical studies can address"; it stays one OQ, as the reader recorded it.
+- Flags changed: none. coordination stays at 1: one passage reports "ample research on coordination dynamics in crisis contexts" (p. 4, citing Bechky & Okhuysen, 2011, among others) and faults it for leaving purpose undiscussed. literacy_competence stays at 1 on the training of crisis managers (pp. 10, 15). No third party, intermediary, algorithm or platform appears.
+- Fit adjudications: 0 lines; disagreements resolved: 0. Both scorers gave 0 to all eight OQs, and I agree: the questions concern the ethics and effects of care-based crisis management.
+- Exchange set: `exchange_id: none` confirmed. The article cites three corpus articles as sources, not as a reply to any: fotaki2023 four times for the ethics of care (pp. 2, 7, 9, 13), werner2026 three times for organizational character (pp. 11, 12, 15) and mena2026 once for democratic decision-making procedures (p. 12). OQ-03 and OQ-04 build directly on werner2026's typology.
+- Verdict: indexed_with_corrections

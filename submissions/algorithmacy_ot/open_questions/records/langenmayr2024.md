@@ -12,9 +12,9 @@ exchange_id: none
 license: CC BY-NC 4.0 (printed on p. 1 and crossref)
 read_depth: full_vor (publisher's version of record; printed pages 1-20 coincide with pdf pages 1-20; pp. 16-20 are references, which I scanned for Organization Theory entries)
 object_read: "langenmayr2024.pdf sha256 847f102fb04d353d0ed4c4f939d2d5312064ecc079007973a6d0884e1c9e621a"
-reader_model: Claude Sonnet 5.5 (claude-sonnet-5-5)
+reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -135,7 +135,7 @@ No dedicated "future research" section. The two theory sections set out research
 
 ## Implicit openings
 - The authors note that open strategy studies largely examine inclusion "from a Western point of view" (p. 4, "The Dominant Business Case Approach") and draw on studies "conducted in Europe and North America" (p. 3; see also p. 7, "Contextual understandings of inclusion"); empirical work on non-Western open strategy is not done by the authors here (reader's inference).
-- The paper states that open strategy can be "opened to an unrestricted crowd" yet traditional and new actors stay distinct (p. 10, "Reproducing power relations through managing diversity"); how digital intake channels shape that distinction is not examined (reader's inference).
+- The paper states that open strategy can be "opened to an unrestricted crowd" yet traditional and new actors stay distinct (p. 10, "Reproducing power relations through managing diversity"); how the way a process is opened shapes that distinction is not examined (reader's inference; reworded at hand-check, because the reader's phrase "digital intake channels" brought in a term the text does not use: the passage speaks only of opening to a crowd "without a tight selection process", and crowdsourcing and social media appear only in reference titles).
 
 ## Topic flags
 - triads_third_parties: 0
@@ -163,7 +163,12 @@ Not counted (verifier's recall sweep): p. 2, "remains largely unaware" states th
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1 (both scorers gave all eleven OQs 0)
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; no scorer rated an OQ above 0. Read: pp. 1–4, pp. 13–15 with note 1, and every quotation at its locator)
+- Corrections: (1) Implicit opening 2 reworded: the article names no digital channel, so the inference now stays with the passage it cites (p. 10). (2) `reader_model` normalized to the model id. The argument, the seven construct definitions, the four OT citations (Whittington & Yakis-Douglas 2020; Benschop 2021; Friesl et al. 2023; Gümüsay & Reinecke 2024) and all eleven OQ quotations match the text at their locators. Two of the four are corpus articles (friesl2023, gumusay2024), and `EDGES.tsv` has both edges.
+- OQs added / removed / reclassified: none. The article asks no question in interrogative form, as the record says. OQ-07 is a call by implication ("implies that the differences ... are acknowledged and theorized independently", p. 14), and `future_research_call` is the nearest form. The Discussion's sentence on scrutinizing whether openness leads to representativity (p. 14) restates the themes of OQ-01 to OQ-05.
+- Flags changed: none. `evaluation_accountability: 1` holds under the lead's ruling: on p. 9 powerful actors "calculate and monitor differences" among people, in passing. `platforms` and `algorithms_ai` stay 0; the open-strategy technologies of the wider literature appear here only in the reference list.
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Verdict: indexed_with_corrections

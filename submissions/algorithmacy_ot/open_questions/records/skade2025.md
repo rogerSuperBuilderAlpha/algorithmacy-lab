@@ -14,7 +14,7 @@ read_depth: full_vor (publisher's version, pp. 1-24; printed pages equal pdf pag
 object_read: "skade2025.pdf sha256 7e8fd0fb9735a0935e44a56e9323ef481e77dab02e4bbca5b942099c7b471184"
 reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 0}
 run: ot-oq-2026-11
@@ -23,7 +23,7 @@ run: ot-oq-2026-11
 # Skade (2025). The Future Looks Bright: Toward a Dialectical Understanding of the Future in the Strategy-Making Process.
 
 ## What it argues
-Skade argues that strategy-makers meet the future through tensions, and that a dialectical view explains how they handle them. He names two tensions, proximity (near versus distant) and flow (continuous versus disruptive), and crosses them into four perspectives on the future: incremental, expanding, punctuated and speculative. He then proposes that actors synthesize these tensions through the future-making practice of imagining, producing "more-than" solutions rather than choosing a side. Examples include Netflix, Airbnb and Zoom. The paper positions itself against the view that the future can be predicted and planned for. It closes with contributions to future-making and strategy-making research and three directions for future work. (reader's paraphrase)
+Skade argues that strategy-makers meet the future through tensions, and that a dialectical view explains how they handle them. The author names two tensions, proximity (near versus distant) and flow (continuous versus disruptive), and crosses them into four perspectives on the future: incremental, expanding, punctuated and speculative. The author then proposes that actors synthesize these tensions through the future-making practice of imagining, producing "more-than" solutions rather than choosing a side. Examples include Netflix, Airbnb and Zoom. The paper positions itself against the view that the future can be predicted and planned for. It closes with contributions to future-making and strategy-making research and three directions for future work. (reader's paraphrase; at hand-check "He" became "The author" twice, because the text gives no pronoun for the author)
 
 ## The conversation it joins
 - Positions against / extends: "However, perhaps surprisingly, the majority of strategy-making research has neglected the future despite growing interest in time and temporality" (p. 4, "An increased focus on temporality"). Also: "Much of the strategy-making literature has suggested that the future unfolds linearly, is simply "out there"" (p. 16, "An alternative perspective on the future").
@@ -127,7 +127,13 @@ Skade argues that strategy-makers meet the future through tensions, and that a d
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (pp. 1–4, the abstract, "Introduction" and the start of "Theoretical Background"; pp. 15–18, from "Summarizing the generative potential of a dialectical inquiry" through "Discussion and Implications", "Ways toward future research opportunities" and "Conclusion"; every quotation read at its locator)
+- Corrections: one, in "What it argues": the summary called the author "He" twice, and the text gives no pronoun, so both now read "The author". The argument, the six *Organization Theory* citations (each found in the reference list, none a corpus article), the five constructs, all seven OQ quotations, both implicit openings and the four flag quotations match the text at their locators. "we know little about how a plurality of futures unfolds" crosses the break between pp. 17 and 18, as the verifier noted.
+- OQs added / removed / reclassified: none. The article states no question it then answers, so no OQ takes `own_research_question`; its aim on p. 3 is a statement and sits under Not counted. OQ-04 stays a `future_research_call` (DECISIONS, V08 queries): the next sentence says the dialectic perspective "helps address this gap" for imagining alone, and the sentence after it names four other practices that researchers have only "begun investigating" (p. 17). OQ-06 and OQ-07 stay `boundary_condition`: each marks where the author's claim stops (other tensions and practices, p. 7; imagining is not always dialectical, pp. 15–16). The section "Ways toward future research opportunities" holds three directions, and OQ-01 to OQ-03 carry them.
+- Flags changed: none. platforms stays at 1: Zoom, Airbnb and Netflix are illustrations of strategic synthesis (pp. 13–15), and the author says nothing about platform organizing. coordination stays at 1 on a phrase quoted from Beckert (p. 11) and one more mention ("mechanisms for coordinating different futures", p. 17). No algorithm, AI system or third party appears in the text.
+- Fit adjudications: 0 lines; disagreements resolved: 0. Both scorers gave 0 to all seven OQs, and I agree: the questions concern how strategists handle plural futures.
+- Exchange set: `exchange_id: none` confirmed. `EDGES.tsv` has no edge to or from this article. Its Gümüsay and Reinecke citation is to their 2022 article, which the reference list places outside *Organization Theory*.
+- Verdict: indexed_with_corrections

@@ -12,9 +12,9 @@ exchange_id: none
 license: CC BY-NC 4.0 (printed on the article and in crossref)
 read_depth: full_vor (publisher's typeset SAGE article, pp. 1-35; all 35 pdf pages read; printed page = pdf page)
 object_read: "porsfelt2026.pdf sha256 ad871e24c991125a90c1498a64cdf55909ad2fbacc4291ed117465679f2884db"
-reader_model: Sonnet 5.5
+reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 1, platforms: 0, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 0}
 run: ot-oq-2026-11
@@ -45,7 +45,7 @@ run: ot-oq-2026-11
 ## Open questions
 ### OQ-porsfelt2026-01
 - Quote: "As such, it remains open to question whether this concept genuinely enriches our theoretical vocabulary to the extent implied by its popularity and cross-disciplinary flexibility." (p. 2, "Introduction")
-- Form: explicit_question
+- Form: own_research_question (hand-check: was explicit_question; the paper's framing doubt. The next sentence says the concept's potential "can only be effectively assessed and harnessed through careful consideration" of its definitions and genealogy, p. 2, and the "Imaginaries" section gives the assessment: the concept has "conceptual value" in drawing attention to tacit culture, p. 21, once its two lineages are kept apart, p. 23)
 - Scope: The analytical value of "imaginaries" in organisation studies. This is the paper's framing question; the genealogy and inventory are offered as the means of assessing it.
 - Addressee: organisation scholars using "imaginaries"
 - Level of analysis: field
@@ -53,7 +53,7 @@ run: ot-oq-2026-11
 
 ### OQ-porsfelt2026-02
 - Quote: "if organisations rely more frequently and to a higher degree on other forms of imagination in their operations than they do on imagination as a source of creativity, should not this greater ‘mass’ of imaginative practices warrant all the greater interest?" (p. 18, "Imagination")
-- Form: explicit_question
+- Form: own_research_question (hand-check: was explicit_question; a rhetorical question that the text answers at once, "a theoretical perspective with a greater scope is needed", p. 18, and the rest of the section supplies that perspective. The open residue sits in OQ-04 and OQ-05.)
 - Scope: Non-creative, "mundane" imagination in organisations. The question is rhetorical and prepares the paper's broader definition of imagination.
 - Addressee: organisation scholars
 - Level of analysis: organization
@@ -61,7 +61,7 @@ run: ot-oq-2026-11
 
 ### OQ-porsfelt2026-03
 - Quote: "What does it mean in practice to function as an ‘unarticulated backdrop’?" (p. 20, "Imaginaries")
-- Form: explicit_question
+- Form: own_research_question (hand-check: was explicit_question; the next sentence begins "Part of the answer lies in", and the section completes the answer with the declarative/non-declarative distinction and a three-point summary, pp. 20–21. It stands on the same footing as the p. 20 question the verifier listed as answered in the text.)
 - Scope: How imaginaries work as tacit cultural structures, taken from Augustine et al.'s (2019) definition. The paper then answers in part through the declarative/non-declarative distinction (p. 20-21).
 - Addressee: scholars of imaginaries
 - Level of analysis: field
@@ -147,7 +147,17 @@ run: ot-oq-2026-11
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- OQ-porsfelt2026-01: A=0 B=0 → final x. Reclassified `own_research_question` at hand-check; the "Imaginaries" section gives the paper's own assessment.
+- OQ-porsfelt2026-02: A=0 B=0 → final x. Reclassified `own_research_question` at hand-check; a rhetorical question answered in the next sentence.
+- OQ-porsfelt2026-03: A=0 B=0 → final x. Reclassified `own_research_question` at hand-check; the section that asks it answers it.
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (pp. 1–4, the abstract and "Introduction"; pp. 23–26, the close of "Imaginaries" and "Moving Forward"; p. 18 and pp. 20–21 for the passages around OQ-02 and OQ-03; every other quotation read at its locator, pp. 8–17)
+- Corrections: (1) Three OQs reclassified (below). (2) `reader_model` normalized to the model id. The argument, the eight *Organization Theory* citations (each found in the reference list; two are corpus articles, gumusay2024 and jorgensen2023), the seven constructs, all nine OQ quotations, the three implicit openings and the five flag quotations match the text at their locators. OQ-06 differs from the text layer only by a line-end hyphen, as the Caution says.
+- OQs added / removed / reclassified: reclassified OQ-01, OQ-02 and OQ-03 from explicit_question to own_research_question under the DECISIONS ruling (V02's query). The reader's Scope lines had already said that OQ-01 is the framing question, OQ-02 is rhetorical and OQ-03 is answered in part. OQ-08 stays an explicit question: the authors attribute it to the processual stream, offer the intra-subjunctive as "this further orientation" (p. 25), and their closing list leaves both conceptions standing ("whether these are conceived of as shared departures from the present or as embedded and embodied and materially entangled events", p. 26). OQ-07 stays an explicit question. None added: "Moving Forward" holds the six items the record carries as OQ-04 to OQ-09.
+- Flags changed: none. algorithms_ai stays at 1: AI systems appear in one clause (p. 25), and "artificial cognitive systems" in one more (p. 13). intermediaries stays at 1 on print media in the passage on Anderson (p. 8). literacy_competence stays at 1: the quoted skills belong to a study the authors report (p. 15), and their own "capacity" is one they call relational, not an individual's.
+- Fit adjudications: 0 lines for scores of 2 or more (3 lines set the reclassified OQs to x); disagreements resolved: 0. Both scorers gave 0 to all nine OQs, and I agree: the open questions concern imagination in organisations.
+- For synthesis (my inference, outside the fit scale): one passage sets three media side by side as shapers of imagination: the "written public sphere" of print, "an increasingly oral and visual digital culture", and "artificial cognitive systems" (p. 13). The brief orders oracy, literacy and algorithmacy by the form of the relation. The passage orders nothing and concerns images, so it is a neighbouring vocabulary and no more. The article also names Peirce once, for Weick's "abductive leaps" (p. 16).
+- Exchange set: `exchange_id: none` confirmed. `EDGES.tsv` has two edges from this article (gumusay2024, jorgensen2023) and none to it.
+- Verdict: indexed_with_corrections

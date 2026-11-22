@@ -14,9 +14,9 @@ read_depth: full_vor (publisher's version, pp. 1-16, journal header and "Volume 
 object_read: "jorgensen2023.pdf sha256 de7c3530a27b9c51d205a077b125a63d60b6bd81acc14b312cac01e0bc54fe04"
 reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
-topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 0}
+topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 0}
 run: ot-oq-2026-11
 ---
 
@@ -100,11 +100,11 @@ Jørgensen and Beyes take stock of the rising notion of atmosphere in organizati
 
 ## Implicit openings
 - (reader's inference) The paper extends the felt body to "the smartphone’s sensors" and "‘smart’ environments" (p. 8, "Situation, Embodiment and Envelopment"); how organizational atmospherics works where sensing and modulating devices take part is gestured at, not developed.
-- (reader's inference) The authors state a methodology of attunement "alongside" Michels's three registers (p. 9, "Half-Thing Methodology: Attunement"); how these methods are to be used in organizational fieldwork is left to later studies.
+- (reader's inference) The authors report Michels's three registers (p. 9, "Half-Thing Methodology: Attunement") and then "tentatively consider a methodology of" attunement "alongside the distinction between physical body and felt body" (pp. 9–10, same section); how these methods are to be used in organizational fieldwork is left to later studies. (first clause corrected at hand-check: in the text "alongside" joins attunement to Schmitz's distinction, not to Michels's registers)
 
 ## Topic flags
 - triads_third_parties: 0
-- intermediaries: 1. "the felt body has become a technologically mediated sensorium enveloped in" (p. 8, "Embodiment"; the sentence continues "‘smart’ environments")
+- intermediaries: 0 (lowered from 1 at hand-check). The reader's quotation, "the felt body has become a technologically mediated sensorium enveloped in" (p. 8, "Embodiment"; the sentence continues "‘smart’ environments"), has devices standing between a body and its surroundings, and the text holds no party that stands between parties. Technology that mediates experience does not meet the flag (DECISIONS, V12 queries).
 - algorithms_ai: 0
 - platforms: 0
 - coordination: 0
@@ -128,7 +128,13 @@ Jørgensen and Beyes take stock of the rising notion of atmosphere in organizati
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; both scorers rated every open OQ 0. Read: pp. 1–3, pp. 6 and 8 around the quotations, pp. 9–12, and every quotation at its locator)
+- Corrections: (1) Implicit opening 2 corrected: the quoted "alongside" joins attunement to Schmitz's distinction between physical body and felt body (pp. 9–10), not to Michels's registers. (2) intermediaries lowered to 0. The argument, the conversation (three OT citations, each in the reference list), the six constructs and all seven OQ quotations match the text at their locators.
+- OQs added / removed / reclassified: none. OQ-01 and OQ-02 stay `own_research_question`. OQ-03 stays a limitation: the authors concede that their ideas are easier reflected "than methodologically practiced" (p. 9). The closing pages (pp. 10–12) hold no call beyond OQ-04 to OQ-07.
+- Flags changed: intermediaries 1 → 0 (frontmatter and Topic flags agree). Digital technologies "mediate" the atmospheric qualities of space (p. 2) and devices sense and modulate atmospheres (p. 8), but no actor or device stands between two parties. algorithms_ai stays at 0: the "‘smart’ environments" and smartphone sensors of p. 8 are named once, and the authors discuss no algorithm or automated decision. literacy_competence stays at 1 (attunement as a "social skill" and as "embodied capabilities", p. 9).
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Exchange set: `exchange_id: none` confirmed. The three OT articles it cites predate the corpus. `EDGES.tsv` lists one corpus article citing this one (porsfelt2026).
+- Verdict: indexed_with_corrections

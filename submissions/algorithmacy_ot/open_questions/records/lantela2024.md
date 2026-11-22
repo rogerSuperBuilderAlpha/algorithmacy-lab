@@ -14,9 +14,9 @@ read_depth: full_vor (publisher's version, pp. 1-17, journal header and "Volume 
 object_read: "lantela2024.pdf sha256 a12ced9cf20864930960091e2014253105f35d9aa1733e525cb45ef43ce54b40"
 reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
-topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 1}
+topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 0}
 run: ot-oq-2026-11
 ---
 
@@ -26,7 +26,7 @@ run: ot-oq-2026-11
 Lantela proposes a feminist microhistorical approach to theorizing in organization studies. Microhistory narrows the scale to particular moments, people or things and reads sources closely; feminist standpoint theory adds the claim that knowledge from marginal positions carries epistemic privilege and that the location of the knower matters. Together they support situated, "messier" theorizing that seeks understanding of specific settings, not causal explanation or universal claims. She contrasts this with Decker (2015) and Hargadon and Wadhwani (2023), who tie microhistorical theory to generalization, and offers Ulrich's A Midwife's Tale and other microhistories as exemplars. She frames the piece as a theoretical provocation that also diversifies historical accounts of management theory. (reader's paraphrase)
 
 ## The conversation it joins
-- Positions against / extends: "I agree on the possibility of theorizing from particular cases, but contest Decker’s view on theory." (p. 4, "Microhistory's Recognized Potential in Management and Organization Studies"); "the suggested form of narrative theorizing is rather conventional" (p. 5, same section, on Hargadon & Wadhwani, 2023); "I suggest feminist microhistorical theorizing as one possible remedy to the bias and monolithic nature of conventional historical accounts of organizational and management thought" (pp. 2-3, introduction).
+- Positions against / extends: "I agree on the possibility of theorizing from particular cases, but contest Decker’s view on theory." (p. 4, "Microhistory's Recognized Potential in Management and Organization Studies"); "the suggested form of narrative theorizing is rather conventional" (p. 5, same section, on Hargadon & Wadhwani, 2023); "I suggest feminist microhistorical theorizing as one possible remedy to the bias and monolithic nature of conventional historical accounts of organizational and management thought" (p. 3, "Introduction"; locator corrected at hand-check from pp. 2-3: the sentence opens after a parenthesis that ends at the top of p. 3).
 - Named interlocutors: Hargadon & Wadhwani (2023); Decker (2015); Maclean et al. (2016); Cummings et al. (2017); Banerjee (2022); Cornelissen, Höllerer & Seidl (2021); Cunliffe (2022); Abend (2006, 2008, 2022); Levi (2001); Ginzburg; Ulrich (1991); feminist standpoint theorists (Haraway 1988; Harding; Wylie).
 - OT articles it cites: Cloutier & Langley (2020), "What makes a process theoretical contribution?"; Kornberger & Mantere (2020), "Thought experiments and philosophy in organizational research"; Cornelissen, Höllerer & Seidl (2021), "What theory is and can be: Forms of theorizing in organizational scholarship"; Cunliffe (2022), "Must I grow a pair of balls to theorize about theory in organization and management studies?"; Fotaki (2023), "Why do we desire and fear care: Toward developing a holistic political approach?".
 - Move: new approach (feminist microhistorical theorizing); critique of mainstream theorizing and of prior microhistory accounts; agenda-setting.
@@ -142,7 +142,7 @@ Lantela proposes a feminist microhistorical approach to theorizing in organizati
 - coordination: 0
 - communication: 1. "It aids us in finding and listening to marginal voices of the past" (p. 1, abstract)
 - literacy_competence: 0
-- evaluation_accountability: 1. "This difference affects the evaluation of these theorizations" (p. 10, "Feminist Microhistorical Theorizing")
+- evaluation_accountability: 0. (hand-check: lowered from 1. The reader's passage on p. 10, "Feminist Microhistorical Theorizing", is about how theorizations are evaluated, and the lead's ruling on the V06 query keeps criteria for judging scholarly theory outside this flag. The text evaluates no person or organization as practice. Its nearest mentions are one word on academic gatekeeping, p. 2, and one phrase on journal prestige, p. 8.)
 
 ## Caution
 - Publisher's version of record; printed page numbers equal pdf page numbers.
@@ -150,6 +150,7 @@ Lantela proposes a feminist microhistorical approach to theorizing in organizati
 - Quote self-check: 11 quotes, 10 exact, 1 ends-only (OQ-05, the page-number artifact), 0 miss.
 - Reference list: "Organization Theory" entries were found by search for the journal name; OT articles listed above come from lines containing that name.
 - Not counted: "In the following sections, I will first briefly outline..." (p. 3, roadmap); "Who is speaking or whose voice the researcher seeks to find matters" and "Whose knowledge is privileged, and how does this privilege shape our understanding of legitimate theoretical knowledge in academia and beyond?" (p. 3, rhetorical questions framing the argument, answered by the feminist standpoint account); "Observing the field of management and organization studies (MOS), Bell’s question is entangled with many other voices" (pp. 1-2, motivation); "microhistorical theorizing could also mitigate the growing political polarization" (p. 3, a claimed benefit, not a research call). "Echoing Banerjee’s (2022) critique, who decides the frame from which the ‘right’ questions are asked?" (p. 3) and "how does organizing happen, and what kind of knowledge must we have in order to make sense of it?" (p. 7): rhetorical, answered by the standpoint argument (added by verifier). "Thus, microhistorical theorizing need to ask whose voice or ‘standpoint’ we see or hear in the archives?" (p. 9) and "What kind of things, practices, people,or webs of relations have enabled specific ideas, theories or conceptualizations in a particular time and sub-field to emerge?" (p. 12): parts of the question series already in OQ-04 and OQ-09 (added by verifier). "limitations" (p. 2, of conventional management history; p. 11, a microhistorian should expose the limitations of the analysis): not work left open (added by verifier). "remains consistent over time" (p. 10): inside a quotation of Whittier via Abend (added by verifier). Question marks on pp. 14-16 are reference titles (added by verifier).
+- Not counted (hand-check): p. 3, the sentence that calls what constitutes the margins an open empirical and contextual question is the first statement of the point OQ-06 records from p. 9.
 
 ## Verification
 - Verifier: claude-opus-5-5, 2026-11-22
@@ -162,7 +163,12 @@ Lantela proposes a feminist microhistorical approach to theorizing in organizati
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1 (both scorers gave eight OQs 0; OQ-01, OQ-02 and OQ-07 are own research questions, scored x by both, and the text confirms each)
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; no scorer rated an OQ above 0. Read: pp. 1–5 and pp. 8–12 in full, the A Midwife's Tale passage on pp. 6–7 by search, and every quotation at its locator)
+- Corrections: (1) `evaluation_accountability` lowered 1 → 0 (below). (2) The locator of the "one possible remedy" quotation corrected from pp. 2-3 to p. 3. (3) One Not-counted sentence added (p. 3). The argument, the six construct definitions, the five OT citations (Cloutier & Langley 2020; Kornberger & Mantere 2020; Cornelissen et al. 2021; Cunliffe 2022; Fotaki 2023, reference list pp. 14–15) and all eleven OQ quotations match the text at their locators. Fotaki (2023) is fotaki2023 in this corpus, and `EDGES.tsv` has the edge.
+- OQs added / removed / reclassified: none. OQ-01, OQ-02 and OQ-07 are rightly `own_research_question`: the sentence after each begins the answer ("First, the location", p. 3; "Thus far, organizational scholars have", p. 4; "This is the fundamental question that feminist studies", p. 10). OQ-04 and OQ-09 stay explicit_question: Lantela hands these questions to researchers who take up the approach and answers neither. OQ-06 stays `boundary_condition` as a contingency the approach carries into every study (who counts as subjugated must be justified case by case), the usage `QUESTIONS.tsv` follows elsewhere.
+- Flags changed: `evaluation_accountability` 1 → 0. `communication: 1` holds in passing, on voices in the archive (abstract) and on words and concepts as a condition of theorizing (p. 9). A term sweep found no third party, intermediary, algorithm or platform.
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Verdict: indexed_with_corrections

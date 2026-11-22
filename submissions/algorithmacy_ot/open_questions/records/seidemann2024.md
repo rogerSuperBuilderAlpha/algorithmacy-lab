@@ -14,7 +14,7 @@ read_depth: full_vor (publisher's version, pp. 1-25; printed pages equal pdf pag
 object_read: "seidemann2024.pdf sha256 eb28b91bbd79a14eb2b339aeaea87305c36b84157e8948448ca9e58eff7093ac"
 reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 0, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -161,6 +161,14 @@ The author intervenes in paradox theory through three provocations. Universality
 - Level of analysis: individual
 - Paraphrase: The cognitive stream of paradox research should critically examine its normative emphasis on individual leaders and managers. (reader's paraphrase) (added by verifier)
 
+### OQ-seidemann2024-16
+- Quote: "prompts the more fundamental question of whether a paradox still qualifies as such if one of its features is only present in a very weak intensity." (p. 7, "Universality"; the subject of the sentence is the changing weight and manifestation of tensions that Kilminster et al., 2024, report. The quotation starts after that citation so that the index parser does not read it as the locator.)
+- Form: explicit_question
+- Scope: whether a tension stays a paradox when contradiction, interrelation or persistence is only weakly present
+- Addressee: paradox researchers
+- Level of analysis: field
+- Paraphrase: Does a tension still count as a paradox when one of its three defining features is present only weakly? (hand-checker's paraphrase) (added at hand-check)
+
 ## Implicit openings
 - After noting that Fredberg finds seven "paradoxes", the author writes "the legitimate question of the value of such revelations arises" (p. 6, "Universality"). No test is offered for when a multiplicity of found paradoxes (for example Fredberg's seven) adds knowledge. (reader's inference)
 - The paper deliberately sets aside "dialectics" and "systems theory" accounts of paradox (p. 2, "Introduction"). How the three provocations apply there is not tested. (reader's inference)
@@ -183,6 +191,7 @@ The author intervenes in paradox theory through three provocations. Universality
 - Not counted: "I am only scratching the surface here" (p. 18), a remark on scope; "Taking the different ontological perspectives on paradox seriously ... has far-reaching implications for the interpretation of paradox features" (p. 16), a claim of implication; the section heading "How wonderful that we have met with a paradox. Really?" (p. 8) is rhetorical; "Young researchers like myself ... often feel the need to adapt" (p. 20), a reflection on the author's position; "Constructing alternative assumptions and engaging with their implications allows scholars to develop novel research questions" (p. 17), a method suggestion with no object named beyond OQ-06.
 - The author's PhD story (p. 7) is autobiographical; not recorded as an OQ.
 - Not counted (added by verifier): "presents significant risks and limitations that paradox scholars must start to address" (p. 13, "Hegemony of both/and") — folded into OQ-11, which names the work; "the moral dimension of paradox remains generally undertheorized" (p. 17) — the gap stated just before OQ-08, folded into it; "what do people really mean when they say that something is paradoxical?" (p. 8) — Langley's question, quoted; "invite a reassessment of the very nature of paradox" (p. 5) — motivates the paper's own critique, answered in text; "research agenda" (pp. 2, 3, 19) — signposts or autobiography; "limitation(s)" (pp. 3, 4, 5, 11, 14, 18) — descriptive or tied to OQ-11; question marks on pp. 21-25 — reference titles only.
+- Not counted (hand-check): p. 6, the question whether paradoxes are intrinsic or socially constructed is the field's existing ontological debate, which the author reports and builds on; p. 19, the sentence that paradox scholars need to engage with critique from inside and outside the field restates the paper's aim and names no work; pp. 19–20, the claim that the both/and paradigm needs to be rethought restates OQ-11 and OQ-13.
 
 ## Verification
 - Verifier: claude-opus-5-5, 2026-11-22
@@ -195,7 +204,14 @@ The author intervenes in paradox theory through three provocations. Universality
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- OQ-seidemann2024-16: added at hand-check, so it has no S6 scores → final 0. It asks how paradox theory defines its object and has no contact with the brief.
+- All other OQs: final = max(A,B) ≤ 1 (both scorers gave OQ-01 to OQ-15 0)
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; no scorer rated an OQ above 0. Read: pp. 1–7, pp. 13–20 apart from Table 1, the passages around each quotation on pp. 8–10, and every quotation at its locator)
+- Corrections: (1) OQ-16 added (below). (2) Three Not-counted items added. The argument, the five construct definitions, the four OT citations (Cornelissen et al. 2021; Janssens & Zanoni 2021; Spicer 2020; Weiser & Laamanen 2022) and all fifteen earlier OQ quotations match the text at their locators.
+- OQs added / removed / reclassified: added OQ-16 (p. 7). The reader recorded the same construction on p. 15 as OQ-02 ("prompts the question of why"); the verifier's sweep looked for question marks and missed this indirect question, which the author leaves open and passes to the call in OQ-01. OQ-02 stays an explicit_question: the author reports Berti's (2021) answer, that orderly and rule-based organizing implies its opposites, and then turns the question into a line of inquiry for others (p. 15). None removed or reclassified.
+- Flags changed: none. `evaluation_accountability: 1` holds under the lead's ruling: the criteria on p. 17 judge how organizations respond to paradox (the example evaluates a multi-stakeholder initiative), not scholarly theory, and the passage is one step of one pathway. `literacy_competence: 1` rests on the "paradox mindset" as an individual capability the author criticizes (p. 9).
+- Exchange set: `exchange_id: none` confirmed. The text never names Krautzberger and Tuckermann, whose article shares issue 5(4) and the both/and theme, and their text never names Seidemann. The two are linked only from outside: keller2025 cites both, and bartunek2025 cites this article (`EDGES.tsv`).
+- Fit adjudications: 0 lines for scores of 2 or more (1 line scores the added OQ); disagreements resolved: 0
+- Verdict: indexed_with_corrections

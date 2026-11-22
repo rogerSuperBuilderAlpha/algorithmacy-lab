@@ -14,9 +14,9 @@ read_depth: full_vor (publisher's version, pp. 1-24; printed pages equal pdf pag
 object_read: "garud2025.pdf sha256 dbbfe48965b9793b92709a3dd95ec9393386143548720185f950675152ce6b5b"
 reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
-topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 1, platforms: 1, coordination: 1, communication: 2, literacy_competence: 1, evaluation_accountability: 1}
+topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 1, platforms: 1, coordination: 1, communication: 2, literacy_competence: 2, evaluation_accountability: 1}
 run: ot-oq-2026-11
 ---
 
@@ -132,7 +132,7 @@ The authors hold that exploration and exploitation can be intertwined inside eve
 - platforms: 1. "digital platforms make it possible for firms to engage in architectural and modular innovations" (p. 15, "Future research ... Gen AI")
 - coordination: 1. "Chronos starts playing an increasingly important role as activities now must be coordinated across multiple actors." (p. 11, "Summary")
 - communication: 2. "It is through narratives that employees generate meaning around the novel ideas they stumble upon" (p. 8, "Post-classical view")
-- literacy_competence: 1. "We theorize that innovation at work is possible when employees cultivate a capacity to "reflect in and on action" (Schön, 1983)." (p. 2, introduction)
+- literacy_competence: 2. "We theorize that innovation at work is possible when employees cultivate a capacity to "reflect in and on action" (Schön, 1983)." (p. 2, introduction) (hand-check: raised from 1. The abstract states the thesis as a claim about what a person can do: "Our core thesis is that actors’ ability to simultaneously engage in exploration and exploitation requires the structuring of all three notions of time." (p. 1, "Abstract"). The capacity recurs as craft skill, p. 5, as reflective knowing, p. 6, and as individuals' capacities extended by networks, p. 12.)
 - evaluation_accountability: 1. "their performance should be evaluated over time, rather than at any one moment (Schumpeter, 1942)." (p. 12, "Organizing for Ongoing Innovation at Work")
 
 ## Caution
@@ -151,7 +151,13 @@ The authors hold that exploration and exploitation can be intertwined inside eve
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1 (OQ-06 and OQ-08 stand at 1 from both scorers, and the closing section gives no reason to raise either: its digital platforms are modular product architectures with no parties on them, and its Gen AI is a work aid inside a "human-AI ensemble", p. 16, with no counterpart and no evaluation; OQ-01 and OQ-02 are own research questions, scored x by both; the rest are 0)
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; the highest score from either scorer is 1. Read: pp. 1–4, pp. 11–17 with the notes, and every quotation at its locator)
+- Corrections: `literacy_competence` raised 1 → 2 (below). The argument, the five construct definitions, the three OT citations (Beckert 2021; Hernes & Obstfeld 2022; Hernes & Schultz 2020) and all ten OQ quotations match the text at their locators.
+- OQs added / removed / reclassified: none. OQ-01 and OQ-02 are rightly `own_research_question`: the authors answer the first with the three notions of time and the second, in the next sentence, with practices at 3M and Google (p. 11).
+- Flags changed: `literacy_competence` 1 → 2. The V06 query on `algorithms_ai` and `platforms` closes with both at 1. Gen AI appears only in the last subsection (six mentions, pp. 15–16), where the authors call their theory "particularly relevant" to it; the abstract, the introduction and the three views never name it. The subsection carries four of the ten OQs, so the topic is more than a passing word, but the scale has no step between 1 and 2 and the article's thesis does not depend on it. "Platform" names 3M's and Corning's technology platforms (pp. 11, 12, 15) and modular digital architectures (p. 15), which are knowledge and product structures, not platform organizing.
+- For synthesis: the article's tie to the brief is its genus and level, not its technology. It theorizes an individual's capacity (to reflect in and on action) that an organizational arrangement enables, as the brief's construct is an individual's capacity under an organizational form. It has no intermediary and no counterpart.
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Verdict: indexed_with_corrections

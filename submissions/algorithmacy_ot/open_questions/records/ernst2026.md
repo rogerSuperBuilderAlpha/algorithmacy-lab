@@ -12,11 +12,11 @@ exchange_id: none
 license: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
 read_depth: full_vor (publisher's version of record, 21 pdf pages; printed page numbers 1-21 match the pdf page markers, so locators use the printed page; the separate ernst2026_repo.pdf was ignored per the brief)
 object_read: "ernst2026.pdf sha256 b21328049d20dc1633269374f07ba5fbd0d767d3bbaac97677edaed2acb7574b"
-reader_model: Claude Sonnet 5.5 (claude-sonnet-5-5)
+reader_model: claude-sonnet-5-5
 verified: yes
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: distributed
-topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
+topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 2, evaluation_accountability: 1}
 run: ot-oq-2026-11
 ---
 
@@ -90,7 +90,8 @@ run: ot-oq-2026-11
 - Paraphrase: Editors and reviewers are asked to join researchers in identifying and counteracting field biases. (reader's paraphrase)
 
 ### OQ-ernst2026-07
-- Quote: "Can we afford to divorce inquiry in academia from crisis at the political and geopolitical levels or from economic forces?" (pp. 16-17, "Conclusions")
+- Quote: "Can we afford to divorce inquiry in academia from crisis at the political and geopolitical levels or from economic forces?" (p. 17, "Conclusions")
+- Locator note (hand-check): was pp. 16-17; the paragraph starts on p. 16 and the question sits wholly on p. 17.
 - Form: explicit_question
 - Scope: academic inquiry and political, geopolitical and economic crises, including attacks on higher education
 - Addressee: OS scholars
@@ -116,7 +117,7 @@ run: ot-oq-2026-11
 - platforms: 0
 - coordination: 0
 - communication: 1. "researcher reflexivity concerns the researcher’s textual and discursive practices" (p. 4, "Research Reflexivity in the OS field")
-- literacy_competence: 1. "good academic practice is an embodied craft" (p. 9, "Epistemic reflexivity and habitus")
+- literacy_competence: 2. "good academic practice is an embodied craft" (p. 9, "Epistemic reflexivity and habitus"); "these principles develop throughout the researcher’s career, contributing to the nurturing of an embodied reflexive researcher habitus" (p. 16, "Conclusions"). Raised from 1 at hand-check: the reflexive researcher habitus is one of the article's two named concepts, it stands in the abstract and the keywords, and the text describes it as a craft "learned by example and experience" (p. 9, quoting Bourdieu, 2004). The capacity is a researcher's, not a worker's.
 - evaluation_accountability: 1. "The power of gatekeepers and journal rankings, related to cultural and symbolic capital in the field, threatens exclusion of heretical points of view" (p. 10, "Epistemic reflexivity and habitus")
 
 ## Caution
@@ -135,7 +136,14 @@ Not counted (verifier's recall sweep): p. 7, the question about how to make "Alg
 - Verdict: verified
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (pp. 1–4, the abstract, the introduction and the start of "Research Reflexivity in the OS field"; pp. 13–17, "Discussion" and "Conclusions"; every other quotation read at its locator, pp. 4–6 and 9–10)
+- Corrections: (1) OQ-07's locator pp. 16-17 → p. 17. (2) literacy_competence 1 → 2, with a second quotation. (3) `reader_model` normalized to the model id. The argument, the three statements of position, the two *Organization Theory* citations (the only two in the reference list), the five constructs, all eight OQ quotations and both implicit openings match the text at their locators. The reference list holds no Cunliffe (2022), as the reader said; the text names that article "in this journal" on p. 13.
+- OQs added / removed / reclassified: none. The lead ruled at the pilot that the eight closing calls, limitations and invitations stay. No OQ takes `own_research_question`: the article states an aim (p. 3) and asks one question, OQ-07, which it calls "urgent" and leaves open (p. 17). OQ-06 stays an `editor_call`, a call that names editors and reviewers among its addressees.
+- Flags changed: literacy_competence 1 → 2. evaluation_accountability stays at 1: gatekeepers, reviewers and journal rankings evaluate researchers as a practice of the field (pp. 10, 15), which is within the flag as the lead read it for the V06 queries, and the authors treat it as a constraint on reflexivity, in passing. The four zero flags on triads, intermediaries, algorithms and platforms are right; none of those terms appears in the text.
+- Fit adjudications: 0 lines; disagreements resolved: 0. Both scorers gave 0 to all eight OQs, and I agree: every one concerns how organization scholars construct research objects.
+- For synthesis (my inference, outside the fit scale): the article theorizes a capacity as a habitus, a set of embodied dispositions that grow with practice across a career and that the authors call "a collective rather than an individual endeavour" (p. 14). The brief leaves the genus of algorithmacy unsettled between a sensibility and an ability and says that people with more turns at the cycle hold more of it. A reader of this journal has met that kind of construct here.
+- Exchange set: `exchange_id: none` confirmed. `EDGES.tsv` has no edge to or from this article; both *Organization Theory* items it cites predate the corpus.
+- Verdict: indexed_with_corrections

@@ -14,7 +14,7 @@ read_depth: full_vor (publisher's version, pp. 1-23; printed pages equal pdf pag
 object_read: "godart2024.pdf sha256 82dca8b485dd880680fde3d9e361fbb0d4e4d806e28ce72b64f7a031f93c9836"
 reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 2}
 run: ot-oq-2026-11
@@ -28,7 +28,7 @@ The authors introduce "organizational purity", an organization's steadfast adher
 ## The conversation it joins
 - Positions against / extends: "a common assumption – shared across research streams in organizational theory and allied disciplines – is that organizations (for-profit and non-profit alike) have a survival motive" (p. 2, "Introduction"). The paper adds that "organizations simply ignore these pressures because they focus exclusively on identity work aligned with their logic" (p. 3, "Introduction").
 - Named interlocutors: Oliver (1991); Pache & Santos (2010); Thornton, Ocasio & Lounsbury (2012); Friedland & Alford (1991); Douglas ([1966] 2003); Abbott (1981); Carroll & Wheaton (2009); Orton & Weick (1990); Battilana & Dorado (2010); Anteby (2010); Durand & Haans (2022).
-- OT articles it cites: Alvehus & Hallonsten (2022), "Institutional logics and functionalist differentiation theory" (Organization Theory 3(3)); Durand & Haans (2022), "Optimally distinct? ..." (3(1)); Zhao & Glynn (2022), "Optimal distinctiveness: On being the same and different" (3(1)).
+- OT articles it cites: Alvehus & Hallonsten (2022), "Institutional logics and functionalist differentiation theory" (Organization Theory 3(3)); Durand & Haans (2022), "Optimally distinct? ..." (3(1)); Zhao & Glynn (2022), "Optimal distinctiveness: On being the same and different" (3(1)); Powell & DiMaggio (2023), "The iron cage redux: Looking back and forward" (4(4)), cited on p. 15 and listed on p. 20 (added at hand-check; this is powell2023 in this corpus, and `EDGES.tsv` already has the edge).
 - Move: new concept (purity) with propositions, building on institutional logics and identity work (reader's paraphrase).
 
 ## Key constructs
@@ -119,7 +119,12 @@ The authors introduce "organizational purity", an organization's steadfast adher
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1 (both scorers gave OQ-02 to OQ-06 0; OQ-01 is the paper's own research question, scored x by both, and the text confirms it)
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; no scorer rated an OQ above 0. Read: pp. 1–5, pp. 15–17, the reference list for *Organization Theory* entries, and every quotation at its locator)
+- Corrections: a fourth OT citation added to "The conversation it joins": Powell & DiMaggio (2023), which the Discussion cites (p. 15) and the reference list gives with its OT article number (p. 20). The argument, the four construct definitions and all six OQ quotations match the text at their locators.
+- OQs added / removed / reclassified: none. OQ-01 is rightly `own_research_question`: the sentence after the stated gap reads "Purity, we argue, offers such a motive" (p. 2). OQ-03 to OQ-06 are the calls of the further-research paragraphs (p. 16), and OQ-02 is the one call outside them (p. 5).
+- Flags changed: none. `evaluation_accountability: 2` holds: how audiences judge a pure organization (status, legitimacy or contempt) is the article's fourth stated contribution (p. 3) and fills a section (pp. 12–14), and these are evaluations of organizations, which the lead's ruling keeps inside the flag. `intermediaries: 1` rests on the monks' sales agents (p. 9), a passing example of compartmentalization; the article builds no three-party relation on it, so `triads_third_parties` stays 0.
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Verdict: indexed_with_corrections

@@ -12,9 +12,9 @@ exchange_id: none
 license: CC BY 4.0 (printed on the article and in crossref)
 read_depth: full_vor (publisher's typeset SAGE article, pp. 1-25; all 25 pdf pages read; printed page = pdf page)
 object_read: "pavlisa2026.pdf sha256 48eb7272b676108758d5ed4fde4bf62f55840df486e32c1f390f461e299c6d33"
-reader_model: Sonnet 5.5
+reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 1, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -45,9 +45,9 @@ run: ot-oq-2026-11
 ## Open questions
 ### OQ-pavlisa2026-01
 - Quote: "Why do alternative stakeholder governance models fail to reduce societal inequality?" (p. 2, "Introduction")
-- Form: explicit_question
+- Form: own_research_question (hand-check: was explicit_question; the text introduces it with "we ask the following research question", p. 2, and answers it with the capitals mechanism: "We show how stakeholder governance may aggravate societal inequalities by mismanaging the flows of the multiple forms of capital", p. 19)
 - Scope: Stakeholder governance and its distributional effects. This is the paper's own research question, which the paper sets out to answer; I record it because the brief counts stated questions.
-- Addressee: stakeholder governance and inequality scholars
+- Addressee: the authors (answered by the theory of reciprocal exchange); stakeholder governance and inequality scholars as readers
 - Level of analysis: multi-level
 - Paraphrase: The authors ask why stakeholder-oriented models of governance do not reduce inequality. (reader's paraphrase)
 
@@ -97,7 +97,7 @@ run: ot-oq-2026-11
 3. (reader's inference) "This is particularly challenging and important in polarised and volatile contexts where navigating stakeholder tensions is precarious." (p. 20, "Managerial implications"). How the framework works in such contexts is not tested.
 
 ## Topic flags
-- triads_third_parties: 1. "positive reciprocity suggests that an actor provides benefit to another actor, establishes a positive reputation for environmental issues and later gains some advantage from a third party" (p. 12, "Redistribution of Capitals Through Firm–Stakeholder Exchange")
+- triads_third_parties: 1. "positive reciprocity suggests that an actor provides benefit to another actor, establishes a positive reputation for environmental issues and later gains some advantage from a third party" (p. 12, "Redistribution of Capitals Through Firm–Stakeholder Exchange"). Note added at hand-check: the mirror case follows on p. 13, where a loss comes "due to the actions of a third party", with NGO or state interventions as the example. The third party is how the authors define generalised reciprocity; they do not theorize it further, so the score stays at 1.
 - intermediaries: 0
 - algorithms_ai: 0
 - platforms: 0
@@ -122,7 +122,14 @@ run: ot-oq-2026-11
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- OQ-pavlisa2026-01: A=0 B=0 → final x. Reclassified `own_research_question` at hand-check; the article states it as its research question and answers it, so it is not open.
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (pp. 1–4, the abstract, "Introduction" and the start of "Literature Review"; pp. 16–20, "Discussion", "Managerial implications" and "Conclusion"; every other quotation read at its locator, pp. 8–15)
+- Corrections: (1) OQ-01 reclassified (below). (2) A second locator noted on the triads_third_parties line, score unchanged. (3) `reader_model` normalized to the model id. The argument, the four *Organization Theory* citations (the only four in the reference list, none a corpus article), the seven constructs, all six OQ quotations, the three implicit openings and the three flag quotations match the text at their locators.
+- OQs added / removed / reclassified: reclassified OQ-pavlisa2026-01 from explicit_question to own_research_question under the DECISIONS ruling (V02's query). The reader's own Scope line already called it the paper's research question. OQ-04 stays a `boundary_condition` in the authors' words ("the boundary conditions of this theory", p. 19): the assumed rationality and morality of economic actors lie outside the model. OQ-03 stays a `limitation`. None added: I read pp. 16–20 for a further call and found the two gap statements the verifier listed.
+- Flags changed: none. literacy_competence stays at 0: skills and capabilities appear as kinds of endowment that firms distribute (pp. 4, 12), not as anyone's competence to do something. evaluation_accountability stays at 1 on public scrutiny of firms (p. 19).
+- Fit adjudications: 0 lines for scores of 2 or more (1 line sets the reclassified OQ to x); disagreements resolved: 0. Both scorers gave 0 to all six OQs, and I agree: the questions concern how firms redistribute capital among stakeholders.
+- Exchange set: `exchange_id: none` confirmed. `EDGES.tsv` has no edge to or from this article. It shares Bourdieu with ernst2026 (field, capital) and neither cites the other.
+- Verdict: indexed_with_corrections

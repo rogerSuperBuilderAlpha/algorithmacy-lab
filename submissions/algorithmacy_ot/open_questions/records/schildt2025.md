@@ -14,7 +14,7 @@ read_depth: full_vor (publisher's version, pp. 1-22; printed pages equal pdf pag
 object_read: "schildt2025.pdf sha256 14ac5c47f7161c055586fd97b1cc495ca7a853348842b0ab2881712c55184b27"
 reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 1, platforms: 0, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 2}
 run: ot-oq-2026-11
@@ -129,7 +129,12 @@ The authors argue that an institutional logic can be understood as a bundle of i
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1 (both scorers gave OQ-02 to OQ-07 0; OQ-01 is the paper's own research question, scored x by both, and the text confirms it)
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; no scorer rated an OQ above 0. Read: pp. 1–3, pp. 15–17, the passages around the AI scenarios on pp. 11, 12 and 14, and every quotation at its locator)
+- Corrections: none. The argument, the five construct definitions, the three OT citations (Gümüsay et al. 2020; Lounsbury & Wang 2020; Zilber 2020) and all seven OQ quotations match the text at their locators.
+- OQs added / removed / reclassified: none. OQ-01 is rightly `own_research_question`: the next sentence begins the answer with the processes that reproduce linkages among practices (p. 8). OQ-02 stays an explicit_question: the authors call the two questions "largely ignored" and offer their perspective as "a compelling basis" for answering them (p. 16) without answering either. OQ-05 stays an invitation and OQ-07 a boundary_condition, as the lead ruled; in OQ-07 the authors leave other kinds of connection outside the three their model names (p. 5). The p. 16 sentence that calls it poor research practice to posit a rationality without testing the reverse causal path is the premise of OQ-04 and adds no separate call.
+- Flags changed: none. `algorithms_ai: 1` holds: artificial intelligence in university teaching is a hypothetical the authors return to three times (pp. 11, 12, 14) to illustrate expansion, blurring and contraction of the academic logic, and it evaluates no one. `evaluation_accountability: 2` holds on the werner2026 precedent: evaluative linkage is a named part of the model (p. 6) and the journal impact factor is its worked case of cascading change (p. 15). For synthesis: the p. 6 sentence on audits and rankings that "influence the distribution of rewards among individuals and organizations" describes evaluation that binds, at the level of practices and fields; no OQ asks about the people evaluated.
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Verdict: indexed

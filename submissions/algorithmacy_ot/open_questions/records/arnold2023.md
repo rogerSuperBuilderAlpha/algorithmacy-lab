@@ -14,13 +14,13 @@ read_depth: full_vor (publisher's version, pp. 1-21, journal header and "Volume 
 object_read: "arnold2023.pdf sha256 fb4ae80846bbec08a0ec9a47106ae4d815e09bccb7c8a5b7fb20c8f5065ce0cd"
 reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 2, literacy_competence: 0, evaluation_accountability: 0}
 run: ot-oq-2026-11
 ---
 
-# Arnold & Costas (2023). From Silence to Noise: The Politics of the Other in Organization Theory.
+# Arnold & Costas (2023). From Silence to Noise – The Politics of the Other in Organization Theory.
 
 ## What it argues
 Arnold and Costas build on Rancière to theorize otherness in organization. Existing research treats the Other as silenced but still intelligible to the One. They ask what happens when the Other is heard but perceived as unintelligible "noise", outside the community of human speech. In that case the One-Other relation runs through affect (Rancière's "distribution of the sensible") more than through discourse. They introduce miscounting (casting people as noise by ordering bodies, places and speech) and recounting (the Other's attempts to be counted as intelligible), and read empirical studies (refugees, homeless people, Occupy London, Women in Black) through them. They also draw implications for in/equality beyond identity, class struggle and the ideal speech situation. (reader's paraphrase)
@@ -177,7 +177,13 @@ Arnold and Costas build on Rancière to theorize otherness in organization. Exis
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; both scorers rated every open OQ 0. Read: pp. 1–3, pp. 6–8 around the constructs, pp. 13–17, and every quotation at its locator)
+- Corrections: the record's title line carried a colon where the printed title has a dash; I restored the dash, to match the `apa` field the verifier corrected. Nothing else changed. The argument, the conversation, the six constructs and all 13 OQ quotations match the text at their locators. A search of the reference list across line breaks confirms that it holds no *Organization Theory* entry.
+- OQs added / removed / reclassified: none. OQ-09 stays `own_research_question`: the section that poses the two questions answers them with miscounting and recounting (p. 8). The agenda and implications sections (pp. 14–17) hold no call beyond the twelve open OQs, and each of the verifier's five additions is in the text.
+- Flags changed: none. communication stays at 2: the article turns on who is heard as speech and who as noise. literacy_competence stays at 0: the capacity to speak is a standing the One grants or denies (pp. 2, 14), and the authors give no account of skill. triads_third_parties stays at 0; the church, the police and activists appear as parties to a struggle (p. 13), not as a third between two.
+- Fit adjudications: 0 lines; disagreements resolved: 0. For synthesis: OQ-03 and OQ-04 name "organizationality" (Dobusch & Schoeneborn, 2015), the concept dion2025 and schoeneborn2026 debate, and ask what it does for otherness. The article takes no part in that exchange.
+- Exchange set: `exchange_id: none` confirmed; `EDGES.tsv` holds no edge to or from it.
+- Verdict: indexed_with_corrections
