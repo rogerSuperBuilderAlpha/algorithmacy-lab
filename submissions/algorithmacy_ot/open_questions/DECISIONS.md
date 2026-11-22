@@ -75,3 +75,13 @@ here; the run continues to `REPORT.md` without stopping at gates other than Gate
   (`/doi/pdf/<doi>?download=true`), one every 8 s, saved to `~/Downloads` as `otoq_<key>.pdf`, then moved
   into the store by `work/register_downloads.sh`. Versions of record replaced the four manuscript copies
   (kept as `<key>_repo.pdf`).
+
+## 22 Nov 2026: S4b complete (the lead)
+
+- All 66 items read: 13 reader batches (7 Opus, 6 Sonnet, including the pilot). Every record passed the
+  readers' quote self-check apart from extraction artifacts noted in each Caution.
+- **Outside the corpus but in the conversation.** scherer2023 replies to Zuboff (2022, *Organization
+  Theory* 3(3)), which predates the window. dion2025 critiques Schoeneborn and colleagues' organizationality
+  work published outside OT. Synthesis notes these as conversations that continue beyond the corpus; the
+  run does not add the earlier pieces.
+- **racker2024 issue.** Crossref gives issue 2; the PDF prints none. Crossref is used.

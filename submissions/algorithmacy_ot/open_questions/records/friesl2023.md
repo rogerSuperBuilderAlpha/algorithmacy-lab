@@ -1,0 +1,143 @@
+---
+key: friesl2023
+apa: Friesl, M., Brielmaier, C., & Dobusch, L. (2023). Taking individual choices seriously: A process perspective of self-selection in strategy work. Organization Theory, 4(2), Article 26317877231183986. https://doi.org/10.1177/26317877231183986
+doi: 10.1177/26317877231183986
+volume: 4
+issue: 2
+published_online: 2023-06-25
+band: lookback
+article_type_printed: "Theory Article"
+article_type_norm: theory
+exchange_id: none
+license: CC BY-NC 4.0
+read_depth: full_vor (publisher's version, 19 pages; printed pages 1-19 coincide with pdf pages; no cover sheet)
+object_read: "friesl2023.pdf sha256 efa1bced76361ad802325b56fe48dc233d0f1080fb7062be841eb1bfbb5bdc97"
+reader_model: claude-sonnet-5-5
+verified: pending
+hand_check: pending
+closing_form: distributed
+topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 2, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
+run: ot-oq-2026-11
+---
+
+# Friesl, Brielmaier & Dobusch (2023). Taking Individual Choices Seriously: A Process Perspective of Self-Selection in Strategy Work.
+
+## What it argues
+The article argues that research on participative and open strategy takes participation for granted, although actual involvement is always the result of self-selection. Using Giddens' structuration theory, the authors build a process model. A "selection context" (managed or unmanaged rules of participation) and actors' "moral evaluating" of that context together shape who takes part. Over time the recursion of rules and choices produces "stabilizing trajectories" with more homogeneous participation. "Critical participative situations" disrupt the rules and open "shifting trajectories" with more variety, until new rules settle. The authors derive negative emergent consequences of both trajectories and draw implications for open strategy and strategy-as-practice. (reader's paraphrase)
+
+## The conversation it joins
+- Positions against / extends: "prior research also tends to gloss over a fundamental condition underpinning such types of participative strategizing" (p. 3, "Introduction"). On open strategy: "participation is largely a normative presupposition, such that the reasons why individuals become involved is largely an implicit assumption that remains untheorized" (p. 5, "Self-selection in Strategy Work: What Do We Know?").
+- Named interlocutors: Giddens (1984, 1991); Jarzabkowski (2004); Whittington et al. (2011) and Hautz et al. (2017) on open strategy; Burgelman (1983, 2002); Mantere & Vaara (2008); Dobusch et al. (2019); Luedicke et al. (2017); Seidl & Werle (2018); Tavella (2020); Thévenot (2001).
+- OT articles it cites: Cloutier & Langley (2020), "What makes a process theoretical contribution?"; Kornberger & Mantere (2020), "Thought experiments and philosophy in organizational research".
+- Move: process model (theorizing from practice theory); agenda-setting for open strategy research.
+
+## Key constructs
+| Term | Definition (verbatim, with locator) | Coined or borrowed |
+|---|---|---|
+| Self-selection | "we consider choices of self-selection as the unmandated decision to participate in strategy work" (p. 6, "Strategy work may involve events of unmandated participation") | Borrowed term (Ketkar & Workiewicz, 2021), specified by the authors |
+| Selection context | "This context comprises the set of formal and informal rules of participation." (p. 3, "Introduction") | Authors' term |
+| Moral evaluating | "self-selection is always shaped by actors’ evaluation of prior as well as future strategizing events, based on individuals’ values, beliefs and aspirations" (p. 3, "Introduction") | Authors' term (draws on Thévenot, 2001) |
+| Stabilizing trajectories | "fairly homogeneous participation in strategy events" (p. 10, "Stabilizing trajectories") | Authors' term |
+| Shifting trajectories | "an increasing variety of participation in strategizing events" (p. 11, "Shifting trajectories") | Authors' term |
+| Critical participative situation | "a ‘radical disjuncture [. . .] that threaten[s] or destroy[s] the certitudes of institutional routinization’" (p. 11, "Shifting trajectories", quoting Giddens, 1984) | Adapted from Giddens |
+
+## Open questions
+### OQ-friesl2023-01
+- Quote: "when and how do individuals select themselves into processes of strategizing, in particular when there is no top-down mandate to do so?" (p. 2, "Introduction")
+- Form: own_research_question
+- Scope: Voluntary participation in strategy work
+- Addressee: The authors, answered by the process model
+- Level of analysis: individual
+- Paraphrase: The paper's guiding question about when and how individuals choose to take part in strategizing without a mandate. (reader's paraphrase)
+
+### OQ-friesl2023-02
+- Quote: "those individuals choose to engage and participate in strategy work? And, importantly, to what extent are the practices and processes deployed in strategy work contingent on the people involved?" (p. 13, "Discussion and Theoretical Implications")
+- Form: own_research_question
+- Scope: Who takes part in strategy work and what difference it makes
+- Addressee: The authors, partly answered in the paper
+- Level of analysis: interaction
+- Paraphrase: Why do particular individuals choose to engage, and how far do strategy practices depend on who is present? The paper addresses the first part with the model and leaves the second to empirical work. (reader's paraphrase)
+
+### OQ-friesl2023-03
+- Quote: "Unveiling the social processes underpinning self-selection allows future research to study why certain actors participate in open strategy or why they abstain from doing so." (p. 13, "Discussion and Theoretical Implications")
+- Form: future_research_call
+- Scope: Participation and abstention in open strategy
+- Addressee: Open strategy researchers
+- Level of analysis: individual
+- Paraphrase: Researchers should study why some actors join open strategy initiatives and others do not. (reader's paraphrase)
+
+### OQ-friesl2023-04
+- Quote: "exploring the often tacit dynamics of self-selection is a crucial task for future research on openness in strategy and beyond." (p. 13, "Discussion and Theoretical Implications")
+- Form: future_research_call
+- Scope: Tacit participation rules in open strategy
+- Addressee: Open strategy researchers
+- Level of analysis: organization
+- Paraphrase: Future work should examine the tacit, emergent rules that limit who joins open strategy and produce unintended stabilizing trajectories. (reader's paraphrase)
+
+### OQ-friesl2023-05
+- Quote: "future research on participation could evaluate how such critical situations become manifest in discourse and how actors verbalize and re-evaluate rules of participation" (p. 14, "Discussion and Theoretical Implications")
+- Form: future_research_call
+- Scope: Discourse and critical participative situations
+- Addressee: Participation and strategy discourse researchers
+- Level of analysis: interaction
+- Paraphrase: How do disruptions of participation rules show up in talk, and how do actors re-evaluate the rules? The authors say they do not take a discursive perspective. (reader's paraphrase)
+
+### OQ-friesl2023-06
+- Quote: "This realization renders selfselection an important theoretical boundary condition for empirical studies investigating strategizing practices." (p. 14, "Discussion and Theoretical Implications")
+- Form: boundary_condition
+- Scope: Empirical studies of strategizing practices
+- Addressee: Strategy-as-practice researchers
+- Level of analysis: interaction
+- Paraphrase: Studies of strategy practices should treat who self-selected into the setting as a condition on their findings. (reader's paraphrase)
+
+### OQ-friesl2023-07
+- Quote: "the extent to which features of the selection context as well as actors’ individual circumstances shape self-selection requires greater research attention." (p. 15, "Conclusion")
+- Form: future_research_call
+- Scope: Relative weight of context features and individual circumstances in self-selection
+- Addressee: Empirical researchers
+- Level of analysis: multi-level
+- Paraphrase: Empirical work should estimate how much the selection context and the individual's circumstances each drive self-selection. (reader's paraphrase)
+
+### OQ-friesl2023-08
+- Quote: "one would need to manipulate particular features of the selection context in order to make inferences about their implications for actors with particular characteristics." (p. 15, "Conclusion")
+- Form: future_research_call
+- Scope: Counterfactual research designs for self-selection
+- Addressee: Empirical researchers (action research, field experiments)
+- Level of analysis: interaction
+- Paraphrase: Because only realized participation is observable, researchers should use action research or field experiments that vary the selection context. (reader's paraphrase)
+
+### OQ-friesl2023-09
+- Quote: "we hope that this paper helps to instigate further empirical research on the conditions and consequences of self-selection in strategy work." (p. 15, "Conclusion")
+- Form: invitation
+- Scope: Self-selection in strategy work
+- Addressee: Strategy process researchers
+- Level of analysis: multi-level
+- Paraphrase: The authors close by inviting empirical research on the conditions and consequences of self-selection. (reader's paraphrase)
+
+## Implicit openings
+- The model is conceptual and illustrated with published cases (Luedicke et al., 2017; Burgelman, 2002); whether shifting trajectories revert to stabilizing ones as predicted is argued, not observed. (reader's inference; p. 11, "Shifting trajectories")
+- The paper states that managed self-selection "is an oxymoron" and that unmanaged settings also face constraints; how firms could design participation without reproducing the dominant coalition's rules is not worked out. (reader's inference; p. 7, "Managed and unmanaged selection context" and p. 12)
+
+## Topic flags
+- triads_third_parties: 0.
+- intermediaries: 0.
+- algorithms_ai: 0.
+- platforms: 1. "Born open organizations (Luedicke et al., 2017), such as Wikimedia (Dobusch et al., 2019), and also open strategy online communities in large organizations" (p. 7, "Managed and unmanaged selection context")
+- coordination: 2. "How is strategy work coordinated and accomplished?" (p. 2, "Introduction"); "self-selection as the coordinating force" (p. 14, "Conclusion")
+- communication: 1. "top managers discursively construct participation options for lower-level employees" (p. 14, "Discussion and Theoretical Implications")
+- literacy_competence: 1. "the invitation to participate is often linked to articulated rules such as roles, a certain skillset or a specific background" (p. 7, "Managed and unmanaged selection context")
+- evaluation_accountability: 1. "accountability for firm strategy was located at the level of corporate elites" (p. 2, "Introduction")
+
+## Caution
+- Version of record, pagination 1-19 matches pdf pages. Figure 1 is not extractable as text; the model is taken from the running text.
+- Source typos are preserved in quotes where used ("selfselection", the checker normalizes punctuation only). The extraction runs "selfselection" together at a line break in OQ-06.
+- Not counted: "key questions remain: Why those individuals? What made" (p. 12), whose second half is recorded as OQ-02 (the quote is split by a page break); "what are the social processes that influence why certain actors become involved in strategy making and what are the participatory implications for strategy work?" (p. 4) and "why do actors get involved in strategy making in the first place?" (p. 3), both restatements of OQ-01 that the paper answers; "Yet, how do shifts in self-selection dynamics occur in strategy work?" (p. 10) and "how does the selection context come to bear on individual choices to participate in such events?" (p. 7), both questions the paper's theory answers in the following paragraphs and are signposts rather than research gaps.
+
+## Verification
+pending
+
+## Fit
+pending
+
+## Hand-check
+pending
