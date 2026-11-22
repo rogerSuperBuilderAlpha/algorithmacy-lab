@@ -6,7 +6,7 @@
 - **Batch / triage.** P1. TRIAGE_T2, phillips2024, possible_takeup, candidates 7, 3.
 - **Read depth.** full. Publisher PDF fetched by the lead in the author's browser (`citing/pdfs/phillips2026.pdf`, `.txt`); essay pp. 237–252, references pp. 253–255.
 - **Citation line found** (references, p. 254): "Phillips N, Kalvapalle S and Kennedy M (2024) Beyond the Turing Test: Exploring the implications of generative AI for category construction. Organization Theory 5(3): 26317877241275113."
-- **Use of the article.** Four in-text citations (pp. 240, 242, 249 with a block quotation running to p. 250), all for one claim: intelligent technologies, generative AI above all, take part in social construction. Stark and Vanden Broeck (2024) is not cited.
+- **Use of the article.** Three in-text citations [S10e: was "Four"] (pp. 240, 242 and 249, the last with a block quotation running to p. 250), all for one claim: intelligent technologies, generative AI above all, take part in social construction. Stark and Vanden Broeck (2024) is not cited.
 
 > "Generative technologies produce novel texts and can therefore directly participate in the processes of social construction that construct institutions (Phillips et al., 2024)." (p. 242)
 
@@ -33,3 +33,14 @@ Phillips argues that institutional theory, organizational identity and sensemaki
 ## Caution
 
 The earlier abstract-based guess that Phillips "leans to" technology-as-constitutive holds, but he does not trade the agent picture for it; both stand side by side, and he never asks what organization members must be able to do. Candidate 3 is touched only by one example about advice-seeking; the essay has no account of technology between two parties.
+
+## Verification
+
+- **Verifier.** Claude Opus 5.5, S10e (independent check; did not write the card).
+- **Date.** 22 November 2026.
+- **Bibliographic line.** Matches Crossref (Strategic Organization 24(2), 237–255; Phillips, N.).
+- **Citation of the OT article.** Reference line found verbatim at p. 254 (Crossref ref e_1_3_5_44_1). The in-text count was wrong: three citations of Phillips et al. (2024), at pp. 240, 242 and 249, not four; corrected. No Stark and Vanden Broeck citation in the text.
+- **Quotes checked / corrected.** 14 / 0. The pp. 244–245 quotation runs across the page break, as stated; "artificial persons" does not occur, as stated.
+- **Classification changes.** None.
+- **Read depth.** full, stated correctly (references begin p. 253).
+- **Verdict.** verified_with_corrections

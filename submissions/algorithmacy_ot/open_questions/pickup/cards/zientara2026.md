@@ -17,3 +17,14 @@ Zientara argues that user acceptance — continued use, compliance, adaptation �
 ## Caution
 
 Abstract only; I cannot say whether the essay answers "who bears responsibility" or only poses it. Its level is ethical evaluation by organizations and governance bodies, not the participant's competence.
+
+## Verification
+
+- **Verifier.** Claude Opus 5.5, S10e (independent check; did not write the card).
+- **Date.** 22 November 2026.
+- **Bibliographic line.** Matches Crossref (Organization, online 17 Apr 2026; Zientara, P.; no volume or issue).
+- **Citation of the OT article.** Crossref ref e_1_3_3_26_1 carries the stark2024 DOI in its DOI field; the unstructured string drops a digit (…2631787724125721), as the card says.
+- **Quotes checked / corrected.** 3 / 0. Both quotations and the reference string match the Crossref record.
+- **Classification changes.** None.
+- **Read depth.** abstract, stated correctly.
+- **Verdict.** verified

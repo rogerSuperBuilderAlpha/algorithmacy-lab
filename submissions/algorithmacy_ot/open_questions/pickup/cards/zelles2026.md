@@ -16,7 +16,7 @@
 **3. Partner or medium — passing.**
 > "The platform stands formally independent of both parties." (p. 17)
 
-**1. Communication field — not touched.** The paper never discusses a communication field, genres or the conjoining of form and communication; "communicate" appears only in a respondent's complaint that Wolt managers "communicate through messaging only" (p. 17). The triage tag came from the title's mention of the five principles.
+**1. Communication field — not touched.** The paper never discusses a communication field, genres or the conjoining of form and communication; the word appears only in one Wolt courier's complaint that management "communicate through messaging only", which the paper quotes three times (pp. 10, 12, 16), and in the authors' note that couriers doubted "the platform's communication about how work is allocated and priced" (p. 16) [S10e: was "appears only in a respondent's complaint … (p. 17)"]. The triage tag came from the title's mention of the five principles.
 
 ## What the work says
 
@@ -25,3 +25,14 @@ Zelles, Pap and Makó answer "who is accountable" with three empirical variants:
 ## Caution
 
 The answer is about where liability and responsibility land, the legal and managerial question that the shortlist says algorithmacy does not address. It gives no account of how a participant traces an outcome to its source. The Hungarian sample is small and the authors flag the Möbius effect as untested beyond two cases (abstract, p. 1).
+
+## Verification
+
+- **Verifier.** Claude Opus 5.5, S10e (independent check; did not write the card).
+- **Date.** 22 November 2026.
+- **Bibliographic line.** Matches Crossref (Administrative Sciences 16(9), 459; online 18 Sep 2026; three authors).
+- **Citation of the OT article.** Reference line found verbatim at p. 35 (Crossref ref_34). 43 semi-structured interviews confirmed.
+- **Quotes checked / corrected.** 7 / 1. The candidate quotations are verbatim at pp. 17 and 20. The "communicate through messaging only" remark is from one Wolt courier, quoted at pp. 10, 12 and 16, not p. 17, and the authors also write of "the platform's communication" (p. 16); the not-touched note is corrected, and its conclusion stands.
+- **Classification changes.** None.
+- **Read depth.** full, stated correctly.
+- **Verdict.** verified_with_corrections

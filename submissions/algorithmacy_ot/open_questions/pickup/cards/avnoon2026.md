@@ -34,3 +34,14 @@ Avnon arranges ethnographies of expert work with machine-learning AI along a con
 ## Caution
 
 The full text confirms the abstract reading and settles the earlier guess about the Stark citation: it does sit in the algorithmic-management ("too much") arrangement, but only as one name in a list, six times over, so the work counts as citing stark2024 without engaging it. The triage label "possible_answer" for candidate 5 does not hold; the review maps arrangements and poses the expertise question without offering an answer.
+
+## Verification
+
+- **Verifier.** Claude Opus 5.5, S10e (independent check; did not write the card).
+- **Date.** 22 November 2026.
+- **Bibliographic line.** Matches Crossref (Avnon, N.; Sociology Compass 20(9), e70246; online 31 Aug 2026).
+- **Citation of the OT article.** Reference line found verbatim at p. 14; Crossref ref e_1_2_7_167_1 carries the stark2024 DOI. The six in-text citations are at pp. 1, 2, 3, 4 (twice) and 5, as stated.
+- **Quotes checked / corrected.** 13 / 0.
+- **Classification changes.** None.
+- **Read depth.** full, stated correctly (14 pp.; references begin p. 10).
+- **Verdict.** verified

@@ -23,3 +23,14 @@ From twelve interviews in two Swedish audit and accounting firms, Johnsson and N
 ## Caution
 
 A master's thesis with twelve interviews. It counts as a citing work only through stark2024, cited for a definition; it does not engage Hinds and von Krogh. It documents the colleague dropping from view as a matter of fewer exchanges, not as members following AI guidance blindly, and it treats AI as a resource beside the team, not as an intermediary that evaluates members.
+
+## Verification
+
+- **Verifier.** Claude Opus 5.5, S10e (independent check; did not write the card).
+- **Date.** 22 November 2026.
+- **Bibliographic line.** No DOI. The LUP Student Papers record 9232095 (fetched 22 Nov 2026) and the thesis title page match title, authors and programme; June 2026.
+- **Citation of the OT article.** Reference line found verbatim at p. 69 (journal not named, DOI correct, as stated); one in-text citation at p. 6. No Hinds or von Krogh citation in the text.
+- **Quotes checked / corrected.** 7 / 0.
+- **Classification changes.** None.
+- **Read depth.** partial, stated correctly.
+- **Verdict.** verified

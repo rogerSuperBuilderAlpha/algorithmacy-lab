@@ -23,3 +23,14 @@ From a 25-month ethnography of a radiology department running 17 FDA-cleared mod
 ## Caution
 
 Abstract only: no page locators, no view of how the paper cites Justesen and Plesner, and no check that "invisible" is used in their sense. Of all the works in this batch, this one comes closest to algorithmacy's "interpreting" part as unrecognized work, since adjudicating machine-generated reasoning is interpretation. But the counterpart here is the machine's claim, not a colleague reached through the system, so the triad is absent on present evidence. Read the full paper before citing it as prior art.
+
+## Verification
+
+- **Verifier.** Claude Opus 5.5, S10e (independent check; did not write the card).
+- **Date.** 22 November 2026.
+- **Bibliographic line.** No DOI, so no Crossref record. The AISeL landing page (fetched 22 Nov 2026) gives title, authors "S.G., Akhil" and "Lyytinen, Kalle", and paper ICIS2026-3630, matching the card.
+- **Citation of the OT article.** OpenAlex W7222909517 in `citing/justesen2024_openalex.json` lists W4392883145 (Justesen & Plesner 2024) among its 28 referenced works. Index metadata only, as the card says.
+- **Quotes checked / corrected.** 3 / 0. All three match the OpenAlex abstract reconstructed from the inverted index, including the source error "knowledge experts repairs".
+- **Classification changes.** None. answers (6) and takes_up (5) are supported by the abstract's own claims; both stay provisional on abstract evidence.
+- **Read depth.** abstract, stated correctly.
+- **Verdict.** verified

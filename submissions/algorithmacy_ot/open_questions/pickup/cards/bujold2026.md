@@ -32,3 +32,14 @@ Bujold, Gaudet and Parent-Rocheleau model algorithmic management as a technologi
 ## Caution
 
 The intermediary is unilateral: it stands between worker and organization but acts for the organization, so this is a mediated vertical relation, not algorithmacy's triad of two people bound by a third. The worker's ability to tell system flaws from organizational choices and to follow a changing logic appears only as a moderator and a source of injustice perceptions, so the model has the competence's material without naming the competence. The article is conceptual; its propositions are untested (pp. 18–19).
+
+## Verification
+
+- **Verifier.** Claude Opus 5.5, S10e (independent check; did not write the card).
+- **Date.** 22 November 2026.
+- **Bibliographic line.** Matches Crossref (three authors; Organizational Psychology Review, online 23 Jun 2026; no volume or issue deposited).
+- **Citation of the OT article.** Reference line found verbatim at p. 25; Crossref ref e_1_3_3_96_1 carries the stark2024 DOI. Exactly two in-text citations, pp. 5 and 6. No Hinds or von Krogh citation anywhere in the text, as the card says.
+- **Quotes checked / corrected.** 15 / 0. The pp. 2–3 definition runs across the page break, as stated.
+- **Classification changes.** None. answers (3) is supported, within the scope the card states (worker–organization, intermediary acting for one party), and matches the S10 decision in DECISIONS.md.
+- **Read depth.** full, stated correctly (25 pp.; references begin p. 19).
+- **Verdict.** verified

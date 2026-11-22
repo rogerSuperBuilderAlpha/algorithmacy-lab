@@ -1,8 +1,8 @@
 # choroszewicz2026
 
-- **Reference.** Choroszewicz, M. (2026). Positioning public sector practitioners as 'moral crumple zones': Mechanisms in the early use of generative AI work support tools. *Government Information Quarterly*, 43, 102128. https://doi.org/10.1016/j.giq.2026.102128 (CC BY)
+- **Reference.** Choroszewicz, M. (2026). Positioning public sector practitioners as 'moral crumple zones': Mechanisms in the early use of generative AI work support tools. *Government Information Quarterly*, 43(2) [S10e: issue added from Crossref], 102128. https://doi.org/10.1016/j.giq.2026.102128 (CC BY)
 - **Batch / triage.** P2. TRIAGE_T2, justesen2024, possible_answer, candidate 8 (read here for 6, 4 and 2).
-- **Read depth.** full (CC BY version of record from the University of Eastern Finland repository, erepo.uef.fi, listed in OpenAlex; `citing/pdfs/choroszewicz2026.pdf`, `.txt`. The TSV had no `oa_pdf_url`). Read: abstract, introduction, §4.1, §4.5, §5–5.3.
+- **Read depth.** partial [S10e: was "full"; the full text is held, but the card lists only the sections read] (CC BY version of record from the University of Eastern Finland repository, erepo.uef.fi, listed in OpenAlex; `citing/pdfs/choroszewicz2026.pdf`, `.txt`. The TSV had no `oa_pdf_url`). Read: abstract, introduction, §4.1, §4.5, §5–5.3.
 - **Citation line found** (references, p. 11): "Justesen, L., & Plesner, U. (2024). Invisible digi-work: Compensating, connecting, and cleaning in digitalized organizations. Organization Theory, 5(1). https://doi.org/10.1177/26317877241235938"
 - **Citing passages.** One direct citation, in §4.1 (p. 6), quoted under candidate 6. The paper also cites Jørring, Justesen and Plesner (2025) on time pressure in street-level work (p. 6).
 
@@ -33,3 +33,14 @@ From 2.5 years of ethnography in two Finnish public organizations testing three 
 ## Caution
 
 The interpretation she describes is of AI output against rules and sources, not of a colleague through the system; the one colleague in the data is the person a worker turns to when the bot's confidence clashes with her own view, which is a human check on the tool, not the triad. "Interpretative opacity" is the nearest term to algorithmacy's first part and should be cited as a neighbour, not as the same idea. Her account of overreliance is a worry voiced by users, not observed blind following.
+
+## Verification
+
+- **Verifier.** Claude Opus 5.5, S10e (independent check; did not write the card).
+- **Date.** 22 November 2026.
+- **Bibliographic line.** Matches Crossref except the issue: Crossref gives 43(2), June 2026; issue added.
+- **Citation of the OT article.** Reference line found verbatim at p. 11 (Crossref ref bb0110). One direct in-text citation at p. 6, plus Jørring, Justesen and Plesner (2025) at p. 6, as stated.
+- **Quotes checked / corrected.** 12 / 0. The layout-mode text splits columns; a plain re-extraction of the same PDF confirmed every quotation at its printed page.
+- **Classification changes.** None. answers (8) rests on one sentence but the moral-crumple-zone argument is the paper's thesis, so it holds.
+- **Read depth.** was "full" with a list of sections read; corrected to partial.
+- **Verdict.** verified_with_corrections

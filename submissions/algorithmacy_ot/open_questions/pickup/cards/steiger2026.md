@@ -1,8 +1,8 @@
 # steiger2026
 
-- **Reference.** Steiger, T., Durani, K., Hutter, K., Just, J., & Eckhardt, A. (2026). The fluid emergence of GenAI roles in temporary teams: How teams calibrate delegation under shifting situational demands. *Electronic Markets*, 36, 87. https://doi.org/10.1007/s12525-026-00942-8 (CC BY)
+- **Reference.** Steiger, T., Durani, K., Hutter, K., Just, J., & Eckhardt, A. (2026). The fluid emergence of GenAI roles in temporary teams: How teams calibrate delegation under shifting situational demands. *Electronic Markets*, 36(1) [S10e: issue added from Crossref], 87. https://doi.org/10.1007/s12525-026-00942-8 (CC BY)
 - **Batch / triage.** P2. TRIAGE_T2, hinds2024, possible_takeup, candidates 2, 3, 10.
-- **Read depth.** full (Springer PDF from `oa_pdf_url`; `citing/pdfs/steiger2026.pdf`, `.txt`). Read: abstract, introduction, literature review, findings on navigator and oracle roles, process model, theoretical contribution, practical implications, limitations.
+- **Read depth.** partial [S10e: was "full"; the sections listed omit the method and the servant and counselor findings] (Springer PDF from `oa_pdf_url`; `citing/pdfs/steiger2026.pdf`, `.txt`). Read: abstract, introduction, literature review, findings on navigator and oracle roles, process model, theoretical contribution, practical implications, limitations.
 - **Citation line found** (references, p. 18): "Hinds, P., & von Krogh, G. (2024). Generative AI, emerging technology, and organizing: Towards a theory of progressive encapsulation. Organization Theory, 5(4). https://doi.org/10.1177/26317877241293478"
 - **Citing passages.** One: GenAI's "role in collaborative work cannot be inferred from stable technical functions alone (Hinds & von Krogh, 2024)." (p. 3). The paper does not discuss Hinds and von Krogh's question on blind following or emergent interdependence.
 
@@ -22,3 +22,14 @@ Studying 28 student teams (119 participants) in a 48-hour innovation sprint, Ste
 ## Caution
 
 The finding implies a conditional "no" to the blind-following question: teams calibrated rather than followed blindly, and the risk of over-reliance appears where the team's own capacity is exhausted. But the paper never poses the question, the unit is the team's use of GenAI as a resource, and members' relations to each other through the system are not analysed. The sample is students in a sprint, and the data are retrospective focus-group accounts, not interaction logs (p. 16).
+
+## Verification
+
+- **Verifier.** Claude Opus 5.5, S10e (independent check; did not write the card).
+- **Date.** 22 November 2026.
+- **Bibliographic line.** Matches Crossref (Electronic Markets 36(1), article 87; online 9 Nov 2026; five authors); issue added.
+- **Citation of the OT article.** Reference line found verbatim at p. 18 (Crossref ref 942_CR16). One in-text citation at p. 3, as stated.
+- **Quotes checked / corrected.** 5 / 0. The 28 teams and 119 participants are confirmed in the text.
+- **Classification changes.** None.
+- **Read depth.** was "full" with a list of sections read that omits the method and two of the four role findings; corrected to partial.
+- **Verdict.** verified_with_corrections

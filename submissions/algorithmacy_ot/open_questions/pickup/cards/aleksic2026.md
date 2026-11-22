@@ -20,3 +20,14 @@ Aleksić studies employees' experience of broad-application AI through affordanc
 ## Caution
 
 Read at summary level only. It answers candidate 4 in the askers' own genus, psychological responses and lived experience, which the shortlist's Risk bullet says algorithmacy does not offer; the person's counterpart is the AI or the HR platform, not a colleague. The "GenAI as a medium" framing bears on candidate 3, outside this batch.
+
+## Verification
+
+- **Verifier.** Claude Opus 5.5, S10e (independent check; did not write the card).
+- **Date.** 22 November 2026.
+- **Bibliographic line.** No DOI. The thesis title page in the text matches title, author, Erasmus University Rotterdam and publication date 03/09/2026.
+- **Citation of the OT article.** Reference line found verbatim at p. 171; in-text citation at p. 11.
+- **Quotes checked / corrected.** 6 / 0. The p. 11, p. 236 and p. 237 quotations sit on the stated printed pages.
+- **Classification changes.** None.
+- **Read depth.** partial, stated correctly.
+- **Verdict.** verified

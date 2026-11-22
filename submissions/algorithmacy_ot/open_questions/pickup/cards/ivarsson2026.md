@@ -8,7 +8,7 @@
 
 ## Candidates touched
 
-**6. Invisible work and opacity — takes_up (on the abstract).**
+**6. Invisible work and opacity — answers (on the abstract).** [S10e: was takes_up. The abstract develops a typology of invisible work, which is what OQ-justesen2024-16 invites, and the card's own Caution already said the work "answers" the call; akhil2026, on equal abstract evidence, is classed answers.]
 > "we develop a taxonomy of five forms of invisible work involved in producing personal data: strategizing, resourcing, maintenance, interpretative, and care work." (abstract)
 
 > "we advance an understanding of personal data as situated and shaped through human data work" (abstract)
@@ -20,3 +20,14 @@ Ivarsson and Islind analyse 47 interviews with people who used wearables and an 
 ## Caution
 
 Abstract only. The setting is individuals producing data about themselves for organizations, not members working with colleagues through a system, so the work answers Justesen and Plesner's call for the typology of invisible work, not the person-to-person case algorithmacy addresses. What "interpretative work" covers (reading one's own data? reading the app's feedback?) cannot be told from the abstract. Read the full text before using the taxonomy.
+
+## Verification
+
+- **Verifier.** Claude Opus 5.5, S10e (independent check; did not write the card).
+- **Date.** 22 November 2026.
+- **Bibliographic line.** No DOI. The AISeL landing page (fetched 22 Nov 2026) gives title, authors Ivarsson, Frida and Islind, Anna Sigríður, and paper ICIS2026-2260, matching the card.
+- **Citation of the OT article.** OpenAlex W7222988983 lists W4392883145 among its 67 referenced works. Index metadata only, as stated.
+- **Quotes checked / corrected.** 2 / 0. Both match the reconstructed OpenAlex abstract.
+- **Classification changes.** Candidate 6: takes_up → answers (on the abstract). The card's Caution already said the work answers the call; the class now agrees, and matches akhil2026 on the same evidence. PICKUP_P2.md lists it under "Take it up".
+- **Read depth.** abstract, stated correctly.
+- **Verdict.** verified_with_corrections

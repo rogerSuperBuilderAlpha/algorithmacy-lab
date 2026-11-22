@@ -3,16 +3,16 @@
 - **Reference.** Gulbrandsen, I. T., & Just, S. N. (2025). What do we know about digital public debate? Technological affordances and democratic dilemmas. *Nordicom Review*, 46(S1), 148–174. https://doi.org/10.2478/nor-2025-0014
 - **Batch / triage.** P1. TRIAGE_T1, stark2024, possible_takeup, candidates 1, 3.
 - **Read depth.** full (publisher PDF, `citing/pdfs/gulbrandsen2025.pdf`, `.txt`).
-- **Citation line found** (p. 173): "Stark, D., & Vanden Broeck, P. (2024). Principles of algorithmic management. Organization Theory, 5(2). https://doi.org/10.1177/26317877241257213"
-- **Citing passage** (p. 160, "Personalised polarisation"): "While digital technologies enable new business models, organising value creation in ways that are distinct from those of the firm, they remain businesses, first and foremost (Stark & Vanden Broeck, 2024)." The article cites Stark and Vanden Broeck once, for this point only.
+- **Citation line found** (p. 174 [S10e: was p. 173]): "Stark, D., & Vanden Broeck, P. (2024). Principles of algorithmic management. Organization Theory, 5(2). https://doi.org/10.1177/26317877241257213"
+- **Citing passage** (p. 161 [S10e: was p. 160], "Personalised polarisation"): "While digital technologies enable new business models, organising value creation in ways that are distinct from those of the firm, they remain businesses, first and foremost (Stark & Vanden Broeck, 2024)." The article cites Stark and Vanden Broeck once, for this point only.
 
 ## Candidates touched
 
 **1. Communication field — takes_up (weak, unframed).**
-> "the invitations to action that shape digital public debate are themselves shaped by sociotechnical structures, suggesting that people's ability to participate is constrained by the platforms' ability to organise publics" (p. 162)
+> "the invitations to action that shape digital public debate are themselves shaped by sociotechnical structures, suggesting that people's ability to participate is constrained by the platforms' ability to organise publics" (p. 163 [S10e: was p. 162])
 
 **3. Partner or medium — passing.**
-> "when users become aware that they are interacting with technologies rather than directly with each other, this awareness shapes their social and their technical interactions" (p. 161)
+> "when users become aware that they are interacting with technologies rather than directly with each other, this awareness shapes their social and their technical interactions" (p. 162 [S10e: was p. 161])
 
 ## What the work says
 
@@ -20,4 +20,15 @@ Gulbrandsen and Just review Nordic studies of digital public debate through affo
 
 ## Caution
 
-The fit to candidate 1 is my reading. The authors cite Stark and Vanden Broeck only for "platforms remain businesses" (p. 160) and do not take up OQ-stark2024-06 as such. The participants they discuss are citizens and institutions, not workers.
+The fit to candidate 1 is my reading. The authors cite Stark and Vanden Broeck only for the point that digital platforms "remain businesses, first and foremost" (p. 161) [S10e: was the paraphrase "platforms remain businesses" in quotation marks, at p. 160] and do not take up OQ-stark2024-06 as such. The participants they discuss are citizens and institutions, not workers.
+
+## Verification
+
+- **Verifier.** Claude Opus 5.5, S10e (independent check; did not write the card).
+- **Date.** 22 November 2026.
+- **Bibliographic line.** Matches Crossref (Nordicom Review 46(S1), 148–174).
+- **Citation of the OT article.** Reference line found verbatim, and Crossref ref_159 carries the stark2024 DOI; one in-text citation, as stated.
+- **Quotes checked / corrected.** 6 / 5. All wording was verbatim except one paraphrase in quotation marks in the Caution ("platforms remain businesses"), replaced by the source's words. Every page locator was one page low: the PDF opens at p. 148, so the citing passage is p. 161, the two candidate quotations pp. 163 and 162, and the reference p. 174. PICKUP_P1.md repeats the old locators (p. 162, p. 161).
+- **Classification changes.** None.
+- **Read depth.** full, stated correctly.
+- **Verdict.** verified_with_corrections

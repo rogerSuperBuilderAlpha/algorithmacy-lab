@@ -20,3 +20,14 @@ From qualitative research with creative workers (designers), Dowsett argues that
 ## Caution
 
 Read in part. The contest is with one empirical finding Hsu and Bechky report, not with the shortlisted question (OQ-hsu2024-08 on retaining critical expertise), which the thesis takes up rather than disputes. The analysis concerns the worker and the tool; it does not name a relational ability or treat GenAI as an intermediary between people.
+
+## Verification
+
+- **Verifier.** Claude Opus 5.5, S10e (independent check; did not write the card).
+- **Date.** 22 November 2026.
+- **Bibliographic line.** No DOI. The City Research Online cover page matches the author, title, unpublished doctoral thesis status and eprint 38206.
+- **Citation of the OT article.** Reference line found verbatim at p. 195; the two in-text citations at pp. 16 and 120. The only "von Krogh" in the text is Grimes et al. (2023), so the thesis does not cite Hinds and von Krogh, as stated.
+- **Quotes checked / corrected.** 4 / 0.
+- **Classification changes.** None.
+- **Read depth.** partial, stated correctly.
+- **Verdict.** verified

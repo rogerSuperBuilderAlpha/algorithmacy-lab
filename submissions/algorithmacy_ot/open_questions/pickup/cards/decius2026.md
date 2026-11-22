@@ -2,7 +2,7 @@
 
 # decius2026
 
-- **Reference.** Decius, J. (2026). A second triad: Extending social cognitive theory to human–AI systems [Preprint, not peer reviewed]. *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.6550392 (University of Bremen.)
+- **Reference.** Decius, J. (2026). A second triad: Extending social cognitive theory to human–AI systems [Preprint, not peer reviewed]. SSRN [S10e: "SSRN Electronic Journal" removed; Crossref deposits the work as posted content with no container title]. https://doi.org/10.2139/ssrn.6550392 (University of Bremen.)
 - **Batch / triage.** P1 (required). TRIAGE_T2, phillips2024, unclear, no candidate assigned; the triage summary asked whether the "triad" is a human–AI–environment triad or a mediating third.
 - **Read depth.** full. SSRN PDF fetched by the lead in the author's browser (`citing/pdfs/decius2026.pdf`, `.txt`); 56 PDF pages: title page, text pp. 1–37, references pp. 38–48, figures and tables pp. 49–55. Page numbers below are the preprint's printed numbers (PDF page minus one).
 - **Citation line found** (references, p. 45): "Phillips, N., Kalvapalle, S., & Kennedy, M. (2024). Beyond the Turing Test: Exploring the implications of generative AI for category construction. Organization Theory, 5(3). https://doi.org/10.1177/26317877241275113"
@@ -42,3 +42,14 @@ Decius extends social cognitive theory by doubling its triad of characteristics,
 ## Caution
 
 The word "triad" is a false friend: Decius's triad is person–behaviour–environment, doubled, and algorithmacy's is two people and an intermediary; the two share a word, not a structure, and the full text confirms that no second person is bound by the system. The Phillips et al. citation is incidental (SCOT), so the work bears on candidate 7 by its own argument, not as a reply to OQ-phillips2024-09. Preprint, not peer reviewed; propositions untested.
+
+## Verification
+
+- **Verifier.** Claude Opus 5.5, S10e (independent check; did not write the card).
+- **Date.** 22 November 2026.
+- **Bibliographic line.** Matches Crossref (Decius, J.; posted content, 2026) except that Crossref gives no container title; "SSRN Electronic Journal" removed.
+- **Citation of the OT article.** Reference line found verbatim at p. 45 (Crossref ref72). One in-text citation at p. 12. No Stark and Vanden Broeck citation in the text, as the card says.
+- **Quotes checked / corrected.** 17 / 0. Several quotations are broken by the SSRN watermark in the text layer ("Transparency measures…", p. 30; "the theory implies…", p. 36; "a dual-layer triad…", p. 10); all are verbatim.
+- **Classification changes.** None. takes_up (3), takes_up (7) and answers (8) are each supported by the quoted passages.
+- **Read depth.** full, stated correctly (printed page = PDF page minus one; references begin p. 38).
+- **Verdict.** verified_with_corrections

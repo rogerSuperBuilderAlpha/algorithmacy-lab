@@ -24,3 +24,14 @@ Alishani, Homburg and Velsberg treat the government chatbot as a conversational 
 ## Caution
 
 The link to candidate 1 is through the triage tag only; the paper does not cite the asking article for that question. It is a perspective essay with illustrative cases, not an empirical study.
+
+## Verification
+
+- **Verifier.** Claude Opus 5.5, S10e (independent check; did not write the card).
+- **Date.** 22 November 2026.
+- **Bibliographic line.** Matches Crossref (PAR 86(1), 35–45; online 4 Jul 2025, print Jan 2026; three authors).
+- **Citation of the OT article.** Reference line found verbatim at p. 43 (Crossref ref e_1_2_9_63_1 also carries the DOI). Both in-text citations confirmed, pp. 39 and 41; no Stark and Vanden Broeck citation in the text.
+- **Quotes checked / corrected.** 9 / 0. Pages checked against the printed 35–45 pagination (PDF page 2 = p. 35).
+- **Classification changes.** None. takes_up (3) is the weakest of the three and rests on the card's reading of the backstage-discretion passage; it is not an overclaim.
+- **Read depth.** full, stated correctly.
+- **Verdict.** verified

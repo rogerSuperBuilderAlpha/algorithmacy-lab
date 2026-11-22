@@ -2,9 +2,9 @@
 
 - **Reference.** Hubert, N. (2025). Du résultat à l'épreuve : orchestrer la fiabilité par le Job Crafting Algorithmique des preuves. In M. Arouri, M. Blondel, A. Deville & G. Leray (Eds.), *Normes, comportements et enjeux de durabilité*. Université Côte d'Azur (conference, Nice, June 2025). HAL hal-05441493v2 (deposited 6 January 2026), CC BY-NC-SA 4.0. No DOI.
 - **Batch / triage.** P2. TRIAGE_T2, hinds2024, possible_takeup, candidates 8, 6.
-- **Read depth.** full (HAL PDF from `oa_pdf_url`; `citing/pdfs/hubert2025.pdf`, `.txt`; 32 pp., in French). Read: résumé, introduction, discussion §A–C. Quotations are in the original French, with my translation in brackets.
+- **Read depth.** partial [S10e: was "full"; the full text is held, but the card lists only the sections read] (HAL PDF from `oa_pdf_url`; `citing/pdfs/hubert2025.pdf`, `.txt`; 32 pp., in French). Read: résumé, introduction, discussion §A–C. Quotations are in the original French, with my translation in brackets.
 - **Citation line found** (references, p. 30): "P. HINDS, G. VON KROGH, " Generative AI, Emerging Technology, and Organizing : Towards a Theory of Progressive Encapsulation ", Organization Theory, 2024, 5(4), Doi : 10.1177/26317877241293478."
-- **Citing passages.** Eight, using "encapsulation progressive" as the opacity of generative processing chains (p. 3, pp. 23–26), orchestration as the new professional subjectivity (p. 7) and de-skilling of juniors (p. 25).
+- **Citing passages.** Nine in-text citations, at pp. 3, 7, 11, 23 (twice), 24, 25 (twice) and 27 [S10e: was "Eight" at p. 3, pp. 23–26], using "encapsulation progressive" as the opacity of generative processing chains (pp. 3, 23–25), orchestration as the new professional subjectivity (p. 7) and de-skilling of juniors (p. 25).
 
 ## Candidates touched
 
@@ -26,3 +26,14 @@ From an exploratory qualitative study of GenAI use in large organizations (consu
 ## Caution
 
 A doctoral conference chapter in French with an exploratory sample. The "blind dependence" remark is one sentence, not a finding developed from data, and concerns reliance on the tool's output, not on guidance that displaces a colleague. The answer is organizational (provenance logs, review routines, HR practices), not an individual capacity, which sets it apart from algorithmacy's answer.
+
+## Verification
+
+- **Verifier.** Claude Opus 5.5, S10e (independent check; did not write the card).
+- **Date.** 22 November 2026.
+- **Bibliographic line.** No DOI. The HAL cover page matches author, title, editors (Arouri, Blondel, Deville, Leray), Nice, June 2025, hal-05441493v2, submitted 6 Jan 2026, CC BY-NC-SA 4.0.
+- **Citation of the OT article.** Reference line found verbatim at p. 30. The in-text count was wrong: nine citations (pp. 3, 7, 11, 23 twice, 24, 25 twice, 27), not eight; corrected.
+- **Quotes checked / corrected.** 8 / 0.
+- **Classification changes.** None, with one note: takes_up (2) is borderline. "Dépendance aveugle" occurs once (p. 25), but the paper's remedy (evidentiary artefacts that keep "vigilance critique") is aimed at that failure, so takes_up stands rather than passing.
+- **Read depth.** was "full" with a list of sections read; corrected to partial.
+- **Verdict.** verified_with_corrections

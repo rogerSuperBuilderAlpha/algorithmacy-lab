@@ -55,3 +55,7 @@ Run `ot-oq-2026-11`, stage S10c. Batch P2 covers shortlist candidates 2 (blind f
 ## Across the batch
 
 Interpretation of AI output, recast as invisible labour or as an imposed role, is the one idea several works converge on. It runs through candidates 6, 4 and 2. In every work, what gets interpreted is the machine's claim. No work in this batch treats the system as an intermediary that stands between two people and evaluates both.
+
+## Corrections after verification (S10e, 22 Nov 2026)
+
+- ivarsson2026 on candidate 6 moves from "take it up" to "answers" (abstract only). See `cards/ivarsson2026.md`. Its full text sits behind a bot-check and was not read.
