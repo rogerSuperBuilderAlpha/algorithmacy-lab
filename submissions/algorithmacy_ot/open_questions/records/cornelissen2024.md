@@ -26,9 +26,9 @@ run: ot-oq-2026-11
 The editors sketch theorizing as acts that turn priors into understanding of phenomena through styles of reasoning and epistemic aims, then explain how transformer-based LLMs work. LLMs do well at basic, automatable tasks such as summarizing a literature or extending propositions, which fits a propositional style. They interpolate familiar outputs, cannot carry out thought experimentation, cannot reflect on what they produce, and reproduce biases in their training data. LLMs therefore cannot, without human modification, substitute for human ampliative reasoning. The editors accept that an augmentation logic is persuasive but warn that widespread LLM-augmented theorizing could narrow plural epistemic aims to machine prediction, a "predictive delusion". The essay closes with the journal's policy: a precautionary, case-by-case judgement, no ban, mandatory disclosure of LLM use, and an account of how LLM output sits in the author's chain of reasoning. (reader's paraphrase)
 
 ## The conversation it joins
-- Positions against / extends: "So far, the debate in the field around LLMs has – perhaps unsurprisingly – been divided between critics and evangelists" (p. 2, untitled introduction); against the augmentation logic: "Notwithstanding its appeal, the augmentation logic comes with a catch." (p. 10, "Automating, augmenting, or displacing human theorizing?")
+- Positions against / extends: the debate around LLMs "divided between critics and evangelists" (p. 2, untitled introduction); against the augmentation logic: "Notwithstanding its appeal, the augmentation logic comes with a catch." (p. 10, "Automating, augmenting, or displacing human theorizing?")
 - Named interlocutors: Grimes et al. (2023) (prediction-oriented, augmented scholarship, quoted and contested); Lindebaum & Fleming (2023) (critics; reflexivity); Dwivedi et al. (2023) (evangelists); Bailey et al. (2022) (relational augmentation view); Van Dis et al. (2023); Wolfram (2023) and Cristianini (2023) on how LLMs work; Fauconnier & Turner (2008) and Koestler (1964) on creativity; Lepore (2023) on the "predictive delusion"; Cornelissen et al. (2021) on styles of theorizing.
-- OT articles it cites: Cornelissen & Höllerer (2020), "An open and inclusive space for theorizing"; Cornelissen, Höllerer & Seidl (2021), "What theory is and can be"; Kornberger & Mantere (2020), "Thought experiments and philosophy in organizational research"; Orlikowski & Scott (2023), "The digital undertow and institutional displacement"; Powell & DiMaggio (2023), "The iron cage redux"; Reinecke, Boxenbaum & Gehman (2022), "Impactful theory"; Wright, Kent, Hällgren & Rouleau (2023), "Theorizing as mode of engagement in and through extreme contexts research"; Zuboff (2022), "Surveillance capitalism or democracy?"
+- OT articles it cites: Cornelissen & Höllerer (2020), on an open and inclusive space for theorizing; Cornelissen, Höllerer & Seidl (2021), "What theory is and can be"; Kornberger & Mantere (2020) on thought experiments; Orlikowski & Scott (2023), "The digital undertow"; Powell & DiMaggio (2023), "The iron cage redux"; Reinecke, Boxenbaum & Gehman (2022), "Impactful theory"; Wright, Kent, Hällgren & Rouleau (2023) on theorizing in extreme contexts research; Zuboff (2022), "Surveillance capitalism or democracy?"
 - Move: editorial policy statement grounded in a critique and a thought experiment (scaffold of "acts of theorizing" applied to LLMs).
 
 ## Key constructs
@@ -155,19 +155,19 @@ The editors sketch theorizing as acts that turn priors into understanding of phe
 - Paraphrase: The section opens by asking the editors' own view of LLM uses and answers at once that LLMs cannot directly substitute for human ampliative reasoning. (reader's paraphrase) (added by verifier; moved from Not counted under the lead's ruling)
 
 ## Implicit openings
-- (reader's inference) The editors claim that increasing LLM use "may come to (pre)structure and channel the theorizing that is done by scores of researchers in a specific direction" (p. 11, "Automating, augmenting, or displacing human theorizing?"). They state this as a risk; whether such channelling occurs is an empirical question about the field that the essay does not test.
-- (reader's inference) The essay suggests researchers "could in the future train an LLM, or their own modified version of an LLM, with batches of, say, process model papers" (p. 9, "Abstract reasoning and creativity"), then predicts the outputs will lack ingenuity. The prediction leaves room for a test of style-specific fine-tuned models.
+- (reader's inference) The editors claim that increasing LLM use "may come to (pre)structure and channel the theorizing" of many researchers in a specific direction (p. 11, "Automating, augmenting, or displacing human theorizing?"). They state this as a risk; whether such channelling occurs is an empirical question about the field that the essay does not test.
+- (reader's inference) The essay suggests researchers "could in the future train an LLM" on, say, process model papers (p. 9, "Abstract reasoning and creativity"), then predicts the outputs will lack ingenuity. The prediction leaves room for a test of style-specific fine-tuned models.
 - (reader's inference) The policy has editors judge each use "in terms of whether it is compatible with a particular style of theorizing" (p. 13, Editorial Policy section) but gives no criteria per style; how that judgement is made is left open.
 
 ## Topic flags
 - triads_third_parties: 0
 - intermediaries: 0
-- algorithms_ai: 2. "we explore the potential of large language models (LLMs) for conceptual work and for developing theory papers within the field of organization and management studies" (p. 1, "Abstract")
+- algorithms_ai: 2. "we explore the potential of large language models (LLMs) for conceptual work and for developing theory papers" (p. 1, "Abstract")
 - platforms: 0
 - coordination: 0
-- communication: 1. "LLMs are deep learning, transformer-based AI models that are trained on large amounts of 'text' that makes them capable of understanding and generating natural language" (p. 5, "How do large language models work?")
-- literacy_competence: 1. "many of these theorizing styles presuppose human reflexivity (Lindebaum & Fleming, 2023), the meta-representational ability of human beings to reflect on and interrogate the assumptions, biases and (consequential) privileges associated with particular styles of reasoning and knowing" (p. 9, "Abstract reasoning and creativity")
-- evaluation_accountability: 1. "As editors, we reserve the right to reject papers on this basis, and such considerations could conceivably overrule other editorial criteria" (p. 13, Editorial Policy section)
+- communication: 1. LLMs are described as "deep learning, transformer-based AI models" trained on large amounts of text (p. 5, "How do large language models work?")
+- literacy_competence: 1. "many of these theorizing styles presuppose human reflexivity (Lindebaum & Fleming, 2023)", the "meta-representational ability" to reflect on and interrogate assumptions, biases and privileges (p. 9, "Abstract reasoning and creativity")
+- evaluation_accountability: 1. the editors "reserve the right to reject papers on this basis", which "could conceivably overrule other editorial criteria" (p. 13, Editorial Policy section)
 
 ## Caution
 - Version: publisher's version of record (SAGE header, "From the Editors", Volume 5: 1–15, CC BY-NC). Printed page numbers equal PDF page numbers; locators use printed pages. The article is continuously published (article number 26317877241239056), so pages are article pages 1–15.
@@ -198,3 +198,4 @@ The editors sketch theorizing as acts that turn priors into understanding of phe
 - Flags changed: none
 - Fit adjudications: 0 lines; disagreements resolved: 0
 - Verdict: indexed_with_corrections
+- Quote-cap trim (S8, 2026-11-22, claude-sonnet-5-5): 8 quotations paraphrased or shortened; quoted words 843 → 717.
