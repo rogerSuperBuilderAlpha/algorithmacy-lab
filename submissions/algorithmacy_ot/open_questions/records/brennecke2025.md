@@ -14,7 +14,7 @@ read_depth: full_vor
 object_read: "brennecke2025.pdf sha256 a78a95710f2887b2726b9c6248b884f325b43df254fcfcb2e0d8d62929bb01c7"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 2, intermediaries: 2, algorithms_ai: 1, platforms: 0, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -244,7 +244,12 @@ The authors argue that organizational network research, in both its networks-as-
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: none. The argument, the six constructs and all 21 OQ quotations match the text at their locators (OQ-04 crosses pp. 13–14; OQ-08 carries a line-end hyphen, as the Caution says). The reference list holds no *Organization Theory* item.
+- OQs added / removed / reclassified: none. The record holds no own_research_question and no boundary_condition, and the text gives no cause for either: the authors answer no question they pose, and they place no condition outside the concept. OQ-05 quotes the authors' expectation; the call itself is the sentence before it ("new avenues for research in the networks-as-prisms paradigm", p. 14).
+- Flags changed: none. triads_third_parties 2 and intermediaries 2 both rest on the brokerage section (pp. 11–13), one of the four debates the article reorients, and third parties who observe a tie or join it recur in the cognition and agency sections (pp. 6, 9–11). The third party here is a person: a broker who shares a history with each alter. algorithms_ai 1 rests on machine learning as a coding method (p. 16).
+- Fit adjudications: 0 lines; disagreements resolved: 0. Scorer B's three 1s (OQ-02, OQ-03, OQ-05) stand as shared vocabulary: the questions concern human brokers and audiences of a tie, and none asks what a party must be able to do.
+- Verdict: indexed

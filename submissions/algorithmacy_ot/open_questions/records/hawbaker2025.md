@@ -14,7 +14,7 @@ read_depth: full_vor (publisher's typeset PDF; printed pp. 1-11 = pdf pp. 1-11)
 object_read: "hawbaker2025.pdf sha256 11cb0331b8dbc17d4a8bb652226989d507c5ec636dae09084aa30271d064351a"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 0}
 run: ot-oq-2026-11
@@ -119,7 +119,13 @@ A reply to Nigam, Amis and Logue (2025). The authors accept that Taylor Swift is
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: none. The argument, the six constructs and the four OQ quotations match the text at their locators. I checked the three Caution phrases that quote Nigam et al. against the nigam2025 text read in this batch: "Also key is reciprocity" (Nigam p. 9), "an associated recognizable repertoire" (Nigam p. 2) and "75th anniversary" (Nigam p. 3) all stand there.
+- OQs added / removed / reclassified: none. The verifier's removal of OQ-05, OQ-06 and OQ-07 stands, as the lead ruled; the text answers each at once (pp. 4, 6, 7). OQ-02 stays `boundary_condition` with one caveat for synthesis: the boundary is one the reply sets on the lead piece's title claim that Swift rules the world (the authors are "especially wary" of it, p. 9), not on a theory of the authors' own. OQ-03 and OQ-04 are claims worded as openings for further work and stay invitations.
+- Flags changed: none. The text holds no third party, intermediary, platform or algorithm; social media appears only inside a quotation from Nigam et al. (Table 1, p. 5).
+- Exchange set: `v6i4-person-institutions` confirmed. The reply names Nigam et al. (2025) throughout and lists it in the references; it does not name Derek Robinson and Atanasova. Its "Ocasio (2023)" is the Cambridge book, so the reply cites no second OT article.
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Verdict: indexed

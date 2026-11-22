@@ -14,7 +14,7 @@ read_depth: full_vor
 object_read: "guercini2023.pdf sha256 2be79d8efac84e47cdc3c2bec89ce4097ffb1e66f9d28b92b46ea501f62a86e3"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 2, evaluation_accountability: 0}
 run: ot-oq-2026-11
@@ -119,7 +119,7 @@ The authors ask what happens to an organization's existing competences when it a
 - Form: future_research_call
 - Scope: constituent processes of learning styles
 - Addressee: organizational learning researchers
-- Level of analysis: individual
+- Level of analysis: organization (corrected at hand-check from individual: the next sentence, p. 17, extends such studies from single organizations or firms to a community, field or industry, which sets this call at the level of the single organization)
 - Paraphrase: Research could unpack the processes of different learning styles and their role in competence acquisition. (reader's paraphrase)
 
 ### OQ-guercini2023-11
@@ -170,7 +170,13 @@ The authors ask what happens to an organization's existing competences when it a
 - Verdict: verified_with_corrections (Caution "Not counted" extended only)
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: OQ-10 level of analysis changed from individual to organization (see the OQ). The argument, the conversation (no OT article in the reference list), the six constructs, all 12 OQ quotations, the three implicit openings and the two flag quotations match the version of record at their locators. The p. 16 slip ("time t2 (C1)") and "fibrers" (p. 11) are as the Caution says.
+- OQs added / removed / reclassified: none. OQ-01, OQ-02 and OQ-03 stay `own_research_question`: the propositions answer each (pp. 11–14, 15–16).
+- Flags changed: none. communication stays at 1: language is the source domain of the analogy (pp. 7–9), and the authors make no claim about communication in organizations. literacy_competence stays at 2; the competence is an organization's, carried over from an individual's command of a language (p. 8).
+- Fit adjudications: 0 lines; disagreements resolved: 0. Scorer A's two 1s (OQ-08, OQ-10) and scorer B's one (OQ-08) rest on the words learning and competence. The authors ask what a new competence does to an older one inside an organization; the brief defines one capacity of a person and makes no claim about what its acquisition does to oracy or literacy.
+- Exchange set: `exchange_id: none` confirmed. The article cites no corpus article, and `EDGES.tsv` lists no corpus article citing it.
+- Verdict: indexed_with_corrections

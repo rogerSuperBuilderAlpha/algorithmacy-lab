@@ -10,11 +10,11 @@ article_type_printed: "Conversations and Controversies"
 article_type_norm: controversies_conversations
 exchange_id: v6i4-person-institutions
 license: CC BY-NC 4.0 (printed on p. 1; crossref agrees)
-read_depth: full_vor (publisher's typeset PDF behind a City Research Online cover sheet that states "This is the published version of the paper."; pdf p. 1 is the cover sheet; printed pp. 1-11 = pdf pp. 2-12)
+read_depth: full_vor_cover (publisher's typeset PDF behind a City Research Online cover sheet that states "This is the published version of the paper."; pdf p. 1 is the cover sheet; printed pp. 1-11 = pdf pp. 2-12)
 object_read: "nigam2025.pdf sha256 64f63c25cc2cf13ad584b8517dcc44a1bead7c7df39f65bb6e6d30a38c28e77b"
 reader_model: claude-opus-5-5
 verified: yes
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 1, platforms: 1, coordination: 0, communication: 2, literacy_competence: 0, evaluation_accountability: 0}
 run: ot-oq-2026-11
@@ -168,7 +168,13 @@ The authors propose that an individual person, not an office-holder, can become 
 - Verdict: verified
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: `read_depth` full_vor → full_vor_cover, per the lead's ruling on repository cover sheets (pdf p. 1 is the City Research Online cover sheet; all 12 pdf pages read). The argument, the seven constructs, the one OT citation (Ocasio 2023) and all 11 OQ quotations match the text at their printed-page locators (printed page = pdf page − 1).
+- OQs added / removed / reclassified: none. OQ-02 stays `boundary_condition`; the authors themselves call reciprocity and resonance the "boundary conditions that accompany our theorizing" (p. 7). OQ-06 to OQ-08 report questions the authors say person-institutions "raise"; they stay future_research_call, since the text leaves each open. No own research question is recorded, and the essay states none in question form.
+- Flags changed: none. intermediaries 1 and algorithms_ai 1 rest on one sentence about ticketing providers and online bots (p. 7); platforms 1 rests on Spotify (p. 7). All three are in passing.
+- Exchange set: `v6i4-person-institutions` confirmed as the lead piece. The essay names neither reply; hawbaker2025 and derekrobinson2025 each name it, and neither names the other.
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Verdict: indexed_with_corrections

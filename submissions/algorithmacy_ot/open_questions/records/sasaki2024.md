@@ -12,9 +12,9 @@ exchange_id: none
 license: CC BY-NC 4.0 (printed on p. 1 of the version of record; matches crossref)
 read_depth: full_vor (Sage typeset version of record, "Volume 5: 1–29"; no cover sheet; printed page numbers equal pdf pages 1-29; pp. 23-29 are acknowledgements, notes, references and author biographies; earlier read was the Warwick WRAP peer-review-stage manuscript, superseded)
 object_read: "sasaki2024.pdf sha256 b3d170c11844910d26e4920af057c293bc4676fc514c48d95fb39bedca49dce9"
-reader_model: Claude Sonnet 5.5 (claude-sonnet-5-5)
+reader_model: claude-sonnet-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 0}
 run: ot-oq-2026-11
@@ -126,7 +126,12 @@ The authors say organization and management theory lacks a systematic account of
   - Wording changes: introduction gap quote ("(OMT)" dropped); cultural marginalization, cultural extermination and cultural survival definitions (serial commas); cultural autonomy definition (reworded in the published text); OQ-04 "resistances"; OQ-05 "e.g."; OQ-06 "i.e."; Discussion implicit-opening quote ("either directly or indirectly" dropped); "somewhat counterintuitively"; literacy flag quote "skilfully". Frontmatter: article_type_printed, license, read_depth, object_read updated. Earlier "pdf p." locators in the bullets above refer to the superseded manuscript.
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1 (both scorers gave all six OQs 0)
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; no scorer rated an OQ above 0. Read: pp. 1–4, pp. 21–23, and every quotation at its locator in the version of record)
+- Corrections: `reader_model` normalized to the model id (frontmatter only; no content changed). The argument, the eight construct definitions, the two OT citations (Cornelissen et al. 2021; Eisenman & Frenkel 2021, reference list p. 24) and all six OQ quotations match the version of record at their printed pages. The Verification section's Bibliography line still names the superseded manuscript (`full_aam`); its re-anchoring line corrects that, and I left the verifier's log as written.
+- OQs added / removed / reclassified: none. The six OQs are every question and call in "Directions for further research" (p. 22); the four folded calls in Caution are restatements, as the verifier says. The introduction states no question (the phrase "Addressing such questions", p. 2, refers back to the gap).
+- Flags changed: none. A term sweep found no third party, intermediary, algorithm or platform outside the reference list. `literacy_competence: 1` holds on p. 12, where groups differ in how skilfully they use cultural resources.
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Verdict: indexed_with_corrections

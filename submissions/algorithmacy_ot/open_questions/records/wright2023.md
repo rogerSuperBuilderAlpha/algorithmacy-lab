@@ -12,9 +12,9 @@ exchange_id: none
 license: CC BY-NC 4.0 (printed on p. 1 and crossref)
 read_depth: full_vor (publisher's version of record; printed pages 1-26 coincide with pdf pages 1-26; pp. 20-26 after the Discussion are declarations, notes and references, which I scanned for Organization Theory entries)
 object_read: "wright2023.pdf sha256 d449c72af5fd3b4fa20d7388074d89b6e00756f864ceaafce341e95aeba2bbc5"
-reader_model: Claude Sonnet 5.5 (claude-sonnet-5-5)
+reader_model: claude-sonnet-5-5
 verified: yes
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -46,7 +46,7 @@ No dedicated "future research" section. Calls for further research sit in the Di
 
 ### OQ-wright2023-01
 - Quote: "How can management and organization scholars theorize in and through the study of extreme contexts?" (p. 3, "Introduction")
-- Form: explicit_question
+- Form: own_research_question (hand-check: was explicit_question; the authors introduce it with "We take up this challenge in this paper by asking", open the next paragraph with "In addressing this question" (p. 3), and answer it with the four modes of engagement)
 - Scope: theorizing in extreme-context research
 - Addressee: management and organization scholars who study extreme contexts
 - Level of analysis: individual
@@ -104,11 +104,12 @@ No dedicated "future research" section. Calls for further research sit in the Di
 - coordination: 1. "a researcher interested in puzzles surrounding theories of team coordination" (p. 7, "Instrumental scholarship")
 - communication: 1. "Ganesh focused on evaluating, collecting and preserving empirical materials from the protest context that might relate to digital communication theory" (p. 8, "Instrumental scholarship")
 - literacy_competence: 1. "management scholars wanting to enhance their skills in conducting EC research" (p. 17, "Modes of engagement and pluralistic career trajectories")
-- evaluation_accountability: 1. "research should be judged by morally responsible criteria for its ‘impact’ on practitioners, stakeholders and society" (p. 9, "Ideological improvement")
+- evaluation_accountability: 1. "EC researchers who repeatedly pursue similar projects may be typecast by their peers, appearing to have a limited range of skills" (p. 18, "Modes of engagement and pluralistic career trajectories") (hand-check: quotation replaced. The reader's passage on p. 9, on morally responsible criteria for research impact, judges scholarly work, which the lead's ruling on the V06 query puts outside this flag; on p. 18 peers evaluate people, in passing.)
 
 ## Caution
 VOR; printed page equals pdf page. Table 1 (p. 5) and Figure 1 (p. 14) extract in jumbled order. Fine breaks in OQ-02 (page 16 to 17, running header) are not an error. The "Notes" on p. 20 were scanned; the references were scanned for Organization Theory entries, and the three OT items above are those I found.
 - Not counted (verifier's recall sweep): p. 4 "how theorizing happens in these contexts remains largely opaque" (the gap the paper fills; its research question is OQ-01); p. 4 the REDS framework "setting a research agenda" (describes earlier work); p. 19 "We encourage further research to examine these important questions." (folded into OQ-05, whose questions it refers to); p. 15 "invites as well the possibility of combining modes" (a property of the framework, not a call).
+- Not counted (hand-check): p. 19, the sentence that encourages researchers who apply the framework to reflect on its implications is the lead-in to OQ-04; p. 19, the sentence after OQ-04, on what such studies may reflect on, continues that call; p. 16, the authors' speculation about a common sequence of modes (adventuresome inquiry in the field, instrumental scholarship in the write-up) is a conjecture inside the framework and asks nothing of others.
 
 ## Verification
 - Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
@@ -121,7 +122,13 @@ VOR; printed page equals pdf page. Table 1 (p. 5) and Figure 1 (p. 14) extract i
 - Verdict: verified (recall: Not-counted list added; no quotation, OQ or bibliographic field changed)
 
 ## Fit
-pending
+- OQ-wright2023-01: A=0 B=0 → final x. Reclassified `own_research_question` at hand-check; the article asks it and answers it, so it is not open.
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; no scorer rated an OQ above 0. Read: pp. 1–4, pp. 15–20, and every quotation at its locator)
+- Corrections: (1) OQ-01 reclassified (below). (2) The `evaluation_accountability` quotation replaced, score unchanged. (3) `reader_model` normalized to the model id. (4) Three Not-counted sentences added. The argument, the six construct definitions, the three OT citations (Cornelissen et al. 2021; Cunliffe 2022; Cutcher et al. 2020, reference list pp. 21–22) and all six OQ quotations match the text at their locators.
+- OQs added / removed / reclassified: reclassified OQ-01 from explicit_question to own_research_question, as the lead's ruling on V02's query asks. The record's own paraphrase already called it the paper's research question, and the text confirms it (p. 3). OQ-03 stays an explicit_question: the authors weigh both sides (pp. 17–18) and offer "One possible solution" (p. 18), a sequential career, without settling which course pays off. None added, none removed.
+- Flags changed: none in score. No algorithm, platform, intermediary or third party appears in the text; a term sweep found none.
+- Fit adjudications: 0 lines for scores of 2 or more (1 line sets the reclassified OQ to x); disagreements resolved: 0
+- Verdict: indexed_with_corrections

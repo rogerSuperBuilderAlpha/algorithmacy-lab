@@ -14,9 +14,9 @@ read_depth: full_vor
 object_read: "werner2026.pdf sha256 256e5aeb8ca5dde877a48d1054ecbfe12041ffac0077cf455b99ca5d1f0d40e6"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
-topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 2}
+topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 0, platforms: 1, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 2}
 run: ot-oq-2026-11
 ---
 
@@ -45,7 +45,7 @@ Starting from firms' divergent responses to the second Trump administration's at
 ## Open questions
 ### OQ-werner2026-01
 - Quote: "raising not only the question of what might explain such differences in response, but also more specifically, what drives an organization to be unwavering in the face of political pressures?" (p. 2, "Introduction")
-- Form: explicit_question
+- Form: own_research_question (hand-check: was explicit_question; the Abstract says "the answer to this question lies in capturing the differences in character between organizations" (p. 1), and the typology gives that answer)
 - Scope: organizational responses to political pressure on ESG and DEI commitments
 - Addressee: CSR, ethics and organization theorists
 - Level of analysis: organization
@@ -53,7 +53,7 @@ Starting from firms' divergent responses to the second Trump administration's at
 
 ### OQ-werner2026-02
 - Quote: "How is organizational character constituted, what might be variations in types of organizational characters, and under what conditions and how might organizations evolve their character over time?" (p. 2, "Introduction")
-- Form: explicit_question
+- Form: own_research_question (hand-check: was explicit_question; the authors introduce these with "ask more specifically" and answer them with the typology, Table 1, and the process model, Figure 1)
 - Scope: constitution, types and change of organizational character
 - Addressee: organization theorists
 - Level of analysis: organization
@@ -93,7 +93,7 @@ Starting from firms' divergent responses to the second Trump administration's at
 
 ### OQ-werner2026-07
 - Quote: "Further research may therefore usefully add further depth and nuance to the organizational processes involved, as well as explore the boundary conditions to our arguments." (p. 21, "Theoretical and research implications")
-- Form: boundary_condition
+- Form: future_research_call (hand-check: was boundary_condition; the sentence asks others to find the boundary conditions and names none, so it marks no point where the theory stops)
 - Scope: the stylized process model
 - Addressee: theoretical and empirical researchers
 - Level of analysis: organization
@@ -130,7 +130,7 @@ Starting from firms' divergent responses to the second Trump administration's at
 
 ## Topic flags
 - triads_third_parties: 0.
-- intermediaries: 0.
+- intermediaries: 1. (hand-check: raised from 0, in passing.) Same passage as platforms (p. 10): Booking.com stands between tourism businesses and their customers. The article uses it as a case of a role performer and says nothing more about intermediaries.
 - algorithms_ai: 0. ("Algorithmic" on pp. 9, 12 and 19 refers to Stanovich's rote, belief-driven reasoning, not to computing.)
 - platforms: 1. "Booking.com, the largest travel booking website in the world, which defines its role as a platform-based “contractor” for tourism businesses" (p. 10, "Role performers")
 - coordination: 0.
@@ -159,7 +159,15 @@ Starting from firms' divergent responses to the second Trump administration's at
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- OQ-werner2026-01: A=0 B=0 → final x. Reclassified `own_research_question` at hand-check; the concept of character answers it.
+- OQ-werner2026-02: A=0 B=0 → final x. Reclassified `own_research_question` at hand-check; the typology and the process model answer it.
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: three OQs reclassified and one flag raised (below). The argument, the seven constructs, the two OT citations (Bromley & Meyer 2021; Perkmann et al. 2022) and all ten OQ quotations match the text at their locators (OQ-03 crosses pp. 20–21, OQ-10 pp. 21–22).
+- OQs added / removed / reclassified: reclassified OQ-01 and OQ-02 from explicit_question to own_research_question, and OQ-07 from boundary_condition to future_research_call. The record now holds no boundary_condition, and the text states none: the authors call their process model stylized (pp. 16, 21) and leave its limits to others. OQ-05, OQ-09 and OQ-10 are questions the closing section leaves open. None added.
+- Flags changed: intermediaries 0 → 1 (p. 10, Booking.com, in passing). evaluation_accountability stays at 2, as the lead accepted: accountability pressures define the role performer (pp. 10–11) and are a named trigger in Figure 1 (p. 17). literacy_competence stays at 0: the "capacity for moral reflection and deliberation" (p. 5) belongs to the organization, and the authors rest it on a homology with persons, not on the abilities of individuals.
+- Exchange set: `none` confirmed; the article replies to no OT piece.
+- Fit adjudications: 0 lines for scores of 2 or more (2 lines set the reclassified OQs to x); disagreements resolved: 0
+- Verdict: indexed_with_corrections

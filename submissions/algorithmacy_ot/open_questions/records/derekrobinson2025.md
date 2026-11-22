@@ -14,9 +14,9 @@ read_depth: full_vor (Sage typeset version of record, "Volume 6: 1–11"; no cov
 object_read: "derekrobinson2025.pdf sha256 406a3e58771e72e8f65309523390a552abd1465de0c94fde9a56a0de9765b0f7"
 reader_model: claude-opus-5-5
 verified: yes
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: question_list
-topic_flags: {triads_third_parties: 1, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 1, communication: 1, literacy_competence: 0, evaluation_accountability: 0}
+topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 0}
 run: ot-oq-2026-11
 ---
 
@@ -169,13 +169,13 @@ A commentary on Nigam et al. (2025). The authors accept that some people may bec
 3. (reader's inference) Practitioner networks are said to include "a menagerie of back-office stakeholders with other values than hers" (p. 6, "Contention in values and meaning-making due to unpredictability and social embedding"); how these back-office actors take part in or block institutionalization is not developed.
 
 ## Topic flags
-- triads_third_parties: 1. "the main power of person-brands stems from their capacity for cultural arbitrations" (p. 8, "Conclusion")
+- triads_third_parties: 0. (hand-check: lowered from 1. The score rested on the phrase "cultural arbitrations" (p. 8, "Conclusion"), where the person-brand is said to host and negotiate wider dissonance. No party arbitrates between two others anywhere in the text; the three "bodies" (natural, politic, corporate) are components of one person-brand, and the one use of "third" (p. 3) is ordinal.)
 - intermediaries: 0
 - algorithms_ai: 0
 - platforms: 1. "Oprah’s audience is largely based on a 20th-century broadcast model, while the Swiftie community is a highly active, digital-native fandom." (p. 8, "Non-transcendence due to mortality")
 - coordination: 1. "It illuminates the coordinating role of ‘body corporate’ to establish a strategically managed projection of authenticity and intimacy" (p. 4, "What Are the Dynamics of Person-Brands?")
 - communication: 1. "They are semantic battlefields, the meaning of which evolve over time." (p. 8, "Conclusion")
-- literacy_competence: 0
+- literacy_competence: 1. (hand-check: raised from 0, in passing.) The coined construct "institutional potential" is a person's "ability and key resources" to overcome the fallibility of personhood (p. 2, "Introduction"; the Abstract has "a person’s ability", p. 1).
 - evaluation_accountability: 0
 
 ## Caution
@@ -201,7 +201,13 @@ A commentary on Nigam et al. (2025). The authors accept that some people may bec
   - Wording changes: person-institution (OQ-01); "(Nigam et al., 2025)" (OQ-04); "discrete" (OQ-11); serial comma dropped (OQ-14); body-corporate construct ("‘the body corporate’" without trailing comma); four-stage construct ("(1) … (4)", "proto-person-institution"); Caution sweep quote "person-brand ontology". Frontmatter: article_type_printed, license, read_depth, object_read updated; Kantorowicz year and Nigam reference in the conversation section updated.
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: two flags changed (below). The argument, the six constructs, the three OT citations (Cloutier & Langley 2020; Ocasio 2023; Nigam et al. 2025) and all 15 OQ quotations match the version of record at their locators. "Two-bodied brand" in the summary is the title of Fournier and Eckhardt (2019) in the reference list.
+- OQs added / removed / reclassified: none. OQ-03 stays `boundary_condition`: the authors make the separability of a celebrity's values from the person a condition on institutional potential (p. 7). OQ-10 to OQ-13 and OQ-15 are questions the Conclusion leaves open. No own research question is recorded, and the commentary poses none that it answers.
+- Flags changed: triads_third_parties 1 → 0 (no social third party appears; the lead's S4–S5 ruling sent this flag here); literacy_competence 0 → 1 (p. 2; "institutional potential" is defined as a person's ability).
+- Exchange set: `v6i4-person-institutions` confirmed. The commentary names Nigam et al. (2025) "In this issue" (p. 1) and throughout, and lists it in the references; it does not name Hawbaker and Hallett.
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Verdict: indexed_with_corrections

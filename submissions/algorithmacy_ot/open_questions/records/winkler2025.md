@@ -14,7 +14,7 @@ read_depth: full_vor
 object_read: "winkler2025.pdf sha256 2adafc669f4b19ceb0b5c47cf7afdb3eb73f0ef80e130cad3bf0dd9d014b30e5"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 0, platforms: 1, coordination: 2, communication: 2, literacy_competence: 1, evaluation_accountability: 2}
 run: ot-oq-2026-11
@@ -45,7 +45,7 @@ The authors ask how post-truth communication (PTC) manages to organize itself an
 ## Open questions
 ### OQ-winkler2025-01
 - Quote: "organization theory can help address the puzzling question as to how PTC manages to organize and maintain its dedicated “anti-establishment” character over time, while simultaneously attacking, simulating, and partly displacing organizations representing this very “establishment.”" (p. 2, introduction)
-- Form: explicit_question
+- Form: own_research_question (hand-check: was explicit_question; the paper's framing question, flagged by V02 and answered by the model of escalating dis/organization, pp. 8–15; the authors restate it as the gap their model addresses on p. 15)
 - Scope: organizing of post-truth communication against established organizations
 - Addressee: organization theorists
 - Level of analysis: multi-level
@@ -93,7 +93,7 @@ The authors ask how post-truth communication (PTC) manages to organize itself an
 
 ### OQ-winkler2025-07
 - Quote: "Our reflections on the escalating dis/organization of PTC offer a novel perspective on the pressing societal question of how established organization as a central target and host can develop meaningful de-escalation strategies against PTC (Bak-Coleman et al., 2022)." (p. 16, "Practical and societal implications")
-- Form: explicit_question
+- Form: own_research_question (hand-check: was explicit_question; the authors name the societal question and answer it in the same section with Serres' second scenario, in which the host embraces its parasitic properties, pp. 16–17. Implicit opening 3 carries the open residue, as OQ-08 does for hsu2024-07.)
 - Scope: de-escalation strategies of universities, parties, news media, firms
 - Addressee: practitioners in established organizations; researchers
 - Level of analysis: organization
@@ -134,7 +134,15 @@ The authors ask how post-truth communication (PTC) manages to organize itself an
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- OQ-winkler2025-01: A=0 B=0 → final x. Reclassified `own_research_question` at hand-check; the model answers it.
+- OQ-winkler2025-07: A=0 B=0 → final x. Reclassified `own_research_question` at hand-check; the authors answer it with their second scenario.
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: two OQs reclassified (below). The argument, the seven constructs, the two OT citations (Gümüsay et al. 2020; Roulet & Pichler 2020) and all seven OQ quotations match the text at their locators.
+- OQs added / removed / reclassified: reclassified OQ-01 and OQ-07 from explicit_question to own_research_question. OQ-03 stays `boundary_condition`: the authors place total takeover "out of the scope of our model" (p. 10). OQ-02 stays an invitation, because the sentence asks organizational scholars to take up post-truth communication. None added.
+- Flags changed: none. triads_third_parties stays at 1: the "third" on p. 14 is a shared goal or value that constituents orient to, a term of meaning like the Thirdness in dion2025, and no social third party stands between the host and the parasite. coordination 2 and evaluation_accountability 2 stay because coordinated collective action and accountability evasion through blame reversal are named parts of the third dynamic of the model (pp. 13–15); the accountability here is an actor's answerability, which the Joker evades.
+- Exchange set: `none` confirmed. The article names no piece of the organizationality set (dion2025 and schoeneborn2026 appeared later); schoeneborn2026 cites it.
+- Fit adjudications: 0 lines for scores of 2 or more (2 lines set the reclassified OQs to x); disagreements resolved: 0. OQ-04 uses the word interdependency for relations between organizations and their parasites, which is no contact with interdependent work between two people.
+- Verdict: indexed_with_corrections

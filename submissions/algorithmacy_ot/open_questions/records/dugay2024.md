@@ -14,9 +14,9 @@ read_depth: full_vor
 object_read: "dugay2024.pdf sha256 d3e822afba80fc40cd5e1a10cba19e3c190b00e3c3ec1a62de6f99e81a8c063c"
 reader_model: claude-opus-5-5
 verified: yes
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
-topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 2, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
+topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 0, platforms: 1, coordination: 2, communication: 2, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
 ---
 
@@ -104,11 +104,11 @@ The authors argue that formal organization, understood as the official structure
 
 ## Topic flags
 - triads_third_parties: 0
-- intermediaries: 0
+- intermediaries: 1 — "a communication should pass through every stage of the line of authority" (p. 9, "Formality and Authority", quoting Barnard, 1968, pp. 177–178) (hand-check: raised from 0. The stages of the line are office-holders who stand between the issuer of an order and its recipient. Barnard keeps them in the path "because of the need of interpretation, and to maintain responsibility", and his relief-work anecdote shows what followed when he went past them to "the local man", p. 9. The authors treat this in about a page and use no word for intermediaries, so a term search does not find it.)
 - algorithms_ai: 0
 - platforms: 1 — "debates on 'the end of the corporation' or the 'uberization' of the economy (Davis, 2016; Davis & Sinha, 2021)" (p. 3, "Formality and Formal Organization")
 - coordination: 2 — "The actions of the persons occupying these 'official' roles and positions constitute a system because their efforts are formally co-ordinated toward the fulfilment of these activities." (p. 8, "Formality and Authority")
-- communication: 1 — "there must be a comprehensive and accurate system of official communication. That is what formal organization is all about" (p. 8, "Formality and Authority")
+- communication: 2 — "there must be a comprehensive and accurate system of official communication. That is what formal organization is all about" (p. 8, "Formality and Authority") (hand-check: raised from 1 on the reader's own quotation. The section on authority, pp. 8–10, makes claims about communication and does not only mention it: authority belongs to communications issued from an official position, the line must stay unbroken, and each order needs authentication. The concluding section adds Ball and colleagues on the loss of a common language, pp. 11–12.)
 - literacy_competence: 1 — "those charged with office be educated, equipped and trained to govern their conduct in accordance with what is fitting for the formal occupation of such offices" (p. 7, "State, Office and Formal Organization")
 - evaluation_accountability: 1 — "Freeman advocated formal organization, including explicit authority and accountability mechanisms, and clear delineation of roles and tasks." (p. 4, "Formality and Formal Organization")
 
@@ -118,7 +118,7 @@ The authors argue that formal organization, understood as the official structure
 - Notes on p. 15 are interleaved with the closing paragraph in the extraction (note numbers "2." "3." "4." appear between text lines); the closing quotation in OQ-07 was assembled across those inserted numbers. If the quote check reports a MISS for OQ-07, it is that extraction artifact.
 - "Competence" in this article means the jurisdiction of an office ("norms of competence", p. 6), not individual skill; the literacy_competence flag rests on the training passage at p. 7.
 - OQ-06 is not interrogative; it is recorded as an open (indirect) question because the authors state the matter is undecided.
-- Not counted: "Why might this be important?" (p. 11) — rhetorical, answered in the next sentence; the 'What is to be gained, the reader might ask' question (p. 11) — folded into OQ-03 as own research question; "It is less than clear exactly what the benefits of this latter preoccupation are" (p. 12) — critical remark on others' work, not a research call. The companion questions on p. 11 ("And how might this engagement with classical organization theory allow us to think differently" and axis "(b) Why might this be important for practical problems of political administration in our present") are likewise framing questions the authors answer, folded into OQ-03. (added by verifier)
+- Not counted: "Why might this be important?" (p. 11) — rhetorical, answered in the next sentence; the 'What is to be gained, the reader might ask' question (p. 11) — folded into OQ-03 as own research question; "It is less than clear exactly what the benefits of this latter preoccupation are" (p. 12) — critical remark on others' work, not a research call. The companion questions on p. 11 ("And how might this engagement with classical organization theory allow us to think differently" and axis "(b) Why might this be important for practical problems of political administration in our present") are likewise framing questions the authors answer, folded into OQ-03. (added by verifier) The p. 12 sentence that returns to the crucial question, whether a given formalization serves the purpose of the organization, restates OQ-02 and is not counted separately. (added at hand-check)
 
 ## Verification
 - Verifier: claude-opus-5-5, 2026-11-22
@@ -131,7 +131,14 @@ The authors argue that formal organization, understood as the official structure
 - Verdict: verified
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: two flags raised (below); one Not-counted item added (p. 12). The argument, the conversation (four OT citations), the five constructs, all seven OQ quotations, the three implicit openings and the other four flag quotations match the version of record at their locators. Notes 2 to 4 interleave with the closing paragraph on p. 15, as the Caution says.
+- OQs added / removed / reclassified: none. OQ-01 and OQ-03 stay `own_research_question`: the article answers the first for political administration (pp. 13–15) and the second in its two closing subsections (pp. 11–15). OQ-02 stays an explicit question; the authors say which formalization suits which purpose "remains" the question and leave it to design (pp. 10–11). OQ-06 stays, as an undecided matter the authors hand to time (p. 14).
+- Flags changed: intermediaries 0 → 1; communication 1 → 2. literacy_competence stays at 1; the capacities an office forms in its holder recur (pp. 5, 7; note 2, p. 15) and "competence" itself means jurisdiction, as the Caution says.
+- Fit adjudications: 0 lines; disagreements resolved: 0. Both scorers gave 0 to every open OQ, and I agree: OQ-02 asks which formalization a purpose requires, and the brief offers no account of formal design. The new intermediaries flag does not change this.
+- For synthesis (hand-checker's inference): read as a whole, the article gives the classical answer to a problem the brief also takes up. Freeman's passage has rules "known only to a few" leaving the rest in "confusion", and her remedy is to formalize them (p. 4). Barnard ties responsibility and accountability to a known line of authority (p. 8), and Larmore ties others' freedom to plan to the predictability of the state's decisions (p. 14). Accountability and predictability are two of the three conditions the brief says a person must restore when the rule-holder is opaque and changes its rule without notice; in this article formal organization supplies them. No OQ asks about that case, so no score follows.
+- Exchange set: `exchange_id: none` confirmed. The article cites no corpus article and `EDGES.tsv` lists none citing it. laine2023 belongs to the same conversation about the object of organization theory (it cites du Gay, 2020, and King et al., 2010, as this article does); neither article cites the other.
+- Verdict: indexed_with_corrections

@@ -14,7 +14,7 @@ read_depth: full_vor
 object_read: "laine2023.pdf sha256 195d054e43e3e6e068bf86a1683213bb9bdd603ef41e6038308fda71e4b3e5a1"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 0}
 run: ot-oq-2026-11
@@ -30,6 +30,7 @@ The authors argue that processual entrepreneurship studies, built on a strong pr
 - Named interlocutors: Harman; Morton; Hjorth (and Hjorth, Holt & Steyaert; Hjorth & Reay); Steyaert; Cloutier & Langley; du Gay; Frankel; Cooren; Latour; Gehman et al. (2022); Ramoglou & Tsang.
 - OT articles it cites: Chiles, Crawford & Elias (2021), "Mind, body, and soul"; Cloutier & Langley (2020), "What makes a process theoretical contribution?"; Cooren (2020), "Beyond entanglement"; Cornelissen & Höllerer (2019), "An open and inclusive space for theorizing"; Kornberger & Mantere (2020), "Thought experiments and philosophy in organizational research"; Mair & Seelos (2021), "Organizations, social problems, and system change".
 - Move: critique plus new concept (ontological proposal: OOOT; "the entrepreneurial" as a real quality), with an illustrative case.
+- Named within the corpus (added at hand-check): the article names no corpus article. Dion et al. cite it, with Schwengber (2024), for "the growing focus on the processual and relational constitution of organization" (`dion2025`, p. 1, "Introduction"). The article argues against that focus (pp. 2–3, 15), so the citation places it on the side it criticizes. Its allies on organizations as objects include du Gay (2020) and du Gay and Vikkelsø (2018) (pp. 2, 10); `dugay2024` continues that line and does not cite this article.
 
 ## Key constructs
 | Term | Definition (verbatim, with locator) | Coined or borrowed |
@@ -147,7 +148,13 @@ The authors argue that processual entrepreneurship studies, built on a strong pr
 - Verdict: verified_with_corrections (Caution "Not counted" extended only)
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: one line added to "The conversation it joins" (who cites the article within the corpus, and how). The argument, the six OT citations, the seven constructs, all nine OQ quotations, the three implicit openings and the communication flag match the version of record at their locators.
+- OQs added / removed / reclassified: none. OQ-01 and OQ-03 stay `own_research_question`. OQ-02 stays `explicit_question`: the two questions on p. 11 are rhetorical in form, and the authors give their own answer through OOOT (pp. 19–20), but they put the questions to CCO, after saying that "it remains unclear" how CCO avoids overmining, and they do not answer for CCO. The p. 7 questions stay uncounted because the authors answer them at once (pp. 7–8). OQ-04 and OQ-08 are thin invitations; each addresses later work, so each stays.
+- Flags changed: none. Latour's victim, shooter and gun (p. 13) are three components of an event, not a third party. The "medium" and "transmissive channels" of pp. 10–11 are the authors' gloss on CCO, not parties standing between parties.
+- Fit adjudications: 0 lines; disagreements resolved: 0. Both scorers gave 0 to every open OQ. The article's irreducibility runs against the brief's criterion: Laine and Kibler hold that an object is reducible neither to its parts nor to its relations (p. 15), and the brief compares capacities by the form of a relation.
+- Exchange set: `exchange_id: none` confirmed.
+- Verdict: indexed_with_corrections

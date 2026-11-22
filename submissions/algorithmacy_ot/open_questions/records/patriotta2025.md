@@ -14,7 +14,7 @@ read_depth: full_vor
 object_read: "patriotta2025.pdf sha256 3f1fa2fc8e30b798f0d26821da66a6ea9c6a15984573b04549eca3034731d1d2"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 1, platforms: 1, coordination: 1, communication: 2, literacy_competence: 2, evaluation_accountability: 2}
 run: ot-oq-2026-11
@@ -144,7 +144,7 @@ The authors reconceptualize organizational legitimacy as "justification work" ca
 - The "legitimacy trap" with multiple audiences invoking different OOWs (p. 15, "Legitimacy test settlement") is described but not resolved; how organizations sequence or segment justifications across audiences is left open. (reader's inference)
 
 ## Topic flags
-- triads_third_parties: 1 — "building coalitions with influential media, political parties or opinion leaders" (p. 8, "A Theory of Justification")
+- triads_third_parties: 1 — "building coalitions with influential media, political parties or opinion leaders" (p. 8, "A Theory of Justification") (hand-check: the authors also fault crisis-communication research for "focusing primarily on cognitive and dyadic relational processes" (p. 16, "Legitimacy tests as the mobilization of higher-order principles"). What they add to that dyad is a cultural grammar, the orders of worth, and no third party, so the score stays 1.)
 - intermediaries: 1 — "algorithmic systems and AI-driven platforms play a growing role in curating and disseminating information, indirectly influencing which justifications gain visibility." (p. 19, "Future research directions: Legitimacy in a changing world")
 - algorithms_ai: 1 — same passage as intermediaries (p. 19)
 - platforms: 1 — "The rise of stakeholder management (Freeman, 2010) and democratized platforms for public criticism" (p. 2, "Introduction")
@@ -171,7 +171,12 @@ The authors reconceptualize organizational legitimacy as "justification work" ca
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: one note added to the triads_third_parties line (the p. 16 passage on dyadic processes); no score changed. The argument, the six constructs, the three OT citations (Bromley & Meyer 2021; Pozner & Hannigan 2023; Roulet & Pichler 2020) and all 12 OQ quotations match the text at their locators.
+- OQs added / removed / reclassified: none. OQ-01 stays `own_research_question`. OQ-12 stays the one `boundary_condition`, as the lead ruled; the three other reasons for failed settlement (rigidity, perceived insincerity, the legitimacy trap, pp. 14–15) stay under Not counted. The legitimacy trap is the nearest parallel to OQ-12, since it too defeats complexifying whatever the organization's competence, and implicit opening 3 carries it.
+- Flags changed: none. platforms and algorithms_ai stay at 1: Uber (p. 14; Table 2, p. 10) and the Post Office's Horizon IT system (pp. 11–12) are cases of legitimacy tests, and the theory concerns justification, not platforms or automated systems.
+- Fit adjudications: 0 lines; disagreements resolved: 0. OQ-08 and OQ-10 stand at 1 from both scorers: the platforms in the call curate which justifications audiences see (p. 19), they bind no one, and the asker's level is the organization and its field.
+- Verdict: indexed_with_corrections

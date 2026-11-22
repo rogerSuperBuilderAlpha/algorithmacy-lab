@@ -10,11 +10,11 @@ article_type_printed: "Theory Article"
 article_type_norm: theory
 exchange_id: none
 license: CC BY-NC 4.0 (printed on article p. 1; crossref)
-read_depth: full_vor (publisher's PDF deposited in the University of Birmingham repository, with a one-page repository cover sheet prepended)
+read_depth: full_vor_cover (publisher's PDF deposited in the University of Birmingham repository, with a one-page repository cover sheet prepended; all 21 pdf pages read; printed page = pdf page minus 1)
 object_read: "giovannoni2025.pdf sha256 9ddb102aeaf710790a7621c19e63aae851b96d71a9d44217ac765f643bdf1bbf"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 1, communication: 2, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -44,7 +44,7 @@ The authors argue that theories of organizational tensions and paradoxes assume 
 ## Open questions
 ### OQ-giovannoni2025-01
 - Quote: "But what does it mean to develop a theory that places unknowability at the heart of theorizing, effectively moving away from an epistemological problem of knowledge towards a pragmatic concern with individual and collective action?" (p. 3, "Introduction")
-- Form: explicit_question
+- Form: own_research_question (hand-check: was explicit_question; the paper's framing question, answered from the next sentence on, "This is where the history of rhetoric can help", and by the three features of Figure 1, pp. 9–13)
 - Scope: theorizing individual and collective action
 - Addressee: organization theorists
 - Level of analysis: multi-level
@@ -52,7 +52,7 @@ The authors argue that theories of organizational tensions and paradoxes assume 
 
 ### OQ-giovannoni2025-02
 - Quote: "And what shape and practices would organization theory propose if one put the unknowability of ‘things’, be these values, ends, purpose and the like, as the cornerstone of this action?" (p. 3, "Introduction")
-- Form: explicit_question
+- Form: own_research_question (hand-check: was explicit_question; asked in the same breath as OQ-01 and answered by the same three features and the SDG illustration, pp. 9–13)
 - Scope: practices that organization theory would recommend under unknowability
 - Addressee: organization theorists
 - Level of analysis: multi-level
@@ -68,7 +68,7 @@ The authors argue that theories of organizational tensions and paradoxes assume 
 
 ### OQ-giovannoni2025-04
 - Quote: "But what if the ‘substances’ (Friedland, 2009) we wish to theorize, be these values, ends, purpose and the like, are inevitably unknowable, and cannot be captured through processes of reality construction ignited by words and discourses?" (p. 5, "Rhetoric in Management and Organization Studies")
-- Form: explicit_question
+- Form: own_research_question (hand-check: was explicit_question; a rhetorical "what if" that the next sentence answers, "Our point here is that", p. 5, and that the section on the history of rhetoric develops)
 - Scope: rhetorical and discursive theories of organization
 - Addressee: scholars of rhetoric, discourse and institutional theory
 - Level of analysis: field
@@ -157,7 +157,15 @@ The authors argue that theories of organizational tensions and paradoxes assume 
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- OQ-giovannoni2025-01: A=0 B=0 → final x. Reclassified `own_research_question` at hand-check; the article answers it, so it is not open.
+- OQ-giovannoni2025-02: A=0 B=0 → final x. Reclassified `own_research_question` at hand-check, with OQ-01.
+- OQ-giovannoni2025-04: A=0 B=0 → final x. Reclassified `own_research_question` at hand-check; the next sentence answers it.
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: (1) `read_depth` full_vor → full_vor_cover, per the lead's ruling on repository cover sheets (pdf p. 1 is the Birmingham cover sheet). (2) Three OQs reclassified (below). The argument, the six constructs, the three OT citations (Gümüsay & Reinecke 2024; Sandberg & Tsoukas 2020; Wright et al. 2023) and all ten OQ quotations match the text at their printed-page locators.
+- OQs added / removed / reclassified: reclassified OQ-01, OQ-02 and OQ-04 from explicit_question to own_research_question. OQ-03 stays an invitation: the authors address the call to practice and pragmatist approaches at large, and the article carries it out for rhetoric alone. OQ-07 stays `editor_call` (a call addressed to editors and reviewers, as in ernst2026-06). None added: the p. 15 sentence that the paper "opens a space for theorizing" restates OQ-09.
+- Flags changed: none. No three-party relation appears; "in mediating between them" (p. 14) describes how paradox scholars treat opposites.
+- Fit adjudications: 0 lines for scores of 2 or more (3 lines set the reclassified OQs to x); disagreements resolved: 0
+- Verdict: indexed_with_corrections

@@ -14,7 +14,7 @@ read_depth: full_vor
 object_read: "powell2023.pdf sha256 ecba4355c5c9ef1bd5aeebbb3638a54ee178f29ef806ded7eb6a6cbe9b1778d4"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 1, platforms: 1, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -188,7 +188,14 @@ Forty years after "The Iron Cage Revisited", the two authors recall the Yale set
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: none. The argument, the conversation (one OT citation: Zhao & Glynn, 2022), the six constructs, all 14 OQ quotations, the three implicit openings and the seven flag quotations match the version of record at their locators. `article_type_norm: essay` holds: the authors call the piece an essay in the abstract (p. 1), under the printed label "Theory Article".
+- OQs added / removed / reclassified: none. No OQ is an `own_research_question`: the essay puts its questions (OQ-01, -02, -05, -07, -09, -13) to the field and settles none of them. It says the 1983 paper "evaded" the questions in OQ-02 (p. 13) and calls the existing answers to OQ-09 "partial" (p. 15). OQ-14 is advice to scholars about their communities; it stays an invitation.
+- Flags changed: none. algorithms_ai stays at 1 with the reader's caveat: computational text analysis enters as a research tool (p. 17), and the authors say nothing about algorithms in organizing. platforms stays at 1 on one word, "uberization" (p. 19), on the precedent of schoeneborn2026 at H3.
+- Fit adjudications: 0 lines; disagreements resolved: 0. Both scorers gave 0 to all 14 OQs, and I agree: the questions concern isomorphism, diffusion and institutional change among organizations in fields.
+- Exchange set: `exchange_id: none` confirmed. `EDGES.tsv` lists cornelissen2024 and godart2024 citing this essay; the essay cites no corpus article.
+- For the lead: the `apa` line omits the article number that Crossref records (26317877231221550) and that most records carry. I left it, because the records use three styles for this field and the fix belongs to S8.
+- Verdict: indexed

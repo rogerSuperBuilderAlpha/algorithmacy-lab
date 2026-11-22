@@ -14,9 +14,9 @@ read_depth: full_vor
 object_read: "pozner2023.pdf sha256 1b31d0363e1a4dcba58305575fb6bdf9236f7d9cd82a451ccd3473aea5fb1506"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
-topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 0, platforms: 1, coordination: 0, communication: 2, literacy_competence: 0, evaluation_accountability: 2}
+topic_flags: {triads_third_parties: 1, intermediaries: 2, algorithms_ai: 0, platforms: 1, coordination: 0, communication: 2, literacy_competence: 0, evaluation_accountability: 2}
 run: ot-oq-2026-11
 ---
 
@@ -176,8 +176,8 @@ Organizational scandal research, the authors argue, studies scandal's consequenc
 - "Organizations interested in avoiding scandal might find inspiration for impression management directed at activating certain values—and diminishing others" (p. 15, "Future directions"); the transgressing organization's own role in shaping audience formation is not modeled. (reader's inference)
 
 ## Topic flags
-- triads_third_parties: 1 — "The recursive dialogue between relational publics, scandal entrepreneurs, and the media can be quick or can span decades" (p. 10, "The adjudication of deplorability")
-- intermediaries: 1 — "The media do not necessarily create facts, but rather assemble and promote private information strategically" (p. 8, "Media framing of transgressions")
+- triads_third_parties: 1 — "The recursive dialogue between relational publics, scandal entrepreneurs, and the media can be quick or can span decades" (p. 10, "The adjudication of deplorability") (hand-check: the score stays at 1. Social control agents, the third-party sanctioners of the wrongdoing literature, get a section of their own on p. 12, where the authors argue that scandal can form without them. The verdict in this model belongs to the audience, which adjudicates deplorability, pp. 10, 13.)
+- intermediaries: 2 — "By setting the terms of discourse, the media either promote or snuff out a scandal; that which is not reported cannot become a scandal." (p. 8, "Media framing of transgressions") (hand-check: raised from 1, and the quotation replaced; the reader's quotation was the p. 8 sentence on the media assembling private information. Media outlets are parties that stand between scandal entrepreneurs and relational publics at every stage of the model: entrepreneurs alert them (p. 6), they frame the act for their consumers (p. 8), and publics answer back through them (pp. 10–11). The authors move the audience to the centre and keep the media as the necessary go-between.)
 - algorithms_ai: 0
 - platforms: 1 — "Momentum can come from social media, though recent work suggests that social media generates spikes of attention that attenuate more steeply than traditional media coverage" (p. 11, "Scandal activation")
 - coordination: 0
@@ -189,7 +189,7 @@ Organizational scandal research, the authors argue, studies scandal's consequenc
 - Version: publisher's version of record (SAGE "Theory Article", CC BY-NC notice on p. 1). Printed page numbers match PDF pages (1–21). The introduction carries no heading.
 - Extraction: p. 13 prints "Conse-quently" with a soft hyphen at a line end, so OQ-06 starts after that word. OQ-03 crosses the p. 3/p. 4 page break; the quote self-check reports it ends-only because the printed page number "4" sits mid-sentence in the extraction. The quote is verbatim.
 - Citation details as printed: p. 5 cites "Jacobs, 2017, p. 377" while the reference list has Jacobs (2007); p. 9 cites "Star, 2021" for Starr (2021). Pozner is a co-author of Greve et al. (2010), an interlocutor.
-- Not counted: p. 4 "Who are the actors pushing the media to publicize transgressions?" (answered from the literature in the same paragraph); p. 5 "Who consumes the media?" (section heading, answered with relational publics); p. 12 "Missing from our account so far is an examination of the role of social control agents" (answered in the same section); p. 9 the quoted Weick question on knowing what we think (quoted illustration, not a research question); p. 16 "Yet organizational scholarship lags the work of sociologists" (gap statement folded into OQ-16); p. 15, the "research agenda" sentence opening "Future directions" (lead-in to OQ-07 to OQ-11); p. 15, scandal entrepreneurs not yet examined systematically in social evaluation (gap that OQ-10 and OQ-11 take up); p. 15, presidential scandals' networked-media affordances "that we do not sufficiently cover here" (part of the boundary in OQ-13); p. 16, social media not treated "discretely" (limitation that OQ-15 answers); p. 16, the "black box of audiences" that little work has addressed (gap the paper claims to address; its extension is OQ-16) (added by verifier).
+- Not counted: p. 4 "Who are the actors pushing the media to publicize transgressions?" (answered from the literature in the same paragraph); p. 5 "Who consumes the media?" (section heading, answered with relational publics); p. 12 "Missing from our account so far is an examination of the role of social control agents" (answered in the same section); p. 9 the quoted Weick question on knowing what we think (quoted illustration, not a research question); p. 16 "Yet organizational scholarship lags the work of sociologists" (gap statement folded into OQ-16); p. 15, the "research agenda" sentence opening "Future directions" (lead-in to OQ-07 to OQ-11); p. 15, scandal entrepreneurs not yet examined systematically in social evaluation (gap that OQ-10 and OQ-11 take up); p. 15, presidential scandals' networked-media affordances "that we do not sufficiently cover here" (part of the boundary in OQ-13); p. 16, social media not treated "discretely" (limitation that OQ-15 answers); p. 16, the "black box of audiences" that little work has addressed (gap the paper claims to address; its extension is OQ-16) (added by verifier); p. 13, the sentence saying that scholars must study those who make the evaluations (the paper's own programme, folded into OQ-04) (added at hand-check).
 
 ## Verification
 - Verifier: claude-opus-5-5, 2026-11-22
@@ -202,7 +202,13 @@ Organizational scandal research, the authors argue, studies scandal's consequenc
 - Verdict: verified_with_corrections (Caution "Not counted" extended only)
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: intermediaries flag raised and its quotation replaced; a note added to the triads flag; one Not-counted item added (p. 13). The argument, the conversation (no OT article in the reference list), the six constructs, all 16 OQ quotations, the three implicit openings and the other four flag quotations match the version of record at their locators. The two citation slips in the Caution ("Jacobs, 2017", p. 5; "Star, 2021", p. 9) are as printed.
+- OQs added / removed / reclassified: none. OQ-01, OQ-02 and OQ-05 stay `own_research_question`. OQ-03 also stays: the authors name convergence under biased framing as a puzzle and answer it for scandal with the recursive loop between media and publics (pp. 9–10, 13). OQ-04 stays an invitation, because the call for audience-centred study reaches past this paper (the authors call their focus on the audience testable, p. 15). OQ-12 is a practical implication worded as a pointer to what an understanding of frames could offer; it stays an invitation, as the practical recommendations in scherer2023 did at H2.
+- Flags changed: intermediaries 1 → 2 (the media stand between scandal entrepreneurs and publics in all three stages). literacy_competence stays at 0: the two skill phrases (p. 13; p. 15, borrowed from Lounsbury and Glynn) are epithets for the actors and open no account of skill.
+- Fit adjudications: 0 lines; disagreements resolved: 0. Both scorers gave 0 to every open OQ, and I agree. The authors ask how audiences come to hold an evaluation in common; the brief concerns a person who is evaluated. The evaluator here is a public, and the party in the middle frames and does not rate.
+- Exchange set: `exchange_id: none` confirmed. `EDGES.tsv` lists patriotta2025 citing this article; the article names no corpus article.
+- Verdict: indexed_with_corrections

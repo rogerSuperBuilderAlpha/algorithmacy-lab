@@ -14,7 +14,7 @@ read_depth: full_vor
 object_read: "gumusay2024.pdf sha256 7e499a75836e1f5356603968f8a1e161c8dac9ee9b25c0717d737928bcf3703c"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 1, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -94,9 +94,9 @@ The authors argue that organization theory is bound to the empirical past, which
 
 ### OQ-gumusay2024-07
 - Quote: "How can we achieve speculative rigour in prospective theorizing?" (p. 15, "Speculative Rigour of Prospective Theorizing")
-- Form: explicit_question
+- Form: own_research_question (reclassified at hand-check from explicit_question, under the DECISIONS ruling on a paper's own research question: the section that asks the question answers it with the four criteria of Table 2, pp. 15–18. The residue the authors leave open sits in OQ-11 and OQ-12.)
 - Scope: epistemic criteria for future-oriented theory
-- Addressee: organization theorists and reviewers
+- Addressee: the authors (answered with the four criteria); organization theorists and reviewers as users of the criteria
 - Level of analysis: field
 - Paraphrase: The authors pose the question of how speculative theory can be rigorous; the article answers it in part with four criteria, which it says need not all be met by any one contribution. (reader's paraphrase)
 
@@ -168,7 +168,7 @@ The authors argue that organization theory is bound to the empirical past, which
 - The introduction has no printed heading; locators say "introduction" for pp. 2–3.
 - The abstract's definition of prospective theorizing is split across a line in the extraction ("futureoriented"); the quote restores the printed hyphen, so the quote check may report a line-end-hyphen MISS there.
 - In OQ-04 the extraction scatters "valuation / methods, / convening" over separate lines (justified-text artefact); words are unchanged.
-- evaluation_accountability scored 1: the paper's evaluative criteria (speculative rigour) concern the evaluation of scholarly theory, which is central to the paper but is not organizational evaluation or metrics; organizational valuation metrics appear only in passing (p. 13). The lead may wish to re-score.
+- evaluation_accountability scored 1: the paper's evaluative criteria (speculative rigour) concern the evaluation of scholarly theory, which is central to the paper but is not organizational evaluation or metrics; organizational valuation metrics appear only in passing (p. 13). The lead may wish to re-score. (Hand-check: closed at 1. DECISIONS, on the V06 queries, reads this flag as the evaluation of people or organizations in practice and excludes criteria for judging scholarly theory.)
 - Tables 1 and 2 are flattened in the extraction; the cell order was read from context.
 - Not counted (verifier's recall sweep): p. 1 "we call for prospective theorizing" and p. 8 "invites prospective theorizing about alternative modes of organizing our futures" (the paper's own programme, which it develops; its open remainder is OQ-01); p. 10 "For instance, if only we existed in a large-scale ecotopia?" (illustration of Mode 4); pp. 12–13 "What if we valued a living tree (as natural capital) more than a dead tree (as wood)?" and the question on valuing firms by net positive contribution "instead of profits?" (examples folded into OQ-04); p. 17 "Does it make logical sense and align with existing scientific knowledge and empirical evidence, for instance, from climate science?" (a test question within the plausibility criterion, which the paper sets out); p. 14 "invite imaginative participation from audiences" (describes outputs, not a call).
 
@@ -183,7 +183,14 @@ The authors argue that organization theory is bound to the empirical past, which
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- OQ-gumusay2024-07 is now an `own_research_question`, so its score becomes x (A=0, B=0 before the change).
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: OQ-07 reclassified (below); the Caution's open query on the evaluation flag closed. The argument, the conversation (eight OT citations, each found in the reference list), the eight constructs, all 13 OQ quotations, the three implicit openings and the four flag quotations match the version of record at their locators.
+- OQs added / removed / reclassified: reclassified OQ-gumusay2024-07 from explicit_question to own_research_question, the case DECISIONS lists for uniform treatment (V02's query). OQ-02 stays an explicit question: the authors give it as a sample question for Mode 1 theorizing and do not answer it (p. 9). OQ-11 stays an explicit question, since the authors place it among "the many questions that are still unanswered" (p. 19). The paper's own call for prospective theorizing stays under Not counted, as a call the paper fulfils itself (DECISIONS, V10 queries).
+- Flags changed: none. evaluation_accountability stays at 1 (see the Caution). algorithms_ai stays at 1: language models appear in one passage of the introduction (p. 2) and algorithms for autonomous driving in one example (p. 12).
+- Fit adjudications: 0 lines; disagreements resolved: 0. Both scorers gave 0 to all 13 OQs, and I agree: every question concerns how scholars theorize futures, and the brief is a theory of a person's capacity at work.
+- Exchange set: `exchange_id: none` confirmed. `EDGES.tsv` lists six corpus articles citing this one (corver2026, friedrich2026, giovannoni2025, hinds2024, langenmayr2024, porsfelt2026), the most for any article in the corpus; the article cites no corpus article.
+- Verdict: indexed_with_corrections

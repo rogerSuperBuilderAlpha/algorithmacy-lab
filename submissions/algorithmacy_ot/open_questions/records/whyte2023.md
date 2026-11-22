@@ -14,9 +14,9 @@ read_depth: full_vor
 object_read: "whyte2023.pdf sha256 f06f4e7ab84f0952d6baa175aa29813399902b691962b419b14ac25b22246fb9"
 reader_model: claude-opus-5-5
 verified: with_corrections
-hand_check: pending
+hand_check: indexed_with_corrections
 closing_form: dedicated_section
-topic_flags: {triads_third_parties: 1, intermediaries: 2, algorithms_ai: 0, platforms: 1, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
+topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 0, platforms: 1, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
 ---
 
@@ -161,7 +161,7 @@ Research on online and offline practices has asked how they co-evolve over time;
 
 ## Topic flags
 - triads_third_parties: 1 — "as images, audio and other data become accessible to large software providers" (p. 14, "Concluding Remarks")
-- intermediaries: 2 — "the online experience is symbolically mediated through representations (Dourish & Mazmanian, 2013)" (p. 6, "Presence")
+- intermediaries: 1 — "large software providers, who own the software that become the means of communication used" (p. 14, "Concluding Remarks") (hand-check: lowered from 2 under DECISIONS, V12 queries, and the quotation replaced. The reader's quotation, from p. 6, said that representations mediate the online experience; the ruling excludes technology that mediates experience. I read the whole text for a party standing between parties and found two, both in passing. The software providers quoted here own the channel and gain access to what passes through it; the authors give them this one sentence, which also carries the triads flag above. A participant in the room relayed for the online attendees at the authors' workshop (pp. 5, 9, 11). The authors theorize neither as a go-between.)
 - algorithms_ai: 0
 - platforms: 1 — "online organizing (e.g. via online platforms such as Twitter and TripAdvisor) has offline consequences" (p. 4, "Connections between practices")
 - coordination: 1 — "This scenario may cause other participants in an online video-conference meeting to discuss and make decisions about how or whether to reschedule or proceed with the conversation without those that have not appeared." (p. 12, "Glitches and breakdowns")
@@ -187,7 +187,13 @@ Research on online and offline practices has asked how they co-evolve over time;
 - Verdict: verified_with_corrections
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: full
+- Corrections: intermediaries flag lowered and its quotation replaced (see the flag). The argument, the conversation (one OT citation: Whyte, Comi & Mosca, 2022), the six constructs, all 14 OQ quotations, the three implicit openings and the other six flag quotations match the version of record at their locators. Figure 1 (p. 13) is an image, as the Caution says; the Concluding Remarks restate it.
+- OQs added / removed / reclassified: none. OQ-01 stays `own_research_question`. OQ-02 is advice to meeting participants, followed by the authors' own two examples (p. 7); it stays an invitation on the H2 precedent for practical recommendations worded as calls (scherer2023), and the p. 8 sentence on inclusive practices stays uncounted because it only introduces examples. OQ-08 stays `boundary_condition`: the authors theorize the work meeting and expect, without showing, that the account carries to other settings with a video-conference component (p. 14).
+- Flags changed: intermediaries 2 → 1 (DECISIONS, V12 queries). For the lead: the ruling's condition is met only in passing. The text holds two intermediary actors, the software providers of p. 14 and the relaying participant of pp. 5, 9 and 11; the central mediation is by devices and representations (pp. 4, 6–7), which the ruling sets aside. literacy_competence stays at 1: the authors mention competence in mediated settings several times (pp. 3, 6, 7, 10) and build nothing on it.
+- Fit adjudications: 0 lines; disagreements resolved: 0. Scorer A's four 1s (OQ-02, -04, -07, -09) and scorer B's two (OQ-02, -09) are vocabulary matches, and I agree with a ceiling of 1. In the brief's terms the video conference is a channel between people, the "moderated dyad" that the brief sets apart from the triad: it carries the meeting and judges no one. The nearest passage is the p. 14 sentence on software providers, a hidden third party that owns the channel; the authors do not say that it evaluates or binds the participants.
+- Exchange set: `exchange_id: none` confirmed. The article cites Gümüsay & Reinecke (2022, *Journal of Management Studies*), not `gumusay2024`, so `EDGES.tsv` rightly holds no edge.
+- Verdict: indexed_with_corrections

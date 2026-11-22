@@ -151,3 +151,21 @@ agreement measures the brief's reliability, not its validity. The S11 critics te
   `boundary_condition`. Quotations in Fit and Hand-check sections fall outside the 800-word cap, the same
   as Verification. OQ-hinds2024-25 was added at hand-check, so it has no S6 scores; Fable's 2 stands, and
   the S11 critics will test it with the rest.
+- **H4/H5.** Neither batch has a final fit above 1. Accepted: whyte2023 `intermediaries: 1`, because the
+  intermediary actors appear only in passing; pozner2023 `intermediaries: 2`, because the media stand
+  between scandal entrepreneurs and publics in every stage; dugay2024 `communication: 2` and
+  `intermediaries: 1`; derekrobinson2025 `triads_third_parties: 0`. winkler2025-07 stays an
+  `own_research_question` on the hsu-07 precedent. werner2026 `intermediaries: 1` stands.
+- **Pointers for synthesis.** patriotta2025 (p. 16) faults "dyadic relational processes", and dion2025
+  argues for Thirdness. These are the corpus's two anti-dyadic moves, and neither involves a social third
+  party. dugay2024 is a contrast case: formalization as the classical answer to opaque rules.
+
+## 22 Nov 2026: S9a (clustering)
+
+- O (Opus) found 48 recurring conversations and 19 singletons. F (Fable) found 30 conversations, 11
+  cross-cutting questions and 50 singletons. Both worked from the QUESTIONS table while the hand-check was
+  still editing records, so both member lists get one more pass at reconciliation, after S7 ends.
+- **Blindness.** O saw no fit data. After its clustering was complete, F read the first 12 lines of
+  `hand_check/HC_H1.md`, which hold fit notes on four articles, plus the hand-check lines inside records.
+  F's conversations were already fixed by then, so the lead judges the clustering unaffected. The
+  disclosure is kept here.

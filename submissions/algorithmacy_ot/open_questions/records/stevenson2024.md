@@ -14,7 +14,7 @@ read_depth: full_vor (publisher's version, pp. 1-15, journal header and "Volume 
 object_read: "stevenson2024.pdf sha256 50218bf5992f2a941d122a1f7f34218491965a559d189e99f98b512dedd2af95"
 reader_model: claude-sonnet-5-5
 verified: yes
-hand_check: pending
+hand_check: indexed
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 1, communication: 0, literacy_competence: 0, evaluation_accountability: 1}
 run: ot-oq-2026-11
@@ -113,7 +113,12 @@ The authors argue that research on institutional complexity has focused on the c
 - Verdict: verified
 
 ## Fit
-pending
+- All other OQs: final = max(A,B) ≤ 1 (both scorers gave all five OQs 0)
 
 ## Hand-check
-pending
+- Hand-checker: Fable (claude-fable-5-2), 2026-11-22; depth: closings+quotes (Tier B; no scorer rated an OQ above 0. Read: pp. 1–5, pp. 10–13 with note 1, and every quotation at its locator)
+- Corrections: none. The argument, the six construct definitions, the three OT citations (Lounsbury & Wang 2020; Perkmann et al. 2022; Zilber 2020, reference list pp. 14–15) and all five OQ quotations match the text at their locators.
+- OQs added / removed / reclassified: none. OQ-01 to OQ-03 are the three "scholars could" sentences of p. 12, OQ-04 the limit the authors set on their treatment of IL, OQ-05 the note on value pluralism. The introduction states the paper's purpose (p. 2) and asks no question.
+- Flags changed: none. The V06 query on `evaluation_accountability` closes at 1. The flag is rightly above 0 under the lead's ruling, because the "logic of accountability" in Hallett's school case is accountability practised on people: a principal enforces it on teachers (p. 4). It stays below 2 because the case is the article's one illustration of centrality (pp. 4–5, twelve mentions, none after p. 5), and the argument would hold with any other logic in its place. `coordination: 1` rests on one clause (p. 7). No third party, intermediary, algorithm or platform appears.
+- Fit adjudications: 0 lines; disagreements resolved: 0
+- Verdict: indexed
