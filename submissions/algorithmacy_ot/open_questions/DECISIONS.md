@@ -120,3 +120,10 @@ here; the run continues to `REPORT.md` without stopping at gates other than Gate
 
 All 66 records are verified across V01–V12, plus V05 (re-anchoring to the versions of record). No record
 holds a quotation that is absent from its source.
+
+## 22 Nov 2026: S8 (partial)
+
+- `EDGES.tsv`: 52 citation edges among corpus articles; most cited within the corpus are gumusay2024 (6),
+  orlikowski2023 (5) and cornelissen2024 (4). The prasad2024 → abend2024 edge stays. Prasad cites Abend's
+  essay under a pre-publication title (noted by reader A4), so the target is the same article.
+- `DOI_CHECK.md`: 0 mismatches across 66 records.
