@@ -127,3 +127,12 @@ holds a quotation that is absent from its source.
   orlikowski2023 (5) and cornelissen2024 (4). The prasad2024 → abend2024 edge stays. Prasad cites Abend's
   essay under a pre-publication title (noted by reader A4), so the target is the same article.
 - `DOI_CHECK.md`: 0 mismatches across 66 records.
+
+## 22 Nov 2026: S6 (fit)
+
+The two Opus scorers worked blind to each other, A in corpus order and B in reverse. Over 619 open
+questions they agree exactly on 92.9%, within one point on 99.8%, with quadratic-weighted kappa 0.878. Only
+one OQ differs by 2 or more (jaser2024-11: A=2, B=0). Neither scorer gave a 4. A gave seven 3s and B four;
+both gave 3 to stark2024-01, stark2024-06, hinds2024-04 and hinds2024-17. 38 OQs scored 2 or more from at
+least one scorer, and Fable adjudicates them at S7. Caveat: both scorers used the same brief, so their
+agreement measures the brief's reliability, not its validity. The S11 critics test validity.
