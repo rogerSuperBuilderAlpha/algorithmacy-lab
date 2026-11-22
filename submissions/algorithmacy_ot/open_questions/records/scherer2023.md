@@ -13,10 +13,10 @@ license: CC BY-NC 4.0
 read_depth: full_vor
 object_read: "scherer2023.pdf sha256 d976d10c33a1e93b67dc6d812eee61ea5c789ea0d69da5c5c6a8ec0d7227f90d"
 reader_model: claude-opus-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: distributed
-topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 2, platforms: 1, coordination: 0, communication: 2, literacy_competence: 2, evaluation_accountability: 1}
+topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 2, platforms: 1, coordination: 0, communication: 2, literacy_competence: 2, evaluation_accountability: 2}
 run: ot-oq-2026-11
 ---
 
@@ -161,18 +161,25 @@ The authors argue that the loss of autonomy documented in critiques of surveilla
 - coordination: 0
 - communication: 2 — "These two principles are the main pillars of Habermas's theory of communicative action" (p. 12, "Habermas's communicative conditions...")
 - literacy_competence: 2 — "the moral and communicative competences needed to become mature members of the communicative community" (p. 14, "Habermas's communicative conditions...")
-- evaluation_accountability: 1 — "This would ensure explicit accountability of all responsible factors" (p. 19, "Counteracting totalization")
+- evaluation_accountability: 2 — "This would ensure explicit accountability of all responsible factors" (p. 19, "Counteracting totalization"). Raised from 1 by verifier: accountability recurs as the paper's diagnosis and remedy (pp. 9, 16, 19, 21), e.g. the "deeper concern" that eroded public reason "has generalized the success of impersonal systems in escaping social control and public accountability" (p. 9, "Totalization").
 
 ## Caution
 - Version: publisher's version of record (SAGE "Theory Article", CC BY-NC notice on p. 1). Printed page numbers match PDF pages (1–25). The introduction carries no heading; locators say "introduction, unheaded".
-- Extraction: on p. 21 the columns are out of order; the paragraph "Using Habermasian principles... Organization theory and business ethics have a crucial role..." appears before the "Conclusion" heading in the text file. From layout it is the second paragraph of the Conclusion, and is located as such. OQ-12 uses "..." to skip a line-end word ("wellprepared" in the extraction).
+- Extraction: on p. 21 the columns are out of order; the paragraph "Using Habermasian principles... Organization theory and business ethics have a crucial role..." appears before the "Conclusion" heading in the text file. From layout it is the second paragraph of the Conclusion, and is located as such. OQ-12 uses "..." to omit a 13-word clause about producing citizens prepared to uphold democratic values (the extraction joins "wellprepared" at a line end). (Description corrected by verifier: the ellipsis omits a clause, not a single word.)
 - Exchange: the article responds directly to Zuboff (2022), an *Organization Theory* article, and draws on Power (2022), also OT. No reply-set label is printed, so `exchange_id` is none; the lead may wish to link it to a Zuboff 2022 record.
 - Quote self-check: OQ-04 reports ends-only; the only break is the printed page number "7" that the extraction inserts mid-sentence. The quote is verbatim.
 - Note 1 says Kant (1784) quotations are the authors' own translations.
 - Not counted: p. 3, the stated need to "further theorize and apply countermeasures" (taken up in this paper's own text); p. 6, the call to "take a closer look" at immaturity-inducing patterns (answered in the next section); p. 13, the need "to explore the essential communicative conditions" (answered via Habermas's reconstruction of Kohlberg); p. 2, Zuboff's "who decides who decides" questions, quoted as description, not posed as research questions); p. 20 recommendations on journalism codes, alternative platforms, stakeholder dialogues and NGO-led movements (practical recommendations listed within the countermeasure programme; OQ-11 and OQ-13 stand for them).
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok (apa, doi, volume 4, issue 3, published_online 2023-10-18 match crossref.json; object_read matches sha256.txt; p. 1 is the version of record, no cover sheet)
+- Quotations checked: 37; corrected: 0; acceptable extraction mismatches: 7 (curly vs straight apostrophe in "individual's", "Zuboff's", "Habermas's"; OQ-04 split by the printed page number "7"; OQ-12 and OQ-13 fall in the p. 21 column reordering, located correctly). Caution's description of the OQ-12 ellipsis corrected (it omits a clause, not a line-end word).
+- Recall sweep: hits reviewed 5 (excluding reference-list titles); OQs added: 0; not-counted hits listed: 0 added (p. 10 and p. 15 "limitation" describe Kant's and Hegel's positions; p. 10 "Was ist Aufklärung?" is a title)
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: evaluation_accountability 1 -> 2 (accountability recurs as diagnosis and remedy, pp. 9, 16, 19, 21)
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

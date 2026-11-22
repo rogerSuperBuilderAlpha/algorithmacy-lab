@@ -13,10 +13,10 @@ license: CC BY-NC 4.0
 read_depth: full_vor (publisher's version, 20 pages; printed pages 1-20 coincide with pdf pages; no cover sheet)
 object_read: "jackwerthrice2023.pdf sha256 9568c248a84abebc0e7cb7f8319dd030631861b62761615ee9f3534bcd253601"
 reader_model: claude-sonnet-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: distributed
-topic_flags: {triads_third_parties: 1, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 0, communication: 1, literacy_competence: 2, evaluation_accountability: 1}
+topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 0, platforms: 1, coordination: 0, communication: 1, literacy_competence: 2, evaluation_accountability: 1}
 run: ot-oq-2026-11
 ---
 
@@ -131,11 +131,11 @@ The article asks which resources institutional entrepreneurs (IEs) use, and show
 
 ## Implicit openings
 - Fligstein's claim that social skill matters in emerging fields is contradicted by the review's finding that skills depend on peripheral position; the review does not test which account holds beyond the 40 cases. (reader's inference; p. 15, "Discussion and Conclusion")
-- Peripheral pioneers are "superseded" by central organizations in emerging fields; what happens to the original institutional blueprint when that happens is not examined. (reader's inference; p. 13, "The resources of peripheral IEs in emerging fields")
+- Peripheral pioneers are "superseded" by central organizations in emerging fields; what happens to the original institutional blueprint when that happens is not examined. (reader's inference; p. 15, "Discussion and Conclusion"; the word "superseded" does not occur on p. 13)
 
 ## Topic flags
 - triads_third_parties: 1. "being perceived as a neutral broker" (p. 10, "The resources of central IEs in mature fields")
-- intermediaries: 0.
+- intermediaries: 1. "especially discursive, framing and brokering skills" (p. 13, "The resources of peripheral IEs in emerging fields"); see also the "neutral broker" quotation under triads_third_parties (p. 10). (raised by verifier)
 - algorithms_ai: 0. (Note 6 mentions the Web of Science keywords-plus "algorithm" as a search detail only.)
 - platforms: 1. "the world’s first Androidbased platform, an open car communications platform" (p. 12, "The resources of peripheral IEs in mature fields")
 - coordination: 0.
@@ -146,11 +146,18 @@ The article asks which resources institutional entrepreneurs (IEs) use, and show
 ## Caution
 - Version of record, pagination 1-20 matches pdf pages. Tables 1-3 extract as fragmented cells; table content was not quoted.
 - Several source words are joined or hyphen-split by the extraction ("fieldlevel", "Androidbased"); the checker ignores punctuation but not joined words, so those quotes were chosen to include the joined form as it appears in the text.
-- Quote self-check: three non-OQ/Not-counted quotes read MISS only because a printed page number or running header falls inside them (p. 12-13 Fligstein quote; pp. 7-8 and p. 9 quotes in the next line).
-- Not counted: "In our literature review below, we shall return to the open question of whether actors’ relative field position influences their likelihood to become IEs" (pp. 7-8), answered in text at p. 15 ("makes no real difference"); the quotation of Maguire et al. that "the development of a comprehensive theory of institutional entrepreneurship requires more attention to differences between organizational and individual actors" (p. 14), a call borrowed from others and not extended by the authors; "our sample of case studies is not representative of institutional entrepreneurship ‘out there’" (p. 9), a limit on the authors' own method that names no further work.
+- Quote self-check: three non-OQ/Not-counted quotes read MISS only because a printed page number or running header falls inside them (p. 12 Fligstein quote, which is wholly on p. 12 with the running header inside it; p. 7 and p. 9 quotes in the next line, each split by its printed page number).
+- Not counted: "In our literature review below, we shall return to the open question of whether actors’ relative field position influences their likelihood to become IEs" (p. 7), answered in text at p. 15 ("makes no real difference"); the quotation of Maguire et al. that "the development of a comprehensive theory of institutional entrepreneurship requires more attention to differences between organizational and individual actors" (p. 14), a call borrowed from others and not extended by the authors; "our sample of case studies is not representative of institutional entrepreneurship ‘out there’" (p. 9), a limit on the authors' own method that names no further work. (added by verifier) The p. 2 statement that the interrelation between structural context and IEs' ability "remains under-theorized" motivates the paper's own study; the p. 3 question on what structure is and what embeddedness means is a framing question the theory section answers; the p. 15 sentence that the article "raises some questions for further theory-building and research" is the lead-in to OQ-04 to OQ-09.
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok (apa, doi, volume 4, issue 2, published_online 2023-06-22 match crossref.json; sha256 matches; first page is the version of record, so full_vor holds)
+- Quotations checked: 30; corrected: 0; locators corrected: 2 (Implicit openings, "superseded" moved from p. 13 to p. 15; Not-counted "we shall return to the open question" is wholly on p. 7, not pp. 7-8); acceptable extraction mismatches: 3 (Fligstein quote p. 12, running header; p. 7 and p. 9 Not-counted quotes, page numbers)
+- Recall sweep: hits reviewed 11 in pp. 1-17; OQs added: 0; not-counted hits listed: 3 (p. 2 "remains under-theorized"; p. 3 framing question; p. 15 lead-in)
+- OQs removed: 0
+- Classification changes: none (OQ-01 own_research_question kept per the lead's ruling)
+- Topic flags changed: intermediaries 0 to 1 (brokering skills, p. 13; neutral broker, p. 10; brokerage, p. 10)
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

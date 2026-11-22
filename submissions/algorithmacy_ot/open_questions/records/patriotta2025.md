@@ -13,7 +13,7 @@ license: CC BY 4.0
 read_depth: full_vor
 object_read: "patriotta2025.pdf sha256 3f1fa2fc8e30b798f0d26821da66a6ea9c6a15984573b04549eca3034731d1d2"
 reader_model: claude-opus-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 1, platforms: 1, coordination: 1, communication: 2, literacy_competence: 2, evaluation_accountability: 2}
@@ -26,7 +26,7 @@ run: ot-oq-2026-11
 The authors reconceptualize organizational legitimacy as "justification work" carried out in discrete legitimacy tests, moments when an event (accident, scandal, harmful product) calls an organization's modus operandi into question before evaluating audiences. Drawing on Boltanski and Thévenot's orders of worth, they argue that crisis-communication research has catalogued response types without theorizing the societal value systems that make justifications persuasive. Their process model has three steps: initial positions polarize around each party's "home domain" order of worth; the controversy then "complexifies" as new actors join and the focal organization combines discursive and material moves across several orders of worth, within a limited "legitimacy bandwidth"; and settlement depends on power, resonance with societal values and actors' competence. Settlement can fail through rigidity, perceived insincerity, incommensurable values or conflicting audiences. Cases include Vattenfall, Volkswagen, McDonald's, the UK Post Office Horizon scandal and Uber. (reader's paraphrase)
 
 ## The conversation it joins
-- Positions against / extends: "researchers should move beyond categorizing response types to examine how organizations construct justifications that both repair breaches and re-affirm their stated commitments." (pp. 2–3, "Introduction"); "we argue that they are insufficient because they do not bring broader society and shared cultural norms, values and expectations into the core of theoretical explanations." (p. 16, "Legitimacy tests as the mobilization of higher-order principles")
+- Positions against / extends: "researchers should move beyond categorizing response types to examine how organizations construct justifications that both repair breaches and re-affirm their stated commitments." (p. 3, "Introduction"); "we argue that they are insufficient because they do not bring broader society and shared cultural norms, values and expectations into the core of theoretical explanations." (p. 16, "Legitimacy tests as the mobilization of higher-order principles")
 - Named interlocutors: Boltanski & Thévenot (2006), Patriotta, Gond & Schultz (2011), Suchman (1995), Bitektine (2011), Coombs (2004–2007), Bundy & Pfarrer (2015), Bundy et al. (2017, 2021), Bromley & Meyer (2021), Fligstein & McAdam (2011), Jagd (2011), Lawrence & Phillips (2019), Roulet & Pichler (2020).
 - OT articles it cites: Bromley & Meyer (2021), "Hyper-management: Neoliberal expansions of purpose and leadership", *OT* 2(3); Pozner & Hannigan (2023), "How relational publics become scandal audiences", *OT* 4(3); Roulet & Pichler (2020), "Blame game theory", *OT* 1(4).
 - Move: process model (new framework built on an imported concept, orders of worth)
@@ -158,10 +158,17 @@ The authors reconceptualize organizational legitimacy as "justification work" ca
 - Crossref gives only year and month (2025-11) for online publication; no day available.
 - Table 1 (p. 7) and Table 2 (p. 10) are rotated tables and extract as scattered cells in reverse order; read but not quoted. Figure 1 (p. 9) is an image; only its caption extracts.
 - The text box on pp. 5–6 ("Orders of worth and legitimacy") runs sentences together without spaces at some joins in the extraction; not quoted.
-- Not counted: the sensemaking questions "'what is going on?', 'what does this mean?', 'how should we respond?'" (p. 5) — attributed to organizations as actors, not to researchers; "researchers should move beyond categorizing response types..." (pp. 2–3) — the paper's own aim, folded into OQ-01; the limits of complexifying (legitimacy bandwidth, interpretive locks, new commitments, p. 13) and the other settlement-failure conditions (rigidity, insincerity, legitimacy trap, pp. 14–15) — theorized and answered within the model; only incommensurability is recorded as a boundary condition (OQ-12).
+- Not counted: the sensemaking questions "'what is going on?', 'what does this mean?', 'how should we respond?'" (p. 5) — attributed to organizations as actors, not to researchers; "researchers should move beyond categorizing response types..." (p. 3) — the paper's own aim, folded into OQ-01; the limits of complexifying (legitimacy bandwidth, interpretive locks, new commitments, p. 13) and the other settlement-failure conditions (rigidity, insincerity, legitimacy trap, pp. 14–15) — theorized and answered within the model; only incommensurability is recorded as a boundary condition (OQ-12). The p. 18 sentence "Future research could also examine the temporal dynamics of legitimacy tests" leads into OQ-02 and is folded there. (added by verifier)
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok (apa, doi, 6(4), CC BY 4.0 and sha256 match; Crossref gives online 2025-11 with no day, as recorded; first page is SAGE VoR, so full_vor)
+- Quotations checked: 35; corrected: 2 locators ("researchers should move beyond categorizing response types" pp. 2–3 to p. 3, in Conversation and in Caution: the quoted words sit wholly on p. 3); no wording changes; acceptable extraction mismatches: 0 (two quote-check misses on the legitimacy-test and legitimacy-bandwidth definitions are curly-apostrophe normalization only)
+- Recall sweep: hits reviewed 9 (excluding references); OQs added: 0; not-counted hits listed: 4 (p. 18 temporal-dynamics lead-in added)
+- OQs removed: 0
+- Classification changes: none (OQ-01 kept as own_research_question; OQ-12 kept as boundary_condition, per the lead's rulings)
+- Topic flags changed: none (media appear as third parties joining the controversy, p. 11, and as amplifiers, but the scored 1s for triads and intermediaries are defensible; "third" otherwise ordinal or "third way")
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

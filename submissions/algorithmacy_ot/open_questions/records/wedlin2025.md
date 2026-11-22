@@ -13,7 +13,7 @@ license: CC BY 4.0 (printed on p. 1; crossref agrees)
 read_depth: full_vor (publisher's version, pp. 1-21; printed pages equal pdf pages; no cover sheet)
 object_read: "wedlin2025.pdf sha256 591bd13cfe6194aa65703001df312739ada61c80b47b9dcbd7464d546697467f"
 reader_model: claude-sonnet-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 1, platforms: 1, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 2}
@@ -94,7 +94,14 @@ The authors treat hype as a process of translation that can alter or disrupt ins
 - Not counted: the p. 2 gap statement on scarcity of institutional theorizing (the problem the paper itself addresses); the p. 17 claim that "Our model provides a tool to empirically study multiple translation processes" (a claim about the model's use, close to OQ-03); the p. 3 plan to "present a process detailing three phases that can be used for empirical studies of hype" (the authors' own outline); the p. 2 rhetorical questions "don’t we all hope for a better society" (rhetorical). Added by verifier: "it is imperative to learn about the potential institutional implications of hype" (p. 17), the sentence before OQ-03 and folded into it; "our model also provides specific means to understand, identify, and further theorize the agency and activities of a broader set of actors involved in translation" (p. 17), a claim about the model that restates OQ-04; the title and the headings "Hype: What Is It and Why Does It Matter?" (p. 3) and "The End of Hype?" (p. 16), headings answered in the text; question marks on pp. 18-20 are reference titles.
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: corrected (apa lacked the "Article 26317877251404482" e-locator); doi, volume, issue, date, sha256 and full_vor ok
+- Quotations checked: 20; corrected: 1 (Not-counted "don't we all hope", apostrophe set curly as in the source); acceptable extraction mismatches: 0
+- Recall sweep: hits reviewed 10, plus a full read of the Concluding Discussion (pp. 16-17); OQs added: 0; not-counted hits listed: 4 added ("imperative to learn" p. 17, folded into OQ-03; "further theorize the agency" p. 17, restates OQ-04; headings pp. 3 and 16; reference titles)
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

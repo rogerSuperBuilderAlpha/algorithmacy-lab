@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1; crossref agrees)
 read_depth: full_vor (publisher's version, pp. 1-25; printed pages equal pdf pages; no cover sheet)
 object_read: "seidemann2024.pdf sha256 eb28b91bbd79a14eb2b339aeaea87305c36b84157e8948448ca9e58eff7093ac"
 reader_model: claude-sonnet-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 0, literacy_competence: 1, evaluation_accountability: 1}
@@ -185,7 +185,14 @@ The author intervenes in paradox theory through three provocations. Universality
 - Not counted (added by verifier): "presents significant risks and limitations that paradox scholars must start to address" (p. 13, "Hegemony of both/and") — folded into OQ-11, which names the work; "the moral dimension of paradox remains generally undertheorized" (p. 17) — the gap stated just before OQ-08, folded into it; "what do people really mean when they say that something is paradoxical?" (p. 8) — Langley's question, quoted; "invite a reassessment of the very nature of paradox" (p. 5) — motivates the paper's own critique, answered in text; "research agenda" (pp. 2, 3, 19) — signposts or autobiography; "limitation(s)" (pp. 3, 4, 5, 11, 14, 18) — descriptive or tied to OQ-11; question marks on pp. 21-25 — reference titles only.
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: corrected (apa lacked the "Article 26317877241290248" e-locator). doi, volume 5, issue 4, published_online 2024-10-18 and sha256 match; full_vor is right
+- Quotations checked: 27; corrected: 1 (Caution, "Young researchers like myself ..." locator p. 19 -> p. 20); acceptable extraction mismatches: 2 (OQ-12 "longterm" line-end hyphen; "a distinct alternative ...", pp. 16-17 page break)
+- Recall sweep: hits reviewed 31 (19 term hits, 4 body question marks, 8 reference-title question marks); OQs added: 1 (OQ-15, the p. 9 call to examine the normative emphasis on individual leaders); not-counted hits listed: 7 added
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

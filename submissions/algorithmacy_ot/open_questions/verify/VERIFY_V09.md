@@ -1,0 +1,5 @@
+bacq2023 | verified_with_corrections | 0 | 0 | 0 | Caution not-counted list completed (p. 1 abstract question, p. 3 "warrants a closer look"); OQ-07 boundary_condition kept
+petriglieri2023 | verified_with_corrections | 2 | 0 | 0 | Caution "Doesn’t" and "cozy and cosseted" quotations restored to source; Implicit openings locator p. 20 to p. 19; three not-counted questions added (pp. 12, 14)
+leitzinger2023 | verified_with_corrections | 0 | 1 (OQ-33) | 0 | all 32 OQs checked in context and supported; OQ-33 added (p. 22 call to study early emergence); 10 folded/roadmap hits listed as not counted; quoted words about 775, near the 800 cap
+jackwerthrice2023 | verified_with_corrections | 0 | 0 | 0 | intermediaries flag 0 to 1 (brokering skills p. 13, neutral broker p. 10); locators fixed ("superseded" p. 13 to p. 15; Not-counted pp. 7-8 to p. 7); three not-counted hits added
+friesl2023 | verified_with_corrections | 1 | 0 | 0 | "gloss over" locator p. 3 to p. 2; "critical participative situations" case fixed; evaluation_accountability 1 to 2 (moral evaluating is a core mechanism; lead may judge); four not-counted hits added

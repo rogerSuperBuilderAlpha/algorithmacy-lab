@@ -13,20 +13,20 @@ license: CC BY-NC 4.0
 read_depth: full_vor (publisher's version, 19 pages; printed pages 1-19 coincide with pdf pages; no cover sheet)
 object_read: "friesl2023.pdf sha256 efa1bced76361ad802325b56fe48dc233d0f1080fb7062be841eb1bfbb5bdc97"
 reader_model: claude-sonnet-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: distributed
-topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 2, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
+topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 2, communication: 1, literacy_competence: 1, evaluation_accountability: 2}
 run: ot-oq-2026-11
 ---
 
 # Friesl, Brielmaier & Dobusch (2023). Taking Individual Choices Seriously: A Process Perspective of Self-Selection in Strategy Work.
 
 ## What it argues
-The article argues that research on participative and open strategy takes participation for granted, although actual involvement is always the result of self-selection. Using Giddens' structuration theory, the authors build a process model. A "selection context" (managed or unmanaged rules of participation) and actors' "moral evaluating" of that context together shape who takes part. Over time the recursion of rules and choices produces "stabilizing trajectories" with more homogeneous participation. "Critical participative situations" disrupt the rules and open "shifting trajectories" with more variety, until new rules settle. The authors derive negative emergent consequences of both trajectories and draw implications for open strategy and strategy-as-practice. (reader's paraphrase)
+The article argues that research on participative and open strategy takes participation for granted, although actual involvement is always the result of self-selection. Using Giddens' structuration theory, the authors build a process model. A "selection context" (managed or unmanaged rules of participation) and actors' "moral evaluating" of that context together shape who takes part. Over time the recursion of rules and choices produces "stabilizing trajectories" with more homogeneous participation. Events the authors call "critical participative situations" disrupt the rules and open "shifting trajectories" with more variety, until new rules settle. The authors derive negative emergent consequences of both trajectories and draw implications for open strategy and strategy-as-practice. (reader's paraphrase)
 
 ## The conversation it joins
-- Positions against / extends: "prior research also tends to gloss over a fundamental condition underpinning such types of participative strategizing" (p. 3, "Introduction"). On open strategy: "participation is largely a normative presupposition, such that the reasons why individuals become involved is largely an implicit assumption that remains untheorized" (p. 5, "Self-selection in Strategy Work: What Do We Know?").
+- Positions against / extends: "prior research also tends to gloss over a fundamental condition underpinning such types of participative strategizing" (p. 2, "Introduction"). On open strategy: "participation is largely a normative presupposition, such that the reasons why individuals become involved is largely an implicit assumption that remains untheorized" (p. 5, "Self-selection in Strategy Work: What Do We Know?").
 - Named interlocutors: Giddens (1984, 1991); Jarzabkowski (2004); Whittington et al. (2011) and Hautz et al. (2017) on open strategy; Burgelman (1983, 2002); Mantere & Vaara (2008); Dobusch et al. (2019); Luedicke et al. (2017); Seidl & Werle (2018); Tavella (2020); Thévenot (2001).
 - OT articles it cites: Cloutier & Langley (2020), "What makes a process theoretical contribution?"; Kornberger & Mantere (2020), "Thought experiments and philosophy in organizational research".
 - Move: process model (theorizing from practice theory); agenda-setting for open strategy research.
@@ -126,15 +126,22 @@ The article argues that research on participative and open strategy takes partic
 - coordination: 2. "How is strategy work coordinated and accomplished?" (p. 2, "Introduction"); "self-selection as the coordinating force" (p. 14, "Conclusion")
 - communication: 1. "top managers discursively construct participation options for lower-level employees" (p. 14, "Discussion and Theoretical Implications")
 - literacy_competence: 1. "the invitation to participate is often linked to articulated rules such as roles, a certain skillset or a specific background" (p. 7, "Managed and unmanaged selection context")
-- evaluation_accountability: 1. "accountability for firm strategy was located at the level of corporate elites" (p. 2, "Introduction")
+- evaluation_accountability: 2. "accountability for firm strategy was located at the level of corporate elites" (p. 2, "Introduction"). (raised by verifier) Evaluation is one of the model's two mechanisms: "self-selection is always shaped by actors’ evaluation of prior as well as future strategizing events" (p. 3, "Introduction"), and "moral evaluating" recurs across pp. 3-13.
 
 ## Caution
 - Version of record, pagination 1-19 matches pdf pages. Figure 1 is not extractable as text; the model is taken from the running text.
 - Source typos are preserved in quotes where used ("selfselection", the checker normalizes punctuation only). The extraction runs "selfselection" together at a line break in OQ-06.
-- Not counted: "key questions remain: Why those individuals? What made" (p. 12), whose second half is recorded as OQ-02 (the quote is split by a page break); "what are the social processes that influence why certain actors become involved in strategy making and what are the participatory implications for strategy work?" (p. 4) and "why do actors get involved in strategy making in the first place?" (p. 3), both restatements of OQ-01 that the paper answers; "Yet, how do shifts in self-selection dynamics occur in strategy work?" (p. 10) and "how does the selection context come to bear on individual choices to participate in such events?" (p. 7), both questions the paper's theory answers in the following paragraphs and are signposts rather than research gaps.
+- Not counted: "key questions remain: Why those individuals? What made" (p. 12), whose second half is recorded as OQ-02 (the quote is split by a page break); "what are the social processes that influence why certain actors become involved in strategy making and what are the participatory implications for strategy work?" (p. 4) and "why do actors get involved in strategy making in the first place?" (p. 3), both restatements of OQ-01 that the paper answers; "Yet, how do shifts in self-selection dynamics occur in strategy work?" (p. 10) and "how does the selection context come to bear on individual choices to participate in such events?" (p. 7), both questions the paper's theory answers in the following paragraphs and are signposts rather than research gaps. (added by verifier) The opening question "How is strategy work coordinated and accomplished?" (p. 2) frames the paper and is answered by it; the p. 4 and p. 5 statements that self-selection "remains an implicit phenomenon" and "remains poorly understood" are the gap the paper itself fills; the p. 15 question “why do firms differ?” is a classic question cited (Nelson, 1991) as a payoff, not posed as new work.
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok (apa, doi, volume 4, issue 2, published_online 2023-06-25 match crossref.json; sha256 matches; first page is the version of record, so full_vor holds)
+- Quotations checked: 40; corrected: 1 (What it argues: "Critical participative situations" capitalized as a sentence start; the source has lower case, sentence reworded); locator corrected: 1 ("prior research also tends to gloss over..." is on p. 2, not p. 3); acceptable extraction mismatches: 0
+- Recall sweep: hits reviewed 33 (pp. 1-15 and references); OQs added: 0; not-counted hits listed: 4 (p. 2 opening question; p. 4 and p. 5 "remains" gap statements; p. 15 “why do firms differ?”)
+- OQs removed: 0
+- Classification changes: none (OQ-01, OQ-02 own_research_question and OQ-06 boundary_condition kept per the lead's rulings)
+- Topic flags changed: evaluation_accountability 1 to 2 (moral evaluating is a core mechanism of the model; 24 "evaluat" hits in the body)
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1; crossref license URL creativecommons.org
 read_depth: full_vor
 object_read: "jaser2024.pdf sha256 c7b102eb89260764e332c08e5d440ba5f43b062ca8162382b6ec8cd89e01e7bf"
 reader_model: claude-opus-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 2, platforms: 1, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 2}
@@ -152,10 +152,17 @@ Opening with the Royal Mail "Outdoor Actuals" PDA tracking system, agreed with t
 - Figure 1 (p. 5) and Tables 1–2 (pp. 3, 7) extract poorly; not quoted except via running text.
 - Quote self-check: 11 quotes, 8 exact, 3 ends-only, 0 miss. The ends-only cases are page breaks (OQ-09 crosses the page number "13"; OQ-10 spans pp. 16–17) and a footnote marker "3" after "Adler-Bell & Miller, 2018)" omitted in OQ-01.
 - The intro's "rank them against their colleagues" testimony (p. 2) is the parliamentary chair's words, not the authors'.
-- Not counted: "Are you really telling us today, Mr Thompson, that is not true?" (p. 2) – quoted testimony, not an authorial question. "Current theories are not sufficient to explain its inescapability and its pervasiveness." (p. 10) – answered by the paper's turn to Gramsci. "it is impossible to say how much of this voluntariness was genuine and how much coerced" (p. 13) – declared not to matter for the theory. Mitigation suggestions such as Tomczak et al. (2018) (p. 16) – the authors dismiss them; recorded as an implicit opening. "It is not inevitable that HS will produce the dystopian environment ... But nor is it inevitable that it will not." (p. 17) – restates OQ-10. "Ultimately, resisting its dominance is a battle of ideas." (p. 17) – closing claim. Note 12 (p. 18) refers readers to debates on the panopticon as "not central to our argument" – a pointer to existing literature, not a call.
+- Not counted: "Are you really telling us today, Mr Thompson, that is not true?" (p. 2) – quoted testimony, not an authorial question. "Current theories are not sufficient to explain its inescapability and its pervasiveness." (p. 10) – answered by the paper's turn to Gramsci. "it is impossible to say how much of this voluntariness was genuine and how much coerced" (p. 13) – declared not to matter for the theory. Mitigation suggestions such as Tomczak et al. (2018) (p. 16) – the authors dismiss them; recorded as an implicit opening. "It is not inevitable that HS will produce the dystopian environment ... But nor is it inevitable that it will not." (p. 17) – restates OQ-10. "Ultimately, resisting its dominance is a battle of ideas." (p. 17) – closing claim. Note 12 (p. 18) refers readers to debates on the panopticon as "not central to our argument" – a pointer to existing literature, not a call. (Verifier) The chair's earlier question "Mr Thompson, what are those yellow dots?" (p. 2) – quoted testimony. "Space remains for resistance." (p. 12) – a claim, carried as a boundary by OQ-09. The p. 9 sentence on a "private zone behind the curtain where the individual mind remains free" – a supposition the paper then rejects.
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok
+- Quotations checked: 35; corrected: 0; acceptable extraction mismatches: 7 (footnote markers "3" in OQ-01 and "4" in the triads flag quote; algorithmic-management definition interrupted by Table 2 cells on p. 7; page-number break in OQ-09; page break pp. 16–17 in OQ-10; line-end hyphen "gigwork" in the platforms flag quote; line-end hyphen "employee–" in the algorithms flag quote)
+- Recall sweep: hits reviewed 13; OQs added: 0; not-counted hits listed: 3 added (p. 2 chair's question, p. 12 "Space remains for resistance", p. 9 "remains free"); remaining hits are the construct term "what we call" (p. 11), a note on the PDA agreement (p. 18) and a reference title (p. 19)
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified_with_corrections (Not-counted list only)
 
 ## Fit
 pending

@@ -13,10 +13,10 @@ license: CC BY 4.0 (printed on p. 1; crossref agrees)
 read_depth: full_vor (publisher's version, pp. 1-15; printed pages equal pdf pages; no cover sheet)
 object_read: "mutch2025.pdf sha256 e6ed6c83edb8dc5f378c9f03b459280520b5e953b38b06c0fa55db3125a6aed6"
 reader_model: claude-sonnet-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: distributed
-topic_flags: {triads_third_parties: 1, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
+topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
 ---
 
@@ -81,6 +81,14 @@ Mutch argues that law is a distinct societal institutional logic and that organi
 - Level of analysis: field
 - Paraphrase: The civil/common contrasts are indicative only, so specific legal contexts need specific analysis. (reader's paraphrase)
 
+### OQ-mutch2025-06
+- Quote: "This article has sought to argue that organizational scholars need to take the law seriously as a key influence on organizational life." (p. 13, "Conclusion")
+- Form: future_research_call
+- Scope: law as a taken-for-granted context of organizational life
+- Addressee: organizational scholars
+- Level of analysis: field
+- Paraphrase: The closing call is for organizational scholars to treat law as a key influence on organizations, often as background context rather than direct impact. (reader's paraphrase) (added by verifier)
+
 ## Implicit openings
 - Mutch finds that professionalism "should therefore be seen as a cross-cutting organizing logic" (p. 12, "Implications") and questions its place in the Thornton et al. list, but he does not say how other listed logics should be re-examined. (reader's inference)
 - He notes that Smets et al. (2012) did not study "whether such changes in organizational practice led to subsequent change in the respective legal systems" (p. 10, "Systems and Practices Compared"). The link from organizational practice to legal-system change is left open. (reader's inference)
@@ -88,11 +96,11 @@ Mutch argues that law is a distinct societal institutional logic and that organi
 
 ## Topic flags
 - triads_third_parties: 1. "judges acting as impartial mediators upholding the ‘rules of the game’" (p. 10, "Systems and Practices Compared")
-- intermediaries: 0
+- intermediaries: 1. "there are mediating influences between the desires of politicians and the turning of those desires into legal texts that will ‘stick’" (p. 9, "Civil and Common Law Systems") (raised by verifier; passing mention, the Council of State's sections)
 - algorithms_ai: 0
 - platforms: 0
 - coordination: 0
-- communication: 1. "Latour emphasizes the importance of writing and texts in his observations of how the judges" (pp. 10-11, "Systems and Practices Compared")
+- communication: 1. "Latour emphasizes the importance of writing and texts in his observations of how the judges" (p. 10, "Systems and Practices Compared")
 - literacy_competence: 1. "This in turn rested on widespread literacy in an educational system" (p. 11, "Systems and Practices Compared")
 - evaluation_accountability: 1. "a set of governance practices that placed considerable stress on accountability" (p. 13, "Implications")
 
@@ -100,10 +108,17 @@ Mutch argues that law is a distinct societal institutional logic and that organi
 - Publisher's version, 15 pages; printed page numbers match pdf pages. No cover sheet.
 - The article has no future-research section. Its "Implications" and "Conclusion" state how the argument bears on organizational analysis and invite inquiry; I recorded those invitations as OQs and set closing_form to distributed.
 - The reference list gives Lounsbury & Wang as "Organization Theory, 1, 1-27" with year 2019; I report it as printed.
-- Not counted: "This is not the place to put the differences between Latour and Friedland to a ‘trial’" (p. 4), a decision about the author's own scope; "While the application of his ideas has often been, I will argue, partial and misguided" (p. 4), a critique of use; "Whether such changes ... was not the concern of their article" (p. 10), about another study, used as an implicit opening; the cautionary note on colonial categories of law (p. 8) is a scope remark linked to OQ-01.
+- Not counted: "This is not the place to put the differences between Latour and Friedland to a ‘trial’" (p. 4), a decision about the author's own scope; "While the application of his ideas has often been, I will argue, partial and misguided" (p. 4), a critique of use; "Whether such changes ... was not the concern of their article" (p. 10), about another study, used as an implicit opening; the cautionary note on colonial categories of law (p. 8) is a scope remark linked to OQ-01. Added by verifier: "the need to be specific about the nature of the legal logic that organizations face in any given context" (p. 13, "Implications") is the third strand of the paper's own argument and is carried by OQ-01 and OQ-05; the gap quoted from Jennings et al. (2005), that institutional theorists "have not examined the evolution of law as an institution in its own right" (p. 6), is another source's statement that this paper takes up.
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok (apa, doi, volume 6, issue 1, published_online 2025-04-25 match crossref.json; license CC BY 4.0 matches; object_read matches sha256.txt; read_depth full_vor matches SAGE first page)
+- Quotations checked: 21; corrected: 1 (communication flag quotation locator pp. 10-11 to p. 10; the quoted words all fall on p. 10); acceptable extraction mismatches: 0
+- Recall sweep: hits reviewed 17; OQs added: 1 (OQ-06, the conclusion's call to take law seriously, p. 13); not-counted hits listed: 2
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: intermediaries 0 to 1 (p. 9)
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

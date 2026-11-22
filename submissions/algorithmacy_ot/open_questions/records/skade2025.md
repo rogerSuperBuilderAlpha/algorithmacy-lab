@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1; crossref agrees)
 read_depth: full_vor (publisher's version, pp. 1-24; printed pages equal pdf pages; no cover sheet)
 object_read: "skade2025.pdf sha256 7e8fd0fb9735a0935e44a56e9323ef481e77dab02e4bbca5b942099c7b471184"
 reader_model: claude-sonnet-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 0}
@@ -117,7 +117,14 @@ Skade argues that strategy-makers meet the future through tensions, and that a d
 - Not counted: the p. 2 and p. 4 gap statements ("how social actors engage with different ... perceptions of the future remains poorly understood"; "there is a theoretical lacuna regarding how salient tensions ... affect strategy-making") (the problem the paper itself addresses, not a call); the p. 3 research aim sentence "I theorize how social actors address inherent tensions" (the author's own aim); the opening epigraph (Mulgan, 2020) and the "imaginary crisis" framing (a societal claim, not a research call); the p. 16 sentence that dialectical inquiry can produce unproductive conflict (folded into OQ-07). Added by verifier: "outlining promising avenues for future research" (p. 1, abstract) and "future research could deepen and clarify the investigation into these dynamics while broadening the societal implications" (p. 17), headers for OQ-01 to OQ-03; "Further investigation may provide a broader framework that outlines differences and similarities between possible futures" (p. 18), folded into OQ-01, which the paragraph closes with; "limitations" (p. 2, p. 14) and "remains consequential" (p. 18), not work left open; question marks on pp. 19-24 are reference titles.
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: corrected (apa lacked the "Article 26317877251377779" e-locator); doi, volume, issue, date, sha256 and full_vor ok
+- Quotations checked: 23; corrected: 0; acceptable extraction mismatches: 2 ("we know little about how a plurality of futures unfolds" across the p. 17/18 break; "re­mains" soft hyphen in the p. 2 Not-counted quote)
+- Recall sweep: hits reviewed 16; OQs added: 0; not-counted hits listed: 4 groups added (agenda headers pp. 1 and 17, "Further investigation" p. 18 folded into OQ-01, "limitations"/"remains" pp. 2, 14, 18, reference titles)
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

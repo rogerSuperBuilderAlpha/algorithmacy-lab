@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1; crossref license URL https://creativecom
 read_depth: full_vor
 object_read: "prasad2024.pdf sha256 77f6f6ac3f8fed830e9fe25bf115146b76d20479aeea6ec50fdb4d3ec5bc31c4"
 reader_model: claude-opus-5-5
-verified: pending
+verified: yes
 hand_check: pending
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
@@ -117,10 +117,17 @@ Prasad responds to Abend's complaint that unresolved disagreement over words blo
 - OQ-01 contains the text's own punctuation "just. . .. stops".
 - Prasad's reference to Abend (2024) carries a title different from the published abend2024 title ("Democratizing Social Scientists’ Words and Distinctions"); likely a pre-publication title (reader's inference).
 - The evaluation_accountability quotation is Prasad quoting Davis (2015).
-- Not counted: Besbris and Khan's questions (p. 2) — quoted from another source. "One might think that experimental procedures would have kept scholarly discussions from getting too far out of control." (p. 3) — answered in text. "One could complain that the knowledge generated is always provisional knowledge" (p. 3) — objection answered in text. "Who could work with you to find your way past the eventual disagreements?" (p. 4) — folded into OQ-06 (elided).
+- Not counted: Besbris and Khan's questions (p. 2) — quoted from another source. "One might think that experimental procedures would have kept scholarly discussions from getting too far out of control." (p. 3) — answered in text. "One could complain that the knowledge generated is always provisional knowledge" (p. 3) — objection answered in text. "Who could work with you to find your way past the eventual disagreements?" (p. 4) — folded into OQ-06 (elided). Added by verifier: "research agenda" (p. 4) — Pasteur's research agenda, a historical example, not a call; question marks on p. 5 — reference titles only.
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok (apa, doi, volume 5, issue 4, published_online 2024-10-28 and Article number match crossref.json; sha256 matches; first page is the SAGE version of record, so full_vor is right)
+- Quotations checked: 20; corrected: 0; acceptable extraction mismatches: 0 (printed pages equal pdf pages; every quotation found on its stated page)
+- Recall sweep: hits reviewed 16 (1 "research agenda", 15 question marks); OQs added: 0; not-counted hits listed: 2 added (the p. 4 "research agenda" in the Pasteur example; p. 5 reference titles) to the 4 already listed
+- OQs removed: 0
+- Classification changes: none (OQ-01, 02, 05 kept as own_research_question and OQ-03, 04 kept as boundary_condition, per the lead's rulings)
+- Topic flags changed: none (term sweep found no algorithm, platform, intermediary, skill, rating or evaluation terms in the body)
+- Verdict: verified
 
 ## Fit
 pending

@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1; crossref agrees)
 read_depth: full_vor (publisher's version, pp. 1-22; printed pages equal pdf pages; no cover sheet)
 object_read: "schildt2025.pdf sha256 14ac5c47f7161c055586fd97b1cc495ca7a853348842b0ab2881712c55184b27"
 reader_model: claude-sonnet-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 1, platforms: 0, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 2}
@@ -119,7 +119,14 @@ The authors argue that an institutional logic can be understood as a bundle of i
 - Not counted: p. 2 quotation of Lounsbury, Steele et al. (2021) that logics are "a problem to investigate" (a cited authors' call, not the authors' own); p. 7 question from Mutch (2018), "how is it that institutional logics can endure over decades" (attributed to Mutch and answered in text, duplicate of OQ-01); p. 13 remark that researchers may read a renewed logic as an adaptation or as a new competing version (an observation, not a call). Added by verifier: question marks on pp. 18-21 are reference titles only; the abstract (p. 1) and the p. 15 opening of the Discussion ("we outline several paths which the practice-driven perspective creates for empirical research and theory development") are signposts to OQ-02 to OQ-06.
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: corrected (apa lacked the "Article 26317877251318369" e-locator). doi, volume 6, issue 2, published_online 2025-02-24 and sha256 match; full_vor is right
+- Quotations checked: 21; corrected: 0; acceptable extraction mismatches: 3 (abstract "practicecentric" line-end hyphen; OQ-05 running page number "15"; communication quote, pp. 2-3 page break)
+- Recall sweep: hits reviewed 10 (1 term hit, 9 question marks, 5 of them reference titles); OQs added: 0; not-counted hits listed: 2 added
+- OQs removed: 0
+- Classification changes: none (OQ-01 own_research_question and OQ-07 boundary_condition kept, per the lead's rulings)
+- Topic flags changed: evaluation_accountability 1 -> 2 ("Finally, evaluation is a central part of the referential relationship of the practices.", p. 6; evaluative linkage is one of the framework's three referential relations and the impact-factor cascade, p. 15, is a worked example)
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

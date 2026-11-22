@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
 read_depth: full_vor (publisher's version, pp. 1-17, journal header and "Volume 5: 1-17" on first page; printed page numbers equal pdf page numbers; pp. 12-17 include end of conclusion, acknowledgements, notes, references, read)
 object_read: "lantela2024.pdf sha256 a12ced9cf20864930960091e2014253105f35d9aa1733e525cb45ef43ce54b40"
 reader_model: claude-sonnet-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 1}
@@ -152,7 +152,14 @@ Lantela proposes a feminist microhistorical approach to theorizing in organizati
 - Not counted: "In the following sections, I will first briefly outline..." (p. 3, roadmap); "Who is speaking or whose voice the researcher seeks to find matters" and "Whose knowledge is privileged, and how does this privilege shape our understanding of legitimate theoretical knowledge in academia and beyond?" (p. 3, rhetorical questions framing the argument, answered by the feminist standpoint account); "Observing the field of management and organization studies (MOS), Bell’s question is entangled with many other voices" (pp. 1-2, motivation); "microhistorical theorizing could also mitigate the growing political polarization" (p. 3, a claimed benefit, not a research call). "Echoing Banerjee’s (2022) critique, who decides the frame from which the ‘right’ questions are asked?" (p. 3) and "how does organizing happen, and what kind of knowledge must we have in order to make sense of it?" (p. 7): rhetorical, answered by the standpoint argument (added by verifier). "Thus, microhistorical theorizing need to ask whose voice or ‘standpoint’ we see or hear in the archives?" (p. 9) and "What kind of things, practices, people,or webs of relations have enabled specific ideas, theories or conceptualizations in a particular time and sub-field to emerge?" (p. 12): parts of the question series already in OQ-04 and OQ-09 (added by verifier). "limitations" (p. 2, of conventional management history; p. 11, a microhistorian should expose the limitations of the analysis): not work left open (added by verifier). "remains consistent over time" (p. 10): inside a quotation of Whittier via Abend (added by verifier). Question marks on pp. 14-16 are reference titles (added by verifier).
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok (crossref, sha256 and first page agree; full_vor; the printed title's en dash rendered as a colon in apa)
+- Quotations checked: 28; corrected: 4 (Decker quote p. 4, straight apostrophe set curly as in the source and the note removed; Not-counted Bell quote, apostrophe set curly and locator to "pp. 1-2"; Not-counted "microhistory could also mitigate" corrected to "microhistorical theorizing could also mitigate"; OQ-11 locator p. 13 to p. 12); acceptable extraction mismatches: 2 (OQ-05 page-number artifact on p. 9; Bell quote across the p. 1/2 break)
+- Recall sweep: hits reviewed 31; OQs added: 0; not-counted hits listed: 6 groups added (p. 3 Banerjee question, p. 7 question, p. 9 and p. 12 series sentences, "limitations" pp. 2 and 11, "remains" p. 10, reference titles pp. 14-16)
+- OQs removed: 0
+- Classification changes: OQ-02 explicit_question to own_research_question (the next paragraphs, pp. 4-5, answer it by reviewing how scholars use microhistory); OQ-07 explicit_question to own_research_question (answered in the next sentence: the general is situated); addressees set to "the author (answered in the paper)"
+- Topic flags changed: none
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

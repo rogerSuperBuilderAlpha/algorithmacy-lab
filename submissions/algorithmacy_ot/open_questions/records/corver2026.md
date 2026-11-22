@@ -13,7 +13,7 @@ license: CC BY 4.0 (printed on p. 1; crossref agrees)
 read_depth: full_vor (publisher's version, pp. 1-26; printed pages equal pdf pages; no cover sheet)
 object_read: "corver2026.pdf sha256 fbb02b9b5dd66ae87dda1fc95c30c0f7d438892b2120089de329b8dfb40d5ae9"
 reader_model: claude-sonnet-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 1, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
@@ -190,7 +190,14 @@ The authors argue that corporate sustainability maturity models (CSMMs) rest on 
 - Not counted: p. 2 and p. 5 listed questions about how sustainability problems are defined, how organizational learning unfolds and how progress is judged (they describe what the literature leaves implicit, not the authors' call); p. 16 questions "What has the model enabled? What problem-solving trajectories has it opened up?" (the questions the DACSM itself asks of models, part of the framework); the p. 14 remark that vocabulary "could guide future research and practice" (a general remark, covered by OQ-12); the p. 18 conclusion "We hope that this pragmatic modeling approach will inspire further theoretical development, empirical research, and practical experimentation" (generic closing hope, not tied to a named task). Added by verifier: "What actions does this collective modeling inquiry involve in practice?" (p. 14), answered by the six modeling actions; "we believe that further research should resist the temptation to “settle” things such as the appropriate division of labor between actors within the modeling process" (p. 17), a caution on how to pursue OQ-11, not a separate task; "This perspective invites companies to remain attuned to feedback" (p. 13), advice to practice; "remains" (p. 2, p. 7, p. 9), gaps in the CSMM literature that the paper itself addresses; "limitation" (p. 4, inside a Lorino quotation; p. 13, of measurements), not work left open; the p. 18 "limitation" and "open questions" sentences are OQ-14 and OQ-16; question marks on pp. 20-23 are reference titles.
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: corrected (apa lacked the "Article 26317877261467772" e-locator); doi, volume, issue, date, sha256 and full_vor ok
+- Quotations checked: 30; corrected: 3 (straight inner quotation marks set curly as in the source: OQ-09 and the literacy_competence quote, “tool user.”; the communication quote, “semiotic mediation,”); acceptable extraction mismatches: 0
+- Recall sweep: hits reviewed 36; OQs added: 0; not-counted hits listed: 6 groups added (p. 14 question answered by the six actions; "further research should resist" p. 17; "invites companies" p. 13; "remains" pp. 2, 7, 9; "limitation" pp. 4, 13; reference titles)
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

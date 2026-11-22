@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1; crossref agrees)
 read_depth: full_vor (publisher's version, pp. 1-24; printed pages equal pdf pages; no cover sheet)
 object_read: "krautzberger2024.pdf sha256 8115588120f2b5a5fa652ef1763b75562a0d1410772ea880d83bb9dd382a649c"
 reader_model: claude-sonnet-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 1, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 0}
@@ -167,7 +167,14 @@ The authors start from the point that paradox theory now treats either/or respon
 - Not counted: "Berti and Cunha (2023) do not elaborate on how organizations can consider and leverage these alternatives over time" (p. 6), a gap that the paper answers (covered by OQ-01); "our model sidesteps the critique ... aimed at contingency theory" (p. 18), a claim; "provides a foundation for future research to theorize how these approaches enable organizations to cope with paradoxes over time" (p. 18), too general beyond OQ-03; the Covid-19 hospital discussion (p. 11) is an illustration, not a limitation. Added by verifier: "little is known about how organizations and their members can concurrently consider both approaches as viable alternatives" (p. 2), the gap the paper fills (OQ-01); "what happens when organizational members are uncertain whether an either/or or a both/and approach is the appropriate response?" (p. 14), answered by meta-undecidability; the restated research questions (p. 6, p. 17), same as OQ-01; "This line of inquiry could also delve deeper into the process of navigating a portfolio of approaches through reflective episodes" (p. 19), a continuation of OQ-03 to OQ-06; "Future research could elaborate on the specific characteristics of such meta-both/and mindsets and examine their differences and similarities across various contexts" (p. 20), folded into OQ-11, which the paragraph closes with; "limitations" (p. 3) and "remains" (pp. 5, 7, 16), not work left open; question marks on pp. 21-22 are reference titles.
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: corrected (apa lacked the "Article 26317877241290249" e-locator); doi, volume, issue, date, sha256 and full_vor ok
+- Quotations checked: 25; corrected: 1 (literacy_competence quote locator pp. 16-17 to p. 17; the sentence sits wholly on p. 17); acceptable extraction mismatches: 0
+- Recall sweep: hits reviewed 23; OQs added: 1 (OQ-13, p. 19, examining the premises members weigh when navigating their portfolio); not-counted hits listed: 7 groups added
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: triads_third_parties 0 to 1 (p. 20, external participants such as action researchers, consultants, supporting actors and peers in reflective episodes; a lead call, since these are outside parties to the organization's decision but the paper does not frame them as third parties)
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

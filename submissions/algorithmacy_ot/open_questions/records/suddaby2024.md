@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1; crossref license URL https://creativecom
 read_depth: full_vor
 object_read: "suddaby2024.pdf sha256 ca544a7a903b0c0040b21271437da7f24dff9404b97ad531b05ecad04c87bbb2"
 reader_model: claude-opus-5-5
-verified: pending
+verified: yes
 hand_check: pending
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 1, platforms: 0, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 0}
@@ -113,7 +113,14 @@ Suddaby critiques Abend's essay, book (2023) and article (2008) as a call for ac
 - Not counted: "Whence Theory?" (section heading, p. 5) — rhetorical heading. "We need another way." (p. 4) — answered in text by the process view. "If Construct Clarity is so Bad, why is Abend so Good at it?" (heading, p. 5) — rhetorical; its body question is OQ-02. "More generally, I worry about science that sacrifices predictability for understanding." (p. 6) — a statement of concern folded into OQ-05. Added by verifier: "What, he asks, is an organization or an institution?" (p. 3) — Abend's question reported and answered by the process view; "Construct Clarity or Construct Clarification?" (heading, p. 3) — rhetorical heading; question marks on pp. 7-8 are reference titles. The sweep terms "future research", "remains", "limitation", "invite" and the rest have no other hits.
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok (crossref, sha256 and first page agree; full_vor)
+- Quotations checked: 18; corrected: 0; acceptable extraction mismatches: 0 (OQ-05 stops at the p. 6/7 boundary as the Caution says)
+- Recall sweep: hits reviewed 10; OQs added: 0; not-counted hits listed: 3 groups added (Abend's reported question p. 3, heading p. 3, reference titles pp. 7-8)
+- OQs removed: 0
+- Classification changes: none (OQ-02 kept as own_research_question and OQ-03, OQ-05 kept as boundary_condition, per the lead's rulings)
+- Topic flags changed: none
+- Verdict: verified
 
 ## Fit
 pending

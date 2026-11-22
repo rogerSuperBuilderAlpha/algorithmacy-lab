@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
 read_depth: full_vor (publisher's version, pp. 1-21, journal header and "Volume 4: 1-21" on first page; printed page numbers equal pdf page numbers; pp. 17-21 are declarations, notes, references and author notes, read)
 object_read: "arnold2023.pdf sha256 fb4ae80846bbec08a0ec9a47106ae4d815e09bccb7c8a5b7fb20c8f5065ce0cd"
 reader_model: claude-sonnet-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 2, literacy_competence: 0, evaluation_accountability: 0}
@@ -167,7 +167,14 @@ Arnold and Costas build on Rancière to theorize otherness in organization. Exis
 - Not counted: Van Lear and Janssens (2016) call for future research on refugees and blue-collar workers, quoted on p. 6 as support (another author's call, adopted as motivation); "we are not suggesting a hierarchization between different kinds of otherness" (p. 3, scope clarification); "This is not to say that affect only matters in cases of otherness where the Other is cast as noise" (p. 15, scope clarification, not a research call). Added by verifier: "But what happens when the Other is not even perceived as a subject part of the community of human speech?" (p. 1, abstract) — the paper's own question, folded into OQ-09; "otherness research needs to shift the focus from the realm of discourse to the realm of affect" (p. 7) and "For otherness research to empirically capture the Other as noise, it is necessary to focus on affect" (p. 14) — folded into OQ-10; "This will require research to take an interest in ‘a detailed treatment of embodied and lived experience’" (p. 15) — method requirement attached to OQ-04/05; "So how do the women manage to unsettle such miscounting by engaging in recounting?" (p. 12) — expository question answered in text; Spivak's "Can the subaltern speak?" (p. 5), the Menenius questions (p. 8) and Toskas's question (p. 15) — quoted from other sources; "limitations" (pp. 13, 16) — quoted or descriptive, no call; "directions for future research" (pp. 3, 14) — signposts to the agenda sections.
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: corrected (apa title restored to the crossref and printed punctuation "From silence to noise – The politics ..."; the record had a colon). doi, volume 4, issue 3, published_online 2023-09-30 and sha256 match; full_vor is right
+- Quotations checked: 21; corrected: 0; acceptable extraction mismatches: 0
+- Recall sweep: hits reviewed 30 (22 term hits, 8 question marks, references excluded), plus a read of pp. 14-17; OQs added: 5 (OQ-09 the p. 8 guiding questions as own_research_question, per the lead's ruling; OQ-10 focus on affect, p. 15; OQ-11 recounting in context, p. 15; OQ-12 subjectivity not identity, p. 16; OQ-13 the adopted Huault et al. call, p. 17); not-counted hits listed: 9 added; the old not-counted entry for the p. 8 questions is replaced by OQ-09
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none ("mediating" on p. 5 is Clegg et al. on language games; "platforms" occurs only in a reference title)
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

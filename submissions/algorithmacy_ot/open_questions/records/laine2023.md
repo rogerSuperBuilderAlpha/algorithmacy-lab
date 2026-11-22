@@ -13,7 +13,7 @@ license: CC BY 4.0
 read_depth: full_vor
 object_read: "laine2023.pdf sha256 195d054e43e3e6e068bf86a1683213bb9bdd603ef41e6038308fda71e4b3e5a1"
 reader_model: claude-opus-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 0}
@@ -134,10 +134,17 @@ The authors argue that processual entrepreneurship studies, built on a strong pr
 - Version: publisher's version of record (SAGE "Theory Article" header, CC BY 4.0 notice on p. 1). Printed page numbers match PDF pages (1–25); locators use printed pages.
 - Extraction: the Conclusion's columns are out of order in the text file (the sentence beginning "The basic idea we thus proffer" is split, its second half appearing before "This paper has sought..."). Quotes were taken from contiguous runs only. Table 1 extracts as jumbled cells.
 - Citation detail: the text cites "Frankel, 2021" throughout; the reference list gives Frankel (2022), Organization Studies 43(12). The reference list also carries a leftover editorial note, "[C&M: Guillet is part of the surname!]".
-- Not counted: p. 6 "The question arises as to how anything can truly change if a virtuality exists that precedes the actual" (answered in the text by the OOO argument); p. 7 "Yet, how then can it be possible for organizations to change that which they do?" and the two questions that follow (rhetorical critique of overmining, answered pp. 7–8); pp. 14–15 "how are we, for example, ever able to change our minds about anything?" (rhetorical, illustrates OOO's view of change); p. 8 "should such a theory emerge" (aside, not a call); Note 1 aims to "make more explicit the assumptions about the core of entrepreneurial research" (states the authors' own purpose).
+- Not counted: p. 6 "The question arises as to how anything can truly change if a virtuality exists that precedes the actual" (answered in the text by the OOO argument); p. 7 "Yet, how then can it be possible for organizations to change that which they do?" and the two questions that follow (rhetorical critique of overmining, answered pp. 7–8); pp. 14–15 "how are we, for example, ever able to change our minds about anything?" (rhetorical, illustrates OOO's view of change); p. 8 "should such a theory emerge" (aside, not a call); Note 1 aims to "make more explicit the assumptions about the core of entrepreneurial research" (states the authors' own purpose); p. 4 "it remains unclear how exactly objects can be eliminated from theory in a philosophically sound way" (answered at once: "OOO, as we now show, provides precisely such an analysis"); p. 11 "Third, it remains unclear how CCO helps organization theory to avoid overmining impulses" (third point of the CCO critique; the challenge it poses to CCO is recorded as OQ-02) (added by verifier).
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok (apa, doi, volume 4, issue 1, published_online 2023-02-18 match crossref.json; object_read matches sha256.txt; p. 1 is the version of record, no cover sheet)
+- Quotations checked: 31; corrected: 0; acceptable extraction mismatches: 4 (pp. 2–3 "we argue that strong process ontology" crosses the page break; p. 11 "might, however, obscure" split by the printed page number; p. 18 "proto-theoretical reading" split across a column gap; straight vs curly apostrophe in "CCO's")
+- Recall sweep: hits reviewed 17 (excluding reference-list titles); OQs added: 0; not-counted hits listed: 2 added (p. 4 and p. 11 "it remains unclear")
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none (term search found no algorithm, AI, platform, coordination, third-party, broker, triad, competence, skill, literacy, ranking, evaluation or accountability hits in the body; "intermediar" only in a reference title; "rating" only inside "illustrating" and "generating")
+- Verdict: verified_with_corrections (Caution "Not counted" extended only)
 
 ## Fit
 pending

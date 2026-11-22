@@ -13,10 +13,10 @@ license: CC BY 4.0
 read_depth: full_vor
 object_read: "brennecke2025.pdf sha256 a78a95710f2887b2726b9c6248b884f325b43df254fcfcb2e0d8d62929bb01c7"
 reader_model: claude-opus-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
-topic_flags: {triads_third_parties: 2, intermediaries: 1, algorithms_ai: 1, platforms: 0, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
+topic_flags: {triads_third_parties: 2, intermediaries: 2, algorithms_ai: 1, platforms: 0, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
 run: ot-oq-2026-11
 ---
 
@@ -37,8 +37,8 @@ The authors argue that organizational network research, in both its networks-as-
 | Relational history | "We define relational history as the temporal path or biography of a network relationship." (p. 3, "What is Relational History?") | coined |
 | Founding conditions | "the founding conditions of a relationship describe how and why the relationship initially came into being" (p. 3, "Conceptualization") | coined (as parameter) |
 | Trajectories | "the patterns or pathways that a relationship follows over time, when observed from a bird's eye perspective" (p. 3, "Conceptualization") | coined (as parameter) |
-| Historically informed accuracy | "the alignment between an actor's perception and both the current configuration of a tie or network and the developmental processes that shaped it" (pp. 6–7, "Relational history and network cognition") | coined |
-| Agency-shaped history | "how actors' prior agentic behaviours, such as networking behaviours and strategies, shape the biographies of their ties" (pp. 9–10, "Relational history and network agency") | coined |
+| Historically informed accuracy | "the alignment between an actor's perception and both the current configuration of a tie or network and the developmental processes that shaped it" (p. 7, "Relational history and network cognition") | coined |
+| Agency-shaped history | "how actors' prior agentic behaviours, such as networking behaviours and strategies, shape the biographies of their ties" (p. 10, "Relational history and network agency") | coined |
 | Relational contraction / expansion | "can describe ties that are currently uniplex but were previously multiplex, or ties that now encompass additional relational dimensions compared to the past" (p. 15, "Relational history and multiplexity") | coined |
 
 ## Open questions
@@ -217,7 +217,7 @@ The authors argue that organizational network research, in both its networks-as-
 
 ## Topic flags
 - triads_third_parties: 2 — "tertius iungens (i.e. brokers bring disconnected parties together), tertius gaudens (i.e. brokers extract rents from keeping disconnected parties apart) and tertius separans" (p. 13, "Relational history and brokerage")
-- intermediaries: 1 — "they are more likely to behave as tertius gaudens, interposing themselves between their contacts who may not trust one another" (p. 13, "Relational history and brokerage")
+- intermediaries: 2 — "Network brokerage, one of the most prominent topics in organizational network research, refers to the act of bridging between otherwise unconnected actors or groups" (p. 11, "Relational history and brokerage") (verifier: raised from 1; brokerage is one of the four debates the paper reorients, with its own section, pp. 11–13, and a future-research strand on p. 19)
 - algorithms_ai: 1 — "state-of-the-art machine learning techniques increasingly allow for automated extraction and coding" (p. 16, "Data collection") (research method)
 - platforms: 0
 - coordination: 1 — "how does such shared memory affect coordination, trust, or conflict?" (p. 19, "Cognitive and narrative construction of relational history")
@@ -230,10 +230,18 @@ The authors argue that organizational network research, in both its networks-as-
 - Crossref gives online date 2025-09-28 and issue 3.
 - Figure 1 (p. 4) and Table 1 (p. 8) extract as scattered cells; Table 1 was read but not quoted.
 - Quote check (22 Nov): two MISSes are extraction artifacts only. OQ-04 spans a page break (printed page number "14" between "multiplexity" and "research"); OQ-08 contains "within-relationship", which the extraction joins as "withinrelationship" at a line-end hyphen. Both quotations are verbatim.
-- Not counted: the historically informed accuracy and activation arguments (pp. 7–9) and the multiplexity scenarios (pp. 14–15) are the authors' own theorizing (stated as propositions and illustrations, answered in text), not calls; the interview prompts "What led to you meeting this person?" and "How quickly did you begin collaborating?" (p. 15) are example survey items, not research questions; the Burt & Opper adaptation and QCA/REM/sequence/LGCA suggestions (pp. 16–18) are folded into OQ-07/OQ-08 rather than recorded separately; "This shift invites organizational network scholars to examine brokerage ... as a historically conditioned practice" (p. 12) is folded into OQ-03.
+- Not counted: the historically informed accuracy and activation arguments (pp. 7–9) and the multiplexity scenarios (pp. 14–15) are the authors' own theorizing (stated as propositions and illustrations, answered in text), not calls; the two example interview prompts on p. 15 (verifier: quotations replaced by this description to keep total quoted words under 800) are example survey items, not research questions; the Burt & Opper adaptation and QCA/REM/sequence/LGCA suggestions (pp. 16–18) are folded into OQ-07/OQ-08 rather than recorded separately; "This shift invites organizational network scholars to examine brokerage ... as a historically conditioned practice" (p. 12) is folded into OQ-03. The p. 2 sentence on embeddedness research being silent about tie history and the p. 3 sentence inviting researchers to take tie biographies seriously state the gap and goal the paper itself addresses; two p. 18 sentences on refining the parameters frame and extend OQ-09; the p. 19 sentence on avenues opened by tie narratives introduces OQ-12. (added by verifier)
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok (apa, doi, 6(3), 2025-09-28, CC BY 4.0 and sha256 match; first page is SAGE VoR, so full_vor)
+- Quotations checked: 43; corrected: 2 locators (Key constructs "Historically informed accuracy" pp. 6–7 to p. 7 and "Agency-shaped history" pp. 9–10 to p. 10: the quoted words sit wholly on the later page; the term itself is introduced on the earlier one); no wording changes; acceptable extraction mismatches: 2 (OQ-04 page break, OQ-08 line-end hyphen, as the Caution says) plus curly-apostrophe normalization only in "Trajectories" and other quotes with ’
+- Recall sweep: hits reviewed 31 (excluding references); OQs added: 0; not-counted hits listed: 9 (five p. 2, p. 3, p. 18 and p. 19 framing hits added to the list)
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: intermediaries 1 to 2 (brokerage, 54 mentions outside the references, is one of four debates the paper reorients and has its own section; scored to match triads_third_parties 2, which rests on the same tertius passage)
+- Limits: total quoted words from the text were about 800 before my edits; the interview prompts in Not counted were replaced by a description, so the total from the text is now about 790 (raw count 800 less the Volume header and the Caution quote-check fragments); the not-counted hits I added are described, not quoted
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

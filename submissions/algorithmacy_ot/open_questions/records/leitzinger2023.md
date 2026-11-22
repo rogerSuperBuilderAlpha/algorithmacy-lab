@@ -13,7 +13,7 @@ license: CC BY-NC 4.0
 read_depth: full_vor (publisher's version, 31 pages; printed pages 1-31 coincide with pdf pages; no cover sheet)
 object_read: "leitzinger2023.pdf sha256 89794a39f9c0e6387fa6fd5fe900e7d118cdd820963c64ee79edcf6601609b3c"
 reader_model: claude-sonnet-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: distributed
 topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 0, platforms: 1, coordination: 1, communication: 1, literacy_competence: 0, evaluation_accountability: 1}
@@ -297,6 +297,14 @@ The review claims that research on social movements and markets has neglected th
 - Level of analysis: field
 - Paraphrase: Goals may evolve and types blur in practice; the review treats them as idealized discrete categories. (reader's paraphrase)
 
+### OQ-leitzinger2023-33
+- Quote: "we propose that organizational and management scholars studying social movement influence should give greater attention to the early stages of movement emergence in market settings." (p. 22, "Discussion and Conclusion")
+- Form: future_research_call
+- Scope: Early stages of movement emergence in market settings
+- Addressee: Organizational and management scholars studying social movement influence
+- Level of analysis: field
+- Paraphrase: Scholars of movement influence should study how movements emerge in markets, so as to link emergence to later consequences for firms and stakeholders. (reader's paraphrase) (added by verifier)
+
 ## Implicit openings
 - The typology is built from published cases, not tested; whether a movement's goal type predicts the life-cycle differences in Table 2 is proposed, not shown. (reader's inference; p. 8, Table 2, and p. 6, "Elimination movements")
 - The paper treats goals as largely "internally determined" (p. 3) while also saying fields constrain them; how fields and goals co-evolve is left to the "goal emergence" and "goal selection" subsections. (reader's inference; p. 3, "Social Movement Goals")
@@ -315,10 +323,17 @@ The review claims that research on social movements and markets has neglected th
 - Version of record, pagination 1-31 matches pdf pages. Tables 1 and 2 extract as fragmented cells; the constructs and claims above are taken from running text, not the tables.
 - Closing form: each life-cycle phase ends in research opportunities inside the review sections, and the Discussion adds three further agenda subsections; hence "distributed". The final "Conclusion" is a short invitation to study the movement side and broader contexts.
 - Quote self-check: one MISS (OQ-27) is only the printed page number "23" falling between "shifts" and "between" in the source. Several quotes carry curly quotation marks or a typographic dash in the source; the checker ignores punctuation.
-- Not counted: the sentence in the final "Conclusion" (p. 24) that the review demonstrates the importance of studying the movement side more deeply, a summary claim; the Phase 1 sentence (p. 9) that gives greater consideration to opportunities for future research, which describes the authors' own method; and the further questions that follow OQ-13, OQ-22 and OQ-24 in the text, which are folded into those entries.
+- Not counted: the sentence in the final "Conclusion" (p. 24) that the review demonstrates the importance of studying the movement side more deeply, a summary claim; the Phase 1 sentence (p. 9) that gives greater consideration to opportunities for future research, which describes the authors' own method; and the further questions that follow OQ-13, OQ-22 and OQ-24 in the text, which are folded into those entries. (added by verifier) Also folded, not counted separately: the p. 10 call for further research on how internal conflict leads to creation-movement emergence (into OQ-05, whose next sentence is its example); the p. 14 remark that many questions remain unanswered (lead-in to OQ-13); the p. 16 statement that questions remain on whether, when and how employees use radical activism (into OQ-14); the p. 19 question on what partial success means for alteration movements and the p. 19 statement that the circumstances of splitting, dormancy or demobilization are unclear (into OQ-21); the p. 21 question whether prevention-based approaches are more promising (into OQ-26); the p. 23 statement that it remains unclear which movements straddle goal types and whether shifts are pre-planned (into OQ-27). Roadmap sentences that promise future-research directions (pp. 3, 11, 22) and the p. 3 claim that understanding of later stages remains incomplete frame the review and name no separate work.
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok (apa, doi, volume 4, issue 2, published_online 2023-06-23 match crossref.json; sha256 matches; first page is the version of record, so full_vor holds)
+- Quotations checked: 52; corrected: 0; acceptable extraction mismatches: 2 (Key constructs, creation movements, p. 5, and OQ-27, p. 23: each split only by the printed page number); all 32 OQs read in context, each supported by the text at its locator
+- Recall sweep: hits reviewed 43 in pp. 1-24 (plus "questions remain", "unclear", "little known" and "opportunity" passages read in context); OQs added: 1 (OQ-33, p. 22 call to give greater attention to early stages of emergence); not-counted hits listed: 10 (folded or roadmap items added to Caution)
+- OQs removed: 0
+- Classification changes: none (OQ-32 boundary_condition kept per the lead's ruling)
+- Topic flags changed: none (coordination also supported at p. 18 "central coordination function" and p. 21; accountability at p. 24 "ability to hold them accountable"; intermediaries hits are p. 21 only)
+- Verdict: verified_with_corrections (one OQ added; Caution not-counted list completed). Total quoted words are close to the 800 cap (about 775 after the addition); the lead may wish to trim.
 
 ## Fit
 pending

@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
 read_depth: full_vor (publisher's version, pp. 1-16, journal header and "Volume 4: 1-16" on first page; printed page numbers equal pdf page numbers; pp. 12-16 include end of conclusion, declarations, notes, references)
 object_read: "jorgensen2023.pdf sha256 de7c3530a27b9c51d205a077b125a63d60b6bd81acc14b312cac01e0bc54fe04"
 reader_model: claude-sonnet-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 0}
@@ -118,7 +118,14 @@ Jørgensen and Beyes take stock of the rising notion of atmosphere in organizati
 - Not counted: "We hope that this theorization of (organizational) atmospheres can illuminate" (p. 12, a hope about the paper's use, not a call); the abstract's "suggesting a vocabulary and sensibility for future atmospheric inquiries" (p. 1, describes the paper's own contribution); "How can we then give form to the atmospheric in organizational analysis?" (pp. 5-6) — the paper's own question, answered in the text, folded into OQ-02 (own_research_question); genealogy-related comment that the study of atmosphere "carries a politics of affirmation that invites further scrutiny" (p. 3, an aim the paper itself pursues). Added by verifier: "How to understand and study this ubiquitous, ephemeral and fuzzy ‘background hum’" (p. 3) and "How to think and study this elemental inbetweenness?" (p. 6) — the paper's own questions, answered in the text, folded into OQ-01/OQ-02; "remains" (p. 3, sensibility that "remains implicit" in extant studies, which the paper itself makes explicit; p. 4, quoting McCormack) — no call; question marks on pp. 14 and 16 — reference titles only.
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok (apa, doi, volume 4, issue 4, published_online 2023-12-21 and Article number match crossref.json; sha256 matches; full_vor is right)
+- Quotations checked: 24; corrected: 2 (Implicit openings and intermediaries flag: straight quote marks in "smartphone’s" and "‘smart’ environments" set to the text's forms); acceptable extraction mismatches: 1 ("How can we then give form ...", pp. 5-6 page break)
+- Recall sweep: hits reviewed 14 (4 term hits, 10 question marks, 3 of them reference titles); OQs added: 0; not-counted hits listed: 4 added; "How can we then give form ..." (pp. 5-6) re-labelled as folded into OQ-02 (own_research_question), per the lead's ruling
+- OQs removed: 0
+- Classification changes: none (OQ-01, 02 own_research_question kept)
+- Topic flags changed: none in score; communication 1 now carries a located verbatim quotation (p. 2) in place of the reader's note that none could be given
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

@@ -13,7 +13,7 @@ license: CC BY-NC 4.0
 read_depth: full_vor (publisher's version, 24 pages; printed pages 1-24 coincide with pdf pages; no cover sheet)
 object_read: "petriglieri2023.pdf sha256 ae420b75cc11a0e5317387b4ea67dc83d7e194eae25b1338b0871c456822f456"
 reader_model: claude-sonnet-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 0, communication: 0, literacy_competence: 0, evaluation_accountability: 1}
@@ -82,7 +82,7 @@ The essay reads management academia through a study of independent workers (free
 
 ## Implicit openings
 - The advice rests on interviews with independent workers and on the authors' own experience; whether the four connections work for academics is asserted, not tested. (reader's inference; p. 7, "Why We Write" and p. 14, "Holding Our (Working) Selves Together")
-- The essay asks whether personalized theorizing yields "more plural and potent" theories, but the link between holding and theory quality is argued, not traced. (reader's inference; p. 20, "Making Organization Theory Personal, Plural, and Potent")
+- The essay asks whether personalized theorizing yields "more plural and potent" theories, but the link between holding and theory quality is argued, not traced. (reader's inference; p. 19, "Making Organization Theory Personal, Plural, and Potent")
 
 ## Topic flags
 - triads_third_parties: 0.
@@ -97,10 +97,17 @@ The essay reads management academia through a study of independent workers (free
 ## Caution
 - Version of record, pagination 1-24 matches pdf pages. The printed label is "Theory Article"; the text calls itself "this essay", so article_type_norm is essay.
 - The article has no future-research or limitations section. The closing section ("Making Organization Theory Personal, Plural, and Potent") restates the argument and issues invitations; it is recorded as a dedicated section for that reason.
-- Not counted: "We began with the claim that the path towards a more pluralist and potent organization theory passes through a more vigorous examination of our personal involvement" (p. 19), a restated thesis; "Does passion... provide sufficient holding?" is recorded as OQ-03 rather than counted twice; questions posed to illustrate the experience ("Doesn't this sound familiar?", p. 13; "what strategies can we use to make a bounded workspace 'cozy and cosseted'", p. 15) are rhetorical and the essay answers them.
+- Not counted: "We began with the claim that the path towards a more pluralist and potent organization theory passes through a more vigorous examination of our personal involvement" (p. 19), a restated thesis; "Does passion... provide sufficient holding?" is recorded as OQ-03 rather than counted twice; questions posed to illustrate the experience ("Doesn’t this sound familiar?", p. 13; "what strategies can we use to make a bounded workspace “cozy and cosseted,” for example?", p. 15) are rhetorical and the essay answers them. (added by verifier) "If not, how do we navigate the joys and sorrow work brings, and grow through it?" (p. 14) follows OQ-03 and is answered by the same four connections; the questions on p. 12 ("Am I writing every day or almost every day?" and "did you not see what happened to them?") voice informants' and academics' worries, not research gaps.
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok (apa, doi, volume 4, issue 1, published_online 2023-02-20 match crossref.json; sha256 matches; first page is the version of record, so full_vor holds)
+- Quotations checked: 25; corrected: 2 (Caution: "Doesn't" to the source's "Doesn’t"; Caution: 'cozy and cosseted' quotation restored to the source's punctuation); locator corrected: 1 (Implicit openings, "more plural and potent" is on p. 19, not p. 20); acceptable extraction mismatches: 0
+- Recall sweep: hits reviewed 25 (13 in the reference list or "remains" without an open question); OQs added: 0; not-counted hits listed: 3 (p. 14 "If not, how do we navigate..."; two informant questions on p. 12)
+- OQs removed: 0
+- Classification changes: none (OQ-03 own_research_question and OQ-04 boundary_condition kept per the lead's rulings)
+- Topic flags changed: none ("accountable" p. 10 and "evaluations" p. 10 support evaluation_accountability 1; second platform hit p. 9 is collaboration through digital platforms, consistent with 1)
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

@@ -13,7 +13,7 @@ license: CC BY-NC 4.0
 read_depth: full_vor
 object_read: "guercini2023.pdf sha256 2be79d8efac84e47cdc3c2bec89ce4097ffb1e66f9d28b92b46ea501f62a86e3"
 reader_model: claude-opus-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 2, evaluation_accountability: 0}
@@ -157,10 +157,17 @@ The authors ask what happens to an organization's existing competences when it a
 - Version: publisher's version of record (SAGE "Theory Article" header, CC BY-NC notice on p. 1). Printed page numbers match PDF pages (1–21).
 - Extraction: Table 1 (p. 14) extracts as interleaved cells, and Proposition 4 appears twice in the text file (once inside the table, once as the displayed proposition). Table 2 (p. 15) is also cell-interleaved.
 - Source wording: p. 16 reads "the competence previously available at time t2 (C1)"; given the surrounding t1/t2 notation, t1 may be intended. Recorded as printed. Page 11 prints "fibrers".
-- Not counted: p. 2 "Why is it important to understand what happens to old competences when new competences are acquired?" (answered immediately in the text); p. 10 "how does competence attrition within organizations work?" and "What increases the attrition of an existing competence?" (answered in the same section, folded into OQ-01/02); p. 10 "one may challenge our theorizing by suggesting that it is only or primarily based on an analogy" (about the authors' own method, answered with vignettes); p. 14 "They are not intended as hypotheses in the strict sense" (about the authors' own method); Note 1 on Zahra and George's "important questions about the antecedents, components, contingencies and outcomes of the construct" (questions attributed to other authors, not posed by this paper).
+- Not counted: p. 2 "Why is it important to understand what happens to old competences when new competences are acquired?" (answered immediately in the text); p. 10 "how does competence attrition within organizations work?" and "What increases the attrition of an existing competence?" (answered in the same section, folded into OQ-01/02); p. 10 "one may challenge our theorizing by suggesting that it is only or primarily based on an analogy" (about the authors' own method, answered with vignettes); p. 14 "They are not intended as hypotheses in the strict sense" (about the authors' own method); Note 1 on Zahra and George's "important questions about the antecedents, components, contingencies and outcomes of the construct" (questions attributed to other authors, not posed by this paper); p. 16 "Future research may therefore, helpfully, extend the propositions that we have offered into further research" and "future work may further elaborate our basic propositions into additional theoretical and empirical research" (lead-in sentences; the calls they introduce are OQ-05 and OQ-06); p. 17 "we have little detailed insight into the actual learning processes" (the gap that motivates OQ-08 and OQ-09, recorded there) (added by verifier).
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok (apa, doi, volume 4, issue 2, published_online 2023-06-07 match crossref.json; object_read matches sha256.txt; p. 1 is the version of record, no cover sheet)
+- Quotations checked: 33; corrected: 0; acceptable extraction mismatches: 0
+- Recall sweep: hits reviewed 22 (excluding reference-list titles); OQs added: 0; not-counted hits listed: 3 added (p. 16 two lead-in sentences; p. 17 "little detailed insight")
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none (no algorithm, AI, platform, coordination, third-party, broker, intermediary, triad, ranking or accountability hits in the body; "evaluat" hits describe firms evaluating knowledge, not evaluation regimes)
+- Verdict: verified_with_corrections (Caution "Not counted" extended only)
 
 ## Fit
 pending

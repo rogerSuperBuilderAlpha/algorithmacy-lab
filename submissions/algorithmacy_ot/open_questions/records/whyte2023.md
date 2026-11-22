@@ -13,7 +13,7 @@ license: CC BY-NC 4.0
 read_depth: full_vor
 object_read: "whyte2023.pdf sha256 f06f4e7ab84f0952d6baa175aa29813399902b691962b419b14ac25b22246fb9"
 reader_model: claude-opus-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 1, intermediaries: 2, algorithms_ai: 0, platforms: 1, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
@@ -171,13 +171,20 @@ Research on online and offline practices has asked how they co-evolve over time;
 
 ## Caution
 - Version: publisher's version of record (SAGE "Theory Article", CC BY-NC notice on p. 1). Printed page numbers match PDF pages (1–17).
-- Extraction: Figure 1 (p. 13, "Summary of our contributions") is an image and was not readable in the text; its content is restated in the Concluding Remarks. ORCID lines are garbled. OQ-07 crosses the p. 13/p. 14 page break; the quote self-check reports it ends-only because the printed page number "14" sits mid-sentence in the extraction. The quote is verbatim. OQ-12 omits two parenthetical citations with "...".
+- Extraction: Figure 1 (p. 13, "Summary of our contributions") is an image and was not readable in the text; its content is restated in the Concluding Remarks. ORCID lines are garbled. OQ-07 crosses the p. 13/p. 14 page break; the quote self-check reports it ends-only because the printed page number "14" sits mid-sentence in the extraction. The quote is verbatim. OQ-12 omits one parenthetical citation, "(e.g. Jarzabkowski & Seidl, 2008; Paroutis et al., 2015)", with "..." (description corrected by verifier).
 - Citation detail as printed: text cites "Gumusay & Reinecke, 2022"; reference list spells "Gümüsay".
 - Evidence base: illustrations come from the authors' own hybrid workshop and meetings, not from a reported study.
-- Not counted: p. 3 signpost to new directions (pointer to the closing section); p. 8 "This, in turn, draws attention to how inclusive practices can be achieved in online organizing" (followed at once by the authors' own examples; close to OQ-02); p. 11 "Whether practices are competing or collaborating in these diversions can only be understood from longer-term effects" (analytic claim, not a call); pp. 14–15 "Our contributions are generalizable to such new and emerging forms of online organizing" (restates OQ-08).
+- Not counted: p. 3 signpost to new directions (pointer to the closing section); p. 8 "This, in turn, draws attention to how inclusive practices can be achieved in online organizing" (followed at once by the authors' own examples; close to OQ-02); p. 11 "Whether practices are competing or collaborating in these diversions can only be understood from longer-term effects" (analytic claim, not a call); pp. 14–15 "Our contributions are generalizable to such new and emerging forms of online organizing" (restates OQ-08); p. 13 "This leads to several opportunities for further research" (lead-in to OQ-03 to OQ-07); p. 14 "There are opportunities for scholars in related theoretical traditions that have studied online and offline practices to extend this theorizing" (lead-in to OQ-12) (added by verifier).
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok (apa, doi, volume 4, issue 4, published_online 2023-12-21 match crossref.json; object_read matches sha256.txt; p. 1 is the version of record, no cover sheet)
+- Quotations checked: 34; corrected: 0; acceptable extraction mismatches: 3 (OQ-07 crosses the p. 13/14 break; the "active participation" definition crosses the p. 8/9 break, and the same words recur in full on p. 13; the pp. 14–15 "Our contributions are generalizable" not-counted quote crosses the page break). Caution's description of the OQ-12 ellipsis corrected (one parenthetical with two citations).
+- Recall sweep: hits reviewed 11 plus a full read of "Concluding Remarks"; OQs added: 0; not-counted hits listed: 2 added (p. 13 and p. 14 lead-in sentences)
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none (no algorithm, AI, coordination, third-party, broker, triad, skill, literacy or ranking hits beyond those scored; "accountability" on p. 4 describes Karunakaran et al.'s case, not this paper's argument)
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

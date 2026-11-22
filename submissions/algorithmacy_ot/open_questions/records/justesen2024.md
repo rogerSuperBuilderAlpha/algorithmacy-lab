@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1; crossref license URL creativecommons.org
 read_depth: full_vor
 object_read: "justesen2024.pdf sha256 0904c37f02251f96834ac4d82ec22ff6493bbe35ca7299604fe200c1619bd307"
 reader_model: claude-opus-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 2, platforms: 2, coordination: 1, communication: 0, literacy_competence: 1, evaluation_accountability: 1}
@@ -26,7 +26,7 @@ run: ot-oq-2026-11
 Research on digitalized organizations attends to what digital technologies enable and make visible (connectivity, automation, visibility), guided by spatial root metaphors of seamless, frictionless, illuminated digital space. Drawing on feminist STS and the concept of invisible work (work that is out of sight and devalued), the authors propose "invisible digi-work" as a corollary to Orlikowski and Scott's concept of digital work. They distinguish three types: connecting work (maintaining and repairing digital connections), compensating work (making up for shortcomings of technologies that promise more than they deliver) and cleaning work (removing digital waste, dirt or disturbing content). Using secondary empirical examples, they locate each type far from the core (platform microworkers), in and around the core (professionals, managers, self-employed) and supporting the core (technicians, data workers), with different mechanisms of invisibility and devaluation (Table 1). Devaluation mechanisms multiply with distance from the core. The paper closes with suggestions on temporal perspectives and methods. (reader's paraphrase)
 
 ## The conversation it joins
-- Positions against / extends: "Hitherto, the literature on organization and digitalization has been disproportionately occupied with what is enabled or made visible in the digitalized organization, rather than with how the digitalized organization is enabled at all." (p. 4, "Digital Work and Digitalized Organizations – attention to the core and the enabled")
+- Positions against / extends: "the literature on organization and digitalization has been disproportionately occupied with what is enabled or made visible in the digitalized organization" (p. 4, "Digital Work and Digitalized Organizations – attention to the core and the enabled")
 - Named interlocutors: Orlikowski & Scott (2016, 2023) (digital work; digital undertow) extended; Leonardi & Treem (2020), Kolb et al. (2020), Flyverbom (2022), Zuboff (2022), Kellogg et al. (2020) as accounts of connectivity, visibility and automation that are problematized; Star (1990, 1995), Star & Strauss (1999), Suchman (2007), Haraway (1988), Daniels (1987), Hatton (2017) as feminist STS / invisible work sources; Whiting & Symon (2020), Gray & Suri (2019), Crawford (2021) as main sources of examples; Alvesson & Sandberg (2011) on problematizing root metaphors.
 - OT articles it cites: Cornelissen, Höllerer & Seidl (2021), "What theory is and can be"; Davis & Sinha (2021), "Varieties of uberization"; Faraj & Pachidi (2021), "Beyond uberization"; Flyverbom (2022), "Overlit: Digital architectures of visibility"; Glaser, Pollock & D'Adderio (2021), "The biography of an algorithm"; Kornberger & Mantere (2020), "Thought experiments and philosophy in organizational research"; Orlikowski & Scott (2023), "The digital undertow and institutional displacement"; Zuboff (2022), "Surveillance capitalism or democracy?"
 - Move: new concept and typology (three types × three positions), via problematization of root metaphors.
@@ -52,7 +52,7 @@ Research on digitalized organizations attends to what digital technologies enabl
 - Paraphrase: Systematic knowledge of the work that keeps connected, automated organizations running is still missing; the paper offers a framework toward it. (reader's paraphrase)
 
 ### OQ-justesen2024-02
-- Quote: "Our paper has observed invisible digi-work through a spatial lens and fostered metaphors aligned with this imagery, but we suggest that future research could supplement this approach with a temporal perspective, conceptualization and metaphors." (p. 21, "Future research: Some suggestions")
+- Quote: "we suggest that future research could supplement this approach with a temporal perspective, conceptualization and metaphors" (p. 21, "Future research: Some suggestions")
 - Form: future_research_call
 - Scope: temporal analysis of invisible digi-work
 - Addressee: future researchers, theorists and empirical
@@ -60,7 +60,7 @@ Research on digitalized organizations attends to what digital technologies enabl
 - Paraphrase: Future work should add a temporal perspective and temporal metaphors to the spatial one used here. (reader's paraphrase)
 
 ### OQ-justesen2024-03
-- Quote: "In addition to being in different places, the various manifestations of invisible work also possess biographies (Glaser et al., 2021) and career trajectories that are worth exploring further." (p. 21, "Future research: Some suggestions")
+- Quote: "the various manifestations of invisible work also possess biographies (Glaser et al., 2021) and career trajectories that are worth exploring further." (p. 21, "Future research: Some suggestions")
 - Form: future_research_call
 - Scope: biographies and career trajectories of forms of invisible digi-work; empirical studies of work to establish and maintain connectivity and automation
 - Addressee: empirical researchers
@@ -68,7 +68,7 @@ Research on digitalized organizations attends to what digital technologies enabl
 - Paraphrase: Researchers could trace how forms of invisible digi-work evolve over time. (reader's paraphrase)
 
 ### OQ-justesen2024-04
-- Quote: "Another possible way of observing the examples of invisible digi-work discussed throughout the paper is to look at how work prepares the digital execution of core tasks and the features of the digitalized organization, and how work repairs the features." (p. 21, "Future research: Some suggestions")
+- Quote: "look at how work prepares the digital execution of core tasks and the features of the digitalized organization, and how work repairs the features" (p. 21, "Future research: Some suggestions")
 - Form: future_research_call
 - Scope: preparing and repairing work before and after "actual" work
 - Addressee: future researchers
@@ -84,15 +84,15 @@ Research on digitalized organizations attends to what digital technologies enabl
 - Paraphrase: Studying invisible digi-work calls for new methods and perhaps methodologies. (reader's paraphrase)
 
 ### OQ-justesen2024-06
-- Quote: "So, what methods will be appropriate to study work that is out of sight as well as devalued? How might we empirically capture and describe the mechanisms that render these activities invisible in the double and thick sense suggested in this paper?" (p. 21, "Future research: Some suggestions")
+- Quote: "So, what methods will be appropriate to study work that is out of sight as well as devalued?" (p. 21, "Future research: Some suggestions")
 - Form: explicit_question
 - Scope: methods for capturing invisibility and devaluation mechanisms
 - Addressee: empirical researchers
 - Level of analysis: multi-level
-- Paraphrase: The authors ask which methods can study work that is both unseen and devalued, and capture the mechanisms producing that invisibility. (reader's paraphrase)
+- Paraphrase: The authors ask which methods can study work that is both unseen and devalued, and (in the next question) how to capture the mechanisms producing that invisibility. (reader's paraphrase)
 
 ### OQ-justesen2024-07
-- Quote: "As much invisible digiwork partly takes places on online platforms, how might netnographies (Kozinets, 2002) and other digital methods supplement more traditional ethnographic work to better access, understand and describe aspects of invisible digi-work" (p. 21, "Future research: Some suggestions")
+- Quote: "how might netnographies (Kozinets, 2002) and other digital methods supplement more traditional ethnographic work to better access, understand and describe aspects of invisible digi-work" (p. 21, "Future research: Some suggestions")
 - Form: explicit_question
 - Scope: netnography and digital methods combined with ethnography, for work that is both online and physically embodied
 - Addressee: qualitative and digital-methods researchers
@@ -124,7 +124,7 @@ Research on digitalized organizations attends to what digital technologies enabl
 - Paraphrase: Document studies could show how formal accounts of digitalization render work invisible. (reader's paraphrase)
 
 ### OQ-justesen2024-11
-- Quote: "Since the cost and indirect consequences of digital affordances are poorly understood, more empirical studies are needed to shed light on the various lived experiences of people engaged with invisible digi-work in practice" (p. 22, "Future research: Some suggestions")
+- Quote: "more empirical studies are needed to shed light on the various lived experiences of people engaged with invisible digi-work in practice" (p. 22, "Future research: Some suggestions")
 - Form: future_research_call
 - Scope: lived experiences of invisible digi-workers
 - Addressee: empirical researchers
@@ -148,7 +148,7 @@ Research on digitalized organizations attends to what digital technologies enabl
 - Paraphrase: Research should account more fully for the emotional costs and mental loads digitalization brings. (reader's paraphrase)
 
 ### OQ-justesen2024-14
-- Quote: "bearing in mind that this picture is not static, that defining a centre depends on the questions posed (Star, 1995), and that more devaluations mechanisms could be identified and problematized." (p. 18, "Invisible work supporting the core")
+- Quote: "this picture is not static, that defining a centre depends on the questions posed (Star, 1995), and that more devaluations mechanisms could be identified and problematized." (p. 18, "Invisible work supporting the core")
 - Form: limitation
 - Scope: the Table 1 mapping of positions and devaluation mechanisms
 - Addressee: future researchers
@@ -156,7 +156,7 @@ Research on digitalized organizations attends to what digital technologies enabl
 - Paraphrase: The mapping is not static and further devaluation mechanisms remain to be identified. (reader's paraphrase)
 
 ### OQ-justesen2024-15
-- Quote: "The various accounts of invisible digi-work presented in this study can be considered elements in a preliminary mapping of the specific places where the digitalized organization is maintained and repaired through connecting, compensating and cleaning work." (p. 20, "Invisible Digi-Work: New topographies of digitalized organizations")
+- Quote: "can be considered elements in a preliminary mapping of the specific places where the digitalized organization is maintained and repaired" (p. 20, "Invisible Digi-Work: New topographies of digitalized organizations")
 - Form: limitation
 - Scope: the illustrative, secondary-source examples as a preliminary atlas
 - Addressee: future researchers
@@ -172,12 +172,20 @@ Research on digitalized organizations attends to what digital technologies enabl
 - Paraphrase: The literature on visibility and opacity could be extended by treating the invisible as distributed, embodied work. (reader's paraphrase)
 
 ### OQ-justesen2024-17
-- Quote: "The definition implies that the hidden operations of big tech companies, intelligence services and other secretive organizations are not invisible work in the sense that we understand it." (p. 22, note 1)
+- Quote: "the hidden operations of big tech companies, intelligence services and other secretive organizations are not invisible work in the sense that we understand it" (p. 22, note 1)
 - Form: boundary_condition
 - Scope: excludes deliberately secret operations from the concept
 - Addressee: readers applying the concept
 - Level of analysis: organization
 - Paraphrase: The concept does not cover secret operations of powerful organizations. (reader's paraphrase)
+
+### OQ-justesen2024-18
+- Quote: "So, in what sense is their work out of sight and devalued?" (p. 17, "Invisible digi-work in and around the core")
+- Form: own_research_question
+- Scope: invisibility and devaluation of the work of professionals, self-employed entrepreneurs and managers in and around the core
+- Addressee: the authors themselves
+- Level of analysis: individual
+- Paraphrase: The authors ask how the work of relatively privileged groups near the core is hidden and devalued and answer it in the following text. (reader's paraphrase) (added by verifier; moved from Not counted under the lead's ruling)
 
 ## Implicit openings
 - (reader's inference) Note 2 records that "in some situations, a certain degree of invisibility is the precondition for professional autonomy and learning" (p. 22, note 2). The main argument treats invisibility as devaluing; when invisibility protects rather than harms is left unexplored.
@@ -198,13 +206,20 @@ Research on digitalized organizations attends to what digital technologies enabl
 - Version: publisher's version of record (SAGE, "Theory Article", Volume 5: 1–26, CC BY-NC). Printed pages equal PDF pages.
 - The title on p. 1 and in crossref orders the types "Compensating, connecting, and cleaning"; the body treats them in the order connecting, compensating, cleaning.
 - Table 1 (p. 19) extracts with columns scrambled; I did not quote from it.
-- OQ-07 quotes "digiwork" and "takes places" as printed (line-end hyphen in "digi-work" lost in extraction; "takes places" is the printed text).
-- Quote self-check: 17 quotes, 15 exact, 1 ends-only, 1 MISS. The MISS (OQ-09) is a page break only: the question runs from p. 21 to p. 22 across the page number "22". Ends-only (OQ-03) is the page-number break on p. 21 ("21" between "different" and "places").
+- (Verifier) OQ-07 was shortened to the question itself; the dropped lead-in read "As much invisible digiwork partly takes places on online platforms" (p. 21).
+- Quote self-check: 17 quotes, 15 exact, 1 ends-only, 1 MISS. The MISS (OQ-09) is a page break only: the question runs from p. 21 to p. 22 across the page number "22". (Verifier: OQ-03 was shortened past that break, so it now matches exactly.)
 - The empirical illustrations are drawn from published studies, not the authors' own data.
-- Not counted: "the time has come to pay attention to and develop novel theoretical tools to understand digitalization phenomena" (pp. 19–20) – answered by the paper's own concept. "we suggest that a more generous conceptualization of digital work needs to be developed" (p. 7) – the paper develops it. "So, in what sense is their work out of sight and devalued?" (p. 17) – rhetorical, answered in the following text. "This resonates with the broader question of how to examine phenomena defined as being invisible" (p. 21) – folded into OQ-05/06. "a temporal analysis could fruitfully be used in empirical studies of the work required to establish and maintain connectivity and automation" (p. 21) – folded into OQ-02/03.
+- Not counted: "the time has come to pay attention to and develop novel theoretical tools to understand digitalization phenomena" (pp. 19–20) – answered by the paper's own concept. "we suggest that a more generous conceptualization of digital work needs to be developed" (p. 7) – the paper develops it. "This ambition resonates with the broader question of how to examine phenomena defined as being invisible" (p. 21) – folded into OQ-05/06. "a temporal analysis could fruitfully be used in empirical studies" (p. 21) – folded into OQ-02/03. (Verifier) "The scale and scope of changes associated with the digitalized organization invite us to rethink the work involved" (p. 6) – the paper's own framing, answered by its concept. The p. 4 "research agenda" hit names Orlikowski and Scott's (2016) agenda, not a call by these authors. (Verifier: the p. 17 question formerly listed here is now OQ-18.)
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok
+- Quotations checked: 43; corrected: 1 (Not-counted p. 21 quote read "This resonates"; text reads "This ambition resonates"); acceptable extraction mismatches: 3 (fauxtomation pp. 12–13, OQ-09 pp. 21–22 and Not-counted pp. 19–20, all page breaks). Ten quotations shortened to bring total quoted words from 893 to 788 (limit 800): conversation "Hitherto", OQ-02, OQ-03, OQ-04, OQ-06, OQ-07, OQ-11, OQ-14, OQ-15, OQ-17, and one Not-counted quote
+- Recall sweep: hits reviewed 15; OQs added: 1 (OQ-18, the p. 17 question moved from Not counted under the lead's ruling; its section and subject corrected: it asks about professionals, entrepreneurs and managers in and around the core, not microworkers); not-counted hits listed: 2 added (p. 6 "invite us to rethink", p. 4 "research agenda")
+- OQs removed: 0
+- Classification changes: none beyond OQ-18
+- Topic flags changed: none. Lead may judge two flags higher: intermediaries (one of the three positions is "Supporting the core: Mediating and linking digital elements", p. 11, with technicians as "middlemen" and data staff's "intermediary function", p. 16) and evaluation_accountability (devaluation mechanisms run through pp. 8–20 and Table 1, but as the social valuation of work, not ratings or accountability)
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

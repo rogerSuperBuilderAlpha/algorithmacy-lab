@@ -85,3 +85,38 @@ here; the run continues to `REPORT.md` without stopping at gates other than Gate
   work published outside OT. Synthesis notes these as conversations that continue beyond the corpus; the
   run does not add the earlier pieces.
 - **racker2024 issue.** Crossref gives issue 2; the PDF prints none. Crossref is used.
+- **V06 flag queries** (garud2025 algorithms_ai/platforms; abend2024 and stevenson2024
+  evaluation_accountability) go to the Fable hand-check. The flag means evaluation of people or
+  organizations as practice, not criteria for judging scholarly theory.
+- **V08 queries.** (1) krautzberger2024 `triads_third_parties: 1` stands for now; Fable may revert.
+  (2) Answered questions the reader did not record stay under Not counted; the ruling covers how recorded
+  ones are classed, not adding new ones. (3) skade2025 OQ-04 stays a `future_research_call`, because the
+  paper only partly closes the gap.
+- **V07 queries.** Folding near-duplicate own questions into one `own_research_question` OQ is accepted,
+  since those questions never count as open. The flag scale is the reader brief's: 1 = in passing,
+  2 = central. Crossref's title punctuation stands. schildt OQ-05 stays an `invitation`.
+- **V10 queries.** (1) Calls the paper fulfils itself stay under Not counted, by the same logic as answered
+  questions. (2) The three flags stay at 1. Racker's "accountability" means who does which sub-task, which
+  is coordination, not evaluation. Justesen's mediating technicians are intermediaries, so Fable may raise
+  that flag to 2 at hand-check.
+- **V09 queries.** Accepted: friesl2023 evaluation 2 (moral evaluating is one of its two mechanisms) and
+  jackwerthrice2023 intermediaries 1 (brokering). leitzinger2023 OQ-33 stays separate from OQ-29, because
+  it has a different addressee and section.
+- **V12 queries.** scherer2023 accountability 2 accepted. whyte2023 `intermediaries` is lowered to 1 at
+  hand-check unless Fable finds an intermediary actor, since technology mediating experience is not a
+  party standing between parties. Zuboff (2022) is outside the corpus, so there is no exchange_id.
+- **V11 queries.**
+  1. dion2025 `triads_third_parties` is lowered to 1 at hand-check. Its Thirdness is a relation among
+     three terms of meaning, not among social parties (p. 8, p. 15). Synthesis records it separately as
+     the corpus's one Peircean argument, because the author's dissertation work on Peirce's reduction
+     thesis touches it directly.
+  2. brennecke2025 intermediaries 2 accepted (brokerage section, pp. 11–13).
+  3. dion2025 OQ-01 as `own_research_question` accepted.
+  4. patriotta2025's theorized failure modes stay under Not counted. Only conditions the authors place
+     outside their model are boundary conditions.
+  5. Quotations in a Verification section do not count toward the 800-word cap.
+
+## 22 Nov 2026: S5 complete
+
+All 66 records are verified across V01–V12, plus V05 (re-anchoring to the versions of record). No record
+holds a quotation that is absent from its source.

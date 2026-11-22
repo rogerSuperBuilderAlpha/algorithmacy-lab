@@ -13,7 +13,7 @@ license: CC BY-NC 4.0
 read_depth: full_vor
 object_read: "pozner2023.pdf sha256 1b31d0363e1a4dcba58305575fb6bdf9236f7d9cd82a451ccd3473aea5fb1506"
 reader_model: claude-opus-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 0, platforms: 1, coordination: 0, communication: 2, literacy_competence: 0, evaluation_accountability: 2}
@@ -189,10 +189,17 @@ Organizational scandal research, the authors argue, studies scandal's consequenc
 - Version: publisher's version of record (SAGE "Theory Article", CC BY-NC notice on p. 1). Printed page numbers match PDF pages (1–21). The introduction carries no heading.
 - Extraction: p. 13 prints "Conse-quently" with a soft hyphen at a line end, so OQ-06 starts after that word. OQ-03 crosses the p. 3/p. 4 page break; the quote self-check reports it ends-only because the printed page number "4" sits mid-sentence in the extraction. The quote is verbatim.
 - Citation details as printed: p. 5 cites "Jacobs, 2017, p. 377" while the reference list has Jacobs (2007); p. 9 cites "Star, 2021" for Starr (2021). Pozner is a co-author of Greve et al. (2010), an interlocutor.
-- Not counted: p. 4 "Who are the actors pushing the media to publicize transgressions?" (answered from the literature in the same paragraph); p. 5 "Who consumes the media?" (section heading, answered with relational publics); p. 12 "Missing from our account so far is an examination of the role of social control agents" (answered in the same section); p. 9 the quoted Weick question on knowing what we think (quoted illustration, not a research question); p. 16 "Yet organizational scholarship lags the work of sociologists" (gap statement folded into OQ-16).
+- Not counted: p. 4 "Who are the actors pushing the media to publicize transgressions?" (answered from the literature in the same paragraph); p. 5 "Who consumes the media?" (section heading, answered with relational publics); p. 12 "Missing from our account so far is an examination of the role of social control agents" (answered in the same section); p. 9 the quoted Weick question on knowing what we think (quoted illustration, not a research question); p. 16 "Yet organizational scholarship lags the work of sociologists" (gap statement folded into OQ-16); p. 15, the "research agenda" sentence opening "Future directions" (lead-in to OQ-07 to OQ-11); p. 15, scandal entrepreneurs not yet examined systematically in social evaluation (gap that OQ-10 and OQ-11 take up); p. 15, presidential scandals' networked-media affordances "that we do not sufficiently cover here" (part of the boundary in OQ-13); p. 16, social media not treated "discretely" (limitation that OQ-15 answers); p. 16, the "black box of audiences" that little work has addressed (gap the paper claims to address; its extension is OQ-16) (added by verifier).
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok (apa, doi, volume 4, issue 3, published_online 2023-09-30 match crossref.json; object_read matches sha256.txt; p. 1 is the version of record, no cover sheet)
+- Quotations checked: 36; corrected: 0; acceptable extraction mismatches: 2 (OQ-03 crosses the p. 3/4 break; the p. 6 "proto-scandal" definition is split by the running header)
+- Recall sweep: hits reviewed 15 plus a full read of "Future directions" and "Conclusion"; OQs added: 0; not-counted hits listed: 5 added (p. 15 "research agenda" lead-in, p. 15 scandal-entrepreneur gap, p. 15 presidential scandals, p. 16 social media, p. 16 "black box of audiences")
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none (no algorithm, AI, platform, coordination, third-party, broker, triad, literacy, ranking hits in the body; "competen"/"coordinat" only in references and the author bio)
+- Verdict: verified_with_corrections (Caution "Not counted" extended only)
 
 ## Fit
 pending

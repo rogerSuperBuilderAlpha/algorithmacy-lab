@@ -2,7 +2,7 @@
 
 > Compiled by `tools/compile_questions.py` from the records; every quotation is the article's own words, located, and verified at S5. Form `own_research_question` marks a question the paper answers itself.
 
-678 entries from 65 articles; 618 excluding the papers' own research questions.
+681 entries from 65 articles; 619 excluding the papers' own research questions.
 
 ## Bacq, Toubiana, Ruebottom, Ormiston & Ajunwa (2023). Entrepreneurship Out of Shame: Entrep
 `bacq2023` · 4(1) · theory
@@ -145,6 +145,7 @@
 - **OQ-leitzinger2023-30** (limitation; field): “it is unclear how well our current theories fully explain the numerous other types of activism directed at markets” (p. 24, "Discussion and Conclusion: The state of social movements and markets research")
 - **OQ-leitzinger2023-31** (invitation; field): “broadening our research contexts to include movements representing a greater variety of geographic locations, socio-economic backgrounds, racial and ethnic identities, and types of grievances” (p. 24, "Discussion and Conclusion: The state of social movements and markets research")
 - **OQ-leitzinger2023-32** (boundary_condition; field): “In practice, we expect these categories to be much more permeable” (p. 6, "Social Movement Goals")
+- **OQ-leitzinger2023-33** (future_research_call; field): “we propose that organizational and management scholars studying social movement influence should give greater attention to the early stages of movement emergence in market settings.” (p. 22, "Discussion and Conclusion")
 
 ## Orlikowski, W. J., & Scott, S. V. (2023). The digital undertow and institutional displacem
 `orlikowski2023` · 4(2) · theory · exchange `v5i3-digital-undertow-genai`
@@ -347,22 +348,23 @@
 `justesen2024` · 5(1) · theory
 
 - **OQ-justesen2024-01** (future_research_call; organization): “we still need solid and systematically produced knowledge about the invisible work required to uphold, maintain and repair the connected and automated organization.” (p. 9, "Invisible work and digitalized organizations")
-- **OQ-justesen2024-02** (future_research_call; multi-level): “Our paper has observed invisible digi-work through a spatial lens and fostered metaphors aligned with this imagery, but we suggest that future research could supplement this approach with a temporal perspective, conceptualization and metaphors.” (p. 21, "Future research: Some suggestions")
-- **OQ-justesen2024-03** (future_research_call; multi-level): “In addition to being in different places, the various manifestations of invisible work also possess biographies (Glaser et al., 2021) and career trajectories that are worth exploring further.” (p. 21, "Future research: Some suggestions")
-- **OQ-justesen2024-04** (future_research_call; organization): “Another possible way of observing the examples of invisible digi-work discussed throughout the paper is to look at how work prepares the digital execution of core tasks and the features of the digitalized organization, and how work repairs the features.” (p. 21, "Future research: Some suggestions")
+- **OQ-justesen2024-02** (future_research_call; multi-level): “we suggest that future research could supplement this approach with a temporal perspective, conceptualization and metaphors” (p. 21, "Future research: Some suggestions")
+- **OQ-justesen2024-03** (future_research_call; multi-level): “the various manifestations of invisible work also possess biographies (Glaser et al., 2021) and career trajectories that are worth exploring further.” (p. 21, "Future research: Some suggestions")
+- **OQ-justesen2024-04** (future_research_call; organization): “look at how work prepares the digital execution of core tasks and the features of the digitalized organization, and how work repairs the features” (p. 21, "Future research: Some suggestions")
 - **OQ-justesen2024-05** (future_research_call; multi-level): “We believe that invisible digi-work requires not only new ways of theorizing the digitalized organization but also novel methods, and possibly even new methodologies.” (p. 21, "Future research: Some suggestions")
-- **OQ-justesen2024-06** (explicit_question; multi-level): “So, what methods will be appropriate to study work that is out of sight as well as devalued? How might we empirically capture and describe the mechanisms that render these activities invisible in the double and thick sense suggested in this paper?” (p. 21, "Future research: Some suggestions")
-- **OQ-justesen2024-07** (explicit_question; interaction): “As much invisible digiwork partly takes places on online platforms, how might netnographies (Kozinets, 2002) and other digital methods supplement more traditional ethnographic work to better access, understand and describe aspects of invisible digi-work” (p. 21, "Future research: Some suggestions")
+- **OQ-justesen2024-06** (explicit_question; multi-level): “So, what methods will be appropriate to study work that is out of sight as well as devalued?” (p. 21, "Future research: Some suggestions")
+- **OQ-justesen2024-07** (explicit_question; interaction): “how might netnographies (Kozinets, 2002) and other digital methods supplement more traditional ethnographic work to better access, understand and describe aspects of invisible digi-work” (p. 21, "Future research: Some suggestions")
 - **OQ-justesen2024-08** (explicit_question; multi-level): “Can we devise methods to describe this hybrid presence and its consequences?” (p. 21, "Future research: Some suggestions")
 - **OQ-justesen2024-09** (explicit_question; individual): “How might time studies give new insights regarding the amount of unobtrusive daily tasks of connecting, compensating and cleaning that sneaks into all types of work practices?” (pp. 21–22, "Future research: Some suggestions")
 - **OQ-justesen2024-10** (explicit_question; organization): “How might document studies, in combination with other qualitative organizational studies, offer insights into the invisibilities produced in accounts of digitalization?” (p. 22, "Future research: Some suggestions")
-- **OQ-justesen2024-11** (future_research_call; individual): “Since the cost and indirect consequences of digital affordances are poorly understood, more empirical studies are needed to shed light on the various lived experiences of people engaged with invisible digi-work in practice” (p. 22, "Future research: Some suggestions")
+- **OQ-justesen2024-11** (future_research_call; individual): “more empirical studies are needed to shed light on the various lived experiences of people engaged with invisible digi-work in practice” (p. 22, "Future research: Some suggestions")
 - **OQ-justesen2024-12** (future_research_call; multi-level): “Such studies could teach us more about the implications of digitalization for employment relations, professional relationships, management and the conditions for collective action related to work conditions.” (p. 22, "Future research: Some suggestions")
 - **OQ-justesen2024-13** (future_research_call; individual): “Finally, we could account more fully for the emotional costs, mental loads and unintended tasks associated with digitalization.” (p. 22, "Future research: Some suggestions")
-- **OQ-justesen2024-14** (limitation; organization): “bearing in mind that this picture is not static, that defining a centre depends on the questions posed (Star, 1995), and that more devaluations mechanisms could be identified and problematized.” (p. 18, "Invisible work supporting the core")
-- **OQ-justesen2024-15** (limitation; organization): “The various accounts of invisible digi-work presented in this study can be considered elements in a preliminary mapping of the specific places where the digitalized organization is maintained and repaired through connecting, compensating and cleaning work.” (p. 20, "Invisible Digi-Work: New topographies of digitalized organizations")
+- **OQ-justesen2024-14** (limitation; organization): “this picture is not static, that defining a centre depends on the questions posed (Star, 1995), and that more devaluations mechanisms could be identified and problematized.” (p. 18, "Invisible work supporting the core")
+- **OQ-justesen2024-15** (limitation; organization): “can be considered elements in a preliminary mapping of the specific places where the digitalized organization is maintained and repaired” (p. 20, "Invisible Digi-Work: New topographies of digitalized organizations")
 - **OQ-justesen2024-16** (invitation; organization): “there is great potential in further developing our understanding of the invisible in the digitalized organization in a particular sense, namely as a type of work that is distributed, practical and embodied.” (p. 21, "Invisible Digi-Work: New topographies of digitalized organizations")
-- **OQ-justesen2024-17** (boundary_condition; organization): “The definition implies that the hidden operations of big tech companies, intelligence services and other secretive organizations are not invisible work in the sense that we understand it.” (p. 22, note 1)
+- **OQ-justesen2024-17** (boundary_condition; organization): “the hidden operations of big tech companies, intelligence services and other secretive organizations are not invisible work in the sense that we understand it” (p. 22, note 1)
+- **OQ-justesen2024-18** (own_research_question; individual): “So, in what sense is their work out of sight and devalued?” (p. 17, "Invisible digi-work in and around the core")
 
 ## Sasaki, I., & Baba, S. (2024). Shades of Cultural Marginalization: Cultural Survival and A
 `sasaki2024` · 5(1) · theory
@@ -625,6 +627,7 @@
 - **OQ-mutch2025-03** (invitation; field): “Recognizing law as a central institutional logic directs our attention to the possibility for practices to be transferred from the legal to the organizational domain (and vice versa).” (p. 13, "Conclusion")
 - **OQ-mutch2025-04** (invitation; multi-level): “A focus on practices, drawing on Friedland, can suggest new avenues for organizational inquiry.” (p. 13, "Conclusion")
 - **OQ-mutch2025-05** (boundary_condition; field): “It is recognized that these contrasts can only be indicative in nature” (p. 13, "Implications")
+- **OQ-mutch2025-06** (future_research_call; field): “This article has sought to argue that organizational scholars need to take the law seriously as a key influence on organizational life.” (p. 13, "Conclusion")
 
 ## Keller, Berti & Smith (2025). Paradoxical Theorizing: A multimodal approach to generate ne
 `keller2025` · 6(2) · theory
@@ -715,7 +718,7 @@
 ## Dion, F., Cooren, F., & Dupuis, J. (2025). Organization Theory and Ontological Claims: Wor
 `dion2025` · 6(4) · theory · exchange `v6i4-organizationality`
 
-- **OQ-dion2025-01** (explicit_question; organization): “As with any definitional apparatus, it raises the following question: if the model's purported objective is to set boundaries for its object (organization), what is kept, in this definitional act, outside those boundaries?” (p. 4, "Organizationality: A Critical Review")
+- **OQ-dion2025-01** (own_research_question (verifier: was explicit_question; the authors answer it in their own text, through their reply to Apelt et al.'s critique on p. 4, where they say their own view of criteria-based definitions leads the opposite way, and through the fourth tension, which places organizationality in communication wherever it occurs, pp. 7–16); organization): “As with any definitional apparatus, it raises the following question: if the model's purported objective is to set boundaries for its object (organization), what is kept, in this definitional act, outside those boundaries?” (p. 4, "Organizationality: A Critical Review")
 - **OQ-dion2025-02** (explicit_question; field): “How can we support the claim that what we need is a strong notion of what organizations are (that would distinguish them radically from other social collectives), while recognizing that organizations now take so many forms? And which empirical grounds can support this search for the ontological distinctiveness of organizations” (p. 5, "Organizationality: A Critical Review")
 - **OQ-dion2025-03** (explicit_question; multi-level): “How does the organizationality of communication explain the nature and behavior of social agents?” (p. 11, "A Fourth Tension", Table 3)
 - **OQ-dion2025-04** (explicit_question; field): “Whether these theoretical objects that are traditional organizations are sufficiently specific in their form of organizing to form the crux of a scientific discipline (OS), or whether the said discipline should step forward and study organizationality unbound by liberal preoccupations for legally recognized 'moral agents' is another question.” (p. 11, "A Fourth Tension")
@@ -874,7 +877,7 @@
 - **OQ-corver2026-06** (explicit_question; organization): “Do organizations typically move from addressing discrete, separate sustainability problems toward recognizing and managing increasingly interconnected ones” (p. 17, "Discussion")
 - **OQ-corver2026-07** (future_research_call; field): “This invites further theorizing on how modeling generates its own distinct pathways to impact” (p. 17, "Discussion")
 - **OQ-corver2026-08** (future_research_call; organization): “Equally important is empirical research into which specific kinds of organizational decisions modeling has, in fact, contributed to productively” (p. 17, "Discussion")
-- **OQ-corver2026-09** (future_research_call; interaction): “a richer empirical understanding is needed of how theorists and practitioners can work together to support the development of organizational capacities constitutive of being a good "tool user."” (p. 17, "Discussion")
+- **OQ-corver2026-09** (future_research_call; interaction): “a richer empirical understanding is needed of how theorists and practitioners can work together to support the development of organizational capacities constitutive of being a good “tool user.”” (p. 17, "Discussion")
 - **OQ-corver2026-10** (future_research_call; organization): “Future work also could more systematically map how particular modeling actions relate to concrete results, retrospectively identifying which of these actions in fact support successful sustainability problem-solving processes” (p. 17, "Discussion")
 - **OQ-corver2026-11** (explicit_question; interaction): “Is the capacity for problem reframing, for instance, distributed differently across organizational roles than the capacity for reflexive evaluation” (p. 17, "Discussion")
 - **OQ-corver2026-12** (future_research_call; organization): “Further conceptual and empirical work could explore whether additional types of modeling actions become visible once this vocabulary is applied to settings with different problem structures” (p. 18, "Discussion")
