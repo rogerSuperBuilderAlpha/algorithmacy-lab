@@ -1,6 +1,6 @@
 ---
 key: pavlisa2026
-apa: Pavlisa, K., Harvey, W. S., & Doh, J. (2026). Stakeholder governance and inequality: A theory of reciprocal exchange. Organization Theory, 7(2). https://doi.org/10.1177/26317877261456299
+apa: Pavlisa, K., Harvey, W. S., & Doh, J. (2026). Stakeholder governance and inequality: A theory of reciprocal exchange. Organization Theory, 7(2), Article 26317877261456299. https://doi.org/10.1177/26317877261456299
 doi: 10.1177/26317877261456299
 volume: 7
 issue: 2
@@ -13,7 +13,7 @@ license: CC BY 4.0 (printed on the article and in crossref)
 read_depth: full_vor (publisher's typeset SAGE article, pp. 1-25; all 25 pdf pages read; printed page = pdf page)
 object_read: "pavlisa2026.pdf sha256 48eb7272b676108758d5ed4fde4bf62f55840df486e32c1f390f461e299c6d33"
 reader_model: Sonnet 5.5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 1, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 1}
@@ -38,7 +38,7 @@ run: ot-oq-2026-11
 | Societal economic inequality | "uneven distribution in the endowment and/or access to financial and non-financial resources in a society" (p. 3, "Role of Firms in the Distribution of Endowment in Society", quoting Bapuji et al., 2020, p. 64) | Borrowed |
 | Capitals-based power | "Capitals as contributions to the power of economic actors or their utility function." (p. 8, Table 1) | Borrowed from Bourdieu, applied by the authors |
 | Capital weighting | "the relative value (‘weighting’) of such non-pecuniary resources in the context of the stakeholder’s field" (p. 9, "Bourdieu’s Concepts for Understanding Stakeholder Disadvantage") | Authors' application of Bourdieu |
-| Homologous fields | "Each field has its dominant and dominated, its reproduction mechanisms, capital distribution and the logics of their accumulation by agents" (p. 12, "Accumulation in Pursuit of Capitals-Based Power") | Borrowed (Bourdieu & Wacquant, 1992) |
+| Homologous fields | "Each field has its dominant and dominated and its reproduction mechanisms, capital distribution and the logics of their accumulation by agents" (p. 12, "Accumulation in Pursuit of Capitals-Based Power"; corrected by verifier: the earlier wording was the Table 1 cell on p. 8) | Borrowed (Bourdieu & Wacquant, 1992) |
 | Stakeholder disadvantage | "a localised redistribution of capital that alters a stakeholder’s resources and/or capacity to accumulate valued resources in their economic field" (p. 10, "A Stakeholder Theory of Reciprocal Exchange") | Coined |
 | Principle of fair reciprocal exchange | "a comparable change in an actor’s and their collaborators’ utility functions that can be delivered through mutually beneficial exchanges of one or more forms of capital" (p. 14, "Reciprocal Exchange, Capital Weightings and Stakeholder Disadvantage") | Coined |
 
@@ -109,9 +109,17 @@ run: ot-oq-2026-11
 ## Caution
 - Printed page equals pdf page. Table 1 (p. 8) extracts in scrambled cell order; the Table 1 quote in the constructs table is a single cell and matches as written.
 - The article uses British spelling in the text; quotations keep it.
+- Not counted (verifier's recall sweep): p. 2, "Global economic inequality remains deeply entrenched" is context; p. 5, "the limitations of a traditional hub-and-spoke model" is a critique of prior work; pp. 16 and 20, "Limited attention has been paid" states the gap the paper itself fills; p. 18, the limitation sentence is OQ-03; references, question marks are titles. (added by verifier)
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: corrected (apa: added the e-locator "Article 26317877261456299" from crossref article-number)
+- Quotations checked: 27; corrected: 1 (constructs table, homologous fields: wording matched Table 1 on p. 8, not the p. 12 text cited; quote changed to the p. 12 wording); acceptable extraction mismatches: 1 (OT title "theory’s" printed with a curly apostrophe)
+- Recall sweep: hits reviewed 4 (plus a full read of pp. 16-20); OQs added: 0; not-counted hits listed: 5
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

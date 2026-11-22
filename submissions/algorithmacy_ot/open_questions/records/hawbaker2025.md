@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1; crossref agrees)
 read_depth: full_vor (publisher's typeset PDF; printed pp. 1-11 = pdf pp. 1-11)
 object_read: "hawbaker2025.pdf sha256 11cb0331b8dbc17d4a8bb652226989d507c5ec636dae09084aa30271d064351a"
 reader_model: claude-opus-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 0}
@@ -76,31 +76,16 @@ A reply to Nigam, Amis and Logue (2025). The authors accept that Taylor Swift is
 - Paraphrase: The authors call for institutional theory to work alongside other sociological accounts of influential persons rather than absorb them. (reader's paraphrase)
 
 ### OQ-hawbaker2025-05
-- Quote: "What, then, are distinct people such as Taylor Swift?" (p. 6, "Leaders, Totems, and Cultural Creators")
-- Form: explicit_question
-- Scope: how to theorize influential individuals outside the institution concept
-- Addressee: organization and institutional theorists
-- Level of analysis: individual
-- Paraphrase: The piece asks what influential people are, if not institutions, and answers it in the same section: leaders, totems and cultural creators. (reader's paraphrase)
+- Removed by verifier: the question introduces the section that answers it in the next paragraphs (people such as Swift are leaders, totems and cultural creators); the text does not leave it open or ask others to take it up. Former quote: "What, then, are distinct people such as Taylor Swift?" (p. 6, "Leaders, Totems, and Cultural Creators")
 
 ### OQ-hawbaker2025-06
-- Quote: "How can an individual person become an institution if that becoming demands the constant, repeated, and routine interactions of a social world?" (p. 4, "Collective Co-Creation and Change")
-- Form: explicit_question
-- Scope: the logical status of the person-institution claim
-- Addressee: Nigam et al. and institutional theorists
-- Level of analysis: interaction
-- Paraphrase: The authors pose, and answer in the negative in the next sentence, the question of how an individual can be an institution when institutionalization depends on many people's interactions. (reader's paraphrase)
+- Removed by verifier: rhetorical question, answered in the next sentence ("They cannot, because the institution evaporates without the interactions.", p. 4); not left open. Former quote: "How can an individual person become an institution if that becoming demands the constant, repeated, and routine interactions of a social world?" (p. 4, "Collective Co-Creation and Change")
 
 ### OQ-hawbaker2025-07
-- Quote: "Similar comparisons might be made to The Grateful Dead and their “Deadhead” followers (Grubb, 2016), and Beyoncé and the Beyhive (Coleman, 2018)." (p. 7, "Leaders, Totems, and Cultural Creators")
-- Form: invitation
-- Scope: comparative cases of fandoms and their creators (Potterology, Deadheads, Beyhive)
-- Addressee: empirical researchers
-- Level of analysis: field
-- Paraphrase: The authors point to other fandoms as comparison cases for whether a mythology can persist apart from, or against, its creator. (reader's paraphrase)
+- Removed by verifier: the authors make this comparison themselves and close it in the next sentence ("Although “Deadheads” and “The Beyhive” have not fomented such revolts, the case of J.K. Rowling and Potterology demonstrates the possibility.", p. 7); the text does not call for comparative research. Former quote: "Similar comparisons might be made to The Grateful Dead and their “Deadhead” followers (Grubb, 2016), and Beyoncé and the Beyhive (Coleman, 2018)." (p. 7, "Leaders, Totems, and Cultural Creators")
 
 ## Implicit openings
-1. (reader's inference) The Harry Potter case shows inhabitants taking a mythology away from its creator: "Disgusted by Rowling’s politics, the fans took control, prioritizing the art over the artist." (p. 7, "Leaders, Totems, and Cultural Creators"). The conditions under which inhabitants "take the crown" are not specified.
+1. (reader's inference) The Harry Potter case shows inhabitants taking a mythology away from its creator: "Disgusted by Rowling’s politics, the fans took control, prioritizing the art over the artist." (p. 7, "Leaders, Totems, and Cultural Creators"). The conditions under which inhabitants take the crown ("they took the crown", p. 7, quoting the song) are not specified.
 2. (reader's inference) The reply treats the Eras Tour as an organization that became an institution ("Those concerts are over, but the institution endures.", p. 3, "Definitional Clarity") alongside Swiftology as a mythology. How a temporary organization's institutionalization relates to the broader mythology is left open.
 3. (reader's inference) The closing describes Swiftology as "coupled differently depending on setting and interactants" (p. 9, "Discussion"). Variable coupling across settings is asserted rather than examined.
 
@@ -121,9 +106,17 @@ A reply to Nigam, Amis and Logue (2025). The authors accept that Taylor Swift is
 - In-text "Ocasio (2023, p. 3)" is quoted via Nigam et al.; this reference list gives Ocasio (2023) as the Cambridge book *Organizational attention and institutional logics*, not the OT article Nigam cites.
 - Hawbaker's p. 4 quotation in the paged text has line breaks inside "become successively objectivated"; fine.
 - Crossref published-online (2025-12-01) precedes the lead piece's (2025-12-06).
+- Not counted (verifier's recall sweep): p. 4 "How, then, do these definitions provide us with less tautological ways to think about Taylor Swift?" and p. 6 "Why?" are rhetorical questions the text answers at once. The two "remains" hits (pp. 7, 9) are statements, not calls.
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: ok (apa, doi, volume 6, issue 4, published_online 2025-12-01 match crossref; sha256 matches; p. 1 is the SAGE version of record)
+- Quotations checked: 32; corrected: 1 (Implicit opening 1: "take the crown" is not in the text; replaced with the text's "they took the crown", p. 7); acceptable extraction mismatches: 1 ("become successively objectivated", running header on p. 4). Three quoted phrases in Caution ("Also key is reciprocity", "an associated recognizable repertoire", "75th anniversary") quote nigam2025, not this text, and could not be checked here.
+- Recall sweep: hits reviewed 6; OQs added: 0; not-counted hits listed: 2 (added to Caution)
+- OQs removed: 3 (OQ-05: the question introduces the section that answers it; OQ-06: rhetorical, answered "They cannot" in the next sentence; OQ-07: a comparison the authors make and close themselves, not a call)
+- Classification changes: none
+- Topic flags changed: none (no flag terms in the text)
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

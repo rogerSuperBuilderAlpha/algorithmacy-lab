@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1 and crossref)
 read_depth: full_vor (publisher's version of record; printed pages 1-22 coincide with pdf pages 1-22; pp. 17-22 are references and Table A1, which I scanned rather than read line by line)
 object_read: "georgiou2023.pdf sha256 5a34abc86bcfd30ba1d9ddf7775c501a5261294671e7b865f7151b307d341efe"
 reader_model: Claude Sonnet 5.5 (claude-sonnet-5-5)
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 1, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 1, communication: 1, literacy_competence: 0, evaluation_accountability: 1}
@@ -121,6 +121,22 @@ Thornton, Ocasio and Lounsbury (2012) added community to the inter-institutional
 - Level of analysis: field
 - Paraphrase: The four types may not cover all communities, which leaves other types to be examined against the logic. (reader's paraphrase)
 
+### OQ-georgiou2023-11
+- Quote: "What practices are deliberately established to preserve the basis of the logic—the common boundary—beyond the ones described in our analysis?" (p. 15, "Future Research")
+- Form: explicit_question
+- Scope: practices that maintain the common boundary of a community, beyond those the review identifies
+- Addressee: institutional-work researchers
+- Level of analysis: organization
+- Paraphrase: Which deliberate practices keep a community's boundary, the base of its logic, in place? (reader's paraphrase) (added by verifier)
+
+### OQ-georgiou2023-12
+- Quote: "Quantitative researchers may benefit from some of the measures already used as proxies for the community logic [...] or propose new operationalizations." (p. 16, "Future Research")
+- Form: future_research_call
+- Scope: measuring the community logic (existing proxies, new operationalizations); the preceding sentence points qualitative researchers to pattern deducing, matching and inducing (Reay & Jones, 2016)
+- Addressee: quantitative and qualitative researchers
+- Level of analysis: field
+- Paraphrase: Researchers should reuse or build measures of the community logic for empirical work. (reader's paraphrase) (added by verifier)
+
 ## Implicit openings
 - The authors say the four types "are not mutually exclusive" and give examples of overlap (p. 13, "Discussion"); how the logic variants combine in overlapping communities is not analysed (reader's inference).
 - Communities of users are "formed around a product, service, or platform" and include open-source software communities (p. 8); how platform-based organizing changes the boundary or the variant is not taken up (reader's inference).
@@ -136,10 +152,19 @@ Thornton, Ocasio and Lounsbury (2012) added community to the inter-institutional
 - evaluation_accountability: 1. "establishing reputation systems" (p. 12, "The variant of communities of firms")
 
 ## Caution
-VOR; printed page equals pdf page. On pdf p. 16 the extraction mixes the right column: the Conclusion's lines are interleaved with the Funding and Acknowledgments blocks, so the final Conclusion paragraph reads out of order in the text file. Table 1 (p. 10) extracts cell by cell and is not reliable as a table. Quotations in the Discussion and Future Research sections that span a page break (the definition of institutional logics, pp. 2-3; the limitation in OQ-10, pp. 6-7) interrupt at a running header, which is fine. The quote in OQ-02 follows a sentence that starts earlier on p. 15; I quote only the second sentence.
+VOR; printed page equals pdf page. On pdf p. 16 the extraction mixes the right column: the Conclusion's lines are interleaved with the Funding and Acknowledgments blocks, so the final Conclusion paragraph reads out of order in the text file. Table 1 (p. 10) extracts cell by cell and is not reliable as a table. Quotations in the Discussion and Future Research sections that span a page break (the definition of institutional logics, pp. 2-3; the limitation in OQ-10, which sits on p. 6 but is broken by a mid-page running header, corrected by verifier) interrupt at a running header, which is fine. The quote in OQ-02 follows a sentence that starts earlier on p. 15; I quote only the second sentence.
+
+Not counted (verifier's recall sweep): pp. 1-2, "avenues for future research" (twice) signposts the Future Research section; p. 2, "offering scope for comparative future research" and p. 14, "enables comparative research" are covered by OQ-03; p. 4, "transcends the limitations of the craft guild" is quoted from Adler et al.; p. 14, "the community logic remains coherent" is a finding; p. 15, "future research could explore cases in which community groups face institutional complexity" is the lead-in to OQ-04, and "community groups might yield equally interesting contexts" is folded into OQ-04; p. 16, "In taking on this ambitious research agenda" introduces the hurdles and method advice now in OQ-12; pp. 17-22, question marks are reference titles. (added by verifier)
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: ok
+- Quotations checked: 25 (plus 2 in added OQs); corrected: 0; acceptable extraction mismatches: 2 (pp. 2-3 institutional-logics definition broken by the page break and running header; p. 6 OQ-10 broken by a mid-page "Organization Theory" header). Caution wording on OQ-10's page span corrected.
+- Recall sweep: hits reviewed 19; OQs added: 2 (OQ-11, OQ-12); not-counted hits listed: 8
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

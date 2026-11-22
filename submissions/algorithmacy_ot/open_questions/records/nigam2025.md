@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1; crossref agrees)
 read_depth: full_vor (publisher's typeset PDF behind a City Research Online cover sheet that states "This is the published version of the paper."; pdf p. 1 is the cover sheet; printed pp. 1-11 = pdf pp. 2-12)
 object_read: "nigam2025.pdf sha256 64f63c25cc2cf13ad584b8517dcc44a1bead7c7df39f65bb6e6d30a38c28e77b"
 reader_model: claude-opus-5-5
-verified: pending
+verified: yes
 hand_check: pending
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 1, platforms: 1, coordination: 0, communication: 2, literacy_competence: 0, evaluation_accountability: 0}
@@ -155,9 +155,17 @@ The authors propose that an individual person, not an office-holder, can become 
 - The article writes "objectivation" in headings and "objectification" in the Discussion and Conclusion (pp. 5, 8, 9); recorded as printed.
 - The algorithms_ai and intermediaries scores rest on one sentence about ticketing; both are in passing.
 - Crossref gives published-online 2025-12-06, later than the reply hawbaker2025 (2025-12-01); recorded as given.
+- Not counted (verifier's recall sweep): the three question marks on printed pp. 10–11 ("What's in a name?", "What is an institution?", "Field or fields?") are reference titles. The p. 2 "future work" sentence is OQ-01. The sweep terms miss most of this paper's calls ("raise questions", "would be interesting to study", "one could examine"); I read the Discussion and Conclusion (pp. 7–9) in full and found no call outside OQ-02 to OQ-11. (added by verifier)
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: ok
+- Quotations checked: 29; corrected: 0; acceptable extraction mismatches: 2 (line-end hyphen in "person-institutions", OQ-07 and OQ-08)
+- Recall sweep: hits reviewed 4; OQs added: 0; not-counted hits listed: 3
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified
 
 ## Fit
 pending

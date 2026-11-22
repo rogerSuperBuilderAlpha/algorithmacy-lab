@@ -13,7 +13,7 @@ license: CC BY 4.0 (from crossref; no licence printed in the accepted manuscript
 read_depth: full_aam (City Research Online cover sheet states "This is the accepted version of the paper."; manuscript has no title page, author names or abstract; manuscript pp. 1-19 = pdf pp. 2-20)
 object_read: "derekrobinson2025.pdf sha256 251bfe214de5abba75aa8609d659b3dd426cf364d00332f92f64c0f6ff4400a0"
 reader_model: claude-opus-5-5
-verified: pending
+verified: yes
 hand_check: pending
 closing_form: question_list
 topic_flags: {triads_third_parties: 1, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 1, communication: 1, literacy_competence: 0, evaluation_accountability: 0}
@@ -186,9 +186,17 @@ A commentary on Nigam et al. (2025). The authors accept that some people may bec
 - Citation anomalies in the text, recorded not adjudicated: Nigam et al. (2025) is cited throughout but missing from the reference list; in-text "Thompson (2006)" vs. reference "Thomson, Matthew (2006)"; in-text "Ocasio 2013" (p. 8) has no matching reference; Nigam et al. is cited at "2025, 12" (p. 11) for a passage at printed p. 7 of the nigam2025 VOR.
 - The Fournier & Eckhardt person-brand definition is quoted in two slightly different forms (p. 1 "commercial brand offering"; p. 5 "commercialized brand offering").
 - "discreet" in OQ-11 is as printed.
+- Not counted (verifier's recall sweep): p. 3 "warrants the consideration of their ontology" is the paper's own argument, not work for others. Calls folded into existing OQs rather than counted separately: p. 15 "We propose that the study of person-institutions with a view to person brand ontology can lead to a more complete typology" (OQ-01); p. 16 "Answering these questions could happen by systematically sampling person-institutionalization across a wide range of contexts" (method for OQ-10 to OQ-13); p. 16 "Scale may also be relevant to a more comprehensive typology of person institutions" (OQ-15). The sweep's "future research" and "?" hits on pp. 2, 15 and 16 are all OQs already. (added by verifier)
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: ok (apa, doi, volume, issue and published_online match crossref; read_depth full_aam matches the City Research Online cover sheet)
+- Quotations checked: 34; corrected: 0; acceptable extraction mismatches: 3 (line-end hyphens in "people-institutions" OQ-05 and "person-institution" OQ-08; page break with footer number in OQ-09)
+- Recall sweep: hits reviewed 8; OQs added: 0; not-counted hits listed: 1 (plus 3 calls mapped to existing OQs)
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified
 
 ## Fit
 pending

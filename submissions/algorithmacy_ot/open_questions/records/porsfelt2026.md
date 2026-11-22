@@ -1,6 +1,6 @@
 ---
 key: porsfelt2026
-apa: Porsfelt, R., Vestergaard, A., & Hjorth, D. (2026). Image, imagination, imaginaries: A genealogy of imago-concepts in organisational research. Organization Theory, 7(3). https://doi.org/10.1177/26317877261484615
+apa: Porsfelt, R., Vestergaard, A., & Hjorth, D. (2026). Image, imagination, imaginaries: A genealogy of imago-concepts in organisational research. Organization Theory, 7(3), Article 26317877261484615. https://doi.org/10.1177/26317877261484615
 doi: 10.1177/26317877261484615
 volume: 7
 issue: 3
@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on the article and in crossref)
 read_depth: full_vor (publisher's typeset SAGE article, pp. 1-35; all 35 pdf pages read; printed page = pdf page)
 object_read: "porsfelt2026.pdf sha256 ad871e24c991125a90c1498a64cdf55909ad2fbacc4291ed117465679f2884db"
 reader_model: Sonnet 5.5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 1, platforms: 0, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 0}
@@ -134,9 +134,17 @@ run: ot-oq-2026-11
 - Printed page equals pdf page. Table 1 (p. 9) extracted in scrambled cell order; I did not quote it.
 - The keywords list "intra-subjunctive imagination" while the abstract names "inter-subjunctive"; the body develops both terms (pp. 24-25). I used the body.
 - Self-check: one MISS (OQ-06), caused only by a line-end hyphen in the text layer ("here-and-now" on p. 24); the wording is verbatim.
+- Not counted (verifier's recall sweep): p. 2, the "limitations of these concepts" sentence frames the paper's own task; p. 8, "further clarity about the concept’s internal mechanisms and contours is necessary and warranted" is the task the paper itself takes on; p. 14, "To overcome this limitation, we now extend" is the paper's own move; p. 20, "But what is it that sets imaginaries apart" is answered in the text; pp. 22-23, "limitation(s)" hits assess Taylorian and Castoriadian accounts; note 1 (p. 26), "the genealogy of imagination remains a work-in-progress" describes the literature the paper adds to; other "remains" hits are descriptive; reference titles. (added by verifier)
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: corrected (apa: added the e-locator "Article 26317877261484615" from crossref article-number)
+- Quotations checked: 39; corrected: 0; acceptable extraction mismatches: 2 (p. 3 "imago-concepts" and p. 24 "here-and-now" extract without their line-end hyphens)
+- Recall sweep: hits reviewed 22; OQs added: 0; not-counted hits listed: 7
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

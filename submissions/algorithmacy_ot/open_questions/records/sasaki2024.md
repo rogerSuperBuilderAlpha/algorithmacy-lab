@@ -13,10 +13,10 @@ license: crossref lists CC BY-NC 4.0 for the published article; this object is a
 read_depth: full_aam (Warwick WRAP author's accepted manuscript; the cover page reads "Manuscript ID Draft" and the pages carry a "For Peer Review" watermark and manuscript line numbers, so it looks like the peer-review-stage manuscript, not the accepted text; wording may differ from the version of record). Locators are pdf pages. The manuscript's own "Page n of 50" equals pdf page n+2.
 object_read: "sasaki2024.pdf sha256 c9a207ce41beb3fbe290e0a7f2dc1eac0dfdbe16ec63c127096ede001309c7ed"
 reader_model: Claude Sonnet 5.5 (claude-sonnet-5-5)
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
-topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 0}
+topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 0}
 run: ot-oq-2026-11
 ---
 
@@ -104,14 +104,22 @@ The authors say organization and management theory lacks a systematic account of
 - platforms: 0
 - coordination: 0
 - communication: 1. "Language is thus an important means of community building, and it is often a powerful vehicle for the induction of new members into a culture." (pdf p. 30, "Cultural survival toolkit: Discursive cultural elements")
-- literacy_competence: 0
+- literacy_competence: 1. "Some groups with more opportunities and fewer constraints can use a broader range of cultural resources more skillfully and flexibly than others" (pdf p. 24, "Cultural Survival and Cultural Autonomy Processes"); the toolkit argument turns on unequal skill in using cultural resources (raised from 0 by verifier)
 - evaluation_accountability: 0
 
 ## Caution
 This is the Warwick WRAP author's accepted manuscript, apparently the peer-review-stage file (see read_depth), so wording, section headings and the article-type label may differ from the published version. There are no printed journal pages in it, so locators are pdf pages ("Page n of 50" in the text is pdf p. n+2). The extraction carries manuscript line numbers and the "Fo r Peer Review" watermark, which I stripped for reading only; I read the full text including the reference list. Figure 1 and Table 1 (pdf pp. 13-14) extract cell by cell. The official quote check reports MISS or ends-only for some quotes here because the extracted text interleaves manuscript line numbers and the peer-review watermark; I re-checked every quotation against a copy with those removed and all match. Some quoted sentences span a page break and a manuscript header, which is not an error.
+- Not counted (verifier's recall sweep): pdf p. 9 "remains" is Table text; pdf p. 44 "Directions for Further Research" is the heading; pdf pp. 46 and 50 question marks are reference titles. Folded into existing OQs rather than counted separately: pdf p. 45 "our theorized spectrum of marginalization invites scholars to become more sensitive to the nature and degree of cultural marginalization" (OQ-01); pdf p. 45 "We also need insight into how marginalized groups can assert their interests, in this case culturally, against more powerful groups" (the lead-in to OQ-03); pdf p. 45 "the urgent need for organizational theorists to pay more attention to these cultural marginalization dynamics" (closing restatement, OQ-02). (added by verifier)
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: ok (apa, doi, volume, issue and published_online match crossref; read_depth full_aam matches the WRAP cover sheet)
+- Quotations checked: 20 (plus the added flag quotation); corrected: 0; acceptable extraction mismatches: 7 (manuscript line numbers and the "For Peer Review" watermark interleaved in the extraction; all 20 match on the stated pdf page once these are stripped)
+- Recall sweep: hits reviewed 12; OQs added: 0; not-counted hits listed: 3 groups (plus 3 calls mapped to existing OQs)
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: literacy_competence 0 -> 1 (pdf p. 24)
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

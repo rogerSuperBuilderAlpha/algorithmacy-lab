@@ -49,7 +49,8 @@
 | key | reason |
 |---|---|
 | derekrobinson2025 | accepted manuscript read; page numbers will not match the published article |
-
 | sasaki2024 | peer-review-stage manuscript read ("For Peer Review" watermark); wording may differ from the published article |
+| phillips2024 | author manuscript (eScholarship) read; locators are pdf pages |
+| hsu2024 | author manuscript (eScholarship) read; locators are pdf pages |
 
 Other repository copies are checked at S5; any that turn out to be accepted manuscripts are added here.

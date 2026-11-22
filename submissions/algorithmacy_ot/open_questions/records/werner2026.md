@@ -1,6 +1,6 @@
 ---
 key: werner2026
-apa: "Werner, M. D., Cornelissen, J., & Turkenburg, K. (2026). Moral selves: Organizational character and the pursuit of purpose. Organization Theory, 7(1), 26317877261423230. https://doi.org/10.1177/26317877261423230"
+apa: "Werner, M. D., Cornelissen, J., & Turkenburg, K. (2026). Moral selves: Organizational character and the pursuit of purpose. Organization Theory, 7(1), Article 26317877261423230. https://doi.org/10.1177/26317877261423230"
 doi: 10.1177/26317877261423230
 volume: 7
 issue: 1
@@ -13,10 +13,10 @@ license: CC BY 4.0 (printed on p. 1; crossref)
 read_depth: full_vor
 object_read: "werner2026.pdf sha256 256e5aeb8ca5dde877a48d1054ecbfe12041ffac0077cf455b99ca5d1f0d40e6"
 reader_model: claude-opus-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
-topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 1}
+topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 1, coordination: 0, communication: 1, literacy_competence: 0, evaluation_accountability: 2}
 run: ot-oq-2026-11
 ---
 
@@ -28,7 +28,7 @@ Starting from firms' divergent responses to the second Trump administration's at
 ## The conversation it joins
 - Positions against / extends: "While actorhood theories such as these offer stylized pictures that have significant analytical mileage (North, 1990), they also have as a key limitation that they give a muted or “thin” account of morality and of the moral agent" (p. 4, "Organizations as Moral Subjects"); "Where organizational character has been largely neglected in organizational scholarship since Selznick (1949, 1957), we conceptualize the constituent dimensions of the concept" (p. 3, "Introduction").
 - Named interlocutors: Selznick (1949, 1957, 1992, 2008); Basu and Palazzo (2008); C. Taylor (1989); B. Williams (1985); Bromley and Meyer (2021); Meyer and Bromley (2013); Donaldson and Dunfee (1994, 1999); MacIntyre (1985); Moore (2002, 2005); King, Felin and Whetten (2010); J. R. Taylor and Cooren (1997); Haack, Schoeneborn and Wickert (2012); Haack, Martignoni and Schoeneborn (2021); Tetlock (2002); Stanovich (2011); Hollensbe et al. (2014); Voronov and Weber (2016); Whetten (2006).
-- OT articles it cites: Bromley and Meyer (2021), "Hyper-management: Neoliberal expansions of purpose and leadership"; Perkmann, Phillips and Greenwood (2022), "Institutional arbitrage: How actors exploit institutional difference".
+- OT articles it cites: Bromley and Meyer (2021), "Hypermanagement: Neoliberal expansions of purpose and leadership" (title as printed in the reference list; corrected by verifier from "Hyper-management"); Perkmann, Phillips and Greenwood (2022), "Institutional arbitrage: How actors exploit institutional difference".
 - Move: new concept elaboration (organizational character), typology of ideal types, process model, critique of actorhood theories.
 
 ## Key constructs
@@ -136,7 +136,7 @@ Starting from firms' divergent responses to the second Trump administration's at
 - coordination: 0.
 - communication: 1. "From this reasoning perspective, organizations consist of ongoing instances of talk and conversations through which members of the organization collectively articulate to themselves and others who they are" (p. 5, "Organizational Character and the Moral Background")
 - literacy_competence: 0.
-- evaluation_accountability: 1. "When such public attention then creates perceived accountability and legitimacy pressures (Figure 1: activated accountability pressures), it compel an organization to start to entertain such a commitment." (p. 17, "Organizational Character Pathways")
+- evaluation_accountability: 2 (raised by verifier from 1: accountability pressures define the role-performer type and are a named step in the process model, Figure 1, pp. 9-17). "organizations follow a role, or set of roles, in an attempt to be accountable and legitimate to powerful others" (p. 10, "Role performers"). "When such public attention then creates perceived accountability and legitimacy pressures (Figure 1: activated accountability pressures), it compel an organization to start to entertain such a commitment." (p. 17, "Organizational Character Pathways")
 
 ## Caution
 - Version of record (SAGE, Volume 7: 1–27, e-locator 26317877261423230), CC BY 4.0. Printed page numbers match PDF page numbers.
@@ -146,9 +146,17 @@ Starting from firms' divergent responses to the second Trump administration's at
 - The metaphor for role performers differs between Table 1 ("Pragmatic politician") and the text on p. 11 ("intuitive politician"); recorded as found.
 - The reference list gives the OT article as "Hypermanagement"; the published title is hyphenated in some renderings. Not checked against the OT record.
 - Published online 1 April 2026, issue dated January 2026 (crossref).
+- Not counted (verifier's recall sweep): p. 1, the abstract question is the same as OQ-01; pp. 3-4, the "limitation(s)" of actorhood views is the critique the paper itself answers; p. 10, "what should be done here?" is quoted from Taylor; p. 16 and p. 20, "further research" sentences signpost the implications section; p. 21, the sentence that further work may explore the calling distinction is folded into OQ-04, and the remark that the process focus leaves space for normative research is the lead-in to OQ-09 and OQ-10; p. 22, the hope to inspire future research is a closing hope; pp. 23-27, question marks are reference titles. (added by verifier)
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: corrected (apa: added "Article" before the e-locator, matching crossref article-number)
+- Quotations checked: 28; corrected: 1 (OT-articles line: Bromley & Meyer title quoted as "Hyper-management", printed "Hypermanagement" in the reference list); acceptable extraction mismatches: 2 (p. 5 organizational-character definition and p. 15 "calling" quote are broken by a mid-column page number)
+- Recall sweep: hits reviewed 17; OQs added: 0; not-counted hits listed: 8
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: evaluation_accountability 1 to 2 (p. 10 quotation added)
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

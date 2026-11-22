@@ -13,7 +13,7 @@ license: CC BY 4.0 (printed on p. 1 and crossref)
 read_depth: full_vor (publisher's version of record; printed pages 1-23 coincide with pdf pages 1-23; pp. 18-23 are acknowledgements and references, which I scanned for Organization Theory entries rather than reading line by line)
 object_read: "fotaki2023.pdf sha256 0904e6305c29172e0499bb693d6e121e05df0a01cd0144817408b00dbbf47894"
 reader_model: Claude Sonnet 5.5 (claude-sonnet-5-5)
-verified: pending
+verified: yes
 hand_check: pending
 closing_form: distributed
 topic_flags: {triads_third_parties: 1, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 0, literacy_competence: 1, evaluation_accountability: 0}
@@ -110,7 +110,14 @@ No dedicated "future research" section. Contributions, "Practical Implications" 
 VOR; printed page equals pdf page. The in-text "Organization Theory" running headers sit in the extracted text, and a page number ("17") appears mid-sentence on p. 17 from column extraction; I avoided quoting across it. I read pp. 1-18 in full and scanned pp. 19-23 (acknowledgements, references).
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: ok (apa, doi, volume 4, issue 1, published_online 2023-03-11 match crossref; sha256 matches; p. 1 is the SAGE version of record)
+- Quotations checked: 24; corrected: 0; acceptable extraction mismatches: 2 (the p. 2/3 break inside "neither theorize ... of care"; the printed page number "17" inside the OQ-04 sentence)
+- Recall sweep: hits reviewed 11 (10 are question-mark titles in the reference list; the other is the epigraph, OQ-02); OQs added: 0; not-counted hits listed: 0
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none (the one "platform" hit is "provides a platform for reconsidering", p. 11)
+- Verdict: verified
 
 ## Fit
 pending

@@ -1,6 +1,6 @@
 ---
 key: gumusay2024
-apa: "Gümüsay, A. A., & Reinecke, J. (2024). Imagining desirable futures: A call for prospective theorizing with speculative rigour. Organization Theory, 5(1), 26317877241235939. https://doi.org/10.1177/26317877241235939"
+apa: "Gümüsay, A. A., & Reinecke, J. (2024). Imagining desirable futures: A call for prospective theorizing with speculative rigour. Organization Theory, 5(1), Article 26317877241235939. https://doi.org/10.1177/26317877241235939"
 doi: 10.1177/26317877241235939
 volume: 5
 issue: 1
@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1; crossref)
 read_depth: full_vor
 object_read: "gumusay2024.pdf sha256 7e499a75836e1f5356603968f8a1e161c8dac9ee9b25c0717d737928bcf3703c"
 reader_model: claude-opus-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 1, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
@@ -170,9 +170,17 @@ The authors argue that organization theory is bound to the empirical past, which
 - In OQ-04 the extraction scatters "valuation / methods, / convening" over separate lines (justified-text artefact); words are unchanged.
 - evaluation_accountability scored 1: the paper's evaluative criteria (speculative rigour) concern the evaluation of scholarly theory, which is central to the paper but is not organizational evaluation or metrics; organizational valuation metrics appear only in passing (p. 13). The lead may wish to re-score.
 - Tables 1 and 2 are flattened in the extraction; the cell order was read from context.
+- Not counted (verifier's recall sweep): p. 1 "we call for prospective theorizing" and p. 8 "invites prospective theorizing about alternative modes of organizing our futures" (the paper's own programme, which it develops; its open remainder is OQ-01); p. 10 "For instance, if only we existed in a large-scale ecotopia?" (illustration of Mode 4); pp. 12–13 "What if we valued a living tree (as natural capital) more than a dead tree (as wood)?" and the question on valuing firms by net positive contribution "instead of profits?" (examples folded into OQ-04); p. 17 "Does it make logical sense and align with existing scientific knowledge and empirical evidence, for instance, from climate science?" (a test question within the plausibility criterion, which the paper sets out); p. 14 "invite imaginative participation from audiences" (describes outputs, not a call).
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: corrected (apa lacked "Article" before the e-locator; doi, volume 5, issue 1, published_online 2024-03-28 match crossref; sha256 matches; p. 1 is the SAGE version of record)
+- Quotations checked: 41; corrected: 0; acceptable extraction mismatches: 1 ("future-oriented" in the abstract, line-end hyphen)
+- Recall sweep: hits reviewed 21 (3 in reference-list titles); OQs added: 0; not-counted hits listed: 7 (added to Caution)
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none (evaluation_accountability left at 1; see the reader's note in Caution, which the lead may still re-score)
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

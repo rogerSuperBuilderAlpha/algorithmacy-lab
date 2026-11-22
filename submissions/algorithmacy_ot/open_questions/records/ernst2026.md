@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
 read_depth: full_vor (publisher's version of record, 21 pdf pages; printed page numbers 1-21 match the pdf page markers, so locators use the printed page; the separate ernst2026_repo.pdf was ignored per the brief)
 object_read: "ernst2026.pdf sha256 b21328049d20dc1633269374f07ba5fbd0d767d3bbaac97677edaed2acb7574b"
 reader_model: Claude Sonnet 5.5 (claude-sonnet-5-5)
-verified: pending
+verified: yes
 hand_check: pending
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
@@ -122,8 +122,17 @@ run: ot-oq-2026-11
 ## Caution
 Text is two-column; the extraction interleaves lines and hyphenates at line ends, so quotations were rejoined by hand. Printed page equals pdf page (1-21). A repository copy (ernst2026_repo.pdf) exists and was not read. The section heading "Research reflexivity in OS – turning towards Bourdieu" is printed with an en dash in the source. The Cunliffe (2022) citation on p. 13 has no matching reference-list entry in the text I read. The article is about the OS field's research practice and has no content on algorithms, platforms or intermediaries; flags are 0 on those. The conclusion states one limitation, one explicit question and an invitation, with no dedicated future-research section.
 
+Not counted (verifier's recall sweep): p. 7, the question about how to make "Algeria" exist as an object is Bourdieu's own historical question (quoted from Yacine, 2004), not work left to others; pp. 12-13, the "delimitations" hits concern research-object boundaries, not the paper's limits; p. 16, "we hope to reinforce calls for deeper reflexivity in the OS field" frames the paper's own contribution; p. 17, the remaining question marks are reference titles. (added by verifier)
+
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: ok
+- Quotations checked: 25; corrected: 0; acceptable extraction mismatches: 3 (p. 13 "Bourdieu-inspired" and p. 3 "taken-for-granted" extract without their line-end hyphens; pp. 4-5 "focused on less ... conducting empirical research" is broken by the page break and running header)
+- Recall sweep: hits reviewed 9; OQs added: 0; not-counted hits listed: 4
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified
 
 ## Fit
 pending

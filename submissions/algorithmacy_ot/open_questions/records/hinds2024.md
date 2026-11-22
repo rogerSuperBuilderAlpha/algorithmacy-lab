@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1; crossref license content-version "unspec
 read_depth: full_vor
 object_read: "hinds2024.pdf sha256 672412ee8bf6068c05e1342730a30f6c1e1602c935decfbe77e01e3d091667db"
 reader_model: Claude Opus 5.5 (claude-opus-5-5)
-verified: pending
+verified: yes
 hand_check: pending
 closing_form: question_list
 topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 2, platforms: 1, coordination: 2, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
@@ -259,9 +259,17 @@ The authors extend Bailey et al.'s (2022) relational view of technology, which s
 - The back matter states both that the authors received grant support (Declaration of conflicting interests) and that they "received no financial support" (Funding), p. 12. Recorded, not resolved.
 - closing_form: the Discussion holds the five-domain question list, but many questions also sit in the "Team coordination" section (pp. 7–9). The questions are therefore partly distributed.
 - Several original passages run across page breaks (e.g., pp. 5–6 "increasingly / convenient"); quotations were checked against a reading-order text extraction (pdftotext) of the PDF, ignoring running headers and page numbers.
+- Not counted (verifier's recall sweep): p. 1 "invites us, as organizational scholars, to evaluate the sufficiency of our existing theories" frames the essay's own task; pp. 9–10 "it remains unclear how" states the gap the article itself takes up; p. 10 "needs refinement in future work" is the sentence that opens OQ-12; p. 12 "so why bother?" is a rhetorical question the authors answer; pp. 13–14 question marks are reference titles. Sub-questions folded into existing OQs rather than counted separately: p. 8 "less necessary" (OQ-04); p. 8 "To what extent are the emergence of such mental models" (OQ-08); p. 10 "alternative sources of power" (OQ-13); p. 10 "How do the relations between sources of data", "Do hitherto marginalized", "Or does the largely impersonal coordination" (OQ-15); p. 11 "hyper-specialization" and "amalgamate" (OQ-17); p. 11 "how can GenAI become a valuable idea source" (OQ-18); p. 11 "What alternative sources of power emerge if knowledge confers less power?" (OQ-20). (added by verifier)
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: ok
+- Quotations checked: 45; corrected: 0; acceptable extraction mismatches: 4 (p. 12 "value-led" extracts as "valueled"; p. 8 "how the encapsulation of some practices" and p. 9 "we need theory on how GenAI" broken by a running header; pp. 5–6 "increasingly convenient" broken by a page break)
+- Recall sweep: hits reviewed 37; OQs added: 0; not-counted hits listed: 6 (plus 11 sub-questions mapped to existing OQs)
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified
 
 ## Fit
 pending

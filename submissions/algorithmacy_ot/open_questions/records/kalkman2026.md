@@ -1,6 +1,6 @@
 ---
 key: kalkman2026
-apa: Kalkman, J. P. (2026). The purpose of crisis management: Normative directions for a care-based approach. Organization Theory, 7(2). https://doi.org/10.1177/26317877261467771
+apa: Kalkman, J. P. (2026). The purpose of crisis management: Normative directions for a care-based approach. Organization Theory, 7(2), Article 26317877261467771. https://doi.org/10.1177/26317877261467771
 doi: 10.1177/26317877261467771
 volume: 7
 issue: 2
@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on the article and in crossref)
 read_depth: full_vor (publisher's typeset SAGE article, pp. 1-23; all 23 pdf pages read; printed page = pdf page; the separate kalkman2026_repo.pdf was ignored as instructed)
 object_read: "kalkman2026.pdf sha256 7874ed83b7fb43f14829e47e1c4c3b7399b3b2fbdcd79703747d47e65b06889c"
 reader_model: Sonnet 5.5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
@@ -78,7 +78,7 @@ run: ot-oq-2026-11
 ### OQ-kalkman2026-05
 - Quote: "scholars and practitioners will encounter open questions that empirical studies can address, such as how relationships are cultivated and maintained in an organization affected by crisis, how to train and prepare crisis managers to be good leaders, which organizational members or external stakeholders are particularly vulnerable to a crisis" (p. 15, "Implications for Empirical Research")
 - Form: future_research_call
-- Scope: The sentence continues across the page break with "and what measures can be taken to reduce their vulnerability." The Introduction lists related empirical questions "on the ethics of crisis response efforts, how organizations can change their crisis management approach, and which effects care-based crisis management approaches produce" (p. 3, "Introduction").
+- Scope: The sentence continues on the same page, after the page number that the extraction places mid-column, with "and what measures can be taken to reduce their vulnerability." The Introduction lists related empirical questions "on the ethics of crisis response efforts, how organizations can change their crisis management approach, and which effects care-based crisis management approaches produce" (p. 3, "Introduction").
 - Addressee: empirical researchers and practitioners
 - Level of analysis: multi-level
 - Paraphrase: A list of four open empirical questions: relational upkeep in crisis, preparation of crisis managers, who is vulnerable, and how to reduce vulnerability. (reader's paraphrase)
@@ -124,12 +124,22 @@ run: ot-oq-2026-11
 
 ## Caution
 - Pagination: printed page equals pdf page throughout. Table 1 (p. 7) extracted as scrambled cells, so I quoted constructs from the running text on pp. 8-11 instead.
-- OQ-05 ends at a page break in the source; I quoted only the text before the break. OQ-02 starts after a page break and a running header ("Kalkman"), so its opening word "Future" is omitted.
+- OQ-05 ends where the extraction inserts the printed page number "15" mid-column; the sentence continues on p. 15 (verifier's correction: not a page break). I quoted only the text before that point. OQ-02 starts after a page break and a running header ("Kalkman"), so its opening word "Future" is omitted.
 - The quote in Implicit openings 2 ("care-based approach") is hyphenated in my record; the text layer has it as "carebased" because of a line-end hyphen. Not a wording difference.
 - The kalkman2026_repo.pdf was not read, as instructed.
+- OQ-02 begins with "Future" at the foot of p. 14; the quoted words are all on p. 15 (verifier's note).
+- Not counted (verifier's recall sweep): p. 2 "normative debate over the purpose of crisis management remains virtually absent" (the gap the paper itself fills); p. 4 the cited gaps that organizational learning after crises is a "little discussed issue" and that "the process of crisis-induced learning remains not well understood" (other authors' gap statements used as background, not taken up as a call); p. 14 "I have aimed to invite discussion on the purpose of crisis management" (folded into OQ-01); p. 11 "invite guest speakers" (a practice example).
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: corrected (apa lacked the e-locator; added "Article 26317877261467771"; doi, volume 7, issue 2, published_online 2026-07-21 match crossref; sha256 matches; p. 1 is the SAGE version of record)
+- Quotations checked: 39; corrected: 0; acceptable extraction mismatches: 2 ("care-based" split by a line-end hyphen in Implicit opening 2; the OQ-05 continuation in Scope sits after the printed page number "15")
+- Recall sweep: hits reviewed 24 (about 15 in reference-list titles); OQs added: 0; not-counted hits listed: 5 (added to Caution)
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Other: OQ-05 Scope and Caution said the sentence crosses a page break; it continues on p. 15 after the printed page number. Wording corrected; locator unchanged.
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

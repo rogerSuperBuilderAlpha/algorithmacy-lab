@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1 and crossref)
 read_depth: full_vor (publisher's version of record; printed pages 1-26 coincide with pdf pages 1-26; pp. 20-26 after the Discussion are declarations, notes and references, which I scanned for Organization Theory entries)
 object_read: "wright2023.pdf sha256 d449c72af5fd3b4fa20d7388074d89b6e00756f864ceaafce341e95aeba2bbc5"
 reader_model: Claude Sonnet 5.5 (claude-sonnet-5-5)
-verified: pending
+verified: yes
 hand_check: pending
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 1, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
@@ -108,9 +108,17 @@ No dedicated "future research" section. Calls for further research sit in the Di
 
 ## Caution
 VOR; printed page equals pdf page. Table 1 (p. 5) and Figure 1 (p. 14) extract in jumbled order. Fine breaks in OQ-02 (page 16 to 17, running header) are not an error. The "Notes" on p. 20 were scanned; the references were scanned for Organization Theory entries, and the three OT items above are those I found.
+- Not counted (verifier's recall sweep): p. 4 "how theorizing happens in these contexts remains largely opaque" (the gap the paper fills; its research question is OQ-01); p. 4 the REDS framework "setting a research agenda" (describes earlier work); p. 19 "We encourage further research to examine these important questions." (folded into OQ-05, whose questions it refers to); p. 15 "invites as well the possibility of combining modes" (a property of the framework, not a call).
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: ok (apa, doi, volume 4, issue 4, published_online 2023-12-21 match crossref; sha256 matches; p. 1 is the SAGE version of record)
+- Quotations checked: 28; corrected: 0; acceptable extraction mismatches: 0
+- Recall sweep: hits reviewed 27 (about 10 in reference-list titles or quoted field questions); OQs added: 0; not-counted hits listed: 4 (added to Caution)
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified (recall: Not-counted list added; no quotation, OQ or bibliographic field changed)
 
 ## Fit
 pending

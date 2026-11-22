@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1; crossref license content-version "vor")
 read_depth: full_vor
 object_read: "schoeneborn2026.pdf sha256 ab7545f9dce90680d7f68e1e706b44e8110960957315615cfc973f63df8f2701"
 reader_model: Claude Opus 5.5 (claude-opus-5-5)
-verified: pending
+verified: yes
 hand_check: pending
 closing_form: question_list
 topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 0, platforms: 1, coordination: 0, communication: 2, literacy_competence: 0, evaluation_accountability: 1}
@@ -149,7 +149,14 @@ Organization theory faces an "openness-specificity dilemma": a narrow, entity-ba
 - Author note: the biography of David Seidl (p. 19) states that he served as an Associate Editor of Organization Theory (reader's paraphrase). Recorded for context only.
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: ok (apa, doi, volume 7, issue 3, published_online 2026-09-19 match crossref; sha256 matches; p. 1 is the SAGE version of record)
+- Quotations checked: 39; corrected: 0; acceptable extraction mismatches: 2 (OQ-02 runs across the p. 4/5 break; "network-based" on p. 2 is split by a line-end hyphen)
+- Recall sweep: hits reviewed 19 (8 in reference-list titles); OQs added: 0; not-counted hits listed: 0 new (the record already lists the p. 2 "remains" gap and the p. 13 claim; the p. 8 "remains unclear" and the p. 14 "simpler empirical comparisons" sentence are statements, not calls)
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none (the one "mediat" hit is "immediate"; "platform" and "accountab" hits match the scores)
+- Verdict: verified
 
 ## Fit
 pending

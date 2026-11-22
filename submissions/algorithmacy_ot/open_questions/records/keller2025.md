@@ -1,6 +1,6 @@
 ---
 key: keller2025
-apa: Keller, J., Berti, M., & Smith, W. (2025). Paradoxical theorizing: A multimodal approach to generate new theory. Organization Theory, 6(2). https://doi.org/10.1177/26317877251351642
+apa: Keller, J., Berti, M., & Smith, W. (2025). Paradoxical theorizing: A multimodal approach to generate new theory. Organization Theory, 6(2), Article 26317877251351642. https://doi.org/10.1177/26317877251351642
 doi: 10.1177/26317877251351642
 volume: 6
 issue: 2
@@ -13,7 +13,7 @@ license: CC BY 4.0 (printed on the article and in crossref)
 read_depth: full_vor (publisher's typeset SAGE article, pp. 1-24; all 24 pdf pages read; printed page = pdf page)
 object_read: "keller2025.pdf sha256 ad086d01ce2310141cdabf7a8bcfaf687d9c2c3e443e25cafb4dddcba9120c17"
 reader_model: Sonnet 5.5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 1, platforms: 0, coordination: 1, communication: 1, literacy_competence: 0, evaluation_accountability: 1}
@@ -60,12 +60,7 @@ run: ot-oq-2026-11
 - Paraphrase: The approach assumes that fixed material and institutional constraints can be identified, and the article does not say how they should be studied. (reader's paraphrase)
 
 ### OQ-keller2025-03
-- Quote: "What is an opposing theory, insight, or ontological assumption to my current theory? What might be the opposite understanding of this theory?" (p. 4, "A process model of paradoxical theorizing")
-- Form: explicit_question
-- Scope: Questions that a theorist asks while surfacing tensions. They are method prompts offered to the reader, not questions the authors leave unanswered for the field.
-- Addressee: individual theorists
-- Level of analysis: individual
-- Paraphrase: The authors pose the questions as a working technique for the first stage of the model. (reader's paraphrase)
+- Removed by verifier: the two p. 4 questions ("What is an opposing theory...? What might be the opposite understanding of this theory?") are method prompts for the first stage of the model, as the record itself noted; they state no work for others and leave no question open. Listed under Not counted.
 
 ## Implicit openings
 1. (reader's inference) "paradoxical theorizing will require active recognition of alternative uses of time, space, and technology" (p. 13, "Material modality"), said of a time when "generative AI becomes taken for granted". How a technology that theorists now "reinterpret ... as an active agent instead of simply a tool" enters the tensions of theorizing is left open.
@@ -87,9 +82,17 @@ run: ot-oq-2026-11
 - Table 1 (p. 7) extracted as scrambled cell text; I did not quote it.
 - The one aside quoted in the AI flag ("The emergence of generative artificial intelligence (AI)") fails exact matching only because a running page number (13) sits between "artificial" and "intelligence" in the text layer; the wording is verbatim.
 - OQ-03 is a method prompt, not an open question for the field; I recorded it because the brief says interrogative sentences count.
+- Not counted (verifier's recall sweep): p. 4 method-prompt questions (former OQ-03); the many "invite(s)" hits on pp. 3, 5, 6, 9, 14, 15 and 16 describe what the approach does ("paradoxical approaches invite greater diversity of voices"), not work for others; p. 16 "what we call embrained modality" is definitional; pp. 17–23 question marks are reference titles. The p. 16 Discussion and Conclusion sentences "Future scholarship can continue to expand upon how we can navigate the tensions in our work as scholars" sit under OQ-01. (added by verifier)
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: corrected (apa lacked the e-locator "Article 26317877251351642"; all fields otherwise match crossref)
+- Quotations checked: 23; corrected: 0; acceptable extraction mismatches: 1 (running page number inside "artificial intelligence", p. 13, as the record noted)
+- Recall sweep: hits reviewed 30; OQs added: 0; not-counted hits listed: 4 groups
+- OQs removed: 1 (OQ-03, a method prompt rather than an open question)
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

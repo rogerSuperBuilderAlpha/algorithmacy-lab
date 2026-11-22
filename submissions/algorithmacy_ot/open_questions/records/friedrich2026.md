@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
 read_depth: full_vor (publisher's version of record, 26 pdf pages; printed page numbers 1-26 match the pdf page markers, so locators use the printed page)
 object_read: "friedrich2026.pdf sha256 4283c39028d5feea2a5937c1ddc17f9e72eb8ad25fe4e34494b6363c1dfd2550"
 reader_model: Claude Sonnet 5.5 (claude-sonnet-5-5)
-verified: pending
+verified: yes
 hand_check: pending
 closing_form: question_list
 topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 1, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
@@ -200,9 +200,17 @@ run: ot-oq-2026-11
 
 ## Caution
 Text is two-column and the extraction interleaves lines; quotations were rejoined by hand. Printed page equals pdf page (1-26). The nine propositional questions (pp. 12-14) are numbered I-III within each register in the source and are quoted here by their opening clause only; the quotation is shortened, the question continues in the source. The Lantela (2024) reference breaks across a page; the volume and issue come from the continuation ("Theory, 5(2)"). The vignette on p. 2 gives "Lithium Vein from Congo" and the later text (p. 11) gives "Lithium Vein from Bolivia"; I did not quote either. The article has no section titled limitations; the one limitation (OQ-18) is embedded in the contributions discussion.
+- Not counted (verifier's recall sweep): the follow-up questions inside the numbered items, p. 12 "How are these interfaces shaped by inequity, power, and asymmetric capacities to act and flourish?" (folded into OQ-04) and p. 14 "How can hopeful speculation be practiced so that ethical orientations arise from storytelling, imaginative worldbuilding, and sensing into not-yet, more equal worlds?" (folded into OQ-11); p. 19 "it opens a critical and affirmative, assemblage-based research agenda" (folded into OQ-18) and "This paper also opens a posthuman research agenda that takes the materiality of technology seriously" (folded into OQ-17); p. 17 "this study invites posthuman organizing" (a call to practice that restates the paper's own proposal); p. 5 "the contribution of democratic organizing to ecological sustainability remains uncertain" and p. 10 "invites theorizing democratic organizing" (gaps the paper itself takes up).
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: ok (apa, doi, volume 7, issue 1, published_online 2026-04-01 match crossref; sha256 matches; p. 1 is the SAGE version of record)
+- Quotations checked: 48; corrected: 0; acceptable extraction mismatches: 3 (em-dashes at line ends in the p. 3 "dominant vocabulary" and OQ-14 quotations; the p. 5 printed page number inside OQ-16)
+- Recall sweep: hits reviewed 39 (8 in reference-list titles); OQs added: 0; not-counted hits listed: 7 (added to Caution)
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none (algorithms_ai stays 1: AI appears in the vignette, OQ-08, OQ-17 and the p. 19 assemblage passage, never as the paper's subject; the 13 "mediat" hits are "technological mediation(s)" or "immediate")
+- Verdict: verified (recall: Not-counted list added; no quotation, OQ or bibliographic field changed)
 
 ## Fit
 pending

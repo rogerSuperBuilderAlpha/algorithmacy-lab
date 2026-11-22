@@ -1,6 +1,6 @@
 ---
 key: winkler2025
-apa: "Winkler, P., & Schoeneborn, D. (2025). The escalating dis/organization of post-truth communication. Organization Theory, 6(4), 26317877251392631. https://doi.org/10.1177/26317877251392631"
+apa: "Winkler, P., & Schoeneborn, D. (2025). The escalating dis/organization of post-truth communication. Organization Theory, 6(4), Article 26317877251392631. https://doi.org/10.1177/26317877251392631"
 doi: 10.1177/26317877251392631
 volume: 6
 issue: 4
@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1; crossref)
 read_depth: full_vor
 object_read: "winkler2025.pdf sha256 2adafc669f4b19ceb0b5c47cf7afdb3eb73f0ef80e130cad3bf0dd9d014b30e5"
 reader_model: claude-opus-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 0, platforms: 1, coordination: 2, communication: 2, literacy_competence: 1, evaluation_accountability: 2}
@@ -121,9 +121,17 @@ The authors ask how post-truth communication (PTC) manages to organize itself an
 - The co-author Schoeneborn's own concept (organizationality, Dobusch & Schoeneborn, 2015) is borrowed here; this is self-citation, not an exchange. No other OT piece in an exchange set is named.
 - Figure 1 is an image; its column labels (1a–3c) were read from the text, not the figure.
 - The extraction shows typos as printed ("casacades", p. 13; "Tandocet al.", p. 2); quotes avoid them.
+- Not counted (verifier's recall sweep): p. 5 "What remains lacking in extant scholarship though is an integrative reflection on how these properties [. . .] interrelate" (the gap the paper fills); the p. 11 questions ("Why this expert?" and others) are examples of post-truth rhetoric, not questions the paper asks.
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: corrected (apa lacked "Article" before the e-locator; doi, volume 6, issue 4, published_online 2025-11-11 match crossref; sha256 matches; p. 1 is the SAGE version of record)
+- Quotations checked: 36; corrected: 0; acceptable extraction mismatches: 1 (OQ-06, running header inside "dis/organization")
+- Recall sweep: hits reviewed 20 (5 in reference-list titles); OQs added: 0; not-counted hits listed: 2 (added to Caution)
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

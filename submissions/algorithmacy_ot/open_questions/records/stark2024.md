@@ -1,6 +1,6 @@
 ---
 key: stark2024
-apa: "Stark, D., & Vanden Broeck, P. (2024). Principles of algorithmic management. Organization Theory, 5(2), 26317877241257213. https://doi.org/10.1177/26317877241257213"
+apa: "Stark, D., & Vanden Broeck, P. (2024). Principles of algorithmic management. Organization Theory, 5(2), Article 26317877241257213. https://doi.org/10.1177/26317877241257213"
 doi: 10.1177/26317877241257213
 volume: 5
 issue: 2
@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1; crossref)
 read_depth: full_vor
 object_read: "stark2024.pdf sha256 ae762113bff78a70b006946086a2e9049f4563f210932d202c813413ebf60f89"
 reader_model: claude-opus-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 1, intermediaries: 1, algorithms_ai: 2, platforms: 2, coordination: 2, communication: 2, literacy_competence: 1, evaluation_accountability: 2}
@@ -107,6 +107,14 @@ The authors reject the view that algorithmic management is an amplified Tayloris
 - Level of analysis: organization
 - Paraphrase: The authors propose a thought exercise: treat technology not as infrastructure for organization but as organizational structure itself. (reader's paraphrase)
 
+### OQ-stark2024-09
+- Quote: "Like Yates, we study how organization and communication are intertwined. Like her, our agenda considers genre forms, for example, the genre forms of ratings and rankings." (p. 16, "Out of Bounds")
+- Form: future_research_call
+- Scope: ratings and rankings as genre forms of platform communication, within the organization-and-communication agenda
+- Addressee: organization and communication researchers
+- Level of analysis: multi-level
+- Paraphrase: The authors' agenda includes studying ratings and rankings as genre forms, the way Yates studied the report in bureaucratic organizations. (reader's paraphrase) (added by verifier)
+
 ## Implicit openings
 1. Note 5 expects hybrid structures: "we should expect to find mixtures of bureaucratic structure and algorithmic structure (Christin et al., 2023)" (p. 17, note 5). The paper does not say how such mixtures are composed or studied; that is left open. (reader's inference)
 2. The authors claim one firm can house all three management styles: "At Amazon, for example, we can find scientific management in the operation of its distribution centers, collaborative management in the projects of its research units, and algorithmic management on its platforms" (p. 7, "Organizational form"). How the three styles interact within one entity is not examined. (reader's inference)
@@ -129,9 +137,17 @@ The authors reject the view that algorithmic management is an amplified Tayloris
 - The reference list gives Powell (1990) the DOI 10.1177/26317877221090314, which is Flyverbom (2022)'s DOI; this looks like a typesetting error in the article. Powell (1990) is not an OT article.
 - The article cites Valentine and Hinds (2021) as a Stanford working paper; whether a later version appeared in OT is not stated in the text.
 - The closing section's vignette is told in the first person singular ("I asked him") although the paper has two authors (p. 16).
+- Not counted (verifier's recall sweep): pp. 3–4 "limitation(s)" sentences critique existing perspectives, which the paper itself answers; p. 8 "to what relation is algorithmic management directed?" is answered in the same section (the user); p. 11 "What do we want? ... When do we want it?" is a rhetorical slogan; p. 11 "the promise of unmediated immediacy remains" is descriptive; p. 15 "research agenda" sentences on Merton, Lazarsfeld and Yates frame OQ-06 to OQ-09; p. 17 note 5 "So, what happens to those two-dimensional org charts...?" is answered in the note (kept as implicit opening 1); pp. 19–23 question marks are reference titles. The p. 16 sentence "we must be attentive to technologies ... artificial intelligence such as machine learning" is folded into OQ-07. (added by verifier)
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: corrected (apa lacked "Article" before the e-locator; all fields otherwise match crossref)
+- Quotations checked: 29 (plus the added OQ-09); corrected: 0; acceptable extraction mismatches: 1 (OQ-03, page number inserted at the p. 9/10 break)
+- Recall sweep: hits reviewed 38; OQs added: 1 (OQ-09, ratings and rankings as genre forms, p. 16); not-counted hits listed: 7 groups
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

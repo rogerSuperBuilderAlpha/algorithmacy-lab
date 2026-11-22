@@ -1,6 +1,6 @@
 ---
 key: bartunek2025
-apa: Bartunek, J. M., Hansen, H., Cable, M. S., & Ianniello, A. (2025). Generative resistance: The importance of enabling differences. Organization Theory, 6(2). https://doi.org/10.1177/26317877251351640
+apa: Bartunek, J. M., Hansen, H., Cable, M. S., & Ianniello, A. (2025). Generative resistance: The importance of enabling differences. Organization Theory, 6(2), Article 26317877251351640. https://doi.org/10.1177/26317877251351640
 doi: 10.1177/26317877251351640
 volume: 6
 issue: 2
@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on the article and in crossref)
 read_depth: full_vor (publisher's typeset SAGE article, pp. 1-20 with a repository cover sheet prepended as pdf p. 1; all 21 pdf pages read; printed page = pdf page minus 1)
 object_read: "bartunek2025.pdf sha256 6a07f73adac17eab19e154372a87db03b4e2bef1018245a8c733b098d23345e6"
 reader_model: Sonnet 5.5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 0}
@@ -23,7 +23,7 @@ run: ot-oq-2026-11
 # Bartunek, Hansen, Cable & Ianniello (2025). Generative Resistance: The importance of enabling differences.
 
 ## What it argues
-(reader's paraphrase) Organizational change research treats resistance as the shadow of change and control, and paradox research treats it as a condition to be dissolved. The authors argue that resistance has value in its own right and name three contributions: it surfaces deep societal conflicts, it builds group and organizational identity, and it sustains differences over time. Three narrative vignettes carry the argument: World Vision's brief reversal of an employment policy, US Catholic sisters' response to a Vatican Apostolic Visitation, and Texas death-penalty defence attorneys who "preserve the record". The theoretical payoff is a "neither/nor" stance that sits beside the "both/and" stance of paradox theory and keeps contradictions alive rather than resolving them. The practical payoff is advice to change agents and recipients about reading resistance in conflicts that cannot be settled locally.
+(reader's paraphrase) Organizational change research treats resistance as the shadow of change and control, and paradox research treats it as a condition to be dissolved. The authors argue that resistance has value in its own right and name three contributions: it surfaces deep societal conflicts, it builds group and organizational identity, and it sustains differences over time. Three narrative vignettes carry the argument: World Vision's brief reversal of an employment policy, US Catholic sisters' response to a Vatican Apostolic Visitation, and Texas death-penalty defence attorneys engaged in "preserving the record" (p. 10; wording corrected by verifier). The theoretical payoff is a "neither/nor" stance that sits beside the "both/and" stance of paradox theory and keeps contradictions alive rather than resolving them. The practical payoff is advice to change agents and recipients about reading resistance in conflicts that cannot be settled locally.
 
 ## The conversation it joins
 - Positions against / extends: "In contrast to prior approaches, we offer a generative approach to theorizing resistance to change—one that suggests important contributions it can make to change when considered in its own right." (p. 1, Abstract). Against paradox scholarship: "Such “hegemony” overlooks the possibility of a “neither/nor” stance as a way to extend the range of how tensions can be held" (p. 11, "Contradictory and interrelated elements"). Against a change-and-grand-challenges claim: "We disagree." (p. 13, "Generative resistance"), replying to Mikel-Hong et al. (2024) that neutralizing resistance is necessary.
@@ -60,11 +60,19 @@ None stated. (reader's paraphrase) The article has no section headed future rese
 - evaluation_accountability: 0
 
 ## Caution
-- Pagination: pdf p. 1 is a repository cover sheet; pdf p. 2 is printed p. 1. Crossref gives no page range; the running header says "Volume 6: 1-20".
+- Pagination: pdf p. 1 is a repository cover sheet; pdf p. 2 is printed p. 1. Crossref gives no page range; the running header says "Volume 6: 1–20".
 - The vignettes are constructed by the authors from raw and secondary data (p. 6). The 2025 volume/issue is from the printed header and crossref; online date from crossref.
+- Not counted (verifier's recall sweep; printed pages): p. 4, "remains wholly tied to it" is quoted from Foucault; p. 5, "Dialectical approaches to resistance and their limitations" is a section heading; p. 10, the question marks are dialogue in the death-penalty vignette; p. 11, "why, after all, should resistance be tethered to the demonic?" is a rhetorical question the paper answers; p. 12, "scholars and practitioners both can be more intentional and purposeful in creating dialectics" is advice on practice, not a research call; p. 13, "this recognition has not adequately explored the generative potential of resistance" is the gap the paper fills; p. 15, the closing hope is about practice (as the reader noted). No research call or open question found; "None stated" stands. (added by verifier)
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: corrected (apa: added the e-locator "Article 26317877251351640" from crossref article-number)
+- Quotations checked: 21; corrected: 2 ("What it argues": "preserve the record" to "preserving the record"; Caution: running header "1-20" to "1–20"); acceptable extraction mismatches: 0
+- Recall sweep: hits reviewed 6 (plus a full read of pp. 11-15); OQs added: 0; not-counted hits listed: 7
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

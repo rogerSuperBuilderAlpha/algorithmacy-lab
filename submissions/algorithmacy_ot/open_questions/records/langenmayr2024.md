@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1 and crossref)
 read_depth: full_vor (publisher's version of record; printed pages 1-20 coincide with pdf pages 1-20; pp. 16-20 are references, which I scanned for Organization Theory entries)
 object_read: "langenmayr2024.pdf sha256 847f102fb04d353d0ed4c4f939d2d5312064ecc079007973a6d0884e1c9e621a"
 reader_model: Claude Sonnet 5.5 (claude-sonnet-5-5)
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 0, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
@@ -125,6 +125,14 @@ No dedicated "future research" section. The two theory sections set out research
 - Level of analysis: field
 - Paraphrase: Other theories could serve the same themes. (reader's paraphrase)
 
+### OQ-langenmayr2024-11
+- Quote: "open strategy scholars could explore representativity in strategy making, acknowledging that it is based on strategy actors’ self-identified heterogeneity" (p. 12, "Developing an understanding of diversity based on self-identities")
+- Form: future_research_call
+- Scope: representativity in open strategy, with diversity defined by actors' self-identified heterogeneity; the same call is restated on p. 14 ("could consider the self-identified heterogeneity of all strategy actors")
+- Addressee: open strategy scholars
+- Level of analysis: organization
+- Paraphrase: Researchers could study representativity in strategy making on the basis of how actors identify themselves rather than imposed categories. (reader's paraphrase) (added by verifier)
+
 ## Implicit openings
 - The authors note that open strategy studies largely examine inclusion "from a Western point of view" (p. 4, "The Dominant Business Case Approach") and draw on studies "conducted in Europe and North America" (p. 3; see also p. 7, "Contextual understandings of inclusion"); empirical work on non-Western open strategy is not done by the authors here (reader's inference).
 - The paper states that open strategy can be "opened to an unrestricted crowd" yet traditional and new actors stay distinct (p. 10, "Reproducing power relations through managing diversity"); how digital intake channels shape that distinction is not examined (reader's inference).
@@ -142,8 +150,17 @@ No dedicated "future research" section. The two theory sections set out research
 ## Caution
 VOR; printed page equals pdf page. A copy-editing note remains in the extracted text of p. 11 ("[C&M: keep the book and the year together]"), which I did not quote. Column extraction places running headers ("Organization Theory", author names) and page numbers inside some sentences, so a quotation that crosses one of these can show as an ends-only or MISS in the quote check; that is a header or page-number artifact, not a content difference. Table 1 (p. 13) extracts cell by cell.
 
+Not counted (verifier's recall sweep): p. 2, "remains largely unaware" states the gap the paper addresses; pp. 3, 5 and 10, the "research agenda" sentences introduce the themes coded as OQ-01 to OQ-05; p. 8, "invite actors" describes organizations' practice, and "To address this limitation" is the paper's own move; p. 7, the "contextual understanding of inclusion" sentence is folded into OQ-03; pp. 11-12, the identity-work suggestions are folded into OQ-05; p. 12, the discourse-analysis suggestion and p. 14, "we encourage open strategy scholars to engage with the concept of diversity" are folded into OQ-11 and OQ-07; pp. 15-16, question marks are reference titles. (added by verifier)
+
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: ok
+- Quotations checked: 33 (plus 2 in the added OQ); corrected: 0; acceptable extraction mismatches: 0
+- Recall sweep: hits reviewed 18; OQs added: 1 (OQ-11); not-counted hits listed: 8
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

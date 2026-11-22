@@ -1,6 +1,6 @@
 ---
 key: giovannoni2025
-apa: "Giovannoni, E., & Quattrone, P. (2025). Nothing is right in individual and collective action: Placing unknowability at the heart of theorizing through rhetoric. Organization Theory, 6(3), 26317877251366658. https://doi.org/10.1177/26317877251366658"
+apa: "Giovannoni, E., & Quattrone, P. (2025). Nothing is right in individual and collective action: Placing unknowability at the heart of theorizing through rhetoric. Organization Theory, 6(3), Article 26317877251366658. https://doi.org/10.1177/26317877251366658"
 doi: 10.1177/26317877251366658
 volume: 6
 issue: 3
@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on article p. 1; crossref)
 read_depth: full_vor (publisher's PDF deposited in the University of Birmingham repository, with a one-page repository cover sheet prepended)
 object_read: "giovannoni2025.pdf sha256 9ddb102aeaf710790a7621c19e63aae851b96d71a9d44217ac765f643bdf1bbf"
 reader_model: claude-opus-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 1, communication: 2, literacy_competence: 1, evaluation_accountability: 1}
@@ -125,7 +125,7 @@ The authors argue that theories of organizational tensions and paradoxes assume 
 ## Implicit openings
 1. The SDG illustrations are described as "anecdotal examples inspired by the Sustainable Development Goals" (p. 1, Abstract). How the three rhetorical features would be observed or traced in empirical fieldwork is not specified; OQ-10 names the methodological gap without a design. (reader's inference)
 2. The SDG trade-off matrix is read as a grid "where the SDGs serve as coordinates" and as "a rhetorical device" (p. 11, "Tensions and di-visions"). Whether other organizational devices of this kind (matrices, dashboards, accounting grids) can be used as inquiry devices rather than as knowledge devices is left open. (reader's inference)
-3. The annual UN summit is cast as a ritual that kept a "group making it, as an acting ‘collective’" (p. 12, "Moral scrutiny and rituals of de-finition"). How such rituals bind collectives of differently situated actors, and with what effects on collective action, is asserted but not examined. (reader's inference)
+3. The annual UN summit is cast as a ritual that kept a "group making it, as an acting ‘collective’" (p. 13, "Moral scrutiny and rituals of de-finition"; locator corrected by verifier from p. 12). How such rituals bind collectives of differently situated actors, and with what effects on collective action, is asserted but not examined. (reader's inference)
 
 ## Topic flags
 - triads_third_parties: 0.
@@ -141,12 +141,20 @@ The authors argue that theories of organizational tensions and paradoxes assume 
 - The PDF is the publisher's version of record (SAGE, Volume 6: 1–20) deposited in the University of Birmingham repository; pdf p. 1 is a repository cover sheet (download date 22 Nov 2026). Printed page = pdf page minus 1 (pdf p. 2 = printed p. 1). Locators use printed pages.
 - Printed headings: "Introduction"; "Unknowability in a Mysterious World"; "Rhetoric in Management and Organization Studies"; "Insights from the History of Rhetoric" with sub-heads "Tensions and divisions", "Imagination and invention", "Moral scrutiny and rituals of ‘de-finition’"; "From the History of Rhetoric to Placing Nothing at the Heart of Organization Theory" with "An example of theorizing: Organizing for the SDGs through rhetoric"; "Discussion"; "Conclusions".
 - The extraction drops some hyphens the printed text appears to have ("‘division’" where the argument plays on "di-vision"; "‘definition’" on p. 8 where "de-finition" is meant). Quotes follow the extraction.
-- OQ-07 crosses the page break between pp. 14 and 15. The rhetorical-grid construct quote crosses pp. 7–8.
+- OQ-07 sits at the top of p. 15; the sentence before it (the continuation of OQ-06) crosses pp. 14-15. (corrected by verifier) The rhetorical-grid construct quote crosses pp. 7–8.
 - OQ-08: the extraction reads "nonlogic"; the printed form may carry a hyphen.
 - The reference list dates Agamben "(1998)" while the text cites "Agamben, 1988" (p. 14); recorded as found.
+- Not counted (verifier's recall sweep; printed pages): p. 4, an earlier "we call for a shift" sentence (processes and practices, rather than knowledge, as the thing to displace) is a near-duplicate of OQ-03 in the same paragraph; p. 6, "They invited an unfolding interrogation" describes medieval practice; pp. 7-8, the question marks are the medieval grid questions and Ballmer's quoted questions in the iPhone illustration; p. 15, "is not without limitation" is the lead-in to OQ-10; p. 15, the closing claim that nothing belongs at the core of organization theory's future restates OQ-03 and OQ-09; pdf p. 1 and the reference list, question marks in the cover sheet and reference titles. (added by verifier)
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: corrected (apa: added "Article" before the e-locator, matching crossref article-number)
+- Quotations checked: 37; corrected: 1 (implicit opening 3, "group making it, as an acting ‘collective’", locator p. 12 to p. 13); acceptable extraction mismatches: 1 (pp. 7-8 grid quote crosses the page break). Caution note on OQ-07's page span corrected.
+- Recall sweep: hits reviewed 16; OQs added: 0; not-counted hits listed: 6
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none
+- Verdict: verified_with_corrections
 
 ## Fit
 pending
