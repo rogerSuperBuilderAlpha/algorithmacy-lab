@@ -204,3 +204,15 @@ racker2024 and suddaby2024 (1 each).
   and it names two of the three parts (keeping track, interpreting) as conditions, not abilities.
 - **Not fetched:** zientara2026 (SAGE 403 in the browser), hall2025 (closed book review), akhil2026 and
   ivarsson2026 (AISeL bot-check; not bypassed). Their cards stay abstract-only, and the report says so.
+
+## 22 Nov 2026: S12 (report)
+
+- Fable traced `REPORT.md`: 101 items, 89 ok, 8 corrected in place, and 4 unsupported. The lead revised all
+  four, and each revision is marked "[lead's revision after trace, row n]". On row 83 the trace was itself
+  wrong. PAPER §2 ¶2 does read "evaluates and binds them both"; the lead checked all three baselines and
+  quoted each version's own wording.
+- Fixes in other files from the trace: S10's "272 citing works" means 272 citing rows, which are 261
+  distinct works. The "algorithm— will" space in OQ-stark2024-07 came from a line break and is removed
+  everywhere; QUESTIONS has been recompiled. The brief's locators for "evaluates and binds" are corrected.
+  `critic/CRITIC.md` calls the two Stark passages "consecutive paragraphs", but one paragraph on Yates's
+  book lies between them. The ruling does not depend on this, and the file is left as Fable wrote it.

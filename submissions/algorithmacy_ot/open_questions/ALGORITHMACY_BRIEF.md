@@ -16,7 +16,7 @@ that is opaque, binding, and adaptive" (ASM, Introduction ¶7). GDOC and PAPER c
 ## The structure it answers to
 
 - **An irreducible triad.** A participant, a human counterpart, and an intermediary that "evaluates
-  and binds" both (GDOC §2 ¶2; PAPER ¶3). Neither participant chose the intermediary, and it holds
+  and binds" both (GDOC Introduction ¶2; PAPER §2 ¶2) [locators corrected at S12]. Neither participant chose the intermediary, and it holds
   the verdict (Simmel's arbitrator, GDOC §4.1).
 - **Not a dyad.** The system is neither the person's counterpart ("a direct dyad") nor a channel
   between two people ("a moderated dyad") (ASM, Introduction ¶1–2).

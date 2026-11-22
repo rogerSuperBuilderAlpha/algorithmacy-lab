@@ -93,7 +93,7 @@ The authors reject the view that algorithmic management is an amplified Tayloris
 - Paraphrase: Research on algorithmic management should study organization and communication as one field, since organizational design and interface design are now inseparable. (reader's paraphrase)
 
 ### OQ-stark2024-07
-- Quote: "This new sociality—when the partner with which we are communicating is an algorithm— will be a critical component of further research on algorithmic management." (p. 16, "Out of Bounds")
+- Quote: "This new sociality—when the partner with which we are communicating is an algorithm—will be a critical component of further research on algorithmic management." (p. 16, "Out of Bounds")
 - Form: future_research_call
 - Scope: communication with (not through) algorithms and generative AI
 - Addressee: researchers of algorithmic management

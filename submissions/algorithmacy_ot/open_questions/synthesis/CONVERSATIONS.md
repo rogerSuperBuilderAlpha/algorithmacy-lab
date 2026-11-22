@@ -435,7 +435,7 @@ Orlikowski and Scott (2023) name the question: digitalization has corollary effe
 - **Short name:** technology between people.
 - **Kind and origin:** cross-cutting; from X06 + Whyte's part of O35.
 - **Members** (22 OQs from 7 pieces): Whyte 2023: OQ-whyte2023-02, -03, -04, -05, -06, -08 (bc), -09, -10, -11, -12, -13, -14; Justesen 2024: OQ-justesen2024-08; Stark 2024: OQ-stark2024-06, -07, -09; Räcker 2024: OQ-racker2024-05 (bc); Phillips 2024: OQ-phillips2024-08; Hinds 2024: OQ-hinds2024-04, -10, -25; Mena 2026: OQ-mena2026-12.
-- **Representative quotation:** OQ-stark2024-07: “This new sociality—when the partner with which we are communicating is an algorithm— will be a critical component of further research on algorithmic management.” (p. 16, "Out of Bounds")
+- **Representative quotation:** OQ-stark2024-07: “This new sociality—when the partner with which we are communicating is an algorithm—will be a critical component of further research on algorithmic management.” (p. 16, "Out of Bounds")
 - **Support:** theory/review articles 5.5; commentary or exchange pieces 1; counted at ½ because they enter through boundary conditions only: Räcker 2024; editorial signal n; distinct volumes 3 (4, 5, 7); citation edges among askers 1; most recent ask 2026-03-31 (mena2026), 7 months before the run.
 - **Level:** Interaction: meetings, teams and platform exchanges carried through a system.
 - **Fit (final scores of members):** 3 × 2; 2 × 5; 1 × 5; 0 × 10. At 2 or above: OQ-stark2024-06 (3), OQ-stark2024-07 (2), OQ-stark2024-09 (2), OQ-phillips2024-08 (2), OQ-hinds2024-04 (3), OQ-hinds2024-10 (2), OQ-hinds2024-25 (2).

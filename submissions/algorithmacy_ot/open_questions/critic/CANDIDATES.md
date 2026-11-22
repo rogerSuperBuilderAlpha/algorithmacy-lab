@@ -7,7 +7,7 @@
 ## C-A. Partner or medium: technology between people
 
 - **Asked by:** Stark & Vanden Broeck (2024): "This new sociality—when the partner with which we are
-  communicating is an algorithm— will be a critical component of further research on algorithmic
+  communicating is an algorithm—will be a critical component of further research on algorithmic
   management." (OQ-stark2024-07, p. 16, "Out of Bounds"). Whyte et al. (2023): scholars should "examine
   such forms of online organizing that involve (as Uhlin (2022) also notes) interacting with represented
   people as well as other co-located people" (OQ-whyte2023-09, p. 14, "Concluding Remarks").
