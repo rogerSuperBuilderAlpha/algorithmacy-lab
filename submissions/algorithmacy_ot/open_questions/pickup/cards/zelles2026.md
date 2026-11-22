@@ -36,3 +36,15 @@ The answer is about where liability and responsibility land, the legal and manag
 - **Classification changes.** None.
 - **Read depth.** full, stated correctly.
 - **Verdict.** verified_with_corrections
+
+## Fable check
+
+[Written by Fable (claude-fable-5-2), S10f, 2026-11-22]
+
+- **Date.** 22 November 2026. Counting follows the plan's rule that "a citing work counts only if its reference list holds the OT article": for each candidate I say whether the work cites an asker of that candidate, and for what.
+- **Read against.** `citing/pdfs/zelles2026.txt`. I read pp. 10, 16, 17 and 20 and located every quotation.
+- **Quotations.** All located at the stated pages. The coding line that `PICKUP_P1.md` quotes ("opacity of the system; denial of the rating’s existence; no addressable counterpart") is in the table on p. 10.
+- **Classes.** `answers` on candidate 8 is supported, and this is the one carded work that engages the asker's accountability principle as such: "In all four cases, accountability takes the triangular, “twisted” form theorized by Stark and Pais (2020) and Stark and Vanden Broeck (2024)" (p. 17). `passing` on candidate 3 is supported.
+- **For S11.** Two passages bear on the panel's objections. Rating runs both ways and the sanction one way: "We can rate the riders, and they can rate the drivers. For the drivers, if the rating goes under 4.65, then the driver is suspended from the platform for 24 h automatically." (BoltTaxi-2, p. 16). Couriers "had no formal avenue to contest “system decisions”" (p. 16), and on Upwork "the platform’s rating algorithm enforces the client’s judgment with no internal appeal" (p. 17).
+- **Counting.** Candidates 8, 3 and 1: the article cites stark2024 and works with it throughout.
+- **Verdict.** used

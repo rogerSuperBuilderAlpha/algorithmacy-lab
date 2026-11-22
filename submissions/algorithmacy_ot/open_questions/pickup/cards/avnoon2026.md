@@ -45,3 +45,14 @@ The full text confirms the abstract reading and settles the earlier guess about 
 - **Classification changes.** None.
 - **Read depth.** full, stated correctly (14 pp.; references begin p. 10).
 - **Verdict.** verified
+
+## Fable check
+
+[Written by Fable (claude-fable-5-2), S10f, 2026-11-22]
+
+- **Date.** 22 November 2026. Counting follows the plan's rule that "a citing work counts only if its reference list holds the OT article": for each candidate I say whether the work cites an asker of that candidate, and for what.
+- **Read against.** `citing/pdfs/avnoon2026.txt`. I located every quotation and counted the citations page by page.
+- **Quotations.** All 13 located at the stated pages. Six in-text citations of Stark and Vanden Broeck, at pp. 1, 2, 3, 4 (twice) and 5, as the card says.
+- **Classes.** All stand. `takes_up` on candidate 5 means a question posed and left open: "Only time and further study will tell" (p. 8).
+- **Counting.** The review cites stark2024 six times, each time inside a list and never for a shortlisted question. On every candidate it touches, the citation is for another point.
+- **Verdict.** used

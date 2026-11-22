@@ -32,3 +32,14 @@ The fit to candidate 1 is my reading. The authors cite Stark and Vanden Broeck o
 - **Classification changes.** None.
 - **Read depth.** full, stated correctly.
 - **Verdict.** verified_with_corrections
+
+## Fable check
+
+[Written by Fable (claude-fable-5-2), S10f, 2026-11-22]
+
+- **Date.** 22 November 2026. Counting follows the plan's rule that "a citing work counts only if its reference list holds the OT article": for each candidate I say whether the work cites an asker of that candidate, and for what.
+- **Read against.** `citing/pdfs/gulbrandsen2025.txt`. I read the passages on pp. 161–163.
+- **Quotations.** All located at the pages S10e corrected (161, 162, 163, 174).
+- **Classes.** `takes_up (weak, unframed)` on candidate 1 stands with its qualifier, and it is the weakest take-up in the set. The quoted sentence (p. 163) reports what a group of reviewed studies "show" about public debate, and the article's one citation of Stark and Vanden Broeck supports a different point, that platforms "remain businesses, first and foremost" (p. 161). The link to OQ-stark2024-06 is the reader's inference, as the card says. `passing` on candidate 3 stands.
+- **Counting.** Candidates 1 and 3: the article cites stark2024, for another point.
+- **Verdict.** used

@@ -43,3 +43,18 @@ The intermediary is unilateral: it stands between worker and organization but ac
 - **Classification changes.** None. answers (3) is supported, within the scope the card states (worker–organization, intermediary acting for one party), and matches the S10 decision in DECISIONS.md.
 - **Read depth.** full, stated correctly (25 pp.; references begin p. 19).
 - **Verdict.** verified
+
+## Fable check
+
+[Written by Fable (claude-fable-5-2), S10f, 2026-11-22]
+
+- **Date.** 22 November 2026. Counting follows the plan's rule that "a citing work counts only if its reference list holds the OT article": for each candidate I say whether the work cites an asker of that candidate, and for what.
+- **Read against.** `citing/pdfs/bujold2026.txt`. I read pp. 1–19 in full.
+- **Quotations.** All 15 located at the stated pages; the definition runs across pp. 2–3, as the card says.
+- **Classes.** `answers` on candidate 3 is supported within the scope the card states. Four notes fix that scope.
+  1. *What is answered.* The article answers the choice as the shortlist assembles it. It does not answer OQ-stark2024-07: both citations of Stark and Vanden Broeck support the premise that AM acts autonomously (pp. 5, 6), and the "communication partner" call goes unmentioned. Toward that call's premise the article leans to `contests`: workers "ultimately recognize the organization (not the algorithm) as the exchange partner" (p. 15), and "AM algorithms are mostly ignorant of human reactions and lack human-machine dialogue" (Table 1, p. 7). It keeps the algorithm as an agent all the same, as "direct organizational representatives to workers" (p. 2) and "autonomous management agents" (p. 5), and as a referent of trust and of justice judgments. The third position it reaches is therefore the representative of one party.
+  2. *Two actors, by the authors' own statement.* They choose moderators "to maintain focus on factors most relevant to the two actors examined in our manuscript (workers and organizations)" (p. 15). Colleagues enter once, in the future-research section, where generative AI may "potentially affect additional organizational actors (e.g., human managers and colleagues)" (p. 18). Customers appear as a data source, "client reviews" (p. 10).
+  3. *The parts.* A second keeping-track passage: learning systems pose "unique challenges for workers who need to constantly evaluate how the changes affect their work" (p. 5). Specifying intent has no counterpart as an ability. The nearest construct is "human influence", "the extent to which workers have a voice, exert control over the system, opt out if desired, and contribute input" (p. 8), which is a characteristic of the system that the organization sets.
+  4. *For S11.* Table 2 lists "Correctability: Perceived opportunity to appeal and correct erroneous AM procedures" (p. 10), so answerability is a variable in this model. The article also says AM "erodes the buffering role of human managers between the organization’s practices or decisions and the employees" (p. 2): the intermediary's position was held by a person before an algorithm held it. The reference list holds Curchod, Patriotta, Cohen and Neysen (2020) (p. 21).
+- **Counting.** Candidates 3 and 8: the article cites stark2024, for another point (pp. 5, 6). Candidate 9: it cites neither hinds2024 nor brennecke2025 (I searched the text for both names), so its `passing` there is convergent evidence with no citation edge.
+- **Verdict.** used

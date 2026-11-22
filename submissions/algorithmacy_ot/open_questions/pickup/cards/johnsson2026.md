@@ -34,3 +34,14 @@ A master's thesis with twelve interviews. It counts as a citing work only throug
 - **Classification changes.** None.
 - **Read depth.** partial, stated correctly.
 - **Verdict.** verified
+
+## Fable check
+
+[Written by Fable (claude-fable-5-2), S10f, 2026-11-22]
+
+- **Date.** 22 November 2026. Counting follows the plan's rule that "a citing work counts only if its reference list holds the OT article": for each candidate I say whether the work cites an asker of that candidate, and for what.
+- **Read against.** `citing/pdfs/johnsson2026.txt`. I read the passage on p. 45 and located every quotation; the card's pages are printed pages (PDF page minus one).
+- **Quotations.** All 7 located (abstract; pp. 6, 45, 69).
+- **Classes.** Both describe the text accurately.
+- **Counting.** The thesis cites stark2024 only, for a definition (p. 6), and stark2024 is an asker of neither candidate 2 nor candidate 6. Under the counting rule the thesis is pick-up for neither. I use it as convergent evidence: it documents the colleague dropping from view without reference to Hinds and von Krogh.
+- **Verdict.** used

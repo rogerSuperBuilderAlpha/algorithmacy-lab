@@ -8,7 +8,7 @@
 
 ## Candidates touched
 
-**6. Invisible work and opacity — answers (on the abstract).**
+**6. Invisible work and opacity — takes_up, possible answer (abstract only).** [S10f: was "answers (on the abstract)". The card rests on the same title and abstract from which triage judged the work `possible_answer:6`; no text was added, so the class cannot be stronger than the triage's. See Fable check.]
 > "we introduce argumentation labor to describe the cognitive and communicative meta-work required to adjudicate machine-generated reasoning" (abstract)
 
 > "We position argumentation labor as a layered, additive form of invisible labor that extends, rather than replaces, the classical articulation, coordination, and infrastructural work." (abstract)
@@ -34,3 +34,15 @@ Abstract only: no page locators, no view of how the paper cites Justesen and Ple
 - **Classification changes.** None. answers (6) and takes_up (5) are supported by the abstract's own claims; both stay provisional on abstract evidence.
 - **Read depth.** abstract, stated correctly.
 - **Verdict.** verified
+
+## Fable check
+
+[Written by Fable (claude-fable-5-2), S10f, 2026-11-22]
+
+- **Date.** 22 November 2026. Counting follows the plan's rule that "a citing work counts only if its reference list holds the OT article": for each candidate I say whether the work cites an asker of that candidate, and for what.
+- **Read against.** The OpenAlex abstract for W7222909517, which I rebuilt from the inverted index in `citing/justesen2024_openalex.json`. The local store holds no text for this key, neither `akhil2026.txt` nor `akhil2026_crossref.txt`.
+- **Quotations.** 3 of 3 match the abstract word for word, the source's "knowledge experts repairs" included.
+- **Classes.** Candidate 6: I lower `answers` to `takes_up, possible answer (abstract only)`. Triage T2 judged this work `possible_answer:6` from its title and abstract (`TRIAGE_T2.tsv`, row "Invisible Labor of Argumentation"). The reader could not open the paper and read the same abstract, so the card adds no evidence to the triage and cannot carry a stronger class. The abstract supports this much: the authors name a new form of invisible labor in an AI-integrated department and tie it to machine claims that arrive "lacking transparent warrants and rebuttals" (abstract). It cannot show whether they take up Justesen and Plesner's invitation, whether "invisible" carries the askers' sense, or what the citing passage says. Candidate 5: `takes_up` stands at abstract depth.
+- **Counting.** Candidate 6: the citation of justesen2024 rests on OpenAlex's `referenced_works` (28 entries; W4392883145 is among them); no one has seen the reference line. Candidate 5: W7222909517 appears in the harvested citing lists of none of that candidate's askers (I searched `hsu2024_openalex.json`, `hinds2024_openalex.json` and `stark2024_openalex.json`), so on candidate 5 the work is convergent evidence with no citation edge.
+- **Use.** An abstract-level neighbour for the interpreting part. The paper is not citable as prior art, and its class on candidate 6 is not settled, until someone reads it in full.
+- **Verdict.** used_with_corrections

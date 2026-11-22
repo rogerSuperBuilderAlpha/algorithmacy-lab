@@ -78,7 +78,7 @@ here; the run continues to `REPORT.md` without stopping at gates other than Gate
 
 ## 22 Nov 2026: S4b complete (the lead)
 
-- All 66 items read: 13 reader batches (7 Opus, 6 Sonnet, including the pilot). Every record passed the
+- All 66 items read: 15 reader batches (8 Opus, 7 Sonnet, including the two pilot batches; corrected 22 Nov, it first read 13). Every record passed the
   readers' quote self-check apart from extraction artifacts noted in each Caution.
 - **Outside the corpus but in the conversation.** scherer2023 replies to Zuboff (2022, *Organization
   Theory* 3(3)), which predates the window. dion2025 critiques Schoeneborn and colleagues' organizationality

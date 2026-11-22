@@ -35,3 +35,14 @@ The link to candidate 1 is through the triage tag only; the paper does not cite 
 - **Classification changes.** None. takes_up (3) is the weakest of the three and rests on the card's reading of the backstage-discretion passage; it is not an overclaim.
 - **Read depth.** full, stated correctly.
 - **Verdict.** verified
+
+## Fable check
+
+[Written by Fable (claude-fable-5-2), S10f, 2026-11-22]
+
+- **Date.** 22 November 2026. Counting follows the plan's rule that "a citing work counts only if its reference list holds the OT article": for each candidate I say whether the work cites an asker of that candidate, and for what.
+- **Read against.** A plain `pdftotext` re-extraction of `citing/pdfs/alishani2025.pdf`, because the layout-mode text splits the columns. I read the passages on pp. 39 and 41.
+- **Quotations.** All located at the stated pages (pp. 35, 39, 41, 43).
+- **Classes.** All three stand. `takes_up` on candidate 3 rests on the essay's subject, a chatbot that appears as the citizen's counterpart while professionals work behind it; the essay does not pose the partner-or-medium choice.
+- **Counting.** Candidate 3: the essay cites justesen2024, a member of that conversation and not one of its two lead askers, for compensating work backstage (p. 39). Candidates 1 and 8: the reference list holds no asker of those candidates (no Stark and Vanden Broeck), so both `passing` classes are convergent evidence with no citation edge.
+- **Verdict.** used

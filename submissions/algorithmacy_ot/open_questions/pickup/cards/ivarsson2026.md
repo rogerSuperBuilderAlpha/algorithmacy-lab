@@ -8,7 +8,7 @@
 
 ## Candidates touched
 
-**6. Invisible work and opacity — answers (on the abstract).** [S10e: was takes_up. The abstract develops a typology of invisible work, which is what OQ-justesen2024-16 invites, and the card's own Caution already said the work "answers" the call; akhil2026, on equal abstract evidence, is classed answers.]
+**6. Invisible work and opacity — takes_up, possible answer (abstract only).** [S10f: restores the reader's takes_up, which S10e had raised to "answers (on the abstract)" to match akhil2026. Both cards now carry what an abstract can carry. See Fable check.] [S10e: was takes_up. The abstract develops a typology of invisible work, which is what OQ-justesen2024-16 invites, and the card's own Caution already said the work "answers" the call; akhil2026, on equal abstract evidence, is classed answers.]
 > "we develop a taxonomy of five forms of invisible work involved in producing personal data: strategizing, resourcing, maintenance, interpretative, and care work." (abstract)
 
 > "we advance an understanding of personal data as situated and shaped through human data work" (abstract)
@@ -31,3 +31,15 @@ Abstract only. The setting is individuals producing data about themselves for or
 - **Classification changes.** Candidate 6: takes_up → answers (on the abstract). The card's Caution already said the work answers the call; the class now agrees, and matches akhil2026 on the same evidence. PICKUP_P2.md lists it under "Take it up".
 - **Read depth.** abstract, stated correctly.
 - **Verdict.** verified_with_corrections
+
+## Fable check
+
+[Written by Fable (claude-fable-5-2), S10f, 2026-11-22]
+
+- **Date.** 22 November 2026. Counting follows the plan's rule that "a citing work counts only if its reference list holds the OT article": for each candidate I say whether the work cites an asker of that candidate, and for what.
+- **Read against.** The OpenAlex abstract for W7222988983, rebuilt from the inverted index in `citing/justesen2024_openalex.json`. The local store holds no text for this key.
+- **Quotations.** 2 of 2 match the abstract word for word.
+- **Classes.** Candidate 6: I restore `takes_up` and add "possible answer (abstract only)". The reader classed the work `takes_up`; S10e raised it to `answers` for consistency with akhil2026. I restore the consistency in the other direction, for the reason given on that card: triage T2 already judged this work `possible_answer:6` from the same title and abstract, and nothing was read after that. A second reason applies here. The abstract's workers are people "producing data about themselves" with sensor technologies "incorporated into people’s everyday lives" (abstract), while the invitation concerns "the invisible in the digitalized organization" (OQ-justesen2024-16, p. 21). Whether the taxonomy reaches work done inside an organization cannot be told from the abstract.
+- **Counting.** Candidate 6: the citation of justesen2024 rests on OpenAlex's `referenced_works` (67 entries; W4392883145 is among them); no one has seen the reference line.
+- **Use.** Abstract-level evidence that the invisible-work lens is travelling to personal data. The "interpretative" form is unread and should not be set beside algorithmacy's first part until the full text is.
+- **Verdict.** used_with_corrections

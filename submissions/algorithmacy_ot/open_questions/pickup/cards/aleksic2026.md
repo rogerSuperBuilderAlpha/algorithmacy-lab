@@ -31,3 +31,14 @@ Read at summary level only. It answers candidate 4 in the askers' own genus, psy
 - **Classification changes.** None.
 - **Read depth.** partial, stated correctly.
 - **Verdict.** verified
+
+## Fable check
+
+[Written by Fable (claude-fable-5-2), S10f, 2026-11-22]
+
+- **Date.** 22 November 2026. Counting follows the plan's rule that "a citing work counts only if its reference list holds the OT article": for each candidate I say whether the work cites an asker of that candidate, and for what.
+- **Read against.** `citing/pdfs/aleksic2026.txt`. I located every quotation; the card's pages are the thesis's printed pages.
+- **Quotations.** All 6 located (pp. 11, 171, 236, 237).
+- **Classes.** `takes_up` on candidate 4 stands at summary depth: the thesis answers in the askers' own genus, lived experience and psychological needs.
+- **Counting.** Candidate 4: the thesis cites hinds2024 once, inside a list, for debates on autonomy and agency (p. 11), which is another point. Its reference list also holds Orlikowski and Scott (2023) (PDF p. 145).
+- **Verdict.** used

@@ -17,7 +17,7 @@
 > "les juniors, assistés par la machine, pourraient perdre la maîtrise cognitive de la synthèse (Hinds & von Krogh, 2024)." (p. 25) [juniors, assisted by the machine, could lose cognitive command of synthesis.]
 
 **6. Invisible work — passing.** The evidence-building work is described in detail but never named invisible or unrecognized.
-> "la fiabilité est une réalisation sociomatérielle des travailleurs et non une propriété technique intrinsèque." (résumé, p. 2) [reliability is a sociomaterial accomplishment of workers, not an intrinsic technical property.]
+> "la fiabilité est une réalisation sociomatérielle des travailleurs et non une propriété technique intrinsèque." (résumé, PDF p. 2; the page is unnumbered and is printed p. 1 by this card's convention of PDF page minus one) [S10f: was "résumé, p. 2"] [reliability is a sociomaterial accomplishment of workers, not an intrinsic technical property.]
 
 ## What the work says
 
@@ -37,3 +37,14 @@ A doctoral conference chapter in French with an exploratory sample. The "blind d
 - **Classification changes.** None, with one note: takes_up (2) is borderline. "Dépendance aveugle" occurs once (p. 25), but the paper's remedy (evidentiary artefacts that keep "vigilance critique") is aimed at that failure, so takes_up stands rather than passing.
 - **Read depth.** was "full" with a list of sections read; corrected to partial.
 - **Verdict.** verified_with_corrections
+
+## Fable check
+
+[Written by Fable (claude-fable-5-2), S10f, 2026-11-22]
+
+- **Date.** 22 November 2026. Counting follows the plan's rule that "a citing work counts only if its reference list holds the OT article": for each candidate I say whether the work cites an asker of that candidate, and for what.
+- **Read against.** `citing/pdfs/hubert2025.txt`. I read the résumé and the passages on printed pp. 7 and 23–25, and located every quotation.
+- **Quotations.** All 8 located. One locator corrected in place: the résumé sits on PDF p. 2, an unnumbered page that is printed p. 1 by the card's own convention (the other locators are PDF page minus one, and they are right). My count of in-text citations agrees with S10e's: nine, at pp. 3, 7, 11, 23 (twice), 24, 25 (twice) and 27.
+- **Classes.** `takes_up` on candidate 2 is borderline and I keep it. The sentence on "dépendance aveugle" (p. 25) follows the passage in which Hubert carries the askers' mechanism into coordination: "L'encapsulation progressive reconfigure la coordination en internalisant des fonctions structurantes comme le tri de l'information." (p. 25). The dependence is on the tool's output. `takes_up` on candidate 5 and `passing` on candidate 6 stand.
+- **Counting.** Candidates 2 and 5: the chapter cites hinds2024 on the substance (encapsulation, coordination and the de-skilling of juniors, pp. 23–25). Candidate 6: the reference list holds no asker of that candidate (I searched for Plesner and Orlikowski), so `passing` there is convergent evidence.
+- **Verdict.** used_with_corrections

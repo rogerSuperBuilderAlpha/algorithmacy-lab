@@ -28,3 +28,14 @@ Abstract only; I cannot say whether the essay answers "who bears responsibility"
 - **Classification changes.** None.
 - **Read depth.** abstract, stated correctly.
 - **Verdict.** verified
+
+## Fable check
+
+[Written by Fable (claude-fable-5-2), S10f, 2026-11-22]
+
+- **Date.** 22 November 2026. Counting follows the plan's rule that "a citing work counts only if its reference list holds the OT article": for each candidate I say whether the work cites an asker of that candidate, and for what.
+- **Read against.** `citing/pdfs/zientara2026_crossref.txt` (the Crossref record: abstract and deposited reference entry). No text of the essay is held.
+- **Quotations.** 3 of 3 match the record.
+- **Classes.** `takes_up` on candidate 8 stands in the limited sense the card gives it: the abstract restates the question. Whether the essay answers it is unknown.
+- **Counting.** Candidate 8: the essay cites stark2024 per the deposited reference list; the citing passage is unseen.
+- **Verdict.** used (abstract only)

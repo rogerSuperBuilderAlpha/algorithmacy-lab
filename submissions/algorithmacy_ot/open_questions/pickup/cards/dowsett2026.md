@@ -31,3 +31,14 @@ Read in part. The contest is with one empirical finding Hsu and Bechky report, n
 - **Classification changes.** None.
 - **Read depth.** partial, stated correctly.
 - **Verdict.** verified
+
+## Fable check
+
+[Written by Fable (claude-fable-5-2), S10f, 2026-11-22]
+
+- **Date.** 22 November 2026. Counting follows the plan's rule that "a citing work counts only if its reference list holds the OT article": for each candidate I say whether the work cites an asker of that candidate, and for what.
+- **Read against.** `citing/pdfs/dowsett2026.txt`. I located every quotation; the card's pages are printed pages (PDF page minus one).
+- **Quotations.** All 4 located (pp. 16, 120, 168, 195).
+- **Classes.** `takes_up` on candidate 5 stands. The contest concerns one finding that Hsu and Bechky report (experts gain less than novices), not OQ-hsu2024-08; no carded work contests a shortlisted question.
+- **Counting.** Candidate 5: the thesis cites hsu2024 on the substance (expertise under generative AI, pp. 16, 120).
+- **Verdict.** used

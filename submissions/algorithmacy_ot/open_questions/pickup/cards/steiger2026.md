@@ -33,3 +33,15 @@ The finding implies a conditional "no" to the blind-following question: teams ca
 - **Classification changes.** None.
 - **Read depth.** was "full" with a list of sections read that omits the method and two of the four role findings; corrected to partial.
 - **Verdict.** verified_with_corrections
+
+## Fable check
+
+[Written by Fable (claude-fable-5-2), S10f, 2026-11-22]
+
+- **Date.** 22 November 2026. Counting follows the plan's rule that "a citing work counts only if its reference list holds the OT article": for each candidate I say whether the work cites an asker of that candidate, and for what.
+- **Read against.** A plain `pdftotext` re-extraction of `citing/pdfs/steiger2026.pdf`, because the layout-mode text splits the columns. I read the passages on pp. 3, 12, 13 and 15.
+- **Quotations.** All 5 located at the stated pages.
+- **Classes.** Both stand. The unit is the team, and the remedy is a team process (delegation calibration).
+- **Note.** The coordination source the article cites is Bechky and Okhuysen (2011) (p. 4); it does not cite Okhuysen and Bechky (2009).
+- **Counting.** Candidates 2 and 10: the article cites hinds2024 once, for another point (GenAI's role "cannot be inferred from stable technical functions alone", p. 3).
+- **Verdict.** used

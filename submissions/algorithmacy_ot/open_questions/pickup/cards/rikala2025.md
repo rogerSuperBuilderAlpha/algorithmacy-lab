@@ -34,3 +34,14 @@ Meta-work here is work on the technology (setting it up, fixing it, learning it)
 - **Classification changes.** None.
 - **Read depth.** was "full" with a list of sections read; corrected to partial.
 - **Verdict.** verified_with_corrections
+
+## Fable check
+
+[Written by Fable (claude-fable-5-2), S10f, 2026-11-22]
+
+- **Date.** 22 November 2026. Counting follows the plan's rule that "a citing work counts only if its reference list holds the OT article": for each candidate I say whether the work cites an asker of that candidate, and for what.
+- **Read against.** `citing/pdfs/rikala2025.txt`. I located every quotation and counted the citations page by page.
+- **Quotations.** All 8 located at the stated pages. One note on the Verification section above: the card's page numbers are the online-first pages, and they equal the PDF page minus two (a repository cover sheet and the journal's title page come first), not minus one. The locators themselves are right. My count of in-text citations agrees with S10e's: eleven (p. 1, p. 2, p. 4 five times, p. 17 three times, p. 19).
+- **Classes.** Both stand.
+- **Counting.** Candidates 6 and 4: the article cites justesen2024 on the substance (meta-work "out of sight", compensating work, and "the hidden costs of digital transformation", pp. 4, 17).
+- **Verdict.** used

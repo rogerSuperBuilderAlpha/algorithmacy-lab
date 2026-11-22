@@ -53,3 +53,14 @@ The word "triad" is a false friend: Decius's triad is person–behaviour–envir
 - **Classification changes.** None. takes_up (3), takes_up (7) and answers (8) are each supported by the quoted passages.
 - **Read depth.** full, stated correctly (printed page = PDF page minus one; references begin p. 38).
 - **Verdict.** verified_with_corrections
+
+## Fable check
+
+[Written by Fable (claude-fable-5-2), S10f, 2026-11-22]
+
+- **Date.** 22 November 2026. Counting follows the plan's rule that "a citing work counts only if its reference list holds the OT article": for each candidate I say whether the work cites an asker of that candidate, and for what.
+- **Read against.** `citing/pdfs/decius2026.txt`. I read printed pp. 2–3, 7, 10, 15, 29–30 and 35–37 and located every quotation.
+- **Quotations.** All 17 located. Three are broken by the SSRN watermark in the text layer (pp. 10, 30, 36); I confirmed each by reading the page.
+- **Classes.** `answers` on candidate 8 is supported as a normative answer. The allocation sits in the practical implications: "Responsibility should follow effective control" (p. 35), and frontline users "should not be held solely accountable for outcomes they are not empowered to influence" (pp. 35–36). The preprint presents it as what "the theory implies" (p. 36); no proposition derives it. `takes_up` on candidates 3 and 7 is supported by the quoted passages, and the card's account of the "second triad" (six components, no second person bound by the system) matches pp. 4 and 10.
+- **Counting.** Candidate 8: the reference list holds none of that candidate's askers (I searched for Vanden Broeck, Schoeneborn, Mena, Pavlisa, Jaser, Scherer and Friedrich). On candidate 8 the preprint is convergent evidence and falls outside the counting rule. Candidates 3 and 7: it cites phillips2024, for another point (the social construction of technology, p. 12).
+- **Verdict.** used

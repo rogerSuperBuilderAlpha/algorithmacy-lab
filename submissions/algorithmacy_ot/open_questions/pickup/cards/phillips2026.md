@@ -44,3 +44,14 @@ The earlier abstract-based guess that Phillips "leans to" technology-as-constitu
 - **Classification changes.** None.
 - **Read depth.** full, stated correctly (references begin p. 253).
 - **Verdict.** verified_with_corrections
+
+## Fable check
+
+[Written by Fable (claude-fable-5-2), S10f, 2026-11-22]
+
+- **Date.** 22 November 2026. Counting follows the plan's rule that "a citing work counts only if its reference list holds the OT article": for each candidate I say whether the work cites an asker of that candidate, and for what.
+- **Read against.** `citing/pdfs/phillips2026.txt`. I read the passages on pp. 242, 244–245, 248, 250 and 252.
+- **Quotations.** All 14 located at the stated pages; the pp. 244–245 quotation crosses the page break. "artificial persons" does not occur in the text, and neither does "Vanden Broeck" (my searches).
+- **Classes.** All three stand.
+- **Counting.** Candidate 7: the essay cites phillips2024 on the substance (generative AI taking part in social construction, pp. 240, 242, 249). Candidates 3 and 1: the same citation, for another point.
+- **Verdict.** used
