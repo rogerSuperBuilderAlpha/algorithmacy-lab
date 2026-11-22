@@ -192,3 +192,15 @@ every OQ, using Fable's adjudication wherever either scorer gave 2 or more, and 
 The counts: 0 = 484, 1 = 94, 2 = 25, 3 = 2, 4 = 0, x = 79. The two 3s are stark2024-06 and hinds2024-04.
 The 2s sit in stark2024 (7), hinds2024 (8), justesen2024 (3), phillips2024 (3), hsu2024, scherer2023,
 racker2024 and suddaby2024 (1 each).
+
+## 22 Nov 2026: S10 (pick-up)
+
+- **Pick-up corpus.** 272 citing works were triaged (OpenAlex and OpenCitations) and 19 carded: 10 in P1
+  (4 upgraded to full text from PDFs the lead fetched in Chrome) and 9 in P2. Gap search: 43 queries
+  (OpenAlex, Consensus); Scholar Gateway was unavailable ("Access denied").
+- **bujold2026 → `answers` on candidate 3 is accepted, with its scope stated.** It answers the partner-or-
+  medium question for the worker–organization relation: an intermediary acting on behalf of the
+  organization that evaluates the worker. No two people are linked. It is the closest rival to candidate 3,
+  and it names two of the three parts (keeping track, interpreting) as conditions, not abilities.
+- **Not fetched:** zientara2026 (SAGE 403 in the browser), hall2025 (closed book review), akhil2026 and
+  ivarsson2026 (AISeL bot-check; not bypassed). Their cards stay abstract-only, and the report says so.
