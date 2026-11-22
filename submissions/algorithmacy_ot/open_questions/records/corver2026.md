@@ -1,6 +1,6 @@
 ---
 key: corver2026
-apa: Corver, F., & Filler, M. (2026). Modeling corporate sustainability change: A Deweyan pragmatist alternative. Organization Theory, 7(2). https://doi.org/10.1177/26317877261467772
+apa: Corver, F., & Filler, M. (2026). Modeling corporate sustainability change: A Deweyan pragmatist alternative. Organization Theory, 7(2), Article 26317877261467772. https://doi.org/10.1177/26317877261467772
 doi: 10.1177/26317877261467772
 volume: 7
 issue: 2
@@ -106,7 +106,7 @@ The authors argue that corporate sustainability maturity models (CSMMs) rest on 
 - Paraphrase: Research should trace which decisions modeling has aided, to mark the scope and limits of the framework. (reader's paraphrase)
 
 ### OQ-corver2026-09
-- Quote: "a richer empirical understanding is needed of how theorists and practitioners can work together to support the development of organizational capacities constitutive of being a good "tool user."" (p. 17, "Discussion")
+- Quote: "a richer empirical understanding is needed of how theorists and practitioners can work together to support the development of organizational capacities constitutive of being a good “tool user.”" (p. 17, "Discussion")
 - Form: future_research_call
 - Scope: building organizational capacity to use models as tools
 - Addressee: empirical researchers and scholar-practitioner teams
@@ -179,15 +179,15 @@ The authors argue that corporate sustainability maturity models (CSMMs) rest on 
 - algorithms_ai: 1. "Debates around artificial intelligence–based sustainability solutions illustrate how innovations require ongoing reassessment as capabilities and implications evolve" (p. 12, "A Deweyan Perspective on the Key Features")
 - platforms: 0.
 - coordination: 0.
-- communication: 1. "the pragmatist concept of "semiotic mediation," which encompasses models, offers a genuine alternative to the representationalist view" (p. 4, "Modeling and Organizing")
-- literacy_competence: 1. "organizational capacities constitutive of being a good "tool user."" (p. 17, "Discussion")
+- communication: 1. "the pragmatist concept of “semiotic mediation,” which encompasses models, offers a genuine alternative to the representationalist view" (p. 4, "Modeling and Organizing")
+- literacy_competence: 1. "organizational capacities constitutive of being a good “tool user.”" (p. 17, "Discussion")
 - evaluation_accountability: 1. "This kind of retrospective evaluation pushes companies to go beyond a narrow interpretation of corporate sustainability progress, one determined by measurements, indicators, and simplified models of progress" (p. 13, "A Deweyan Perspective on the Key Features")
 
 ## Caution
 - Publisher's version; printed pages equal pdf pages 1-26.
 - pdf p. 15 (the "Modeling Actions" section) was extracted with its two columns interleaved line by line; I read it by tracing each column but quoted nothing from it. Locators for that section are not given.
 - The Appendix (pp. 25-26) is a table of stage labels from CSMMs; I skimmed it and it carries no open questions.
-- Not counted: p. 2 and p. 5 listed questions about how sustainability problems are defined, how organizational learning unfolds and how progress is judged (they describe what the literature leaves implicit, not the authors' call); p. 16 questions "What has the model enabled? What problem-solving trajectories has it opened up?" (the questions the DACSM itself asks of models, part of the framework); the p. 14 remark that vocabulary "could guide future research and practice" (a general remark, covered by OQ-12); the p. 18 conclusion "We hope that this pragmatic modeling approach will inspire further theoretical development, empirical research, and practical experimentation" (generic closing hope, not tied to a named task).
+- Not counted: p. 2 and p. 5 listed questions about how sustainability problems are defined, how organizational learning unfolds and how progress is judged (they describe what the literature leaves implicit, not the authors' call); p. 16 questions "What has the model enabled? What problem-solving trajectories has it opened up?" (the questions the DACSM itself asks of models, part of the framework); the p. 14 remark that vocabulary "could guide future research and practice" (a general remark, covered by OQ-12); the p. 18 conclusion "We hope that this pragmatic modeling approach will inspire further theoretical development, empirical research, and practical experimentation" (generic closing hope, not tied to a named task). Added by verifier: "What actions does this collective modeling inquiry involve in practice?" (p. 14), answered by the six modeling actions; "we believe that further research should resist the temptation to “settle” things such as the appropriate division of labor between actors within the modeling process" (p. 17), a caution on how to pursue OQ-11, not a separate task; "This perspective invites companies to remain attuned to feedback" (p. 13), advice to practice; "remains" (p. 2, p. 7, p. 9), gaps in the CSMM literature that the paper itself addresses; "limitation" (p. 4, inside a Lorino quotation; p. 13, of measurements), not work left open; the p. 18 "limitation" and "open questions" sentences are OQ-14 and OQ-16; question marks on pp. 20-23 are reference titles.
 
 ## Verification
 pending

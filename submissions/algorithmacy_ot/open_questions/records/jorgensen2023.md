@@ -99,23 +99,23 @@ Jørgensen and Beyes take stock of the rising notion of atmosphere in organizati
 - Paraphrase: The field has words for ordinary atmospheres but must develop ways to respond to their darker moments. (reader's paraphrase)
 
 ## Implicit openings
-- (reader's inference) The paper extends the felt body to "the smartphone's sensors" and "'smart' environments" (p. 8, "Situation, Embodiment and Envelopment"); how organizational atmospherics works where sensing and modulating devices take part is gestured at, not developed.
+- (reader's inference) The paper extends the felt body to "the smartphone’s sensors" and "‘smart’ environments" (p. 8, "Situation, Embodiment and Envelopment"); how organizational atmospherics works where sensing and modulating devices take part is gestured at, not developed.
 - (reader's inference) The authors state a methodology of attunement "alongside" Michels's three registers (p. 9, "Half-Thing Methodology: Attunement"); how these methods are to be used in organizational fieldwork is left to later studies.
 
 ## Topic flags
 - triads_third_parties: 0
-- intermediaries: 1. "the felt body has become a technologically mediated sensorium enveloped in" (p. 8, "Embodiment"; the sentence continues "'smart' environments")
+- intermediaries: 1. "the felt body has become a technologically mediated sensorium enveloped in" (p. 8, "Embodiment"; the sentence continues "‘smart’ environments")
 - algorithms_ai: 0
 - platforms: 0
 - coordination: 0
-- communication: 1. Atmospheres "determine what is socially and communicatively possible" is quoted from Böhme; the exact words are not reproduced here because of curly quotation marks in the text (p. 2, "How to Give Form to the Atmospheric?").
+- communication: 1. "The things and bodies of organized life appear to be conditioned by atmospheres, which ‘determine what is socially and communicatively possible’ (Böhme, 2017, p. 10)." (p. 2, "How to Give Form to the Atmospheric?"; quotation located by verifier)
 - literacy_competence: 1. "attunement involves developing embodied capabilities of not only sensing moods but becoming socially sensitive towards changes and variations in gestures" (p. 9, "Half-Thing Methodology: Attunement")
 - evaluation_accountability: 0
 
 ## Caution
 - Publisher's version of record; printed page numbers equal pdf page numbers.
-- The communication flag carries no verbatim quote (curly quotation marks); the reader's scoring is 1 on the basis of the cited passage.
-- Not counted: "We hope that this theorization of (organizational) atmospheres can illuminate" (p. 12, a hope about the paper's use, not a call); the abstract's "suggesting a vocabulary and sensibility for future atmospheric inquiries" (p. 1, describes the paper's own contribution); "How can we then give form to the atmospheric in organizational analysis?" (pp. 5-6, answered in the text, near-duplicate of OQ-02); genealogy-related comment that the study of atmosphere "carries a politics of affirmation that invites further scrutiny" (p. 3, an aim the paper itself pursues).
+- The communication flag now carries a verbatim quotation (added by verifier); the inner words are Böhme's.
+- Not counted: "We hope that this theorization of (organizational) atmospheres can illuminate" (p. 12, a hope about the paper's use, not a call); the abstract's "suggesting a vocabulary and sensibility for future atmospheric inquiries" (p. 1, describes the paper's own contribution); "How can we then give form to the atmospheric in organizational analysis?" (pp. 5-6) — the paper's own question, answered in the text, folded into OQ-02 (own_research_question); genealogy-related comment that the study of atmosphere "carries a politics of affirmation that invites further scrutiny" (p. 3, an aim the paper itself pursues). Added by verifier: "How to understand and study this ubiquitous, ephemeral and fuzzy ‘background hum’" (p. 3) and "How to think and study this elemental inbetweenness?" (p. 6) — the paper's own questions, answered in the text, folded into OQ-01/OQ-02; "remains" (p. 3, sensibility that "remains implicit" in extant studies, which the paper itself makes explicit; p. 4, quoting McCormack) — no call; question marks on pp. 14 and 16 — reference titles only.
 
 ## Verification
 pending

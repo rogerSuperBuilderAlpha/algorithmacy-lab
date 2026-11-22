@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (printed on p. 1; crossref license URL creativecommons.org
 read_depth: full_vor
 object_read: "racker2024.pdf sha256 4dc5fe5f5a84f5b2517442aaa3398cd44c733e507266a8d06c547e2b769c8b34"
 reader_model: claude-opus-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 2, communication: 1, literacy_competence: 1, evaluation_accountability: 1}
@@ -159,10 +159,17 @@ Coordination research has treated physical space as context. Drawing on the spat
 - evaluation_accountability scored 1 because accountability is one of the three integrating conditions (Okhuysen & Bechky); it means responsibility for sub-tasks, not ratings or metrics.
 - Section heads in the research programme are run-in italic headings ("Space-focused coordinating in practice.", etc.); locators use them.
 - Quote self-check: 12 quotes, 9 exact, 2 ends-only, 1 MISS. The MISS (OQ-06) is a page break only: the passage runs from p. 12 into p. 13 across the running header "Räcker et al.". Ends-only: OQ-05 (line-end hyphen lost, extraction reads "spacefocused") and OQ-12 (note 1 breaks across the note-number column on p. 14).
-- Not counted: "Thus, taking into account space-focused coordinating makes integrating endeavours more effective" (pp. 13–14) – a claim, not a call. "reflexivity in terms of the potential spatial implications ... can help avoid integration flaws" (p. 14) – practical implication, no work named (recorded as an implicit opening on competence). "We might also find that coordinating through physical space is effective in contexts where other forms of coordinating might be challenged" (p. 12) – folded into OQ-06. "It is thus time, we believe, to take the spatial turn seriously" (p. 14) – closing exhortation, restates OQ-11.
+- Not counted: "Thus, taking into account space-focused coordinating makes integrating endeavours more effective" (pp. 13–14) – a claim, not a call. "reflexivity in terms of the potential spatial implications ... can help avoid integration flaws" (p. 14) – practical implication, no work named (recorded as an implicit opening on competence). "We might also find that coordinating through physical space is effective in contexts where other forms of coordinating might be challenged" (p. 12) – folded into OQ-06. "It is thus time, we believe, to take the spatial turn seriously" (p. 14) – closing exhortation, restates OQ-11. (Verifier) "Without explicit recognition of the inevitable spatial production of coordinating, coordination research remains blind to an important aspect of any coordination effort." (p. 11) – a claim motivating the perspective; the work it implies is carried by OQ-07 and OQ-11.
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok
+- Quotations checked: 32; corrected: 0; acceptable extraction mismatches: 3 (OQ-05 line-end hyphen "spacefocused"; OQ-06 page break pp. 12–13 with running header; OQ-12 note 1 broken by the note-number column on p. 14)
+- Recall sweep: hits reviewed 3 (plus the record's own "need"/"opportunity" sentences pp. 12–13); OQs added: 0; not-counted hits listed: 1 (p. 11 "remains blind", added by verifier; p. 14 "?" is a reference title)
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none. Lead may judge evaluation_accountability at 2: "accountability" occurs 23 times on pp. 2–11 as one of the three integrating conditions, but in the sense of responsibility for sub-tasks, as the record's Caution says
+- Verdict: verified_with_corrections (Not-counted list only)
 
 ## Fit
 pending

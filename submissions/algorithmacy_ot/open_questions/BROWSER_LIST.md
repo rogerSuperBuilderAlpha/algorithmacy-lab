@@ -53,4 +53,4 @@
 | phillips2024 | author manuscript (eScholarship) read; locators are pdf pages |
 | hsu2024 | author manuscript (eScholarship) read; locators are pdf pages |
 
-Other repository copies are checked at S5; any that turn out to be accepted manuscripts are added here.
+**Resolved 22 Nov 2026:** all four versions of record fetched in Chrome; the records were re-anchored to them (`verify/VERIFY_V05_vor.md`). All 66 items now have a PDF in the local store.

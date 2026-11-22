@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
 read_depth: full_vor (publisher's version, pp. 1-15, journal header and "Volume 5: 1-15" on first page; printed page numbers equal pdf page numbers; pp. 13-15 are note, references and author biographies, read)
 object_read: "stevenson2024.pdf sha256 50218bf5992f2a941d122a1f7f34218491965a559d189e99f98b512dedd2af95"
 reader_model: claude-sonnet-5-5
-verified: pending
+verified: yes
 hand_check: pending
 closing_form: dedicated_section
 topic_flags: {triads_third_parties: 0, intermediaries: 0, algorithms_ai: 0, platforms: 0, coordination: 1, communication: 0, literacy_competence: 0, evaluation_accountability: 1}
@@ -103,7 +103,14 @@ The authors argue that research on institutional complexity has focused on the c
 - Not counted: "scholars of II should take into account that one coupling is always relative to other couplings" (p. 11, methodological advice that completes the paper's own argument, not a call for new work); "we will discuss our core contributions and implications for future research" (p. 3, roadmap sentence); "Understanding how actors cope with institutional complexity is a question that has vexed many researchers" (p. 2, background statement).
 
 ## Verification
-pending
+- Verifier: claude-opus-5-5, 2026-11-22
+- Bibliography: ok (apa, doi, volume 5, issue 2, published_online 2024-06-14 match crossref.json; object_read matches sha256.txt; read_depth full_vor matches SAGE first page)
+- Quotations checked: 21; corrected: 0; acceptable extraction mismatches: 1 (p. 11 "scholars of II should take into account", split by the printed page number "11")
+- Recall sweep: hits reviewed 13; OQs added: 0; not-counted hits listed: 0 new (the "should be aware" advice on pp. 11 and the IL "scholars should focus" sentence on p. 7 complete the paper's own argument and are covered by the existing not-counted entry and implicit opening)
+- OQs removed: 0
+- Classification changes: none
+- Topic flags changed: none (evaluation_accountability kept at 1: "logic of accountability" recurs through the Hallett school example on pp. 4–5, but as illustration, not as the paper's topic; lead may judge otherwise)
+- Verdict: verified
 
 ## Fit
 pending

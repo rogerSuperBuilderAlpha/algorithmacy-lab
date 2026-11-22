@@ -110,7 +110,7 @@ Suddaby critiques Abend's essay, book (2023) and article (2008) as a call for ac
 - On p. 6 "objective and normative worldviews" is set as one word per line in the extraction; the syncretic-knowledge quote crosses that layout break.
 - Abend's note 6 (abend2024, p. 9) disputes Suddaby's attribution of a view of pragmatism to him; Suddaby does not engage Prasad.
 - The algorithms_ai score is 1: AI and data mining fill the last section but serve the critique of pragmatism rather than being the subject.
-- Not counted: "Whence Theory?" (section heading, p. 5) — rhetorical heading. "We need another way." (p. 4) — answered in text by the process view. "If Construct Clarity is so Bad, why is Abend so Good at it?" (heading, p. 5) — rhetorical; its body question is OQ-02. "More generally, I worry about science that sacrifices predictability for understanding." (p. 6) — a statement of concern folded into OQ-05.
+- Not counted: "Whence Theory?" (section heading, p. 5) — rhetorical heading. "We need another way." (p. 4) — answered in text by the process view. "If Construct Clarity is so Bad, why is Abend so Good at it?" (heading, p. 5) — rhetorical; its body question is OQ-02. "More generally, I worry about science that sacrifices predictability for understanding." (p. 6) — a statement of concern folded into OQ-05. Added by verifier: "What, he asks, is an organization or an institution?" (p. 3) — Abend's question reported and answered by the process view; "Construct Clarity or Construct Clarification?" (heading, p. 3) — rhetorical heading; question marks on pp. 7-8 are reference titles. The sweep terms "future research", "remains", "limitation", "invite" and the rest have no other hits.
 
 ## Verification
 pending
