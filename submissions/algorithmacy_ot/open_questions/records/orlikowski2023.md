@@ -10,10 +10,10 @@ article_type_printed: "Theory Article"
 article_type_norm: theory
 exchange_id: v5i3-digital-undertow-genai
 license: CC BY-NC 4.0 (article first page and crossref agree)
-read_depth: full_vor (publisher's typeset version, wrapped in a one-page LSE Research Online cover sheet; all 17 pdf pages read)
+read_depth: full_vor_cover (publisher's typeset version, wrapped in a one-page LSE Research Online cover sheet; all 17 pdf pages read)
 object_read: "orlikowski2023.pdf sha256 c4121267ae35bd627143e820e9bd94833ba2dbde29541c69b461bc527e6c77e1"
 reader_model: claude-opus-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 1, platforms: 1, coordination: 2, communication: 1, literacy_competence: 1, evaluation_accountability: 2}
@@ -63,7 +63,7 @@ Orlikowski and Scott argue that waves of digitalization carry an undertow: corol
 
 ### OQ-orlikowski2023-03
 - Quote: "More specifically, what difference do digitalization initiatives make to how industry-structuring mechanisms coordinate and regulate the materializations of activities, flows, and relations across industries or sectors." (p. 7, "Apparatus")
-- Form: explicit_question
+- Form: own_research_question (verifier: was explicit_question; the paper's own framing question, answered by its theorizing on pp. 7–11)
 - Scope: industry-structuring mechanisms (standards, accreditation schemes) under digitalization
 - Addressee: the authors' own program; implicitly sociomaterial and institutional scholars
 - Level of analysis: field
@@ -71,7 +71,7 @@ Orlikowski and Scott argue that waves of digitalization carry an undertow: corol
 
 ### OQ-orlikowski2023-04
 - Quote: "What are the corollary effects of such waves of digitalization and what institutional consequences manifest in the digital undertow?" (p. 7, "Apparatus")
-- Form: explicit_question
+- Form: own_research_question (verifier: was explicit_question; the paper's own framing question, answered by its theorizing on pp. 7–11)
 - Scope: institutional consequences of digital waves
 - Addressee: the authors' own program; implicitly institutional theorists
 - Level of analysis: field
@@ -137,9 +137,17 @@ Orlikowski and Scott argue that waves of digitalization carry an undertow: corol
 - The text extraction splits some words at line ends ("industry- structuring", "taken-forgranted"); quotations avoid those spots or reproduce the article's spelling.
 - Figure 1 (the process model, p. 10) is an image; the extraction holds only its caption. The record relies on the prose description on pp. 9–10.
 - Quote self-check (22 Nov): 9 of 9 OQ quotes exact; all other quoted passages also match the text.
+- Not counted (verifier's recall sweep; printed pages): p. 4, "it remains in relation to the waves" and p. 7, "what is excluded remains entangled" describe the theory, not work for others; p. 14, "What is a 'history of the present'?" and the p. 15–16 question-mark and "research agenda" hits are reference-list titles. The p. 7 framing questions and the p. 13 "research agendas" sentence are OQ-03, OQ-04 and OQ-08. (added by verifier)
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: corrected (read_depth full_vor to full_vor_cover, per the lead's ruling on repository cover sheets; apa, doi, volume, issue, published_online and sha256 match)
+- Quotations checked: 37; corrected: 0; acceptable extraction mismatches: 3 (the p. 5 "digital work", p. 4 "digital undertow" and p. 7 "constitutive exclusions" passages render the text's inner double quotation marks as single marks; words exact)
+- Recall sweep: hits reviewed 11; OQs added: 0; not-counted hits listed: 9
+- OQs removed: 0
+- Classification changes: OQ-03 and OQ-04 form explicit_question to own_research_question (lead's ruling: the paper answers its own framing questions)
+- Topic flags changed: none (platforms kept at 1: platforms carry the hospitality illustration, but the theory concerns institutional apparatuses; lead may judge 2)
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

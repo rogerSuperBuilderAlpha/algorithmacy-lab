@@ -13,7 +13,7 @@ license: CC BY-NC 4.0 per crossref; the eScholarship cover sheet states CC BY 4.
 read_depth: full_aam (eScholarship repository copy of the authors' manuscript, double-spaced, not typeset; all 41 pdf pages read, including figures and Table 1)
 object_read: "phillips2024.pdf sha256 f0d1a289380e3426a35636332470471d088b9f934b6c85400f41e9812dcd7909"
 reader_model: claude-opus-5-5
-verified: pending
+verified: with_corrections
 hand_check: pending
 closing_form: distributed
 topic_flags: {triads_third_parties: 0, intermediaries: 1, algorithms_ai: 2, platforms: 1, coordination: 0, communication: 2, literacy_competence: 1, evaluation_accountability: 1}
@@ -44,7 +44,7 @@ Phillips, Kalvapalle and Kennedy open a Controversies and Conversations set by c
 ## Open questions
 ### OQ-phillips2024-01
 - Quote: "But if generative AI is exhibiting sufficiently human-like intelligence in its interactions can we consider these intelligent machines as participating in social construction?" (pdf p. 5, opening section)
-- Form: explicit_question
+- Form: own_research_question (verifier: was explicit_question; one of the essay's framing questions, the essay argues current systems can participate (pdf pp. 13–16))
 - Scope: machine participation in social construction
 - Addressee: organization theorists
 - Level of analysis: multi-level
@@ -52,7 +52,7 @@ Phillips, Kalvapalle and Kennedy open a Controversies and Conversations set by c
 
 ### OQ-phillips2024-02
 - Quote: "First, at an individual level, can generative AI participate in category construction in a meaningful way, and if so, how should we theorize category construction when some participants are intelligent machines?" (pdf pp. 5–6, opening section)
-- Form: explicit_question
+- Form: own_research_question (verifier: was explicit_question; one of the essay's framing questions, answered through the participation game (pdf pp. 13–16))
 - Scope: category construction with machine participants
 - Addressee: category scholars
 - Level of analysis: individual
@@ -60,7 +60,7 @@ Phillips, Kalvapalle and Kennedy open a Controversies and Conversations set by c
 
 ### OQ-phillips2024-03
 - Quote: "Second, at an organizational level, how does an understanding of category construction and cultural evolution that includes intelligent machines change how we think about the role of categories in relation to organizations?" (pdf p. 6, opening section)
-- Form: explicit_question
+- Form: own_research_question (verifier: was explicit_question; one of the essay's framing questions, answered by the Table 1 typology (pdf pp. 17–20))
 - Scope: categories and organizations
 - Addressee: organization theorists interested in categories
 - Level of analysis: organization
@@ -68,7 +68,7 @@ Phillips, Kalvapalle and Kennedy open a Controversies and Conversations set by c
 
 ### OQ-phillips2024-04
 - Quote: "Finally, at a societal level, what broader implications grow out of the observation that generative AI has begun to participate in the process of category construction across markets and fields?" (pdf p. 6, opening section)
-- Form: explicit_question
+- Form: own_research_question (verifier: was explicit_question; one of the essay's framing questions, answered by the cultural-evolution section (pdf pp. 22–30))
 - Scope: markets, fields, society
 - Addressee: organization theorists
 - Level of analysis: field
@@ -123,7 +123,7 @@ Phillips, Kalvapalle and Kennedy open a Controversies and Conversations set by c
 - Paraphrase: The authors invite a conversation on how category-working machines affect cultural evolution. (reader's paraphrase)
 
 ### OQ-phillips2024-11
-- Quote: "The ability of generative AI to contribute to cultural variation by producing novel cultural categories and products is something that we have not seen before and that we believe is an important phenomenon" (pdf p. 30, "Understanding the Algorithmic Society: AI and Cultural Evolution")
+- Quote: "The ability of generative AI to contribute to cultural variation by producing novel cultural categories and products is something that we have not seen before and that we believe is an important phenomenon that organization theory scholars need to pay attention to." (pdf p. 30, "Understanding the Algorithmic Society: AI and Cultural Evolution")
 - Form: future_research_call
 - Scope: AI as a source of cultural variation
 - Addressee: organization theory scholars
@@ -193,9 +193,17 @@ Phillips, Kalvapalle and Kennedy open a Controversies and Conversations set by c
 - Figure 2 (a ChatGPT exchange) is an image; the extraction holds only its caption. Table 1 extracted column by column and was read by reassembling it.
 - The in-text citation "Barrat, 2013" matches a bibliography entry dated 2023; noted, not resolved.
 - The fourth exchange member, Grodal et al. (2024), was not available; the record reports only what this essay says about it.
+- Not counted (verifier's recall sweep; pdf pages): p. 3, the abstract's opening question, and p. 13, "the central question that motivates this essay", and p. 30, the Conclusions' restatement of "two important questions", restate the framing questions OQ-01 to OQ-04, which the essay answers; p. 5, "what effect does its participation have on processes of social construction and cultural evolution?" is a framing question paired with OQ-01 and answered in the cultural-evolution section (pdf pp. 26–30); pp. 10, 11, 13 (two) and 16, expository questions answered at once; pp. 7, 13, 17 and 24, "remains" in non-research senses; p. 27, "cognitive limitations of humans" is argument, not a limitation of the study; p. 32, "we look forward to seeing much more research in organization theory on this topic" closes the same call as OQ-15; pp. 34–37, reference-list titles. (added by verifier)
 
 ## Verification
-pending
+- Verifier: Claude Opus 5.5 (claude-opus-5-5), 2026-11-22
+- Bibliography: ok (apa, doi, volume, issue, published_online, sha256 match; read_depth full_aam matches the eScholarship cover sheet plus untypeset manuscript)
+- Quotations checked: 38; corrected: 1 (OQ-11 extended to the end of its sentence, "that organization theory scholars need to pay attention to.", since the clipped quote did not itself carry the call); acceptable extraction mismatches: 4 (OQ-02 and OQ-09 page breaks; "socialsymbolic" line-end hyphen; inner quotation marks on "co-participant")
+- Recall sweep: hits reviewed 27; OQs added: 0; not-counted hits listed: 22
+- OQs removed: 0
+- Classification changes: OQ-01, OQ-02, OQ-03, OQ-04 form explicit_question to own_research_question (lead's ruling)
+- Topic flags changed: none
+- Verdict: verified_with_corrections
 
 ## Fit
 pending

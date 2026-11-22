@@ -60,3 +60,6 @@
   named step in its process model). New `read_depth` token `full_vor_cover` for a repository cover sheet
   in front of the version of record (giovannoni2025, bartunek2025, nigam2025, orlikowski2023); the
   hand-check applies it.
+- **V04 queries.** All five defaults stand (hsu-07 as `own_research_question`; the phillips p. 5 paired
+  question stays not counted; orlikowski `platforms: 1`; inner quotation marks rendered as single marks
+  are acceptable; licence taken from Crossref). The Fable hand-check may revisit any of them.
