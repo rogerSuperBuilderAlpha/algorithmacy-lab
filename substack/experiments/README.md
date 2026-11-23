@@ -5,6 +5,7 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [Change the measuring tool's settings, and the yes/no answer stays the same](2026-11-23-settings-check.md) | [`org_frontier/studies/iit4_settings_robustness/`](../../org_frontier/studies/iit4_settings_robustness/) |
 | 2026-11-23 | [Adding a "maybe" to a majority vote doesn't change who is bound together](2026-11-23-three-way-votes.md) | [`org_frontier/studies/ternary_majority_noise/`](../../org_frontier/studies/ternary_majority_noise/) |
 | 2026-11-23 | [A marketplace that needs "some buyer and some seller" does not hold together as a whole](2026-11-23-two-sided-markets.md) | [`org_frontier/studies/two_sided_platform/`](../../org_frontier/studies/two_sided_platform/) |
 | 2026-11-23 | [A slow coordinator doesn't bind a majority vote; slow people can](2026-11-23-the-slow-coordinator.md) | [`org_frontier/studies/lazy_update/`](../../org_frontier/studies/lazy_update/) |
