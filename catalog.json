@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 146,
+  "study": 147,
   "foundations": 9,
   "open": 15
  },
@@ -9583,17 +9583,6 @@
   },
   {
    "kind": "study",
-   "id": "delay_quorum",
-   "title": "Delay on quorum hubs: a relay chain between the mediator and the parties",
-   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
-   "path": "org_frontier/studies/delay_quorum",
-   "reproduce": [
-    "python org_frontier/studies/delay_quorum/run.py --quick"
-   ],
-   "runtime": "fast"
-  },
-  {
-   "kind": "study",
    "id": "derangement_33_phi14",
    "title": "Derangement 3+3 Φ=14 law at n=6",
    "finding": "iff cycle type 3+3**. Dense sample: 6/40 of the 3+3 class all give full-core",
@@ -10104,6 +10093,17 @@
   },
   {
    "kind": "study",
+   "id": "indirect_loops",
+   "title": "Indirect loops: when the people a platform answers pass it on to the people it reads",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/indirect_loops",
+   "reproduce": [
+    "python org_frontier/studies/indirect_loops/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "interior_atoms_n78",
    "title": "Interior atoms at n=7–8 (V3 #9)",
    "finding": "{6, 8, 9, 12}, while also recalling prior atoms 6 and 12. Discrete atoms",
@@ -10187,6 +10187,17 @@
    "path": "org_frontier/studies/local_triad_necklace",
    "reproduce": [
     "python org_frontier/studies/local_triad_necklace/analyze_necklace.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "lockstep_symmetry",
+   "title": "Lockstep or symmetry: why does the one-sided veto factor?",
+   "finding": "One rule, fixed before the run, sorts all 256 strict-mediation forms with zero misses: a form binds iff",
+   "path": "org_frontier/studies/lockstep_symmetry",
+   "reproduce": [
+    "python org_frontier/studies/lockstep_symmetry/run.py --quick"
    ],
    "runtime": "fast"
   },
