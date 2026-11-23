@@ -243,3 +243,13 @@ racker2024 and suddaby2024 (1 each).
   with scope change) carry the answer. The lead checked the citing counts (Schoeneborn 2026: 0; Stark 2024:
   127) and the FLAGS A1 row against their files. Result in `synthesis/stacks/RULING_S13.md`; Gate 1 reopens
   for the author.
+
+## 23 Nov 2026: S14 (gap search and verification for the 5Cs introduction), at the author's request
+
+- **Request:** run the gap search for the actorhood opening and deep research to confirm everything in
+  `manuscript/intro_5c_2026-11-23/INTRODUCTION_5C.md`, so the introduction sells the question robustly.
+- **Assignment (lead):** S14a gap search (Opus); S14b owed reads + citation/claim verification of every
+  sentence (Opus); S14c search for a published case of a counterpart blamed for a platform's verdict
+  (Opus); S14d independent verifier of every quotation the three return (Opus); S14e Fable rules on the gap
+  claim and on each sentence of the introduction. Paywalled items the agents cannot reach are fetched by
+  the lead in Chrome. Store: `~/iit-playground/ot_open_questions_local/s14/`; outputs: `open_questions/s14/`.
