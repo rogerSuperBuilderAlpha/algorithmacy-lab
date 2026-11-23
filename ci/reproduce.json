@@ -6235,6 +6235,16 @@
       "source": "org_frontier/studies/ternary_ordinal_noise/FINDINGS.md"
     },
     {
+      "name": "alphabet-ladder-hub",
+      "cmd": "python org_frontier/studies/alphabet_ladder_hub/run.py --quick",
+      "expect": [
+        "C1 k=2,3 median controls (0.026981, 0.022209): PASS",
+        "median k=4 r=0.0  whole=0.000000"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/alphabet_ladder_hub/FINDINGS.md"
+    },
+    {
       "name": "mixed-radix-mediator",
       "cmd": "python org_frontier/studies/mixed_radix_mediator/analyze_mixed.py",
       "expect": [
