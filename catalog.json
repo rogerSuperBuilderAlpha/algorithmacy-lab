@@ -10930,12 +10930,12 @@
   },
   {
    "kind": "study",
-   "id": "swap_symmetry_panel",
-   "title": "Swap symmetry panel: every extreme quorum ignores where the noise sits; interior quorums don't",
-   "finding": "Hypotheses were committed (622fe26a) before computing. Values seen beforehand: OR3 and MAJ3 on this grid",
-   "path": "org_frontier/studies/swap_symmetry_panel",
+   "id": "switch_delay",
+   "title": "Switch delay",
+   "finding": "Hypotheses fixed in [hypotheses.md](org_frontier/studies/switch_delay/hypotheses.md) before computing. All numbers from",
+   "path": "org_frontier/studies/switch_delay",
    "reproduce": [
-    "python org_frontier/studies/swap_symmetry_panel/run.py --quick"
+    "python org_frontier/studies/switch_delay/run.py --quick"
    ],
    "runtime": "fast"
   },
