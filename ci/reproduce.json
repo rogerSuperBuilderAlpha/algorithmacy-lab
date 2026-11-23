@@ -6212,6 +6212,17 @@
       "source": "org_frontier/studies/graded_commit_verdict/FINDINGS.md"
     },
     {
+      "name": "ternary-ordinal-noise",
+      "cmd": "python org_frontier/studies/ternary_ordinal_noise/run.py --quick",
+      "expect": [
+        "C1 uniform controls (0.022209, 0.759836): PASS",
+        "triad absdiff k=3 ordinal r=0.1  whole=0.903754 full=yes",
+        "triad absdiff k=3 ordinal r=0.4  whole=0.275868 full=no"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/ternary_ordinal_noise/FINDINGS.md"
+    },
+    {
       "name": "mixed-radix-mediator",
       "cmd": "python org_frontier/studies/mixed_radix_mediator/analyze_mixed.py",
       "expect": [
