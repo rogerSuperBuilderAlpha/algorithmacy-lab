@@ -373,6 +373,7 @@ Multi-experiment batteries on one theme.
 - **[Graded party channel vs Φ (V4 #11)](org_frontier/studies/graded_channel_exact_phi/README.md)** — channel? The mediating system reads each party through a lossy channel —
 - **[Graded commit verdict (agenda #2)](org_frontier/studies/graded_commit_verdict/README.md)** — (`S'=min(W,C)`, ternary) keeps **discrete** structure labels
 - **[Graded × topology carriers (V3 #11)](org_frontier/studies/graded_topo_carriers/README.md)** — (`x'=min(·)` / hub `S'=min(W,C)`) keeps **discrete** structure labels
+- **[High-noise tie onset: where OR3 and ANY4 switch from one top group to a tie](org_frontier/studies/high_noise_tie_onset/README.md)** — Hypotheses were committed (c68fdb4a) before computing. Values seen beforehand: the η = 0.3 and 0.4 results
 - **[HITL rubber stamp (#39)](org_frontier/studies/hitl_rubber_stamp/README.md)** — system commit, counterpart), the human joins the major complex **iff**
 - **[HMC ↔ algorithmacy encoding boundary](org_frontier/studies/hmc_algo_boundary/README.md)** — 2-core. Adding a second human into S’s rule (∨ or ∧) expands to 3-core
 - **[Holistic residual at n=4 (F26)](org_frontier/studies/holistic_residual_n4/README.md)** — strict-mediation n=4 forms (seed 4), a Probe-125/131 cheap-feature random forest misclassifies

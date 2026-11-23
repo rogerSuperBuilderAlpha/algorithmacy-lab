@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 156,
+  "study": 157,
   "foundations": 9,
   "open": 15
  },
@@ -9980,6 +9980,15 @@
     "python org_frontier/studies/graded_topo_carriers/analyze_graded_topo.py"
    ],
    "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "high_noise_tie_onset",
+   "title": "High-noise tie onset: where OR3 and ANY4 switch from one top group to a tie",
+   "finding": "Hypotheses were committed (c68fdb4a) before computing. Values seen beforehand: the η = 0.3 and 0.4 results",
+   "path": "org_frontier/studies/high_noise_tie_onset",
+   "reproduce": [],
+   "runtime": "unregistered"
   },
   {
    "kind": "study",
