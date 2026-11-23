@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 159,
+  "study": 160,
   "foundations": 9,
   "open": 15
  },
@@ -10464,6 +10464,15 @@
     "python org_frontier/studies/omit_motif_phi5/analyze_motifs.py"
    ],
    "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "or_gate_source",
+   "title": "OR-gate source: does the switch's driver matter for an OR-gated relayer?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/or_gate_source",
+   "reproduce": [],
+   "runtime": "unregistered"
   },
   {
    "kind": "study",
