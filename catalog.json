@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 161,
+  "study": 163,
   "foundations": 9,
   "open": 15
  },
@@ -9917,12 +9917,34 @@
   },
   {
    "kind": "study",
+   "id": "forcing_match",
+   "title": "Forcing match: is a gated relayer bound exactly when the gate forces the value that settles the platform?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/forcing_match",
+   "reproduce": [
+    "python org_frontier/studies/forcing_match/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "formal_informal_cut",
    "title": "Formal vs informal cut (agenda #46)",
    "finding": "map onto dyadic/triadic. Formal spans both (commit gate vs",
    "path": "org_frontier/studies/formal_informal_cut",
    "reproduce": [
     "python org_frontier/studies/formal_informal_cut/analyze_cut.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "gate_match_test",
+   "title": "Gate match test: is a gated relayer bound exactly when its gate rule matches the platform rule?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/gate_match_test",
+   "reproduce": [
+    "python org_frontier/studies/gate_match_test/run.py --quick"
    ],
    "runtime": "fast"
   },
