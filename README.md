@@ -343,6 +343,7 @@ Multi-experiment batteries on one theme.
 - **[Derangement 3+3 Φ=14 law at n=6](org_frontier/studies/derangement_33_phi14/README.md)** — iff cycle type 3+3**. Dense sample: 6/40 of the 3+3 class all give full-core
 - **[Discriminant boundaries — what algorithmacy is not](org_frontier/studies/discriminant_boundaries/README.md)** — A pre-registered discriminant battery: faithful Boolean models of algorithmacy's neighbour constructs,
 - **[Discriminant scale-blur (#42)](org_frontier/studies/discriminant_scale_blur/README.md)** — discriminant into within-class Φ mixing. Class purity holds at n=5 and n=6
+- **[A fitted formula for the drifting ratio, tested and refuted](org_frontier/studies/drifting_ratio/README.md)** — The fitted formula for the drifting ratio is refuted. On (1,1,1,3) quota 3 the measured ratios are 147.06517413692788, 76.2763609973792 and 41.48368774874131 at e =…
 - **[Dual-function entities — earned integration and held gates in one company](org_frontier/studies/dual_function_entities/README.md)** — Seven platforms decomposed into 16 functions, each classified by the bypass-counterfactual (q213). Every
 - **[Dual-mediator template census (V3 #1)](org_frontier/studies/dual_mediator_template_census/README.md)** — cascade, parallel mediators, mediator-of-mediators) does **not** force a
 - **[Dual principal conflict (#29)](org_frontier/studies/dual_principal_conflict/README.md)** — is set by the **conflict encoding** — not a single universal winner
@@ -407,6 +408,7 @@ Multi-experiment batteries on one theme.
 - **[Lockstep or symmetry: why does the one-sided veto factor?](org_frontier/studies/lockstep_symmetry/README.md)** — One rule, fixed before the run, sorts all 256 strict-mediation forms with zero misses: a form binds iff
 - **[Anti-correlated duty on logged structure (agenda V4 #7)](org_frontier/studies/logged_alt_duty_exact_phi/README.md)** — party admission recreates the exact-Φ joint-observation cliff on the
 - **[M3 subset-Φ fidelity vs V4 items 1–3 (agenda V4 item 12)](org_frontier/studies/m3_subset_fidelity_v4/README.md)** — Induced exact Φ already decides V4 items 1–3; overlay background-subset Φ moves the V4 item 1 subset-estimand key
+- **[A candidate split for the party-noise factor, tested and refuted](org_frontier/studies/majority_factor_split/README.md)** — Both pre-registered hypotheses were refuted. The candidate split failed because (1,1,1,3) quota 3 follows the factor exactly, even though one party can win the vote…
 - **[Margin-cascade selective exact Φ](org_frontier/studies/margin_cascade_phi/README.md)** — out-of-fold uncertain forms — cuts FN-among-triads sharply at fixed exact-Φ budget
 - **[Margin-cascade τ vs top-B% calibration](org_frontier/studies/margin_cascade_tau/README.md)** — On n=4, nested cal-fold τ-matching at B=10% yields the same FN|tri as top-B%
 - **[MARL deep replicate (#41 gap)](org_frontier/studies/marl_deep_replicate/README.md)** — linear FA Q-policies with observation `[S, own_last, partner_last]` —
@@ -479,6 +481,7 @@ Multi-experiment batteries on one theme.
 - **[Topology-aware imputer (agenda V3 #15)](org_frontier/studies/topology_aware_imputer/README.md)** — a **ring prior** restores the mean-MI screen (AUC 0.550→0.944). A
 - **[Two-sided platform: two buyers and two sellers around one mediator](org_frontier/studies/two_sided_platform/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Two-triad shared-member merger (agenda #16)](org_frontier/studies/two_triad_shared_member/README.md)** — mediator** merges two conjunctive triads into one major complex spanning both
+- **[Cause and effect at the unanimous state, under both placements](org_frontier/studies/unanimous_repertoires/README.md)** — H1 and H3 were refuted; H2 was supported. At r = 0.2 the two placements do not have the same cause-and-effect analysis: for OR3 at 0000, cause φ is 1.041518 under…
 - **[Update order on quorum hubs](org_frontier/studies/update_order_quorum/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Wageman W × Φ landmark (V3 #14)](org_frontier/studies/wageman_phi_landmark/README.md)** — with form size n predicts the Φ landmarks ring-4 / hub-(n−1) / pool
 - **[Wageman TI → verdict (agenda #44)](org_frontier/studies/wageman_ti_verdict/README.md)** — interdependence index separates dyadic from triadic on the designed

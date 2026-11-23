@@ -7902,6 +7902,36 @@
       ],
       "timeout": 120,
       "source": "org_frontier/studies/party_noise_factor/FINDINGS.md"
+    },
+    {
+      "name": "majority-factor-split",
+      "cmd": "python org_frontier/studies/majority_factor_split/run.py --quick",
+      "expect": [
+        "MAJ3    eta=0.2  eps=0.3  states=16 whole=0.033951",
+        "2of4    eta=0.2  eps=0.4  states=32 whole=0.023213"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/majority_factor_split/FINDINGS.md"
+    },
+    {
+      "name": "unanimous-repertoires",
+      "cmd": "python org_frontier/studies/unanimous_repertoires/run.py --quick",
+      "expect": [
+        "OR3   party    r=0.2  state=0000 system=1.041518 cause=2.002920 effect=1.041518",
+        "OR3   mediator r=0.4  state=0000 system=-0.124209 cause=0.170446 effect=-0.124209"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/unanimous_repertoires/FINDINGS.md"
+    },
+    {
+      "name": "drifting-ratio",
+      "cmd": "python org_frontier/studies/drifting_ratio/run.py --quick",
+      "expect": [
+        "1123q3  e=0.1  whole=0.014974 top=0.748696 ratio=49.999953",
+        "1113q3  e=0.2  whole=0.012972 top=0.538118 ratio=41.483688"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/drifting_ratio/FINDINGS.md"
     }
   ]
 }

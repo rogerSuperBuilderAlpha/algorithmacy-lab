@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 177,
+  "study": 180,
   "foundations": 9,
   "open": 15
  },
@@ -9649,6 +9649,17 @@
   },
   {
    "kind": "study",
+   "id": "drifting_ratio",
+   "title": "A fitted formula for the drifting ratio, tested and refuted",
+   "finding": "The fitted formula for the drifting ratio is refuted. On (1,1,1,3) quota 3 the measured ratios are 147.06517413692788, 76.2763609973792 and 41.48368774874131 at e = 0.05, 0.1 and 0.2, against predicted 199.9024781081887, 102.76545826383659 and 54.04909345311601 (relative errors 0.264, 0.258 and 0.232). The top tie set is {S, P4} at every rate, and quota 4 matches quota 3",
+   "path": "org_frontier/studies/drifting_ratio",
+   "reproduce": [
+    "python org_frontier/studies/drifting_ratio/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "dual_function_entities",
    "title": "Dual-function entities — earned integration and held gates in one company",
    "finding": "Seven platforms decomposed into 16 functions, each classified by the bypass-counterfactual (q213). Every",
@@ -10352,6 +10363,17 @@
    "path": "org_frontier/studies/m3_subset_fidelity_v4",
    "reproduce": [
     "python org_frontier/studies/m3_subset_fidelity_v4/analyze_fidelity.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "majority_factor_split",
+   "title": "A candidate split for the party-noise factor, tested and refuted",
+   "finding": "Both pre-registered hypotheses were refuted. The candidate split failed because (1,1,1,3) quota 3 follows the factor exactly, even though one party can win the vote alone: Φ(0.2, 0) = 0.012971794290726172, Φ(0.2, 0.3) = 0.012548460149892644, Φ(0.2, 0.4) = 0.01083211688194662",
+   "path": "org_frontier/studies/majority_factor_split",
+   "reproduce": [
+    "python org_frontier/studies/majority_factor_split/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -11145,6 +11167,17 @@
    "path": "org_frontier/studies/two_triad_shared_member",
    "reproduce": [
     "python org_frontier/studies/two_triad_shared_member/analyze_shared_member.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "unanimous_repertoires",
+   "title": "Cause and effect at the unanimous state, under both placements",
+   "finding": "H1 and H3 were refuted; H2 was supported. At r = 0.2 the two placements do not have the same cause-and-effect analysis: for OR3 at 0000, cause φ is 1.041518 under mediator-side noise and 2.002920 under party-side noise, while effect φ is 1.041518446253012 either way. The already-known match of system φ is a match of the two effect values",
+   "path": "org_frontier/studies/unanimous_repertoires",
+   "reproduce": [
+    "python org_frontier/studies/unanimous_repertoires/run.py --quick"
    ],
    "runtime": "fast"
   },
