@@ -12,3 +12,5 @@
 
 Status: items 1–3 open as of 2026-11-23. This study tests and refutes the formula asked for in
 item 4 of `weighted_equivalence/BACKLOG.md`.
+
+PR note: CI nudge after the atlas snapshot pin (85379494).
