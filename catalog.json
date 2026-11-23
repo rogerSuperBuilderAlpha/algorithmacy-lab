@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 148,
+  "study": 149,
   "foundations": 9,
   "open": 15
  },
@@ -10817,6 +10817,15 @@
     "python org_frontier/studies/threshold_majority_template/analyze_threshold_majority.py"
    ],
    "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "tie_audit",
+   "title": "Tie audit: do lab verdicts depend on how PyPhi breaks state ties?",
+   "finding": "Ties between equally maximal cause or effect states are everywhere (3,984 of 4,096 three-node forms have",
+   "path": "org_frontier/studies/tie_audit",
+   "reproduce": [],
+   "runtime": "unregistered"
   },
   {
    "kind": "study",
