@@ -6,3 +6,5 @@
 3. **Mixed memory.** Different rules for different parties (one latching, two copying).
 4. **Delay nodes on quorum hubs** (a buffer between S and the parties), extending `commit_response_delay`
    from the conjunctive triad to OR3/MAJ3.
+
+Item 4 is the next study (`delay_quorum`); the others had not been started when PR #923 was opened.
