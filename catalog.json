@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 167,
+  "study": 168,
   "foundations": 9,
   "open": 15
  },
@@ -10473,6 +10473,17 @@
    "path": "org_frontier/studies/noise_placement",
    "reproduce": [
     "python org_frontier/studies/noise_placement/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "noise_swap_symmetry",
+   "title": "Noise swap symmetry: OR3 cannot tell input noise from party noise; MAJ3 can",
+   "finding": "Hypotheses were committed (3db908d6) before computing. Values seen beforehand: OR3/AND3 at η ∈ {0.05, 0.1,",
+   "path": "org_frontier/studies/noise_swap_symmetry",
+   "reproduce": [
+    "python org_frontier/studies/noise_swap_symmetry/run.py --quick"
    ],
    "runtime": "fast"
   },
