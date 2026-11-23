@@ -10247,6 +10247,17 @@
   },
   {
    "kind": "study",
+   "id": "memory_rules",
+   "title": "Memory rules: deterministic self-loops on quorum hubs",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/memory_rules",
+   "reproduce": [
+    "python org_frontier/studies/memory_rules/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "mincut_mip",
    "title": "Min-cut MIP (#49)",
    "finding": "(Q49 H5). For the #47 families a *normalized GID cut-weight* theorem",
