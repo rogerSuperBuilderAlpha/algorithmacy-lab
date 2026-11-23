@@ -4,4 +4,4 @@
 2. **Why the OR-gated relayed loop drops out**: compare or_from_P's PR2C1 φ by state with and_from_P's.
 3. **Noisy relayers** (carried over from `relay_length`).
 
-None of these had been started when PR #N was opened.
+None of these had been started when PR #944 was opened.
