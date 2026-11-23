@@ -9965,8 +9965,10 @@
    "title": "Four identical parties: PyPhi's tie-break matters more as the group grows",
    "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), max over reachable states, threshold 1e-9. Hypotheses pushed in",
    "path": "org_frontier/studies/four_party_ties",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/four_party_ties/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
