@@ -236,3 +236,10 @@ racker2024 and suddaby2024 (1 each).
   cross-cutting thread, not a stack (flagged as the ruling most likely to be reversed). Blindness: Fable
   opened `DECISIONS.md` and saw the S13 sentence on fit by year; it reports that it did not use it. The lead
   accepts the map; the sentence names no stack and no answer.
+- **S13c–e:** two blind mappers (Opus) put five 2025–26 questions at fit 2; the critic (Opus) showed they scored
+  after crediting a change of level, and put all at 1. Fable ruled at source: OQ-schoeneborn2026-06 at 2 (a
+  soft 2, above both blind scorers), all other recent anchors at 1; R08 (actorhood) holds with reframing at
+  concern level; R06 shoehorned; Stark & Vanden Broeck 2024 (-06, fit 3) and Hinds & von Krogh 2024 (-04, fit 3
+  with scope change) carry the answer. The lead checked the citing counts (Schoeneborn 2026: 0; Stark 2024:
+  127) and the FLAGS A1 row against their files. Result in `synthesis/stacks/RULING_S13.md`; Gate 1 reopens
+  for the author.
