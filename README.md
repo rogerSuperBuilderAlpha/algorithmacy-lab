@@ -383,7 +383,6 @@ Multi-experiment batteries on one theme.
 - **[Role-target grain on indeg (0,0,1,1,1,3)](org_frontier/studies/indeg_001113_grain/README.md)** — ((2,),1) **mixes** Φ=6/12 until split by **z_targets**. t_targets is
 - **[Finer grain on MIX indeg (0,0,1,1,2,2)](org_frontier/studies/indeg_002122_grain/README.md)** — Within indeg **(0,0,1,1,2,2)**: **t_targets=(1,1) ⇒ Φ=12** (n_core=4);
 - **[Indeg (0,0,1,1,2,2) at n=6](org_frontier/studies/indeg_002122_n6/README.md)** — the closed (0,1,1,1,1,2) band — cycle-type classes are **not Φ-pure**
-- **[Indirect loops: when the people a platform answers pass it on to the people it reads](org_frontier/studies/indirect_loops/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Interior atoms at n=7–8 (V3 #9)](org_frontier/studies/interior_atoms_n78/README.md)** — {6, 8, 9, 12}, while also recalling prior atoms 6 and 12. Discrete atoms
 - **[Interior topology between ring and pool (agenda #19)](org_frontier/studies/interior_ring_pool/README.md)** — (Φ = 4) and the pool (Φ = n(n−1)) **exist**, but none in this designed census
 - **[Irreducibility catalog — necessary and contingent irreducible triads](org_frontier/studies/irreducibility_catalog/README.md)** — 54 entries classified by the bypass-counterfactual (q213): 41 real-world arrangements and 13
