@@ -417,6 +417,7 @@ Multi-experiment batteries on one theme.
 - **[Omit cycle-type morph at n=7 (V3 #8)](org_frontier/studies/omit_cycle_morph_n7/README.md)** — does **not** morph again. The n=5→n=6 singleton→band shift (V2 #42
 - **[Omit/derangement lift at n=6](org_frontier/studies/omit_lift_n6/README.md)** — fixed_k=4, **derangements split** into Φ=12 (cycle types 6, 4+2, 2+2+2) and
 - **[Omit-motif census: Φ=5 vs Φ=6 at n=5](org_frontier/studies/omit_motif_phi5/README.md)** — recip=0. Same-indeg siblings with other cycle structures all give **Φ=6**. Motif
+- **[OR-gate source: does the switch's driver matter for an OR-gated relayer?](org_frontier/studies/or_gate_source/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Oscillatory Φ scaling (agenda #11)](org_frontier/studies/oscillatory_scaling/README.md)** — traveling wave, period=n) carries a **constant Φ=2.0** law over
 - **[Parity law under n>6 hub embeddings (V3 #10)](org_frontier/studies/parity_law_n_gt6/README.md)** — the MIP at all-1s and matches exact Φ — **no topology residual** when
 - **[Parity-hub law for n>8 (agenda V4 #9)](org_frontier/studies/parity_law_n_gt8/README.md)** — n>8 under the named H-cut formula and a feasible exact SIA check: H-cut
