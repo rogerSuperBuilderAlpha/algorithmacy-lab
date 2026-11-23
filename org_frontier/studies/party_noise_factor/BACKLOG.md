@@ -11,5 +11,5 @@
    rules, and a derivation of the original factor from the party-side noise model, now known not
    to be general.
 
-Status: items 1–4 open as of 2026-11-23. This study tests and refutes item 1 of
+Status: items 1–4 open as of 2026-11-23 (PR #960). This study tests and refutes item 1 of
 `weighted_swap_symmetry/BACKLOG.md`.
