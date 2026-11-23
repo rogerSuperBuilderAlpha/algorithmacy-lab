@@ -5,6 +5,7 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [Not just anyone in the loop](2026-11-23-not-any-loop-member.md) | [`org_frontier/studies/switch_loop_member/`](../../org_frontier/studies/switch_loop_member/) |
 | 2026-11-23 | [It wasn't the delay](2026-11-23-not-just-a-delay.md) | [`org_frontier/studies/switch_delay/`](../../org_frontier/studies/switch_delay/) |
 | 2026-11-23 | [Who works the switch doesn't change who is bound, only how tightly](2026-11-23-who-works-the-switch.md) | [`org_frontier/studies/gate_census_r1/`](../../org_frontier/studies/gate_census_r1/) |
 | 2026-11-23 | [Errors in, errors out](2026-11-23-in-or-out.md) | [`org_frontier/studies/noise_swap_symmetry/`](../../org_frontier/studies/noise_swap_symmetry/) |
