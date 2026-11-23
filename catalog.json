@@ -10732,6 +10732,17 @@
   },
   {
    "kind": "study",
+   "id": "two_sided_platform",
+   "title": "Two-sided platform: two buyers and two sellers around one mediator",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/two_sided_platform",
+   "reproduce": [
+    "python org_frontier/studies/two_sided_platform/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "two_triad_shared_member",
    "title": "Two-triad shared-member merger (agenda #16)",
    "finding": "mediator** merges two conjunctive triads into one major complex spanning both",
