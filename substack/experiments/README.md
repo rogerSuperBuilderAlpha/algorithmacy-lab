@@ -5,6 +5,8 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [Testing the matching pattern: it holds for "both" and "either" platforms, not for "exactly one"](2026-11-23-testing-the-match.md) | [`org_frontier/studies/gate_match_test/`](../../org_frontier/studies/gate_match_test/) |
+| 2026-11-23 | [The high-noise cliff is a sign flip](2026-11-23-the-high-noise-cliff.md) | [`org_frontier/studies/high_noise_tie_onset/`](../../org_frontier/studies/high_noise_tie_onset/) |
 | 2026-11-23 | [The go-between's switch may need to work the same way the platform does](2026-11-23-gate-must-match.md) | [`org_frontier/studies/or_gate_source/`](../../org_frontier/studies/or_gate_source/) |
 | 2026-11-23 | [Who flips the switch decides whether the group holds together](2026-11-23-gate-source.md) | [`org_frontier/studies/gate_source/`](../../org_frontier/studies/gate_source/) |
 | 2026-11-23 | [Nobody was dropped: the shrinking groups were ties](2026-11-23-ties-not-cores.md) | [`org_frontier/studies/tie_set_membership/`](../../org_frontier/studies/tie_set_membership/) |
