@@ -9961,6 +9961,17 @@
   },
   {
    "kind": "study",
+   "id": "gate_census_r1",
+   "title": "Gate census, switch driven by R1",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/gate_census_r1",
+   "reproduce": [
+    "python org_frontier/studies/gate_census_r1/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "gate_match_test",
    "title": "Gate match test: is a gated relayer bound exactly when its gate rule matches the platform rule?",
    "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
@@ -10914,17 +10925,6 @@
    "path": "org_frontier/studies/structure_aware_surrogate",
    "reproduce": [
     "python org_frontier/studies/structure_aware_surrogate/analyze_surrogate.py"
-   ],
-   "runtime": "fast"
-  },
-  {
-   "kind": "study",
-   "id": "swap_symmetry_panel",
-   "title": "Swap symmetry panel: every extreme quorum ignores where the noise sits; interior quorums don't",
-   "finding": "Hypotheses were committed (622fe26a) before computing. Values seen beforehand: OR3 and MAJ3 on this grid",
-   "path": "org_frontier/studies/swap_symmetry_panel",
-   "reproduce": [
-    "python org_frontier/studies/swap_symmetry_panel/run.py --quick"
    ],
    "runtime": "fast"
   },
