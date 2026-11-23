@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 166,
+  "study": 167,
   "foundations": 9,
   "open": 15
  },
@@ -9677,6 +9677,17 @@
    "path": "org_frontier/studies/dual_principal_conflict",
    "reproduce": [
     "python org_frontier/studies/dual_principal_conflict/analyze_dual.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "dummy_party_noise",
+   "title": "Dummy party under noise: a never-pivotal party zeroes whole Φ in OR3 and AND3",
+   "finding": "Hypotheses were committed (d92b78c0) before computing. Values seen beforehand: (1,2,2,2) quota 2 at ε = 0",
+   "path": "org_frontier/studies/dummy_party_noise",
+   "reproduce": [
+    "python org_frontier/studies/dummy_party_noise/run.py --quick"
    ],
    "runtime": "fast"
   },
