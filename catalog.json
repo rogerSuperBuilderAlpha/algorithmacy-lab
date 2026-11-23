@@ -10005,6 +10005,17 @@
   },
   {
    "kind": "study",
+   "id": "iit4_settings_robustness",
+   "title": "IIT 4.0 settings robustness: does the dyad/triad verdict depend on PyPhi's partition settings?",
+   "finding": "Six of seven IIT 4.0 settings in the pinned PyPhi give the identical triadic set (24 of 256 strict-mediation",
+   "path": "org_frontier/studies/iit4_settings_robustness",
+   "reproduce": [
+    "python org_frontier/studies/iit4_settings_robustness/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "imputer_exact_phi",
    "title": "Imputer under exact Φ (agenda V4 #4)",
    "finding": "MI-only, and it is not a blanket transfer: party-echo completes Φ",
