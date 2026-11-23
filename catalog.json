@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 177,
+  "study": 178,
   "foundations": 9,
   "open": 15
  },
@@ -10354,6 +10354,15 @@
     "python org_frontier/studies/m3_subset_fidelity_v4/analyze_fidelity.py"
    ],
    "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "majority_factor_split",
+   "title": "A candidate split for the party-noise factor, tested and refuted",
+   "finding": "Both pre-registered hypotheses were refuted. The candidate split failed because (1,1,1,3) quota 3 follows the factor exactly, even though one party can win the vote alone: Φ(0.2, 0) = 0.012971794290726172, Φ(0.2, 0.3) = 0.012548460149892644, Φ(0.2, 0.4) = 0.01083211688194662",
+   "path": "org_frontier/studies/majority_factor_split",
+   "reproduce": [],
+   "runtime": "unregistered"
   },
   {
    "kind": "study",
