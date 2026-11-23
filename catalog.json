@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 150,
+  "study": 151,
   "foundations": 9,
   "open": 15
  },
@@ -10925,6 +10925,17 @@
    "path": "org_frontier/studies/weakest_boolean_render",
    "reproduce": [
     "python org_frontier/studies/weakest_boolean_render/analyze_weakest_render.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "weighted_ratio_law",
+   "title": "Weighted ratio law: does the counting law survive one heavy voter?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464",
+   "path": "org_frontier/studies/weighted_ratio_law",
+   "reproduce": [
+    "python org_frontier/studies/weighted_ratio_law/run.py --quick"
    ],
    "runtime": "fast"
   },
