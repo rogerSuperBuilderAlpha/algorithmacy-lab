@@ -8,4 +8,4 @@
 3. **Derivation.** Show from the IIT 4.0 system partition why an asymmetric commit over equal inputs
    admits a zero-cost cut.
 
-None of these had been started when this study's PR was opened.
+None of these had been started when PR #926 was opened.
