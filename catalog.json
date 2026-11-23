@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 154,
+  "study": 155,
   "foundations": 9,
   "open": 15
  },
@@ -10517,6 +10517,17 @@
    "path": "org_frontier/studies/partial_observation_screen",
    "reproduce": [
     "python org_frontier/studies/partial_observation_screen/analyze_partial_obs.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "partial_sync_quorum",
+   "title": "Partial synchrony on quorum hubs",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/partial_sync_quorum",
+   "reproduce": [
+    "python org_frontier/studies/partial_sync_quorum/run.py --quick"
    ],
    "runtime": "fast"
   },
