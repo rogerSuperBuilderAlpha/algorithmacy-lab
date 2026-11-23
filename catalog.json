@@ -10163,8 +10163,10 @@
    "title": "Lockstep or symmetry: why does the one-sided veto factor?",
    "finding": "One rule, fixed before the run, sorts all 256 strict-mediation forms with zero misses: a form binds iff",
    "path": "org_frontier/studies/lockstep_symmetry",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/lockstep_symmetry/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",

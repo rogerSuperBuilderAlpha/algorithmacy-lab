@@ -5,6 +5,7 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [Why a veto splits apart: it's about fairness between the parties, not about them moving together](2026-11-23-veto-and-symmetry.md) | [`org_frontier/studies/lockstep_symmetry/`](../../org_frontier/studies/lockstep_symmetry/) |
 | 2026-11-23 | [No kind of memory makes a majority vote hold together](2026-11-23-memory-that-only-goes-one-way.md) | [`org_frontier/studies/memory_rules/`](../../org_frontier/studies/memory_rules/) |
 | 2026-11-23 | [Change the measuring tool's settings, and the yes/no answer stays the same](2026-11-23-settings-check.md) | [`org_frontier/studies/iit4_settings_robustness/`](../../org_frontier/studies/iit4_settings_robustness/) |
 | 2026-11-23 | [A marketplace that needs "some buyer and some seller" does not hold together as a whole](2026-11-23-two-sided-markets.md) | [`org_frontier/studies/two_sided_platform/`](../../org_frontier/studies/two_sided_platform/) |
