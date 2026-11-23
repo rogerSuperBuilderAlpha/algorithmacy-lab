@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 135,
+  "study": 136,
   "foundations": 9,
   "open": 15
  },
@@ -10002,6 +10002,15 @@
     "python org_frontier/studies/hybrid_ff_recurrent_seam/analyze_hybrid_seam.py"
    ],
    "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "iit4_settings_robustness",
+   "title": "IIT 4.0 settings robustness: does the dyad/triad verdict depend on PyPhi's partition settings?",
+   "finding": "Six of seven IIT 4.0 settings in the pinned PyPhi give the identical triadic set (24 of 256 strict-mediation",
+   "path": "org_frontier/studies/iit4_settings_robustness",
+   "reproduce": [],
+   "runtime": "unregistered"
   },
   {
    "kind": "study",
