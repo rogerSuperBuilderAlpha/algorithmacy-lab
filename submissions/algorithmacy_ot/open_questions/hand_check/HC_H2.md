@@ -1,0 +1,21 @@
+# Hand-check, batch H2 (run `ot-oq-2026-11`, stage S7)
+
+> **[Written by Fable (claude-fable-5-2), hand-checker, 22 Nov 2026.]** Six Tier A records, each read
+> in full against its `_paged.txt`. Fit lines and the reasons for every change are in each record's
+> `## Fit` and `## Hand-check` sections. Nothing is committed.
+
+key | verdict | corrections | final fit ≥3 (oq ids) | notes
+phillips2024 | indexed_with_corrections | Conversation section no longer ties anthropomorphism to Grodal et al. (pp. 7, 13 cite Mollick and Placani); "Against both" optimists and pessimists changed to "Beside ... a third"; 4 Not-counted hits added; stale caution on Grodal et al. marked | none | Final 2 for OQ-07 (A=2 B=2), OQ-08 (A=2 B=1), OQ-09 (A=1 B=2). The authors cite Stark & Broeck (2024) as "work beginning to answer" OQ-09 (p. 11). OQ-01 to OQ-04 confirmed own_research_question.
+hsu2024 | indexed_with_corrections | Pontikes (2012) split from the categorical-penalty sources; exchange line now says Phillips et al. is named in the text only (no reference-list entry); summary cut by one word to 150; stale caution on Grodal et al. marked | none | Final 2 for OQ-08 (A=2 B=2). OQ-03 and OQ-07 confirmed own_research_question; the authors answer OQ-07 by conjecture and OQ-08 carries the open residue.
+grodal2024 | indexed_with_corrections | literacy_competence quotation replaced with the p. 5 passage on jobs and skills (score unchanged); caution added: the essay cites Phillips et al. under a pre-publication title and a manuscript page (p. 20 for a passage on p. 8) | none | No OQ rated 2 or more by either scorer; none raised. OQ-06 and OQ-07 are one call in two sentences and stay separate.
+orlikowski2023 | indexed_with_corrections | Exchange line now lists grodal2024 among the citing pieces; 4 Not-counted hits added; summary trimmed from 157 to 150 words; caution added on the p. 7 passage | none | OQ-07: A=2 B=1 → final 1 (the call asks for effects distant from the point of use, at industry scale). The p. 7 phrase "opaque and distributed platforms with inscrutable, mutable, and executable algorithms" is citable but is not an OQ. platforms stays at 1.
+scherer2023 | indexed_with_corrections | OQ-12 removed (the article's thesis, not a question or call); OQ-09 reclassified boundary_condition → limitation; Reductionism construct row added; intermediaries quotation replaced (score unchanged); 4 Not-counted items added | none | Final 2 for OQ-13 (A=2 B=1): adjacent as a capacity eroded under opaque systems, but the authors' remedy lies outside those systems. exchange_id none confirmed (Zuboff 2022 predates the corpus).
+jaser2024 | indexed_with_corrections | OQ-08 reclassified boundary_condition → limitation; 2 Not-counted items added; citation anomaly noted (Sommers & Bohns 2018/2019) | none | OQ-11: A=2 B=0 → final 1, against both scorers. The note brackets a debate on covert distancing from management; the brief has no account of resistance or compliance, no counterpart is bound by the monitoring system, and the only contact is the word compliance (the brief's "pacifying the algorithm" is the title phrase of Bucher et al. 2021, which the article cites on p. 2).
+
+## For the lead
+
+- **No OQ in this batch reaches 3.** Five OQs end at 2: phillips2024-07, -08, -09, hsu2024-08, scherer2023-13.
+- **Tables to rebuild.** `QUESTIONS.tsv` and `QUESTIONS.md` still carry OQ-scherer2023-12 and the old forms of OQ-scherer2023-09 and OQ-jaser2024-08. The fit files score scherer2023-12 at 0 and 0, so no fit total changes.
+- **Text-only namings inside the 5(3) exchange.** `EDGES.tsv` is built from reference lists, so it lacks three namings that the texts make without a reference entry: phillips2024 → grodal2024, phillips2024 → hsu2024 (pp. 2, 11) and hsu2024 → phillips2024 (pp. 2, 11). Each record now states this.
+- **Quotation cap.** I paraphrased my Not-counted additions so that no record gains more than about 30 quoted words before `## Verification`. By a rough count jaser2024 stood near 820 quoted words there before the hand-check; `QUOTE_CHECK` should confirm the cap at S8.
+- **Instruction conflict, flagged.** The repository `CLAUDE.md` asks for a commit and push after every step. The hand-check brief says not to commit and that those git rules do not apply. I followed the brief and committed nothing.

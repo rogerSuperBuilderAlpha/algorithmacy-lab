@@ -64,3 +64,9 @@ submissions/exetasis_sovereignty/cfp/source/
 
 # Calls-for-papers raw pages for every submission arm (public repo; refetchable)
 submissions/*/cfp/source/
+
+# ot-oq-2026-11 (OT open-questions run): no publisher PDFs, text layers or sweep snippets in the repo.
+# They live outside the repo in ~/iit-playground/ot_open_questions_local/.
+submissions/algorithmacy_ot/open_questions/**/*.pdf
+submissions/algorithmacy_ot/open_questions/**/*.txt
+submissions/algorithmacy_ot/open_questions/**/*.html
