@@ -6050,6 +6050,17 @@
       "source": "org_frontier/studies/indirect_loops/FINDINGS.md"
     },
     {
+      "name": "relay-length",
+      "cmd": "python org_frontier/studies/relay_length/run.py --quick",
+      "expect": [
+        "C1 arm_0 = conjunctive triad, C2 both_1 = indirect_loops relay_both (whole Φ 2.0): PASS",
+        "arm_1   n=4 states=8  whole=2.000000 top=2.000000 top_states=3 full_bound=Y pooled_ties=PR1,PR2C1,PR1R2C1",
+        "both_1  n=5 states=16 whole=2.000000 top=2.000000 top_states=6 full_bound=Y pooled_ties=PR1C1,PR2C2,PR1R2C1C2"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/relay_length/FINDINGS.md"
+    },
+    {
       "name": "regulator-capture",
       "cmd": "python org_frontier/studies/regulator_capture/analyze_capture.py",
       "expect": [
