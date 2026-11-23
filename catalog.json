@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 148,
+  "study": 149,
   "foundations": 9,
   "open": 15
  },
@@ -10561,6 +10561,17 @@
    "path": "org_frontier/studies/quorum_noise_sweep",
    "reproduce": [
     "python org_frontier/studies/quorum_noise_sweep/sweep.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "quorum_ratio_law",
+   "title": "Quorum ratio law: strongest subset vs whole on noisy counting quorums",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464",
+   "path": "org_frontier/studies/quorum_ratio_law",
+   "reproduce": [
+    "python org_frontier/studies/quorum_ratio_law/run.py --quick"
    ],
    "runtime": "fast"
   },
