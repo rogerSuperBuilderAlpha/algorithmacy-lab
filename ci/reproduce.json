@@ -6101,6 +6101,17 @@
       "source": "org_frontier/studies/ternary_majority_noise/FINDINGS.md"
     },
     {
+      "name": "ternary-lift-panel",
+      "cmd": "python org_frontier/studies/ternary_lift_panel/run.py --quick",
+      "expect": [
+        "C1 binary AND (1,1,1) = 2.0: PASS",
+        "C2 ternary min (2,2,2) = 3.169925: PASS",
+        "XOR-absdiff  k=3 r=0.1  whole=0.759836 triadic=yes"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/ternary_lift_panel/FINDINGS.md"
+    },
+    {
       "name": "ternary-pivotality",
       "cmd": "python org_frontier/studies/ternary_pivotality/analyze_pivot.py",
       "expect": [

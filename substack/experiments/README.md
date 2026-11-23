@@ -11,6 +11,7 @@ every number in it.
 | 2026-11-23 | [A two-sided platform binds one side, the side where every member counts](2026-11-23-which-side-gets-bound.md) | [`org_frontier/studies/asymmetric_sides/`](../../org_frontier/studies/asymmetric_sides/) |
 | 2026-11-23 | [When people take turns, no group holds together as a whole](2026-11-23-taking-turns.md) | [`org_frontier/studies/update_order_quorum/`](../../org_frontier/studies/update_order_quorum/) |
 | 2026-11-23 | [No kind of memory makes a majority vote hold together](2026-11-23-memory-that-only-goes-one-way.md) | [`org_frontier/studies/memory_rules/`](../../org_frontier/studies/memory_rules/) |
+| 2026-11-23 | [Give a "do they disagree?" rule a middle option, and the whole trio can become one unit](2026-11-23-how-far-apart.md) | [`org_frontier/studies/ternary_lift_panel/`](../../org_frontier/studies/ternary_lift_panel/) |
 | 2026-11-23 | [Change the measuring tool's settings, and the yes/no answer stays the same](2026-11-23-settings-check.md) | [`org_frontier/studies/iit4_settings_robustness/`](../../org_frontier/studies/iit4_settings_robustness/) |
 | 2026-11-23 | [A marketplace that needs "some buyer and some seller" does not hold together as a whole](2026-11-23-two-sided-markets.md) | [`org_frontier/studies/two_sided_platform/`](../../org_frontier/studies/two_sided_platform/) |
 | 2026-11-23 | [Adding a "maybe" to a majority vote doesn't change who is bound together](2026-11-23-three-way-votes.md) | [`org_frontier/studies/ternary_majority_noise/`](../../org_frontier/studies/ternary_majority_noise/) |
