@@ -67,3 +67,5 @@ python org_frontier/studies/ternary_lift_panel/run.py --write   # about 5 s
 Python 3.12, PyPhi 1.2.1.dev1470+gb78d0e342 plus the vendored overlay. An AI assistant working as the
 open harness around IIT 4.0/PyPhi wrote the script and this report; every number above is printed by
 `run.py` or stored in `results/`. No human review is claimed.
+
+See also: `ternary_majority_noise` (the four-node hub) and `ternary_ordinal_noise` (noise sweep, neighbour-only misreadings).
