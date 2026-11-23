@@ -5,6 +5,7 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [Adding a "maybe" to a majority vote doesn't change who is bound together](2026-11-23-three-way-votes.md) | [`org_frontier/studies/ternary_majority_noise/`](../../org_frontier/studies/ternary_majority_noise/) |
 | 2026-11-23 | [A marketplace that needs "some buyer and some seller" does not hold together as a whole](2026-11-23-two-sided-markets.md) | [`org_frontier/studies/two_sided_platform/`](../../org_frontier/studies/two_sided_platform/) |
 | 2026-11-23 | [A slow coordinator doesn't bind a majority vote; slow people can](2026-11-23-the-slow-coordinator.md) | [`org_frontier/studies/lazy_update/`](../../org_frontier/studies/lazy_update/) |
 | 2026-11-23 | [The coordinator's mistakes and the people's mistakes look the same only when everyone agrees](2026-11-23-the-unanimous-moment.md) | [`org_frontier/studies/placement_equality/`](../../org_frontier/studies/placement_equality/) |
