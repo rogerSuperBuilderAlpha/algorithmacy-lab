@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 132,
+  "study": 133,
   "foundations": 9,
   "open": 15
  },
@@ -10429,6 +10429,17 @@
    "path": "org_frontier/studies/phi_ascent_mediator",
    "reproduce": [
     "python org_frontier/studies/phi_ascent_mediator/analyze_ascent.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "placement_equality",
+   "title": "Placement equality: party-side vs mediator-side noise on seven quorum rules",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), full group, every reachable state. Hypotheses pushed in",
+   "path": "org_frontier/studies/placement_equality",
+   "reproduce": [
+    "python org_frontier/studies/placement_equality/run.py --quick"
    ],
    "runtime": "fast"
   },
