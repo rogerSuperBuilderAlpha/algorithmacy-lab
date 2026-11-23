@@ -15,3 +15,5 @@ Status: items 1–3 open as of 2026-11-23. This study tests and refutes item 1 o
 PR note: CI nudge after the atlas snapshot pin, so checks run on a human-authored commit.
 
 PR note: second CI nudge after the post-merge atlas snapshot pin (16481b06).
+
+PR note: CI nudge after post-#963 atlas pin (7fcee458); catalog was stale on the prior head, current here.
