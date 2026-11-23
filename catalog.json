@@ -9994,17 +9994,6 @@
   },
   {
    "kind": "study",
-   "id": "high_noise_tie_onset",
-   "title": "High-noise tie onset: where OR3 and ANY4 switch from one top group to a tie",
-   "finding": "Hypotheses were committed (c68fdb4a) before computing. Values seen beforehand: the η = 0.3 and 0.4 results",
-   "path": "org_frontier/studies/high_noise_tie_onset",
-   "reproduce": [
-    "python org_frontier/studies/high_noise_tie_onset/run.py --quick"
-   ],
-   "runtime": "fast"
-  },
-  {
-   "kind": "study",
    "id": "hitl_rubber_stamp",
    "title": "HITL rubber stamp (#39)",
    "finding": "system commit, counterpart), the human joins the major complex **iff**",
@@ -10473,6 +10462,17 @@
    "path": "org_frontier/studies/omit_motif_phi5",
    "reproduce": [
     "python org_frontier/studies/omit_motif_phi5/analyze_motifs.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "or_gate_source",
+   "title": "OR-gate source: does the switch's driver matter for an OR-gated relayer?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/or_gate_source",
+   "reproduce": [
+    "python org_frontier/studies/or_gate_source/run.py --quick"
    ],
    "runtime": "fast"
   },

@@ -374,7 +374,6 @@ Multi-experiment batteries on one theme.
 - **[Graded party channel vs Φ (V4 #11)](org_frontier/studies/graded_channel_exact_phi/README.md)** — channel? The mediating system reads each party through a lossy channel —
 - **[Graded commit verdict (agenda #2)](org_frontier/studies/graded_commit_verdict/README.md)** — (`S'=min(W,C)`, ternary) keeps **discrete** structure labels
 - **[Graded × topology carriers (V3 #11)](org_frontier/studies/graded_topo_carriers/README.md)** — (`x'=min(·)` / hub `S'=min(W,C)`) keeps **discrete** structure labels
-- **[High-noise tie onset: where OR3 and ANY4 switch from one top group to a tie](org_frontier/studies/high_noise_tie_onset/README.md)** — Hypotheses were committed (c68fdb4a) before computing. Values seen beforehand: the η = 0.3 and 0.4 results
 - **[HITL rubber stamp (#39)](org_frontier/studies/hitl_rubber_stamp/README.md)** — system commit, counterpart), the human joins the major complex **iff**
 - **[HMC ↔ algorithmacy encoding boundary](org_frontier/studies/hmc_algo_boundary/README.md)** — 2-core. Adding a second human into S’s rule (∨ or ∧) expands to 3-core
 - **[Holistic residual at n=4 (F26)](org_frontier/studies/holistic_residual_n4/README.md)** — strict-mediation n=4 forms (seed 4), a Probe-125/131 cheap-feature random forest misclassifies
@@ -418,6 +417,7 @@ Multi-experiment batteries on one theme.
 - **[Omit cycle-type morph at n=7 (V3 #8)](org_frontier/studies/omit_cycle_morph_n7/README.md)** — does **not** morph again. The n=5→n=6 singleton→band shift (V2 #42
 - **[Omit/derangement lift at n=6](org_frontier/studies/omit_lift_n6/README.md)** — fixed_k=4, **derangements split** into Φ=12 (cycle types 6, 4+2, 2+2+2) and
 - **[Omit-motif census: Φ=5 vs Φ=6 at n=5](org_frontier/studies/omit_motif_phi5/README.md)** — recip=0. Same-indeg siblings with other cycle structures all give **Φ=6**. Motif
+- **[OR-gate source: does the switch's driver matter for an OR-gated relayer?](org_frontier/studies/or_gate_source/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Oscillatory Φ scaling (agenda #11)](org_frontier/studies/oscillatory_scaling/README.md)** — traveling wave, period=n) carries a **constant Φ=2.0** law over
 - **[Parity law under n>6 hub embeddings (V3 #10)](org_frontier/studies/parity_law_n_gt6/README.md)** — the MIP at all-1s and matches exact Φ — **no topology residual** when
 - **[Parity-hub law for n>8 (agenda V4 #9)](org_frontier/studies/parity_law_n_gt8/README.md)** — n>8 under the named H-cut formula and a feasible exact SIA check: H-cut
