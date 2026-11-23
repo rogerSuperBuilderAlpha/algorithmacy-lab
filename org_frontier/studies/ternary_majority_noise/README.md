@@ -16,3 +16,5 @@ bind the whole group at every rate, with Φ 4.754888 = 3 log₂ 3 without noise 
 
 Files: [hypotheses.md](hypotheses.md), [FINDINGS.md](FINDINGS.md), [results/results.json](results/results.json),
 [BACKLOG.md](BACKLOG.md).
+
+Pull request: [#922](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/pull/922).
