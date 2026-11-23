@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 162,
+  "study": 164,
   "foundations": 9,
   "open": 15
  },
@@ -9917,6 +9917,17 @@
   },
   {
    "kind": "study",
+   "id": "forcing_match",
+   "title": "Forcing match: is a gated relayer bound exactly when the gate forces the value that settles the platform?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/forcing_match",
+   "reproduce": [
+    "python org_frontier/studies/forcing_match/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "formal_informal_cut",
    "title": "Formal vs informal cut (agenda #46)",
    "finding": "map onto dyadic/triadic. Formal spans both (commit gate vs",
@@ -10429,6 +10440,17 @@
    "path": "org_frontier/studies/noise_placement",
    "reproduce": [
     "python org_frontier/studies/noise_placement/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "odd_input",
+   "title": "Odd input: does P or G at the gate's odd input pattern decide whether the group binds?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/odd_input",
+   "reproduce": [
+    "python org_frontier/studies/odd_input/run.py --quick"
    ],
    "runtime": "fast"
   },
