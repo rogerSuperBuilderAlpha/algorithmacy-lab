@@ -1,0 +1,5168 @@
+{
+ "pyphi_version": "1.2.1.dev1470+gb78d0e342",
+ "phi_eps": 1e-09,
+ "rates": [
+  0.0,
+  0.01,
+  0.05,
+  0.1,
+  0.2,
+  0.3,
+  0.4,
+  0.45
+ ],
+ "hypotheses": {
+  "H1": "SUPPORTED",
+  "H2": "SUPPORTED",
+  "H3": "REFUTED",
+  "H4": "SUPPORTED",
+  "H5": "SUPPORTED"
+ },
+ "rows": [
+  {
+   "form": "OR3",
+   "model": "indep",
+   "e": 0.0,
+   "whole_phi": 3.0,
+   "max_core_phi": 3.0,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.0,
+    1.0
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 3.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.05756972518581409
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "indep",
+   "e": 0.01,
+   "whole_phi": 2.8686902460731925,
+   "max_core_phi": 2.8686902460731925,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.029701,
+    0.990199,
+    0.999901,
+    0.999999
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.8686902460731925
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.058852327118742616
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 7.069378901727997e-05
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 7.069378901727997e-05
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "indep",
+   "e": 0.05,
+   "whole_phi": 2.3817862544539223,
+   "max_core_phi": 2.3817862544539223,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.142625,
+    0.954875,
+    0.997625,
+    0.999875
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.3817862544539223
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.062223573520650756
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0016239456760557725
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0016239456760557725
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "indep",
+   "e": 0.1,
+   "whole_phi": 1.8545692346356777,
+   "max_core_phi": 1.8545692346356777,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.271,
+    0.919,
+    0.991,
+    0.999
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.8545692346356777
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.0629219780770282
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0057823642090458855
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0057823642090458855
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "indep",
+   "e": 0.2,
+   "whole_phi": 1.0415184462530138,
+   "max_core_phi": 1.0415184462530138,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.488,
+    0.872,
+    0.968,
+    0.992
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.0415184462530138
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.055329008295886516
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.017417904413230108
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.017417904413230108
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "indep",
+   "e": 0.3,
+   "whole_phi": 0.49950420515817723,
+   "max_core_phi": 0.49950420515817723,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.657,
+    0.853,
+    0.937,
+    0.973
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.49950420515817723
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.012232492938188278
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.026211716917834596
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.026211716917834596
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "indep",
+   "e": 0.4,
+   "whole_phi": 0.023282689846131587,
+   "max_core_phi": 0.023282689846131587,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.784,
+    0.856,
+    0.904,
+    0.936
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.023282689846131587
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.020619802280267746
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "indep",
+   "e": 0.45,
+   "whole_phi": 0.014689260306758684,
+   "max_core_phi": 0.014689260306758684,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.833625,
+    0.863875,
+    0.888625,
+    0.908875
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.014689260306758684
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.010343941493217504
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "common",
+   "e": 0.0,
+   "whole_phi": 3.0,
+   "max_core_phi": 3.0,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.0,
+    1.0
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 3.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.05756972518581409
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "common",
+   "e": 0.01,
+   "whole_phi": 2.955645426001836,
+   "max_core_phi": 2.955645426001836,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.01,
+    0.99,
+    1.0
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.955645426001836
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.05646749238936171
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "common",
+   "e": 0.05,
+   "whole_phi": 2.7796994476284116,
+   "max_core_phi": 2.7796994476284116,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.05,
+    0.95,
+    1.0
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.7796994476284116
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.05202187544947849
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "common",
+   "e": 0.1,
+   "whole_phi": 2.563197215899455,
+   "max_core_phi": 2.563197215899455,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.1,
+    0.9,
+    1.0
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.563197215899455
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.0463900394608875
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "common",
+   "e": 0.2,
+   "whole_phi": 2.1424575240901103,
+   "max_core_phi": 2.1424575240901103,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.2,
+    0.8,
+    1.0
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.1424575240901103
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.03492828580582946
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "common",
+   "e": 0.3,
+   "whole_phi": 1.739798779019169,
+   "max_core_phi": 1.739798779019169,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.3,
+    0.7,
+    1.0
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.739798779019169
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.053522920269229814
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.6000000000000003
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.053522920269229814
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "common",
+   "e": 0.4,
+   "whole_phi": 1.3578206435002762,
+   "max_core_phi": 1.3578206435002762,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.4,
+    0.6,
+    1.0
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.3578206435002762
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.05466047867009916
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.8000000000000003
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.05466047867009916
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "common",
+   "e": 0.45,
+   "whole_phi": 1.1756269380624644,
+   "max_core_phi": 1.1756269380624644,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.45,
+    0.55,
+    1.0
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.1756269380624644
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.05494612376894538
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.8315986079497274
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.05494612376894538
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "mix",
+   "e": 0.0,
+   "whole_phi": 3.0,
+   "max_core_phi": 3.0,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.0,
+    1.0
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 3.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.05756972518581409
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "mix",
+   "e": 0.01,
+   "whole_phi": 2.9116572605285787,
+   "max_core_phi": 2.9116572605285787,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.01995,
+    0.99505,
+    0.99995
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.9116572605285787
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.05767645835081637
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "mix",
+   "e": 0.05,
+   "whole_phi": 2.5685618325938218,
+   "max_core_phi": 2.5685618325938218,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.09875,
+    0.97625,
+    0.99875
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.5685618325938218
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.05749208463705781
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "mix",
+   "e": 0.1,
+   "whole_phi": 2.163083854113613,
+   "max_core_phi": 2.163083854113613,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.195,
+    0.955,
+    0.995
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.163083854113613
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.0559138714407817
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "mix",
+   "e": 0.2,
+   "whole_phi": 1.4324108747795323,
+   "max_core_phi": 1.4324108747795323,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.38,
+    0.92,
+    0.98
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.4324108747795323
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.04851419885829044
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "mix",
+   "e": 0.3,
+   "whole_phi": 0.8151853723302968,
+   "max_core_phi": 0.8151853723302968,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.555,
+    0.895,
+    0.955
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.8151853723302968
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.03606805752045623
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "mix",
+   "e": 0.4,
+   "whole_phi": 0.32577964503920587,
+   "max_core_phi": 0.32577964503920587,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.72,
+    0.88,
+    0.92
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.32577964503920587
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.004167450135593042
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "model": "mix",
+   "e": 0.45,
+   "whole_phi": -0.016127013559220346,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false,
+   "s_levels": [
+    0.79875,
+    0.87625,
+    0.89875
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "indep",
+   "e": 0.0,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false,
+   "s_levels": [
+    0.0,
+    1.0
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "indep",
+   "e": 0.01,
+   "whole_phi": 0.0035163474415175924,
+   "max_core_phi": 0.014065389766070368,
+   "max_cores": [
+    [
+     "S",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": false,
+   "s_levels": [
+    0.000298,
+    0.019702,
+    0.980298,
+    0.999702
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.014065389766070368
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.014065389766070368
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.014065389766070366
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.014065389766070366
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "indep",
+   "e": 0.05,
+   "whole_phi": 0.015760636493609655,
+   "max_core_phi": 0.06304254597443862,
+   "max_cores": [
+    [
+     "S",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": false,
+   "s_levels": [
+    0.00725,
+    0.09275,
+    0.90725,
+    0.99275
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.06304254597443862
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.06304254597443862
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0630425459744383
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0630425459744383
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "indep",
+   "e": 0.1,
+   "whole_phi": 0.026980608910464783,
+   "max_core_phi": 0.10792243564185912,
+   "max_cores": [
+    [
+     "S",
+     "P3"
+    ]
+   ],
+   "full_group_core": false,
+   "s_levels": [
+    0.028,
+    0.172,
+    0.828,
+    0.972
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.10792243564185912
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.10792243564185912
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.10792243564185881
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.10792243564185881
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "indep",
+   "e": 0.2,
+   "whole_phi": 0.036623716031365015,
+   "max_core_phi": 0.14649486412546012,
+   "max_cores": [
+    [
+     "S",
+     "P3"
+    ]
+   ],
+   "full_group_core": false,
+   "s_levels": [
+    0.104,
+    0.296,
+    0.704,
+    0.896
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.1464948641254598
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.1464948641254598
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.14649486412546012
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.14649486412546012
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "indep",
+   "e": 0.3,
+   "whole_phi": 0.032045751527444336,
+   "max_core_phi": 0.12818300610977734,
+   "max_cores": [
+    [
+     "S",
+     "P3"
+    ]
+   ],
+   "full_group_core": false,
+   "s_levels": [
+    0.216,
+    0.384,
+    0.616,
+    0.784
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.12818300610977734
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.12818300610977734
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.12818300610977731
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.12818300610977731
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "indep",
+   "e": 0.4,
+   "whole_phi": 0.01798707260697647,
+   "max_core_phi": 0.07194829042790588,
+   "max_cores": [
+    [
+     "S",
+     "P3"
+    ]
+   ],
+   "full_group_core": false,
+   "s_levels": [
+    0.352,
+    0.448,
+    0.552,
+    0.648
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.07194829042790588
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.07194829042790588
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.07194829042790588
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.07194829042790588
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "indep",
+   "e": 0.45,
+   "whole_phi": 0.009124579022616116,
+   "max_core_phi": 0.03649831609046447,
+   "max_cores": [
+    [
+     "S",
+     "P3"
+    ]
+   ],
+   "full_group_core": false,
+   "s_levels": [
+    0.42525,
+    0.47475,
+    0.52525,
+    0.57475
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.03649831609046428
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.03649831609046428
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.03649831609046447
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.03649831609046447
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "common",
+   "e": 0.0,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false,
+   "s_levels": [
+    0.0,
+    1.0
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "common",
+   "e": 0.01,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false,
+   "s_levels": [
+    0.01,
+    0.99
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "common",
+   "e": 0.05,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false,
+   "s_levels": [
+    0.05,
+    0.95
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "common",
+   "e": 0.1,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false,
+   "s_levels": [
+    0.1,
+    0.9
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "common",
+   "e": 0.2,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false,
+   "s_levels": [
+    0.2,
+    0.8
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "common",
+   "e": 0.3,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false,
+   "s_levels": [
+    0.3,
+    0.7
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "common",
+   "e": 0.4,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false,
+   "s_levels": [
+    0.4,
+    0.6
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "common",
+   "e": 0.45,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false,
+   "s_levels": [
+    0.45,
+    0.55
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "mix",
+   "e": 0.0,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false,
+   "s_levels": [
+    0.0,
+    1.0
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "mix",
+   "e": 0.01,
+   "whole_phi": 0.0017716678518876392,
+   "max_core_phi": 0.007086671407550557,
+   "max_cores": [
+    [
+     "S",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": false,
+   "s_levels": [
+    0.0051,
+    0.0149,
+    0.9851,
+    0.9949
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.007086671407550556
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.007086671407550556
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.007086671407550557
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.007086671407550557
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "mix",
+   "e": 0.05,
+   "whole_phi": 0.008210510349306284,
+   "max_core_phi": 0.03284204139722514,
+   "max_cores": [
+    [
+     "S",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": false,
+   "s_levels": [
+    0.0275,
+    0.0725,
+    0.9275,
+    0.9725
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.03284204139722514
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.03284204139722514
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.03284204139722514
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.03284204139722514
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "mix",
+   "e": 0.1,
+   "whole_phi": 0.014742902506771245,
+   "max_core_phi": 0.05897161002708498,
+   "max_cores": [
+    [
+     "S",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": false,
+   "s_levels": [
+    0.06,
+    0.14,
+    0.86,
+    0.94
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.05897161002708469
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.05897161002708469
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.05897161002708498
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.05897161002708498
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "mix",
+   "e": 0.2,
+   "whole_phi": 0.02243238186016814,
+   "max_core_phi": 0.08972952744067256,
+   "max_cores": [
+    [
+     "S",
+     "P3"
+    ]
+   ],
+   "full_group_core": false,
+   "s_levels": [
+    0.14,
+    0.26,
+    0.74,
+    0.86
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.08972952744067256
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.08972952744067256
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.08972952744067254
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.08972952744067254
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "mix",
+   "e": 0.3,
+   "whole_phi": 0.022542454334737658,
+   "max_core_phi": 0.0901698173389506,
+   "max_cores": [
+    [
+     "S",
+     "P3"
+    ]
+   ],
+   "full_group_core": false,
+   "s_levels": [
+    0.24,
+    0.36,
+    0.64,
+    0.76
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.0901698173389506
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.0901698173389506
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.0901698173389504
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.0901698173389504
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "mix",
+   "e": 0.4,
+   "whole_phi": 0.014897504702637029,
+   "max_core_phi": 0.059590018810548116,
+   "max_cores": [
+    [
+     "S",
+     "P3"
+    ]
+   ],
+   "full_group_core": false,
+   "s_levels": [
+    0.36,
+    0.44,
+    0.56,
+    0.64
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.059590018810548116
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.059590018810548116
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.059590018810548116
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.059590018810548116
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "model": "mix",
+   "e": 0.45,
+   "whole_phi": 0.008278933173158217,
+   "max_core_phi": 0.033115732692632856,
+   "max_cores": [
+    [
+     "S",
+     "P3"
+    ]
+   ],
+   "full_group_core": false,
+   "s_levels": [
+    0.4275,
+    0.4725,
+    0.5275,
+    0.5725
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.033115732692632856
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.033115732692632856
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.03311573269263269
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.03311573269263269
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "indep",
+   "e": 0.0,
+   "whole_phi": 3.0,
+   "max_core_phi": 3.0,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.0,
+    1.0
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.05756972518581409
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 3.0
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "indep",
+   "e": 0.01,
+   "whole_phi": 2.8686902460731987,
+   "max_core_phi": 2.8686902460731987,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    1e-06,
+    9.9e-05,
+    0.009801,
+    0.970299
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 7.069378901727999e-05
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 7.069378901727999e-05
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.0588523271187426
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.8686902460731987
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "indep",
+   "e": 0.05,
+   "whole_phi": 2.3817862544539254,
+   "max_core_phi": 2.3817862544539254,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.000125,
+    0.002375,
+    0.045125,
+    0.857375
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0016239456760554526
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0016239456760554526
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.062223573520650756
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.3817862544539254
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "indep",
+   "e": 0.1,
+   "whole_phi": 1.8545692346356755,
+   "max_core_phi": 1.8545692346356755,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.001,
+    0.009,
+    0.081,
+    0.729
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0057823642090458855
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0057823642090458855
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.06292197807702839
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.8545692346356755
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "indep",
+   "e": 0.2,
+   "whole_phi": 1.0415184462530114,
+   "max_core_phi": 1.0415184462530114,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.008,
+    0.032,
+    0.128,
+    0.512
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.017417904413230104
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.017417904413230104
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.055329008295886516
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.0415184462530114
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "indep",
+   "e": 0.3,
+   "whole_phi": 0.49950420515817867,
+   "max_core_phi": 0.49950420515817867,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.027,
+    0.063,
+    0.147,
+    0.343
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.026211716917834606
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.026211716917834606
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.012232492938188278
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.49950420515817867
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "indep",
+   "e": 0.4,
+   "whole_phi": 0.023282689846131587,
+   "max_core_phi": 0.023282689846131587,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.064,
+    0.096,
+    0.144,
+    0.216
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.020619802280267746
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.023282689846131587
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "indep",
+   "e": 0.45,
+   "whole_phi": 0.01468926030675868,
+   "max_core_phi": 0.01468926030675868,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.091125,
+    0.111375,
+    0.136125,
+    0.166375
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.010343941493217504
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.01468926030675868
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "common",
+   "e": 0.0,
+   "whole_phi": 3.0,
+   "max_core_phi": 3.0,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.0,
+    1.0
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.05756972518581409
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 3.0
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "common",
+   "e": 0.01,
+   "whole_phi": 2.955645426001836,
+   "max_core_phi": 2.955645426001836,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.0,
+    0.01,
+    0.99
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.05646749238936156
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.955645426001836
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "common",
+   "e": 0.05,
+   "whole_phi": 2.7796994476284116,
+   "max_core_phi": 2.7796994476284116,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.0,
+    0.05,
+    0.95
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.05202187544947849
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.7796994476284116
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "common",
+   "e": 0.1,
+   "whole_phi": 2.563197215899455,
+   "max_core_phi": 2.563197215899455,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.0,
+    0.1,
+    0.9
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.0463900394608875
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.563197215899455
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "common",
+   "e": 0.2,
+   "whole_phi": 2.1424575240901103,
+   "max_core_phi": 2.1424575240901103,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.0,
+    0.2,
+    0.8
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.03492828580582946
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.1424575240901103
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "common",
+   "e": 0.3,
+   "whole_phi": 1.739798779019169,
+   "max_core_phi": 1.739798779019169,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.0,
+    0.3,
+    0.7
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.053522920269229814
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.6
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.053522920269229814
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.739798779019169
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "common",
+   "e": 0.4,
+   "whole_phi": 1.3578206435002762,
+   "max_core_phi": 1.3578206435002762,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.0,
+    0.4,
+    0.6
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.05466047867009916
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.8
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.05466047867009916
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.3578206435002762
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "common",
+   "e": 0.45,
+   "whole_phi": 1.1756269380624644,
+   "max_core_phi": 1.1756269380624644,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.0,
+    0.45,
+    0.55
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.05494612376894538
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.8315986079497275
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.05494612376894538
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.1756269380624644
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "mix",
+   "e": 0.0,
+   "whole_phi": 3.0,
+   "max_core_phi": 3.0,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.0,
+    1.0
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.05756972518581409
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 3.0
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "mix",
+   "e": 0.01,
+   "whole_phi": 2.911657260528577,
+   "max_core_phi": 2.911657260528577,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    5e-05,
+    0.00495,
+    0.98005
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.05767645835081637
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.911657260528577
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "mix",
+   "e": 0.05,
+   "whole_phi": 2.568561832593821,
+   "max_core_phi": 2.568561832593821,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.00125,
+    0.02375,
+    0.90125
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.05749208463705781
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.568561832593821
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "mix",
+   "e": 0.1,
+   "whole_phi": 2.163083854113613,
+   "max_core_phi": 2.163083854113613,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.005,
+    0.045,
+    0.805
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.055913871440781866
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.163083854113613
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "mix",
+   "e": 0.2,
+   "whole_phi": 1.4324108747795337,
+   "max_core_phi": 1.4324108747795337,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.02,
+    0.08,
+    0.62
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.048514198858290454
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.4324108747795337
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "mix",
+   "e": 0.3,
+   "whole_phi": 0.8151853723302945,
+   "max_core_phi": 0.8151853723302945,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.045,
+    0.105,
+    0.445
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.03606805752045623
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.8151853723302945
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "mix",
+   "e": 0.4,
+   "whole_phi": 0.3257796450392062,
+   "max_core_phi": 0.3257796450392062,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true,
+   "s_levels": [
+    0.08,
+    0.12,
+    0.28
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.004167450135593001
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.3257796450392062
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "model": "mix",
+   "e": 0.45,
+   "whole_phi": -0.01612701355922034,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false,
+   "s_levels": [
+    0.10125,
+    0.12375,
+    0.20125
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ]
+  }
+ ]
+}
