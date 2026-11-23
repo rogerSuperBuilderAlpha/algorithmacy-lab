@@ -375,6 +375,7 @@ Multi-experiment batteries on one theme.
 - **[Unconstrained n=5 holistic residual](org_frontier/studies/holistic_residual_n5_unconstrained/README.md)** — forms (seed 50), Probe-131 RF miss rate = **9.0% (45/500)**, inside the pre-registered hold band
 - **[Hub floor uniqueness (#48)](org_frontier/studies/hub_floor_uniqueness/README.md)** — form achieving Φ = n−1 at the 2(n−1) edge floor. On hub topology the
 - **[Hybrid feedforward+recurrent seam (V3 #7)](org_frontier/studies/hybrid_ff_recurrent_seam/README.md)** — AND chain keeps the major complex **inside the recurrent zone**; the FF
+- **[IIT 4.0 settings robustness: does the dyad/triad verdict depend on PyPhi's partition settings?](org_frontier/studies/iit4_settings_robustness/README.md)** — Six of seven IIT 4.0 settings in the pinned PyPhi give the identical triadic set (24 of 256 strict-mediation
 - **[Imputer under exact Φ (agenda V4 #4)](org_frontier/studies/imputer_exact_phi/README.md)** — MI-only, and it is not a blanket transfer: party-echo completes Φ
 - **[Joint role-target grain on indeg (0,0,0,1,2,3)](org_frontier/studies/indeg_000123_grain/README.md)** — z_targets vary. Joint subtypes are Φ-pure:
 - **[Role-target grain on indeg (0,0,1,1,1,3)](org_frontier/studies/indeg_001113_grain/README.md)** — ((2,),1) **mixes** Φ=6/12 until split by **z_targets**. t_targets is
@@ -396,6 +397,7 @@ Multi-experiment batteries on one theme.
 - **[MARL emergent learn (#41)](org_frontier/studies/marl_emergent_learn/README.md)** — predict task learnability (AUC emerg→success 0.555; emerg→easy 0.485)
 - **[Topology-matched imputer under exact Φ (agenda V4 #5)](org_frontier/studies/matched_imputer_exact_phi/README.md)** — ring exact=1.000 on ring triadics) and beat mismatched priors on
 - **[Mediator hierarchy census (agenda #15)](org_frontier/studies/mediator_hierarchy_census/README.md)** — occupied level** (apex, mid if present, leaf); Φ is **flat in depth** (2.0 at
+- **[Memory rules: deterministic self-loops on quorum hubs](org_frontier/studies/memory_rules/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Min-cut MIP (#49)](org_frontier/studies/mincut_mip/README.md)** — (Q49 H5). For the #47 families a *normalized GID cut-weight* theorem
 - **[Mixed-algebra seats (V3 #3)](org_frontier/studies/mixed_algebra_seats/README.md)** — a single mediator does **not** produce a hybrid signature. Whole-form Φ
 - **[Mixed-radix mediator (agenda #3)](org_frontier/studies/mixed_radix_mediator/README.md)** — mediator (`S'=W+C`, alphabets `(2,3,2)`), the extra mid level goes into
