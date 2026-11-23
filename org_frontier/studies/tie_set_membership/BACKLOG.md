@@ -5,6 +5,7 @@
    holds at η = 0.35 and where it starts.
 3. **Dummy parties elsewhere**: add a never-pivotal party to OR3 or AND3; does whole Φ always drop to 0?
 4. **A formula for the drifting ratio** when one party is strictly strongest (predict (1,1,1,3)).
+   Tested in `drifting_ratio/`: the fitted formula is refuted.
 5. **O04**: a ternary majority under input noise on the multivalued overlay.
 
 None of these had been started when PR #943 was opened; item 2 is taken up in `high_noise_tie_onset/`.
