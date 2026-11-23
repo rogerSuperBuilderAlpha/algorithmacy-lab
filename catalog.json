@@ -10009,8 +10009,10 @@
    "title": "IIT 4.0 settings robustness: does the dyad/triad verdict depend on PyPhi's partition settings?",
    "finding": "Six of seven IIT 4.0 settings in the pinned PyPhi give the identical triadic set (24 of 256 strict-mediation",
    "path": "org_frontier/studies/iit4_settings_robustness",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/iit4_settings_robustness/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
