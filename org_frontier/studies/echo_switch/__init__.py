@@ -1,0 +1,1 @@
+"""Echo switch study."""
