@@ -253,3 +253,11 @@ racker2024 and suddaby2024 (1 each).
   (Opus); S14d independent verifier of every quotation the three return (Opus); S14e Fable rules on the gap
   claim and on each sentence of the introduction. Paywalled items the agents cannot reach are fetched by
   the lead in Chrome. Store: `~/iit-playground/ot_open_questions_local/s14/`; outputs: `open_questions/s14/`.
+- **S14 result (lead):** verifier (S14d) and Fable (S14e) rulings applied to the introduction as version 2:
+  four marked edits to the author's sentences (G7, C2, C3; G4/K2 carried), Claude's sentences revised per
+  `s14/RULING_S14.md` §2, one Opening sentence added (Rahman et al.; Curchod et al.), and two HOLD passages
+  resting on abstract-only sources (Fu et al.; Zheng & Zhu; Buhmann et al.). The lead re-checked at source
+  every new quotation (Rahman preprint p. 6; Curchod AAM pp. 21, 22; Rosenblat & Stark p. 3772; Lee et al.
+  p. 1608; Stark & Vanden Broeck p. 9; Schoeneborn et al. p. 9) and the three references added from records
+  (Crossref). Paywalled and still unread: Fu et al. (SAGE 403), Vergne & Wry (Wiley 403), Curchod VoR (403);
+  Raval & Dourish download did not land. Placement moves of the author's sentences left to the author.
