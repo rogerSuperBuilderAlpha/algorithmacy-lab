@@ -7,6 +7,7 @@ every number in it.
 |---|---|---|
 | 2026-11-23 | [A platform's loop can run through other people, and then it binds the whole group](2026-11-23-loops-through-people.md) | [`org_frontier/studies/indirect_loops/`](../../org_frontier/studies/indirect_loops/) |
 | 2026-11-23 | [A platform binds only the people it both listens to and answers](2026-11-23-who-hears-back.md) | [`org_frontier/studies/who_hears_back/`](../../org_frontier/studies/who_hears_back/) |
+| 2026-11-23 | [Why a veto splits apart: it's about fairness between the parties, not about them moving together](2026-11-23-veto-and-symmetry.md) | [`org_frontier/studies/lockstep_symmetry/`](../../org_frontier/studies/lockstep_symmetry/) |
 | 2026-11-23 | [When buyers and sellers deal directly, the kind of deal decides whether the platform stays in](2026-11-23-off-platform-deals.md) | [`org_frontier/studies/off_platform_deals/`](../../org_frontier/studies/off_platform_deals/) |
 | 2026-11-23 | [How fast a group bounces back doesn't tell you whether it holds together](2026-11-23-bouncing-back.md) | [`org_frontier/studies/flip_recovery/`](../../org_frontier/studies/flip_recovery/) |
 | 2026-11-23 | [A two-sided platform binds one side, the side where every member counts](2026-11-23-which-side-gets-bound.md) | [`org_frontier/studies/asymmetric_sides/`](../../org_frontier/studies/asymmetric_sides/) |
