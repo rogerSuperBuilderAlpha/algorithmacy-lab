@@ -261,3 +261,14 @@ racker2024 and suddaby2024 (1 each).
   p. 1608; Stark & Vanden Broeck p. 9; Schoeneborn et al. p. 9) and the three references added from records
   (Crossref). Paywalled and still unread: Fu et al. (SAGE 403), Vergne & Wry (Wiley 403), Curchod VoR (403);
   Raval & Dourish download did not land. Placement moves of the author's sentences left to the author.
+
+## 23 Nov 2026: S15 (owed reads and gap rerun), continuing S14 without the author
+
+- Chrome fetches: Vesa & Tienari 2022, Cameron 2024, Stelmaszak et al. 2026 (Wiley, after its JS check
+  cleared unaided), Maric 2025 thesis (JKU). Abstracts captured: Zheng & Zhu 2026 (Emerald redirects to
+  abstract), Buhmann et al. 2021 (CBS portal, no file). Not obtained: Fu et al. 2025 (SAGE asks for an
+  institutional sign-in the lead may not perform), Vergne & Wry 2014 (Wiley 403), Rahman et al. VoR (AOM
+  403), Hohenstein & Jung 2020 (ScienceDirect check did not clear; not bypassed).
+- S15a (Opus) read the new texts; S15b (Sonnet) reran Scholar Gateway (ACCESS_DENIED) and Semantic Scholar
+  (HTTP 429 throughout): no records. The lead ran 6 Google Scholar queries in Chrome instead (no CAPTCHA;
+  raw results in the store); S15c (Opus) screens the new hits. Then Fable rules (S15d).
