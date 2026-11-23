@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 140,
+  "study": 141,
   "foundations": 9,
   "open": 15
  },
@@ -9857,6 +9857,17 @@
    "path": "org_frontier/studies/fixed_k_atoms_n5",
    "reproduce": [
     "python org_frontier/studies/fixed_k_atoms_n5/analyze_atoms.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "flip_recovery",
+   "title": "Flip recovery: settling after a one-party nudge, joined to committed Φ",
+   "finding": "Hypotheses pushed in `ac0bf6f3` before computation. Φ values are the committed ones from",
+   "path": "org_frontier/studies/flip_recovery",
+   "reproduce": [
+    "python org_frontier/studies/flip_recovery/run.py --quick"
    ],
    "runtime": "fast"
   },
