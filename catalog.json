@@ -9431,8 +9431,10 @@
    "title": "Joint pivotality at consensus: which three-party commit rules bind?",
    "finding": "The pre-registered rule misses 10 of 256 rules under PyPhi's default tie-breaking, but those misses, and",
    "path": "org_frontier/studies/consensus_pivotality",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/consensus_pivotality/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",

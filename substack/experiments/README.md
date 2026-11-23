@@ -5,6 +5,7 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [A coordinator holds three people together only if each could swing a unanimous moment](2026-11-23-each-could-swing-it.md) | [`org_frontier/studies/consensus_pivotality/`](../../org_frontier/studies/consensus_pivotality/) |
 | 2026-11-23 | [When people take turns, no group holds together as a whole](2026-11-23-taking-turns.md) | [`org_frontier/studies/update_order_quorum/`](../../org_frontier/studies/update_order_quorum/) |
 | 2026-11-23 | [No kind of memory makes a majority vote hold together](2026-11-23-memory-that-only-goes-one-way.md) | [`org_frontier/studies/memory_rules/`](../../org_frontier/studies/memory_rules/) |
 | 2026-11-23 | [Change the measuring tool's settings, and the yes/no answer stays the same](2026-11-23-settings-check.md) | [`org_frontier/studies/iit4_settings_robustness/`](../../org_frontier/studies/iit4_settings_robustness/) |
