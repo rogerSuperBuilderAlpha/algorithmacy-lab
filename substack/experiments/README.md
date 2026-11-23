@@ -5,6 +5,7 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [Put a messenger between the coordinator and the people, and the group binds a third as tightly](2026-11-23-the-relay.md) | [`org_frontier/studies/delay_quorum/`](../../org_frontier/studies/delay_quorum/) |
 | 2026-11-23 | [A platform's loop can run through other people, and then it binds the whole group](2026-11-23-loops-through-people.md) | [`org_frontier/studies/indirect_loops/`](../../org_frontier/studies/indirect_loops/) |
 | 2026-11-23 | [A platform binds only the people it both listens to and answers](2026-11-23-who-hears-back.md) | [`org_frontier/studies/who_hears_back/`](../../org_frontier/studies/who_hears_back/) |
 | 2026-11-23 | [Why a veto splits apart: it's about fairness between the parties, not about them moving together](2026-11-23-veto-and-symmetry.md) | [`org_frontier/studies/lockstep_symmetry/`](../../org_frontier/studies/lockstep_symmetry/) |
