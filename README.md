@@ -371,6 +371,7 @@ Multi-experiment batteries on one theme.
 - **[FN-tail feature redesign](org_frontier/studies/fn_tail_feature_redesign/README.md)** — F28-motivated cheap fragility and algebraic table features to the Probe-125/131
 - **[Forcing match: is a gated relayer bound exactly when the gate forces the value that settles the platform?](org_frontier/studies/forcing_match/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Formal vs informal cut (agenda #46)](org_frontier/studies/formal_informal_cut/README.md)** — map onto dyadic/triadic. Formal spans both (commit gate vs
+- **[Four identical parties: PyPhi's tie-break matters more as the group grows](org_frontier/studies/four_party_ties/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), max over reachable states, threshold 1e-9. Hypotheses pushed in
 - **[Gate census: all 16 two-input rules for a switch-gated relayer under AND, OR and XOR platforms](org_frontier/studies/gate_census/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Gate census, switch driven by R1](org_frontier/studies/gate_census_r1/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Gate match test: is a gated relayer bound exactly when its gate rule matches the platform rule?](org_frontier/studies/gate_match_test/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
