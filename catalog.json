@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 135,
+  "study": 136,
   "foundations": 9,
   "open": 15
  },
@@ -10145,6 +10145,15 @@
     "python org_frontier/studies/local_triad_necklace/analyze_necklace.py"
    ],
    "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "lockstep_symmetry",
+   "title": "Lockstep or symmetry: why does the one-sided veto factor?",
+   "finding": "One rule, fixed before the run, sorts all 256 strict-mediation forms with zero misses: a form binds iff",
+   "path": "org_frontier/studies/lockstep_symmetry",
+   "reproduce": [],
+   "runtime": "unregistered"
   },
   {
    "kind": "study",
