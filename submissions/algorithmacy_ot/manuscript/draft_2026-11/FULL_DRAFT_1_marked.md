@@ -1,6 +1,6 @@
-# Algorithmacy — full draft 1 (marked)
+# Algorithmacy — full draft 1, marked (rebuilt 23 Nov after the S16 edits)
 
-23 November 2026. Assembled from the section files in this folder; marks as in each file (plain = Roger's sentences; [C: …] = Claude; [R4: …] = reviewer 4; ~~struck~~ = removed). Notes, flags and source tables stay in the section files.
+Assembled from the section files; marks as in each file. The clean, anonymized version is `../submission_2026-11/MANUSCRIPT_anonymized.docx`.
 
 ## Abstract
 
@@ -69,8 +69,7 @@ Krogh, 2024).
 
 ### Complication
 
-These two sets of questions approach the issue from completely opposite directions and never come
-together. The questions of responsibility and organizational status are all posed from the top down (the
+These two sets of questions approach the issue from ~~completely~~ opposite directions and ~~never~~ **[C: rarely]** come together. The questions of responsibility and organizational status are all posed from the top down (the
 company, the platform operator at the apex of the triangle, how the scholars categorize the technology).
 The questions about the people are all posed from the bottom up, looking at just one person in interaction
 with a machine. Stark and Vanden Broeck (2024) describe algorithmic management as a “new sociality”—when
@@ -160,8 +159,7 @@ the exchange, has no place.]**
 ### Three Placements of the System
 
 Although organization theory recognizes that platforms establish a three-way relationship, it has not yet
-explained what practical ~~sensibility~~ **[C: ability]** an individual needs to coordinate with another
-person inside that arrangement. Existing accounts of this capability remain fragmented across
+explained what practical ~~sensibility~~ **[C: ability]** an individual needs to ~~coordinate~~ **[C: work]** with another person inside that arrangement. Existing accounts of this capability remain fragmented across
 communication studies, computer science, and sociology. Yet these conflicting terms point to a deeper
 conceptual limitation. ~~Every existing account~~ **[C: Each of these accounts]** counts fewer than three
 parties. **[C: These frameworks]** ~~They~~ do this by either ignoring the third party altogether
@@ -176,11 +174,8 @@ technologies function as communicative subjects rather than mere interactive obj
 technologies are no longer merely the means of communication among parties but themselves become
 communication partners" (p. 9), and in the prompt-and-answer mode Phillips et al. (2024) describe, the
 system "remains, in this case, very much subordinate to the human partner" (p. 9).]** Research on
-artificial intelligence literacy adopts this same two-party focus. The most prominent frameworks in that
-field define literacy as a checklist of concepts an individual should understand about machine learning,
-without mentioning coordination with a second person through the software (Long & Magerko, 2020). A
-recent review finds that measures of algorithmic literacy still lie mostly in the cognitive dimension,
-stopping at an individual’s awareness or knowledge of algorithms (Oeldorf-Hirsch & Neubaum, 2025). While
+artificial intelligence literacy adopts this same two-party focus. ~~The most prominent frameworks in that field define~~ **[C: A prominent framework in that field defines]** literacy as a checklist of concepts an individual should understand about machine learning,
+without mentioning ~~coordination~~ **[C: work]** with a second person through the software (Long & Magerko, 2020). A recent review finds that **[C: "]**measures of algorithmic literacy ~~still~~ lie mostly in the cognitive dimension,**[C: "]** stopping at ~~an individual’s~~ **[C: "]**awareness or knowledge of algorithms**[C: "]** (Oeldorf-Hirsch & Neubaum, 2025**[C: , p. 695]**). While
 this perspective explains how a person forms impressions of a machine, it cannot explain what happens when
 that machine steps between two people who depend on each other to get work done.
 
@@ -192,8 +187,7 @@ to artificial intelligence, examining how software modifies, augments, or genera
 person’s behalf (Hancock et al., 2020). Researchers treat the technology as an active messenger, but it
 remains a channel. That framing works well when people exchange emails or text messages, but it fails in
 organizational platforms where the software does not simply deliver words. In algorithmic management, the
-system evaluates the exchange, ~~scores both participants~~ **[C: scores the participants]**, and enforces
-rules that neither person can dispute.
+system evaluates the exchange, ~~scores both participants~~ **[C: scores the participants]**, and enforces rules that neither person can **[C: readily]** dispute.
 
 Finally, scholars who study work on platforms treat the system as something workers must understand and
 adapt to. ~~Of particular relevance to the approach I develop in this paper,~~ Jarrahi and Sutherland
@@ -207,7 +201,7 @@ into the construct, although clients appear throughout their interviews. While t
 and keep records in case of a dispute, their figure has two nodes, the worker and the algorithm, and the
 construct covers the same two.
 
-**[C: Communication research has begun to count a third. Ohme et al. (2025) model platform communication
+**[C: Communication research has begun to count a third. Ohme et al. (2026) model platform communication
 by "shifting from a dyadic to a triadic communication model of content flow" (adv. p. 1; VoR page owed),
 but their third "provides a service for each or both" of the others and may "be bypassed" (adv. pp. 5, 6).
 The third at issue here decides between the two and cannot be bypassed without cost. None of the three
@@ -232,8 +226,7 @@ imports the same triadic architecture. Hinds and von Krogh (2024) describe a man
 evaluate employees, where "new relations and functions may cascade between managers, GenAI, and
 employees" (p. 4); the system sits where the operator sat, between two people whose work depends on each
 other. The apex decides through systems that learn (pp. 4, 6) and produce "a probabilistic rendering" of
-what they have seen (Cornelissen et al., 2024, p. 6), and it can hide human work as well: the vetting that
-lets Gray and Suri's Emily meet her driver is done by someone "entirely invisible to both Uber customers
+what they have seen (Cornelissen et al., 2024, p. 6), and it can hide human work as well: the vetting that lets Emily, in Gray and Suri's example (as cited in Justesen & Plesner, 2024, p. 10), meet her driver is done by someone "entirely invisible to both Uber customers
 and drivers" (Justesen & Plesner, 2024, p. 11). The people at the lower corners need not decide whether
 the apex is code, staff or both. Workers, Bujold et al. (2026) argue, "ultimately recognize the
 organization (not the algorithm) as the exchange partner" (p. 15).]**
@@ -259,7 +252,7 @@ verdict, following Simmel's (1902b) contrast between a mediator and an arbitrato
 
 An algorithmic platform moves even further from neutral mediation because neither participant selects the
 arbiter, and the platform operator, which sits at the apex of a triangle with producers and users (Stark &
-Vanden Broeck, 2024), profits directly from the exchange. **[C: Rahman, Karunakaran and Cameron (2024)
+Vanden Broeck, 2024), ~~profits directly from~~ **[C: benefits from]** the exchange. **[C: Rahman, Karunakaran and Cameron (2024)
 have already read this position through Simmel, as "the third who rejoices" (preprint p. 6; VoR page owed);
 their concern is how the platform owner can be held to account, and the concern here is what the two
 people below it must be able to do.]** Yet classifying communication strictly by transmission channel
@@ -278,8 +271,7 @@ output carries a practical cost, whether a penalty, a burden of justification or
 need not bind both participants equally. On eBay the rating costs the rater little and binds the provider
 through rank (Stark & Vanden Broeck, 2024, p. 14). Inside the firm, a recommendation from the system binds
 de facto wherever setting it aside has to be explained. Neither feature requires a lasting relationship or
-a symmetric one.]** `[NEEDS: your yes on the stipulated definitions; no citation is given for outcome
-interdependence (v3 ruling).]`
+a symmetric one.]** 
 
 ### Oracy, Literacy, and Algorithmacy
 
@@ -291,9 +283,9 @@ interaction, and mediated quasi-interaction based on technical channels and audi
 1995). Later scholarship updated this taxonomy to account for networked digital environments (Thompson,
 2020).
 
-Oracy is the ability to coordinate directly face to face via speaking and hearing, or via physical gesture
+Oracy is the ability to ~~coordinate~~ **[C: carry out an exchange]** directly face to face via speaking and hearing, or via physical gesture
 and response. **[C: A chain of spoken messages still passes from person to person, so the chain stays
-oral.]** Literacy is the ability to read and write texts that coordinate across two-person exchanges that
+oral.]** Literacy is the ability to read and write texts that ~~coordinate across~~ **[C: carry]** two-person exchanges that
 are separated in time and space. This text-based coordination transformed modern organizations between the
 late nineteenth and early twentieth centuries, as growing enterprises replaced personal oversight with
 memos, standard forms, and filing systems (Yates, 1989). Yet even in a text-moderated relationship, a
@@ -311,7 +303,7 @@ that went with bureaucracy. Algorithmacy is the person's part of the field that 
 Table 1 sets the three side by side.]**
 
 **Table 1. Three communicative abilities, by what stands between the people who use them**
-[C: working draft of the cells, from reviewer 4; `NEEDS: your cell wording`]
+[C: cells from reviewer 4's draft, adopted 23 Nov]
 
 | | Oracy | Literacy | Algorithmacy |
 |---|---|---|---|
@@ -408,11 +400,8 @@ their report. The provider's ranking drops after a sale. She asks whether the bu
 platform's weighting or both moved it: interpreting. She revises her listing so that it speaks to the next
 buyer and still scores well with the platform: specifying intent. She watches the rankings that follow, to
 learn whether the weighting itself has changed: keeping track. What she learns at the third step changes
-what she will read at the first step of the next exchange.]** Competence in this environment develops as a
-participant's understanding of the work changes across successive encounters with it (Sandberg, 2000).
-Yet over time, direct experience lets workers anticipate automated patterns. Delivery drivers with long
-tenure on platforms learn to recognize shifting system prompts and selectively depart from algorithmic
-guidance to improve delivery routes (Jiang & Sinchaisri, 2025).
+what she will read at the first step of the next exchange.]** Competence in this environment develops as a participant's understanding of the work changes ~~across successive encounters with it~~ (Sandberg, 2000).
+Yet over time, direct experience lets workers anticipate automated patterns. Delivery ~~drivers~~ **[C: workers]** with long tenure ~~on platforms learn to recognize shifting system prompts and selectively depart from algorithmic guidance to improve delivery routes~~ **[C: rely less on the platform's order recommendations]** (Jiang & Sinchaisri, 2025).
 
 **[C: Turns at the cycle build the ability, and people with more turns may hold more of it than others in
 the same formal position. The hardest case is the pair that meets once. TripAdvisor's reviewers are
@@ -427,17 +416,14 @@ here: the triangle, with the cycle of the three parts drawn between the two lowe
 Workers fail to navigate these demands when they mistake the three-way relationship for a two-way
 exchange. The first failure mode occurs when a worker collapses the triad into a pair of herself and the
 machine, treating the software as the only thing that matters and viewing the counterpart as mere noise.
-**[C: Hinds and von Krogh (2024) name the risk for teams. Mayo's medical teams showed "emergent
-interdependence," which "was organic and associated with better patient outcomes. With the introduction of
+**[C: Hinds and von Krogh (2024) name the risk for teams. Some of the medical teams Mayo (2022, as cited in Hinds & von Krogh, 2024) studied showed "emergent interdependence," which "was organic and associated with better patient outcomes. With the introduction of
 GenAI, might emergent interdependence be disrupted because team members blindly follow guidance from the
 AI?" (p. 7). Guidance binds de facto wherever setting it aside carries a cost (§3), and a member who
 follows it blindly has let the colleague drop out of the exchange. The askers' own picture of the
 technology invites this collapse. Stark and Vanden Broeck (2024) see a line crossed "when technologies are
 no longer merely the means of communication among parties but themselves become communication partners"
 (p. 9), and Phillips, Kalvapalle and Kennedy (2024) describe a mode in which the system "remains, in this
-case, very much subordinate to the human partner" (p. 9). Each picture has two parties. The collapse
-treats the second person as one of them.]** `[NEEDS: "one of them" — check this joint reads as you intend:
-the point is that the person treats the system as their only partner.]`
+case, very much subordinate to the human partner" (p. 9). Each picture has two parties, a person and the system, and the collapse leaves the other person out of it.]**
 
 The second failure mode occurs when participants treat the platform as a neutral channel between two
 people, ignoring the evaluating software. **[C: This is the other half of Stark and Vanden Broeck's (2024)
@@ -485,7 +471,7 @@ zone (Elish, 2019) in exactly the same way that the front of a car is designed t
 impact of a crash to protect the rest of the car. The worker absorbs the blame and the penalties when the
 automated system fails.
 
-**[C: The direction is not fixed, and finding the cause does not settle who answers. Fu et al. (2025,
+**[C: The direction is not fixed, and finding the cause does not settle who answers. Fu et al. (2026,
 abstract) describe consumers who "transfer responsibility for service failures to a platform, even after
 recognizing the individual provider as the source of the problem." Zheng and Zhu (2026, abstract) find
 consumers turning against the platform after a worker-caused failure when dispatch is framed as
@@ -501,7 +487,7 @@ at the corner could not show the cause.]**
 
 **[C: The ability has a second effect, which the paper proposes and does not demonstrate.]** As the
 worker develops their algorithmacy in order to cope with the pressures of the work, that very adaptation
-of the worker actually serves to keep the platform's opaque authority going. **[C: Cameron (2024) shows a
+of the worker ~~actually serves~~ **[C: may serve]** to keep the platform's opaque authority going. **[C: Cameron (2024) shows a
 related effect for consent rather than competence: a system "in which individuals have circumscribed
 choices while working is crucial to keeping the platform system running smoothly, because workers can
 invest in their work and develop a sense of mastery" (p. 494), while platform owners "hide behind an
@@ -523,8 +509,7 @@ downplays its actorhood, the burden of assigning responsibility is carried there
 outcome at a time, and how well they carry it depends on algorithmacy. Whether their readings, once
 voiced, charge the platform with actorhood or discharge it stays open, as Schoeneborn et al. leave open
 "whether these always charge or discharge actorhood in the same ways or vary depending on the particular
-context" (p. 14).]** `[NEEDS: your bridge sentence, near-identical to the opening one, if you want it to
-close the section as well.]`
+context" (p. 14).]**
 
 ## Discussion
 
@@ -546,8 +531,7 @@ sorting communicative abilities on one criterion, what stands between the people
 The boundary between these organizational forms depends on who holds the final say over joint work. When
 an inscribed document moderates an interaction, human participants retain ultimate authority to interpret
 the text and resolve disputes between themselves. When an algorithmic platform arbitrates the
-relationship, the software extracts supervisory power and issues binding outcomes that neither participant
-can overturn. **[C: The comparison does not claim that the triad, or a third that decides, is new; Simmel
+relationship, the software extracts supervisory power and issues binding outcomes that neither participant can **[C: readily]** overturn. **[C: The comparison does not claim that the triad, or a third that decides, is new; Simmel
 drew the arbitrator, and Rahman, Karunakaran and Cameron (2024) have read the platform through him. What
 the comparison adds is the ability that goes with the form.]**
 
@@ -555,10 +539,9 @@ the comparison adds is the ability that goes with the form.]**
 from the AI" (p. 7). Blind following is the first failure in §4: the member collapses the triad into a pair
 of herself and the machine, and the colleague drops out. Algorithmacy names what such a member lacks.]**
 This structural distinction clarifies what prior accounts of platform labor leave out. While pioneering
-models of algorithmic competency examined how workers navigate automated task allocation, they framed the
-relationship as an isolated struggle between an individual worker and software (Jarrahi & Sutherland,
+models of algorithmic competency examined how workers navigate automated task allocation, they framed the relationship as ~~an isolated~~ **[C: a]** struggle between an individual worker and software (Jarrahi & Sutherland,
 2019). The triadic framework brings the counterpart back into view, showing that workers do not simply
-manage a machine; they coordinate with clients, peers, and supervisors through an intermediary that
+manage a machine; they ~~coordinate~~ **[C: work]** with clients, peers, and supervisors through an intermediary that
 evaluates them.
 
 Adopting a triadic standard does not discard established findings on how individuals adapt to automated
@@ -579,14 +562,16 @@ media (see Hancock et al., 2020).
 
 **[C: Because §3 defines the triad by outcome interdependence within one exchange and by asymmetric
 binding, two conditions that might have limited the argument are part of it: the pair that meets once,
-and the platform that binds one side harder than the other. Two others remain.]** Conversely, systems that
-permit human adjustment reduce the competence required of frontline staff, as seen when managers actively
-modify how algorithmic ratings are computed before enacting decisions (Lin et al., 2026). **[C: Where a
+and the platform that binds one side harder than the other. Two others remain.]** ~~Conversely, systems~~ **[C: Systems]** that permit human adjustment ~~reduce~~ **[C: may reduce]** the competence required of frontline staff~~, as seen when managers actively modify how algorithmic ratings are computed before enacting decisions~~ **[C: : when the advised rating is low, managers allowed to adjust how the algorithm computes it use the algorithm more (Lin et al., 2026, abstract)]** ~~(Lin et al., 2026)~~. **[C: Where a
 person can change the verdict, the third is a moderator again, and literacy may suffice.]** Platforms often
 enforce asymmetric governance, binding one participant with strict performance metrics while giving the
 other considerable latitude (Curchod et al., 2020). Research should determine whether the burden of
 algorithmacy inevitably falls on the party facing the greatest performance scrutiny, or whether
 unconstrained participants also adapt their communication to protect collaborative relationships.
+
+### Deskilling and the Demand for Algorithmacy
+
+**[C: The argument suggests a proposition about skill that the paper states and does not test.]** Classic labor process theory established that managerial control systematically strips craft knowledge from manual tasks to discipline labor (Braverman, 1974). Gandini (2019) carries labor process theory over to gig platforms, and platform organizing extends this dynamic by partitioning work into simple tasks that are algorithmically assigned (Faraj & Pachidi, 2021). Yet treating algorithmic management solely as task deskilling misses a crucial organizational paradox. As an automated system simplifies physical or administrative tasks, it ~~dramatically increases~~ **[C: may increase]** the relational demands of the triadic relationship. The less craft skill a task requires, the more a worker’s standing depends on her ability to interpret opaque verdicts, specify intent through algorithmic filters, and track silent rule changes. Task deskilling and the demand for algorithmacy are two sides of the same organizational arrangement. **[C: If the proposition holds, the same arrangement that strips skill from the task asks more of the person at each corner, which is the third research question below.]**
 
 ### Generative AI: The Same Form, a Faster Tempo
 
@@ -597,15 +582,14 @@ collaboration, they act as automated arbiters between people. **[C: These are th
 and von Krogh: the manager who evaluates employees with generative AI (p. 4) and the hiring system that
 grows "inaccessible to the manager" (p. 6). In Stark and Vanden Broeck's (2024) terms, the platform form
 arrives inside the firm, where "Many professionals encounter algorithmic management as users" (p. 9).]**
-Generative AI doesn't change this platform dynamic ~~at all~~; it simply scales it. It's like a printing
+Generative AI doesn't change this platform ~~dynamic~~ **[C: form]** ~~at all~~; it simply scales it. It's like a printing
 press that takes the automated control that already exists in the gig economy and pushes it into the
 white-collar office. **[R4: As learning systems update their rules inside ongoing interactions (Hinds &
 von Krogh, 2024, p. 4), the basic three-way structure holds, but keeping track of how the third party
 behaves becomes a continuous demand.]** **[C: What learning changes is the tempo: "rather than being fixed,
 these functions and relations are likely to evolve and expand as the AI learns" (Hinds & von Krogh, 2024,
 p. 4), so the third part of algorithmacy, keeping track, is asked of people within one exchange rather
-than between versions.]** `[NEEDS: your sentence reconciling "doesn't change this platform dynamic" with
-the tempo point, or accept the R4 sentence as is.]`
+than between versions.]** 
 
 ### Questions for Research
 
@@ -614,7 +598,7 @@ the tempo point, or accept the R4 sentence as is.]`
 **[C: First, do people's readings, once voiced, charge the platform with actorhood or discharge it, and
 does the direction depend on what the interface lets them see? Schoeneborn et al. (2026) ask whether
 attribution practices "always charge or discharge actorhood in the same ways or vary depending on the
-particular context" (p. 14), and service research already finds the direction varying (Fu et al., 2025,
+particular context" (p. 14), and service research already finds the direction varying (Fu et al., 2026,
 abstract).]**
 
 **[C: Second, who holds algorithmacy, and who exercises it for others?]** When individuals lack sufficient
@@ -630,7 +614,7 @@ skills and general digital literacy.
 
 **[C: Fourth, how do the three parts change when the third is generative AI inside the firm?]** Future
 research should examine how enterprises deploy these systems, whether managers verify that employees have
-the algorithmacy needed to navigate them, and how workers sustain coordination when an automated third
+the algorithmacy needed to navigate them, and how workers sustain ~~coordination~~ **[C: their exchanges]** when an automated third
 party evaluates their professional relationships.
 
 **[C: Fifth, does competent absorption keep routine breakdowns from becoming public? §5 proposed that it
