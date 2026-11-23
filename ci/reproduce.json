@@ -5510,6 +5510,18 @@
       "source": "org_frontier/studies/quorum_noise_sweep/FINDINGS.md"
     },
     {
+      "name": "quorum-correlated-noise",
+      "cmd": "python org_frontier/studies/quorum_correlated_noise/correlated.py --quick",
+      "expect": [
+        "C2 deterministic identity, indep = probe 464 input_tpm, marginal error = e: PASS",
+        "MAJ3  common e=0.2   whole=0.000000 core_phi=0.000000 full=N S_levels=2",
+        "MAJ3  mix    e=0.2   whole=0.022432 core_phi=0.089730 full=N S_levels=4",
+        "OR3   common e=0.2   whole=2.142458 core_phi=2.142458 full=Y S_levels=3"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/quorum_correlated_noise/FINDINGS.md"
+    },
+    {
       "name": "party-vs-mediator-noise",
       "cmd": "python org_frontier/studies/party_vs_mediator_noise/analyze_locus.py",
       "expect": [
