@@ -1,0 +1,60 @@
+[Revised to full text by Claude Opus 5.5, 22 November 2026]
+
+# bujold2026
+
+- **Reference.** Bujold, A., Gaudet, M.-C., & Parent-Rocheleau, X. (2026). When algorithmic management plays an intermediary role in worker-organization relationships: A social exchange perspective. *Organizational Psychology Review*, 0(0), 1–25 (online first 23 June 2026; special issue "Artificial Intelligence at Work and Organizational Psychology: Are Our Theories Ready"). https://doi.org/10.1177/20413866261461258
+- **Batch / triage.** P1. TRIAGE_T1, stark2024, possible_takeup, candidates 3, 9.
+- **Read depth.** full. Publisher PDF fetched by the lead in the author's browser (`citing/pdfs/bujold2026.pdf`, `.txt`); 25 pages, pp. 1–19 text, pp. 19–25 references.
+- **Citation line found** (references, p. 25): "Stark, D., & Vanden Broeck, P. (2024). Principles of algorithmic management. Organization Theory, 5(2), 1–24. https://doi.org/10.1177/26317877241257213"
+- **Use of the article.** Two in-text citations, both in the section "The Context of Algorithmic Management": once for AM as an autonomous agent rather than decision support (p. 5), once for mediation intensifying how organizational intentions are expressed (p. 6). The authors use Stark and Vanden Broeck to support their premise, not as a question they answer.
+
+> "positioning algorithms as autonomous management agents that execute decisions without requiring human interpretation, rather than serving as passive decision-support tools (Parent-Rocheleau et al., 2024; Stark & Vanden Broeck, 2024)." (p. 5)
+
+> "This technological mediation intensifies how organizational intentions are expressed through AM (Stark & Vanden Broeck, 2024)." (p. 6)
+
+## Candidates touched
+
+**3. Partner or medium — answers (for the worker–organization relation).** Revised from takes_up. The full text rejects both pictures by name and puts a third in their place. Against the medium: AM "employs advanced algorithms rather than simply using technology as a communication medium" (p. 6), the line that separates it from e-leadership. Against the partner: workers engage organizational intentions "rather than forming relationships with the algorithms themselves" (p. 6) and "do not reciprocate directly toward the AM system itself" (p. 17). What replaces them is the technological intermediary, defined in a single sentence:
+> "Technological intermediaries are systems that stand between two parties in a relationship, shaping how each party perceives and interacts with the other by executing actions on behalf of one party" (pp. 2–3)
+
+The answer differs from algorithmacy's in three respects. The two parties are a worker and an organization, not two people; the intermediary acts "on behalf of one party", the organization, so it evaluates and binds only the worker; and the worker's side is modelled as justice evaluations, trust and reciprocity, not as what the worker must be able to do. Two of algorithmacy's three parts appear, but as difficulties or moderators rather than as competences:
+> "Workers may struggle to understand not only current decision logic but also why and how that logic changes over time" (p. 11)
+
+**8. Accountability (OQ-stark2024-04) — takes_up (attribution side).** New. The model rests on whom the worker holds answerable: "the organization (not the algorithm)" as the exchange partner (p. 15), with "the burden of trust repair" falling on the organization (p. 6). A moderator names the task of assigning an outcome to its source:
+> "workers with greater technological knowledge may better distinguish between system inherent flaws and organizational choices, potentially buffering negative reactions in the relationship between trust in the system and trust in the organization" (p. 15)
+
+**9. Digital brokerage (outside P1; recorded for the batch that covers it) — passing.** The AM system allocates "schedules, targets, pay, sanctions" (Table 2, p. 10) between the organization and the worker, but the article does not cite hinds2024 and does not treat the system as a broker between resource holders and takers.
+
+## What the work says
+
+Bujold, Gaudet and Parent-Rocheleau model algorithmic management as a technological intermediary that executes the organization's choices on the worker: organizational choices set the system's materiality (exposure, human influence, explainability, fairness), workers judge the system on procedural, informational and distributive justice, trust in the system becomes "a proxy" for trust in the organization (p. 14), and that trust drives reciprocity toward the organization, never toward the algorithm. They say SET survives with three adaptations, among them a new justice focus (the system) and a sequential trust process (system first, organization second).
+
+## Caution
+
+The intermediary is unilateral: it stands between worker and organization but acts for the organization, so this is a mediated vertical relation, not algorithmacy's triad of two people bound by a third. The worker's ability to tell system flaws from organizational choices and to follow a changing logic appears only as a moderator and a source of injustice perceptions, so the model has the competence's material without naming the competence. The article is conceptual; its propositions are untested (pp. 18–19).
+
+## Verification
+
+- **Verifier.** Claude Opus 5.5, S10e (independent check; did not write the card).
+- **Date.** 22 November 2026.
+- **Bibliographic line.** Matches Crossref (three authors; Organizational Psychology Review, online 23 Jun 2026; no volume or issue deposited).
+- **Citation of the OT article.** Reference line found verbatim at p. 25; Crossref ref e_1_3_3_96_1 carries the stark2024 DOI. Exactly two in-text citations, pp. 5 and 6. No Hinds or von Krogh citation anywhere in the text, as the card says.
+- **Quotes checked / corrected.** 15 / 0. The pp. 2–3 definition runs across the page break, as stated.
+- **Classification changes.** None. answers (3) is supported, within the scope the card states (worker–organization, intermediary acting for one party), and matches the S10 decision in DECISIONS.md.
+- **Read depth.** full, stated correctly (25 pp.; references begin p. 19).
+- **Verdict.** verified
+
+## Fable check
+
+[Written by Fable (claude-fable-5-2), S10f, 2026-11-22]
+
+- **Date.** 22 November 2026. Counting follows the plan's rule that "a citing work counts only if its reference list holds the OT article": for each candidate I say whether the work cites an asker of that candidate, and for what.
+- **Read against.** `citing/pdfs/bujold2026.txt`. I read pp. 1–19 in full.
+- **Quotations.** All 15 located at the stated pages; the definition runs across pp. 2–3, as the card says.
+- **Classes.** `answers` on candidate 3 is supported within the scope the card states. Four notes fix that scope.
+  1. *What is answered.* The article answers the choice as the shortlist assembles it. It does not answer OQ-stark2024-07: both citations of Stark and Vanden Broeck support the premise that AM acts autonomously (pp. 5, 6), and the "communication partner" call goes unmentioned. Toward that call's premise the article leans to `contests`: workers "ultimately recognize the organization (not the algorithm) as the exchange partner" (p. 15), and "AM algorithms are mostly ignorant of human reactions and lack human-machine dialogue" (Table 1, p. 7). It keeps the algorithm as an agent all the same, as "direct organizational representatives to workers" (p. 2) and "autonomous management agents" (p. 5), and as a referent of trust and of justice judgments. The third position it reaches is therefore the representative of one party.
+  2. *Two actors, by the authors' own statement.* They choose moderators "to maintain focus on factors most relevant to the two actors examined in our manuscript (workers and organizations)" (p. 15). Colleagues enter once, in the future-research section, where generative AI may "potentially affect additional organizational actors (e.g., human managers and colleagues)" (p. 18). Customers appear as a data source, "client reviews" (p. 10).
+  3. *The parts.* A second keeping-track passage: learning systems pose "unique challenges for workers who need to constantly evaluate how the changes affect their work" (p. 5). Specifying intent has no counterpart as an ability. The nearest construct is "human influence", "the extent to which workers have a voice, exert control over the system, opt out if desired, and contribute input" (p. 8), which is a characteristic of the system that the organization sets.
+  4. *For S11.* Table 2 lists "Correctability: Perceived opportunity to appeal and correct erroneous AM procedures" (p. 10), so answerability is a variable in this model. The article also says AM "erodes the buffering role of human managers between the organization’s practices or decisions and the employees" (p. 2): the intermediary's position was held by a person before an algorithm held it. The reference list holds Curchod, Patriotta, Cohen and Neysen (2020) (p. 21).
+- **Counting.** Candidates 3 and 8: the article cites stark2024, for another point (pp. 5, 6). Candidate 9: it cites neither hinds2024 nor brennecke2025 (I searched the text for both names), so its `passing` there is convergent evidence with no citation edge.
+- **Verdict.** used

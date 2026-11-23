@@ -1,0 +1,5 @@
+laine2023 | verified_with_corrections | 0 | 0 | 0 | 31 quotations located, 4 acceptable extraction mismatches; Not counted extended with p. 4 and p. 11 "it remains unclear" hits; no flag changes
+guercini2023 | verified_with_corrections | 0 | 0 | 0 | 33 quotations located; Not counted extended with two p. 16 lead-in sentences and p. 17 "little detailed insight"; no flag changes
+scherer2023 | verified_with_corrections | 0 | 0 | 0 | 37 quotations located, 7 acceptable mismatches; evaluation_accountability raised 1 -> 2 (pp. 9, 16, 19, 21); Caution's OQ-12 ellipsis description corrected (omits a clause, not a word)
+pozner2023 | verified_with_corrections | 0 | 0 | 0 | 36 quotations located, 2 acceptable mismatches; Not counted extended with 5 Future directions/Conclusion hits (lead-in, gap statements, limitations folded into OQ-10/11/13/15/16); no flag changes
+whyte2023 | verified_with_corrections | 0 | 0 | 0 | 34 quotations located, 3 acceptable mismatches; Not counted extended with p. 13 and p. 14 lead-ins; Caution's OQ-12 ellipsis description corrected; no flag changes

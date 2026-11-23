@@ -1,0 +1,6 @@
+seed 0: per-depth [26, 676, 7647, 9874, 9998, 10000, 10000, 10000], total nodes incl. root 58222
+seed 1: per-depth [26, 676, 7605, 9892, 9992, 10000, 10000, 10000], total nodes incl. root 58192
+seed 2: per-depth [26, 676, 7624, 9890, 9995, 10000, 10000, 10000], total nodes incl. root 58212
+seed 3: per-depth [26, 676, 7622, 9885, 9993, 10000, 10000, 10000], total nodes incl. root 58203
+seed 4: per-depth [26, 676, 7685, 9888, 9992, 10000, 10000, 10000], total nodes incl. root 58268
+key's formula sum_d min(26^d, 10000) = 60702

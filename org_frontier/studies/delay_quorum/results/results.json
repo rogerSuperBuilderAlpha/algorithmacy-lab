@@ -1,0 +1,3123 @@
+{
+ "pyphi_version": "1.2.1.dev1470+gb78d0e342",
+ "phi_eps": 1e-09,
+ "hypotheses": {
+  "H1": "SUPPORTED",
+  "H2": "SUPPORTED",
+  "H3": "SUPPORTED",
+  "H4": "SUPPORTED",
+  "H5": "SUPPORTED"
+ },
+ "rows": [
+  {
+   "form": "OR3",
+   "r": 0.0,
+   "d": 0,
+   "n_nodes": 4,
+   "n_states": 4,
+   "whole_phi": 3.0,
+   "top": 3.0,
+   "top_ties": [
+    "SP1P2P3"
+   ],
+   "full_in_top": true,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 3.0,
+     "full_phi": 3.0,
+     "ties": [
+      "SP1P2P3"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 0.05756972518581409,
+     "full_phi": 0.0,
+     "ties": [
+      "SP1",
+      "SP2",
+      "SP3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "r": 0.0,
+   "d": 1,
+   "n_nodes": 5,
+   "n_states": 8,
+   "whole_phi": 1.0,
+   "top": 2.0,
+   "top_ties": [
+    "SP1B1",
+    "SP2B1",
+    "SP3B1"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 1.0,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.057569725185814075,
+     "full_phi": 0.0,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 1.0,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.05756972518581409,
+     "full_phi": 0.0,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "r": 0.0,
+   "d": 2,
+   "n_nodes": 6,
+   "n_states": 16,
+   "whole_phi": 1.0,
+   "top": 2.0,
+   "top_ties": [
+    "SP1B1B2",
+    "SP2B1B2",
+    "SP3B1B2",
+    "SP1P2B1B2",
+    "SP1P3B1B2",
+    "SP2P3B1B2"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 1.0,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.057569725185814075,
+     "full_phi": 0.0,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 1.0,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 0.057569725185814075,
+     "full_phi": 0.0,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 1.0,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.057569725185814075,
+     "full_phi": 0.0,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 1.0,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 0.05756972518581409,
+     "full_phi": 0.0,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "r": 0.1,
+   "d": 0,
+   "n_nodes": 4,
+   "n_states": 4,
+   "whole_phi": 1.8545692346356781,
+   "top": 1.8545692346356781,
+   "top_ties": [
+    "SP1P2P3"
+   ],
+   "full_in_top": true,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 1.8545692346356781,
+     "full_phi": 1.8545692346356781,
+     "ties": [
+      "SP1P2P3"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 0.06292197807702837,
+     "full_phi": 0.0008260520298636977,
+     "ties": [
+      "SP1",
+      "SP2",
+      "SP3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0057823642090458855,
+     "ties": [
+      "SP1",
+      "SP2",
+      "SP3",
+      "SP1P2",
+      "SP1P3",
+      "SP2P3",
+      "SP1P2P3"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0008260520298636977,
+     "ties": [
+      "SP1",
+      "SP2",
+      "SP3",
+      "SP1P2",
+      "SP1P3",
+      "SP2P3"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "r": 0.1,
+   "d": 1,
+   "n_nodes": 5,
+   "n_states": 8,
+   "whole_phi": 0.7290000000000006,
+   "top": 1.3471897448785586,
+   "top_ties": [
+    "SP1B1",
+    "SP2B1",
+    "SP3B1"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 1.3471897448785586,
+     "full_phi": 0.7290000000000006,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0629219780770282,
+     "full_phi": 0.0008260520298636977,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0057823642090458855,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1",
+      "SP1P2B1",
+      "SP1P3B1",
+      "SP2P3B1",
+      "SP1P2P3B1"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0008260520298636977,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1",
+      "SP1P2B1",
+      "SP1P3B1",
+      "SP2P3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.3471897448785586,
+     "full_phi": 0.7290000000000006,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0629219780770282,
+     "full_phi": 0.0008260520298636977,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0057823642090458855,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1",
+      "SP1P2B1",
+      "SP1P3B1",
+      "SP2P3B1",
+      "SP1P2P3B1"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0008260520298636977,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1",
+      "SP1P2B1",
+      "SP1P3B1",
+      "SP2P3B1"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "r": 0.1,
+   "d": 2,
+   "n_nodes": 6,
+   "n_states": 16,
+   "whole_phi": 0.7290000000000006,
+   "top": 1.4579999999999997,
+   "top_ties": [
+    "SP1P2B1B2",
+    "SP1P3B1B2",
+    "SP2P3B1B2"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 1.4579999999999997,
+     "full_phi": 0.7290000000000006,
+     "ties": [
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0629219780770282,
+     "full_phi": 0.0008260520298636977,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0057823642090458855,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2",
+      "SP1P2P3B1B2"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0008260520298636977,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 1.4579999999999997,
+     "full_phi": 0.7290000000000006,
+     "ties": [
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 0.0629219780770282,
+     "full_phi": 0.0008260520298636977,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0057823642090458855,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2",
+      "SP1P2P3B1B2"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0008260520298636977,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.4579999999999997,
+     "full_phi": 0.7290000000000006,
+     "ties": [
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0629219780770282,
+     "full_phi": 0.0008260520298636977,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0057823642090458855,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2",
+      "SP1P2P3B1B2"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0008260520298636977,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 1.4579999999999997,
+     "full_phi": 0.7290000000000006,
+     "ties": [
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 0.0629219780770282,
+     "full_phi": 0.0008260520298636977,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0057823642090458855,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2",
+      "SP1P2P3B1B2"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0008260520298636977,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "r": 0.0,
+   "d": 0,
+   "n_nodes": 4,
+   "n_states": 4,
+   "whole_phi": 0.0,
+   "top": 0.0,
+   "top_ties": [],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "r": 0.0,
+   "d": 1,
+   "n_nodes": 5,
+   "n_states": 8,
+   "whole_phi": 0.0,
+   "top": 0.0,
+   "top_ties": [],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "r": 0.0,
+   "d": 2,
+   "n_nodes": 6,
+   "n_states": 16,
+   "whole_phi": 0.0,
+   "top": 0.0,
+   "top_ties": [],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "r": 0.1,
+   "d": 0,
+   "n_nodes": 4,
+   "n_states": 4,
+   "whole_phi": 0.026980608910464783,
+   "top": 0.10792243564185913,
+   "top_ties": [
+    "SP1",
+    "SP2",
+    "SP3"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.10792243564185912,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1",
+      "SP2",
+      "SP3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 0.10792243564185912,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1",
+      "SP2",
+      "SP3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 0.10792243564185913,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1",
+      "SP2",
+      "SP3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.10792243564185913,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1",
+      "SP2",
+      "SP3"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "r": 0.1,
+   "d": 1,
+   "n_nodes": 5,
+   "n_states": 8,
+   "whole_phi": 0.026980608910464783,
+   "top": 0.10792243564185913,
+   "top_ties": [
+    "SP1B1",
+    "SP2B1",
+    "SP3B1"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.10792243564185912,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.10792243564185912,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.10792243564185913,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.10792243564185913,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.10792243564185912,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.10792243564185912,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.10792243564185913,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.10792243564185913,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "r": 0.1,
+   "d": 2,
+   "n_nodes": 6,
+   "n_states": 16,
+   "whole_phi": 0.026980608910464783,
+   "top": 0.10792243564185913,
+   "top_ties": [
+    "SP1B1B2",
+    "SP2B1B2",
+    "SP3B1B2"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.10792243564185912,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.10792243564185912,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 0.10792243564185913,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 0.10792243564185913,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 0.10792243564185912,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 0.10792243564185912,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.10792243564185913,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.10792243564185913,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.10792243564185912,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.10792243564185912,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 0.10792243564185913,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 0.10792243564185913,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 0.10792243564185912,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 0.10792243564185912,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.10792243564185913,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.10792243564185913,
+     "full_phi": 0.026980608910464783,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "r": 0.0,
+   "d": 0,
+   "n_nodes": 4,
+   "n_states": 4,
+   "whole_phi": 3.0,
+   "top": 3.0,
+   "top_ties": [
+    "SP1P2P3"
+   ],
+   "full_in_top": true,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 0.05756972518581409,
+     "full_phi": 0.0,
+     "ties": [
+      "SP1",
+      "SP2",
+      "SP3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 3.0,
+     "full_phi": 3.0,
+     "ties": [
+      "SP1P2P3"
+     ],
+     "full_in": true
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "r": 0.0,
+   "d": 1,
+   "n_nodes": 5,
+   "n_states": 8,
+   "whole_phi": 1.0,
+   "top": 2.0,
+   "top_ties": [
+    "SP1B1",
+    "SP2B1",
+    "SP3B1"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.05756972518581409,
+     "full_phi": 0.0,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 1.0,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.05756972518581409,
+     "full_phi": 0.0,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 1.0,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "r": 0.0,
+   "d": 2,
+   "n_nodes": 6,
+   "n_states": 16,
+   "whole_phi": 1.0,
+   "top": 2.0,
+   "top_ties": [
+    "SP1B1B2",
+    "SP2B1B2",
+    "SP3B1B2",
+    "SP1P2B1B2",
+    "SP1P3B1B2",
+    "SP2P3B1B2"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 0.05756972518581409,
+     "full_phi": 0.0,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 1.0,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.05756972518581409,
+     "full_phi": 0.0,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 1.0,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 0.05756972518581409,
+     "full_phi": 0.0,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 1.0,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.05756972518581409,
+     "full_phi": 0.0,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 1.0,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "r": 0.1,
+   "d": 0,
+   "n_nodes": 4,
+   "n_states": 4,
+   "whole_phi": 1.8545692346356755,
+   "top": 1.8545692346356755,
+   "top_ties": [
+    "SP1P2P3"
+   ],
+   "full_in_top": true,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0008260520298636979,
+     "ties": [
+      "SP1",
+      "SP2",
+      "SP3",
+      "SP1P2",
+      "SP1P3",
+      "SP2P3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0057823642090458855,
+     "ties": [
+      "SP1",
+      "SP2",
+      "SP3",
+      "SP1P2",
+      "SP1P3",
+      "SP2P3",
+      "SP1P2P3"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 0.06292197807702839,
+     "full_phi": 0.0008260520298636979,
+     "ties": [
+      "SP1",
+      "SP2",
+      "SP3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 1.8545692346356755,
+     "full_phi": 1.8545692346356755,
+     "ties": [
+      "SP1P2P3"
+     ],
+     "full_in": true
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "r": 0.1,
+   "d": 1,
+   "n_nodes": 5,
+   "n_states": 8,
+   "whole_phi": 0.729,
+   "top": 1.3471897448785588,
+   "top_ties": [
+    "SP1B1",
+    "SP2B1",
+    "SP3B1"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0008260520298636979,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1",
+      "SP1P2B1",
+      "SP1P3B1",
+      "SP2P3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0057823642090458855,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1",
+      "SP1P2B1",
+      "SP1P3B1",
+      "SP2P3B1",
+      "SP1P2P3B1"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.06292197807702839,
+     "full_phi": 0.0008260520298636979,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 1.3471897448785588,
+     "full_phi": 0.729,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0008260520298636979,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1",
+      "SP1P2B1",
+      "SP1P3B1",
+      "SP2P3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0057823642090458855,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1",
+      "SP1P2B1",
+      "SP1P3B1",
+      "SP2P3B1",
+      "SP1P2P3B1"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.06292197807702839,
+     "full_phi": 0.0008260520298636979,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 1.3471897448785588,
+     "full_phi": 0.729,
+     "ties": [
+      "SP1B1",
+      "SP2B1",
+      "SP3B1"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "r": 0.1,
+   "d": 2,
+   "n_nodes": 6,
+   "n_states": 16,
+   "whole_phi": 0.729,
+   "top": 1.4580000000000002,
+   "top_ties": [
+    "SP1P2B1B2",
+    "SP1P3B1B2",
+    "SP2P3B1B2"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0008260520298636979,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0057823642090458855,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2",
+      "SP1P2P3B1B2"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 0.06292197807702839,
+     "full_phi": 0.0008260520298636979,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 1.4580000000000002,
+     "full_phi": 0.729,
+     "ties": [
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0008260520298636979,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0057823642090458855,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2",
+      "SP1P2P3B1B2"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.06292197807702839,
+     "full_phi": 0.0008260520298636979,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 1.4580000000000002,
+     "full_phi": 0.729,
+     "ties": [
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0008260520298636979,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0057823642090458855,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2",
+      "SP1P2P3B1B2"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 0.06292197807702839,
+     "full_phi": 0.0008260520298636979,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 1.4580000000000002,
+     "full_phi": 0.729,
+     "ties": [
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0008260520298636979,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 0.0057823642090458855,
+     "full_phi": 0.0057823642090458855,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2",
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2",
+      "SP1P2P3B1B2"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.06292197807702839,
+     "full_phi": 0.0008260520298636979,
+     "ties": [
+      "SP1B1B2",
+      "SP2B1B2",
+      "SP3B1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 1.4580000000000002,
+     "full_phi": 0.729,
+     "ties": [
+      "SP1P2B1B2",
+      "SP1P3B1B2",
+      "SP2P3B1B2"
+     ],
+     "full_in": false
+    }
+   ]
+  }
+ ]
+}

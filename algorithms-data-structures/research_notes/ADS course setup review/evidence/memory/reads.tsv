@@ -1,0 +1,80 @@
+1	Big-O and Python memory	§2.2 What Is Algorithm Analysis?	https://runestone.academy/ns/books/published/pythonds3/AlgorithmAnalysis/WhatIsAlgorithmAnalysis.html	19
+1	Big-O and Python memory	§2.3 Big O Notation	https://runestone.academy/ns/books/published/pythonds3/AlgorithmAnalysis/BigONotation.html	19
+1	Big-O and Python memory	§2.5 Performance of Python Data Structures	https://runestone.academy/ns/books/published/pythonds3/AlgorithmAnalysis/PerformanceofPythonDataStructures.html	19
+1	Big-O and Python memory	Python docs: sys.getsizeof	https://docs.python.org/3/library/sys.html#sys.getsizeof	19
+2	Arrays and in-place updates	§2.6 Lists	https://runestone.academy/ns/books/published/pythonds3/AlgorithmAnalysis/Lists.html	96
+2	Arrays and in-place updates	§1.8 Getting Started with Data	https://runestone.academy/ns/books/published/pythonds3/Introduction/GettingStartedwithData.html	96
+3	Strings and prefix sums	§2.4 An Anagram Detection Example	https://runestone.academy/ns/books/published/pythonds3/AlgorithmAnalysis/AnAnagramDetectionExample.html	166
+3	Strings and prefix sums	§1.8 Getting Started with Data	https://runestone.academy/ns/books/published/pythonds3/Introduction/GettingStartedwithData.html	166
+4	Hash sets and hash maps	§5.5 Hashing	https://runestone.academy/ns/books/published/pythonds3/SortSearch/Hashing.html	235
+4	Hash sets and hash maps	§2.7 Dictionaries	https://runestone.academy/ns/books/published/pythonds3/AlgorithmAnalysis/Dictionaries.html	235
+5	Two pointers	§3.18 Palindrome Checker	https://runestone.academy/ns/books/published/pythonds3/BasicDS/PalindromeChecker.html	305
+5	Two pointers	§5.3 The Sequential Search	https://runestone.academy/ns/books/published/pythonds3/SortSearch/TheSequentialSearch.html	305
+6	Sliding window	§2.4 An Anagram Detection Example	https://runestone.academy/ns/books/published/pythonds3/AlgorithmAnalysis/AnAnagramDetectionExample.html	374
+7	Stacks	§3.3 What Is a Stack?	https://runestone.academy/ns/books/published/pythonds3/BasicDS/WhatisaStack.html	443
+7	Stacks	§3.5 Implementing a Stack in Python	https://runestone.academy/ns/books/published/pythonds3/BasicDS/ImplementingaStackinPython.html	443
+7	Stacks	§3.6 Simple Balanced Parentheses	https://runestone.academy/ns/books/published/pythonds3/BasicDS/SimpleBalancedParentheses.html	443
+7	Stacks	§3.7 Balanced Symbols (A General Case)	https://runestone.academy/ns/books/published/pythonds3/BasicDS/BalancedSymbolsAGeneralCase.html	443
+8	Queues and deques	§3.10 What Is a Queue?	https://runestone.academy/ns/books/published/pythonds3/BasicDS/WhatIsaQueue.html	517
+8	Queues and deques	§3.12 Implementing a Queue in Python	https://runestone.academy/ns/books/published/pythonds3/BasicDS/ImplementingaQueueinPython.html	517
+8	Queues and deques	§3.13 Queue Simulation: Hot Potato	https://runestone.academy/ns/books/published/pythonds3/BasicDS/SimulationHotPotato.html	517
+8	Queues and deques	§3.15 What Is a Deque?	https://runestone.academy/ns/books/published/pythonds3/BasicDS/WhatIsaDeque.html	517
+9	Monotonic stack and deque	§3.15 What Is a Deque?	https://runestone.academy/ns/books/published/pythonds3/BasicDS/WhatIsaDeque.html	593
+9	Monotonic stack and deque	§3.17 Implementing a Deque in Python	https://runestone.academy/ns/books/published/pythonds3/BasicDS/ImplementingaDequeinPython.html	593
+9	Monotonic stack and deque	Python docs: collections.deque	https://docs.python.org/3/library/collections.html#collections.deque	593
+10	Linked lists	§3.19 Lists	https://runestone.academy/ns/books/published/pythonds3/BasicDS/Lists.html	669
+10	Linked lists	§3.21 Implementing an Unordered List: Linked Lists	https://runestone.academy/ns/books/published/pythonds3/BasicDS/ImplementinganUnorderedListLinkedLists.html	669
+10	Linked lists	§3.23 Implementing an Ordered List (with analysis)	https://runestone.academy/ns/books/published/pythonds3/BasicDS/ImplementinganOrderedList.html	669
+11	Recursion	§4.2 What Is Recursion?	https://runestone.academy/ns/books/published/pythonds3/Recursion/WhatIsRecursion.html	743
+11	Recursion	§4.4 The Three Laws of Recursion	https://runestone.academy/ns/books/published/pythonds3/Recursion/TheThreeLawsofRecursion.html	743
+11	Recursion	§4.6 Stack Frames: Implementing Recursion	https://runestone.academy/ns/books/published/pythonds3/Recursion/StackFramesImplementingRecursion.html	743
+12	Bit manipulation	§3.8 Converting Decimal Numbers to Binary Numbers	https://runestone.academy/ns/books/published/pythonds3/BasicDS/ConvertingDecimalNumberstoBinaryNumbers.html	815
+12	Bit manipulation	Python docs: bitwise operations on integers	https://docs.python.org/3/library/stdtypes.html#bitwise-operations-on-integer-types	815
+13	Sorting	§5.6 Sorting	https://runestone.academy/ns/books/published/pythonds3/SortSearch/sorting.html	887
+13	Sorting	§5.9 The Insertion Sort	https://runestone.academy/ns/books/published/pythonds3/SortSearch/TheInsertionSort.html	887
+13	Sorting	§5.11 The Merge Sort	https://runestone.academy/ns/books/published/pythonds3/SortSearch/TheMergeSort.html	887
+13	Sorting	§5.12 The Quicksort	https://runestone.academy/ns/books/published/pythonds3/SortSearch/TheQuickSort.html	887
+14	Binary search	§5.4 The Binary Search	https://runestone.academy/ns/books/published/pythonds3/SortSearch/TheBinarySearch.html	962
+14	Binary search	Python docs: bisect	https://docs.python.org/3/library/bisect.html	962
+15	Trees: traversal	§6.2 Examples of Trees	https://runestone.academy/ns/books/published/pythonds3/Trees/ExamplesofTrees.html	1032
+15	Trees: traversal	§6.3 Vocabulary and Definitions	https://runestone.academy/ns/books/published/pythonds3/Trees/VocabularyandDefinitions.html	1032
+15	Trees: traversal	§6.6 Nodes and References	https://runestone.academy/ns/books/published/pythonds3/Trees/NodesandReferences.html	1032
+15	Trees: traversal	§6.8 Tree Traversals	https://runestone.academy/ns/books/published/pythonds3/Trees/TreeTraversals.html	1032
+16	Binary search trees	§6.12 Binary Search Trees	https://runestone.academy/ns/books/published/pythonds3/Trees/BinarySearchTrees.html	1106
+16	Binary search trees	§6.13 Search Tree Operations	https://runestone.academy/ns/books/published/pythonds3/Trees/SearchTreeOperations.html	1106
+16	Binary search trees	§6.14 Search Tree Implementation	https://runestone.academy/ns/books/published/pythonds3/Trees/SearchTreeImplementation.html	1106
+16	Binary search trees	§6.15 Search Tree Analysis	https://runestone.academy/ns/books/published/pythonds3/Trees/SearchTreeAnalysis.html	1106
+17	Heaps and priority queues	§6.9 Priority Queues with Binary Heaps	https://runestone.academy/ns/books/published/pythonds3/Trees/PriorityQueueswithBinaryHeaps.html	1181
+17	Heaps and priority queues	§6.10 Binary Heap Operations	https://runestone.academy/ns/books/published/pythonds3/Trees/BinaryHeapOperations.html	1181
+17	Heaps and priority queues	§6.11 Binary Heap Implementation	https://runestone.academy/ns/books/published/pythonds3/Trees/BinaryHeapImplementation.html	1181
+17	Heaps and priority queues	Python docs: heapq	https://docs.python.org/3/library/heapq.html	1181
+18	Graphs and depth-first search	§7.2 Vocabulary and Definitions	https://runestone.academy/ns/books/published/pythonds3/Graphs/VocabularyandDefinitions.html	1257
+18	Graphs and depth-first search	§7.5 An Adjacency List	https://runestone.academy/ns/books/published/pythonds3/Graphs/AnAdjacencyList.html	1257
+18	Graphs and depth-first search	§7.15 General Depth-First Search	https://runestone.academy/ns/books/published/pythonds3/Graphs/GeneralDepthFirstSearch.html	1257
+18	Graphs and depth-first search	§7.16 Depth-First Search Analysis	https://runestone.academy/ns/books/published/pythonds3/Graphs/DepthFirstSearchAnalysis.html	1257
+19	Breadth-first search	§7.7 The Word Ladder Problem	https://runestone.academy/ns/books/published/pythonds3/Graphs/TheWordLadderProblem.html	1332
+19	Breadth-first search	§7.9 Implementing Breadth-First Search	https://runestone.academy/ns/books/published/pythonds3/Graphs/ImplementingBreadthFirstSearch.html	1332
+19	Breadth-first search	§7.10 Breadth-First Search Analysis	https://runestone.academy/ns/books/published/pythonds3/Graphs/BreadthFirstSearchAnalysis.html	1332
+20	Topological sort	§7.17 Topological Sorting	https://runestone.academy/ns/books/published/pythonds3/Graphs/TopologicalSorting.html	1405
+21	Shortest paths: Dijkstra	§7.19 Shortest Path Problems	https://runestone.academy/ns/books/published/pythonds3/Graphs/ShortestPathProblems.html	1472
+21	Shortest paths: Dijkstra	§7.20 Dijkstra\'s Algorithm	https://runestone.academy/ns/books/published/pythonds3/Graphs/DijkstrasAlgorithm.html	1472
+21	Shortest paths: Dijkstra	§7.21 Analysis of Dijkstra\'s Algorithm	https://runestone.academy/ns/books/published/pythonds3/Graphs/AnalysisofDijkstrasAlgorithm.html	1472
+22	Union-find	§7.22 Prim\'s Spanning Tree Algorithm (context)	https://runestone.academy/ns/books/published/pythonds3/Graphs/PrimsSpanningTreeAlgorithm.html	1546
+22	Union-find	VisuAlgo: Union-Find Disjoint Sets	https://visualgo.net/en/ufds	1546
+23	Tries	§6.3 Vocabulary and Definitions	https://runestone.academy/ns/books/published/pythonds3/Trees/VocabularyandDefinitions.html	1618
+23	Tries	§6.6 Nodes and References	https://runestone.academy/ns/books/published/pythonds3/Trees/NodesandReferences.html	1618
+23	Tries	§2.7 Dictionaries	https://runestone.academy/ns/books/published/pythonds3/AlgorithmAnalysis/Dictionaries.html	1618
+24	Backtracking	§4.9 Complex Recursive Problems	https://runestone.academy/ns/books/published/pythonds3/Recursion/ComplexRecursiveProblems.html	1696
+24	Backtracking	§4.11 Exploring a Maze	https://runestone.academy/ns/books/published/pythonds3/Recursion/ExploringaMaze.html	1696
+24	Backtracking	§7.11 The Knight\'s Tour Problem	https://runestone.academy/ns/books/published/pythonds3/Graphs/TheKnightsTourProblem.html	1696
+25	Greedy algorithms	§7.22 Prim\'s Spanning Tree Algorithm (a greedy algorithm)	https://runestone.academy/ns/books/published/pythonds3/Graphs/PrimsSpanningTreeAlgorithm.html	1768
+25	Greedy algorithms	§4.12 Dynamic Programming (greedy vs. DP on coin change)	https://runestone.academy/ns/books/published/pythonds3/Recursion/DynamicProgramming.html	1768
+26	Intervals and sweep line	§5.11 The Merge Sort	https://runestone.academy/ns/books/published/pythonds3/SortSearch/TheMergeSort.html	1840
+26	Intervals and sweep line	§6.9 Priority Queues with Binary Heaps	https://runestone.academy/ns/books/published/pythonds3/Trees/PriorityQueueswithBinaryHeaps.html	1840
+27	Dynamic programming: 1D	§4.12 Dynamic Programming	https://runestone.academy/ns/books/published/pythonds3/Recursion/DynamicProgramming.html	1913
+28	Dynamic programming: sequences	§4.12 Dynamic Programming (read again)	https://runestone.academy/ns/books/published/pythonds3/Recursion/DynamicProgramming.html	1980
+29	Dynamic programming: 2D tables	§4.12 Dynamic Programming (read again)	https://runestone.academy/ns/books/published/pythonds3/Recursion/DynamicProgramming.html	2052
+30	Capstone: choosing the pattern	§2.8 Summary (algorithm analysis)	https://runestone.academy/ns/books/published/pythonds3/AlgorithmAnalysis/Summary.html	2122
+30	Capstone: choosing the pattern	§5.13 Summary (searching and sorting)	https://runestone.academy/ns/books/published/pythonds3/SortSearch/Summary.html	2122
+30	Capstone: choosing the pattern	§6.20 Summary (trees)	https://runestone.academy/ns/books/published/pythonds3/Trees/Summary.html	2122
+30	Capstone: choosing the pattern	§7.23 Summary (graphs)	https://runestone.academy/ns/books/published/pythonds3/Graphs/Summary.html	2122

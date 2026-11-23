@@ -56,8 +56,8 @@ jobs:
         run: |
           # A snapshot already bound to these index blobs is current even when
           # its recorded revision is the parent commit. Rewriting it on every
-          # push only to move that revision left the required reproduce check
-          # unrun on the commit GitHub was asked to merge.
+          # push only to move that revision produced a [skip ci] head, so the
+          # reproduce check never ran on the commit GitHub was asked to merge.
           if python research-atlas/build_snapshot.py --check; then
             echo "snapshot already matches the committed indexes"
           else

@@ -1,0 +1,27 @@
+3.13.12 (main, Feb  3 2026, 17:53:27) [Clang 17.0.0 (clang-1700.6.3.2)]
+recursionlimit 1000
+int 0 28
+int 1 28
+int 2^30 28
+int 2^31 32
+int 2^60 32
+int 2^61 36
+int 2^91 40
+int 2^121 44
+int 2^31 32
+int 2^30 28
+float 24 True 28 None 16 bool 28
+shared ints range -5 256
+str empty 41 'a' 42 'ab' 43 10 51 100 141
+latin1 'é' 61 'éé' 59 10 é 67
+ucs2 '€' 60 10 78 ucs2 empty-diff 2
+ucs4 '😀' 64 10 100 4
+1-char shared? ascii a True chr: True
+1-char shared? 0x7f True chr: True
+1-char shared? 0x80 True chr: True
+1-char shared? é 0xe9 True chr: True
+1-char shared? ÿ 0xff True chr: True
+1-char shared? 0x100 Ā False chr: False
+1-char shared? € False chr: False
+1-char shared? emoji False chr: False
+per ascii char 1

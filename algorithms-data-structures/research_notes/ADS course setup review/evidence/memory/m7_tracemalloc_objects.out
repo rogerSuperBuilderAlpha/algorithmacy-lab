@@ -1,0 +1,13 @@
+int > 256              tracemalloc/obj=   32.0  getsizeof(one)=28
+int 2^31+              tracemalloc/obj=   36.0  getsizeof(one)=32
+float                  tracemalloc/obj=   24.0  getsizeof(one)=24
+str len10 ascii        tracemalloc/obj=   51.0  getsizeof(one)=51
+str len1 (new>255?)    tracemalloc/obj=   60.0  getsizeof(one)=60
+tuple pair             tracemalloc/obj=   87.9  getsizeof(one)=56
+tuple triple (no ints) tracemalloc/obj=    0.0  getsizeof(one)=64
+pair of two shared     tracemalloc/obj=    0.0  getsizeof(one)=56
+empty list             tracemalloc/obj=   56.0  getsizeof(one)=56
+list of 3              tracemalloc/obj=   88.0  getsizeof(one)=88
+dict 1 str key         tracemalloc/obj=  184.0  getsizeof(one)=184
+empty dict             tracemalloc/obj=   64.0  getsizeof(one)=64
+set 1 elt              tracemalloc/obj=  216.0  getsizeof(one)=216

@@ -1,0 +1,3 @@
+orlikowski2023 | verified_with_corrections | 0 | 0 | 0 | read_depth to full_vor_cover (LSE cover sheet); OQ-03, OQ-04 form to own_research_question; platforms flag kept at 1 (lead may judge 2)
+phillips2024 | verified_with_corrections | 1 | 0 | 0 | OQ-11 quote extended to carry the call; OQ-01 to OQ-04 form to own_research_question; p. 5 paired framing question listed as not counted; license conflict (crossref BY-NC vs cover BY) left as recorded
+hsu2024 | verified_with_corrections | 0 | 0 | 0 | OQ-03, OQ-07 form to own_research_question (OQ-07 answered only speculatively, lead to confirm); license conflict as in phillips2024

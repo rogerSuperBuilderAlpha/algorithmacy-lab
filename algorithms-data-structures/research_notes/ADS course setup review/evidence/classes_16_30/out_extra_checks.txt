@@ -1,0 +1,60 @@
+== deque import: run the #1971 board code exactly as printed (no import) in a fresh namespace
+   NameError: name 'deque' is not defined
+
+== #198 recurrence exactly as written in key step 2 (best[i] = first i houses; uses nums[i])
+   [1, 2, 3, 1] -> IndexError: list index out of range
+   [2, 7, 9, 3, 1] -> IndexError: list index out of range
+   corrected (nums[i-1]): 4 12
+
+== #295 heap operations per addNum (count heappush/heappop calls)
+   heap operations per addNum: [5, 3, 5, 3, 5, 3, 5] max = 5
+
+== #1143 LCS of random lowercase strings, m = n = 1000 (10 samples), and new ints > 256 kept in the table
+   LCS values: [323, 317, 313, 310, 319, 318, 311, 330, 317, 317] mean 317.5
+   distinct int objects > 256 held by the table: [2771, 2447, 2180, 2383, 2479, 2775, 2328, 3347, 2662, 2959] -> bytes at 32 B each ~ 107104
+
+== #72 edit distance m = n = 500 random: distance, share of cells > 256, distinct new int objects > 256
+   distance 446; cells > 256: 160858 (64.1%); distinct int objects > 256: 154755
+   distance 445; cells > 256: 160562 (64.0%); distinct int objects > 256: 154421
+   distance 441; cells > 256: 160377 (63.9%); distinct int objects > 256: 154283
+
+== #703 at LeetCode's limits (k = 10^4, nums 10^4, 10^4 adds), clean harness
+   aux peak 83.6 KiB, kept 83.6 KiB; heap len 10000
+
+== #127 heavier run: 5000 words of length 10 over {a,b,c}, all reachable from 'aaaaaaaaaa'
+   answer 0, 154 ms
+
+== #212 heavier: 12x12 all-'a' board, 3x10^4 words = 10 pure a-runs + a^j followed by other letters
+   found 10 words in 0.5 s
+
+== Board-solution line counts (non-blank code lines of the transcribed function/class)
+   findWords                   29 lines
+   solveNQueens                24 lines
+   candy                       10 lines
+   getSkyline                  17 lines
+   isMatch                     17 lines
+   ladderLength                17 lines
+   MedianFinder                13 lines
+   searchBST                    8 lines
+   isValidBST                   8 lines
+   KthLargest                  11 lines
+   topKFrequent                10 lines
+   floodFill                   15 lines
+   numIslands                  17 lines
+   validPath                   16 lines
+   orangesRotting              22 lines
+   canFinish                   16 lines
+   findOrder                   18 lines
+   networkDelayTime            17 lines
+   minimumEffortPath           18 lines
+   findCircleNum               18 lines
+   findRedundantConnection     13 lines
+   Trie                        22 lines
+   subsets                     11 lines
+   canJump                      7 lines
+   merge                        8 lines
+   rob                          6 lines
+   coinChange                  10 lines
+   lengthOfLIS                  8 lines
+   longestCommonSubsequence    11 lines
+   minDistance                 15 lines

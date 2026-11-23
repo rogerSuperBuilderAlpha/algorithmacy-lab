@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 128,
+  "study": 182,
   "foundations": 9,
   "open": 15
  },
@@ -9383,6 +9383,28 @@
   },
   {
    "kind": "study",
+   "id": "alphabet_ladder_hub",
+   "title": "Alphabet ladder: two, three and four possible answers on the same vote hub",
+   "finding": "Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`",
+   "path": "org_frontier/studies/alphabet_ladder_hub",
+   "reproduce": [
+    "python org_frontier/studies/alphabet_ladder_hub/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "asymmetric_sides",
+   "title": "Asymmetric sides: which side does a two-sided platform bind?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/asymmetric_sides",
+   "reproduce": [
+    "python org_frontier/studies/asymmetric_sides/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "commit_noise_phase",
    "title": "Commit-noise phase transition (agenda #6)",
    "finding": "down as a monotone glide on both the conjunctive hub (Φ 2.0→0) and the",
@@ -9422,6 +9444,17 @@
    "path": "org_frontier/studies/conjunctive_law_real_render",
    "reproduce": [
     "python org_frontier/studies/conjunctive_law_real_render/analyze_render.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "consensus_pivotality",
+   "title": "Joint pivotality at consensus: which three-party commit rules bind?",
+   "finding": "The pre-registered rule misses 10 of 256 rules under PyPhi's default tie-breaking, but those misses, and",
+   "path": "org_frontier/studies/consensus_pivotality",
+   "reproduce": [
+    "python org_frontier/studies/consensus_pivotality/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -9572,6 +9605,17 @@
   },
   {
    "kind": "study",
+   "id": "delay_quorum",
+   "title": "Delay on quorum hubs: a relay chain between the mediator and the parties",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/delay_quorum",
+   "reproduce": [
+    "python org_frontier/studies/delay_quorum/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "derangement_33_phi14",
    "title": "Derangement 3+3 Φ=14 law at n=6",
    "finding": "iff cycle type 3+3**. Dense sample: 6/40 of the 3+3 class all give full-core",
@@ -9605,6 +9649,17 @@
   },
   {
    "kind": "study",
+   "id": "drifting_ratio",
+   "title": "A fitted formula for the drifting ratio, tested and refuted",
+   "finding": "The fitted formula for the drifting ratio is refuted. On (1,1,1,3) quota 3 the measured ratios are 147.06517413692788, 76.2763609973792 and 41.48368774874131 at e = 0.05, 0.1 and 0.2, against predicted 199.9024781081887, 102.76545826383659 and 54.04909345311601 (relative errors 0.264, 0.258 and 0.232). The top tie set is {S, P4} at every rate, and quota 4 matches quota 3",
+   "path": "org_frontier/studies/drifting_ratio",
+   "reproduce": [
+    "python org_frontier/studies/drifting_ratio/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "dual_function_entities",
    "title": "Dual-function entities — earned integration and held gates in one company",
    "finding": "Seven platforms decomposed into 16 functions, each classified by the bypass-counterfactual (q213). Every",
@@ -9633,6 +9688,28 @@
    "path": "org_frontier/studies/dual_principal_conflict",
    "reproduce": [
     "python org_frontier/studies/dual_principal_conflict/analyze_dual.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "dummy_party_noise",
+   "title": "Dummy party under noise: a never-pivotal party zeroes whole Φ in OR3 and AND3",
+   "finding": "Hypotheses were committed (d92b78c0) before computing. Values seen beforehand: (1,2,2,2) quota 2 at ε = 0",
+   "path": "org_frontier/studies/dummy_party_noise",
+   "reproduce": [
+    "python org_frontier/studies/dummy_party_noise/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "echo_switch",
+   "title": "Echo switch",
+   "finding": "Hypotheses fixed in [hypotheses.md](org_frontier/studies/echo_switch/hypotheses.md) before computing. All numbers from",
+   "path": "org_frontier/studies/echo_switch",
+   "reproduce": [
+    "python org_frontier/studies/echo_switch/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -9829,12 +9906,45 @@
   },
   {
    "kind": "study",
+   "id": "five_party_ties",
+   "title": "Five identical parties: every one-sided verdict depends on PyPhi's tie-break",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), max over reachable states, threshold 1e-9. Hypotheses pushed in",
+   "path": "org_frontier/studies/five_party_ties",
+   "reproduce": [
+    "python org_frontier/studies/five_party_ties/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "five_six_node_quorum_ties",
+   "title": "Weighted and five-party quorums under noise, read as tie sets",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Backlog items",
+   "path": "org_frontier/studies/five_six_node_quorum_ties",
+   "reproduce": [
+    "python org_frontier/studies/five_six_node_quorum_ties/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "fixed_k_atoms_n5",
    "title": "Fixed-k atoms 5/9 at n=5",
    "finding": "omit-derangements at fixed_k=3 give full-core triadic Φ=9.0. Atom **Φ=5** is a",
    "path": "org_frontier/studies/fixed_k_atoms_n5",
    "reproduce": [
     "python org_frontier/studies/fixed_k_atoms_n5/analyze_atoms.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "flip_recovery",
+   "title": "Flip recovery: settling after a one-party nudge, joined to committed Φ",
+   "finding": "Hypotheses pushed in `ac0bf6f3` before computation. Φ values are the committed ones from",
+   "path": "org_frontier/studies/flip_recovery",
+   "reproduce": [
+    "python org_frontier/studies/flip_recovery/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -9851,12 +9961,78 @@
   },
   {
    "kind": "study",
+   "id": "forcing_match",
+   "title": "Forcing match: is a gated relayer bound exactly when the gate forces the value that settles the platform?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/forcing_match",
+   "reproduce": [
+    "python org_frontier/studies/forcing_match/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "formal_informal_cut",
    "title": "Formal vs informal cut (agenda #46)",
    "finding": "map onto dyadic/triadic. Formal spans both (commit gate vs",
    "path": "org_frontier/studies/formal_informal_cut",
    "reproduce": [
     "python org_frontier/studies/formal_informal_cut/analyze_cut.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "four_party_ties",
+   "title": "Four identical parties: PyPhi's tie-break matters more as the group grows",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), max over reachable states, threshold 1e-9. Hypotheses pushed in",
+   "path": "org_frontier/studies/four_party_ties",
+   "reproduce": [
+    "python org_frontier/studies/four_party_ties/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "gate_census",
+   "title": "Gate census: all 16 two-input rules for a switch-gated relayer under AND, OR and XOR platforms",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/gate_census",
+   "reproduce": [
+    "python org_frontier/studies/gate_census/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "gate_census_r1",
+   "title": "Gate census, switch driven by R1",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/gate_census_r1",
+   "reproduce": [
+    "python org_frontier/studies/gate_census_r1/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "gate_match_test",
+   "title": "Gate match test: is a gated relayer bound exactly when its gate rule matches the platform rule?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/gate_match_test",
+   "reproduce": [
+    "python org_frontier/studies/gate_match_test/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "gate_source",
+   "title": "Gate source: does the switch rejoin the group if the group can reach it?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/gate_source",
+   "reproduce": [
+    "python org_frontier/studies/gate_source/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -9912,6 +10088,17 @@
    "path": "org_frontier/studies/graded_topo_carriers",
    "reproduce": [
     "python org_frontier/studies/graded_topo_carriers/analyze_graded_topo.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "high_noise_tie_onset",
+   "title": "High-noise tie onset: where OR3 and ANY4 switch from one top group to a tie",
+   "finding": "Hypotheses were committed (c68fdb4a) before computing. Values seen beforehand: the η = 0.3 and 0.4 results",
+   "path": "org_frontier/studies/high_noise_tie_onset",
+   "reproduce": [
+    "python org_frontier/studies/high_noise_tie_onset/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -9994,6 +10181,17 @@
   },
   {
    "kind": "study",
+   "id": "iit4_settings_robustness",
+   "title": "IIT 4.0 settings robustness: does the dyad/triad verdict depend on PyPhi's partition settings?",
+   "finding": "Six of seven IIT 4.0 settings in the pinned PyPhi give the identical triadic set (24 of 256 strict-mediation",
+   "path": "org_frontier/studies/iit4_settings_robustness",
+   "reproduce": [
+    "python org_frontier/studies/iit4_settings_robustness/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "imputer_exact_phi",
    "title": "Imputer under exact Φ (agenda V4 #4)",
    "finding": "MI-only, and it is not a blanket transfer: party-echo completes Φ",
@@ -10044,6 +10242,17 @@
    "path": "org_frontier/studies/indeg_002122_n6",
    "reproduce": [
     "python org_frontier/studies/indeg_002122_n6/analyze_indeg.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "indirect_loops",
+   "title": "Indirect loops: when the people a platform answers pass it on to the people it reads",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/indirect_loops",
+   "reproduce": [
+    "python org_frontier/studies/indirect_loops/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -10115,12 +10324,34 @@
   },
   {
    "kind": "study",
+   "id": "lazy_update",
+   "title": "Lazy update: nodes that sometimes keep their last state, on quorum hubs",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/lazy_update",
+   "reproduce": [
+    "python org_frontier/studies/lazy_update/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "local_triad_necklace",
    "title": "Local-triad necklace (V3 #4)",
    "finding": "triads on a cycle does **not** invent a new Φ law. The closed AND necklace",
    "path": "org_frontier/studies/local_triad_necklace",
    "reproduce": [
     "python org_frontier/studies/local_triad_necklace/analyze_necklace.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "lockstep_symmetry",
+   "title": "Lockstep or symmetry: why does the one-sided veto factor?",
+   "finding": "One rule, fixed before the run, sorts all 256 strict-mediation forms with zero misses: a form binds iff",
+   "path": "org_frontier/studies/lockstep_symmetry",
+   "reproduce": [
+    "python org_frontier/studies/lockstep_symmetry/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -10143,6 +10374,17 @@
    "path": "org_frontier/studies/m3_subset_fidelity_v4",
    "reproduce": [
     "python org_frontier/studies/m3_subset_fidelity_v4/analyze_fidelity.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "majority_factor_split",
+   "title": "A candidate split for the party-noise factor, tested and refuted",
+   "finding": "Both pre-registered hypotheses were refuted. The candidate split failed because (1,1,1,3) quota 3 follows the factor exactly, even though one party can win the vote alone: Φ(0.2, 0) = 0.012971794290726172, Φ(0.2, 0.3) = 0.012548460149892644, Φ(0.2, 0.4) = 0.01083211688194662",
+   "path": "org_frontier/studies/majority_factor_split",
+   "reproduce": [
+    "python org_frontier/studies/majority_factor_split/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -10214,6 +10456,17 @@
   },
   {
    "kind": "study",
+   "id": "memory_rules",
+   "title": "Memory rules: deterministic self-loops on quorum hubs",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/memory_rules",
+   "reproduce": [
+    "python org_frontier/studies/memory_rules/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "mincut_mip",
    "title": "Min-cut MIP (#49)",
    "finding": "(Q49 H5). For the #47 families a *normalized GID cut-weight* theorem",
@@ -10247,6 +10500,17 @@
   },
   {
    "kind": "study",
+   "id": "mixed_reads",
+   "title": "Mixed reads at three parties",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), max over reachable states, threshold 1e-9. Hypotheses pushed in",
+   "path": "org_frontier/studies/mixed_reads",
+   "reproduce": [
+    "python org_frontier/studies/mixed_reads/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "multivalued_iit4_port",
    "title": "pyphi_iit4_mv M1 overlay",
    "finding": "`third_party/pyphi_iit4_mv`. Binary regression matches stock pin Φ=2",
@@ -10258,12 +10522,78 @@
   },
   {
    "kind": "study",
+   "id": "negative_phi_source",
+   "title": "Trace of one published negative φ to PyPhi's signed GID formula",
+   "finding": "The published negative φ of −0.13178321094580336 is the effect-side value of PyPhi's signed GID formula, selectivity × log2(forward / partitioned) = 0.6569999999999999 × log2(0.6569999999999999 / 0.7549999999999999) = −0.13178321094580336, with no floor. Cause-side φ is 0.33979877901916944. The minus is not from a later combination of distinctions or relations",
+   "path": "org_frontier/studies/negative_phi_source",
+   "reproduce": [
+    "python org_frontier/studies/negative_phi_source/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "negative_phi_survey",
+   "title": "Negative φ survey: does PyPhi's negative output change any noisy-quorum result?",
+   "finding": "Hypotheses were committed (3e34ab73) before computing. Values seen beforehand: the OR3/ANY4 all-zero",
+   "path": "org_frontier/studies/negative_phi_survey",
+   "reproduce": [
+    "python org_frontier/studies/negative_phi_survey/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "noise_composed_carriers",
    "title": "Noise × composed carriers (V3 #12)",
    "finding": "share **p\\*=0.5** on a composed **AND necklace** and a **shared-mediator",
    "path": "org_frontier/studies/noise_composed_carriers",
    "reproduce": [
     "python org_frontier/studies/noise_composed_carriers/analyze_noise_composed.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "noise_placement",
+   "title": "Noise placement: party-side vs mediator-side errors on quorum hubs",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/noise_placement",
+   "reproduce": [
+    "python org_frontier/studies/noise_placement/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "noise_swap_symmetry",
+   "title": "Noise swap symmetry: OR3 cannot tell input noise from party noise; MAJ3 can",
+   "finding": "Hypotheses were committed (3db908d6) before computing. Values seen beforehand: OR3/AND3 at η ∈ {0.05, 0.1,",
+   "path": "org_frontier/studies/noise_swap_symmetry",
+   "reproduce": [
+    "python org_frontier/studies/noise_swap_symmetry/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "odd_input",
+   "title": "Odd input: does P or G at the gate's odd input pattern decide whether the group binds?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/odd_input",
+   "reproduce": [
+    "python org_frontier/studies/odd_input/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "off_platform_deals",
+   "title": "Off-platform deals: buyer–seller links that bypass a two-sided platform",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/off_platform_deals",
+   "reproduce": [
+    "python org_frontier/studies/off_platform_deals/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -10308,6 +10638,17 @@
    "path": "org_frontier/studies/omit_motif_phi5",
    "reproduce": [
     "python org_frontier/studies/omit_motif_phi5/analyze_motifs.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "or_gate_source",
+   "title": "OR-gate source: does the switch's driver matter for an OR-gated relayer?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/or_gate_source",
+   "reproduce": [
+    "python org_frontier/studies/or_gate_source/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -10379,6 +10720,28 @@
   },
   {
    "kind": "study",
+   "id": "partial_sync_quorum",
+   "title": "Partial synchrony on quorum hubs",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/partial_sync_quorum",
+   "reproduce": [
+    "python org_frontier/studies/partial_sync_quorum/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "party_noise_factor",
+   "title": "The post-hoc party-noise factor, tested on new cases and refuted",
+   "finding": "Both pre-registered hypotheses were refuted. The factor missed 10 of 20 cases; it held exactly for",
+   "path": "org_frontier/studies/party_noise_factor",
+   "reproduce": [
+    "python org_frontier/studies/party_noise_factor/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "party_vs_mediator_noise",
    "title": "Party vs mediator noise (agenda #7)",
    "finding": "mediator-column flip-noise collapse the triad at the **same** p*=0.5",
@@ -10412,12 +10775,45 @@
   },
   {
    "kind": "study",
+   "id": "placement_equality",
+   "title": "Placement equality: party-side vs mediator-side noise on seven quorum rules",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), full group, every reachable state. Hypotheses pushed in",
+   "path": "org_frontier/studies/placement_equality",
+   "reproduce": [
+    "python org_frontier/studies/placement_equality/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "quorum_correlated_noise",
+   "title": "Correlated input noise on quorum hubs",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`) on three-party quorum hubs under three input-noise models with",
+   "path": "org_frontier/studies/quorum_correlated_noise",
+   "reproduce": [
+    "python org_frontier/studies/quorum_correlated_noise/correlated.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "quorum_noise_sweep",
    "title": "Quorum input-noise sweep (O01)",
    "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`) on seven counting quorums at ten input-observation error",
    "path": "org_frontier/studies/quorum_noise_sweep",
    "reproduce": [
     "python org_frontier/studies/quorum_noise_sweep/sweep.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "quorum_ratio_law",
+   "title": "Quorum ratio law: strongest subset vs whole on noisy counting quorums",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464",
+   "path": "org_frontier/studies/quorum_ratio_law",
+   "reproduce": [
+    "python org_frontier/studies/quorum_ratio_law/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -10441,6 +10837,28 @@
    "path": "org_frontier/studies/regulator_capture",
    "reproduce": [
     "python org_frontier/studies/regulator_capture/analyze_capture.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "relay_flips",
+   "title": "Relay flips: relayers that flip, gate, or sit on unequal arms",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/relay_flips",
+   "reproduce": [
+    "python org_frontier/studies/relay_flips/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "relay_length",
+   "title": "Relay length: how long can the loop through other people be?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/relay_length",
+   "reproduce": [
+    "python org_frontier/studies/relay_length/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -10545,6 +10963,17 @@
   },
   {
    "kind": "study",
+   "id": "shared_share_ties",
+   "title": "Shared-error share sweep and tie enumeration",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`). Backlog items 2 and 4 of `quorum_correlated_noise/`",
+   "path": "org_frontier/studies/shared_share_ties",
+   "reproduce": [
+    "python org_frontier/studies/shared_share_ties/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "small_world_vs_hierarchy",
    "title": "Small-world rewire vs hierarchy (agenda #17)",
    "finding": "ring's size-independent Φ = 4 cap with hub growth (Φ = n−1). Interior morphs",
@@ -10589,12 +11018,78 @@
   },
   {
    "kind": "study",
+   "id": "swap_symmetry_panel",
+   "title": "Swap symmetry panel: every extreme quorum ignores where the noise sits; interior quorums don't",
+   "finding": "Hypotheses were committed (622fe26a) before computing. Values seen beforehand: OR3 and MAJ3 on this grid",
+   "path": "org_frontier/studies/swap_symmetry_panel",
+   "reproduce": [
+    "python org_frontier/studies/swap_symmetry_panel/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "switch_delay",
+   "title": "Switch delay",
+   "finding": "Hypotheses fixed in [hypotheses.md](org_frontier/studies/switch_delay/hypotheses.md) before computing. All numbers from",
+   "path": "org_frontier/studies/switch_delay",
+   "reproduce": [
+    "python org_frontier/studies/switch_delay/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "switch_loop_member",
+   "title": "Switch loop member",
+   "finding": "Hypotheses fixed in [hypotheses.md](org_frontier/studies/switch_loop_member/hypotheses.md) before computing. All numbers from",
+   "path": "org_frontier/studies/switch_loop_member",
+   "reproduce": [
+    "python org_frontier/studies/switch_loop_member/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "template_coverage_census",
    "title": "Template coverage census — fifth template from the triad residual",
    "finding": "outside the four catalog templates (relay / conjunctive / additive / free). They are exactly the",
    "path": "org_frontier/studies/template_coverage_census",
    "reproduce": [
     "python org_frontier/studies/template_coverage_census/census.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "ternary_lift_panel",
+   "title": "Ternary lift panel: the same triad rule on yes/no and on three-valued nodes",
+   "finding": "Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`",
+   "path": "org_frontier/studies/ternary_lift_panel",
+   "reproduce": [
+    "python org_frontier/studies/ternary_lift_panel/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "ternary_majority_noise",
+   "title": "Ternary majority under noise: a three-valued majority vote vs the yes/no one",
+   "finding": "Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`",
+   "path": "org_frontier/studies/ternary_majority_noise",
+   "reproduce": [
+    "python org_frontier/studies/ternary_majority_noise/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "ternary_ordinal_noise",
+   "title": "Ordinal noise: three-valued readings that slip only to the neighbouring value",
+   "finding": "Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`",
+   "path": "org_frontier/studies/ternary_ordinal_noise",
+   "reproduce": [
+    "python org_frontier/studies/ternary_ordinal_noise/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -10633,6 +11128,28 @@
   },
   {
    "kind": "study",
+   "id": "tie_audit",
+   "title": "Tie audit: do lab verdicts depend on how PyPhi breaks state ties?",
+   "finding": "Ties between equally maximal cause or effect states are everywhere (3,984 of 4,096 three-node forms have",
+   "path": "org_frontier/studies/tie_audit",
+   "reproduce": [
+    "python org_frontier/studies/tie_audit/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "tie_set_membership",
+   "title": "Tie-set membership: the quorum_noise_sweep panel re-scored on ties",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464",
+   "path": "org_frontier/studies/tie_set_membership",
+   "reproduce": [
+    "python org_frontier/studies/tie_set_membership/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "timescale_separation",
    "title": "Timescale separation (agenda #9)",
    "finding": "fast parties) factors the triad at **k\\*=2** on both the conjunctive",
@@ -10655,12 +11172,45 @@
   },
   {
    "kind": "study",
+   "id": "two_sided_platform",
+   "title": "Two-sided platform: two buyers and two sellers around one mediator",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/two_sided_platform",
+   "reproduce": [
+    "python org_frontier/studies/two_sided_platform/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "two_triad_shared_member",
    "title": "Two-triad shared-member merger (agenda #16)",
    "finding": "mediator** merges two conjunctive triads into one major complex spanning both",
    "path": "org_frontier/studies/two_triad_shared_member",
    "reproduce": [
     "python org_frontier/studies/two_triad_shared_member/analyze_shared_member.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "unanimous_repertoires",
+   "title": "Cause and effect at the unanimous state, under both placements",
+   "finding": "H1 and H3 were refuted; H2 was supported. At r = 0.2 the two placements do not have the same cause-and-effect analysis: for OR3 at 0000, cause φ is 1.041518 under mediator-side noise and 2.002920 under party-side noise, while effect φ is 1.041518446253012 either way. The already-known match of system φ is a match of the two effect values",
+   "path": "org_frontier/studies/unanimous_repertoires",
+   "reproduce": [
+    "python org_frontier/studies/unanimous_repertoires/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "update_order_quorum",
+   "title": "Update order on quorum hubs",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/update_order_quorum",
+   "reproduce": [
+    "python org_frontier/studies/update_order_quorum/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -10699,6 +11249,39 @@
   },
   {
    "kind": "study",
+   "id": "weighted_equivalence",
+   "title": "Weighted equivalence: when does a weighted quorum act like a counting quorum under noise?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464",
+   "path": "org_frontier/studies/weighted_equivalence",
+   "reproduce": [
+    "python org_frontier/studies/weighted_equivalence/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "weighted_ratio_law",
+   "title": "Weighted ratio law: does the counting law survive one heavy voter?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464",
+   "path": "org_frontier/studies/weighted_ratio_law",
+   "reproduce": [
+    "python org_frontier/studies/weighted_ratio_law/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "weighted_swap_symmetry",
+   "title": "Weighted swap symmetry: rules with a heavy voter are lopsided like the interior quorums",
+   "finding": "Hypotheses were committed (2c3b153e) before computing. Values seen beforehand: (1,1,1,2) at ε = 0 for",
+   "path": "org_frontier/studies/weighted_swap_symmetry",
+   "reproduce": [
+    "python org_frontier/studies/weighted_swap_symmetry/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "who_broke_prod",
    "title": "WHO BROKE PROD? — incident attribution under coordination topologies",
    "finding": "is the largest single lever on attribution accuracy, and chain relaying is the largest topology cost. A",
@@ -10716,6 +11299,17 @@
    "path": "org_frontier/studies/who_broke_prod_phi",
    "reproduce": [
     "python org_frontier/studies/who_broke_prod_phi/analyze_who_broke_prod_phi.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "who_hears_back",
+   "title": "Who hears back: a platform that reads some users and answers some users",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/who_hears_back",
+   "reproduce": [
+    "python org_frontier/studies/who_hears_back/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -10828,7 +11422,7 @@
    "question": "Does the extremes-only quorum law survive weighted or noisy quorums?",
    "status": "open",
    "needs": "compute",
-   "where": "org_frontier/probes/weighted_quorum/input_noise/FINDINGS.md: input noise refutes interior-zero Φ; org_frontier/studies/quorum_noise_sweep/FINDINGS.md: no noise threshold, and counting-quorum interiors never bind the full group at η 0.01–0.45; weighted rules and correlated errors remain open",
+   "where": "org_frontier/probes/weighted_quorum/input_noise/FINDINGS.md: input noise refutes interior-zero Φ; org_frontier/studies/quorum_noise_sweep/FINDINGS.md: no noise threshold, and counting-quorum interiors never bind the full group at η 0.01–0.45; org_frontier/studies/quorum_correlated_noise/FINDINGS.md: fully shared errors keep majority Φ at 0, half-shared errors make it positive, membership half holds; weighted rules remain open",
    "first_command": "python -m org_frontier.probes.probe_quorum_input_noise",
    "path": "OPEN_QUESTIONS.md"
   },
@@ -10856,10 +11450,10 @@
    "kind": "open",
    "id": "O04",
    "question": "Does the two-condition membership account hold when a party has more than two states?",
-   "status": "open",
+   "status": "answered",
    "needs": "compute",
-   "where": "org_frontier/designs/WAVE10_PARKED_DESIGNS.md #5; the multivalued overlay in third_party/pyphi_iit4_mv/ now supplies the tooling",
-   "first_command": "python third_party/pyphi_iit4_mv/smoke_m2.py",
+   "where": "org_frontier/studies/ternary_pivotality/FINDINGS.md (TWO_CONDITION_STATE_DEPENDENT: at the all-engaged ternary state (2,2,2) non-bidirectional parties drop out and the faithful triad keeps {W,S,C}; at the mid-grade state (1,1,1) the faithful core shrinks); org_frontier/studies/mixed_radix_mediator/FINDINGS.md (a ternary mediator over binary parties moves Φ, not membership); tooling third_party/pyphi_iit4_mv/",
+   "first_command": "python org_frontier/studies/ternary_pivotality/analyze_pivot.py",
    "path": "OPEN_QUESTIONS.md"
   },
   {

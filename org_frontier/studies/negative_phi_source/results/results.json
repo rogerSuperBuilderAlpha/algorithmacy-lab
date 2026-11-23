@@ -1,0 +1,130 @@
+{
+ "pyphi_version": "1.2.1.dev1470+gb78d0e342",
+ "phi_eps": 1e-09,
+ "published": -0.13178321094580336,
+ "hypotheses": {
+  "H1": "SUPPORTED",
+  "H2": "SUPPORTED",
+  "H3": "SUPPORTED"
+ },
+ "rows": [
+  {
+   "subset": "SP1",
+   "indices": [
+    0,
+    1
+   ],
+   "state": "0000",
+   "eta": 0.3,
+   "system_phi": -0.13178321094580336,
+   "mip": "2 parts: {S,P1}\n[[0 0]\n [1 0]]",
+   "cause": {
+    "phi": 0.33979877901916944,
+    "direction": "CAUSE",
+    "purview": [
+     0,
+     1
+    ],
+    "partition": "2 parts: {S,P1}\n[[0 0]\n [1 0]]",
+    "selectivity": 0.7,
+    "informativeness": 0.4854268271702421,
+    "gid_product": 0.33979877901916944,
+    "forward_at_state": 0.23548000000000024,
+    "partitioned_at_state": 0.16820000000000013,
+    "specified_state": [
+     0,
+     0
+    ],
+    "repertoire": [
+     0.23548000000000024
+    ],
+    "partitioned_repertoire": [
+     0.16820000000000013
+    ]
+   },
+   "effect": {
+    "phi": -0.13178321094580336,
+    "direction": "EFFECT",
+    "purview": [
+     0,
+     1
+    ],
+    "partition": "2 parts: {S,P1}\n[[0 0]\n [1 0]]",
+    "selectivity": 0.6569999999999999,
+    "informativeness": -0.20058327389011169,
+    "gid_product": -0.13178321094580336,
+    "forward_at_state": 0.6569999999999999,
+    "partitioned_at_state": 0.7549999999999999,
+    "specified_state": [
+     1,
+     0
+    ],
+    "repertoire": [
+     0.6569999999999999
+    ],
+    "partitioned_repertoire": [
+     0.7549999999999999
+    ]
+   }
+  },
+  {
+   "subset": "SP2",
+   "indices": [
+    0,
+    2
+   ],
+   "state": "0000",
+   "eta": 0.3,
+   "system_phi": -0.13178321094580336,
+   "mip": "2 parts: {S,P2}\n[[0 0]\n [1 0]]",
+   "cause": {
+    "phi": 0.3397987790191687,
+    "direction": "CAUSE",
+    "purview": [
+     0,
+     2
+    ],
+    "partition": "2 parts: {S,P2}\n[[0 0]\n [1 0]]",
+    "selectivity": 0.6999999999999997,
+    "informativeness": 0.4854268271702412,
+    "gid_product": 0.3397987790191687,
+    "forward_at_state": 0.23548000000000024,
+    "partitioned_at_state": 0.16820000000000024,
+    "specified_state": [
+     0,
+     0
+    ],
+    "repertoire": [
+     0.23548000000000024
+    ],
+    "partitioned_repertoire": [
+     0.16820000000000024
+    ]
+   },
+   "effect": {
+    "phi": -0.13178321094580336,
+    "direction": "EFFECT",
+    "purview": [
+     0,
+     2
+    ],
+    "partition": "2 parts: {S,P2}\n[[0 0]\n [1 0]]",
+    "selectivity": 0.6569999999999999,
+    "informativeness": -0.20058327389011169,
+    "gid_product": -0.13178321094580336,
+    "forward_at_state": 0.6569999999999999,
+    "partitioned_at_state": 0.7549999999999999,
+    "specified_state": [
+     1,
+     0
+    ],
+    "repertoire": [
+     0.6569999999999999
+    ],
+    "partitioned_repertoire": [
+     0.7549999999999999
+    ]
+   }
+  }
+ ]
+}

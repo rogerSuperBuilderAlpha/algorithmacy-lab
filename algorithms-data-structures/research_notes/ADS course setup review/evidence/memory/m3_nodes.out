@@ -1,0 +1,12 @@
+LN getsizeof obj 48 __dict__ 296 (+int 1000: 28 if not cached)
+LNs getsizeof obj 48 __dict__ 0 (+int 1000: 28 if not cached)
+TN getsizeof obj 48 __dict__ 296 (+int 1000: 28 if not cached)
+TNs getsizeof obj 56 __dict__ 0 (+int 1000: 28 if not cached)
+LN tracemalloc per node incl. list slot 96.0 -> excl list slot 88.0 (val int already allocated, shared)
+LNs tracemalloc per node incl. list slot 56.0 -> excl list slot 48.0 (val int already allocated, shared)
+TN tracemalloc per node incl. list slot 104.0 -> excl list slot 96.0 (val int already allocated, shared)
+TNs tracemalloc per node incl. list slot 64.0 -> excl list slot 56.0 (val int already allocated, shared)
+LN chain, per node incl own int object 120.0
+LNs chain, per node incl own int object 80.0
+TN chain, per node incl own int object 128.0
+TNs chain, per node incl own int object 88.0
