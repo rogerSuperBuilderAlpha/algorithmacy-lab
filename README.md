@@ -347,7 +347,6 @@ Multi-experiment batteries on one theme.
 - **[Dual-mediator template census (V3 #1)](org_frontier/studies/dual_mediator_template_census/README.md)** — cascade, parallel mediators, mediator-of-mediators) does **not** force a
 - **[Dual principal conflict (#29)](org_frontier/studies/dual_principal_conflict/README.md)** — is set by the **conflict encoding** — not a single universal winner
 - **[Dummy party under noise: a never-pivotal party zeroes whole Φ in OR3 and AND3](org_frontier/studies/dummy_party_noise/README.md)** — Hypotheses were committed (d92b78c0) before computing. Values seen beforehand: (1,2,2,2) quota 2 at ε = 0
-- **[Echo switch](org_frontier/studies/echo_switch/README.md)** — Hypotheses fixed in [hypotheses.md](org_frontier/studies/echo_switch/hypotheses.md) before computing. All numbers from
 - **[Extractive ejection order (#36)](org_frontier/studies/ejection_order/README.md)** — (role symmetry #55). There is **no transferable fine order** W≺C≺R
 - **[Encoding ladder — gate family robustness](org_frontier/studies/encoding_ladder_gates/README.md)** — are **not** gate-robust. Three regimes at n=5:
 - **[n=5 encoding ladder — HMC / literacy → algorithmacy](org_frontier/studies/encoding_ladder_n5/README.md)** — complex **2 → 3 → 4** while wholes stay dyadic. Core Φ can reach 3 on the

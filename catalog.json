@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 173,
+  "study": 172,
   "foundations": 9,
   "open": 15
  },
@@ -9690,15 +9690,6 @@
     "python org_frontier/studies/dummy_party_noise/run.py --quick"
    ],
    "runtime": "fast"
-  },
-  {
-   "kind": "study",
-   "id": "echo_switch",
-   "title": "Echo switch",
-   "finding": "Hypotheses fixed in [hypotheses.md](org_frontier/studies/echo_switch/hypotheses.md) before computing. All numbers from",
-   "path": "org_frontier/studies/echo_switch",
-   "reproduce": [],
-   "runtime": "unregistered"
   },
   {
    "kind": "study",
