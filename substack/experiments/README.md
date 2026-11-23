@@ -8,6 +8,7 @@ every number in it.
 | 2026-11-23 | [One heavy voter breaks the counting rule](2026-11-23-one-heavy-voter.md) | [`org_frontier/studies/weighted_ratio_law/`](../../org_frontier/studies/weighted_ratio_law/) |
 | 2026-11-23 | [A counting rule predicts how weak the whole is next to its strongest part](2026-11-23-a-counting-law.md) | [`org_frontier/studies/quorum_ratio_law/`](../../org_frontier/studies/quorum_ratio_law/) |
 | 2026-11-23 | [A platform's loop can run through other people, and then it binds the whole group](2026-11-23-loops-through-people.md) | [`org_frontier/studies/indirect_loops/`](../../org_frontier/studies/indirect_loops/) |
+| 2026-11-23 | [Two, three, four answers: the same vote rules, and a number that grows by three](2026-11-23-four-answers.md) | [`org_frontier/studies/alphabet_ladder_hub/`](../../org_frontier/studies/alphabet_ladder_hub/) |
 | 2026-11-23 | [A coordinator holds three people together only if each could swing a unanimous moment](2026-11-23-each-could-swing-it.md) | [`org_frontier/studies/consensus_pivotality/`](../../org_frontier/studies/consensus_pivotality/) |
 | 2026-11-23 | [A platform binds only the people it both listens to and answers](2026-11-23-who-hears-back.md) | [`org_frontier/studies/who_hears_back/`](../../org_frontier/studies/who_hears_back/) |
 | 2026-11-23 | [Why a veto splits apart: it's about fairness between the parties, not about them moving together](2026-11-23-veto-and-symmetry.md) | [`org_frontier/studies/lockstep_symmetry/`](../../org_frontier/studies/lockstep_symmetry/) |
