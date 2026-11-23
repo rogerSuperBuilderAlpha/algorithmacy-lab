@@ -319,6 +319,7 @@ Multi-experiment batteries on one theme.
 - **[Agent tool core (#38)](org_frontier/studies/agent_tool_core/README.md)** — same way an inference model does (#4, #9): unused / read-only stays
 - **[AI fidelity displace (#40)](org_frontier/studies/ai_fidelity_displace/README.md)** — the counterpart’s policy displaces C at **full** fidelity only
 - **[Algorithmic transparency (#34)](org_frontier/studies/algo_transparency/README.md)** — not channel transparency (#24). **Publish-unread** is theater: F stays
+- **[Asymmetric sides: which side does a two-sided platform bind?](org_frontier/studies/asymmetric_sides/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Commit-noise phase transition (agenda #6)](org_frontier/studies/commit_noise_phase/README.md)** — down as a monotone glide on both the conjunctive hub (Φ 2.0→0) and the
 - **[Commit→response delay (agenda #10)](org_frontier/studies/commit_response_delay/README.md)** — pipeline) keeps the conjunctive triad **triadic** at every d=0…3 —
 - **[Composed-topology landmarks at n≥6 (agenda V4 #10)](org_frontier/studies/composed_topo_landmarks_n6/README.md)** — families remain **discrete** at n≥6 under a denser random-AND draw: all
