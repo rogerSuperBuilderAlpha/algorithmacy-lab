@@ -10093,6 +10093,17 @@
   },
   {
    "kind": "study",
+   "id": "indirect_loops",
+   "title": "Indirect loops: when the people a platform answers pass it on to the people it reads",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/indirect_loops",
+   "reproduce": [
+    "python org_frontier/studies/indirect_loops/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "interior_atoms_n78",
    "title": "Interior atoms at n=7–8 (V3 #9)",
    "finding": "{6, 8, 9, 12}, while also recalling prior atoms 6 and 12. Discrete atoms",
