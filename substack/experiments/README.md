@@ -5,6 +5,9 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [Who flips the switch decides whether the group holds together](2026-11-23-gate-source.md) | [`org_frontier/studies/gate_source/`](../../org_frontier/studies/gate_source/) |
+| 2026-11-23 | [Nobody was dropped: the shrinking groups were ties](2026-11-23-ties-not-cores.md) | [`org_frontier/studies/tie_set_membership/`](../../org_frontier/studies/tie_set_membership/) |
+| 2026-11-23 | [A go-between who reverses the message changes nothing; one with an outside switch splits the group](2026-11-23-relay-flips.md) | [`org_frontier/studies/relay_flips/`](../../org_frontier/studies/relay_flips/) |
 | 2026-11-23 | [The party nobody needs, and why vote weights don't matter](2026-11-23-the-party-nobody-needs.md) | [`org_frontier/studies/weighted_equivalence/`](../../org_frontier/studies/weighted_equivalence/) |
 | 2026-11-23 | [A group holds together only if the coordinator moves first, and not alone](2026-11-23-who-moves-first.md) | [`org_frontier/studies/partial_sync_quorum/`](../../org_frontier/studies/partial_sync_quorum/) |
 | 2026-11-23 | [Put a messenger between the coordinator and the people, and the group binds a third as tightly](2026-11-23-the-relay.md) | [`org_frontier/studies/delay_quorum/`](../../org_frontier/studies/delay_quorum/) |
