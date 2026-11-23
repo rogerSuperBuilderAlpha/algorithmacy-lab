@@ -9383,6 +9383,17 @@
   },
   {
    "kind": "study",
+   "id": "alphabet_ladder_hub",
+   "title": "Alphabet ladder: two, three and four possible answers on the same vote hub",
+   "finding": "Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`",
+   "path": "org_frontier/studies/alphabet_ladder_hub",
+   "reproduce": [
+    "python org_frontier/studies/alphabet_ladder_hub/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "asymmetric_sides",
    "title": "Asymmetric sides: which side does a two-sided platform bind?",
    "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
