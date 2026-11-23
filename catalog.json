@@ -10126,6 +10126,17 @@
   },
   {
    "kind": "study",
+   "id": "lazy_update",
+   "title": "Lazy update: nodes that sometimes keep their last state, on quorum hubs",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/lazy_update",
+   "reproduce": [
+    "python org_frontier/studies/lazy_update/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "local_triad_necklace",
    "title": "Local-triad necklace (V3 #4)",
    "finding": "triads on a cycle does **not** invent a new Φ law. The closed AND necklace",
