@@ -10097,8 +10097,10 @@
    "title": "Indirect loops: when the people a platform answers pass it on to the people it reads",
    "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
    "path": "org_frontier/studies/indirect_loops",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/indirect_loops/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
