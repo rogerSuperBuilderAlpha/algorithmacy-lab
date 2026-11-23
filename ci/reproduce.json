@@ -6187,6 +6187,16 @@
       "source": "org_frontier/studies/switch_delay/FINDINGS.md"
     },
     {
+      "name": "switch-loop-member",
+      "cmd": "python org_frontier/studies/switch_loop_member/run.py --quick",
+      "expect": [
+        "controls (AND gate, AND platform, G from R2 or C1 = 2.0): PASS",
+        "from_C1:XOR_g08  n=5 states=12 whole=0.500000 top=2.000000 top_states=4 full_bound=N pooled_ties=C1G"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/switch_loop_member/FINDINGS.md"
+    },
+    {
       "name": "regulator-capture",
       "cmd": "python org_frontier/studies/regulator_capture/analyze_capture.py",
       "expect": [
