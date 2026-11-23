@@ -6,3 +6,5 @@
 3. **Derive the unanimous-state equality** from `placement_equality` (OR3 cause/effect repertoires at 0000).
 4. **O04**: a ternary majority under input noise on the multivalued overlay.
 5. **Asynchronous update** (needs a non-conditionally-independent TPM; check the instrument supports it).
+
+None of these had been started when PR #919 was opened.
