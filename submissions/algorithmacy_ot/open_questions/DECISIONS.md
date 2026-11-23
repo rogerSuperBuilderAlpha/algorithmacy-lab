@@ -232,3 +232,7 @@ racker2024 and suddaby2024 (1 each).
   names the recent questions algorithmacy addresses; S13d a hostile OT critic (Opus) on the mapping;
   S13e Fable rules. Status labels: prevailing (≥3 pieces in 2025–26), persistent (both periods), fading
   (none since 2024), new (2025–26 only).
+- **S13b (Fable):** 12 stacks; counts recomputed by `tools/stack_counts.py` and matched. Time/history ruled a
+  cross-cutting thread, not a stack (flagged as the ruling most likely to be reversed). Blindness: Fable
+  opened `DECISIONS.md` and saw the S13 sentence on fit by year; it reports that it did not use it. The lead
+  accepts the map; the sentence names no stack and no answer.
