@@ -7731,6 +7731,16 @@
       ],
       "timeout": 120,
       "source": "org_frontier/studies/tie_set_membership/FINDINGS.md"
+    },
+    {
+      "name": "high-noise-tie-onset",
+      "cmd": "python org_frontier/studies/high_noise_tie_onset/run.py --quick",
+      "expect": [
+        "OR3  e=0.35 whole=0.311846 top=0.311846 n_ties=1 top_states=0000 ties=SP1P2P3",
+        "OR3  e=0.36 whole=0.026429 top=0.026429 n_ties=7 top_states=0111,1111 ties=7 subsets"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/high_noise_tie_onset/FINDINGS.md"
     }
   ]
 }
