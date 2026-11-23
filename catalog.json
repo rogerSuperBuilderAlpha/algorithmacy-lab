@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 180,
+  "study": 181,
   "foundations": 9,
   "open": 15
  },
@@ -10506,6 +10506,17 @@
    "path": "org_frontier/studies/multivalued_iit4_port",
    "reproduce": [
     "python org_frontier/studies/multivalued_iit4_port/analyze_port.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "negative_phi_source",
+   "title": "Trace of one published negative φ to PyPhi's signed GID formula",
+   "finding": "The published negative φ of −0.13178321094580336 is the effect-side value of PyPhi's signed GID formula, selectivity × log2(forward / partitioned) = 0.6569999999999999 × log2(0.6569999999999999 / 0.7549999999999999) = −0.13178321094580336, with no floor. Cause-side φ is 0.33979877901916944. The minus is not from a later combination of distinctions or relations",
+   "path": "org_frontier/studies/negative_phi_source",
+   "reproduce": [
+    "python org_frontier/studies/negative_phi_source/run.py --quick"
    ],
    "runtime": "fast"
   },
