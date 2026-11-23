@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 156,
+  "study": 155,
   "foundations": 9,
   "open": 15
  },
@@ -10628,17 +10628,6 @@
    "path": "org_frontier/studies/regulator_capture",
    "reproduce": [
     "python org_frontier/studies/regulator_capture/analyze_capture.py"
-   ],
-   "runtime": "fast"
-  },
-  {
-   "kind": "study",
-   "id": "relay_flips",
-   "title": "Relay flips: relayers that flip, gate, or sit on unequal arms",
-   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
-   "path": "org_frontier/studies/relay_flips",
-   "reproduce": [
-    "python org_frontier/studies/relay_flips/run.py --quick"
    ],
    "runtime": "fast"
   },
