@@ -10522,6 +10522,17 @@
   },
   {
    "kind": "study",
+   "id": "negative_phi_source",
+   "title": "Trace of one published negative φ to PyPhi's signed GID formula",
+   "finding": "The published negative φ of −0.13178321094580336 is the effect-side value of PyPhi's signed GID formula, selectivity × log2(forward / partitioned) = 0.6569999999999999 × log2(0.6569999999999999 / 0.7549999999999999) = −0.13178321094580336, with no floor. Cause-side φ is 0.33979877901916944. The minus is not from a later combination of distinctions or relations",
+   "path": "org_frontier/studies/negative_phi_source",
+   "reproduce": [
+    "python org_frontier/studies/negative_phi_source/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "negative_phi_survey",
    "title": "Negative φ survey: does PyPhi's negative output change any noisy-quorum result?",
    "finding": "Hypotheses were committed (3e34ab73) before computing. Values seen beforehand: the OR3/ANY4 all-zero",

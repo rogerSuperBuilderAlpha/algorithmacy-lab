@@ -422,6 +422,7 @@ Multi-experiment batteries on one theme.
 - **[Mixed-radix mediator (agenda #3)](org_frontier/studies/mixed_radix_mediator/README.md)** — mediator (`S'=W+C`, alphabets `(2,3,2)`), the extra mid level goes into
 - **[Mixed reads at three parties](org_frontier/studies/mixed_reads/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), max over reachable states, threshold 1e-9. Hypotheses pushed in
 - **[pyphi_iit4_mv M1 overlay](org_frontier/studies/multivalued_iit4_port/README.md)** — `third_party/pyphi_iit4_mv`. Binary regression matches stock pin Φ=2
+- **[Trace of one published negative φ to PyPhi's signed GID formula](org_frontier/studies/negative_phi_source/README.md)** — The published negative φ of −0.13178321094580336 is the effect-side value of PyPhi's signed GID formula, selectivity × log2(forward / partitioned) =…
 - **[Negative φ survey: does PyPhi's negative output change any noisy-quorum result?](org_frontier/studies/negative_phi_survey/README.md)** — Hypotheses were committed (3e34ab73) before computing. Values seen beforehand: the OR3/ANY4 all-zero
 - **[Noise × composed carriers (V3 #12)](org_frontier/studies/noise_composed_carriers/README.md)** — share **p\*=0.5** on a composed **AND necklace** and a **shared-mediator
 - **[Noise placement: party-side vs mediator-side errors on quorum hubs](org_frontier/studies/noise_placement/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
