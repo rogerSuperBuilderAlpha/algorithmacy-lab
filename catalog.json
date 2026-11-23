@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 169,
+  "study": 170,
   "foundations": 9,
   "open": 15
  },
@@ -10927,6 +10927,15 @@
     "python org_frontier/studies/structure_aware_surrogate/analyze_surrogate.py"
    ],
    "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "swap_symmetry_panel",
+   "title": "Swap symmetry panel: every extreme quorum ignores where the noise sits; interior quorums don't",
+   "finding": "Hypotheses were committed (622fe26a) before computing. Values seen beforehand: OR3 and MAJ3 on this grid",
+   "path": "org_frontier/studies/swap_symmetry_panel",
+   "reproduce": [],
+   "runtime": "unregistered"
   },
   {
    "kind": "study",
