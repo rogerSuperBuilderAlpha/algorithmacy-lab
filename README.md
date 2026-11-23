@@ -362,6 +362,7 @@ Multi-experiment batteries on one theme.
 - **[Fielded W × Φ landmark (agenda V4 #6)](org_frontier/studies/fielded_w_landmark/README.md)** — still predicts HUB / RING4 / POOL (acc=1.000), but a **fielded rater-
 - **[Weighted and five-party quorums under noise, read as tie sets](org_frontier/studies/five_six_node_quorum_ties/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Backlog items
 - **[Fixed-k atoms 5/9 at n=5](org_frontier/studies/fixed_k_atoms_n5/README.md)** — omit-derangements at fixed_k=3 give full-core triadic Φ=9.0. Atom **Φ=5** is a
+- **[Flip recovery: settling after a one-party nudge, joined to committed Φ](org_frontier/studies/flip_recovery/README.md)** — Hypotheses pushed in `ac0bf6f3` before computation. Φ values are the committed ones from
 - **[FN-tail feature redesign](org_frontier/studies/fn_tail_feature_redesign/README.md)** — F28-motivated cheap fragility and algebraic table features to the Probe-125/131
 - **[Formal vs informal cut (agenda #46)](org_frontier/studies/formal_informal_cut/README.md)** — map onto dyadic/triadic. Formal spans both (commit gate vs
 - **[Genuine bistability (agenda #13)](org_frontier/studies/genuine_bistability/README.md)** — triadic and dyadic attractors — beyond #109's sticky-mediator activity
@@ -382,6 +383,7 @@ Multi-experiment batteries on one theme.
 - **[Role-target grain on indeg (0,0,1,1,1,3)](org_frontier/studies/indeg_001113_grain/README.md)** — ((2,),1) **mixes** Φ=6/12 until split by **z_targets**. t_targets is
 - **[Finer grain on MIX indeg (0,0,1,1,2,2)](org_frontier/studies/indeg_002122_grain/README.md)** — Within indeg **(0,0,1,1,2,2)**: **t_targets=(1,1) ⇒ Φ=12** (n_core=4);
 - **[Indeg (0,0,1,1,2,2) at n=6](org_frontier/studies/indeg_002122_n6/README.md)** — the closed (0,1,1,1,1,2) band — cycle-type classes are **not Φ-pure**
+- **[Indirect loops: when the people a platform answers pass it on to the people it reads](org_frontier/studies/indirect_loops/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Interior atoms at n=7–8 (V3 #9)](org_frontier/studies/interior_atoms_n78/README.md)** — {6, 8, 9, 12}, while also recalling prior atoms 6 and 12. Discrete atoms
 - **[Interior topology between ring and pool (agenda #19)](org_frontier/studies/interior_ring_pool/README.md)** — (Φ = 4) and the pool (Φ = n(n−1)) **exist**, but none in this designed census
 - **[Irreducibility catalog — necessary and contingent irreducible triads](org_frontier/studies/irreducibility_catalog/README.md)** — 54 entries classified by the bypass-counterfactual (q213): 41 real-world arrangements and 13
@@ -390,6 +392,7 @@ Multi-experiment batteries on one theme.
 - **[Ladder-gate Boolean property classifier](org_frontier/studies/ladder_gate_properties/README.md)** — (anchors + property probes), regime membership is predicted exactly by:
 - **[Lazy update: nodes that sometimes keep their last state, on quorum hubs](org_frontier/studies/lazy_update/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Local-triad necklace (V3 #4)](org_frontier/studies/local_triad_necklace/README.md)** — triads on a cycle does **not** invent a new Φ law. The closed AND necklace
+- **[Lockstep or symmetry: why does the one-sided veto factor?](org_frontier/studies/lockstep_symmetry/README.md)** — One rule, fixed before the run, sorts all 256 strict-mediation forms with zero misses: a form binds iff
 - **[Anti-correlated duty on logged structure (agenda V4 #7)](org_frontier/studies/logged_alt_duty_exact_phi/README.md)** — party admission recreates the exact-Φ joint-observation cliff on the
 - **[M3 subset-Φ fidelity vs V4 items 1–3 (agenda V4 item 12)](org_frontier/studies/m3_subset_fidelity_v4/README.md)** — Induced exact Φ already decides V4 items 1–3; overlay background-subset Φ moves the V4 item 1 subset-estimand key
 - **[Margin-cascade selective exact Φ](org_frontier/studies/margin_cascade_phi/README.md)** — out-of-fold uncertain forms — cuts FN-among-triads sharply at fixed exact-Φ budget
@@ -405,6 +408,7 @@ Multi-experiment batteries on one theme.
 - **[pyphi_iit4_mv M1 overlay](org_frontier/studies/multivalued_iit4_port/README.md)** — `third_party/pyphi_iit4_mv`. Binary regression matches stock pin Φ=2
 - **[Noise × composed carriers (V3 #12)](org_frontier/studies/noise_composed_carriers/README.md)** — share **p\*=0.5** on a composed **AND necklace** and a **shared-mediator
 - **[Noise placement: party-side vs mediator-side errors on quorum hubs](org_frontier/studies/noise_placement/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
+- **[Off-platform deals: buyer–seller links that bypass a two-sided platform](org_frontier/studies/off_platform_deals/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Omit cycle band grammar at n=8–9 (agenda V4 #8)](org_frontier/studies/omit_cycle_band_n89/README.md)** — that stabilized at n=7 cannot be re-adjudicated by exact IIT-4.0 core-Φ
 - **[Omit cycle-type morph at n=7 (V3 #8)](org_frontier/studies/omit_cycle_morph_n7/README.md)** — does **not** morph again. The n=5→n=6 singleton→band shift (V2 #42
 - **[Omit/derangement lift at n=6](org_frontier/studies/omit_lift_n6/README.md)** — fixed_k=4, **derangements split** into Φ=12 (cycle types 6, 4+2, 2+2+2) and
@@ -438,7 +442,9 @@ Multi-experiment batteries on one theme.
 - **[Spectral topology-invariant feature (agenda #21)](org_frontier/studies/spectral_invariant/README.md)** — (`P_spectral_gap`) is the best cross-family ranker on this panel
 - **[Structure-aware surrogate across topology (agenda #22)](org_frontier/studies/structure_aware_surrogate/README.md)** — panel with exact IIT-4.0 labels, leave-one-family-out detection AUC is
 - **[Template coverage census — fifth template from the triad residual](org_frontier/studies/template_coverage_census/README.md)** — outside the four catalog templates (relay / conjunctive / additive / free). They are exactly the
+- **[Ternary lift panel: the same triad rule on yes/no and on three-valued nodes](org_frontier/studies/ternary_lift_panel/README.md)** — Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`
 - **[Ternary majority under noise: a three-valued majority vote vs the yes/no one](org_frontier/studies/ternary_majority_noise/README.md)** — Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`
+- **[Ordinal noise: three-valued readings that slip only to the neighbouring value](org_frontier/studies/ternary_ordinal_noise/README.md)** — Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`
 - **[Ternary pivotality (#1)](org_frontier/studies/ternary_pivotality/README.md)** — control holds. Stock pin still rejects ternary SBS. Vendored overlay
 - **[Thompson verdict bridge (agenda #43)](org_frontier/studies/thompson_verdict_bridge/README.md)** — dyadic/triadic verdict loosely, not as a clean map. Canonical
 - **[Threshold / majority template (V3 #2)](org_frontier/studies/threshold_majority_template/README.md)** — n≥4 is **not** a new template. Intermediate k always **factors** once
@@ -452,6 +458,7 @@ Multi-experiment batteries on one theme.
 - **[Weakest Boolean render (V3 #13)](org_frontier/studies/weakest_boolean_render/README.md)** — committed public OSS coordination logs that still recovers the conjunctive
 - **[WHO BROKE PROD? — incident attribution under coordination topologies](org_frontier/studies/who_broke_prod/README.md)** — is the largest single lever on attribution accuracy, and chain relaying is the largest topology cost. A
 - **[WHO BROKE PROD? × Φ — coordination-step structure versus investigative accuracy](org_frontier/studies/who_broke_prod_phi/README.md)** — integrated coordination core ({A1, M, A2}, Φ = 2.0). Its matched simulator condition beats the best
+- **[Who hears back: a platform that reads some users and answers some users](org_frontier/studies/who_hears_back/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Worker union scale (#31)](org_frontier/studies/worker_union_scale/README.md)** — coalition cell-for-cell (Φ, n_core, core==peer group) under weak peer,
 - **[Zero-duty vs retain under exact Φ (agenda V4 #3)](org_frontier/studies/zero_duty_retain_exact_phi/README.md)** — party cliffs** (multifamily 1.000→0.592; family_n3 1.000→0.750), and the
 
