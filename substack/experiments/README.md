@@ -5,6 +5,7 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [How shared a mistake is matters more than whether it happens](2026-11-23-shared-share-and-ties.md) | [`org_frontier/studies/shared_share_ties/`](../../org_frontier/studies/shared_share_ties/) |
 | 2026-11-23 | [When everyone is misread the same way, a majority vote still splits apart](2026-11-23-shared-mistakes.md) | [`org_frontier/studies/quorum_correlated_noise/`](../../org_frontier/studies/quorum_correlated_noise/) |
 | 2026-11-23 | [A little noise makes a majority vote hang together, but never as a whole group](2026-11-23-noisy-majorities.md) | [`org_frontier/studies/quorum_noise_sweep/`](../../org_frontier/studies/quorum_noise_sweep/) |
 
