@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 149,
+  "study": 151,
   "foundations": 9,
   "open": 15
  },
@@ -9383,6 +9383,17 @@
   },
   {
    "kind": "study",
+   "id": "alphabet_ladder_hub",
+   "title": "Alphabet ladder: two, three and four possible answers on the same vote hub",
+   "finding": "Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`",
+   "path": "org_frontier/studies/alphabet_ladder_hub",
+   "reproduce": [
+    "python org_frontier/studies/alphabet_ladder_hub/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "asymmetric_sides",
    "title": "Asymmetric sides: which side does a two-sided platform bind?",
    "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
@@ -9589,17 +9600,6 @@
    "path": "org_frontier/studies/correlated_party_duty",
    "reproduce": [
     "python org_frontier/studies/correlated_party_duty/analyze_duty.py"
-   ],
-   "runtime": "fast"
-  },
-  {
-   "kind": "study",
-   "id": "delay_quorum",
-   "title": "Delay on quorum hubs: a relay chain between the mediator and the parties",
-   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
-   "path": "org_frontier/studies/delay_quorum",
-   "reproduce": [
-    "python org_frontier/studies/delay_quorum/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -10577,6 +10577,17 @@
   },
   {
    "kind": "study",
+   "id": "quorum_ratio_law",
+   "title": "Quorum ratio law: strongest subset vs whole on noisy counting quorums",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464",
+   "path": "org_frontier/studies/quorum_ratio_law",
+   "reproduce": [
+    "python org_frontier/studies/quorum_ratio_law/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "random_coupling_ensemble",
    "title": "Random coupling ensemble at fixed n (agenda #18)",
    "finding": "n=4 (ER / fixed-k / WS / BA-style), **every** core Φ lands on the discrete",
@@ -10914,6 +10925,17 @@
    "path": "org_frontier/studies/weakest_boolean_render",
    "reproduce": [
     "python org_frontier/studies/weakest_boolean_render/analyze_weakest_render.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "weighted_ratio_law",
+   "title": "Weighted ratio law: does the counting law survive one heavy voter?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464",
+   "path": "org_frontier/studies/weighted_ratio_law",
+   "reproduce": [
+    "python org_frontier/studies/weighted_ratio_law/run.py --quick"
    ],
    "runtime": "fast"
   },
