@@ -5554,6 +5554,16 @@
       "source": "org_frontier/studies/noise_placement/FINDINGS.md"
     },
     {
+      "name": "five-party-ties",
+      "cmd": "python org_frontier/studies/five_party_ties/run.py --quick",
+      "expect": [
+        "AND5 default phi: 5.000000",
+        "profile=001110 phi=0.000000 tie_min=0.000000 tie_max=0.313235 rule=Y"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/studies/five_party_ties/FINDINGS.md"
+    },
+    {
       "name": "four-party-ties",
       "cmd": "python org_frontier/studies/four_party_ties/run.py --quick",
       "expect": [
