@@ -10566,6 +10566,17 @@
   },
   {
    "kind": "study",
+   "id": "quorum_ratio_law",
+   "title": "Quorum ratio law: strongest subset vs whole on noisy counting quorums",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464",
+   "path": "org_frontier/studies/quorum_ratio_law",
+   "reproduce": [
+    "python org_frontier/studies/quorum_ratio_law/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "random_coupling_ensemble",
    "title": "Random coupling ensemble at fixed n (agenda #18)",
    "finding": "n=4 (ER / fixed-k / WS / BA-style), **every** core Φ lands on the discrete",
