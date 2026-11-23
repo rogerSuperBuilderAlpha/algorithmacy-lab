@@ -5498,6 +5498,18 @@
       "source": "org_frontier/studies/commit_noise_phase/FINDINGS.md"
     },
     {
+      "name": "quorum-noise-sweep",
+      "cmd": "python org_frontier/studies/quorum_noise_sweep/sweep.py --quick",
+      "expect": [
+        "C2/C3 deterministic-identity and independent-input controls: PASS",
+        "MAJ3    0.0000   0.0035   0.0069   0.0158   0.0270   0.0366   0.0320   0.0180   0.0091   0.0000",
+        "OR3     3.0000   2.8687   2.7413   2.3818   1.8546   1.0415   0.4995   0.0233   0.0147   0.0000",
+        "quick H1 (no noise threshold for MAJ3): SUPPORTED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/quorum_noise_sweep/FINDINGS.md"
+    },
+    {
       "name": "party-vs-mediator-noise",
       "cmd": "python org_frontier/studies/party_vs_mediator_noise/analyze_locus.py",
       "expect": [
