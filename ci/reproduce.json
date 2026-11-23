@@ -7467,6 +7467,16 @@
       "timeout": 1200,
       "slow": true,
       "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/FINDINGS.md"
+    },
+    {
+      "name": "iit4-settings-robustness",
+      "cmd": "python org_frontier/studies/iit4_settings_robustness/run.py --quick",
+      "expect": [
+        "W1_S1_C1   default=2.000000 complete=2.000000 directed_bi=1.000000 temporal=1.000000 general_raw=0.000000 general_disc=1.000000 norm_none=2.000000",
+        "W1_S6_C1   default=0.500000 complete=0.500000 directed_bi=0.500000 temporal=0.500000 general_raw=0.000000 general_disc=0.500000 norm_none=0.500000"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/iit4_settings_robustness/FINDINGS.md"
     }
   ]
 }
