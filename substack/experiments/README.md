@@ -5,7 +5,10 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
-| 2026-11-23 | [A counting rule predicts how weak the whole is next to its strongest part](2026-11-23-a-counting-law.md) | [`org_frontier/studies/quorum_ratio_law/`](../../org_frontier/studies/quorum_ratio_law/) |
+| 2026-11-23 | [When buyers and sellers deal directly, the kind of deal decides whether the platform stays in](2026-11-23-off-platform-deals.md) | [`org_frontier/studies/off_platform_deals/`](../../org_frontier/studies/off_platform_deals/) |
+| 2026-11-23 | [How fast a group bounces back doesn't tell you whether it holds together](2026-11-23-bouncing-back.md) | [`org_frontier/studies/flip_recovery/`](../../org_frontier/studies/flip_recovery/) |
+| 2026-11-23 | [A two-sided platform binds one side, the side where every member counts](2026-11-23-which-side-gets-bound.md) | [`org_frontier/studies/asymmetric_sides/`](../../org_frontier/studies/asymmetric_sides/) |
+| 2026-11-23 | [When people take turns, no group holds together as a whole](2026-11-23-taking-turns.md) | [`org_frontier/studies/update_order_quorum/`](../../org_frontier/studies/update_order_quorum/) |
 | 2026-11-23 | [No kind of memory makes a majority vote hold together](2026-11-23-memory-that-only-goes-one-way.md) | [`org_frontier/studies/memory_rules/`](../../org_frontier/studies/memory_rules/) |
 | 2026-11-23 | [Change the measuring tool's settings, and the yes/no answer stays the same](2026-11-23-settings-check.md) | [`org_frontier/studies/iit4_settings_robustness/`](../../org_frontier/studies/iit4_settings_robustness/) |
 | 2026-11-23 | [A marketplace that needs "some buyer and some seller" does not hold together as a whole](2026-11-23-two-sided-markets.md) | [`org_frontier/studies/two_sided_platform/`](../../org_frontier/studies/two_sided_platform/) |
