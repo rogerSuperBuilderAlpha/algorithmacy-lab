@@ -5,6 +5,7 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [A platform's decision can pass through a chain of people and still bind them all](2026-11-23-relay-length.md) | [`org_frontier/studies/relay_length/`](../../org_frontier/studies/relay_length/) |
 | 2026-11-23 | [A counting rule predicts how weak the whole is next to its strongest part](2026-11-23-a-counting-law.md) | [`org_frontier/studies/quorum_ratio_law/`](../../org_frontier/studies/quorum_ratio_law/) |
 | 2026-11-23 | [A platform's loop can run through other people, and then it binds the whole group](2026-11-23-loops-through-people.md) | [`org_frontier/studies/indirect_loops/`](../../org_frontier/studies/indirect_loops/) |
 | 2026-11-23 | [Two, three, four answers: the same vote rules, and a number that grows by three](2026-11-23-four-answers.md) | [`org_frontier/studies/alphabet_ladder_hub/`](../../org_frontier/studies/alphabet_ladder_hub/) |
