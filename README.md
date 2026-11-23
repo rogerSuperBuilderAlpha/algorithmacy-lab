@@ -319,6 +319,7 @@ Multi-experiment batteries on one theme.
 - **[Agent tool core (#38)](org_frontier/studies/agent_tool_core/README.md)** — same way an inference model does (#4, #9): unused / read-only stays
 - **[AI fidelity displace (#40)](org_frontier/studies/ai_fidelity_displace/README.md)** — the counterpart’s policy displaces C at **full** fidelity only
 - **[Algorithmic transparency (#34)](org_frontier/studies/algo_transparency/README.md)** — not channel transparency (#24). **Publish-unread** is theater: F stays
+- **[Alphabet ladder: two, three and four possible answers on the same vote hub](org_frontier/studies/alphabet_ladder_hub/README.md)** — Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`
 - **[Asymmetric sides: which side does a two-sided platform bind?](org_frontier/studies/asymmetric_sides/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Commit-noise phase transition (agenda #6)](org_frontier/studies/commit_noise_phase/README.md)** — down as a monotone glide on both the conjunctive hub (Φ 2.0→0) and the
 - **[Commit→response delay (agenda #10)](org_frontier/studies/commit_response_delay/README.md)** — pipeline) keeps the conjunctive triad **triadic** at every d=0…3 —
@@ -427,6 +428,7 @@ Multi-experiment batteries on one theme.
 - **[Placement equality: party-side vs mediator-side noise on seven quorum rules](org_frontier/studies/placement_equality/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), full group, every reachable state. Hypotheses pushed in
 - **[Correlated input noise on quorum hubs](org_frontier/studies/quorum_correlated_noise/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`) on three-party quorum hubs under three input-noise models with
 - **[Quorum input-noise sweep (O01)](org_frontier/studies/quorum_noise_sweep/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`) on seven counting quorums at ten input-observation error
+- **[Quorum ratio law: strongest subset vs whole on noisy counting quorums](org_frontier/studies/quorum_ratio_law/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464
 - **[Random coupling ensemble at fixed n (agenda #18)](org_frontier/studies/random_coupling_ensemble/README.md)** — n=4 (ER / fixed-k / WS / BA-style), **every** core Φ lands on the discrete
 - **[Regulator capture (#33)](org_frontier/studies/regulator_capture/README.md)** — coupling cut**, not a smooth membership glide. Under mutual gate
 - **[Residual phase boundary (F28)](org_frontier/studies/residual_phase_boundary/README.md)** — that instability is shared with other classifier-uncertain forms (H3 refuted).** One-bit flips in
@@ -458,6 +460,7 @@ Multi-experiment batteries on one theme.
 - **[Wageman W × Φ landmark (V3 #14)](org_frontier/studies/wageman_phi_landmark/README.md)** — with form size n predicts the Φ landmarks ring-4 / hub-(n−1) / pool
 - **[Wageman TI → verdict (agenda #44)](org_frontier/studies/wageman_ti_verdict/README.md)** — interdependence index separates dyadic from triadic on the designed
 - **[Weakest Boolean render (V3 #13)](org_frontier/studies/weakest_boolean_render/README.md)** — committed public OSS coordination logs that still recovers the conjunctive
+- **[Weighted ratio law: does the counting law survive one heavy voter?](org_frontier/studies/weighted_ratio_law/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464
 - **[WHO BROKE PROD? — incident attribution under coordination topologies](org_frontier/studies/who_broke_prod/README.md)** — is the largest single lever on attribution accuracy, and chain relaying is the largest topology cost. A
 - **[WHO BROKE PROD? × Φ — coordination-step structure versus investigative accuracy](org_frontier/studies/who_broke_prod_phi/README.md)** — integrated coordination core ({A1, M, A2}, Φ = 2.0). Its matched simulator condition beats the best
 - **[Who hears back: a platform that reads some users and answers some users](org_frontier/studies/who_hears_back/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
