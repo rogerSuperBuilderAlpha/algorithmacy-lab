@@ -432,6 +432,7 @@ Multi-experiment batteries on one theme.
 - **[Quorum ratio law: strongest subset vs whole on noisy counting quorums](org_frontier/studies/quorum_ratio_law/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464
 - **[Random coupling ensemble at fixed n (agenda #18)](org_frontier/studies/random_coupling_ensemble/README.md)** — n=4 (ER / fixed-k / WS / BA-style), **every** core Φ lands on the discrete
 - **[Regulator capture (#33)](org_frontier/studies/regulator_capture/README.md)** — coupling cut**, not a smooth membership glide. Under mutual gate
+- **[Relay flips: relayers that flip, gate, or sit on unequal arms](org_frontier/studies/relay_flips/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Relay length: how long can the loop through other people be?](org_frontier/studies/relay_length/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Residual phase boundary (F28)](org_frontier/studies/residual_phase_boundary/README.md)** — that instability is shared with other classifier-uncertain forms (H3 refuted).** One-bit flips in
 - **[Residual phase boundary on unc k=2 misses (F28)](org_frontier/studies/residual_phase_boundary_unc/README.md)** — One-bit truth-table flips flip the exact Φ verdict for **37.1%** of neighbours of the 75 n=4
@@ -463,6 +464,7 @@ Multi-experiment batteries on one theme.
 - **[Wageman W × Φ landmark (V3 #14)](org_frontier/studies/wageman_phi_landmark/README.md)** — with form size n predicts the Φ landmarks ring-4 / hub-(n−1) / pool
 - **[Wageman TI → verdict (agenda #44)](org_frontier/studies/wageman_ti_verdict/README.md)** — interdependence index separates dyadic from triadic on the designed
 - **[Weakest Boolean render (V3 #13)](org_frontier/studies/weakest_boolean_render/README.md)** — committed public OSS coordination logs that still recovers the conjunctive
+- **[Weighted equivalence: when does a weighted quorum act like a counting quorum under noise?](org_frontier/studies/weighted_equivalence/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464
 - **[Weighted ratio law: does the counting law survive one heavy voter?](org_frontier/studies/weighted_ratio_law/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464
 - **[WHO BROKE PROD? — incident attribution under coordination topologies](org_frontier/studies/who_broke_prod/README.md)** — is the largest single lever on attribution accuracy, and chain relaying is the largest topology cost. A
 - **[WHO BROKE PROD? × Φ — coordination-step structure versus investigative accuracy](org_frontier/studies/who_broke_prod_phi/README.md)** — integrated coordination core ({A1, M, A2}, Φ = 2.0). Its matched simulator condition beats the best

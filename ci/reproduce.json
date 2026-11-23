@@ -6095,6 +6095,17 @@
       "source": "org_frontier/studies/relay_length/FINDINGS.md"
     },
     {
+      "name": "relay-flips",
+      "cmd": "python org_frontier/studies/relay_flips/run.py --quick",
+      "expect": [
+        "C1 copy_1 = relay_length arm_1 (whole Φ 2.0): PASS",
+        "flip_1      n=4 states=8  whole=2.000000 top=2.000000 top_states=3 full_bound=Y pooled_ties=PR1,PR2C1,PR1R2C1",
+        "xor_flip_1  n=4 states=8  whole=0.500000 top=0.500000 top_states=8 full_bound=Y pooled_ties=PR1R2C1"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/relay_flips/FINDINGS.md"
+    },
+    {
       "name": "regulator-capture",
       "cmd": "python org_frontier/studies/regulator_capture/analyze_capture.py",
       "expect": [
@@ -7680,6 +7691,16 @@
       ],
       "timeout": 120,
       "source": "org_frontier/studies/weighted_ratio_law/FINDINGS.md"
+    },
+    {
+      "name": "weighted-equivalence",
+      "cmd": "python org_frontier/studies/weighted_equivalence/run.py --quick",
+      "expect": [
+        "1222q4  e=0.2  whole=0.000000 top=0.146495 ratio=- law=8 n_ties=3 full_in_top=N ties=SP2,SP3,SP4",
+        "1123q3  e=0.2  whole=0.018807 top=0.503401 ratio=26.766990 law=5 n_ties=1 full_in_top=N ties=SP4"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/weighted_equivalence/FINDINGS.md"
     }
   ]
 }

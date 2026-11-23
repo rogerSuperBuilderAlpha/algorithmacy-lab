@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 155,
+  "study": 157,
   "foundations": 9,
   "open": 15
  },
@@ -10633,6 +10633,17 @@
   },
   {
    "kind": "study",
+   "id": "relay_flips",
+   "title": "Relay flips: relayers that flip, gate, or sit on unequal arms",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/relay_flips",
+   "reproduce": [
+    "python org_frontier/studies/relay_flips/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "relay_length",
    "title": "Relay length: how long can the loop through other people be?",
    "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
@@ -10969,6 +10980,17 @@
    "path": "org_frontier/studies/weakest_boolean_render",
    "reproduce": [
     "python org_frontier/studies/weakest_boolean_render/analyze_weakest_render.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "weighted_equivalence",
+   "title": "Weighted equivalence: when does a weighted quorum act like a counting quorum under noise?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464",
+   "path": "org_frontier/studies/weighted_equivalence",
+   "reproduce": [
+    "python org_frontier/studies/weighted_equivalence/run.py --quick"
    ],
    "runtime": "fast"
   },
