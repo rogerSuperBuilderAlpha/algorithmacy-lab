@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 143,
+  "study": 142,
   "foundations": 9,
   "open": 15
  },
@@ -10870,17 +10870,6 @@
    "path": "org_frontier/studies/who_broke_prod_phi",
    "reproduce": [
     "python org_frontier/studies/who_broke_prod_phi/analyze_who_broke_prod_phi.py"
-   ],
-   "runtime": "fast"
-  },
-  {
-   "kind": "study",
-   "id": "who_hears_back",
-   "title": "Who hears back: a platform that reads some users and answers some users",
-   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
-   "path": "org_frontier/studies/who_hears_back",
-   "reproduce": [
-    "python org_frontier/studies/who_hears_back/run.py --quick"
    ],
    "runtime": "fast"
   },
