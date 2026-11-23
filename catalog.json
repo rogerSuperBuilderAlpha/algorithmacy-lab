@@ -10449,8 +10449,10 @@
    "title": "Odd input: does P or G at the gate's odd input pattern decide whether the group binds?",
    "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
    "path": "org_frontier/studies/odd_input",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/odd_input/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
