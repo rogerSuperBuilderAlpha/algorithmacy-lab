@@ -5,6 +5,7 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [A platform's decision can pass through a chain of people and still bind them all](2026-11-23-relay-length.md) | [`org_frontier/studies/relay_length/`](../../org_frontier/studies/relay_length/) |
 | 2026-11-23 | [A platform's loop can run through other people, and then it binds the whole group](2026-11-23-loops-through-people.md) | [`org_frontier/studies/indirect_loops/`](../../org_frontier/studies/indirect_loops/) |
 | 2026-11-23 | [A platform binds only the people it both listens to and answers](2026-11-23-who-hears-back.md) | [`org_frontier/studies/who_hears_back/`](../../org_frontier/studies/who_hears_back/) |
 | 2026-11-23 | [When buyers and sellers deal directly, the kind of deal decides whether the platform stays in](2026-11-23-off-platform-deals.md) | [`org_frontier/studies/off_platform_deals/`](../../org_frontier/studies/off_platform_deals/) |
