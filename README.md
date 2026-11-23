@@ -406,7 +406,6 @@ Multi-experiment batteries on one theme.
 - **[Lockstep or symmetry: why does the one-sided veto factor?](org_frontier/studies/lockstep_symmetry/README.md)** — One rule, fixed before the run, sorts all 256 strict-mediation forms with zero misses: a form binds iff
 - **[Anti-correlated duty on logged structure (agenda V4 #7)](org_frontier/studies/logged_alt_duty_exact_phi/README.md)** — party admission recreates the exact-Φ joint-observation cliff on the
 - **[M3 subset-Φ fidelity vs V4 items 1–3 (agenda V4 item 12)](org_frontier/studies/m3_subset_fidelity_v4/README.md)** — Induced exact Φ already decides V4 items 1–3; overlay background-subset Φ moves the V4 item 1 subset-estimand key
-- **[A candidate split for the party-noise factor, tested and refuted](org_frontier/studies/majority_factor_split/README.md)** — Both pre-registered hypotheses were refuted. The candidate split failed because (1,1,1,3) quota 3 follows the factor exactly, even though one party can win the vote…
 - **[Margin-cascade selective exact Φ](org_frontier/studies/margin_cascade_phi/README.md)** — out-of-fold uncertain forms — cuts FN-among-triads sharply at fixed exact-Φ budget
 - **[Margin-cascade τ vs top-B% calibration](org_frontier/studies/margin_cascade_tau/README.md)** — On n=4, nested cal-fold τ-matching at B=10% yields the same FN|tri as top-B%
 - **[MARL deep replicate (#41 gap)](org_frontier/studies/marl_deep_replicate/README.md)** — linear FA Q-policies with observation `[S, own_last, partner_last]` —
@@ -417,6 +416,7 @@ Multi-experiment batteries on one theme.
 - **[Min-cut MIP (#49)](org_frontier/studies/mincut_mip/README.md)** — (Q49 H5). For the #47 families a *normalized GID cut-weight* theorem
 - **[Mixed-algebra seats (V3 #3)](org_frontier/studies/mixed_algebra_seats/README.md)** — a single mediator does **not** produce a hybrid signature. Whole-form Φ
 - **[Mixed-radix mediator (agenda #3)](org_frontier/studies/mixed_radix_mediator/README.md)** — mediator (`S'=W+C`, alphabets `(2,3,2)`), the extra mid level goes into
+- **[Mixed reads at three parties](org_frontier/studies/mixed_reads/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), max over reachable states, threshold 1e-9. Hypotheses pushed in
 - **[pyphi_iit4_mv M1 overlay](org_frontier/studies/multivalued_iit4_port/README.md)** — `third_party/pyphi_iit4_mv`. Binary regression matches stock pin Φ=2
 - **[Negative φ survey: does PyPhi's negative output change any noisy-quorum result?](org_frontier/studies/negative_phi_survey/README.md)** — Hypotheses were committed (3e34ab73) before computing. Values seen beforehand: the OR3/ANY4 all-zero
 - **[Noise × composed carriers (V3 #12)](org_frontier/studies/noise_composed_carriers/README.md)** — share **p\*=0.5** on a composed **AND necklace** and a **shared-mediator

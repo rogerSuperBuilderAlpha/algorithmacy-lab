@@ -10346,17 +10346,6 @@
   },
   {
    "kind": "study",
-   "id": "majority_factor_split",
-   "title": "A candidate split for the party-noise factor, tested and refuted",
-   "finding": "Both pre-registered hypotheses were refuted. The candidate split failed because (1,1,1,3) quota 3 follows the factor exactly, even though one party can win the vote alone: Φ(0.2, 0) = 0.012971794290726172, Φ(0.2, 0.3) = 0.012548460149892644, Φ(0.2, 0.4) = 0.01083211688194662",
-   "path": "org_frontier/studies/majority_factor_split",
-   "reproduce": [
-    "python org_frontier/studies/majority_factor_split/run.py --quick"
-   ],
-   "runtime": "fast"
-  },
-  {
-   "kind": "study",
    "id": "margin_cascade_phi",
    "title": "Margin-cascade selective exact Φ",
    "finding": "out-of-fold uncertain forms — cuts FN-among-triads sharply at fixed exact-Φ budget",
@@ -10462,6 +10451,17 @@
    "path": "org_frontier/studies/mixed_radix_mediator",
    "reproduce": [
     "python org_frontier/studies/mixed_radix_mediator/analyze_mixed.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "mixed_reads",
+   "title": "Mixed reads at three parties",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), max over reachable states, threshold 1e-9. Hypotheses pushed in",
+   "path": "org_frontier/studies/mixed_reads",
+   "reproduce": [
+    "python org_frontier/studies/mixed_reads/run.py --quick"
    ],
    "runtime": "fast"
   },
