@@ -9697,8 +9697,10 @@
    "title": "Echo switch",
    "finding": "Hypotheses fixed in [hypotheses.md](org_frontier/studies/echo_switch/hypotheses.md) before computing. All numbers from",
    "path": "org_frontier/studies/echo_switch",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/echo_switch/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
