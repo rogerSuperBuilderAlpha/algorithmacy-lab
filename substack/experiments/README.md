@@ -5,6 +5,7 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [Having a voter who can win alone doesn't tell you when the error formula holds](2026-11-23-the-split-failed.md) | [`org_frontier/studies/majority_factor_split/`](../../org_frontier/studies/majority_factor_split/) |
 | 2026-11-23 | [A formula fitted to earlier numbers failed on new cases](2026-11-23-the-factor-failed.md) | [`org_frontier/studies/party_noise_factor/`](../../org_frontier/studies/party_noise_factor/) |
 | 2026-11-23 | [Reading the hub backwards changes nothing real, but it still moves 80 verdicts in the software](2026-11-23-reading-it-backwards.md) | [`org_frontier/studies/mixed_reads/`](../../org_frontier/studies/mixed_reads/) |
 | 2026-11-23 | [A third guess that didn't hold](2026-11-23-third-guess-wrong.md) | [`org_frontier/studies/echo_switch/`](../../org_frontier/studies/echo_switch/) |
