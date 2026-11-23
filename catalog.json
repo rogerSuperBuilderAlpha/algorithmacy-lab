@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 134,
+  "study": 138,
   "foundations": 9,
   "open": 15
  },
@@ -10005,6 +10005,17 @@
   },
   {
    "kind": "study",
+   "id": "iit4_settings_robustness",
+   "title": "IIT 4.0 settings robustness: does the dyad/triad verdict depend on PyPhi's partition settings?",
+   "finding": "Six of seven IIT 4.0 settings in the pinned PyPhi give the identical triadic set (24 of 256 strict-mediation",
+   "path": "org_frontier/studies/iit4_settings_robustness",
+   "reproduce": [
+    "python org_frontier/studies/iit4_settings_robustness/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "imputer_exact_phi",
    "title": "Imputer under exact Φ (agenda V4 #4)",
    "finding": "MI-only, and it is not a blanket transfer: party-echo completes Φ",
@@ -10126,6 +10137,17 @@
   },
   {
    "kind": "study",
+   "id": "lazy_update",
+   "title": "Lazy update: nodes that sometimes keep their last state, on quorum hubs",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/lazy_update",
+   "reproduce": [
+    "python org_frontier/studies/lazy_update/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "local_triad_necklace",
    "title": "Local-triad necklace (V3 #4)",
    "finding": "triads on a cycle does **not** invent a new Φ law. The closed AND necklace",
@@ -10220,6 +10242,17 @@
    "path": "org_frontier/studies/mediator_hierarchy_census",
    "reproduce": [
     "python org_frontier/studies/mediator_hierarchy_census/analyze_hierarchy.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "memory_rules",
+   "title": "Memory rules: deterministic self-loops on quorum hubs",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/memory_rules",
+   "reproduce": [
+    "python org_frontier/studies/memory_rules/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -10655,12 +10688,14 @@
   },
   {
    "kind": "study",
-   "id": "ternary_lift_panel",
-   "title": "Ternary lift panel: the same triad rule on yes/no and on three-valued nodes",
+   "id": "ternary_majority_noise",
+   "title": "Ternary majority under noise: a three-valued majority vote vs the yes/no one",
    "finding": "Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`",
-   "path": "org_frontier/studies/ternary_lift_panel",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/studies/ternary_majority_noise",
+   "reproduce": [
+    "python org_frontier/studies/ternary_majority_noise/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
@@ -10714,6 +10749,17 @@
    "path": "org_frontier/studies/topology_aware_imputer",
    "reproduce": [
     "python org_frontier/studies/topology_aware_imputer/analyze_imputer.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "two_sided_platform",
+   "title": "Two-sided platform: two buyers and two sellers around one mediator",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/two_sided_platform",
+   "reproduce": [
+    "python org_frontier/studies/two_sided_platform/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -10920,10 +10966,10 @@
    "kind": "open",
    "id": "O04",
    "question": "Does the two-condition membership account hold when a party has more than two states?",
-   "status": "open",
+   "status": "answered",
    "needs": "compute",
-   "where": "org_frontier/designs/WAVE10_PARKED_DESIGNS.md #5; the multivalued overlay in third_party/pyphi_iit4_mv/ now supplies the tooling",
-   "first_command": "python third_party/pyphi_iit4_mv/smoke_m2.py",
+   "where": "org_frontier/studies/ternary_pivotality/FINDINGS.md (TWO_CONDITION_STATE_DEPENDENT: at the all-engaged ternary state (2,2,2) non-bidirectional parties drop out and the faithful triad keeps {W,S,C}; at the mid-grade state (1,1,1) the faithful core shrinks); org_frontier/studies/mixed_radix_mediator/FINDINGS.md (a ternary mediator over binary parties moves Φ, not membership); tooling third_party/pyphi_iit4_mv/",
+   "first_command": "python org_frontier/studies/ternary_pivotality/analyze_pivot.py",
    "path": "OPEN_QUESTIONS.md"
   },
   {
