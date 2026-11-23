@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 169,
+  "study": 170,
   "foundations": 9,
   "open": 15
  },
@@ -10925,6 +10925,17 @@
    "path": "org_frontier/studies/structure_aware_surrogate",
    "reproduce": [
     "python org_frontier/studies/structure_aware_surrogate/analyze_surrogate.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "switch_delay",
+   "title": "Switch delay",
+   "finding": "Hypotheses fixed in [hypotheses.md](org_frontier/studies/switch_delay/hypotheses.md) before computing. All numbers from",
+   "path": "org_frontier/studies/switch_delay",
+   "reproduce": [
+    "python org_frontier/studies/switch_delay/run.py --quick"
    ],
    "runtime": "fast"
   },
