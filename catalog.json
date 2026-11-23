@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 134,
+  "study": 135,
   "foundations": 9,
   "open": 15
  },
@@ -10716,6 +10716,17 @@
    "path": "org_frontier/studies/topology_aware_imputer",
    "reproduce": [
     "python org_frontier/studies/topology_aware_imputer/analyze_imputer.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "two_sided_platform",
+   "title": "Two-sided platform: two buyers and two sellers around one mediator",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/two_sided_platform",
+   "reproduce": [
+    "python org_frontier/studies/two_sided_platform/run.py --quick"
    ],
    "runtime": "fast"
   },
