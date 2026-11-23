@@ -1,301 +1,300 @@
-# Detailed outline: algorithmacy for *Organization Theory* (Theory Article)
+# Detailed outline v2: algorithmacy for *Organization Theory* (Theory Article)
 
-[Written by Claude (the lead), 23 Nov 2026, by hand. Built on `STRUCTURE_REVIEW.md` (how comparable OT
-theory articles are built) and `CASES_REINTERPRETED.md` (the askers' own cases, case ids C1–C13). The
-outline describes moves; it drafts no body prose. Your sentences are reused where they exist, with their
-locators: v6 = `../intro_5c_2026-11-23/INTRODUCTION_5C.md`; GDOC = Google Doc export of 22 Nov
-(`~/iit-playground/ot_open_questions_local/baselines/gdoc_2026-11-22.md`); ASM =
-`../sbs_schoeneborn2026/ASSEMBLED.md`. GDOC locators are line numbers in that export (L33 = line 33).]
+[Written by Claude (the lead), 23 Nov 2026, by hand. Version 2 applies the two outline reviews Roger
+pasted on 23 Nov (R1 and R2); the response table at the end says what was adopted, changed or declined,
+and why. Version 1 is kept as `OUTLINE_v1.md`. Built on `STRUCTURE_REVIEW.md` and
+`CASES_REINTERPRETED.md` (cases C1–C13). Your sentences are reused where they exist: v6 =
+`../intro_5c_2026-11-23/INTRODUCTION_5C.md`; GDOC = Google Doc export of 22 Nov, by line number
+(`~/iit-playground/ot_open_questions_local/baselines/gdoc_2026-11-22.md`, L33 = line 33); ASM =
+`../sbs_schoeneborn2026/ASSEMBLED.md`.]
 
-**Your rulings it follows (23 Nov).** Introduction trimmed to ~1,100 words, your wording kept. The
-askers' own examples, reinterpreted, carry the argument. The apex is the platform; AI is a platform;
-platforms run on algorithms, notably stochastic ones. Genus: *ability* (your pasted introduction uses it
-throughout).
+**Marks.** OQ ids: open questions in `open_questions/QUESTIONS.tsv`. Anchor: source and page (checked;
+see the end). ⚠ = a "may not claim" rule (S14 §1.3, S15 §2.4). `[NEEDS: …]` = yours to decide or write.
+**Δ** = changed in v2, with the review point that caused it.
 
-**Marks.** OQ ids are the open questions in `open_questions/QUESTIONS.tsv`. "Anchor" = source and page
-the paragraph rests on (all checked; see the check at the end). `[NEEDS: …]` = a decision or sentence
-only you can supply. ⚠ = a constraint from the "may not claim" lists (S14 §1.3, S15 §2.4).
+## Locked before drafting (v2 recommendations; R2 asks that 1, 5, 6, 9 be fixed before §4)
+
+| # | Decision | v2 position | Status |
+|---|---|---|---|
+| 1 | Definition | "the ability to coordinate an interdependent exchange with another person through an intermediary that is opaque, binding, and adaptive" (R2's tweak of the brief: "exchange" covers one-off pairs) | `[NEEDS: your yes]` — reintroduces "coordinate", which the 23 Nov entry moved away from |
+| 2 | "Misrepresentation" sentence | Replace with a scope statement (wording in §1 map) | `[NEEDS: your yes]` |
+| 3 | "Stochastic" | Use "learning" (Hinds & von Krogh, 2024, pp. 4, 6) and "probabilistic" (Cornelissen et al., 2024, p. 6); no new source | adopted (R2) |
+| 4 | Visuals | Table 1 in §3 and Figure 1 in §4.4 | adopted (R2) |
+| 5 | Cause or responsibility | §4.1 is about cause; §5 about responsibility; §5.2 says diagnosis does not settle who answers | adopted (R2) |
+| 6 | One exchange or many | Interdependence holds within one mediated exchange (§3.3); repeated turns build the ability faster; one-off pairs are the hardest case (§4.4) | adopted (R2) |
+| 7 | Printing press | Form unchanged, tempo changed (§6.3) | adopted (R1, R2) |
+| 8 | Research questions | Keep five; fold C10 (ability held for another) into question 2 | adopted (R2) |
+| 9 | Literacy | Drop "chained dyads"; literacy = static, inspectable text across time and space (§3.4) | adopted (R2); consistent with your 8 Oct ruling |
+| 10 | The apex | **Δ R2:** keep the platform at the apex, but state it as a form: the platform form is a triadic architecture (an opaque, adaptive third between two interdependent people), and enterprise GenAI imports that architecture inside the firm. Stark & Vanden Broeck support form ≠ firm: organizational form "is not co-terminous with that of a company" (p. 7). | `[NEEDS: your yes]` — refines your ruling "AI is a platform" |
 
 ---
 
 ## Budget
 
-| Section | Words | Share | Model range |
-|---|---|---|---|
-| Abstract | ≤250 | — | ≤300 (journal) |
-| 1 Introduction | 1,100 | 13% | 8–13% |
-| 2 Two Sets of Open Questions About Platforms | 1,100 | 13% | 10–20% (view displaced) |
-| 3 The Platform as a Third That Decides | 1,200 | 14% | } construct + parts |
-| 4 Algorithmacy: What the People at the Corners Must Be Able to Do | 2,500 | 29% | } 45–60% together |
-| 5 Where Declined Responsibility Comes to Rest | 1,000 | 11% | } (3+4+5 = 54%) |
-| 6 Discussion | 1,500 | 17% | 15–30% |
-| 7 Conclusion | 300 | 3% | 0–8% |
-| **Body** | **8,700** | | journal budget ≈8,900 |
-| References (~60) + table/figure text | ~1,800 | | total ≤11,000 incl. references |
-
-Headings are working titles, named for content, unnumbered in the manuscript.
+| Section | Words | Share |
+|---|---|---|
+| Abstract | ≤250 | — |
+| 1 Introduction | 1,100 | 13% |
+| 2 Two Sets of Open Questions About Platforms | 1,100 | 13% |
+| 3 The Platform as a Third That Decides | 1,200 | 14% |
+| 4 Algorithmacy: What the People at the Corners Must Be Able to Do | 2,450 | 28% |
+| 5 Where Declined Responsibility Comes to Rest | 1,050 | 12% |
+| 6 Discussion | 1,500 | 17% |
+| 7 Conclusion | 300 | 3% |
+| **Body** | **8,700** | (§§3–5 = 54%) |
 
 ---
 
-## Abstract (≤250 words, five moves)
+## Abstract (≤250)
 
-1. The askers' question: when a platform decides between two people and declines to be the actor, who
-   answers (Schoeneborn et al., 2026; Stark & Vanden Broeck, 2024).
-2. The split: questions about actorhood are asked from the apex, questions about people from one person
-   and a machine; the second person drops out.
-3. What the paper does (first person): sorts communicative abilities by what stands between people and
-   defines algorithmacy.
-4. Payoff: the three parts; where declined responsibility comes to rest; generative AI as a platform.
-5. What follows for research (one line).
-GDOC's abstract (L7) and ASM's (221 words) hold reusable sentences; the coordination framing in both goes.
+The askers' question (who answers when a platform decides between two people and declines to be the
+actor); the split between apex questions and one-person questions; what the paper does; the mechanism
+(the ability that lets people go on is the ability that leaves the platform's declined actorhood
+undisturbed); one line on research. GDOC L7 and ASM's abstract hold reusable sentences; their coordination
+framing goes.
 
 ---
 
-## 1 Introduction (1,100) — v6, trimmed
+## 1 Introduction (1,100) — v6 trimmed
 
-Keep the five 5Cs blocks (labels removed at submission). **Trim map** (your sentences, not reworded;
-"move" means the sentence goes to the section named):
+**Trim map** (your sentences unchanged unless an edit is shown; edits are proposals until you accept them):
 
-| v6 block | Keep | Move | Cut or flag |
+| v6 block | Keep | Move | Proposed edit (marked) |
 |---|---|---|---|
-| Opening ¶1 | all (Schoeneborn et al. p. 14 ×2; Patriotta et al. p. 19; Stark & Vanden Broeck p. 14) | — | — |
-| Opening ¶2 | Hinds & von Krogh p. 7, p. 8; Justesen & Plesner p. 22; "Organizational researchers have long moved beyond…"; the research question | — | — |
-| Common ground | first four sentences (co-optation; the triangle; learning algorithms; opacity) | Grodal et al. p. 8, Hsu & Bechky p. 12, Phillips et al. p. 11 → §2 | — |
-| Complication | first three sentences; Stark & Vanden Broeck p. 16; "By treating…"/"When the interaction is treated…"; "Inside *Organization Theory*…" | Hinds & von Krogh p. 11 → §2 | flag "completely separate" (v6 flag 6) |
-| Concern | "You can't work out…"; "When a platform ceases…"; "It gets dumped…"; Stark & Vanden Broeck p. 15 sentence | Rosenblat & Stark sentence and Elish + car sentences → §5; Hinds & von Krogh p. 11 and Justesen & Plesner sentence → §5 | the "misrepresentation" sentence (v6 flag 1): `[NEEDS: keep, soften or cut]` |
-| Course of action | "Building on…"; "I'm looking at the problem…" (+ Stark & Vanden Broeck p. 14); the books sentence; **one** definition of algorithmacy | "They do this by either ignoring…" and "That latter assumption…" → §2; oracy and literacy definitions → §3 | `[NEEDS: the one-sentence definition]` (v6 has three) |
-| Contribution | the three numbered contributions; "We can't read our way…" | "As the worker develops…" → §5; printing press → §6 | — |
+| Opening ¶1 | all | — | — |
+| Opening ¶2 | all, plus the definition (one sentence, decision 1) placed after the research question | — | — |
+| Common ground | first four sentences | Grodal, Hsu, Phillips → §2 | none; "AI is a platform" appears nowhere in the text |
+| Complication | first three sentences; Stark & Vanden Broeck p. 16; "When the interaction is treated…"; last sentence | Hinds & von Krogh p. 11 → §2 | **Δ R1:** ~~remain completely separate~~ **[C: have remained largely disconnected]** |
+| Concern | "You can't work out…"; Stark & Vanden Broeck p. 15 sentence | Rosenblat & Stark; Elish + car; Hinds p. 11; Justesen → §5 | **Δ R1:** "When a platform ceases… It gets dumped in the space between…" softened; R1's wording: **[C: When a platform ceases to be an accountable actor, the practical burden of assigning responsibility shifts onto the people who must continue the exchange.]** **Δ R1, R2:** the "misrepresentation" sentence replaced by a scope statement, e.g. **[C: Schoeneborn et al. pose the puzzle in terms of major organizational wrongdoing, where it "would be especially salient" (p. 14); the same charging and discharging run through routine exchanges in which a person must decide, instance by instance, who answers.]** |
+| Course of action | "Building on…"; "I'm looking at the problem…"; the books sentence | "They do this by either…", "That latter assumption…" → §2.4; oracy and literacy definitions → §3.4 | — |
+| Contribution | the three contributions; "We can't read our way…" | "As the worker develops…" → §5.3; printing press → §6.3 | — |
 
-**Definition in the introduction** (model move 1): one sentence, before the review. Candidates already in
-your texts: (a) brief/ASM ¶6: "the ability to do interdependent work with another person through an
-intermediary that is opaque, binding, and adaptive"; (b) v6: "the practical ability to read, interpret and
-coordinate within three-way relationships where two people cannot get round the algorithmic third
-party". `[NEEDS: choose (a), (b) or a merge; the outline assumes (a) because its three adjectives map to
-the three parts.]`
+**Δ R1 (bridge in the introduction):** one clause in the Contribution block's first item pointing at the
+mechanism: the ability people need to continue the exchange is also what leaves the platform's declined
+actorhood undisturbed. `[NEEDS: your sentence]`
 
 ---
 
 ## 2 Two Sets of Open Questions About Platforms (1,100) — the view displaced
 
-**Purpose.** Show the two sets of questions and the three placements of the system that keep them apart.
-Model: Schoeneborn et al.'s "Third-Way" section; Stark & Vanden Broeck's "New Problems". ≤20% of text.
+**Δ R2:** ¶2.1–2.3 compressed to ~450 words (they repeat questions the introduction already quotes) and
+¶2.4 enlarged to ~650, because the displacement happens there. Keep the section short and exit on the
+forward hook (R1).
 
-- **¶2.1 The apex questions** (≈250). Claim: the field asks about actorhood and accountability from the
-  collective and the operator.
-  Anchors: Schoeneborn et al. p. 6 (actorhood ascribed in communication), p. 11 (charging/discharging),
-  p. 13 (platforms downplay actorhood); Stark & Vanden Broeck p. 14 (twisted accountability); C8 Uber
-  (Patriotta et al. p. 14); Rahman et al. (2024, preprint p. 6, the owner as "merely … a conduit").
-  ⚠ Buhmann et al. (2021) already study individuals' attribution of actorhood to platforms (abstract):
-  cite them here and distinguish (portrayals, no outcome, no counterpart).
-- **¶2.2 Is the technology a thing or an actor?** (≈200). Moved from v6 Common ground: Grodal et al.
-  p. 8 (OQ-grodal2024-09), Hsu & Bechky p. 12 (OQ-hsu2024-06, scope: categories), Phillips et al. p. 11
-  (OQ-phillips2024-09). Claim: even where the technology is treated as an actor, the people it stands
-  between are not asked about.
-- **¶2.3 The people questions** (≈200). Hinds & von Krogh p. 11 (OQ-hinds2024-21, moved from v6),
-  p. 7, p. 8; Justesen & Plesner p. 22; Phillips et al. p. 11 on AI teammates (OQ-phillips2024-07).
-  Claim: these ask about one person and the technology.
-- **¶2.4 Three placements of the system** (≈450). Your v6 sentences ("They do this by either ignoring…";
-  "That latter assumption…") open it; GDOC L33–41 supplies the content.
-  - *Partner*: C2 (Stark & Vanden Broeck p. 9, "themselves become communication partners"); C13
-    (Phillips et al. p. 9, AI "subordinate to the human partner"); AI literacy (Long & Magerko, 2020;
-    GDOC L35).
-  - *Channel*: computer-mediated communication competence (Spitzberg, 2006; GDOC L37–39); AI-mediated
-    communication (Hancock et al., 2020).
-  - *The worker's opponent*: algorithmic competency (Jarrahi & Sutherland, 2019); Zhou et al. (2025);
-    platform work literacies (Scolari et al., 2026). The counterpart is absent from the construct (GDOC
-    L41).
-  - ⚠ Ohme et al. (2025, adv. p. 1) already move from dyad to triad for platform communication; their
-    third serves and may be bypassed (adv. pp. 5, 6). Cite here; one clause of distinction.
-  - Close on the forward hook: none of the three places the system above two people who depend on each
-    other.
-
-GDOC citations in ¶2.4 (Long & Magerko; Spitzberg; Hancock et al.; Jarrahi & Sutherland; Zhou et al.)
-were claim-checked on 10 Oct, not in this run: re-verify at the citation audit.
+- **¶2.1 The structural blind spot** (≈450; merges v1 ¶2.1–2.3).
+  - Apex questions asked of the collective and operator: Schoeneborn et al. p. 6 (actorhood ascribed),
+    p. 13 (platforms downplay it); Stark & Vanden Broeck p. 14; C8 Uber (Patriotta et al. p. 14).
+  - Thing or actor: Grodal et al. p. 8; Hsu & Bechky p. 12 (scope: categories); Phillips et al. p. 11.
+  - People questions asked of one person and the technology: Hinds & von Krogh p. 11.
+  - Rivals, one sentence each:
+    - ⚠ **Buhmann et al. (2021, abstract):** portrayals drive individuals' attributions of collective
+      actorhood; no counterpart, no exchange outcome (R1 wording).
+    - **Rahman, Karunakaran & Cameron (2024):** the owner "can claim to merely be a conduit" (preprint
+      p. 6); their focus is power and accountability arrangements, this paper adds the participant's
+      ability when the third declines actorhood (R1).
+- **¶2.4 Three placements of the system** (≈650). Opens with your v6 sentences ("They do this by
+  either…"; "That latter assumption…"); content from GDOC L33–41.
+  - *Partner:* C2 (Stark & Vanden Broeck p. 9); C13 (Phillips et al. p. 9); AI literacy (Long & Magerko,
+    2020; GDOC L35).
+  - *Channel:* CMC competence (Spitzberg, 2006; GDOC L37–39); AI-mediated communication (Hancock et al.,
+    2020).
+  - *The worker's opponent:* algorithmic competency (Jarrahi & Sutherland, 2019); Zhou et al. (2025);
+    platform work literacies (Scolari et al., 2026); the counterpart is absent (GDOC L41).
+  - ⚠ **Ohme et al. (2025):** one clause: their third serves and may be bypassed (adv. pp. 5, 6); this
+    third decides and cannot be bypassed without cost (R1).
+  - Forward hook: none of the three places the system above two people who depend on each other.
+  - GDOC citations here were claim-checked on 10 Oct, not in this run: re-verify at the audit.
 
 ---
 
 ## 3 The Platform as a Third That Decides (1,200) — the form
 
-**Purpose.** Define the triad and the apex; give the criterion; place algorithmacy beside oracy and
-literacy. Carries contribution 2 (OQ-stark2024-06).
-
-- **¶3.1 The apex is the platform** (≈250). Your ruling: AI is a platform; platforms run on algorithms,
-  notably stochastic ones.
-  Anchors: Stark & Vanden Broeck p. 14 (operator at the apex; producers and users at the corners); p. 9
-  ("Many professionals encounter algorithmic management as users"); Hinds & von Krogh p. 4 (relations
-  "evolve and expand as the AI learns"), p. 6 ("not likely to be well defined or transparent"); C9 (the
-  apex can hide human work, Justesen & Plesner pp. 10–11).
-  `[NEEDS: a source for "stochastic".]` The only corpus text near it is Cornelissen et al.'s editorial
-  (2024, p. 6, "a probabilistic rendering"). Either cite a read source for stochastic generation or say
-  "learning" (Hinds & von Krogh) and "probabilistic" (Cornelissen et al.).
-- **¶3.2 Mediator, moderator, third that decides** (≈350). Simmel's mediator and arbitrator (GDOC L47–51, with
-  the block quote of Simmel, 1902b, p. 172, at L49); a text moderates and a person still holds the
-  verdict (GDOC L85). ⚠ Rahman et al. already read the platform as "the
-  third who rejoices" (preprint p. 6): cite where Simmel enters.
-- **¶3.3 What stands between as the criterion** (≈300). From GDOC L45–69 and ASM
-  "The Form of the Relation as a Defining Criterion". Thompson's channel-based typology (1995, 2020) as
-  the contrast. Avoid ASM's "one criterion" frame copied from Schoeneborn et al. (S13 §1.5).
-- **¶3.4 Oracy, literacy, algorithmacy** (≈300). Your definitions (moved from v6 Course of action).
-  Anchors: Yates (1989) and Stark & Vanden Broeck's call to study "the corresponding field of
-  communication" (p. 15): literacy was the communication field of bureaucracy; algorithmacy is the
-  person's part of the platform's. Flag: literacy and chained dyads (your 8 Oct ruling) still conflicts
-  with "two-person exchanges that are separated in time and space".
-- **Table 1** (the one visual). Columns: oracy | literacy | algorithmacy. Rows: form of relation; what
-  stands between; who holds the verdict; can the two bypass it; what the person must be able to do; how it
-  fails. Model: Stark & Vanden Broeck's Table 1 (p. 14) in form, not content. Draft cells come from GDOC
-  "What Stands Between" and ASM; `[NEEDS: your cell wording]`.
-
----
-
-## 4 Algorithmacy: What the People at the Corners Must Be Able to Do (2,500) — the parts
-
-**Purpose.** Define the ability; one subsection per part, each carried on the askers' own cases; the
-cycle; the two failure modes. Model move 3: the parts become the subheadings. No propositions.
-
-- **¶4.0 Definition and the three demands** (≈250). The definition chosen in §1. The platform is opaque,
-  binding and adaptive; each feature calls for one part (brief table). Hedge or assert: pick one and hold
-  it (`skills/draft/registers/ot/profile.md`); the outline assumes hedged mechanisms, as Hinds & von
-  Krogh.
-- **4.1 Interpreting: finding what caused an outcome** (≈550).
-  Primary case C3: the employee whose job assignment or pay came through a manager using GenAI (Hinds &
-  von Krogh p. 4); "visibility into the basis on which the AI is making decisions" obscured for both.
-  Second case C1: the eBay provider's ranking (Stark & Vanden Broeck p. 14).
-  Support if needed: Curchod et al. (2020, AAM p. 22: "It's a robot"). GDOC L93 and L103–105 supply sentences (Rahman, 2021; Sundar & Nass, 2000; Weick et al.,
-  2005).
-  `[NEEDS: N2, cause or responsibility. The section is about cause; §5 is about responsibility. The outline
-  assumes interpreting finds the cause and §5 shows that the cause does not settle who answers (Fu et
-  al., 2025, abstract).]`
-- **4.2 Specifying intent: making it survive the platform** (≈550).
-  Primary case C1: the eBay rater writes to the provider and is read by the platform (Stark & Vanden
-  Broeck p. 14). Second case C11: replying to negative reviews (Justesen & Plesner p. 15, quoting Bucher
-  et al.). GDOC L95 and L107–109 (double address; Goffman,
-  1981; Clark & Brennan, 1991).
-  ⚠ "Binds both" is unsupported (REPORT flag 1): say what the platform binds in each case.
-- **4.3 Keeping track: a rule that changes without notice** (≈500).
-  Primary case C4: hiring, where "the evaluation algorithm may become increasingly refined and
-  inaccessible to the manager" (Hinds & von Krogh p. 6). Second: C3 "as the AI learns" (p. 4). GDOC
-  L97 and L111–113 (DeVito, 2021; Cotter, 2019).
-- **4.4 The parts as a cycle** (≈250). Each reading feeds the next exchange; more turns, more of the
-  ability (brief, ASM ¶6). Optional Figure 1: the triangle with the cycle drawn between the two lower
-  corners. `[NEEDS: keep one visual (Table 1) or two]`
-- **4.5 Two ways to fail** (≈400).
-  *Collapse*: C5 blind following (Hinds & von Krogh p. 7; OQ-hinds2024-04 answered in part, scope cost
-  stated: "guidance" vs "binding"); C2/C13, the partner picture.
-  *Neutral channel*: C2 "the means of communication among parties" (Stark & Vanden Broeck p. 9); the
-  rater who takes the ranking as the other person's verdict (C1). GDOC L115–121 (Heiland, 2025;
-  Bolton et al., 2013).
-  Flag: check Bucher et al.'s "pacifying the algorithm" pairing before using it for collapse (REPORT).
-- **¶4.6 Ability held for another** (≈0–150, optional). C10: frontline staff help citizens through
-  digital self-service (Justesen & Plesner p. 13): the ability can be exercised on another's behalf.
-  Bridges to §6 (who holds it).
+- **¶3.1 The platform form as a triadic architecture** (≈300). **Δ R2 (decision 10).** The platform form
+  places an operator "at the apex and producers and users at the other corners" (Stark & Vanden Broeck
+  p. 14). Form is not firm: organizational form "is not co-terminous with that of a company" (p. 7), and
+  "Many professionals encounter algorithmic management as users" (p. 9). Enterprise generative AI imports
+  the same architecture inside the firm: a manager, an employee and a system whose basis "may ultimately
+  obscure managers' and employees' visibility" (Hinds & von Krogh p. 4). The apex decides through
+  learning (pp. 4, 6) and probabilistic (Cornelissen et al., 2024, p. 6) systems. C9: the apex can hide
+  human work (Justesen & Plesner pp. 10–11).
+- **¶3.2 Mediator, moderator, third that decides** (≈300). Simmel's mediator and arbitrator (GDOC L47–51;
+  block quote at L49). ⚠ Rahman et al. already read the platform as "the third who rejoices" (preprint
+  p. 6): cite where Simmel enters, so the third-that-decides does not read as original (R1).
+- **¶3.3 Two features held as normal, not as exceptions** (≈250). **Δ R2.**
+  - *Outcome interdependence within one mediated exchange:* each person's outcome depends on the other's
+    conduct as the platform reads it, whether or not they meet again. (The paper's own definition;
+    `[NEEDS: a source if you want one]`.)
+  - *Asymmetric binding:* the platform enforces consequences on at least one party and offers neither a
+    clean bypass. ⚠ Replaces "binds both", which no source supports.
+- **¶3.4 Oracy, literacy, algorithmacy, by what stands between** (≈350). **Δ R2 (decision 9).** The
+  criterion is whether what stands between can render a verdict. Oracy: people coordinate directly, and a
+  chain of spoken messages still passes person to person. Literacy: a static, inspectable text mediates
+  across time and space and cannot change its own rule or render a verdict. Algorithmacy: an opaque,
+  adaptive third adjudicates the outcome. Your definitions (moved from v6) are reused with "chained or
+  linked dyads" dropped. Stark & Vanden Broeck's call for "the corresponding field of communication"
+  (p. 15) enters here (contribution 2).
+- **Table 1** (differential, not definitional; R1, R2). Columns: oracy | literacy | algorithmacy. Rows:
+  1. form of relation; 2. what stands between; 3. who holds the verdict; 4. **can the two bypass it?**
+  (algorithmacy: no, or only at high cost: the row that does the most work); 5. primary demand on the
+  person; 6. characteristic failure. Draft cells so the table cannot be read as "literacy plus
+  technology". `[NEEDS: your cell wording]`
 
 ---
 
-## 5 Where Declined Responsibility Comes to Rest (1,000) — the link to actorhood
+## 4 Algorithmacy: What the People at the Corners Must Be Able to Do (2,450) — the parts
 
-**Purpose.** Answer contribution 1 (OQ-schoeneborn2026-06) at the level the paper works at. Your v6
-sentences moved here open it.
+- **¶4.0 Definition and the mapping** (≈250). The definition (decision 1), repeated once here and nowhere
+  else. Opaque → interpreting; binding → specifying intent; adaptive → keeping track. Each subsection
+  foregrounds one demand and treats the others as background (R1), and says what the platform binds in
+  its case.
+- **4.1 Interpreting: finding what caused an outcome** (≈550). About cause only (decision 5). Primary C3
+  (Hinds & von Krogh p. 4: pay and assignments through a manager's GenAI); second C1 (the eBay
+  provider's ranking, Stark & Vanden Broeck p. 14). GDOC L93, L103–105.
+- **4.2 Specifying intent: making it survive the platform** (≈550). Primary C1 (the rater writes to the
+  provider and is read by the platform); second C11 (replying to reviews, Justesen & Plesner p. 15). GDOC
+  L95, L107–109. Name what is bound in each case (asymmetric binding, ¶3.3).
+- **4.3 Keeping track: a rule that changes without notice** (≈500). Primary C4 (hiring, Hinds & von
+  Krogh p. 6); second C3 ("as the AI learns", p. 4). GDOC L97, L111–113. **Δ R2:** learning systems shift
+  the rule within a single interaction, not only between updates; this is where the tempo argument of
+  §6.3 is grounded.
+- **4.4 The cycle, shown once** (≈350). **Δ R1:** one micro-sequence in one ongoing exchange, built on C1
+  and labelled as illustration: the provider sees the ranking drop and asks whether the rater, the
+  platform or both caused it (interpreting); revises the listing so it survives the platform's scoring
+  and still speaks to buyers (specifying intent); watches later rankings after the rule changes (keeping
+  track). The sequence is the paper's reasoning on Stark & Vanden Broeck's case, not their report.
+  Repeated turns build the ability; one-off pairs are the hardest case, where nothing accumulates with
+  the same partner (decision 6; Orlikowski & Scott, 2014, AAM p. 42; Chong et al., 2024, p. 10).
+  **Figure 1:** the triangle with the cycle drawn between the two lower corners.
+- **4.5 Two ways to fail** (≈450). *Collapse:* C5 blind following (Hinds & von Krogh p. 7; scope cost
+  "guidance" vs "binding" stated); C2/C13 the partner picture. *Neutral channel:* C2 "the means of
+  communication among parties" (Stark & Vanden Broeck p. 9); the provider who takes the ranking as the
+  buyer's verdict (C1). GDOC L115–121. Flag: check Bucher et al.'s "pacifying the algorithm" pairing
+  before use. **Δ R2:** §4 ends here so that §5 can take up what these failures do to responsibility.
+- ~~¶4.6 Ability held for another~~ **Δ R2:** moved to §6.4, question 2.
 
-- **¶5.1 The deflection reaches people** (≈250). Your sentences: "When an automated system enters the
-  exchange…" (Rosenblat & Stark, 2016, p. 3772; Stark & Vanden Broeck, 2024, p. 14); Elish (2019) and the
-  car (Elish's own analogy, pp. 40–41). Case C7: Horizon (Patriotta et al. p. 11), where the system was "at
-  fault" and staff were accused. Limit: Horizon is employer and employee, not a platform between two
-  people.
-- **¶5.2 It lands where people cannot tell** (≈300). Scapegoating as the askers' own discharge case (C12,
-  Schoeneborn et al. p. 11); the platform's version runs to whichever of two people is blamed. Support
-  (non-OT, verified S14–S15): Lee et al. (2015, p. 1608), Chong et al. (2024, p. 7). The direction varies:
-  Fu et al. (2025, abstract) and Zheng & Zhu (2026, abstract). ⚠ Do not say it lands on people as a
-  rule.
-- **¶5.3 Readings, not attribution practices** (≈250). Schoeneborn et al. define attribution practices as
-  "recurrent instances of communication" (p. 9); a reading need not be voiced. The paper offers readings
-  as the place where attribution among platform, algorithm and counterpart is still undecided, and leaves
-  the direction open (OQ-schoeneborn2026-07, p. 14). ⚠ No attribution practice claimed; no claim that
-  readings discharge the platform.
-- **¶5.4 Competence that sustains the authority** (≈200). Your sentence "As the worker develops…" (moved
-  from v6 Contribution); cf. Cameron (2024, pp. 493–494); Justesen & Plesner's "unintended tasks"
-  (p. 22) and Hinds & von Krogh's "loss of orientation" (p. 11) moved from v6 Concern.
+---
+
+## 5 Where Declined Responsibility Comes to Rest (1,050) — the mechanism
+
+**Δ R2, R1:** turned from a list of limits into one positive mechanism, stated inside the constraints.
+Opening bridge (R1): the same practices that let people continue the exchange also leave the platform's
+declined actorhood undisturbed. `[NEEDS: your sentence]`
+
+- **¶5.1 Readings come before any voiced attribution** (≈250). Schoeneborn et al. define attribution
+  practices as "recurrent instances of communication" (p. 9). Before a person voices that the platform,
+  the algorithm or the counterpart answers for an outcome, the person has read the outcome. The paper's
+  claim is about that reading: it is where attribution among the three is still undecided. ⚠ Argued as a
+  relation (the reading comes first), not an identity (S13 §1.4: ASM asserted that interpreting is attribution; that does not hold). ⚠ No attribution practice claimed. R2 calls this the
+  "micro-foundation" of attribution; the outline keeps the weaker "comes before", which the definition on
+  p. 9 supports.
+- **¶5.2 When the reading fails, responsibility is misplaced** (≈350). **Δ R2:** open on a true triadic
+  case, not Horizon. The askers' own case first: C1, the deflection Stark & Vanden Broeck describe on
+  eBay ("Their twisted character makes it possible for the platform operator to deflect accountability",
+  p. 14); then the counterpart blamed, as support (Lee et al., 2015, p. 1608; Chong et al., 2024, p. 7).
+  Diagnosis does not settle responsibility: Fu et al. (2025, abstract) find consumers transferring
+  responsibility to the platform "even after recognizing the individual provider as the source of the
+  problem" (decision 5; read in full before submission or cut). ⚠ The direction varies (Zheng & Zhu,
+  2026, abstract); never "lands on people as a rule". Horizon (C7, Patriotta et al. p. 11) comes in
+  briefly as the intra-firm parallel: the same deflection with a formal employer present. Your sentences
+  moved here: Rosenblat & Stark; Elish and the car (Elish's own analogy, pp. 40–41).
+- **¶5.3 When the reading succeeds, the friction is absorbed** (≈300). **Δ R2.** Your sentence "As the
+  worker develops…" (moved from v6); cf. Cameron (2024, pp. 493–494). Justesen & Plesner's "unintended
+  tasks" (p. 22) and Hinds & von Krogh's "loss of orientation" (p. 11), moved from v6. **Conjecture,
+  marked as such:** competent absorption keeps routine breakdowns from surfacing as the public cases
+  Schoeneborn et al. take as salient (p. 14). ⚠ No source shows this; state it as a proposition for
+  research (§6.4, question 5), not a finding. Horizon is a cautionary note, not support: there the
+  misplacement ran "over the course of a decade" before it surfaced (Patriotta et al. p. 11).
+- **¶5.4 What this answers** (≈150). Back to OQ-schoeneborn2026-06 at the level the paper works at:
+  between the individual and the collective sits the exchange, and the burden of assigning responsibility
+  is carried there; whether the readings charge or discharge the platform stays open (OQ-07, p. 14).
 
 ---
 
 ## 6 Discussion (1,500)
 
-**Purpose.** Contributions in the introduction's order (model move 2); boundary conditions; generative AI
-at work; numbered research questions (model move 5).
-
-- **6.1 Contributions, in order** (≈600).
-  1. To Schoeneborn et al.'s responsibility question (p. 14): the everyday case they do not name (§5).
-  2. To Stark & Vanden Broeck's communication field (p. 15): the person's part (§3, Table 1).
-  3. To Hinds & von Krogh's blind following (p. 7): a name for what is missing (§4.5).
-  Each states what it does not do (no attribution practice; no measure; no claim that the triad is new).
-- **6.2 Boundary conditions** (≈350).
-  - One-off pairs (N1): TripAdvisor reviewers who "run away immediately" (Orlikowski & Scott, 2014, AAM
-    p. 42); customers "unlikely to meet the same driver again" (Chong et al., 2024, p. 10).
-    `[NEEDS: N1, within one exchange or across many]`
-  - Asymmetric triads, where the platform binds one side (Curchod et al., 2020; GDOC L109).
-  - Platforms that let a person adjust the verdict (GDOC L145, Lin et al., 2026).
-- **6.3 Generative AI as a platform** (≈300). Stark & Vanden Broeck p. 9 (professionals as users); Hinds &
-  von Krogh pp. 4, 6 (C3, C4). Your printing-press sentence (moved from v6 Contribution).
-  `[NEEDS: N4, why learning scales rather than changes the dynamic, against Hinds & von Krogh p. 4]`
-  Read owed: Pullen-Blasnik et al. (2024) for a professional case.
+- **6.1 Contributions, in the introduction's order** (≈600), each with what it does not do (R1):
+  1. Schoeneborn et al. p. 14 (§5); no attribution practice, no claim that the everyday case is
+     unstudied.
+  2. Stark & Vanden Broeck p. 15 (§3, Table 1); no claim that the triad or the third is new.
+  3. Hinds & von Krogh p. 7 (§4.5); "guidance" read as binding, stated.
+- **6.2 Boundary conditions** (≈300). Now fewer, since interdependence and binding are defined in §3.3
+  (R2): platforms that let a person adjust the verdict (GDOC L145, Lin et al., 2026); exchanges where one
+  side faces no scoring at all (Curchod et al., 2020; GDOC L109).
+- **6.3 Generative AI: same form, faster tempo** (≈350). **Δ R1, R2 (decision 7).** Your printing-press
+  sentence (moved from v6), with one sentence added that separates form from tempo: the triad is
+  unchanged; what learning changes is how fast and how far the rule moves, which intensifies keeping
+  track (§4.3). This takes in Hinds & von Krogh's "rather than being fixed, these functions and relations
+  are likely to evolve and expand as the AI learns" (p. 4) instead of contradicting it. ⚠ The absolute
+  "doesn't change this platform dynamic at all" goes (R1). `[NEEDS: your wording]` Read owed:
+  Pullen-Blasnik et al. (2024).
 - **6.4 Research questions** (≈250), numbered:
-  1. Do people's readings charge the platform or discharge it, and does the direction vary by what the
-     interface shows? (Schoeneborn et al. p. 14; Fu et al., abstract)
-  2. How is algorithmacy distributed among people in the same formal position, and who exercises it for
-     others? (C10)
-  3. Does it develop with turns at the cycle, and can it be taught? (the books sentence)
-  4. How do the three parts differ when the platform is a generative AI system at work? (C3, C4)
-  5. What does the ability do to the platform's authority over time? (§5.4)
-  `[NEEDS: your final list]`
+  1. Do readings charge the platform or discharge it, and does the direction vary with what the interface
+     shows? (Schoeneborn et al. p. 14; Fu et al., abstract)
+  2. Who holds algorithmacy among people in the same formal position, and who exercises it for others?
+     (C10: frontline staff helping citizens, Justesen & Plesner p. 13; **Δ R2**)
+  3. Does the ability grow with turns at the cycle, and can it be taught?
+  4. How do the three parts change when the apex is generative AI inside the firm? (C3, C4)
+  5. Does competent absorption keep routine breakdowns from becoming public? (§5.3 conjecture)
 
 ## 7 Conclusion (300)
 
-A plain restatement, not a call to arms (`writing-academic-prose/registers.md`, theory essay). Your line
-"We can't read our way out of or into this…" closes it (v6 Contribution, last sentence).
+Plain restatement; your closing line "We can't read our way out of or into this…".
 
 ---
 
-## Constraints by section (the "may not claim" lists)
+## Constraints by section
 
-| Section | Do not claim | Source of the rule |
+| Section | Do not claim | Rule |
 |---|---|---|
-| 1, 2 | that the everyday case is unstudied; that no one follows a decision to both sides; that no one studies attribution of actorhood to platforms; that the dyad-to-triad move is new | S14 §1.3 items 1, 2, 5; S15 §2.4 item 9 |
-| 3 | that the triad or the third position is new; that the intermediary binds both | REPORT; S14 §1.3 |
-| 4 | that customers' own blame accounts are missing; that no one asks whether customers can tell who is responsible | S15 §2.4 items 7, 8 |
-| 5 | that responsibility lands on people as a rule; that readings discharge the platform; an attribution practice | S14 §1.3 items 3, 4, 6 |
-| 6 | that the two people go on working together; that users failing to treat a platform as an actor is unshown | S15 §2.4 items 10, 11 |
+| 1, 2 | the everyday case unstudied; no one follows both sides; no one studies attribution of actorhood to platforms; the dyad-to-triad move new | S14 §1.3 (1, 2, 5); S15 §2.4 (9) |
+| 3 | the triad or the third new; the intermediary binds both | REPORT; S14 §1.3 |
+| 4 | customers' own blame accounts missing; no one asks whether customers can tell | S15 §2.4 (7, 8) |
+| 5 | responsibility lands on people as a rule; readings discharge the platform; an attribution practice; that absorption keeps breakdowns private (state as conjecture only) | S14 §1.3 (3, 4, 6); v2 |
+| 6 | that the pair goes on working together; that users failing to treat a platform as an actor is unshown | S15 §2.4 (10, 11) |
 
 ## Rivals and where each is cited
 
 | Work | Read | Section |
 |---|---|---|
 | Buhmann et al. (2021) | abstract | §2.1 |
-| Rahman, Karunakaran & Cameron (2024) | full (preprint) | §2.1, §3.2 |
+| Rahman et al. (2024) | full (preprint) | §2.1, §3.2 |
 | Ohme et al. (2025) | full (accepted ms.) | §2.4 |
-| Bujold et al. (2026) | full | §3.1 (apex), §4.0 |
-| Fu et al. (2025); Zheng & Zhu (2026) | abstract | §5.2 (marked "abstract"); read or cut before submission |
-| Lee et al. (2015); Chong et al. (2024); Curchod et al. (2020) | full | §4, §5 (support) |
-| Schüßler, Maric & Dobusch (2026); Maric (2025) | full | §2.1 (beside Schoeneborn et al. p. 13) |
-| Zelles et al. (2026) | full (S10) | §5.1 (displacement already found empirically) |
-| *Business & Society* special issue (call) | not read | submission note only; search OnlineFirst before submitting |
+| Bujold et al. (2026) | full | §3.1 |
+| Fu et al. (2025); Zheng & Zhu (2026) | abstract | §5.2; read or cut before submission |
+| Lee et al. (2015); Chong et al. (2024); Curchod et al. (2020) | full | §4.4, §5.2 (support) |
+| Schüßler, Maric & Dobusch (2026); Maric (2025) | full | §2.1 |
+| Zelles et al. (2026) | full (S10) | §5.2 |
+| *Business & Society* special issue | not read | submission note only |
 
-## References
+## Response to the two reviews
 
-Target ~60 (≈1,620 words). GDOC's list runs ~2,540 words: cut to the works the outline cites. Every entry
-verified against a database record at the citation audit (`auditing-citations`).
+| Point | Reviewer | Response | Where |
+|---|---|---|---|
+| Lock the opaque/binding/adaptive definition, once, early | R1, R2 | Adopted; R2's "interdependent exchange" wording proposed (decision 1) | §1, §4.0 |
+| Soften "dumped" and the responsibility claim in §1 | R1 | Adopted as a marked proposal | §1 map |
+| Cut or replace "misrepresentation" | R1, R2 | Adopted as a scope statement quoting p. 14 ("especially salient") | §1 map |
+| "completely separate" → "largely disconnected" | R1 | Adopted as a marked proposal | §1 map |
+| Bridge from the cycle to declined actorhood; one micro-sequence | R1 | Adopted; the micro-sequence is labelled the paper's reasoning on C1, not Stark & Vanden Broeck's report | §1, §4.4, §5 opening |
+| "AI is a platform" → the platform form imported into the firm | R2 | Adopted with Stark & Vanden Broeck p. 7 as anchor; refines your ruling (decision 10) | §3.1 |
+| §5 as a positive mechanism ("micro-foundation") | R2 | Adopted in a weaker form: readings come before voiced attribution (p. 9 supports this); "keeps breakdowns from escalating" kept as a conjecture for research, since no source shows it | §5.1, §5.3, §6.4 |
+| Interdependence within one exchange; asymmetric binding, in §3 | R2 | Adopted | §3.3 |
+| Printing press: form vs tempo | R1, R2 | Adopted | §4.3, §6.3 |
+| Compress ¶2.1–2.3, enlarge ¶2.4 | R2 | Adopted | §2 |
+| Literacy without "chained dyads"; criterion = can what stands between render a verdict | R2 | Adopted | §3.4 |
+| Cut ¶4.6, fold into research question 2 | R2 (R1 would keep it briefly) | Adopted R2: it keeps §4 ending on failure and handing to §5 | §6.4 |
+| Open §5 on a triadic case, Horizon as parallel | R2 | Adopted, but opened on the askers' own case (C1, Stark & Vanden Broeck p. 14) per your ruling on cases, with Lee et al. and Chong et al. as support | §5.2 |
+| Keep both visuals | R2 | Adopted | §3, §4.4 |
+| Table 1 differential, with the bypass row | R1, R2 | Adopted | §3 |
+| Rival wording for Buhmann, Ohme, Rahman | R1 | Adopted | §2.1, §2.4, §3.2 |
+| "Schoeneborn et al. … leave routine everyday transactions unexamined" (R2, decision 2) | R2 | Narrowed: true of their p. 14 cases; the wider "unexamined" is barred (S14 §1.3 item 1) | §1 map |
 
 ## Your decisions, collected
 
-1. The one-sentence definition (§1).
-2. The "misrepresentation" sentence (§1).
-3. A source for "stochastic", or "learning/probabilistic" (§3.1).
-4. Table 1 cell wording (§3); one visual or two (§4.4).
-5. N2 cause or responsibility (§4.1).
-6. N1 one exchange or many (§6.2).
-7. N4 the printing press (§6.3).
-8. The research-question list (§6.4).
-9. Literacy and chained dyads (§3.4).
+1. Definition wording (decision 1). 2. The scope statement replacing "misrepresentation". 3. The apex as
+the platform form imported into the firm (decision 10). 4. Bridge sentences in §1 and §5. 5. Table 1
+cells. 6. A source for outcome interdependence, if wanted. 7. The printing-press reconciliation sentence.
+8. The final research-question list.
 
-## Drafting order (from `MODEL_PAPERS.md`, adapted)
+## Drafting order
 
-§4 first (the parts on the cases), then §3, then §5, then §2, then §6–7; the introduction last, trimmed by
-the map above; the abstract after it.
+§4 → §3 → §5 → §2 → §6–7 → §1 (trim) → abstract. Decisions 1, 5, 6, 9 are locked above, as R2 asks.
