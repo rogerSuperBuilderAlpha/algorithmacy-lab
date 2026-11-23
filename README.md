@@ -435,6 +435,7 @@ Multi-experiment batteries on one theme.
 - **[Parity vs conjunctive under noise (agenda #8)](org_frontier/studies/parity_vs_conjunctive_noise/README.md)** — conjunctive hubs lose the triadic verdict at the **same** p*=0.5 under
 - **[Partial observation / estimability (agenda #24)](org_frontier/studies/partial_observation_screen/README.md)** — strict-mediation n=3 family, mean pairwise MI under full observation
 - **[Partial synchrony on quorum hubs](org_frontier/studies/partial_sync_quorum/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
+- **[The post-hoc party-noise factor, tested on new cases and refuted](org_frontier/studies/party_noise_factor/README.md)** — Both pre-registered hypotheses were refuted. The factor missed 10 of 20 cases; it held exactly for
 - **[Party vs mediator noise (agenda #7)](org_frontier/studies/party_vs_mediator_noise/README.md)** — mediator-column flip-noise collapse the triad at the **same** p*=0.5
 - **[Phase-lock under exact Φ (agenda V4 #2)](org_frontier/studies/phase_lock_exact_phi/README.md)** — multifamily panel (AUC **1.000**) where **alternation** cliffs
 - **[Φ-ascent adaptive mediator (agenda #14)](org_frontier/studies/phi_ascent_mediator/README.md)** — Φ does **not** converge to the conjunctive hub. Under fixed party
