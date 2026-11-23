@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 179,
+  "study": 180,
   "foundations": 9,
   "open": 15
  },
@@ -9644,6 +9644,17 @@
    "path": "org_frontier/studies/discriminant_scale_blur",
    "reproduce": [
     "python org_frontier/studies/discriminant_scale_blur/analyze_blur.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "drifting_ratio",
+   "title": "A fitted formula for the drifting ratio, tested and refuted",
+   "finding": "The fitted formula for the drifting ratio is refuted. On (1,1,1,3) quota 3 the measured ratios are 147.06517413692788, 76.2763609973792 and 41.48368774874131 at e = 0.05, 0.1 and 0.2, against predicted 199.9024781081887, 102.76545826383659 and 54.04909345311601 (relative errors 0.264, 0.258 and 0.232). The top tie set is {S, P4} at every rate, and quota 4 matches quota 3",
+   "path": "org_frontier/studies/drifting_ratio",
+   "reproduce": [
+    "python org_frontier/studies/drifting_ratio/run.py --quick"
    ],
    "runtime": "fast"
   },
