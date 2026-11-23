@@ -272,3 +272,9 @@ racker2024 and suddaby2024 (1 each).
 - S15a (Opus) read the new texts; S15b (Sonnet) reran Scholar Gateway (ACCESS_DENIED) and Semantic Scholar
   (HTTP 429 throughout): no records. The lead ran 6 Google Scholar queries in Chrome instead (no CAPTCHA;
   raw results in the store); S15c (Opus) screens the new hits. Then Fable rules (S15d).
+- **S15d applied (lead):** introduction v3 per `s15/RULING_S15.md` §1: HOLD passages released as
+  abstract-marked [C: …] text; Chong et al. (2024, ACM PDF fetched in Chrome, all nine quotations and pp. 7,
+  10 checked by the lead) joins Lee et al. and anchors the "everyday case"; Ohme et al. (2025) cited at A3;
+  Vesa & Tienari credited at X4; marked "cf. Cameron" on the author's K2 sentence; new [NEEDS] on one-off
+  pairs. The *Business & Society* call stays out of the text (submission note). Owed and needing the
+  author's sign-in: Fu et al., Zheng & Zhu, Khan.
