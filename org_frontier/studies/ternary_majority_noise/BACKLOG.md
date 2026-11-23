@@ -7,4 +7,4 @@
 4. **Why 7?** Derive the median's core/whole ratio (binary 4).
 5. **Mixed alphabets**: binary parties with a ternary mediator under noise.
 
-None of these had been started when this study's PR was opened.
+None of these had been started when this study's PR (#922) was opened; item 1 is now running as `ternary_lift_panel`.
