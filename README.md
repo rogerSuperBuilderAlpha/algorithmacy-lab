@@ -371,7 +371,6 @@ Multi-experiment batteries on one theme.
 - **[Forcing match: is a gated relayer bound exactly when the gate forces the value that settles the platform?](org_frontier/studies/forcing_match/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Formal vs informal cut (agenda #46)](org_frontier/studies/formal_informal_cut/README.md)** — map onto dyadic/triadic. Formal spans both (commit gate vs
 - **[Gate census: all 16 two-input rules for a switch-gated relayer under AND, OR and XOR platforms](org_frontier/studies/gate_census/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
-- **[Gate census, switch driven by R1](org_frontier/studies/gate_census_r1/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Gate match test: is a gated relayer bound exactly when its gate rule matches the platform rule?](org_frontier/studies/gate_match_test/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Gate source: does the switch rejoin the group if the group can reach it?](org_frontier/studies/gate_source/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Genuine bistability (agenda #13)](org_frontier/studies/genuine_bistability/README.md)** — triadic and dyadic attractors — beyond #109's sticky-mediator activity
