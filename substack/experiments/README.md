@@ -5,6 +5,7 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [A counting rule predicts how weak the whole is next to its strongest part](2026-11-23-a-counting-law.md) | [`org_frontier/studies/quorum_ratio_law/`](../../org_frontier/studies/quorum_ratio_law/) |
 | 2026-11-23 | [A platform binds only the people it both listens to and answers](2026-11-23-who-hears-back.md) | [`org_frontier/studies/who_hears_back/`](../../org_frontier/studies/who_hears_back/) |
 | 2026-11-23 | [When buyers and sellers deal directly, the kind of deal decides whether the platform stays in](2026-11-23-off-platform-deals.md) | [`org_frontier/studies/off_platform_deals/`](../../org_frontier/studies/off_platform_deals/) |
 | 2026-11-23 | [How fast a group bounces back doesn't tell you whether it holds together](2026-11-23-bouncing-back.md) | [`org_frontier/studies/flip_recovery/`](../../org_frontier/studies/flip_recovery/) |
