@@ -4,4 +4,4 @@
 2. **Strict side size 4** (n = 7) to check top φ = side size continues (2, 3, 4?).
 3. **Derive the φ = 6.0** unit {P, S1, S2} under OR side links (cause/effect repertoires).
 
-None of these had been started when this study's PR was opened.
+None of these had been started when PR #924 was opened.
