@@ -5,3 +5,5 @@
 2. Extend the survey to the other noise studies (`party_vs_mediator_noise`, `quorum_correlated_noise`,
    `noise_placement`) and to five- and six-party quorums.
 3. Add a raw-value check to the shared harness so a negative φ is logged, not floored, in future studies.
+
+Status: items 1–3 open as of 2026-11-23.
