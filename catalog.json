@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 138,
+  "study": 137,
   "foundations": 9,
   "open": 15
  },
@@ -9378,17 +9378,6 @@
    "path": "org_frontier/studies/algo_transparency",
    "reproduce": [
     "python org_frontier/studies/algo_transparency/analyze_transpar.py"
-   ],
-   "runtime": "fast"
-  },
-  {
-   "kind": "study",
-   "id": "asymmetric_sides",
-   "title": "Asymmetric sides: which side does a two-sided platform bind?",
-   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
-   "path": "org_frontier/studies/asymmetric_sides",
-   "reproduce": [
-    "python org_frontier/studies/asymmetric_sides/run.py --quick"
    ],
    "runtime": "fast"
   },
