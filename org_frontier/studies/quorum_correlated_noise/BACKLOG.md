@@ -11,3 +11,5 @@ Carried from `quorum_noise_sweep/BACKLOG.md` (item 1 done here, item 3 done for 
    1) to see how fast majority Φ falls to zero as errors become shared.
 5. **O04 registry hygiene**, then a ternary majority under input noise on the multivalued overlay.
 6. **Asynchronous update** on the noisy quorums.
+
+None of these has been started as of 2026-11-23.
