@@ -5,4 +5,4 @@
 2. **XOR platform with an OR gate** and with G driven by R1, R2, C1.
 3. **Noisy relayers** (carried over from `relay_length`).
 
-None of these had been started when PR #N was opened.
+None of these had been started when PR #947 was opened.
