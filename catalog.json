@@ -10952,6 +10952,17 @@
   },
   {
    "kind": "study",
+   "id": "switch_loop_member",
+   "title": "Switch loop member",
+   "finding": "Hypotheses fixed in [hypotheses.md](org_frontier/studies/switch_loop_member/hypotheses.md) before computing. All numbers from",
+   "path": "org_frontier/studies/switch_loop_member",
+   "reproduce": [
+    "python org_frontier/studies/switch_loop_member/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "template_coverage_census",
    "title": "Template coverage census — fifth template from the triad residual",
    "finding": "outside the four catalog templates (relay / conjunctive / additive / free). They are exactly the",
@@ -11156,17 +11167,6 @@
    "path": "org_frontier/studies/weighted_ratio_law",
    "reproduce": [
     "python org_frontier/studies/weighted_ratio_law/run.py --quick"
-   ],
-   "runtime": "fast"
-  },
-  {
-   "kind": "study",
-   "id": "weighted_swap_symmetry",
-   "title": "Weighted swap symmetry: rules with a heavy voter are lopsided like the interior quorums",
-   "finding": "Hypotheses were committed (2c3b153e) before computing. Values seen beforehand: (1,1,1,2) at ε = 0 for",
-   "path": "org_frontier/studies/weighted_swap_symmetry",
-   "reproduce": [
-    "python org_frontier/studies/weighted_swap_symmetry/run.py --quick"
    ],
    "runtime": "fast"
   },
