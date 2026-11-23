@@ -6030,6 +6030,17 @@
       "source": "org_frontier/studies/ejection_order/FINDINGS.md"
     },
     {
+      "name": "ternary-majority-noise",
+      "cmd": "python org_frontier/studies/ternary_majority_noise/run.py --quick",
+      "expect": [
+        "C1 binary MAJ3 control: PASS",
+        "median k=3 r=0.0  whole=0.000000",
+        "median k=3 r=0.1  whole=0.022209"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/ternary_majority_noise/FINDINGS.md"
+    },
+    {
       "name": "ternary-pivotality",
       "cmd": "python org_frontier/studies/ternary_pivotality/analyze_pivot.py",
       "expect": [
@@ -7477,6 +7488,16 @@
       ],
       "timeout": 120,
       "source": "org_frontier/studies/iit4_settings_robustness/FINDINGS.md"
+    },
+    {
+      "name": "quorum-ratio-law",
+      "cmd": "python org_frontier/studies/quorum_ratio_law/run.py --quick",
+      "expect": [
+        "2of4  e=0.2  whole=0.035822 top=0.179110 ratio=5.000000 law=5 n_ties=4 full_in_top=N ties=SP1,SP2,SP3,SP4",
+        "1of4  e=0.2  whole=1.110953 top=1.110953 ratio=1.000000 law=1 n_ties=1 full_in_top=Y ties=SP1P2P3P4"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/quorum_ratio_law/FINDINGS.md"
     }
   ]
 }
