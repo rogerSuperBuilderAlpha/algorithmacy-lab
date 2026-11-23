@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 133,
+  "study": 134,
   "foundations": 9,
   "open": 15
  },
@@ -10121,6 +10121,17 @@
    "path": "org_frontier/studies/ladder_gate_properties",
    "reproduce": [
     "python org_frontier/studies/ladder_gate_properties/analyze_properties.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "lazy_update",
+   "title": "Lazy update: nodes that sometimes keep their last state, on quorum hubs",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/lazy_update",
+   "reproduce": [
+    "python org_frontier/studies/lazy_update/run.py --quick"
    ],
    "runtime": "fast"
   },
