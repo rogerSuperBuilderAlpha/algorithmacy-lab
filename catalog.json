@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 162,
+  "study": 161,
   "foundations": 9,
   "open": 15
  },
@@ -10420,15 +10420,6 @@
     "python org_frontier/studies/noise_placement/run.py --quick"
    ],
    "runtime": "fast"
-  },
-  {
-   "kind": "study",
-   "id": "odd_input",
-   "title": "Odd input: does P or G at the gate's odd input pattern decide whether the group binds?",
-   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
-   "path": "org_frontier/studies/odd_input",
-   "reproduce": [],
-   "runtime": "unregistered"
   },
   {
    "kind": "study",
