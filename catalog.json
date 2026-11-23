@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 157,
+  "study": 158,
   "foundations": 9,
   "open": 15
  },
@@ -10892,6 +10892,17 @@
    "path": "org_frontier/studies/tie_audit",
    "reproduce": [
     "python org_frontier/studies/tie_audit/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "tie_set_membership",
+   "title": "Tie-set membership: the quorum_noise_sweep panel re-scored on ties",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464",
+   "path": "org_frontier/studies/tie_set_membership",
+   "reproduce": [
+    "python org_frontier/studies/tie_set_membership/run.py --quick"
    ],
    "runtime": "fast"
   },
