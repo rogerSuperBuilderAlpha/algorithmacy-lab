@@ -10945,8 +10945,10 @@
    "title": "Switch loop member",
    "finding": "Hypotheses fixed in [hypotheses.md](org_frontier/studies/switch_loop_member/hypotheses.md) before computing. All numbers from",
    "path": "org_frontier/studies/switch_loop_member",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/switch_loop_member/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
