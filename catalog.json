@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 152,
+  "study": 153,
   "foundations": 9,
   "open": 15
  },
@@ -9605,17 +9605,6 @@
   },
   {
    "kind": "study",
-   "id": "delay_quorum",
-   "title": "Delay on quorum hubs: a relay chain between the mediator and the parties",
-   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
-   "path": "org_frontier/studies/delay_quorum",
-   "reproduce": [
-    "python org_frontier/studies/delay_quorum/run.py --quick"
-   ],
-   "runtime": "fast"
-  },
-  {
-   "kind": "study",
    "id": "derangement_33_phi14",
    "title": "Derangement 3+3 Φ=14 law at n=6",
    "finding": "iff cycle type 3+3**. Dense sample: 6/40 of the 3+3 class all give full-core",
@@ -10622,6 +10611,17 @@
   },
   {
    "kind": "study",
+   "id": "relay_length",
+   "title": "Relay length: how long can the loop through other people be?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/relay_length",
+   "reproduce": [
+    "python org_frontier/studies/relay_length/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "residual_phase_boundary",
    "title": "Residual phase boundary (F28)",
    "finding": "that instability is shared with other classifier-uncertain forms (H3 refuted).** One-bit flips in",
@@ -10848,6 +10848,17 @@
    "path": "org_frontier/studies/threshold_majority_template",
    "reproduce": [
     "python org_frontier/studies/threshold_majority_template/analyze_threshold_majority.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "tie_audit",
+   "title": "Tie audit: do lab verdicts depend on how PyPhi breaks state ties?",
+   "finding": "Ties between equally maximal cause or effect states are everywhere (3,984 of 4,096 three-node forms have",
+   "path": "org_frontier/studies/tie_audit",
+   "reproduce": [
+    "python org_frontier/studies/tie_audit/run.py --quick"
    ],
    "runtime": "fast"
   },
