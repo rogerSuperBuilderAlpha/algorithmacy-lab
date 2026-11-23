@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 180,
+  "study": 181,
   "foundations": 9,
   "open": 15
  },
@@ -9903,6 +9903,15 @@
     "python org_frontier/studies/fielded_w_landmark/analyze_fielded.py"
    ],
    "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "five_party_ties",
+   "title": "Five identical parties: every one-sided verdict depends on PyPhi's tie-break",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), max over reachable states, threshold 1e-9. Hypotheses pushed in",
+   "path": "org_frontier/studies/five_party_ties",
+   "reproduce": [],
+   "runtime": "unregistered"
   },
   {
    "kind": "study",
