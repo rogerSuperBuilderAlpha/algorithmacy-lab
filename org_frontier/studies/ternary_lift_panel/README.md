@@ -18,3 +18,4 @@ Files: [hypotheses.md](hypotheses.md), [FINDINGS.md](FINDINGS.md), [results/resu
 [BACKLOG.md](BACKLOG.md).
 
 Pull request: [#928](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/pull/928).
+Follow-up: `ternary_ordinal_noise` (noise sweep and neighbour-only misreadings).
