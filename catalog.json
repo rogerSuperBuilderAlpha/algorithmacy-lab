@@ -10339,8 +10339,10 @@
    "title": "Off-platform deals: buyer–seller links that bypass a two-sided platform",
    "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
    "path": "org_frontier/studies/off_platform_deals",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/off_platform_deals/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
