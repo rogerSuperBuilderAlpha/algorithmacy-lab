@@ -359,6 +359,7 @@ Multi-experiment batteries on one theme.
 - **[ergodic_settling_time (Strand G / T8 residual)](org_frontier/studies/ergodic_settling_time/README.md)** — length does not separate whole-form triadic from dyadic (median **0.875**
 - **[ergodic_sticky_returns (Strand F4)](org_frontier/studies/ergodic_sticky_returns/README.md)** — sticky−memoryless = **0.0661** (≥ 0.05) remains (**H2 SUPPORTED**)
 - **[Fielded W × Φ landmark (agenda V4 #6)](org_frontier/studies/fielded_w_landmark/README.md)** — still predicts HUB / RING4 / POOL (acc=1.000), but a **fielded rater-
+- **[Weighted and five-party quorums under noise, read as tie sets](org_frontier/studies/five_six_node_quorum_ties/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Backlog items
 - **[Fixed-k atoms 5/9 at n=5](org_frontier/studies/fixed_k_atoms_n5/README.md)** — omit-derangements at fixed_k=3 give full-core triadic Φ=9.0. Atom **Φ=5** is a
 - **[FN-tail feature redesign](org_frontier/studies/fn_tail_feature_redesign/README.md)** — F28-motivated cheap fragility and algebraic table features to the Probe-125/131
 - **[Formal vs informal cut (agenda #46)](org_frontier/studies/formal_informal_cut/README.md)** — map onto dyadic/triadic. Formal spans both (commit gate vs

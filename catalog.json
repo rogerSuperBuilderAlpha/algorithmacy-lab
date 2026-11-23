@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 130,
+  "study": 131,
   "foundations": 9,
   "open": 15
  },
@@ -9824,6 +9824,17 @@
    "path": "org_frontier/studies/fielded_w_landmark",
    "reproduce": [
     "python org_frontier/studies/fielded_w_landmark/analyze_fielded.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "five_six_node_quorum_ties",
+   "title": "Weighted and five-party quorums under noise, read as tie sets",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Backlog items",
+   "path": "org_frontier/studies/five_six_node_quorum_ties",
+   "reproduce": [
+    "python org_frontier/studies/five_six_node_quorum_ties/run.py --quick"
    ],
    "runtime": "fast"
   },
