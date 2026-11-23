@@ -6197,6 +6197,15 @@
       "source": "org_frontier/studies/switch_loop_member/FINDINGS.md"
     },
     {
+      "name": "echo-switch",
+      "cmd": "python org_frontier/studies/echo_switch/run.py --quick",
+      "expect": [
+        "from_R3:AND3_g04 n=6 states=18 whole=0.415037 top=2.000000 top_states=2 full_bound=N pooled_ties=PR1,PR3,PR1R3"
+      ],
+      "timeout": 240,
+      "source": "org_frontier/studies/echo_switch/FINDINGS.md"
+    },
+    {
       "name": "regulator-capture",
       "cmd": "python org_frontier/studies/regulator_capture/analyze_capture.py",
       "expect": [
