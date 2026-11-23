@@ -5554,6 +5554,17 @@
       "source": "org_frontier/studies/noise_placement/FINDINGS.md"
     },
     {
+      "name": "lockstep-symmetry",
+      "cmd": "python org_frontier/studies/lockstep_symmetry/run.py --quick",
+      "expect": [
+        "C1 controls (atlas veto 0, AND hub 2.0): PASS",
+        "W'=S S'=W∧¬C C'=¬S         phi=2.000000 triadic=Y rule=Y lockstep=N antistep=Y",
+        "W'=S S'=AND C'=¬S          phi=0.000000 triadic=N rule=N lockstep=N antistep=Y"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/lockstep_symmetry/FINDINGS.md"
+    },
+    {
       "name": "placement-equality",
       "cmd": "python org_frontier/studies/placement_equality/run.py --quick",
       "expect": [
@@ -5605,6 +5616,53 @@
       ],
       "timeout": 60,
       "source": "org_frontier/studies/timescale_separation/FINDINGS.md"
+    },
+    {
+      "name": "lazy-update",
+      "cmd": "python org_frontier/studies/lazy_update/run.py --quick",
+      "expect": [
+        "C2 lambda=0 identity and noise_placement controls: PASS",
+        "MAJ3  mediator r=0.0  lam=0.5   states=4  whole=0.000000 top=0.367552 full_in_top=N ties=S",
+        "OR3   all      r=0.0  lam=0.75  states=16 whole=0.195650 top=0.750000 full_in_top=N ties=S,P1"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/lazy_update/FINDINGS.md"
+    },
+    {
+      "name": "memory-rules",
+      "cmd": "python org_frontier/studies/memory_rules/run.py --quick",
+      "expect": [
+        "C2 copy/plain identity and known-hub controls: PASS",
+        "MAJ3  party=copy   med=toggle states=4  whole=0.000000 top=1.000000 full_in_top=N ties=S",
+        "MAJ3  party=toggle med=plain  states=16 whole=0.000000 top=2.000000 full_in_top=N ties=SP2,SP3,SP2P3",
+        "OR3   party=copy   med=vote   states=4  whole=0.000000 top=0.077058 full_in_top=N ties=SP1P2,SP1P3,SP2P3"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/memory_rules/FINDINGS.md"
+    },
+    {
+      "name": "update-order-quorum",
+      "cmd": "python org_frontier/studies/update_order_quorum/run.py --quick",
+      "expect": [
+        "C2 deterministic, #62 construction and synchronous controls: PASS",
+        "OR3   order=S-P1-P2-P3   states=2  whole=0.000000 top=6.000000 full_in_top=N ties=P1P2P3",
+        "OR3   order=P1-P2-P3-S   states=2  whole=0.000000 top=1.000000 full_in_top=N ties=S",
+        "OR3   order=P1-S-P2-P3   states=3  whole=0.000000 top=6.000000 full_in_top=N ties=SP2P3"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/update_order_quorum/FINDINGS.md"
+    },
+    {
+      "name": "flip-recovery",
+      "cmd": "python org_frontier/studies/flip_recovery/run.py --quick",
+      "expect": [
+        "C1 synchronous OR3 hub: attractors=3 states_on_attractors=4",
+        "OR3/copy/plain         whole=3.000000 top=3.000000 attractors=3 recovery=1.0000 same=0.5000 transient=0.7500",
+        "OR3/and/plain          whole=0.000000 top=2.000000 attractors=8 recovery=0.3750 same=0.1250 transient=0.9375",
+        "OR3/S-P1-P2-P3         whole=0.000000 top=6.000000 attractors=2 recovery=1.0000 same=0.5000 transient=0.8750"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/flip_recovery/FINDINGS.md"
     },
     {
       "name": "commit-response-delay",
@@ -5931,6 +5989,67 @@
       "source": "org_frontier/studies/rival_platforms/FINDINGS.md"
     },
     {
+      "name": "two-sided-platform",
+      "cmd": "python org_frontier/studies/two_sided_platform/run.py --quick",
+      "expect": [
+        "C1 conjunctive triad whole Φ=2.000000: PASS",
+        "all_four         states=4  whole=4.000000 top=4.000000 full_in_top=Y ties=PB1B2S1S2",
+        "side_match       states=4  whole=0.000000 top=0.000000 full_in_top=N ties=-",
+        "fixed_pairs      states=4  whole=0.000000 top=0.000000 full_in_top=N ties=-"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/two_sided_platform/FINDINGS.md"
+    },
+    {
+      "name": "asymmetric-sides",
+      "cmd": "python org_frontier/studies/asymmetric_sides/run.py --quick",
+      "expect": [
+        "C1 conjunctive triad whole Φ=2.000000: PASS",
+        "C2 two_sided_platform side_match top 0: PASS",
+        "strict_buyers    states=4  whole=0.000000 top=2.000000 full_in_top=N ties=PB1,PB2,PB1B2",
+        "side_link_and    states=17 whole=0.830075 top=2.000000 full_in_top=N ties=B1B2,S1S2"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/asymmetric_sides/FINDINGS.md"
+    },
+    {
+      "name": "off-platform-deals",
+      "cmd": "python org_frontier/studies/off_platform_deals/run.py --quick",
+      "expect": [
+        "C1 conjunctive triad whole Φ=2.000000: PASS",
+        "C2 asymmetric_sides side_link_and whole 0.830075: PASS",
+        "cross_and        states=17 whole=0.830075 top=6.000000 full_in_top=N ties=PB1S1",
+        "one_pair_off     states=14 whole=0.000000 top=2.000000 full_in_top=N ties=B1S1"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/off_platform_deals/FINDINGS.md"
+    },
+    {
+      "name": "who-hears-back",
+      "cmd": "python org_frontier/studies/who_hears_back/run.py --quick",
+      "expect": [
+        "C1 conjunctive triad whole Φ=2.000000: PASS",
+        "C2 AND (4,4) = two_sided_platform all_four, whole Φ 4.0: PASS",
+        "AND r=4 t=4 states=4  whole=4.000000 top=4.000000 ties=PA1A2A3A4",
+        "AND r=2 t=4 states=4  whole=0.000000 top=2.000000 ties=PA1,PA2,PA1A2",
+        "AND r=4 t=2 states=10 whole=0.000000 top=2.000000 ties=PA1,PA2,PA1A2"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/who_hears_back/FINDINGS.md"
+    },
+    {
+      "name": "indirect-loops",
+      "cmd": "python org_frontier/studies/indirect_loops/run.py --quick",
+      "expect": [
+        "C1 conjunctive triad whole Φ=2.000000: PASS",
+        "direct        states=16 whole=0.000000 top=2.000000 full_in_top=N ties=PA1,PA2,PA1A2",
+        "relay_both    states=16 whole=2.000000 top=2.000000 full_in_top=N ties=PA2A4",
+        "relay_one     states=12 whole=0.000000 top=2.000000 full_in_top=N ties=PA1A3"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/indirect_loops/FINDINGS.md"
+    },
+    {
       "name": "regulator-capture",
       "cmd": "python org_frontier/studies/regulator_capture/analyze_capture.py",
       "expect": [
@@ -5993,6 +6112,28 @@
       ],
       "timeout": 60,
       "source": "org_frontier/studies/ejection_order/FINDINGS.md"
+    },
+    {
+      "name": "ternary-majority-noise",
+      "cmd": "python org_frontier/studies/ternary_majority_noise/run.py --quick",
+      "expect": [
+        "C1 binary MAJ3 control: PASS",
+        "median k=3 r=0.0  whole=0.000000",
+        "median k=3 r=0.1  whole=0.022209"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/ternary_majority_noise/FINDINGS.md"
+    },
+    {
+      "name": "ternary-lift-panel",
+      "cmd": "python org_frontier/studies/ternary_lift_panel/run.py --quick",
+      "expect": [
+        "C1 binary AND (1,1,1) = 2.0: PASS",
+        "C2 ternary min (2,2,2) = 3.169925: PASS",
+        "XOR-absdiff  k=3 r=0.1  whole=0.759836 triadic=yes"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/ternary_lift_panel/FINDINGS.md"
     },
     {
       "name": "ternary-pivotality",
@@ -6081,6 +6222,17 @@
       ],
       "timeout": 60,
       "source": "org_frontier/studies/graded_commit_verdict/FINDINGS.md"
+    },
+    {
+      "name": "ternary-ordinal-noise",
+      "cmd": "python org_frontier/studies/ternary_ordinal_noise/run.py --quick",
+      "expect": [
+        "C1 uniform controls (0.022209, 0.759836): PASS",
+        "triad absdiff k=3 ordinal r=0.1  whole=0.903754 full=yes",
+        "triad absdiff k=3 ordinal r=0.4  whole=0.275868 full=no"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/ternary_ordinal_noise/FINDINGS.md"
     },
     {
       "name": "mixed-radix-mediator",
@@ -7432,6 +7584,37 @@
       "timeout": 1200,
       "slow": true,
       "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/FINDINGS.md"
+    },
+    {
+      "name": "iit4-settings-robustness",
+      "cmd": "python org_frontier/studies/iit4_settings_robustness/run.py --quick",
+      "expect": [
+        "W1_S1_C1   default=2.000000 complete=2.000000 directed_bi=1.000000 temporal=1.000000 general_raw=0.000000 general_disc=1.000000 norm_none=2.000000",
+        "W1_S6_C1   default=0.500000 complete=0.500000 directed_bi=0.500000 temporal=0.500000 general_raw=0.000000 general_disc=0.500000 norm_none=0.500000"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/iit4_settings_robustness/FINDINGS.md"
+    },
+    {
+      "name": "consensus-pivotality",
+      "cmd": "python org_frontier/studies/consensus_pivotality/run.py --quick",
+      "expect": [
+        "C1 controls (AND3 3.0, MAJ3 0): PASS",
+        "h=232 sym=0011 phi=0.000000 triadic=N rule=N",
+        "h= 22 sym=0100 phi=0.471679 triadic=Y rule=Y"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/consensus_pivotality/FINDINGS.md"
+    },
+    {
+      "name": "quorum-ratio-law",
+      "cmd": "python org_frontier/studies/quorum_ratio_law/run.py --quick",
+      "expect": [
+        "2of4  e=0.2  whole=0.035822 top=0.179110 ratio=5.000000 law=5 n_ties=4 full_in_top=N ties=SP1,SP2,SP3,SP4",
+        "1of4  e=0.2  whole=1.110953 top=1.110953 ratio=1.000000 law=1 n_ties=1 full_in_top=Y ties=SP1P2P3P4"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/quorum_ratio_law/FINDINGS.md"
     }
   ]
 }
