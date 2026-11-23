@@ -5,6 +5,7 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [A third guess that didn't hold](2026-11-23-third-guess-wrong.md) | [`org_frontier/studies/echo_switch/`](../../org_frontier/studies/echo_switch/) |
 | 2026-11-23 | [Heavy voters, lopsided noise, and a factor of 256/257](2026-11-23-a-clean-factor.md) | [`org_frontier/studies/weighted_swap_symmetry/`](../../org_frontier/studies/weighted_swap_symmetry/) |
 | 2026-11-23 | [Not just anyone in the loop](2026-11-23-not-any-loop-member.md) | [`org_frontier/studies/switch_loop_member/`](../../org_frontier/studies/switch_loop_member/) |
 | 2026-11-23 | [Extremes don't care where the error is; middles do](2026-11-23-extremes-and-middles.md) | [`org_frontier/studies/swap_symmetry_panel/`](../../org_frontier/studies/swap_symmetry_panel/) |
