@@ -5554,6 +5554,17 @@
       "source": "org_frontier/studies/noise_placement/FINDINGS.md"
     },
     {
+      "name": "mixed-reads",
+      "cmd": "python org_frontier/studies/mixed_reads/run.py --quick",
+      "expect": [
+        "C1 controls (AND3 3.0): PASS",
+        "r=5 h=128 aligned=  4 phi=0.000000 tie_min=0.000000 tie_max=0.000000",
+        "r=0 h= 30 aligned= 30 phi=0.250000 tie_min=0.000000 tie_max=0.250000"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/mixed_reads/FINDINGS.md"
+    },
+    {
       "name": "tie-audit",
       "cmd": "python org_frontier/studies/tie_audit/run.py --quick",
       "expect": [
