@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 135,
+  "study": 142,
   "foundations": 9,
   "open": 15
  },
@@ -9383,6 +9383,17 @@
   },
   {
    "kind": "study",
+   "id": "asymmetric_sides",
+   "title": "Asymmetric sides: which side does a two-sided platform bind?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/asymmetric_sides",
+   "reproduce": [
+    "python org_frontier/studies/asymmetric_sides/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "commit_noise_phase",
    "title": "Commit-noise phase transition (agenda #6)",
    "finding": "down as a monotone glide on both the conjunctive hub (Φ 2.0→0) and the",
@@ -9851,6 +9862,17 @@
   },
   {
    "kind": "study",
+   "id": "flip_recovery",
+   "title": "Flip recovery: settling after a one-party nudge, joined to committed Φ",
+   "finding": "Hypotheses pushed in `ac0bf6f3` before computation. Φ values are the committed ones from",
+   "path": "org_frontier/studies/flip_recovery",
+   "reproduce": [
+    "python org_frontier/studies/flip_recovery/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "fn_tail_feature_redesign",
    "title": "FN-tail feature redesign",
    "finding": "F28-motivated cheap fragility and algebraic table features to the Probe-125/131",
@@ -10000,6 +10022,17 @@
    "path": "org_frontier/studies/hybrid_ff_recurrent_seam",
    "reproduce": [
     "python org_frontier/studies/hybrid_ff_recurrent_seam/analyze_hybrid_seam.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "iit4_settings_robustness",
+   "title": "IIT 4.0 settings robustness: does the dyad/triad verdict depend on PyPhi's partition settings?",
+   "finding": "Six of seven IIT 4.0 settings in the pinned PyPhi give the identical triadic set (24 of 256 strict-mediation",
+   "path": "org_frontier/studies/iit4_settings_robustness",
+   "reproduce": [
+    "python org_frontier/studies/iit4_settings_robustness/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -10236,6 +10269,17 @@
   },
   {
    "kind": "study",
+   "id": "memory_rules",
+   "title": "Memory rules: deterministic self-loops on quorum hubs",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/memory_rules",
+   "reproduce": [
+    "python org_frontier/studies/memory_rules/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "mincut_mip",
    "title": "Min-cut MIP (#49)",
    "finding": "(Q49 H5). For the #47 families a *normalized GID cut-weight* theorem",
@@ -10297,6 +10341,17 @@
    "path": "org_frontier/studies/noise_placement",
    "reproduce": [
     "python org_frontier/studies/noise_placement/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "off_platform_deals",
+   "title": "Off-platform deals: buyer–seller links that bypass a two-sided platform",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/off_platform_deals",
+   "reproduce": [
+    "python org_frontier/studies/off_platform_deals/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -10666,6 +10721,17 @@
   },
   {
    "kind": "study",
+   "id": "ternary_majority_noise",
+   "title": "Ternary majority under noise: a three-valued majority vote vs the yes/no one",
+   "finding": "Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`",
+   "path": "org_frontier/studies/ternary_majority_noise",
+   "reproduce": [
+    "python org_frontier/studies/ternary_majority_noise/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "ternary_pivotality",
    "title": "Ternary pivotality (#1)",
    "finding": "control holds. Stock pin still rejects ternary SBS. Vendored overlay",
@@ -10738,6 +10804,17 @@
    "path": "org_frontier/studies/two_triad_shared_member",
    "reproduce": [
     "python org_frontier/studies/two_triad_shared_member/analyze_shared_member.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "update_order_quorum",
+   "title": "Update order on quorum hubs",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/update_order_quorum",
+   "reproduce": [
+    "python org_frontier/studies/update_order_quorum/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -10933,10 +11010,10 @@
    "kind": "open",
    "id": "O04",
    "question": "Does the two-condition membership account hold when a party has more than two states?",
-   "status": "open",
+   "status": "answered",
    "needs": "compute",
-   "where": "org_frontier/designs/WAVE10_PARKED_DESIGNS.md #5; the multivalued overlay in third_party/pyphi_iit4_mv/ now supplies the tooling",
-   "first_command": "python third_party/pyphi_iit4_mv/smoke_m2.py",
+   "where": "org_frontier/studies/ternary_pivotality/FINDINGS.md (TWO_CONDITION_STATE_DEPENDENT: at the all-engaged ternary state (2,2,2) non-bidirectional parties drop out and the faithful triad keeps {W,S,C}; at the mid-grade state (1,1,1) the faithful core shrinks); org_frontier/studies/mixed_radix_mediator/FINDINGS.md (a ternary mediator over binary parties moves Φ, not membership); tooling third_party/pyphi_iit4_mv/",
+   "first_command": "python org_frontier/studies/ternary_pivotality/analyze_pivot.py",
    "path": "OPEN_QUESTIONS.md"
   },
   {

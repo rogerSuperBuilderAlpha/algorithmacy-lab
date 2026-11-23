@@ -1,0 +1,3557 @@
+{
+ "pyphi_version": "1.2.1.dev1470+gb78d0e342",
+ "phi_eps": 1e-09,
+ "settings": {
+  "default": {},
+  "complete": {
+   "SYSTEM_PARTITION_INCLUDE_COMPLETE": true
+  },
+  "directed_bi": {
+   "SYSTEM_PARTITION_TYPE": "DIRECTED_BI"
+  },
+  "temporal": {
+   "SYSTEM_PARTITION_TYPE": "TEMPORAL_DIRECTED_BI"
+  },
+  "general_raw": {
+   "SYSTEM_PARTITION_TYPE": "GENERAL"
+  },
+  "general_disc": {
+   "SYSTEM_PARTITION_TYPE": "GENERAL"
+  },
+  "norm_none": {
+   "DISTINCTION_PHI_NORMALIZATION": "NONE"
+  }
+ },
+ "hypotheses": {
+  "H1": "SUPPORTED",
+  "H2": "SUPPORTED",
+  "H3": "SUPPORTED",
+  "H4": "SUPPORTED",
+  "H5": "SUPPORTED"
+ },
+ "rows": [
+  {
+   "group": "family",
+   "form": "W0_S0_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S1_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S2_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S3_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S4_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S5_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S6_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S7_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S8_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S9_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S10_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S11_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S12_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S13_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S14_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S15_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S0_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S1_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S2_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S3_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S4_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S5_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S6_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S7_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S8_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S9_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S10_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S11_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S12_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S13_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S14_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S15_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S0_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S1_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S2_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S3_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S4_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S5_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S6_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S7_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S8_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S9_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S10_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S11_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S12_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S13_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S14_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S15_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S0_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S1_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S2_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S3_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S4_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S5_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S6_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S7_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S8_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S9_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S10_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S11_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S12_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S13_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S14_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W0_S15_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S0_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S1_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S2_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S3_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S4_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S5_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S6_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S7_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S8_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S9_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S10_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S11_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S12_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S13_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S14_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S15_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S0_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S1_C1",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S2_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S3_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S4_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S5_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S6_C1",
+   "phi": {
+    "default": 0.5,
+    "complete": 0.5,
+    "directed_bi": 0.5,
+    "temporal": 0.5,
+    "general_raw": 0.0,
+    "general_disc": 0.5,
+    "norm_none": 0.5
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S7_C1",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S8_C1",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S9_C1",
+   "phi": {
+    "default": 0.5,
+    "complete": 0.5,
+    "directed_bi": 0.5,
+    "temporal": 0.5,
+    "general_raw": 0.0,
+    "general_disc": 0.5,
+    "norm_none": 0.5
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S10_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S11_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S12_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S13_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S14_C1",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S15_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S0_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S1_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S2_C2",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S3_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S4_C2",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S5_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S6_C2",
+   "phi": {
+    "default": 0.5,
+    "complete": 0.5,
+    "directed_bi": 0.5,
+    "temporal": 0.5,
+    "general_raw": 0.0,
+    "general_disc": 0.5,
+    "norm_none": 0.5
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S7_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S8_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S9_C2",
+   "phi": {
+    "default": 0.5,
+    "complete": 0.5,
+    "directed_bi": 0.5,
+    "temporal": 0.5,
+    "general_raw": 0.0,
+    "general_disc": 0.5,
+    "norm_none": 0.5
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S10_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S11_C2",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S12_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S13_C2",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S14_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S15_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S0_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S1_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S2_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S3_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S4_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S5_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S6_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S7_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S8_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S9_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S10_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S11_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S12_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S13_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S14_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W1_S15_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S0_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S1_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S2_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S3_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S4_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S5_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S6_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S7_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S8_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S9_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S10_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S11_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S12_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S13_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S14_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S15_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S0_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S1_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S2_C1",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S3_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S4_C1",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S5_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S6_C1",
+   "phi": {
+    "default": 0.5,
+    "complete": 0.5,
+    "directed_bi": 0.5,
+    "temporal": 0.5,
+    "general_raw": 0.0,
+    "general_disc": 0.5,
+    "norm_none": 0.5
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S7_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S8_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S9_C1",
+   "phi": {
+    "default": 0.5,
+    "complete": 0.5,
+    "directed_bi": 0.5,
+    "temporal": 0.5,
+    "general_raw": 0.0,
+    "general_disc": 0.5,
+    "norm_none": 0.5
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S10_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S11_C1",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S12_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S13_C1",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S14_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S15_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S0_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S1_C2",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S2_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S3_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S4_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S5_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S6_C2",
+   "phi": {
+    "default": 0.5,
+    "complete": 0.5,
+    "directed_bi": 0.5,
+    "temporal": 0.5,
+    "general_raw": 0.0,
+    "general_disc": 0.5,
+    "norm_none": 0.5
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S7_C2",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S8_C2",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S9_C2",
+   "phi": {
+    "default": 0.5,
+    "complete": 0.5,
+    "directed_bi": 0.5,
+    "temporal": 0.5,
+    "general_raw": 0.0,
+    "general_disc": 0.5,
+    "norm_none": 0.5
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S10_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S11_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S12_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S13_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S14_C2",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S15_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S0_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S1_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S2_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S3_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S4_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S5_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S6_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S7_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S8_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S9_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S10_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S11_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S12_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S13_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S14_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W2_S15_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S0_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S1_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S2_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S3_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S4_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S5_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S6_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S7_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S8_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S9_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S10_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S11_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S12_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S13_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S14_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S15_C0",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S0_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S1_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S2_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S3_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S4_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S5_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S6_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S7_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S8_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S9_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S10_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S11_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S12_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S13_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S14_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S15_C1",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S0_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S1_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S2_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S3_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S4_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S5_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S6_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S7_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S8_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S9_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S10_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S11_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S12_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S13_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S14_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S15_C2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S0_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S1_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S2_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S3_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S4_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S5_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S6_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S7_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S8_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S9_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S10_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S11_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S12_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S13_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S14_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "family",
+   "form": "W3_S15_C3",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "q215",
+   "form": "CTRL+",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "q215",
+   "form": "CTRL-",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "q215",
+   "form": "E1",
+   "phi": {
+    "default": 3.0,
+    "complete": 3.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 3.0
+   }
+  },
+  {
+   "group": "q215",
+   "form": "E2",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "q215",
+   "form": "E3",
+   "phi": {
+    "default": 3.0,
+    "complete": 3.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 3.0
+   }
+  },
+  {
+   "group": "q215",
+   "form": "E4",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "q215",
+   "form": "E5",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "q215",
+   "form": "E6",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "q215",
+   "form": "E7",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "q215",
+   "form": "E8",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "classifier",
+   "form": "chat_dyad",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "classifier",
+   "form": "gig_dyadic_model",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "classifier",
+   "form": "ats_triad_mediator",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  },
+  {
+   "group": "classifier",
+   "form": "ats_feedback_factors",
+   "phi": {
+    "default": 0.0,
+    "complete": 0.0,
+    "directed_bi": 0.0,
+    "temporal": 0.0,
+    "general_raw": 0.0,
+    "general_disc": 0.0,
+    "norm_none": 0.0
+   }
+  },
+  {
+   "group": "classifier",
+   "form": "gig_false_dyad",
+   "phi": {
+    "default": 2.0,
+    "complete": 2.0,
+    "directed_bi": 1.0,
+    "temporal": 1.0,
+    "general_raw": 0.0,
+    "general_disc": 1.0,
+    "norm_none": 2.0
+   }
+  }
+ ]
+}

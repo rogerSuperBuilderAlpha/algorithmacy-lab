@@ -1,0 +1,928 @@
+{
+ "pyphi_version": "1.2.1.dev1470+gb78d0e342",
+ "phi_eps": 1e-09,
+ "hypotheses": {
+  "H1": "REFUTED",
+  "H2": "SUPPORTED",
+  "H3": "SUPPORTED",
+  "H4": "SUPPORTED",
+  "H5": "SUPPORTED",
+  "H6": "REFUTED"
+ },
+ "rows": [
+  {
+   "form": "strict_buyers",
+   "n_states": 4,
+   "whole_phi": 0.0,
+   "top": 2.0,
+   "top_state": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "top_ties": [
+    "PB1",
+    "PB2",
+    "PB1B2"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.09997438726491449,
+     "full_phi": 0.0,
+     "ties": [
+      "PB1",
+      "PB2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PB1",
+      "PB2",
+      "PB1B2"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "strict_sellers",
+   "n_states": 4,
+   "whole_phi": 0.0,
+   "top": 2.0,
+   "top_state": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "top_ties": [
+    "PS1",
+    "PS2",
+    "PS1S2"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.09997438726491431,
+     "full_phi": 0.0,
+     "ties": [
+      "PS1",
+      "PS2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PS1",
+      "PS2",
+      "PS1S2"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "strict_buyers_3",
+   "n_states": 4,
+   "whole_phi": 0.0,
+   "top": 3.0,
+   "top_state": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "top_ties": [
+    "PB1B2B3"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.040400312117899254,
+     "full_phi": 0.0,
+     "ties": [
+      "PB1",
+      "PB2",
+      "PB3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 3.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PB1B2B3"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "loose_or_strict",
+   "n_states": 4,
+   "whole_phi": 0.0,
+   "top": 2.0,
+   "top_state": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "top_ties": [
+    "PS1",
+    "PS2",
+    "PS1S2"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PS1",
+      "PS2",
+      "PS1S2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.09997438726491449,
+     "full_phi": 0.0,
+     "ties": [
+      "PS1",
+      "PS2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "side_link_and",
+   "n_states": 17,
+   "whole_phi": 0.8300749985576875,
+   "top": 2.0,
+   "top_state": [
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   "top_ties": [
+    "B1B2",
+    "S1S2"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.8300749985576875,
+     "ties": [
+      "B1B2",
+      "S1S2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.8300749985576875,
+     "ties": [
+      "B1B2",
+      "S1S2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.8300749985576875,
+     "ties": [
+      "B1B2",
+      "S1S2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.8300749985576875,
+     "ties": [
+      "B1B2",
+      "S1S2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.8300749985576875,
+     "ties": [
+      "B1B2",
+      "S1S2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.8300749985576875,
+     "ties": [
+      "B1B2",
+      "S1S2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.8300749985576875,
+     "ties": [
+      "B1B2",
+      "S1S2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.8300749985576875,
+     "ties": [
+      "B1B2",
+      "S1S2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.8300749985576875,
+     "ties": [
+      "B1B2",
+      "S1S2"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "side_link_or",
+   "n_states": 17,
+   "whole_phi": 0.0,
+   "top": 6.0,
+   "top_state": [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "top_ties": [
+    "PS1S2"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "B1B2",
+      "S1S2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 6.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PS1S2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     "top": 6.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PS1S2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 6.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PS1S2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 6.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PB1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      1,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      1,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 6.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PB1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 6.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PB1B2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "form": "side_match_copy",
+   "n_states": 4,
+   "whole_phi": 0.0,
+   "top": 0.0,
+   "top_state": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "top_ties": [],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    }
+   ]
+  }
+ ]
+}
