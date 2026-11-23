@@ -10941,6 +10941,17 @@
   },
   {
    "kind": "study",
+   "id": "weighted_ratio_law",
+   "title": "Weighted ratio law: does the counting law survive one heavy voter?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464",
+   "path": "org_frontier/studies/weighted_ratio_law",
+   "reproduce": [
+    "python org_frontier/studies/weighted_ratio_law/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "who_broke_prod",
    "title": "WHO BROKE PROD? — incident attribution under coordination topologies",
    "finding": "is the largest single lever on attribution accuracy, and chain relaying is the largest topology cost. A",

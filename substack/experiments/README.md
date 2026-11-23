@@ -5,6 +5,7 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [One heavy voter breaks the counting rule](2026-11-23-one-heavy-voter.md) | [`org_frontier/studies/weighted_ratio_law/`](../../org_frontier/studies/weighted_ratio_law/) |
 | 2026-11-23 | [A counting rule predicts how weak the whole is next to its strongest part](2026-11-23-a-counting-law.md) | [`org_frontier/studies/quorum_ratio_law/`](../../org_frontier/studies/quorum_ratio_law/) |
 | 2026-11-23 | [We checked whether a hidden coin-flip in the software changed any of our results. It didn't.](2026-11-23-the-coin-flip-check.md) | [`org_frontier/studies/tie_audit/`](../../org_frontier/studies/tie_audit/) |
 | 2026-11-23 | [A platform's loop can run through other people, and then it binds the whole group](2026-11-23-loops-through-people.md) | [`org_frontier/studies/indirect_loops/`](../../org_frontier/studies/indirect_loops/) |
