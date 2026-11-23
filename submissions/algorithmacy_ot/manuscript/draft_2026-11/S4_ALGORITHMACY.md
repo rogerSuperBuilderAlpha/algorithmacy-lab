@@ -96,11 +96,8 @@ their report. The provider's ranking drops after a sale. She asks whether the bu
 platform's weighting or both moved it: interpreting. She revises her listing so that it speaks to the next
 buyer and still scores well with the platform: specifying intent. She watches the rankings that follow, to
 learn whether the weighting itself has changed: keeping track. What she learns at the third step changes
-what she will read at the first step of the next exchange.]** Competence in this environment develops as a
-participant's understanding of the work changes across successive encounters with it (Sandberg, 2000).
-Yet over time, direct experience lets workers anticipate automated patterns. Delivery drivers with long
-tenure on platforms learn to recognize shifting system prompts and selectively depart from algorithmic
-guidance to improve delivery routes (Jiang & Sinchaisri, 2025).
+what she will read at the first step of the next exchange.]** Competence in this environment develops as a participant's understanding of the work changes ~~across successive encounters with it~~ (Sandberg, 2000).
+Yet over time, direct experience lets workers anticipate automated patterns. Delivery ~~drivers~~ **[C: workers]** with long tenure ~~on platforms learn to recognize shifting system prompts and selectively depart from algorithmic guidance to improve delivery routes~~ **[C: rely less on the platform's order recommendations]** (Jiang & Sinchaisri, 2025).
 
 **[C: Turns at the cycle build the ability, and people with more turns may hold more of it than others in
 the same formal position. The hardest case is the pair that meets once. TripAdvisor's reviewers are
@@ -115,17 +112,14 @@ here: the triangle, with the cycle of the three parts drawn between the two lowe
 Workers fail to navigate these demands when they mistake the three-way relationship for a two-way
 exchange. The first failure mode occurs when a worker collapses the triad into a pair of herself and the
 machine, treating the software as the only thing that matters and viewing the counterpart as mere noise.
-**[C: Hinds and von Krogh (2024) name the risk for teams. Mayo's medical teams showed "emergent
-interdependence," which "was organic and associated with better patient outcomes. With the introduction of
+**[C: Hinds and von Krogh (2024) name the risk for teams. Some of the medical teams Mayo (2022, as cited in Hinds & von Krogh, 2024) studied showed "emergent interdependence," which "was organic and associated with better patient outcomes. With the introduction of
 GenAI, might emergent interdependence be disrupted because team members blindly follow guidance from the
 AI?" (p. 7). Guidance binds de facto wherever setting it aside carries a cost (§3), and a member who
 follows it blindly has let the colleague drop out of the exchange. The askers' own picture of the
 technology invites this collapse. Stark and Vanden Broeck (2024) see a line crossed "when technologies are
 no longer merely the means of communication among parties but themselves become communication partners"
 (p. 9), and Phillips, Kalvapalle and Kennedy (2024) describe a mode in which the system "remains, in this
-case, very much subordinate to the human partner" (p. 9). Each picture has two parties. The collapse
-treats the second person as one of them.]** `[NEEDS: "one of them" — check this joint reads as you intend:
-the point is that the person treats the system as their only partner.]`
+case, very much subordinate to the human partner" (p. 9). Each picture has two parties, a person and the system, and the collapse leaves the other person out of it.]**
 
 The second failure mode occurs when participants treat the platform as a neutral channel between two
 people, ignoring the evaluating software. **[C: This is the other half of Stark and Vanden Broeck's (2024)
@@ -193,3 +187,12 @@ begins, which the next section takes up.]**
    condition, not a finding.
 5. **The [C: …] sentences are Claude's** and will read as machine-made by the 29 Sep tests. Each is built
    on a quoted passage, so you can rewrite it from the source.
+
+### Edits of 23 Nov
+- The "one of them" [NEEDS] resolved in Claude's own sentence: "Each picture has two parties, a person and the system, and the collapse leaves the other person out of it."
+
+### Citation-audit edits (S16, 23 Nov)
+- Sandberg (2000): "across successive encounters with it" struck — Sandberg's two forms of competence development do not tie change to successive encounters (p. 21, per audit B). DOI 10.5465/1556383.
+- Jiang & Sinchaisri (2025): restated to what the paper shows — "experienced workers develop their own strategies and increasingly deviate from algorithmic recommendations" (checked in the stored text). The authors "cannot observe algorithm or interface changes" (audit A), so "recognize shifting system prompts" and "improve delivery routes" are struck. The sentence now supports turns at the cycle more than keeping track.
+- Mayo (2022): "Some of the medical teams Mayo (2022, as cited in Hinds & von Krogh, 2024) studied" — only some showed emergent interdependence (audit B); cited secondarily, so Mayo is not in the reference list.
+- Daft & Lengel (1986): the gloss "confusing data that supports multiple, conflicting explanations" is not in the abstract; check against the article.

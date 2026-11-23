@@ -283,3 +283,17 @@ racker2024 and suddaby2024 (1 each).
   open questions in `QUESTIONS.tsv` (table in the file). The lead checked all 18 quotations against the
   text layers (all on the stated pages) and built the references from Crossref. v3 kept as
   `INTRODUCTION_5C_v3.md`.
+
+## 23 Nov 2026: S16 (draft completion, citation audit, references, submission package), Roger: "do all of that"
+
+- Text decisions applied as marked edits in `manuscript/draft_2026-11/` (NEEDS resolved; "coordinate" out of
+  the author's sentences; five strong sentences hedged; deskilling paradox placed in §6; Table 1 and keywords
+  adopted). Fu et al. and Ohme et al. cited by issue year (2026).
+- Citation audit of 31 GDOC-carried sources plus 4 new (Opus ×2, `s16/AUDIT_A.md`, `AUDIT_B.md`); the lead
+  spot-checked the evidence for every change applied (Oeldorf-Hirsch p. 695 and Jiang & Sinchaisri in stored
+  text; Guzman & Lewis could not be opened: flagged, not changed).
+- SAGE AI policy read in Chrome (copy in the store); disclosure drafted on the title page.
+- Reference list (54) from Crossref and audit records; in-text/list cross-check clean.
+- Submission package `manuscript/submission_2026-11/` (anonymized .docx built with pandoc + python-docx).
+- Not possible: reading Fu et al. / Zheng & Zhu (institutional sign-in); rewriting the [C:] sentences in the
+  author's words.

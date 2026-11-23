@@ -29,8 +29,7 @@ sorting communicative abilities on one criterion, what stands between the people
 The boundary between these organizational forms depends on who holds the final say over joint work. When
 an inscribed document moderates an interaction, human participants retain ultimate authority to interpret
 the text and resolve disputes between themselves. When an algorithmic platform arbitrates the
-relationship, the software extracts supervisory power and issues binding outcomes that neither participant
-can overturn. **[C: The comparison does not claim that the triad, or a third that decides, is new; Simmel
+relationship, the software extracts supervisory power and issues binding outcomes that neither participant can **[C: readily]** overturn. **[C: The comparison does not claim that the triad, or a third that decides, is new; Simmel
 drew the arbitrator, and Rahman, Karunakaran and Cameron (2024) have read the platform through him. What
 the comparison adds is the ability that goes with the form.]**
 
@@ -38,10 +37,9 @@ the comparison adds is the ability that goes with the form.]**
 from the AI" (p. 7). Blind following is the first failure in §4: the member collapses the triad into a pair
 of herself and the machine, and the colleague drops out. Algorithmacy names what such a member lacks.]**
 This structural distinction clarifies what prior accounts of platform labor leave out. While pioneering
-models of algorithmic competency examined how workers navigate automated task allocation, they framed the
-relationship as an isolated struggle between an individual worker and software (Jarrahi & Sutherland,
+models of algorithmic competency examined how workers navigate automated task allocation, they framed the relationship as ~~an isolated~~ **[C: a]** struggle between an individual worker and software (Jarrahi & Sutherland,
 2019). The triadic framework brings the counterpart back into view, showing that workers do not simply
-manage a machine; they coordinate with clients, peers, and supervisors through an intermediary that
+manage a machine; they ~~coordinate~~ **[C: work]** with clients, peers, and supervisors through an intermediary that
 evaluates them.
 
 Adopting a triadic standard does not discard established findings on how individuals adapt to automated
@@ -62,14 +60,16 @@ media (see Hancock et al., 2020).
 
 **[C: Because §3 defines the triad by outcome interdependence within one exchange and by asymmetric
 binding, two conditions that might have limited the argument are part of it: the pair that meets once,
-and the platform that binds one side harder than the other. Two others remain.]** Conversely, systems that
-permit human adjustment reduce the competence required of frontline staff, as seen when managers actively
-modify how algorithmic ratings are computed before enacting decisions (Lin et al., 2026). **[C: Where a
+and the platform that binds one side harder than the other. Two others remain.]** ~~Conversely, systems~~ **[C: Systems]** that permit human adjustment ~~reduce~~ **[C: may reduce]** the competence required of frontline staff~~, as seen when managers actively modify how algorithmic ratings are computed before enacting decisions~~ **[C: : when the advised rating is low, managers allowed to adjust how the algorithm computes it use the algorithm more (Lin et al., 2026, abstract)]** ~~(Lin et al., 2026)~~. **[C: Where a
 person can change the verdict, the third is a moderator again, and literacy may suffice.]** Platforms often
 enforce asymmetric governance, binding one participant with strict performance metrics while giving the
 other considerable latitude (Curchod et al., 2020). Research should determine whether the burden of
 algorithmacy inevitably falls on the party facing the greatest performance scrutiny, or whether
 unconstrained participants also adapt their communication to protect collaborative relationships.
+
+### Deskilling and the Demand for Algorithmacy
+
+**[C: The argument suggests a proposition about skill that the paper states and does not test.]** Classic labor process theory established that managerial control systematically strips craft knowledge from manual tasks to discipline labor (Braverman, 1974). Gandini (2019) carries labor process theory over to gig platforms, and platform organizing extends this dynamic by partitioning work into simple tasks that are algorithmically assigned (Faraj & Pachidi, 2021). Yet treating algorithmic management solely as task deskilling misses a crucial organizational paradox. As an automated system simplifies physical or administrative tasks, it ~~dramatically increases~~ **[C: may increase]** the relational demands of the triadic relationship. The less craft skill a task requires, the more a worker’s standing depends on her ability to interpret opaque verdicts, specify intent through algorithmic filters, and track silent rule changes. Task deskilling and the demand for algorithmacy are two sides of the same organizational arrangement. **[C: If the proposition holds, the same arrangement that strips skill from the task asks more of the person at each corner, which is the third research question below.]**
 
 ### Generative AI: The Same Form, a Faster Tempo
 
@@ -80,15 +80,14 @@ collaboration, they act as automated arbiters between people. **[C: These are th
 and von Krogh: the manager who evaluates employees with generative AI (p. 4) and the hiring system that
 grows "inaccessible to the manager" (p. 6). In Stark and Vanden Broeck's (2024) terms, the platform form
 arrives inside the firm, where "Many professionals encounter algorithmic management as users" (p. 9).]**
-Generative AI doesn't change this platform dynamic ~~at all~~; it simply scales it. It's like a printing
+Generative AI doesn't change this platform ~~dynamic~~ **[C: form]** ~~at all~~; it simply scales it. It's like a printing
 press that takes the automated control that already exists in the gig economy and pushes it into the
 white-collar office. **[R4: As learning systems update their rules inside ongoing interactions (Hinds &
 von Krogh, 2024, p. 4), the basic three-way structure holds, but keeping track of how the third party
 behaves becomes a continuous demand.]** **[C: What learning changes is the tempo: "rather than being fixed,
 these functions and relations are likely to evolve and expand as the AI learns" (Hinds & von Krogh, 2024,
 p. 4), so the third part of algorithmacy, keeping track, is asked of people within one exchange rather
-than between versions.]** `[NEEDS: your sentence reconciling "doesn't change this platform dynamic" with
-the tempo point, or accept the R4 sentence as is.]`
+than between versions.]** 
 
 ### Questions for Research
 
@@ -97,7 +96,7 @@ the tempo point, or accept the R4 sentence as is.]`
 **[C: First, do people's readings, once voiced, charge the platform with actorhood or discharge it, and
 does the direction depend on what the interface lets them see? Schoeneborn et al. (2026) ask whether
 attribution practices "always charge or discharge actorhood in the same ways or vary depending on the
-particular context" (p. 14), and service research already finds the direction varying (Fu et al., 2025,
+particular context" (p. 14), and service research already finds the direction varying (Fu et al., 2026,
 abstract).]**
 
 **[C: Second, who holds algorithmacy, and who exercises it for others?]** When individuals lack sufficient
@@ -113,7 +112,7 @@ skills and general digital literacy.
 
 **[C: Fourth, how do the three parts change when the third is generative AI inside the firm?]** Future
 research should examine how enterprises deploy these systems, whether managers verify that employees have
-the algorithmacy needed to navigate them, and how workers sustain coordination when an automated third
+the algorithmacy needed to navigate them, and how workers sustain ~~coordination~~ **[C: their exchanges]** when an automated third
 party evaluates their professional relationships.
 
 **[C: Fifth, does competent absorption keep routine breakdowns from becoming public? §5 proposed that it
@@ -179,3 +178,19 @@ listen to a book.
    al. (2020, AAM read). Re-verify at the citation audit.
 9. **The [C: …] sentences are Claude's** and will read as machine-made by the 29 Sep tests; each names its
    source.
+
+### Edits of 23 Nov (Roger: "do all of that")
+
+| Where | Change | Reason |
+|---|---|---|
+| Contributions | *coordinate* → *work* | frozen definition says "carry out" (v3) |
+| Contributions | *can overturn* → *can readily overturn* | asymmetric binding; Curchod et al.'s sellers do dispute |
+| Conditions | *Conversely, systems* → *Systems* | the contrast it marked is gone (flag 3) |
+| Generative AI | *dynamic* → *form* (and *at all* struck earlier) | form unchanged, tempo changed (R4); resolves the printing-press [NEEDS] |
+| Research question 4 | *coordination* → *their exchanges* | v3 definition |
+| New subsection "Deskilling and the Demand for Algorithmacy" | your GDOC L149 (Braverman; Gandini; Faraj & Pachidi) and the first three sentences of L151, with *dramatically increases* → *may increase*; framed as a proposition | resolves §5 flag 4; claims carried from the GDOC are under audit (S16b) |
+
+### Citation-audit edits (S16, 23 Nov)
+- Jarrahi & Sutherland: ~~an isolated~~ **a** struggle — the source reports group sensemaking ("Sensemaking is not necessarily a personal activity", p. 6, per audit A).
+- Lin et al. (2026): their abstract shows that when the advised rating is low, the right to adjust the computation raises algorithm use; it says nothing about frontline competence. "may reduce the competence required of frontline staff" is now marked as your inference; the example is restated from the abstract.
+- Braverman (1974) in the deskilling subsection: not accessible; the secondary support (Faraj & Pachidi, 2021, p. 3) is weaker than "strips craft knowledge… to discipline labor". `[NEEDS: a page in Braverman, or soften]`

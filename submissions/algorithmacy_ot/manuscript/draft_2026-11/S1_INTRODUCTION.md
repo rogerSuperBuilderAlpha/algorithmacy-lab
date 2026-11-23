@@ -55,8 +55,7 @@ Krogh, 2024).
 
 ### Complication
 
-These two sets of questions approach the issue from completely opposite directions and never come
-together. The questions of responsibility and organizational status are all posed from the top down (the
+These two sets of questions approach the issue from ~~completely~~ opposite directions and ~~never~~ **[C: rarely]** come together. The questions of responsibility and organizational status are all posed from the top down (the
 company, the platform operator at the apex of the triangle, how the scholars categorize the technology).
 The questions about the people are all posed from the bottom up, looking at just one person in interaction
 with a machine. Stark and Vanden Broeck (2024) describe algorithmic management as a “new sociality”—when
@@ -149,3 +148,6 @@ absolve it (p. 14)?
 5. **"dictate how the independent workers and the customers behave"** and **"Getting work done is
    increasingly going to be"** are flagged in v6 (Stark & Vanden Broeck say "enroll"; Stelmaszak et al.
    say "increasingly embedded").
+
+### Edits of 23 Nov
+- "from completely opposite directions and never come together" → ~~completely~~ … **rarely** (flag 2 resolved).

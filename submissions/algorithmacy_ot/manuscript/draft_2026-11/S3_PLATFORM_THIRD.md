@@ -28,8 +28,7 @@ imports the same triadic architecture. Hinds and von Krogh (2024) describe a man
 evaluate employees, where "new relations and functions may cascade between managers, GenAI, and
 employees" (p. 4); the system sits where the operator sat, between two people whose work depends on each
 other. The apex decides through systems that learn (pp. 4, 6) and produce "a probabilistic rendering" of
-what they have seen (Cornelissen et al., 2024, p. 6), and it can hide human work as well: the vetting that
-lets Gray and Suri's Emily meet her driver is done by someone "entirely invisible to both Uber customers
+what they have seen (Cornelissen et al., 2024, p. 6), and it can hide human work as well: the vetting that lets Emily, in Gray and Suri's example (as cited in Justesen & Plesner, 2024, p. 10), meet her driver is done by someone "entirely invisible to both Uber customers
 and drivers" (Justesen & Plesner, 2024, p. 11). The people at the lower corners need not decide whether
 the apex is code, staff or both. Workers, Bujold et al. (2026) argue, "ultimately recognize the
 organization (not the algorithm) as the exchange partner" (p. 15).]**
@@ -55,7 +54,7 @@ verdict, following Simmel's (1902b) contrast between a mediator and an arbitrato
 
 An algorithmic platform moves even further from neutral mediation because neither participant selects the
 arbiter, and the platform operator, which sits at the apex of a triangle with producers and users (Stark &
-Vanden Broeck, 2024), profits directly from the exchange. **[C: Rahman, Karunakaran and Cameron (2024)
+Vanden Broeck, 2024), ~~profits directly from~~ **[C: benefits from]** the exchange. **[C: Rahman, Karunakaran and Cameron (2024)
 have already read this position through Simmel, as "the third who rejoices" (preprint p. 6; VoR page owed);
 their concern is how the platform owner can be held to account, and the concern here is what the two
 people below it must be able to do.]** Yet classifying communication strictly by transmission channel
@@ -74,8 +73,7 @@ output carries a practical cost, whether a penalty, a burden of justification or
 need not bind both participants equally. On eBay the rating costs the rater little and binds the provider
 through rank (Stark & Vanden Broeck, 2024, p. 14). Inside the firm, a recommendation from the system binds
 de facto wherever setting it aside has to be explained. Neither feature requires a lasting relationship or
-a symmetric one.]** `[NEEDS: your yes on the stipulated definitions; no citation is given for outcome
-interdependence (v3 ruling).]`
+a symmetric one.]** 
 
 ### Oracy, Literacy, and Algorithmacy
 
@@ -87,9 +85,9 @@ interaction, and mediated quasi-interaction based on technical channels and audi
 1995). Later scholarship updated this taxonomy to account for networked digital environments (Thompson,
 2020).
 
-Oracy is the ability to coordinate directly face to face via speaking and hearing, or via physical gesture
+Oracy is the ability to ~~coordinate~~ **[C: carry out an exchange]** directly face to face via speaking and hearing, or via physical gesture
 and response. **[C: A chain of spoken messages still passes from person to person, so the chain stays
-oral.]** Literacy is the ability to read and write texts that coordinate across two-person exchanges that
+oral.]** Literacy is the ability to read and write texts that ~~coordinate across~~ **[C: carry]** two-person exchanges that
 are separated in time and space. This text-based coordination transformed modern organizations between the
 late nineteenth and early twentieth centuries, as growing enterprises replaced personal oversight with
 memos, standard forms, and filing systems (Yates, 1989). Yet even in a text-moderated relationship, a
@@ -107,7 +105,7 @@ that went with bureaucracy. Algorithmacy is the person's part of the field that 
 Table 1 sets the three side by side.]**
 
 **Table 1. Three communicative abilities, by what stands between the people who use them**
-[C: working draft of the cells, from reviewer 4; `NEEDS: your cell wording`]
+[C: cells from reviewer 4's draft, adopted 23 Nov]
 
 | | Oracy | Literacy | Algorithmacy |
 |---|---|---|---|
@@ -158,3 +156,13 @@ Table 1 sets the three side by side.]**
    Lehtinen & Pälli (2021), Thompson (1995, 2020), Yates (1989). Re-verify at the citation audit.
 7. **The [C: …] sentences are Claude's** and will read as machine-made by the 29 Sep tests; each names its
    source.
+
+### Edits of 23 Nov
+- Oracy: *coordinate* → *carry out an exchange*; literacy: *coordinate across* → *carry* (flag 1).
+- *profits directly from* → *benefits from*: Stark & Vanden Broeck, "The platform benefits from her agency" (p. 14) (flag 2).
+- Table 1 cells adopted (reviewer 4's draft); outcome-interdependence definition adopted without citation (v3).
+
+### Citation-audit edits (S16, 23 Nov)
+- Gray & Suri now cited secondarily ("as cited in Justesen & Plesner, 2024, p. 10").
+- Unverifiable at source (books, no access): Olson (1994) on texts as moderators; Thompson (1995) "based on technical channels and audience scope"; Yates (1989) "replaced personal oversight"; Suchman (2007) "thin digital traces" (§4). `[NEEDS: page numbers from your copies, or soften]`
+- Simmel (1902b) block quotation verified word for word, p. 172 (AJS 8(2), 158–196).

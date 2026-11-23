@@ -42,8 +42,7 @@ the exchange, has no place.]**
 ### Three Placements of the System
 
 Although organization theory recognizes that platforms establish a three-way relationship, it has not yet
-explained what practical ~~sensibility~~ **[C: ability]** an individual needs to coordinate with another
-person inside that arrangement. Existing accounts of this capability remain fragmented across
+explained what practical ~~sensibility~~ **[C: ability]** an individual needs to ~~coordinate~~ **[C: work]** with another person inside that arrangement. Existing accounts of this capability remain fragmented across
 communication studies, computer science, and sociology. Yet these conflicting terms point to a deeper
 conceptual limitation. ~~Every existing account~~ **[C: Each of these accounts]** counts fewer than three
 parties. **[C: These frameworks]** ~~They~~ do this by either ignoring the third party altogether
@@ -58,11 +57,8 @@ technologies function as communicative subjects rather than mere interactive obj
 technologies are no longer merely the means of communication among parties but themselves become
 communication partners" (p. 9), and in the prompt-and-answer mode Phillips et al. (2024) describe, the
 system "remains, in this case, very much subordinate to the human partner" (p. 9).]** Research on
-artificial intelligence literacy adopts this same two-party focus. The most prominent frameworks in that
-field define literacy as a checklist of concepts an individual should understand about machine learning,
-without mentioning coordination with a second person through the software (Long & Magerko, 2020). A
-recent review finds that measures of algorithmic literacy still lie mostly in the cognitive dimension,
-stopping at an individual’s awareness or knowledge of algorithms (Oeldorf-Hirsch & Neubaum, 2025). While
+artificial intelligence literacy adopts this same two-party focus. ~~The most prominent frameworks in that field define~~ **[C: A prominent framework in that field defines]** literacy as a checklist of concepts an individual should understand about machine learning,
+without mentioning ~~coordination~~ **[C: work]** with a second person through the software (Long & Magerko, 2020). A recent review finds that **[C: "]**measures of algorithmic literacy ~~still~~ lie mostly in the cognitive dimension,**[C: "]** stopping at ~~an individual’s~~ **[C: "]**awareness or knowledge of algorithms**[C: "]** (Oeldorf-Hirsch & Neubaum, 2025**[C: , p. 695]**). While
 this perspective explains how a person forms impressions of a machine, it cannot explain what happens when
 that machine steps between two people who depend on each other to get work done.
 
@@ -74,8 +70,7 @@ to artificial intelligence, examining how software modifies, augments, or genera
 person’s behalf (Hancock et al., 2020). Researchers treat the technology as an active messenger, but it
 remains a channel. That framing works well when people exchange emails or text messages, but it fails in
 organizational platforms where the software does not simply deliver words. In algorithmic management, the
-system evaluates the exchange, ~~scores both participants~~ **[C: scores the participants]**, and enforces
-rules that neither person can dispute.
+system evaluates the exchange, ~~scores both participants~~ **[C: scores the participants]**, and enforces rules that neither person can **[C: readily]** dispute.
 
 Finally, scholars who study work on platforms treat the system as something workers must understand and
 adapt to. ~~Of particular relevance to the approach I develop in this paper,~~ Jarrahi and Sutherland
@@ -89,7 +84,7 @@ into the construct, although clients appear throughout their interviews. While t
 and keep records in case of a dispute, their figure has two nodes, the worker and the algorithm, and the
 construct covers the same two.
 
-**[C: Communication research has begun to count a third. Ohme et al. (2025) model platform communication
+**[C: Communication research has begun to count a third. Ohme et al. (2026) model platform communication
 by "shifting from a dyadic to a triadic communication model of content flow" (adv. p. 1; VoR page owed),
 but their third "provides a service for each or both" of the others and may "be bypassed" (adv. pp. 5, 6).
 The third at issue here decides between the two and cannot be bypassed without cost. None of the three
@@ -132,3 +127,12 @@ placements, and not the serving third, puts the system above two people who depe
    (2019), Zhou et al. (2025; quotation p. 2). Re-verify at the citation audit.
 6. **Buhmann et al. (2021) is abstract-only** (the 45-page paper has no open copy).
 7. **The [C: …] sentences are Claude's**; each names its source.
+
+### Edits of 23 Nov
+- *coordinate* → *work* (twice); *can dispute* → *can readily dispute* (flags 1, 2 resolved).
+
+### Citation-audit edits (S16, 23 Nov)
+- Long & Magerko (2020): "The most prominent frameworks… define" → "A prominent framework… defines" (one source). The absence claim ("without mentioning work with a second person") needs their competency list checked.
+- **Guzman & Lewis (2020), flagged:** audit A reports your sentence follows their p. 71 nearly word for word ("designed as communicative subjects, instead of mere interactive objects") without quotation marks. I could not open the article (SAGE 403) to confirm, so nothing is changed. `[NEEDS: quote it with p. 71, or paraphrase further]`
+- **Oeldorf-Hirsch & Neubaum (2025), flagged:** your sentence follows p. 695 nearly word for word; checked in the stored text: "measures of algorithmic literacy lie mostly in the cognitive dimension … stopping at awareness or knowledge of algorithms." Done: the two phrases are now quoted with p. 695 (page checked in the PDF); *still* and *an individual's* struck because they are not in the source.
+- Spitzberg (2006): "appropriately and effectively" not in the abstract; the model has five components, not three. Check the article.

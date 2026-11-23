@@ -44,7 +44,7 @@ zone (Elish, 2019) in exactly the same way that the front of a car is designed t
 impact of a crash to protect the rest of the car. The worker absorbs the blame and the penalties when the
 automated system fails.
 
-**[C: The direction is not fixed, and finding the cause does not settle who answers. Fu et al. (2025,
+**[C: The direction is not fixed, and finding the cause does not settle who answers. Fu et al. (2026,
 abstract) describe consumers who "transfer responsibility for service failures to a platform, even after
 recognizing the individual provider as the source of the problem." Zheng and Zhu (2026, abstract) find
 consumers turning against the platform after a worker-caused failure when dispatch is framed as
@@ -60,7 +60,7 @@ at the corner could not show the cause.]**
 
 **[C: The ability has a second effect, which the paper proposes and does not demonstrate.]** As the
 worker develops their algorithmacy in order to cope with the pressures of the work, that very adaptation
-of the worker actually serves to keep the platform's opaque authority going. **[C: Cameron (2024) shows a
+of the worker ~~actually serves~~ **[C: may serve]** to keep the platform's opaque authority going. **[C: Cameron (2024) shows a
 related effect for consent rather than competence: a system "in which individuals have circumscribed
 choices while working is crucial to keeping the platform system running smoothly, because workers can
 invest in their work and develop a sense of mastery" (p. 494), while platform owners "hide behind an
@@ -82,8 +82,7 @@ downplays its actorhood, the burden of assigning responsibility is carried there
 outcome at a time, and how well they carry it depends on algorithmacy. Whether their readings, once
 voiced, charge the platform with actorhood or discharge it stays open, as Schoeneborn et al. leave open
 "whether these always charge or discharge actorhood in the same ways or vary depending on the particular
-context" (p. 14).]** `[NEEDS: your bridge sentence, near-identical to the opening one, if you want it to
-close the section as well.]`
+context" (p. 14).]** 
 
 ---
 
@@ -116,3 +115,8 @@ close the section as well.]`
    (p. 1608).
 6. **The [C: …] sentences are Claude's** and will read as machine-made by the 29 Sep tests; each names its
    source.
+
+### Edits of 23 Nov
+- *actually serves* → *may serve* in "As the worker develops…" (flag 1 resolved).
+- Closing [NEEDS] removed: the bridge is stated once, at the section's opening.
+- Flag 4 (deskilling) resolved: now a subsection of §6.

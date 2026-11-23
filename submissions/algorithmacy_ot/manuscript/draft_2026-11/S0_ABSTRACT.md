@@ -31,5 +31,5 @@ Keywords: algorithmacy, platforms, actorhood, accountability, algorithmic manage
 
 - **Words:** about 245.
 - **Your sentences used (GDOC L7):** "Most studies still rely on two-way models…"; "Organizations increasingly manage workers through algorithms…". Left out: the "coordinate" and "restore the organizational outcomes" sentences (coordination frame gone) and the printing-press sentence (its absolute form is out, v3 ruling).
-- **Keywords:** your GDOC list had "coordination" and "literacy"; replaced to match the paper's frame. `[NEEDS: your keywords]`
+- **Keywords:** your GDOC list had "coordination" and "literacy"; replaced to match the paper's frame (adopted 23 Nov).
 - **"from eBay ratings to generative AI in hiring and pay"** names cases C1, C3 and C4.
