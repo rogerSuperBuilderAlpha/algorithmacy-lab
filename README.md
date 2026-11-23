@@ -425,6 +425,7 @@ Multi-experiment batteries on one theme.
 - **[Scaling laws closed-form (#47)](org_frontier/studies/scaling_laws_closed_form/README.md)** — See [`../mincut_mip/`](org_frontier/studies/mincut_mip) and `FORMAL_THEORY_ARC.md`
 - **[Shared-mediator k-lift (V3 #6)](org_frontier/studies/shared_mediator_k/README.md)** — merge under AND with **Φ = 2k** (k=1,2,3 → Φ=2,4,6; full cores). OR
 - **[Shared-mediator ternary (beyond-binary)](org_frontier/studies/shared_mediator_ternary/README.md)** — {0,1}^5 cube. Exact **IIT-4.0** on this lab's PyPhi pin **cannot** ingest a
+- **[Shared-error share sweep and tie enumeration](org_frontier/studies/shared_share_ties/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`). Backlog items 2 and 4 of `quorum_correlated_noise/`
 - **[Small-world rewire vs hierarchy (agenda #17)](org_frontier/studies/small_world_vs_hierarchy/README.md)** — ring's size-independent Φ = 4 cap with hub growth (Φ = n−1). Interior morphs
 - **[Spanning mediator atop multi-hub (agenda #20)](org_frontier/studies/spanning_mediator_multihub/README.md)** — raise Φ beyond the pool ceiling. Under recurrent hub-span it **recreates the
 - **[Spectral topology-invariant feature (agenda #21)](org_frontier/studies/spectral_invariant/README.md)** — (`P_spectral_gap`) is the best cross-family ranker on this panel

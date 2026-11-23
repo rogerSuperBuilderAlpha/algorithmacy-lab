@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 129,
+  "study": 130,
   "foundations": 9,
   "open": 15
  },
@@ -10551,6 +10551,17 @@
    "path": "org_frontier/studies/shared_mediator_ternary",
    "reproduce": [
     "python org_frontier/studies/shared_mediator_ternary/analyze_ternary.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "shared_share_ties",
+   "title": "Shared-error share sweep and tie enumeration",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`). Backlog items 2 and 4 of `quorum_correlated_noise/`",
+   "path": "org_frontier/studies/shared_share_ties",
+   "reproduce": [
+    "python org_frontier/studies/shared_share_ties/run.py --quick"
    ],
    "runtime": "fast"
   },
