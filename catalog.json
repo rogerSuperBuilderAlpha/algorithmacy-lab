@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 145,
+  "study": 147,
   "foundations": 9,
   "open": 15
  },
@@ -10093,6 +10093,17 @@
   },
   {
    "kind": "study",
+   "id": "indirect_loops",
+   "title": "Indirect loops: when the people a platform answers pass it on to the people it reads",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/indirect_loops",
+   "reproduce": [
+    "python org_frontier/studies/indirect_loops/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "interior_atoms_n78",
    "title": "Interior atoms at n=7–8 (V3 #9)",
    "finding": "{6, 8, 9, 12}, while also recalling prior atoms 6 and 12. Discrete atoms",
@@ -10176,6 +10187,17 @@
    "path": "org_frontier/studies/local_triad_necklace",
    "reproduce": [
     "python org_frontier/studies/local_triad_necklace/analyze_necklace.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "lockstep_symmetry",
+   "title": "Lockstep or symmetry: why does the one-sided veto factor?",
+   "finding": "One rule, fixed before the run, sorts all 256 strict-mediation forms with zero misses: a form binds iff",
+   "path": "org_frontier/studies/lockstep_symmetry",
+   "reproduce": [
+    "python org_frontier/studies/lockstep_symmetry/run.py --quick"
    ],
    "runtime": "fast"
   },
@@ -10533,17 +10555,6 @@
   },
   {
    "kind": "study",
-   "id": "quorum_ratio_law",
-   "title": "Quorum ratio law: strongest subset vs whole on noisy counting quorums",
-   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464",
-   "path": "org_frontier/studies/quorum_ratio_law",
-   "reproduce": [
-    "python org_frontier/studies/quorum_ratio_law/run.py --quick"
-   ],
-   "runtime": "fast"
-  },
-  {
-   "kind": "study",
    "id": "random_coupling_ensemble",
    "title": "Random coupling ensemble at fixed n (agenda #18)",
    "finding": "n=4 (ER / fixed-k / WS / BA-style), **every** core Φ lands on the discrete",
@@ -10749,6 +10760,17 @@
    "path": "org_frontier/studies/ternary_majority_noise",
    "reproduce": [
     "python org_frontier/studies/ternary_majority_noise/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "ternary_ordinal_noise",
+   "title": "Ordinal noise: three-valued readings that slip only to the neighbouring value",
+   "finding": "Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`",
+   "path": "org_frontier/studies/ternary_ordinal_noise",
+   "reproduce": [
+    "python org_frontier/studies/ternary_ordinal_noise/run.py --quick"
    ],
    "runtime": "fast"
   },
