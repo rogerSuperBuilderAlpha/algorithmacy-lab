@@ -1,0 +1,1 @@
+"""Off-platform deals study."""
