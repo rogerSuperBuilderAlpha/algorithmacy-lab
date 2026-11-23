@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 140,
+  "study": 141,
   "foundations": 9,
   "open": 15
  },
@@ -10707,6 +10707,15 @@
     "python org_frontier/studies/ternary_majority_noise/run.py --quick"
    ],
    "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "ternary_ordinal_noise",
+   "title": "Ordinal noise: three-valued readings that slip only to the neighbouring value",
+   "finding": "Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`",
+   "path": "org_frontier/studies/ternary_ordinal_noise",
+   "reproduce": [],
+   "runtime": "unregistered"
   },
   {
    "kind": "study",
