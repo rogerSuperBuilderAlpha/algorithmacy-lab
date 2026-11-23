@@ -5,4 +5,4 @@
 2. **Longer relays** (P → A3 → A5 → A1 → P, n = 6): does φ of the loop stay 2.0?
 3. **Relay with a delay** (memory on the relayer) to separate topology from timing.
 
-None of these had been started when this study's PR was opened.
+None of these had been started when PR #935 was opened.
