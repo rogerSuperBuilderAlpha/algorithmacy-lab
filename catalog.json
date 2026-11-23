@@ -9932,8 +9932,10 @@
    "title": "Gate match test: is a gated relayer bound exactly when its gate rule matches the platform rule?",
    "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
    "path": "org_frontier/studies/gate_match_test",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/gate_match_test/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
