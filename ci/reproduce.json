@@ -6146,6 +6146,16 @@
       "source": "org_frontier/studies/forcing_match/FINDINGS.md"
     },
     {
+      "name": "odd-input",
+      "cmd": "python org_frontier/studies/odd_input/run.py --quick",
+      "expect": [
+        "C1 andP_and = forcing_match andP_and (whole Φ 2.0): PASS",
+        "andP_p_notg   n=5 states=12 whole=0.415037 top=2.000000 top_states=3 full_bound=N pooled_ties=PR1"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/odd_input/FINDINGS.md"
+    },
+    {
       "name": "regulator-capture",
       "cmd": "python org_frontier/studies/regulator_capture/analyze_capture.py",
       "expect": [

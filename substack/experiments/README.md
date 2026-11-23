@@ -5,6 +5,7 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [What decides it is how the go-between treats the platform's own message](2026-11-23-the-sensitive-point.md) | [`org_frontier/studies/odd_input/`](../../org_frontier/studies/odd_input/) |
 | 2026-11-23 | [A sharper rule that failed on every test, and what it showed instead](2026-11-23-a-rule-that-failed.md) | [`org_frontier/studies/forcing_match/`](../../org_frontier/studies/forcing_match/) |
 | 2026-11-23 | [Testing the matching pattern: it holds for "both" and "either" platforms, not for "exactly one"](2026-11-23-testing-the-match.md) | [`org_frontier/studies/gate_match_test/`](../../org_frontier/studies/gate_match_test/) |
 | 2026-11-23 | [The high-noise cliff is a sign flip](2026-11-23-the-high-noise-cliff.md) | [`org_frontier/studies/high_noise_tie_onset/`](../../org_frontier/studies/high_noise_tie_onset/) |
