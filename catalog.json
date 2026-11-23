@@ -10923,8 +10923,10 @@
    "title": "Weighted ratio law: does the counting law survive one heavy voter?",
    "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464",
    "path": "org_frontier/studies/weighted_ratio_law",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/weighted_ratio_law/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
