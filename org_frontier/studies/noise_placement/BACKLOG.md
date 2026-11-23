@@ -8,4 +8,4 @@
 4. **O04 registry hygiene**, then a ternary majority under input noise on the multivalued overlay.
 5. **Asynchronous update** (needs a non-conditionally-independent TPM; check the instrument supports it).
 
-None of these had been started when this study's PR was opened.
+None of these had been started when PR #917 was opened.
