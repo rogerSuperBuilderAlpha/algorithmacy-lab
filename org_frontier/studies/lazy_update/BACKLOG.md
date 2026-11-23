@@ -8,3 +8,5 @@
 4. **Deterministic memory rules.** Parties that combine S with their own last state (S OR own, S AND own)
    instead of a random hold.
 5. **Laziness on AND3 and 2of4.**
+
+None of these had been started when PR #921 was opened.
