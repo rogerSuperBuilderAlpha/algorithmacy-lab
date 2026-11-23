@@ -5,4 +5,4 @@
 2. **Full census**: all 16 two-input gate rules for C1 under AND, OR and XOR platforms, G driven by P.
 3. **Noisy relayers** (carried over from `relay_length`).
 
-None of these had been started when PR #N was opened.
+None of these had been started when PR #948 was opened.
