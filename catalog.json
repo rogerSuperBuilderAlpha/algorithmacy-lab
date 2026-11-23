@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 138,
+  "study": 137,
   "foundations": 9,
   "open": 15
  },
@@ -9424,15 +9424,6 @@
     "python org_frontier/studies/conjunctive_law_real_render/analyze_render.py"
    ],
    "runtime": "fast"
-  },
-  {
-   "kind": "study",
-   "id": "consensus_pivotality",
-   "title": "Joint pivotality at consensus: which three-party commit rules bind?",
-   "finding": "The pre-registered rule misses 10 of 256 rules under PyPhi's default tie-breaking, but those misses, and",
-   "path": "org_frontier/studies/consensus_pivotality",
-   "reproduce": [],
-   "runtime": "unregistered"
   },
   {
    "kind": "study",
