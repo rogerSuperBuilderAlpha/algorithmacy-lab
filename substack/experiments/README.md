@@ -5,6 +5,7 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [Put a messenger between the coordinator and the people, and the group binds a third as tightly](2026-11-23-the-relay.md) | [`org_frontier/studies/delay_quorum/`](../../org_frontier/studies/delay_quorum/) |
 | 2026-11-23 | [A platform's decision can pass through a chain of people and still bind them all](2026-11-23-relay-length.md) | [`org_frontier/studies/relay_length/`](../../org_frontier/studies/relay_length/) |
 | 2026-11-23 | [One heavy voter breaks the counting rule](2026-11-23-one-heavy-voter.md) | [`org_frontier/studies/weighted_ratio_law/`](../../org_frontier/studies/weighted_ratio_law/) |
 | 2026-11-23 | [A counting rule predicts how weak the whole is next to its strongest part](2026-11-23-a-counting-law.md) | [`org_frontier/studies/quorum_ratio_law/`](../../org_frontier/studies/quorum_ratio_law/) |
