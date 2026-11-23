@@ -323,6 +323,7 @@ Multi-experiment batteries on one theme.
 - **[Commit→response delay (agenda #10)](org_frontier/studies/commit_response_delay/README.md)** — pipeline) keeps the conjunctive triad **triadic** at every d=0…3 —
 - **[Composed-topology landmarks at n≥6 (agenda V4 #10)](org_frontier/studies/composed_topo_landmarks_n6/README.md)** — families remain **discrete** at n≥6 under a denser random-AND draw: all
 - **[Conjunctive law on real Boolean renders (agenda #45)](org_frontier/studies/conjunctive_law_real_render/README.md)** — (#116) is **not** visible as a scaling law in institutional or fitted
+- **[Joint pivotality at consensus: which three-party commit rules bind?](org_frontier/studies/consensus_pivotality/README.md)** — The pre-registered rule misses 10 of 256 rules under PyPhi's default tie-breaking, but those misses, and
 - **[Constraint durability — which contingent gates fall next](org_frontier/studies/constraint_durability/README.md)** — The formal class crossed with a durability rubric forecasts which contingent gates fall, and the forecast
 - **[Construct gate transfer at n=5 — CMC / AI-MC](org_frontier/studies/construct_gates_n5/README.md)** — full-bind regimes **transfer** from HMC anchors to CMC and AI-MC at
 - **[Construct gate seal — XNOR + mixed-polarity on CMC](org_frontier/studies/construct_gates_seal/README.md)** — AND_negE (Regime C) transfer on CMC and AI-MC full-bind at n=5
