@@ -10633,6 +10633,17 @@
   },
   {
    "kind": "study",
+   "id": "relay_flips",
+   "title": "Relay flips: relayers that flip, gate, or sit on unequal arms",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/relay_flips",
+   "reproduce": [
+    "python org_frontier/studies/relay_flips/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "relay_length",
    "title": "Relay length: how long can the loop through other people be?",
    "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
