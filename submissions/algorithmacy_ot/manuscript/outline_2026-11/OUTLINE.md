@@ -27,6 +27,27 @@ see the end). ⚠ = a "may not claim" rule (S14 §1.3, S15 §2.4). `[NEEDS: …]
 | 9 | Literacy | Drop "chained dyads"; literacy = static, inspectable text across time and space (§3.4) | adopted (R2); consistent with your 8 Oct ruling |
 | 10 | The apex | **Δ R2:** keep the platform at the apex, but state it as a form: the platform form is a triadic architecture (an opaque, adaptive third between two interdependent people), and enterprise GenAI imports that architecture inside the firm. Stark & Vanden Broeck support form ≠ firm: organizational form "is not co-terminous with that of a company" (p. 7). | `[NEEDS: your yes]` — refines your ruling "AI is a platform" |
 
+## v3 rulings (23 Nov, Roger: "yes to all, start drafting §4"; reviews R3 and R4 applied)
+
+- **Definition (frozen):** "the ability to carry out an interdependent exchange with another person through
+  an intermediary that is opaque, binding, and adaptive." R4 replaces "coordinate" with "carry out" so the
+  paper does not owe a coordination review; this overrides the "coordinate" wording approved in v2
+  (flagged to Roger). Placed once after the research question (§1) and once in ¶4.0. No variants.
+- **Bridge (both places, near-identical, hedged per R4):** "the same adaptive ability that lets people
+  finish an exchange can absorb routine friction before it ever challenges the platform's declined
+  actorhood." Stays a conjecture (§5.3, RQ5); never in §6.1's contributions (R3).
+- **De facto binding (§3.3, R4):** a third binds a participant whenever overriding or bypassing its output
+  carries practical costs (penalties, justification burdens, lost standing). Covers C1's scoring and C5's
+  guidance; §4.5 and §6.1 drop the "scope cost" apology.
+- **Apex:** "imports the same triadic architecture", never "AI is a platform" (R3, R4).
+- **Table 1 cells:** R4's draft adopted as the working draft (in `../draft_2026-11/` when §3 is drafted).
+- **Outcome interdependence:** stipulated in plain words; no citation (R4). Kelley & Thibaut (1978) named by
+  R4 is unread and does not enter unless verified.
+- **Printing press (§6.3):** R4's two sentences adopted as the working draft, with the Hinds & von Krogh
+  p. 4 quotation checked at drafting.
+- **Transition §3.4 → ¶4.0 (R4):** once the third holds the verdict, three operational properties follow
+  (opacity, asymmetric binding, adaptation), and each generates one demand.
+
 ---
 
 ## Budget
