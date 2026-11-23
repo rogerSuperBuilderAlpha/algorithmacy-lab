@@ -6002,6 +6002,18 @@
       "source": "org_frontier/studies/asymmetric_sides/FINDINGS.md"
     },
     {
+      "name": "off-platform-deals",
+      "cmd": "python org_frontier/studies/off_platform_deals/run.py --quick",
+      "expect": [
+        "C1 conjunctive triad whole Φ=2.000000: PASS",
+        "C2 asymmetric_sides side_link_and whole 0.830075: PASS",
+        "cross_and        states=17 whole=0.830075 top=6.000000 full_in_top=N ties=PB1S1",
+        "one_pair_off     states=14 whole=0.000000 top=2.000000 full_in_top=N ties=B1S1"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/off_platform_deals/FINDINGS.md"
+    },
+    {
       "name": "regulator-capture",
       "cmd": "python org_frontier/studies/regulator_capture/analyze_capture.py",
       "expect": [
