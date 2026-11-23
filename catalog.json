@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 164,
+  "study": 166,
   "foundations": 9,
   "open": 15
  },
@@ -9939,6 +9939,17 @@
   },
   {
    "kind": "study",
+   "id": "gate_census",
+   "title": "Gate census: all 16 two-input rules for a switch-gated relayer under AND, OR and XOR platforms",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/gate_census",
+   "reproduce": [
+    "python org_frontier/studies/gate_census/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "gate_match_test",
    "title": "Gate match test: is a gated relayer bound exactly when its gate rule matches the platform rule?",
    "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
@@ -10418,6 +10429,17 @@
    "path": "org_frontier/studies/multivalued_iit4_port",
    "reproduce": [
     "python org_frontier/studies/multivalued_iit4_port/analyze_port.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "negative_phi_survey",
+   "title": "Negative φ survey: does PyPhi's negative output change any noisy-quorum result?",
+   "finding": "Hypotheses were committed (3e34ab73) before computing. Values seen beforehand: the OR3/ANY4 all-zero",
+   "path": "org_frontier/studies/negative_phi_survey",
+   "reproduce": [
+    "python org_frontier/studies/negative_phi_survey/run.py --quick"
    ],
    "runtime": "fast"
   },
