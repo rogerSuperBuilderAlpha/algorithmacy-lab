@@ -1,0 +1,1238 @@
+{
+ "pyphi_version": "1.2.1.dev1470+gb78d0e342",
+ "phi_eps": 1e-09,
+ "hypotheses": {
+  "H1": "SUPPORTED",
+  "H2": "SUPPORTED",
+  "H3": "SUPPORTED",
+  "H4": "SUPPORTED"
+ },
+ "rows": [
+  {
+   "form": "arm_0",
+   "n": 3,
+   "n_states": 4,
+   "whole_phi": 2.0,
+   "top": 2.0,
+   "n_top_states": 1,
+   "pooled_ties": [
+    "PR1",
+    "PR2",
+    "PR1R2"
+   ],
+   "full_bound": true,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1",
+      "PR2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 2.0,
+     "ties": [
+      "PR1",
+      "PR2",
+      "PR1R2"
+     ],
+     "full_in": true
+    }
+   ]
+  },
+  {
+   "form": "arm_1",
+   "n": 4,
+   "n_states": 8,
+   "whole_phi": 2.0,
+   "top": 2.0,
+   "n_top_states": 3,
+   "pooled_ties": [
+    "PR1",
+    "PR2C1",
+    "PR1R2C1"
+   ],
+   "full_bound": true,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR2C1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PR2C1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1",
+      "PR2C1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 2.0,
+     "ties": [
+      "PR1",
+      "PR2C1",
+      "PR1R2C1"
+     ],
+     "full_in": true
+    }
+   ]
+  },
+  {
+   "form": "arm_2",
+   "n": 5,
+   "n_states": 16,
+   "whole_phi": 2.0,
+   "top": 2.0,
+   "n_top_states": 6,
+   "pooled_ties": [
+    "PR1",
+    "PR2C1C2",
+    "PR1R2C1C2"
+   ],
+   "full_bound": true,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      0
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR2C1C2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PR2C1C2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1",
+      "PR2C1C2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 2.0,
+     "ties": [
+      "PR1",
+      "PR2C1C2",
+      "PR1R2C1C2"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      1
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      1
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR2C1C2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PR2C1C2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1",
+      "PR2C1C2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 2.0,
+     "ties": [
+      "PR1",
+      "PR2C1C2",
+      "PR1R2C1C2"
+     ],
+     "full_in": true
+    }
+   ]
+  },
+  {
+   "form": "arm_3",
+   "n": 6,
+   "n_states": 32,
+   "whole_phi": 2.0,
+   "top": 2.0,
+   "n_top_states": 12,
+   "pooled_ties": [
+    "PR1",
+    "PR2C1C2C3",
+    "PR1R2C1C2C3"
+   ],
+   "full_bound": true,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR2C1C2C3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PR2C1C2C3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1",
+      "PR2C1C2C3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 2.0,
+     "ties": [
+      "PR1",
+      "PR2C1C2C3",
+      "PR1R2C1C2C3"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR2C1C2C3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PR2C1C2C3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1",
+      "PR2C1C2C3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 2.0,
+     "ties": [
+      "PR1",
+      "PR2C1C2C3",
+      "PR1R2C1C2C3"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR2C1C2C3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PR2C1C2C3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1",
+      "PR2C1C2C3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 2.0,
+     "ties": [
+      "PR1",
+      "PR2C1C2C3",
+      "PR1R2C1C2C3"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR2C1C2C3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PR2C1C2C3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1",
+      "PR2C1C2C3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 2.0,
+     "ties": [
+      "PR1",
+      "PR2C1C2C3",
+      "PR1R2C1C2C3"
+     ],
+     "full_in": true
+    }
+   ]
+  },
+  {
+   "form": "both_1",
+   "n": 5,
+   "n_states": 16,
+   "whole_phi": 2.0,
+   "top": 2.0,
+   "n_top_states": 6,
+   "pooled_ties": [
+    "PR1C1",
+    "PR2C2",
+    "PR1R2C1C2"
+   ],
+   "full_bound": true,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR2C2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PR2C2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1C1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1C1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1C1",
+      "PR2C2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 2.0,
+     "ties": [
+      "PR1C1",
+      "PR2C2",
+      "PR1R2C1C2"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      1
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR2C2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PR2C2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1C1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1C1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PR1C1",
+      "PR2C2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 2.0,
+     "ties": [
+      "PR1C1",
+      "PR2C2",
+      "PR1R2C1C2"
+     ],
+     "full_in": true
+    }
+   ]
+  }
+ ]
+}
