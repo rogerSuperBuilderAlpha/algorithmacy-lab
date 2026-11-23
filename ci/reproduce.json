@@ -7741,6 +7741,16 @@
       ],
       "timeout": 120,
       "source": "org_frontier/studies/high_noise_tie_onset/FINDINGS.md"
+    },
+    {
+      "name": "negative-phi-survey",
+      "cmd": "python org_frontier/studies/negative_phi_survey/run.py --quick",
+      "expect": [
+        "A OR3    e=0.4  values=46 negative=14 min=-0.124209 max_full_raw=0.023283 full_neg_states=2 full_all_zero=N",
+        "B 1222q4 e=0.2  values=94 negative=0 min=0.000000 max_full_raw=0.000000 full_neg_states=0 full_all_zero=Y"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/negative_phi_survey/FINDINGS.md"
     }
   ]
 }
