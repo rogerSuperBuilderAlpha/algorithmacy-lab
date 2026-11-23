@@ -1,0 +1,4791 @@
+{
+ "pyphi_version": "1.2.1.dev1470+gb78d0e342",
+ "phi_eps": 1e-09,
+ "hypotheses": {
+  "H1": "SUPPORTED",
+  "H2": "REFUTED",
+  "H3": "SUPPORTED",
+  "H4": "SUPPORTED"
+ },
+ "rows": [
+  {
+   "op": "AND",
+   "r": 1,
+   "t": 0,
+   "n_states": 16,
+   "whole_phi": 0.0,
+   "top": 1.0,
+   "top_state": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "top_ties": [
+    "A1",
+    "A2",
+    "A3",
+    "A4"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 1,
+   "t": 1,
+   "n_states": 32,
+   "whole_phi": 0.0,
+   "top": 2.0,
+   "top_state": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "top_ties": [
+    "PA1"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      0,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 1,
+   "t": 2,
+   "n_states": 16,
+   "whole_phi": 0.0,
+   "top": 2.0,
+   "top_state": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "top_ties": [
+    "PA1"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 1,
+   "t": 3,
+   "n_states": 8,
+   "whole_phi": 0.0,
+   "top": 2.0,
+   "top_state": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "top_ties": [
+    "PA1"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 1,
+   "t": 4,
+   "n_states": 4,
+   "whole_phi": 0.0,
+   "top": 2.0,
+   "top_state": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "top_ties": [
+    "PA1"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 2,
+   "t": 0,
+   "n_states": 16,
+   "whole_phi": 0.0,
+   "top": 1.0,
+   "top_state": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "top_ties": [
+    "A1",
+    "A2",
+    "A3",
+    "A4"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 2,
+   "t": 1,
+   "n_states": 24,
+   "whole_phi": 0.0,
+   "top": 2.0,
+   "top_state": [
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "top_ties": [
+    "PA1"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 2,
+   "t": 2,
+   "n_states": 16,
+   "whole_phi": 0.0,
+   "top": 2.0,
+   "top_state": [
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   "top_ties": [
+    "PA1",
+    "PA2",
+    "PA1A2"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1",
+      "PA2",
+      "PA1A2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1",
+      "PA2",
+      "PA1A2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1",
+      "PA2",
+      "PA1A2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1",
+      "PA2",
+      "PA1A2"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 2,
+   "t": 3,
+   "n_states": 8,
+   "whole_phi": 0.0,
+   "top": 2.0,
+   "top_state": [
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   "top_ties": [
+    "PA1",
+    "PA2",
+    "PA1A2"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1",
+      "PA2",
+      "PA1A2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1",
+      "PA2",
+      "PA1A2"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 2,
+   "t": 4,
+   "n_states": 4,
+   "whole_phi": 0.0,
+   "top": 2.0,
+   "top_state": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "top_ties": [
+    "PA1",
+    "PA2",
+    "PA1A2"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1",
+      "PA2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1",
+      "PA2",
+      "PA1A2"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 3,
+   "t": 0,
+   "n_states": 16,
+   "whole_phi": 0.0,
+   "top": 1.0,
+   "top_state": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "top_ties": [
+    "A1",
+    "A2",
+    "A3",
+    "A4"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 3,
+   "t": 1,
+   "n_states": 20,
+   "whole_phi": 0.0,
+   "top": 2.0,
+   "top_state": [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "top_ties": [
+    "PA1"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 3,
+   "t": 2,
+   "n_states": 12,
+   "whole_phi": 0.0,
+   "top": 2.0,
+   "top_state": [
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   "top_ties": [
+    "PA1",
+    "PA2",
+    "PA1A2"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1",
+      "PA2",
+      "PA1A2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1",
+      "PA2",
+      "PA1A2"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 3,
+   "t": 3,
+   "n_states": 8,
+   "whole_phi": 0.0,
+   "top": 3.0,
+   "top_state": [
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   "top_ties": [
+    "PA1A2A3"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.9999999999999994,
+     "full_phi": 0.0,
+     "ties": [
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 0.9999999999999994,
+     "full_phi": 0.0,
+     "ties": [
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 3.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1A2A3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 3.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1A2A3"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 3,
+   "t": 4,
+   "n_states": 4,
+   "whole_phi": 0.0,
+   "top": 3.0,
+   "top_state": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "top_ties": [
+    "PA1A2A3"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.05756972518581409,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1",
+      "PA2",
+      "PA3"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 3.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1A2A3"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 4,
+   "t": 0,
+   "n_states": 16,
+   "whole_phi": 0.0,
+   "top": 1.0,
+   "top_state": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "top_ties": [
+    "A1",
+    "A2",
+    "A3",
+    "A4"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 4,
+   "t": 1,
+   "n_states": 18,
+   "whole_phi": 0.0,
+   "top": 2.0,
+   "top_state": [
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   "top_ties": [
+    "PA1"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A2",
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 4,
+   "t": 2,
+   "n_states": 10,
+   "whole_phi": 0.0,
+   "top": 2.0,
+   "top_state": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "top_ties": [
+    "PA1",
+    "PA2",
+    "PA1A2"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A3",
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1",
+      "PA2",
+      "PA1A2"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 4,
+   "t": 3,
+   "n_states": 6,
+   "whole_phi": 0.0,
+   "top": 3.0,
+   "top_state": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "top_ties": [
+    "PA1A2A3"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      0
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 1.0,
+     "full_phi": 0.0,
+     "ties": [
+      "A4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 3.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1A2A3"
+     ],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "AND",
+   "r": 4,
+   "t": 4,
+   "n_states": 4,
+   "whole_phi": 4.0,
+   "top": 4.0,
+   "top_state": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "top_ties": [
+    "PA1A2A3A4"
+   ],
+   "full_in_top": true,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.025298069214282674,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1",
+      "PA2",
+      "PA3",
+      "PA4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 4.0,
+     "full_phi": 4.0,
+     "ties": [
+      "PA1A2A3A4"
+     ],
+     "full_in": true
+    }
+   ]
+  },
+  {
+   "op": "OR",
+   "r": 4,
+   "t": 4,
+   "n_states": 4,
+   "whole_phi": 4.0,
+   "top": 4.0,
+   "top_state": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "top_ties": [
+    "PA1A2A3A4"
+   ],
+   "full_in_top": true,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 4.0,
+     "full_phi": 4.0,
+     "ties": [
+      "PA1A2A3A4"
+     ],
+     "full_in": true
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.025298069214282674,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1",
+      "PA2",
+      "PA3",
+      "PA4"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    }
+   ]
+  },
+  {
+   "op": "OR",
+   "r": 2,
+   "t": 4,
+   "n_states": 4,
+   "whole_phi": 0.0,
+   "top": 2.0,
+   "top_state": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "top_ties": [
+    "PA1",
+    "PA2",
+    "PA1A2"
+   ],
+   "full_in_top": false,
+   "states": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 2.0,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1",
+      "PA2",
+      "PA1A2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "top": 0.15782064350027628,
+     "full_phi": 0.0,
+     "ties": [
+      "PA1",
+      "PA2"
+     ],
+     "full_in": false
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "top": 0.0,
+     "full_phi": 0.0,
+     "ties": [],
+     "full_in": false
+    }
+   ]
+  }
+ ]
+}
