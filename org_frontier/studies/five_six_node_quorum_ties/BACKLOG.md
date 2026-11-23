@@ -7,4 +7,4 @@
    2of5 and 4of5 at one rate before guessing at a rule.
 5. **Parties that misread the mediator** (noise on the party side) on MAJ3.
 
-None of these has been started as of 2026-11-23.
+None of these had been started when PR #916 was opened.
