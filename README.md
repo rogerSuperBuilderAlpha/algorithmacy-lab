@@ -406,6 +406,7 @@ Multi-experiment batteries on one theme.
 - **[Lockstep or symmetry: why does the one-sided veto factor?](org_frontier/studies/lockstep_symmetry/README.md)** — One rule, fixed before the run, sorts all 256 strict-mediation forms with zero misses: a form binds iff
 - **[Anti-correlated duty on logged structure (agenda V4 #7)](org_frontier/studies/logged_alt_duty_exact_phi/README.md)** — party admission recreates the exact-Φ joint-observation cliff on the
 - **[M3 subset-Φ fidelity vs V4 items 1–3 (agenda V4 item 12)](org_frontier/studies/m3_subset_fidelity_v4/README.md)** — Induced exact Φ already decides V4 items 1–3; overlay background-subset Φ moves the V4 item 1 subset-estimand key
+- **[A candidate split for the party-noise factor, tested and refuted](org_frontier/studies/majority_factor_split/README.md)** — Both pre-registered hypotheses were refuted. The candidate split failed because (1,1,1,3) quota 3 follows the factor exactly, even though one party can win the vote…
 - **[Margin-cascade selective exact Φ](org_frontier/studies/margin_cascade_phi/README.md)** — out-of-fold uncertain forms — cuts FN-among-triads sharply at fixed exact-Φ budget
 - **[Margin-cascade τ vs top-B% calibration](org_frontier/studies/margin_cascade_tau/README.md)** — On n=4, nested cal-fold τ-matching at B=10% yields the same FN|tri as top-B%
 - **[MARL deep replicate (#41 gap)](org_frontier/studies/marl_deep_replicate/README.md)** — linear FA Q-policies with observation `[S, own_last, partner_last]` —
