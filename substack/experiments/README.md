@@ -5,6 +5,7 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [Who works the switch doesn't change who is bound, only how tightly](2026-11-23-who-works-the-switch.md) | [`org_frontier/studies/gate_census_r1/`](../../org_frontier/studies/gate_census_r1/) |
 | 2026-11-23 | [Errors in, errors out](2026-11-23-in-or-out.md) | [`org_frontier/studies/noise_swap_symmetry/`](../../org_frontier/studies/noise_swap_symmetry/) |
 | 2026-11-23 | [The party that only listens](2026-11-23-the-party-that-only-listens.md) | [`org_frontier/studies/dummy_party_noise/`](../../org_frontier/studies/dummy_party_noise/) |
 | 2026-11-23 | [284 negative Φ values, and none of them changed a result](2026-11-23-negative-phi-audit.md) | [`org_frontier/studies/negative_phi_survey/`](../../org_frontier/studies/negative_phi_survey/) |
