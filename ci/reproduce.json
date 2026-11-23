@@ -5534,6 +5534,15 @@
       "source": "org_frontier/studies/shared_share_ties/FINDINGS.md"
     },
     {
+      "name": "five-six-node-quorum-ties",
+      "cmd": "python org_frontier/studies/five_six_node_quorum_ties/run.py --quick",
+      "expect": [
+        "w2    e=0.2   whole=0.022686 max_subset=0.833215 ratio=36.728056 full_in_top=N top_ties=SP3P4"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/five_six_node_quorum_ties/FINDINGS.md"
+    },
+    {
       "name": "party-vs-mediator-noise",
       "cmd": "python org_frontier/studies/party_vs_mediator_noise/analyze_locus.py",
       "expect": [
