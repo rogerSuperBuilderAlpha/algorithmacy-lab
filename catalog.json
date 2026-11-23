@@ -9387,8 +9387,10 @@
    "title": "Alphabet ladder: two, three and four possible answers on the same vote hub",
    "finding": "Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`",
    "path": "org_frontier/studies/alphabet_ladder_hub",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/alphabet_ladder_hub/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
