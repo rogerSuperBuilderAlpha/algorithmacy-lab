@@ -6177,6 +6177,16 @@
       "source": "org_frontier/studies/gate_census_r1/FINDINGS.md"
     },
     {
+      "name": "switch-delay",
+      "cmd": "python org_frontier/studies/switch_delay/run.py --quick",
+      "expect": [
+        "controls (gate_census / gate_census_r1 values reproduced): PASS",
+        "via_D:AND_g04    n=6 states=24 whole=1.000000 top=2.000000 top_states=7 full_bound=N pooled_ties=PR1,PR2C1,PR1R2C1,PR2C1GD"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/studies/switch_delay/FINDINGS.md"
+    },
+    {
       "name": "regulator-capture",
       "cmd": "python org_frontier/studies/regulator_capture/analyze_capture.py",
       "expect": [
