@@ -7802,6 +7802,16 @@
       ],
       "timeout": 120,
       "source": "org_frontier/studies/dummy_party_noise/FINDINGS.md"
+    },
+    {
+      "name": "noise-swap-symmetry",
+      "cmd": "python org_frontier/studies/noise_swap_symmetry/run.py --quick",
+      "expect": [
+        "OR3  eta=0.02   eps=0.1    states=16 whole=1.745506",
+        "OR3  eta=0.1    eps=0.02   states=16 whole=1.745506"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/noise_swap_symmetry/FINDINGS.md"
     }
   ]
 }
