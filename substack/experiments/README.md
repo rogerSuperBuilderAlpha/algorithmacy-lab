@@ -5,6 +5,7 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [The minus sign is already in the effect-side formula](2026-11-23-the-minus-sign.md) | [`org_frontier/studies/negative_phi_source/`](../../org_frontier/studies/negative_phi_source/) |
 | 2026-11-23 | [A fitted formula for the drifting ratio missed by a quarter](2026-11-23-the-drifting-ratio.md) | [`org_frontier/studies/drifting_ratio/`](../../org_frontier/studies/drifting_ratio/) |
 | 2026-11-23 | [The two kinds of error match only going forward, and only up to 20%](2026-11-23-the-forward-match.md) | [`org_frontier/studies/unanimous_repertoires/`](../../org_frontier/studies/unanimous_repertoires/) |
 | 2026-11-23 | [Having a voter who can win alone doesn't tell you when the error formula holds](2026-11-23-the-split-failed.md) | [`org_frontier/studies/majority_factor_split/`](../../org_frontier/studies/majority_factor_split/) |

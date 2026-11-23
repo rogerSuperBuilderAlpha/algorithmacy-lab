@@ -7932,6 +7932,16 @@
       ],
       "timeout": 180,
       "source": "org_frontier/studies/drifting_ratio/FINDINGS.md"
+    },
+    {
+      "name": "negative-phi-source",
+      "cmd": "python org_frontier/studies/negative_phi_source/run.py --quick",
+      "expect": [
+        "SP1 state=0000 system=-0.131783210946 cause=0.33979877901916944 effect=-0.13178321094580336",
+        "C2 OR3 SP1 0000 eta=0.3 control system=-0.131783210945803: PASS"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/negative_phi_source/FINDINGS.md"
     }
   ]
 }
