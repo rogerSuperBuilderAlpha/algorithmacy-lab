@@ -7,3 +7,5 @@
    enumeration: in which states does the full group tie for the maximum?
 4. **O04 registry hygiene**, then a ternary majority under input noise on the multivalued overlay.
 5. **Asynchronous update** on the noisy quorums.
+
+None of these has been started as of 2026-11-23.
