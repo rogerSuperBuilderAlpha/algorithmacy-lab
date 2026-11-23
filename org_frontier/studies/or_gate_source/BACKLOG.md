@@ -5,4 +5,4 @@
 2. **Two gated relayers** on both arms with mixed gate types.
 3. **Noisy relayers** (carried over from `relay_length`).
 
-None of these had been started when PR #N was opened.
+None of these had been started when PR #946 was opened.
