@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 164,
+  "study": 165,
   "foundations": 9,
   "open": 15
  },
@@ -9936,6 +9936,15 @@
     "python org_frontier/studies/formal_informal_cut/analyze_cut.py"
    ],
    "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "gate_census",
+   "title": "Gate census: all 16 two-input rules for a switch-gated relayer under AND, OR and XOR platforms",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/gate_census",
+   "reproduce": [],
+   "runtime": "unregistered"
   },
   {
    "kind": "study",

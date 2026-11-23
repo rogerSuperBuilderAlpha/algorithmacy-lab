@@ -98,7 +98,7 @@ Run the relevant generator after adding content, then verify with its `--check`.
 |---|---|---|
 | 171 | questions | `org_frontier/questions/q*_*/` |
 | 136 | probes | `org_frontier/probes/probe_*.py` |
-| 164 | studies | `org_frontier/studies/*/` |
+| 165 | studies | `org_frontier/studies/*/` |
 | 22 | essays | `org_frontier/essays/*.md` |
 | 9 | foundations experiments | `foundations/*/` with a `FINDINGS.md` |
 | 10 | literature reviews | `org_frontier/reviews/*/` with a `FINDINGS.md` |
