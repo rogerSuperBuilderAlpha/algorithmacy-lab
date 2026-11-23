@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 158,
+  "study": 157,
   "foundations": 9,
   "open": 15
  },
@@ -9925,15 +9925,6 @@
     "python org_frontier/studies/formal_informal_cut/analyze_cut.py"
    ],
    "runtime": "fast"
-  },
-  {
-   "kind": "study",
-   "id": "gate_source",
-   "title": "Gate source: does the switch rejoin the group if the group can reach it?",
-   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
-   "path": "org_frontier/studies/gate_source",
-   "reproduce": [],
-   "runtime": "unregistered"
   },
   {
    "kind": "study",
