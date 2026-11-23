@@ -103,4 +103,4 @@ Run the relevant generator after adding content, then verify with its `--check`.
 | 9 | foundations experiments | `foundations/*/` with a `FINDINGS.md` |
 | 10 | literature reviews | `org_frontier/reviews/*/` with a `FINDINGS.md` |
 | 773 | watch entries (program-level) | `org_frontier/research/*/literature/references.bib` |
-| 14 | open threads | `OPEN_QUESTIONS.md` rows with status `open` |
+| 13 | open threads | `OPEN_QUESTIONS.md` rows with status `open` |
