@@ -7,3 +7,5 @@
 4. **A formula for the drifting ratio** when one party is strictly strongest (fit on (1,1,1,2) q3 and
    (1,1,2,3) q3; predict (1,1,1,3)).
 5. **O04**: a ternary majority under input noise on the multivalued overlay.
+
+None of these had been started when PR #942 was opened.
