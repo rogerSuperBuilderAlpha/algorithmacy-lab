@@ -6,6 +6,7 @@
 |---|---|
 | `MANUSCRIPT_anonymized.docx` | The full paper with every marked edit accepted, marks and notes removed, 5Cs block labels removed, references appended. Times New Roman 12, double-spaced; Table 1 single-spaced 10 pt; no author in the file metadata. |
 | `MANUSCRIPT_anonymized.md` | The same text in Markdown (the source of the .docx). |
+| `FIGURE_1.png` / `FIGURE_1.svg` | Figure 1 (the triangle with the three-part cycle), 1950 × 1950 px at 300 dpi, grayscale-safe; the manuscript keeps a "Figure 1 about here" call-out. |
 | `TITLE_PAGE.md` | Title page with Statements and Declarations and a draft generative-AI disclosure (SAGE policy read 23 Nov). |
 | `../draft_2026-11/` | The marked section files (your sentences vs Claude's, with notes and source tables). Edit there, then rebuild. |
 
@@ -36,12 +37,16 @@
    read.
 4. **Check these against your own copies** (books or blocked articles, flagged in the section notes):
    Guzman & Lewis (2020, p. 71: your sentence follows their wording without quotation marks); Olson (1994);
-   Thompson (1995); Yates (1989); Suchman (2007); Braverman (1974); Daft & Lengel (1986); Spitzberg (2006);
-   Long & Magerko (2020); Jarrahi & Sutherland (2019) editors.
+   Thompson (1995); Yates (1989); Suchman (2007); Braverman (1974); Daft & Lengel (1986; INFORMS refused
+   access on 23 Nov); Jarrahi & Sutherland (2019) editors. (Spitzberg and Long & Magerko checked in full
+   text on 23 Nov: supported.)
 5. **Version-of-record pages** for quotations taken from manuscript copies: Curchod et al. (AAM pp. 21,
-   22), Rahman et al. (preprint p. 6), Orlikowski & Scott (AAM p. 42), Ohme et al. (advance pp. 1, 5, 6).
-6. **Figure 1** (the triangle with the cycle) is a placeholder; it needs drawing at 300 dpi.
-7. **Before submitting:** search *Business & Society* OnlineFirst for the special issue on collective
-   actorhood and responsibility; rerun the gap search on Scholar Gateway and Semantic Scholar.
+   22), Rahman et al. (preprint p. 6), Orlikowski & Scott (AAM p. 42; INFORMS refused access), Ohme et al.
+   (advance pp. 1, 5, 6; the published text, issue pp. 12–23, contains all three quotations, checked 23 Nov;
+   pages likely advance + 11, unconfirmed).
+6. **Figure 1** is drawn (`FIGURE_1.png`); check that it shows what you mean.
+7. **Before submitting:** rerun the *Business & Society* check (23 Nov, OpenAlex: no article on actorhood or
+   organizationality since June 2025 apart from one editorial) and the gap search on Scholar Gateway and
+   Semantic Scholar (both failed on 23 Nov; Semantic Scholar needs an API key).
 8. **Your read-aloud** of the whole text: contractions and spoken phrasing in your sentences ("You can't",
    "I'm looking", "dumped") are kept as yours.
