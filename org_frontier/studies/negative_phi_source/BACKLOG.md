@@ -9,3 +9,5 @@
 
 Status: items 1–3 open as of 2026-11-23. This study tests item 1 of
 `negative_phi_survey/BACKLOG.md`.
+
+PR note: CI nudge after the atlas snapshot pin (bc3b62f7).
