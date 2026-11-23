@@ -6026,6 +6026,19 @@
       "source": "org_frontier/studies/off_platform_deals/FINDINGS.md"
     },
     {
+      "name": "who-hears-back",
+      "cmd": "python org_frontier/studies/who_hears_back/run.py --quick",
+      "expect": [
+        "C1 conjunctive triad whole Φ=2.000000: PASS",
+        "C2 AND (4,4) = two_sided_platform all_four, whole Φ 4.0: PASS",
+        "AND r=4 t=4 states=4  whole=4.000000 top=4.000000 ties=PA1A2A3A4",
+        "AND r=2 t=4 states=4  whole=0.000000 top=2.000000 ties=PA1,PA2,PA1A2",
+        "AND r=4 t=2 states=10 whole=0.000000 top=2.000000 ties=PA1,PA2,PA1A2"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/who_hears_back/FINDINGS.md"
+    },
+    {
       "name": "regulator-capture",
       "cmd": "python org_frontier/studies/regulator_capture/analyze_capture.py",
       "expect": [
