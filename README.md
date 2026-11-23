@@ -368,6 +368,7 @@ Multi-experiment batteries on one theme.
 - **[Flip recovery: settling after a one-party nudge, joined to committed Φ](org_frontier/studies/flip_recovery/README.md)** — Hypotheses pushed in `ac0bf6f3` before computation. Φ values are the committed ones from
 - **[FN-tail feature redesign](org_frontier/studies/fn_tail_feature_redesign/README.md)** — F28-motivated cheap fragility and algebraic table features to the Probe-125/131
 - **[Formal vs informal cut (agenda #46)](org_frontier/studies/formal_informal_cut/README.md)** — map onto dyadic/triadic. Formal spans both (commit gate vs
+- **[Gate match test: is a gated relayer bound exactly when its gate rule matches the platform rule?](org_frontier/studies/gate_match_test/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Gate source: does the switch rejoin the group if the group can reach it?](org_frontier/studies/gate_source/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Genuine bistability (agenda #13)](org_frontier/studies/genuine_bistability/README.md)** — triadic and dyadic attractors — beyond #109's sticky-mediator activity
 - **[Gig substitution (#35)](org_frontier/studies/gig_substitution/README.md)** — individual worker drops from the major complex at the **first positive
@@ -411,7 +412,6 @@ Multi-experiment batteries on one theme.
 - **[Mixed-algebra seats (V3 #3)](org_frontier/studies/mixed_algebra_seats/README.md)** — a single mediator does **not** produce a hybrid signature. Whole-form Φ
 - **[Mixed-radix mediator (agenda #3)](org_frontier/studies/mixed_radix_mediator/README.md)** — mediator (`S'=W+C`, alphabets `(2,3,2)`), the extra mid level goes into
 - **[pyphi_iit4_mv M1 overlay](org_frontier/studies/multivalued_iit4_port/README.md)** — `third_party/pyphi_iit4_mv`. Binary regression matches stock pin Φ=2
-- **[Negative φ survey: does PyPhi's negative output change any noisy-quorum result?](org_frontier/studies/negative_phi_survey/README.md)** — Hypotheses were committed (3e34ab73) before computing. Values seen beforehand: the OR3/ANY4 all-zero
 - **[Noise × composed carriers (V3 #12)](org_frontier/studies/noise_composed_carriers/README.md)** — share **p\*=0.5** on a composed **AND necklace** and a **shared-mediator
 - **[Noise placement: party-side vs mediator-side errors on quorum hubs](org_frontier/studies/noise_placement/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Off-platform deals: buyer–seller links that bypass a two-sided platform](org_frontier/studies/off_platform_deals/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
