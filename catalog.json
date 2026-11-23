@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 161,
+  "study": 160,
   "foundations": 9,
   "open": 15
  },
@@ -9914,15 +9914,6 @@
     "python org_frontier/studies/fn_tail_feature_redesign/analyze_fn_redesign.py"
    ],
    "runtime": "fast"
-  },
-  {
-   "kind": "study",
-   "id": "forcing_match",
-   "title": "Forcing match: is a gated relayer bound exactly when the gate forces the value that settles the platform?",
-   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
-   "path": "org_frontier/studies/forcing_match",
-   "reproduce": [],
-   "runtime": "unregistered"
   },
   {
    "kind": "study",
