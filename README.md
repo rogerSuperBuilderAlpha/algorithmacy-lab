@@ -386,6 +386,7 @@ Multi-experiment batteries on one theme.
 - **[Joint-obs cliff under exact Φ (agenda V4 #1)](org_frontier/studies/joint_obs_cliff_exact_phi/README.md)** — replicates on family_n3 (0.967→0.585). Under an **exact-Φ** screen,
 - **[Ladder-gate stratified panel — stress-test MONO_EXTREMAL_VS_AFFINE](org_frontier/studies/ladder_gate_panel/README.md)** — stratified panel of **448** four-input gates at n=5 full bind:
 - **[Ladder-gate Boolean property classifier](org_frontier/studies/ladder_gate_properties/README.md)** — (anchors + property probes), regime membership is predicted exactly by:
+- **[Lazy update: nodes that sometimes keep their last state, on quorum hubs](org_frontier/studies/lazy_update/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Local-triad necklace (V3 #4)](org_frontier/studies/local_triad_necklace/README.md)** — triads on a cycle does **not** invent a new Φ law. The closed AND necklace
 - **[Anti-correlated duty on logged structure (agenda V4 #7)](org_frontier/studies/logged_alt_duty_exact_phi/README.md)** — party admission recreates the exact-Φ joint-observation cliff on the
 - **[M3 subset-Φ fidelity vs V4 items 1–3 (agenda V4 item 12)](org_frontier/studies/m3_subset_fidelity_v4/README.md)** — Induced exact Φ already decides V4 items 1–3; overlay background-subset Φ moves the V4 item 1 subset-estimand key
@@ -417,7 +418,6 @@ Multi-experiment batteries on one theme.
 - **[Placement equality: party-side vs mediator-side noise on seven quorum rules](org_frontier/studies/placement_equality/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), full group, every reachable state. Hypotheses pushed in
 - **[Correlated input noise on quorum hubs](org_frontier/studies/quorum_correlated_noise/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`) on three-party quorum hubs under three input-noise models with
 - **[Quorum input-noise sweep (O01)](org_frontier/studies/quorum_noise_sweep/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`) on seven counting quorums at ten input-observation error
-- **[Quorum ratio law: strongest subset vs whole on noisy counting quorums](org_frontier/studies/quorum_ratio_law/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464
 - **[Random coupling ensemble at fixed n (agenda #18)](org_frontier/studies/random_coupling_ensemble/README.md)** — n=4 (ER / fixed-k / WS / BA-style), **every** core Φ lands on the discrete
 - **[Regulator capture (#33)](org_frontier/studies/regulator_capture/README.md)** — coupling cut**, not a smooth membership glide. Under mutual gate
 - **[Residual phase boundary (F28)](org_frontier/studies/residual_phase_boundary/README.md)** — that instability is shared with other classifier-uncertain forms (H3 refuted).** One-bit flips in

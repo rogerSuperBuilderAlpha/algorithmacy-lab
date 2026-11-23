@@ -10126,6 +10126,17 @@
   },
   {
    "kind": "study",
+   "id": "lazy_update",
+   "title": "Lazy update: nodes that sometimes keep their last state, on quorum hubs",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/lazy_update",
+   "reproduce": [
+    "python org_frontier/studies/lazy_update/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "local_triad_necklace",
    "title": "Local-triad necklace (V3 #4)",
    "finding": "triads on a cycle does **not** invent a new Φ law. The closed AND necklace",
@@ -10462,17 +10473,6 @@
    "path": "org_frontier/studies/quorum_noise_sweep",
    "reproduce": [
     "python org_frontier/studies/quorum_noise_sweep/sweep.py --quick"
-   ],
-   "runtime": "fast"
-  },
-  {
-   "kind": "study",
-   "id": "quorum_ratio_law",
-   "title": "Quorum ratio law: strongest subset vs whole on noisy counting quorums",
-   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464",
-   "path": "org_frontier/studies/quorum_ratio_law",
-   "reproduce": [
-    "python org_frontier/studies/quorum_ratio_law/run.py --quick"
    ],
    "runtime": "fast"
   },
