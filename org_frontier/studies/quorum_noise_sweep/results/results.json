@@ -1,0 +1,10239 @@
+{
+ "pyphi_version": "1.2.1.dev1470+gb78d0e342",
+ "phi_eps": 1e-09,
+ "rates": [
+  0.0,
+  0.01,
+  0.02,
+  0.05,
+  0.1,
+  0.2,
+  0.3,
+  0.4,
+  0.45,
+  0.5
+ ],
+ "hypotheses": {
+  "H1": "SUPPORTED",
+  "H2": "SUPPORTED",
+  "H3": "REFUTED",
+  "H4": "SUPPORTED"
+ },
+ "peaks": {
+  "MAJ3": {
+   "eta": 0.2,
+   "whole_phi": 0.03662371603136496,
+   "ref": "OR3",
+   "ratio": 0.03516377089923191
+  },
+  "2of4": {
+   "eta": 0.2,
+   "whole_phi": 0.03582202453611982,
+   "ref": "ANY4",
+   "ratio": 0.03224441019113153
+  },
+  "3of4": {
+   "eta": 0.2,
+   "whole_phi": 0.0358220245361198,
+   "ref": "ANY4",
+   "ratio": 0.03224441019113151
+  }
+ },
+ "rows": [
+  {
+   "form": "OR3",
+   "eta": 0.0,
+   "whole_phi": 3.0,
+   "max_core_phi": 3.0,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "OR3",
+   "eta": 0.01,
+   "whole_phi": 2.8686902460731947,
+   "max_core_phi": 2.8686902460731947,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "OR3",
+   "eta": 0.02,
+   "whole_phi": 2.741279077908081,
+   "max_core_phi": 2.741279077908081,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "OR3",
+   "eta": 0.05,
+   "whole_phi": 2.381786254453921,
+   "max_core_phi": 2.381786254453921,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "OR3",
+   "eta": 0.1,
+   "whole_phi": 1.8545692346356781,
+   "max_core_phi": 1.8545692346356781,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "OR3",
+   "eta": 0.2,
+   "whole_phi": 1.0415184462530138,
+   "max_core_phi": 1.0415184462530138,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "OR3",
+   "eta": 0.3,
+   "whole_phi": 0.49950420515817795,
+   "max_core_phi": 0.49950420515817795,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "OR3",
+   "eta": 0.4,
+   "whole_phi": 0.02328268984613159,
+   "max_core_phi": 0.02328268984613159,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "OR3",
+   "eta": 0.45,
+   "whole_phi": 0.014689260306758684,
+   "max_core_phi": 0.014689260306758684,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "OR3",
+   "eta": 0.5,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false
+  },
+  {
+   "form": "MAJ3",
+   "eta": 0.0,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false
+  },
+  {
+   "form": "MAJ3",
+   "eta": 0.01,
+   "whole_phi": 0.003516347441517592,
+   "max_core_phi": 0.014065389766070368,
+   "max_cores": [
+    [
+     "S",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "MAJ3",
+   "eta": 0.02,
+   "whole_phi": 0.006851174270631557,
+   "max_core_phi": 0.027404697082526224,
+   "max_cores": [
+    [
+     "S",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "MAJ3",
+   "eta": 0.05,
+   "whole_phi": 0.015760636493609655,
+   "max_core_phi": 0.06304254597443862,
+   "max_cores": [
+    [
+     "S",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "MAJ3",
+   "eta": 0.1,
+   "whole_phi": 0.026980608910464783,
+   "max_core_phi": 0.10792243564185913,
+   "max_cores": [
+    [
+     "S",
+     "P3"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "MAJ3",
+   "eta": 0.2,
+   "whole_phi": 0.03662371603136496,
+   "max_core_phi": 0.14649486412545984,
+   "max_cores": [
+    [
+     "S",
+     "P3"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "MAJ3",
+   "eta": 0.3,
+   "whole_phi": 0.032045751527444384,
+   "max_core_phi": 0.1281830061097776,
+   "max_cores": [
+    [
+     "S",
+     "P3"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "MAJ3",
+   "eta": 0.4,
+   "whole_phi": 0.01798707260697647,
+   "max_core_phi": 0.07194829042790588,
+   "max_cores": [
+    [
+     "S",
+     "P3"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "MAJ3",
+   "eta": 0.45,
+   "whole_phi": 0.009124579022616115,
+   "max_core_phi": 0.036498316090464465,
+   "max_cores": [
+    [
+     "S",
+     "P3"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "MAJ3",
+   "eta": 0.5,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false
+  },
+  {
+   "form": "AND3",
+   "eta": 0.0,
+   "whole_phi": 3.0,
+   "max_core_phi": 3.0,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "AND3",
+   "eta": 0.01,
+   "whole_phi": 2.8686902460731987,
+   "max_core_phi": 2.8686902460731987,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "AND3",
+   "eta": 0.02,
+   "whole_phi": 2.7412790779080853,
+   "max_core_phi": 2.7412790779080853,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "AND3",
+   "eta": 0.05,
+   "whole_phi": 2.3817862544539254,
+   "max_core_phi": 2.3817862544539254,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "AND3",
+   "eta": 0.1,
+   "whole_phi": 1.8545692346356755,
+   "max_core_phi": 1.8545692346356755,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "AND3",
+   "eta": 0.2,
+   "whole_phi": 1.0415184462530114,
+   "max_core_phi": 1.0415184462530114,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "AND3",
+   "eta": 0.3,
+   "whole_phi": 0.49950420515817867,
+   "max_core_phi": 0.49950420515817867,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "AND3",
+   "eta": 0.4,
+   "whole_phi": 0.023282689846131587,
+   "max_core_phi": 0.023282689846131587,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "AND3",
+   "eta": 0.45,
+   "whole_phi": 0.01468926030675868,
+   "max_core_phi": 0.01468926030675868,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "AND3",
+   "eta": 0.5,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false
+  },
+  {
+   "form": "ANY4",
+   "eta": 0.0,
+   "whole_phi": 4.0,
+   "max_core_phi": 4.0,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "ANY4",
+   "eta": 0.01,
+   "whole_phi": 3.786671124816607,
+   "max_core_phi": 3.786671124816607,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "ANY4",
+   "eta": 0.02,
+   "whole_phi": 3.5819379951332166,
+   "max_core_phi": 3.5819379951332166,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "ANY4",
+   "eta": 0.05,
+   "whole_phi": 3.016929255641619,
+   "max_core_phi": 3.016929255641619,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "ANY4",
+   "eta": 0.1,
+   "whole_phi": 2.225483081562809,
+   "max_core_phi": 2.225483081562809,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "ANY4",
+   "eta": 0.2,
+   "whole_phi": 1.110953009336554,
+   "max_core_phi": 1.110953009336554,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "ANY4",
+   "eta": 0.3,
+   "whole_phi": 0.4662039248143,
+   "max_core_phi": 0.4662039248143,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "ANY4",
+   "eta": 0.4,
+   "whole_phi": 0.009263704349319878,
+   "max_core_phi": 0.009263704349319878,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3",
+     "P4"
+    ],
+    [
+     "S",
+     "P4"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "ANY4",
+   "eta": 0.45,
+   "whole_phi": 0.006588943983060021,
+   "max_core_phi": 0.006588943983060021,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "ANY4",
+   "eta": 0.5,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false
+  },
+  {
+   "form": "2of4",
+   "eta": 0.0,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false
+  },
+  {
+   "form": "2of4",
+   "eta": 0.01,
+   "whole_phi": 0.004187372743008379,
+   "max_core_phi": 0.0209368637150419,
+   "max_cores": [
+    [
+     "S",
+     "P2",
+     "P3",
+     "P4"
+    ],
+    [
+     "S",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "2of4",
+   "eta": 0.02,
+   "whole_phi": 0.008093570477427325,
+   "max_core_phi": 0.04046785238713664,
+   "max_cores": [
+    [
+     "S",
+     "P2",
+     "P3",
+     "P4"
+    ],
+    [
+     "S",
+     "P4"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "2of4",
+   "eta": 0.05,
+   "whole_phi": 0.01814390272790656,
+   "max_core_phi": 0.09071951363953286,
+   "max_cores": [
+    [
+     "S",
+     "P3",
+     "P4"
+    ],
+    [
+     "S",
+     "P4"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "2of4",
+   "eta": 0.1,
+   "whole_phi": 0.029590833531401614,
+   "max_core_phi": 0.14795416765700808,
+   "max_cores": [
+    [
+     "S",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "2of4",
+   "eta": 0.2,
+   "whole_phi": 0.03582202453611982,
+   "max_core_phi": 0.17911012268059878,
+   "max_cores": [
+    [
+     "S",
+     "P4"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "2of4",
+   "eta": 0.3,
+   "whole_phi": 0.027344339403135187,
+   "max_core_phi": 0.13672169701567596,
+   "max_cores": [
+    [
+     "S",
+     "P4"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "2of4",
+   "eta": 0.4,
+   "whole_phi": 0.013068334897193825,
+   "max_core_phi": 0.06534167448596913,
+   "max_cores": [
+    [
+     "S",
+     "P4"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "2of4",
+   "eta": 0.45,
+   "whole_phi": 0.0060510237641344744,
+   "max_core_phi": 0.02437140834947018,
+   "max_cores": [
+    [
+     "S",
+     "P4"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "2of4",
+   "eta": 0.5,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false
+  },
+  {
+   "form": "3of4",
+   "eta": 0.0,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false
+  },
+  {
+   "form": "3of4",
+   "eta": 0.01,
+   "whole_phi": 0.004187372743008316,
+   "max_core_phi": 0.02093686371504158,
+   "max_cores": [
+    [
+     "S",
+     "P2",
+     "P3",
+     "P4"
+    ],
+    [
+     "S",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "3of4",
+   "eta": 0.02,
+   "whole_phi": 0.008093570477427328,
+   "max_core_phi": 0.040467852387136634,
+   "max_cores": [
+    [
+     "S",
+     "P2",
+     "P3",
+     "P4"
+    ],
+    [
+     "S",
+     "P4"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "3of4",
+   "eta": 0.05,
+   "whole_phi": 0.018143902727906575,
+   "max_core_phi": 0.09071951363953284,
+   "max_cores": [
+    [
+     "S",
+     "P3",
+     "P4"
+    ],
+    [
+     "S",
+     "P4"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "3of4",
+   "eta": 0.1,
+   "whole_phi": 0.029590833531401614,
+   "max_core_phi": 0.14795416765700808,
+   "max_cores": [
+    [
+     "S",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "3of4",
+   "eta": 0.2,
+   "whole_phi": 0.0358220245361198,
+   "max_core_phi": 0.17911012268059884,
+   "max_cores": [
+    [
+     "S",
+     "P4"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "3of4",
+   "eta": 0.3,
+   "whole_phi": 0.027344339403135177,
+   "max_core_phi": 0.13672169701567588,
+   "max_cores": [
+    [
+     "S",
+     "P4"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "3of4",
+   "eta": 0.4,
+   "whole_phi": 0.013068334897193822,
+   "max_core_phi": 0.06534167448596911,
+   "max_cores": [
+    [
+     "S",
+     "P4"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "3of4",
+   "eta": 0.45,
+   "whole_phi": 0.006051023764134448,
+   "max_core_phi": 0.02437140834947017,
+   "max_cores": [
+    [
+     "S",
+     "P4"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "3of4",
+   "eta": 0.5,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false
+  },
+  {
+   "form": "ALL4",
+   "eta": 0.0,
+   "whole_phi": 4.0,
+   "max_core_phi": 4.0,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "ALL4",
+   "eta": 0.01,
+   "whole_phi": 3.786671124816622,
+   "max_core_phi": 3.786671124816622,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "ALL4",
+   "eta": 0.02,
+   "whole_phi": 3.5819379951332313,
+   "max_core_phi": 3.5819379951332313,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "ALL4",
+   "eta": 0.05,
+   "whole_phi": 3.0169292556416387,
+   "max_core_phi": 3.0169292556416387,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "ALL4",
+   "eta": 0.1,
+   "whole_phi": 2.2254830815628113,
+   "max_core_phi": 2.2254830815628113,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "ALL4",
+   "eta": 0.2,
+   "whole_phi": 1.1109530093365452,
+   "max_core_phi": 1.1109530093365452,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "ALL4",
+   "eta": 0.3,
+   "whole_phi": 0.46620392481430023,
+   "max_core_phi": 0.46620392481430023,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "ALL4",
+   "eta": 0.4,
+   "whole_phi": 0.009263704349319567,
+   "max_core_phi": 0.009263704349319567,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3",
+     "P4"
+    ],
+    [
+     "S",
+     "P4"
+    ]
+   ],
+   "full_group_core": false
+  },
+  {
+   "form": "ALL4",
+   "eta": 0.45,
+   "whole_phi": 0.0065889439830597125,
+   "max_core_phi": 0.0065889439830597125,
+   "max_cores": [
+    [
+     "S",
+     "P1",
+     "P2",
+     "P3",
+     "P4"
+    ]
+   ],
+   "full_group_core": true
+  },
+  {
+   "form": "ALL4",
+   "eta": 0.5,
+   "whole_phi": 0.0,
+   "max_core_phi": 0.0,
+   "max_cores": [],
+   "full_group_core": false
+  }
+ ],
+ "cases": [
+  {
+   "form": "OR3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.0,
+   "max_phi": 3.0,
+   "max_core_phi": 3.0,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 3.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 3.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.05756972518581409
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 3.0
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.01,
+   "max_phi": 2.8686902460731947,
+   "max_core_phi": 2.8686902460731947,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 2.8686902460731947
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 1.0099112716754283e-05
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 7.069378901727999e-05
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 1.0099112716754283e-05
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.8686902460731947
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.058852327118742616
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 7.069378901727999e-05
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 7.069378901727999e-05
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.8686902460731947
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.02,
+   "max_phi": 2.741279077908081,
+   "max_core_phi": 2.741279077908081,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 2.741279077908081
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 3.957486331751067e-05
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.00027702404322289494
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 3.957486331751067e-05
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.741279077908081
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.059953175273230894
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.00027702404322289494
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.00027702404322289494
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.741279077908081
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.05,
+   "max_phi": 2.381786254453921,
+   "max_core_phi": 2.381786254453921,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 2.381786254453921
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.00023199223943653897
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0016239456760557725
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.00023199223943653897
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.381786254453921
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.062223573520650756
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0016239456760557725
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0016239456760554524
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.381786254453921
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.1,
+   "max_phi": 1.8545692346356781,
+   "max_core_phi": 1.8545692346356781,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 1.8545692346356781
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0008260520298636977
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0057823642090458855
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0008260520298636977
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.8545692346356781
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.06292197807702837
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0057823642090458855
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0057823642090458855
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.8545692346356781
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.2,
+   "max_phi": 1.0415184462530138,
+   "max_core_phi": 1.0415184462530138,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 1.0415184462530138
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0024882720590328716
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.017417904413230108
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0024882720590328716
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.0415184462530138
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.055329008295886516
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.017417904413230108
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.017417904413230108
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.0415184462530138
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.3,
+   "max_phi": 0.49950420515817795,
+   "max_core_phi": 0.49950420515817795,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.49950420515817795
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.003744530988262087
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.026211716917834603
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.003744530988262087
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.49950420515817795
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.012232492938188278
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.026211716917834603
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.026211716917834603
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.49950420515817795
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.4,
+   "max_phi": 0.02328268984613159,
+   "max_core_phi": 0.02328268984613159,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": -0.1242086202819146
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": -0.1242086202819146
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.02328268984613159
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.00332609854944737
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.02328268984613159
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.02061980228026775
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.02328268984613159
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.45,
+   "max_phi": 0.014689260306758684,
+   "max_core_phi": 0.014689260306758684,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": -0.05825744378090442
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": -0.05825744378090442
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.014689260306758684
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.002098465758108383
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.014689260306758684
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.010343941493217504
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.014689260306758684
+    }
+   ]
+  },
+  {
+   "form": "OR3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.5,
+   "max_phi": 0.0,
+   "max_core_phi": 0.0,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ],
+   "maximizing_cores": []
+  },
+  {
+   "form": "MAJ3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.0,
+   "max_phi": 0.0,
+   "max_core_phi": 0.0,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ],
+   "maximizing_cores": []
+  },
+  {
+   "form": "MAJ3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.01,
+   "max_phi": 0.003516347441517592,
+   "max_core_phi": 0.014065389766070368,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.003516347441517592
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.003516347441517592
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.003516347441517592
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.003516347441517592
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.014065389766070368
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.014065389766070368
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.014065389766070368
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.014065389766070368
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.014065389766070368
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.014065389766070368
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.014065389766070368
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.014065389766070368
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.02,
+   "max_phi": 0.006851174270631557,
+   "max_core_phi": 0.027404697082526224,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.006851174270631556
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.006851174270631557
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.006851174270631556
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.006851174270631557
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.027404697082526224
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.027404697082526224
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.02740469708252622
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.02740469708252622
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.027404697082526224
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.027404697082526224
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.02740469708252622
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.02740469708252622
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.05,
+   "max_phi": 0.015760636493609655,
+   "max_core_phi": 0.06304254597443862,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.015760636493609655
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.015760636493609575
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.015760636493609655
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.015760636493609575
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.06304254597443862
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.06304254597443862
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0630425459744383
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0630425459744383
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.06304254597443862
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.06304254597443862
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0630425459744383
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0630425459744383
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.1,
+   "max_phi": 0.026980608910464783,
+   "max_core_phi": 0.10792243564185913,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.026980608910464783
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.026980608910464783
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.026980608910464783
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.026980608910464783
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.10792243564185912
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.10792243564185912
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.10792243564185913
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.10792243564185913
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.10792243564185912
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.10792243564185912
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.10792243564185913
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.10792243564185913
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.2,
+   "max_phi": 0.03662371603136496,
+   "max_core_phi": 0.14649486412545984,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.03662371603136496
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.03662371603136495
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.03662371603136496
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.03662371603136495
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.1464948641254598
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.1464948641254598
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.14649486412545984
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.14649486412545984
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.1464948641254598
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.1464948641254598
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.14649486412545984
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.14649486412545984
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.3,
+   "max_phi": 0.032045751527444384,
+   "max_core_phi": 0.1281830061097776,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.032045751527444384
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.032045751527444336
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.032045751527444384
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.032045751527444336
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.1281830061097776
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.1281830061097776
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.12818300610977731
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.12818300610977731
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.1281830061097776
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.1281830061097776
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.12818300610977731
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.12818300610977731
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.4,
+   "max_phi": 0.01798707260697647,
+   "max_core_phi": 0.07194829042790588,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.01798707260697647
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.01798707260697647
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.01798707260697647
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.01798707260697647
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.07194829042790588
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.07194829042790588
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.07194829042790588
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.07194829042790588
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.07194829042790588
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.07194829042790588
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.07194829042790588
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.07194829042790588
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.45,
+   "max_phi": 0.009124579022616115,
+   "max_core_phi": 0.036498316090464465,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.009124579022616071
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.009124579022616115
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.009124579022616071
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.009124579022616115
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.03649831609046428
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.03649831609046428
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.036498316090464465
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.036498316090464465
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.03649831609046428
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.03649831609046428
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.036498316090464465
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.036498316090464465
+    }
+   ]
+  },
+  {
+   "form": "MAJ3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.5,
+   "max_phi": 0.0,
+   "max_core_phi": 0.0,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ],
+   "maximizing_cores": []
+  },
+  {
+   "form": "AND3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.0,
+   "max_phi": 3.0,
+   "max_core_phi": 3.0,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 3.0
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.05756972518581409
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 3.0
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 3.0
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.01,
+   "max_phi": 2.8686902460731987,
+   "max_core_phi": 2.8686902460731987,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 1.0099112716754283e-05
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 7.069378901727999e-05
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 1.0099112716754283e-05
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 2.8686902460731987
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 7.069378901727999e-05
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 7.069378901727999e-05
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.0588523271187426
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.8686902460731987
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.8686902460731987
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.02,
+   "max_phi": 2.7412790779080853,
+   "max_core_phi": 2.7412790779080853,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 3.957486331751067e-05
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.00027702404322257467
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 3.957486331751067e-05
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 2.7412790779080853
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.00027702404322257467
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.00027702404322257467
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.059953175273230894
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.7412790779080853
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.7412790779080853
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.05,
+   "max_phi": 2.3817862544539254,
+   "max_core_phi": 2.3817862544539254,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0002319922394364932
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0016239456760554526
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0002319922394364932
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 2.3817862544539254
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0016239456760554526
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0016239456760554526
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.062223573520650756
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.3817862544539254
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 2.3817862544539254
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.1,
+   "max_phi": 1.8545692346356755,
+   "max_core_phi": 1.8545692346356755,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0008260520298636979
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0057823642090458855
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0008260520298636979
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 1.8545692346356755
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0057823642090458855
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.0057823642090458855
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.06292197807702839
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.8545692346356755
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.8545692346356755
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.2,
+   "max_phi": 1.0415184462530114,
+   "max_core_phi": 1.0415184462530114,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0024882720590328716
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.017417904413230104
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0024882720590328716
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 1.0415184462530114
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.017417904413230104
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.017417904413230104
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.055329008295886516
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.0415184462530114
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 1.0415184462530114
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.3,
+   "max_phi": 0.49950420515817867,
+   "max_core_phi": 0.49950420515817867,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.003744530988262086
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.026211716917834606
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.003744530988262086
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.49950420515817867
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.026211716917834606
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.026211716917834606
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.012232492938188278
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.49950420515817867
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.49950420515817867
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.4,
+   "max_phi": 0.023282689846131587,
+   "max_core_phi": 0.023282689846131587,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0033260985494473695
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.023282689846131587
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": -0.1242086202819146
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": -0.1242086202819146
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.020619802280267746
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.023282689846131587
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.023282689846131587
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.45,
+   "max_phi": 0.01468926030675868,
+   "max_core_phi": 0.01468926030675868,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.002098465758108383
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.01468926030675868
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": -0.058257443780904264
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": -0.058257443780904264
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3"
+     ],
+     "core_phi": 0.010343941493217504
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.01468926030675868
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3"
+     ],
+     "core_phi": 0.01468926030675868
+    }
+   ]
+  },
+  {
+   "form": "AND3",
+   "weights": [
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.5,
+   "max_phi": 0.0,
+   "max_core_phi": 0.0,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ],
+   "maximizing_cores": []
+  },
+  {
+   "form": "ANY4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.0,
+   "max_phi": 4.0,
+   "max_core_phi": 4.0,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 4.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 4.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.025298069214282674
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 4.0
+    }
+   ]
+  },
+  {
+   "form": "ANY4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.01,
+   "max_phi": 3.786671124816607,
+   "max_core_phi": 3.786671124816607,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 3.786671124816607
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 4.712804955314531e-08
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 7.069207432971795e-07
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 4.712804955314531e-08
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 3.786671124816607
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.02630563062984768
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 7.069207432971795e-07
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 7.069207432971795e-07
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 3.786671124816607
+    }
+   ]
+  },
+  {
+   "form": "ANY4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.02,
+   "max_phi": 3.5819379951332166,
+   "max_core_phi": 3.5819379951332166,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 3.5819379951332166
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 3.693306395900242e-07
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 5.539959593850362e-06
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 3.693306395900242e-07
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 3.5819379951332166
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.027170166498970676
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 5.539959593850362e-06
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 5.539959593850362e-06
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 3.5819379951332166
+    }
+   ]
+  },
+  {
+   "form": "ANY4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.05,
+   "max_phi": 3.016929255641619,
+   "max_core_phi": 3.016929255641619,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 3.016929255641619
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 5.410258569240909e-06
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 8.11538785386136e-05
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 5.410258569240909e-06
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 3.016929255641619
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.028986814355258808
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 8.11538785386136e-05
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 8.11538785386136e-05
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 3.016929255641619
+    }
+   ]
+  },
+  {
+   "form": "ANY4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.1,
+   "max_phi": 2.225483081562809,
+   "max_core_phi": 2.225483081562809,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 2.225483081562809
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 3.847956495296559e-05
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0005771934742944838
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 3.847956495296559e-05
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 2.225483081562809
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.02986598902763151
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.0005771934742944838
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.0005771934742944838
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 2.225483081562809
+    }
+   ]
+  },
+  {
+   "form": "ANY4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.2,
+   "max_phi": 1.110953009336554,
+   "max_core_phi": 1.110953009336554,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 1.110953009336554
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.00023110909331695165
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.003466636399754276
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.00023110909331695165
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 1.110953009336554
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.02622000292498775
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.003466636399754276
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.003466636399754276
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 1.110953009336554
+    }
+   ]
+  },
+  {
+   "form": "ANY4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.3,
+   "max_phi": 0.4662039248143,
+   "max_core_phi": 0.4662039248143,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.4662039248143
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0005207891177898273
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.007811836766847409
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0005207891177898273
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.4662039248143
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.0017193202015037053
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.007811836766847409
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.007811836766847409
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.4662039248143
+    }
+   ]
+  },
+  {
+   "form": "ANY4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.4,
+   "max_phi": 0.009263704349319878,
+   "max_core_phi": 0.009263704349319878,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": -0.09325477255320004
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": -0.09325477255320004
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.009263704349319878
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0006175802899546587
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.009263704349319878
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.009263704349319878
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.009263704349319878
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.009263704349319878
+    }
+   ]
+  },
+  {
+   "form": "ANY4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.45,
+   "max_phi": 0.006588943983060021,
+   "max_core_phi": 0.006588943983060021,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": -0.04119301541604077
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": -0.04119301541604077
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.006588943983060021
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.00043926293220400127
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.006588943983060021
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.004814548439407718
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.006588943983060021
+    }
+   ]
+  },
+  {
+   "form": "ANY4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 1,
+   "eta": 0.5,
+   "max_phi": 0.0,
+   "max_core_phi": 0.0,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ],
+   "maximizing_cores": []
+  },
+  {
+   "form": "2of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.0,
+   "max_phi": 0.0,
+   "max_core_phi": 0.0,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ],
+   "maximizing_cores": []
+  },
+  {
+   "form": "2of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.01,
+   "max_phi": 0.004187372743008379,
+   "max_core_phi": 0.0209368637150419,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.004187372743008379
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 1.9088244386281164e-05
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.00020997068824909275
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 1.9088244386281164e-05
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.0209368637150419
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.0209368637150419
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.00020997068824909275
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.00020997068824909275
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.0209368637150419
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.0209368637150419
+    }
+   ]
+  },
+  {
+   "form": "2of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.02,
+   "max_phi": 0.008093570477427325,
+   "max_core_phi": 0.04046785238713664,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.008093570477427325
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 7.405476717802385e-05
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0008146024389582622
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 7.405476717802385e-05
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.04046785238713664
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.04046785238713664
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.0008146024389582622
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.0008146024389582622
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.04046785238713664
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.04046785238713664
+    }
+   ]
+  },
+  {
+   "form": "2of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.05,
+   "max_phi": 0.01814390272790656,
+   "max_core_phi": 0.09071951363953286,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.01814390272790656
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0004211887209166206
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.004633075930082825
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0004211887209166206
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.09071951363953286
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.09071951363953286
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.004633075930082825
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.004633075930082825
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.09071951363953286
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.09071951363953286
+    }
+   ]
+  },
+  {
+   "form": "2of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.1,
+   "max_phi": 0.029590833531401614,
+   "max_core_phi": 0.14795416765700808,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.029590833531401614
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0014241974717756594
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.015666172189532254
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0014241974717756594
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.14795416765700808
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.12290429393123246
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.015666172189532254
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.015666172189532254
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.14795416765700808
+    }
+   ]
+  },
+  {
+   "form": "2of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.2,
+   "max_phi": 0.03582202453611982,
+   "max_core_phi": 0.17911012268059878,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.03582202453611982
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0038342796320267863
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.03582202453611982
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0038342796320267863
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.17911012268059878
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.10553419813550408
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.04217707595229466
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.04217707595229466
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.17911012268059878
+    }
+   ]
+  },
+  {
+   "form": "2of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.3,
+   "max_phi": 0.027344339403135187,
+   "max_core_phi": 0.13672169701567596,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.027344339403135187
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.005062785167821972
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.027344339403135187
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.005062785167821972
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.13672169701567596
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.07631845917126866
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.055690636846041676
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.055690636846041676
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.13672169701567596
+    }
+   ]
+  },
+  {
+   "form": "2of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.4,
+   "max_phi": 0.013068334897193825,
+   "max_core_phi": 0.06534167448596913,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.013068334897193825
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0038450973423072403
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.013068334897193825
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0038450973423072403
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.06534167448596913
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.03959021941719245
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.04229607076537964
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.03959021941719245
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.06534167448596913
+    }
+   ]
+  },
+  {
+   "form": "2of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.45,
+   "max_phi": 0.0060510237641344744,
+   "max_core_phi": 0.02437140834947018,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0060510237641344744
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.002215582577224561
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0060510237641344744
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.002215582577224561
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.0060510237641344744
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.002215582577224561
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.02437140834947018
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.01983916125038631
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.02437140834947018
+    }
+   ]
+  },
+  {
+   "form": "2of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 2,
+   "eta": 0.5,
+   "max_phi": 0.0,
+   "max_core_phi": 0.0,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ],
+   "maximizing_cores": []
+  },
+  {
+   "form": "3of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.0,
+   "max_phi": 0.0,
+   "max_core_phi": 0.0,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ],
+   "maximizing_cores": []
+  },
+  {
+   "form": "3of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.01,
+   "max_phi": 0.004187372743008316,
+   "max_core_phi": 0.02093686371504158,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 1.9088244386281164e-05
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.00020997068824909278
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 1.9088244386281164e-05
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.004187372743008316
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.00020997068824909278
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.00020997068824909278
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.02093686371504158
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.02093686371504158
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.02093686371504158
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.02093686371504158
+    }
+   ]
+  },
+  {
+   "form": "3of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.02,
+   "max_phi": 0.008093570477427328,
+   "max_core_phi": 0.040467852387136634,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 7.405476717802385e-05
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0008146024389582623
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 7.405476717802385e-05
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.008093570477427328
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.0008146024389582623
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.0008146024389582623
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.040467852387136634
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.040467852387136634
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.040467852387136634
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.040467852387136634
+    }
+   ]
+  },
+  {
+   "form": "3of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.05,
+   "max_phi": 0.018143902727906575,
+   "max_core_phi": 0.09071951363953284,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0004211887209165915
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.004633075930082506
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0004211887209165915
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.018143902727906575
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.004633075930082506
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.004633075930082506
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.09071951363953255
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.09071951363953284
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.09071951363953255
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.09071951363953284
+    }
+   ]
+  },
+  {
+   "form": "3of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.1,
+   "max_phi": 0.029590833531401614,
+   "max_core_phi": 0.14795416765700808,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0014241974717756592
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.015666172189532254
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0014241974717756592
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.029590833531401614
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.015666172189532254
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.015666172189532254
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.12290429393123263
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.14795416765700808
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.14795416765700808
+    }
+   ]
+  },
+  {
+   "form": "3of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.2,
+   "max_phi": 0.0358220245361198,
+   "max_core_phi": 0.17911012268059884,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0038342796320267863
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0358220245361198
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0038342796320267863
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0358220245361198
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.04217707595229465
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.04217707595229465
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.10553419813550408
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.17911012268059884
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.17911012268059884
+    }
+   ]
+  },
+  {
+   "form": "3of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.3,
+   "max_phi": 0.027344339403135177,
+   "max_core_phi": 0.13672169701567588,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.005062785167821947
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.027344339403135177
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.005062785167821947
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.027344339403135177
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.05569063684604141
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.05569063684604141
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.07631845917126866
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.13672169701567588
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.13672169701567588
+    }
+   ]
+  },
+  {
+   "form": "3of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.4,
+   "max_phi": 0.013068334897193822,
+   "max_core_phi": 0.06534167448596911,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.003845097342307216
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.013068334897193822
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.003845097342307216
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.013068334897193822
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.03959021941719229
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.042296070765379376
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.03959021941719229
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.06534167448596911
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.06534167448596911
+    }
+   ]
+  },
+  {
+   "form": "3of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.45,
+   "max_phi": 0.006051023764134448,
+   "max_core_phi": 0.02437140834947017,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.002215582577224561
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.006051023764134448
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.002215582577224561
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.006051023764134448
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.01983916125038631
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.02437140834947017
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.002215582577224561
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.006051023764134448
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.02437140834947017
+    }
+   ]
+  },
+  {
+   "form": "3of4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 3,
+   "eta": 0.5,
+   "max_phi": 0.0,
+   "max_core_phi": 0.0,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ],
+   "maximizing_cores": []
+  },
+  {
+   "form": "ALL4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 4,
+   "eta": 0.0,
+   "max_phi": 4.0,
+   "max_core_phi": 4.0,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 4.0
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.025298069214282674
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 4.0
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 4.0
+    }
+   ]
+  },
+  {
+   "form": "ALL4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 4,
+   "eta": 0.01,
+   "max_phi": 3.786671124816622,
+   "max_core_phi": 3.786671124816622,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 4.712804953178913e-08
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 7.06920742976837e-07
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 4.712804953178913e-08
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 3.786671124816622
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 7.06920742976837e-07
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 7.06920742976837e-07
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.02630563062984768
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 3.786671124816622
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 3.786671124816622
+    }
+   ]
+  },
+  {
+   "form": "ALL4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 4,
+   "eta": 0.02,
+   "max_phi": 3.5819379951332313,
+   "max_core_phi": 3.5819379951332313,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 3.693306395900242e-07
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 5.539959593850362e-06
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 3.693306395900242e-07
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 3.5819379951332313
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 5.539959593850362e-06
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 5.539959593850362e-06
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.027170166498970676
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 3.5819379951332313
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 3.5819379951332313
+    }
+   ]
+  },
+  {
+   "form": "ALL4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 4,
+   "eta": 0.05,
+   "max_phi": 3.0169292556416387,
+   "max_core_phi": 3.0169292556416387,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 5.410258569240908e-06
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 8.115387853861363e-05
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 5.410258569240908e-06
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 3.0169292556416387
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 8.115387853861363e-05
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 8.115387853861363e-05
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.028986814355258808
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 3.0169292556416387
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 3.0169292556416387
+    }
+   ]
+  },
+  {
+   "form": "ALL4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 4,
+   "eta": 0.1,
+   "max_phi": 2.2254830815628113,
+   "max_core_phi": 2.2254830815628113,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 3.847956495296559e-05
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0005771934742944838
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 3.847956495296559e-05
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 2.2254830815628113
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.0005771934742944838
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.0005771934742944838
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.029865989027631518
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 2.2254830815628113
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 2.2254830815628113
+    }
+   ]
+  },
+  {
+   "form": "ALL4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 4,
+   "eta": 0.2,
+   "max_phi": 1.1109530093365452,
+   "max_core_phi": 1.1109530093365452,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0002311090933169304
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.003466636399753956
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0002311090933169304
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 1.1109530093365452
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.003466636399753956
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.003466636399753956
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.02622000292498775
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 1.1109530093365452
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 1.1109530093365452
+    }
+   ]
+  },
+  {
+   "form": "ALL4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 4,
+   "eta": 0.3,
+   "max_phi": 0.46620392481430023,
+   "max_core_phi": 0.46620392481430023,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0005207891177898274
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.007811836766847411
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0005207891177898274
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.46620392481430023
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.007811836766847411
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.007811836766847411
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.0017193202015036635
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.46620392481430023
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.46620392481430023
+    }
+   ]
+  },
+  {
+   "form": "ALL4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 4,
+   "eta": 0.4,
+   "max_phi": 0.009263704349319567,
+   "max_core_phi": 0.009263704349319567,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0006175802899546378
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.009263704349319567
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": -0.09325477255319978
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": -0.09325477255319978
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.009263704349319567
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.009263704349319567
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.009263704349319567
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.009263704349319567
+    }
+   ]
+  },
+  {
+   "form": "ALL4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 4,
+   "eta": 0.45,
+   "max_phi": 0.0065889439830597125,
+   "max_core_phi": 0.0065889439830597125,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0004392629322039808
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0065889439830597125
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": -0.04119301541604061
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": -0.04119301541604061
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P4"
+     ],
+     "core_phi": 0.004814548439407718
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.0065889439830597125
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ],
+   "maximizing_cores": [
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [
+      "S",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+     ],
+     "core_phi": 0.0065889439830597125
+    }
+   ]
+  },
+  {
+   "form": "ALL4",
+   "weights": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "quota": 4,
+   "eta": 0.5,
+   "max_phi": 0.0,
+   "max_core_phi": 0.0,
+   "phi_profile": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "phi": 0.0
+    }
+   ],
+   "cores_by_state": [
+    {
+     "state": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      0,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    },
+    {
+     "state": [
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "core": [],
+     "core_phi": 0.0
+    }
+   ],
+   "maximizing_cores": []
+  }
+ ]
+}
