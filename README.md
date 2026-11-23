@@ -319,6 +319,7 @@ Multi-experiment batteries on one theme.
 - **[Agent tool core (#38)](org_frontier/studies/agent_tool_core/README.md)** — same way an inference model does (#4, #9): unused / read-only stays
 - **[AI fidelity displace (#40)](org_frontier/studies/ai_fidelity_displace/README.md)** — the counterpart’s policy displaces C at **full** fidelity only
 - **[Algorithmic transparency (#34)](org_frontier/studies/algo_transparency/README.md)** — not channel transparency (#24). **Publish-unread** is theater: F stays
+- **[Asymmetric sides: which side does a two-sided platform bind?](org_frontier/studies/asymmetric_sides/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Commit-noise phase transition (agenda #6)](org_frontier/studies/commit_noise_phase/README.md)** — down as a monotone glide on both the conjunctive hub (Φ 2.0→0) and the
 - **[Commit→response delay (agenda #10)](org_frontier/studies/commit_response_delay/README.md)** — pipeline) keeps the conjunctive triad **triadic** at every d=0…3 —
 - **[Composed-topology landmarks at n≥6 (agenda V4 #10)](org_frontier/studies/composed_topo_landmarks_n6/README.md)** — families remain **discrete** at n≥6 under a denser random-AND draw: all
@@ -361,6 +362,7 @@ Multi-experiment batteries on one theme.
 - **[Fielded W × Φ landmark (agenda V4 #6)](org_frontier/studies/fielded_w_landmark/README.md)** — still predicts HUB / RING4 / POOL (acc=1.000), but a **fielded rater-
 - **[Weighted and five-party quorums under noise, read as tie sets](org_frontier/studies/five_six_node_quorum_ties/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Backlog items
 - **[Fixed-k atoms 5/9 at n=5](org_frontier/studies/fixed_k_atoms_n5/README.md)** — omit-derangements at fixed_k=3 give full-core triadic Φ=9.0. Atom **Φ=5** is a
+- **[Flip recovery: settling after a one-party nudge, joined to committed Φ](org_frontier/studies/flip_recovery/README.md)** — Hypotheses pushed in `ac0bf6f3` before computation. Φ values are the committed ones from
 - **[FN-tail feature redesign](org_frontier/studies/fn_tail_feature_redesign/README.md)** — F28-motivated cheap fragility and algebraic table features to the Probe-125/131
 - **[Formal vs informal cut (agenda #46)](org_frontier/studies/formal_informal_cut/README.md)** — map onto dyadic/triadic. Formal spans both (commit gate vs
 - **[Genuine bistability (agenda #13)](org_frontier/studies/genuine_bistability/README.md)** — triadic and dyadic attractors — beyond #109's sticky-mediator activity
@@ -404,6 +406,7 @@ Multi-experiment batteries on one theme.
 - **[pyphi_iit4_mv M1 overlay](org_frontier/studies/multivalued_iit4_port/README.md)** — `third_party/pyphi_iit4_mv`. Binary regression matches stock pin Φ=2
 - **[Noise × composed carriers (V3 #12)](org_frontier/studies/noise_composed_carriers/README.md)** — share **p\*=0.5** on a composed **AND necklace** and a **shared-mediator
 - **[Noise placement: party-side vs mediator-side errors on quorum hubs](org_frontier/studies/noise_placement/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
+- **[Off-platform deals: buyer–seller links that bypass a two-sided platform](org_frontier/studies/off_platform_deals/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Omit cycle band grammar at n=8–9 (agenda V4 #8)](org_frontier/studies/omit_cycle_band_n89/README.md)** — that stabilized at n=7 cannot be re-adjudicated by exact IIT-4.0 core-Φ
 - **[Omit cycle-type morph at n=7 (V3 #8)](org_frontier/studies/omit_cycle_morph_n7/README.md)** — does **not** morph again. The n=5→n=6 singleton→band shift (V2 #42
 - **[Omit/derangement lift at n=6](org_frontier/studies/omit_lift_n6/README.md)** — fixed_k=4, **derangements split** into Φ=12 (cycle types 6, 4+2, 2+2+2) and
@@ -420,7 +423,6 @@ Multi-experiment batteries on one theme.
 - **[Placement equality: party-side vs mediator-side noise on seven quorum rules](org_frontier/studies/placement_equality/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), full group, every reachable state. Hypotheses pushed in
 - **[Correlated input noise on quorum hubs](org_frontier/studies/quorum_correlated_noise/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`) on three-party quorum hubs under three input-noise models with
 - **[Quorum input-noise sweep (O01)](org_frontier/studies/quorum_noise_sweep/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`) on seven counting quorums at ten input-observation error
-- **[Quorum ratio law: strongest subset vs whole on noisy counting quorums](org_frontier/studies/quorum_ratio_law/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464
 - **[Random coupling ensemble at fixed n (agenda #18)](org_frontier/studies/random_coupling_ensemble/README.md)** — n=4 (ER / fixed-k / WS / BA-style), **every** core Φ lands on the discrete
 - **[Regulator capture (#33)](org_frontier/studies/regulator_capture/README.md)** — coupling cut**, not a smooth membership glide. Under mutual gate
 - **[Residual phase boundary (F28)](org_frontier/studies/residual_phase_boundary/README.md)** — that instability is shared with other classifier-uncertain forms (H3 refuted).** One-bit flips in
@@ -446,6 +448,7 @@ Multi-experiment batteries on one theme.
 - **[Topology-aware imputer (agenda V3 #15)](org_frontier/studies/topology_aware_imputer/README.md)** — a **ring prior** restores the mean-MI screen (AUC 0.550→0.944). A
 - **[Two-sided platform: two buyers and two sellers around one mediator](org_frontier/studies/two_sided_platform/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Two-triad shared-member merger (agenda #16)](org_frontier/studies/two_triad_shared_member/README.md)** — mediator** merges two conjunctive triads into one major complex spanning both
+- **[Update order on quorum hubs](org_frontier/studies/update_order_quorum/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Wageman W × Φ landmark (V3 #14)](org_frontier/studies/wageman_phi_landmark/README.md)** — with form size n predicts the Φ landmarks ring-4 / hub-(n−1) / pool
 - **[Wageman TI → verdict (agenda #44)](org_frontier/studies/wageman_ti_verdict/README.md)** — interdependence index separates dyadic from triadic on the designed
 - **[Weakest Boolean render (V3 #13)](org_frontier/studies/weakest_boolean_render/README.md)** — committed public OSS coordination logs that still recovers the conjunctive
