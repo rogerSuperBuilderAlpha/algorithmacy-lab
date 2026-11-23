@@ -17,3 +17,5 @@ are the sides themselves (B1B2, S1S2, φ = 2.0); OR links bind the platform with
 
 Files: [hypotheses.md](hypotheses.md), [FINDINGS.md](FINDINGS.md), [results/results.json](results/results.json),
 [BACKLOG.md](BACKLOG.md).
+
+Added to the lab in PR #924 (follow-up to `two_sided_platform`, PR #920).
