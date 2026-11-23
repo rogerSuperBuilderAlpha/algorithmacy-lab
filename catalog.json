@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 131,
+  "study": 132,
   "foundations": 9,
   "open": 15
  },
@@ -10275,6 +10275,17 @@
    "path": "org_frontier/studies/noise_composed_carriers",
    "reproduce": [
     "python org_frontier/studies/noise_composed_carriers/analyze_noise_composed.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "noise_placement",
+   "title": "Noise placement: party-side vs mediator-side errors on quorum hubs",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/noise_placement",
+   "reproduce": [
+    "python org_frontier/studies/noise_placement/run.py --quick"
    ],
    "runtime": "fast"
   },
