@@ -414,6 +414,7 @@ Multi-experiment batteries on one theme.
 - **[Mixed-algebra seats (V3 #3)](org_frontier/studies/mixed_algebra_seats/README.md)** — a single mediator does **not** produce a hybrid signature. Whole-form Φ
 - **[Mixed-radix mediator (agenda #3)](org_frontier/studies/mixed_radix_mediator/README.md)** — mediator (`S'=W+C`, alphabets `(2,3,2)`), the extra mid level goes into
 - **[pyphi_iit4_mv M1 overlay](org_frontier/studies/multivalued_iit4_port/README.md)** — `third_party/pyphi_iit4_mv`. Binary regression matches stock pin Φ=2
+- **[Negative φ survey: does PyPhi's negative output change any noisy-quorum result?](org_frontier/studies/negative_phi_survey/README.md)** — Hypotheses were committed (3e34ab73) before computing. Values seen beforehand: the OR3/ANY4 all-zero
 - **[Noise × composed carriers (V3 #12)](org_frontier/studies/noise_composed_carriers/README.md)** — share **p\*=0.5** on a composed **AND necklace** and a **shared-mediator
 - **[Noise placement: party-side vs mediator-side errors on quorum hubs](org_frontier/studies/noise_placement/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Odd input: does P or G at the gate's odd input pattern decide whether the group binds?](org_frontier/studies/odd_input/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
