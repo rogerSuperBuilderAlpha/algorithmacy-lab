@@ -7,5 +7,4 @@
 4. **O04**: a ternary majority under input noise on the multivalued overlay.
 5. **Asynchronous update** (needs a non-conditionally-independent TPM; check the instrument supports it).
 
-None of these had been started when PR #919 was opened.
-Branch brought up to date with main f15044e2 before merge.
+None of these had been started when PR #919 was opened. Item 1 is taken up in `weighted_ratio_law/`.
