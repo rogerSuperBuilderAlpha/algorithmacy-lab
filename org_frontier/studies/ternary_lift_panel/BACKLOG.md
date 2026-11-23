@@ -5,4 +5,4 @@
 3. **Parity with three parties**: |·|-type and mod-3 lifts on a four-node hub.
 4. **Ordinal noise** (misread only to a neighbouring value).
 
-None of these had been started when this study's PR was opened.
+None of these had been started when this study's PR (#928) was opened; items 1 and 4 are now running as `ternary_ordinal_noise`.

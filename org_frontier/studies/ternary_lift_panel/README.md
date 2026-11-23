@@ -16,3 +16,5 @@ state at r = 0.1 and at one of three at r = 0, while its "sum mod 3" lift stays 
 
 Files: [hypotheses.md](hypotheses.md), [FINDINGS.md](FINDINGS.md), [results/results.json](results/results.json),
 [BACKLOG.md](BACKLOG.md).
+
+Pull request: [#928](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/pull/928).
