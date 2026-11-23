@@ -6,6 +6,7 @@ every number in it.
 | date | post | study |
 |---|---|---|
 | 2026-11-23 | [When buyers and sellers deal directly, the kind of deal decides whether the platform stays in](2026-11-23-off-platform-deals.md) | [`org_frontier/studies/off_platform_deals/`](../../org_frontier/studies/off_platform_deals/) |
+| 2026-11-23 | [Why a veto splits apart: it's about fairness between the parties, not about them moving together](2026-11-23-veto-and-symmetry.md) | [`org_frontier/studies/lockstep_symmetry/`](../../org_frontier/studies/lockstep_symmetry/) |
 | 2026-11-23 | [How fast a group bounces back doesn't tell you whether it holds together](2026-11-23-bouncing-back.md) | [`org_frontier/studies/flip_recovery/`](../../org_frontier/studies/flip_recovery/) |
 | 2026-11-23 | [A two-sided platform binds one side, the side where every member counts](2026-11-23-which-side-gets-bound.md) | [`org_frontier/studies/asymmetric_sides/`](../../org_frontier/studies/asymmetric_sides/) |
 | 2026-11-23 | [When people take turns, no group holds together as a whole](2026-11-23-taking-turns.md) | [`org_frontier/studies/update_order_quorum/`](../../org_frontier/studies/update_order_quorum/) |
