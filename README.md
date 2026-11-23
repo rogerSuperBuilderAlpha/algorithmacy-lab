@@ -319,6 +319,7 @@ Multi-experiment batteries on one theme.
 - **[Agent tool core (#38)](org_frontier/studies/agent_tool_core/README.md)** — same way an inference model does (#4, #9): unused / read-only stays
 - **[AI fidelity displace (#40)](org_frontier/studies/ai_fidelity_displace/README.md)** — the counterpart’s policy displaces C at **full** fidelity only
 - **[Algorithmic transparency (#34)](org_frontier/studies/algo_transparency/README.md)** — not channel transparency (#24). **Publish-unread** is theater: F stays
+- **[Asymmetric sides: which side does a two-sided platform bind?](org_frontier/studies/asymmetric_sides/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Commit-noise phase transition (agenda #6)](org_frontier/studies/commit_noise_phase/README.md)** — down as a monotone glide on both the conjunctive hub (Φ 2.0→0) and the
 - **[Commit→response delay (agenda #10)](org_frontier/studies/commit_response_delay/README.md)** — pipeline) keeps the conjunctive triad **triadic** at every d=0…3 —
 - **[Composed-topology landmarks at n≥6 (agenda V4 #10)](org_frontier/studies/composed_topo_landmarks_n6/README.md)** — families remain **discrete** at n≥6 under a denser random-AND draw: all
@@ -437,6 +438,7 @@ Multi-experiment batteries on one theme.
 - **[Spectral topology-invariant feature (agenda #21)](org_frontier/studies/spectral_invariant/README.md)** — (`P_spectral_gap`) is the best cross-family ranker on this panel
 - **[Structure-aware surrogate across topology (agenda #22)](org_frontier/studies/structure_aware_surrogate/README.md)** — panel with exact IIT-4.0 labels, leave-one-family-out detection AUC is
 - **[Template coverage census — fifth template from the triad residual](org_frontier/studies/template_coverage_census/README.md)** — outside the four catalog templates (relay / conjunctive / additive / free). They are exactly the
+- **[Ternary majority under noise: a three-valued majority vote vs the yes/no one](org_frontier/studies/ternary_majority_noise/README.md)** — Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`
 - **[Ternary pivotality (#1)](org_frontier/studies/ternary_pivotality/README.md)** — control holds. Stock pin still rejects ternary SBS. Vendored overlay
 - **[Thompson verdict bridge (agenda #43)](org_frontier/studies/thompson_verdict_bridge/README.md)** — dyadic/triadic verdict loosely, not as a clean map. Canonical
 - **[Threshold / majority template (V3 #2)](org_frontier/studies/threshold_majority_template/README.md)** — n≥4 is **not** a new template. Intermediate k always **factors** once
@@ -444,6 +446,7 @@ Multi-experiment batteries on one theme.
 - **[Topology-aware imputer (agenda V3 #15)](org_frontier/studies/topology_aware_imputer/README.md)** — a **ring prior** restores the mean-MI screen (AUC 0.550→0.944). A
 - **[Two-sided platform: two buyers and two sellers around one mediator](org_frontier/studies/two_sided_platform/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Two-triad shared-member merger (agenda #16)](org_frontier/studies/two_triad_shared_member/README.md)** — mediator** merges two conjunctive triads into one major complex spanning both
+- **[Update order on quorum hubs](org_frontier/studies/update_order_quorum/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses
 - **[Wageman W × Φ landmark (V3 #14)](org_frontier/studies/wageman_phi_landmark/README.md)** — with form size n predicts the Φ landmarks ring-4 / hub-(n−1) / pool
 - **[Wageman TI → verdict (agenda #44)](org_frontier/studies/wageman_ti_verdict/README.md)** — interdependence index separates dyadic from triadic on the designed
 - **[Weakest Boolean render (V3 #13)](org_frontier/studies/weakest_boolean_render/README.md)** — committed public OSS coordination logs that still recovers the conjunctive
