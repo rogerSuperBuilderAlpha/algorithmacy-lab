@@ -7871,6 +7871,16 @@
       ],
       "timeout": 120,
       "source": "org_frontier/studies/weighted_swap_symmetry/FINDINGS.md"
+    },
+    {
+      "name": "party-noise-factor",
+      "cmd": "python org_frontier/studies/party_noise_factor/run.py --quick",
+      "expect": [
+        "1112q3  eta=0.2  eps=0.3  states=32 whole=0.008606",
+        "1122q3  eta=0.2  eps=0.4  states=32 whole=0.025249"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/party_noise_factor/FINDINGS.md"
     }
   ]
 }

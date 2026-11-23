@@ -10669,8 +10669,10 @@
    "title": "The post-hoc party-noise factor, tested on new cases and refuted",
    "finding": "Both pre-registered hypotheses were refuted. The factor missed 10 of 20 cases; it held exactly for",
    "path": "org_frontier/studies/party_noise_factor",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/party_noise_factor/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
