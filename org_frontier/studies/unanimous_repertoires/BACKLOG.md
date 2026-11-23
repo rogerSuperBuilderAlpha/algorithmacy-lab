@@ -11,3 +11,5 @@
    tie sets; ternary majority under input noise; asynchronous update.
 
 Status: items 1–3 open as of 2026-11-23. This study tests item 1 of `placement_equality/BACKLOG.md`.
+
+PR note: CI nudge after the atlas snapshot pin (09eb644b).
