@@ -216,3 +216,19 @@ racker2024 and suddaby2024 (1 each).
   everywhere; QUESTIONS has been recompiled. The brief's locators for "evaluates and binds" are corrected.
   `critic/CRITIC.md` calls the two Stark passages "consecutive paragraphs", but one paragraph on Yates's
   book lies between them. The ruling does not depend on this, and the file is left as Fable wrote it.
+
+## 23 Nov 2026: S13 (community concerns, recency-weighted), opened at the author's request
+
+- **The author's request:** review all the questions, group them so that a paper exploring algorithmacy can
+  address the community's general concern, and give priority to the most recent papers, with questions
+  from 2–3 years ago as context. The aim is prevailing, persistent questions that the research addresses.
+- **Why a new stage, not a re-sort of S9:** S9 clustered narrowly (54 conversations) and ordered by breadth,
+  not recency. S6/S7 fit was scored per question. No 2025–26 question scored above 1 (2025: 109 at 0, 9 at 1;
+  2026: 90 at 0, 13 at 1). A recency-first search therefore has to work at the level of a concern, and the
+  report must say that the recent stack holds no direct question at fit 2 or more.
+- **Design (lead's assignment, following the S9 pattern):** S13a two blind stackings of all 605 open
+  questions, Fable and Opus, 8–14 stacks, 2025–26 as primary evidence; S13b Fable reconciles and the counts
+  are recomputed by script; S13c Opus maps the stacks against `ALGORITHMACY_BRIEF.md` at concern level and
+  names the recent questions algorithmacy addresses; S13d a hostile OT critic (Opus) on the mapping;
+  S13e Fable rules. Status labels: prevailing (≥3 pieces in 2025–26), persistent (both periods), fading
+  (none since 2024), new (2025–26 only).
