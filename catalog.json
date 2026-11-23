@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 175,
+  "study": 176,
   "foundations": 9,
   "open": 15
  },
@@ -10453,6 +10453,15 @@
     "python org_frontier/studies/mixed_radix_mediator/analyze_mixed.py"
    ],
    "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "mixed_reads",
+   "title": "Mixed reads at three parties",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), max over reachable states, threshold 1e-9. Hypotheses pushed in",
+   "path": "org_frontier/studies/mixed_reads",
+   "reproduce": [],
+   "runtime": "unregistered"
   },
   {
    "kind": "study",
