@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 171,
+  "study": 170,
   "foundations": 9,
   "open": 15
  },
@@ -10936,17 +10936,6 @@
    "path": "org_frontier/studies/switch_delay",
    "reproduce": [
     "python org_frontier/studies/switch_delay/run.py --quick"
-   ],
-   "runtime": "fast"
-  },
-  {
-   "kind": "study",
-   "id": "switch_loop_member",
-   "title": "Switch loop member",
-   "finding": "Hypotheses fixed in [hypotheses.md](org_frontier/studies/switch_loop_member/hypotheses.md) before computing. All numbers from",
-   "path": "org_frontier/studies/switch_loop_member",
-   "reproduce": [
-    "python org_frontier/studies/switch_loop_member/run.py --quick"
    ],
    "runtime": "fast"
   },
