@@ -10416,8 +10416,10 @@
    "title": "Negative φ survey: does PyPhi's negative output change any noisy-quorum result?",
    "finding": "Hypotheses were committed (3e34ab73) before computing. Values seen beforehand: the OR3/ANY4 all-zero",
    "path": "org_frontier/studies/negative_phi_survey",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/negative_phi_survey/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
