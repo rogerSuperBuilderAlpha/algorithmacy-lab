@@ -9943,8 +9943,10 @@
    "title": "Gate census: all 16 two-input rules for a switch-gated relayer under AND, OR and XOR platforms",
    "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
    "path": "org_frontier/studies/gate_census",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/gate_census/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
