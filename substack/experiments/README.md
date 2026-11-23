@@ -5,6 +5,7 @@ every number in it.
 
 | date | post | study |
 |---|---|---|
+| 2026-11-23 | [The party nobody needs, and why vote weights don't matter](2026-11-23-the-party-nobody-needs.md) | [`org_frontier/studies/weighted_equivalence/`](../../org_frontier/studies/weighted_equivalence/) |
 | 2026-11-23 | [A group holds together only if the coordinator moves first, and not alone](2026-11-23-who-moves-first.md) | [`org_frontier/studies/partial_sync_quorum/`](../../org_frontier/studies/partial_sync_quorum/) |
 | 2026-11-23 | [Put a messenger between the coordinator and the people, and the group binds a third as tightly](2026-11-23-the-relay.md) | [`org_frontier/studies/delay_quorum/`](../../org_frontier/studies/delay_quorum/) |
 | 2026-11-23 | [A platform's decision can pass through a chain of people and still bind them all](2026-11-23-relay-length.md) | [`org_frontier/studies/relay_length/`](../../org_frontier/studies/relay_length/) |
