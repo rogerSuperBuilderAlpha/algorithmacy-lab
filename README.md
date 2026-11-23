@@ -324,6 +324,7 @@ Multi-experiment batteries on one theme.
 - **[Commit→response delay (agenda #10)](org_frontier/studies/commit_response_delay/README.md)** — pipeline) keeps the conjunctive triad **triadic** at every d=0…3 —
 - **[Composed-topology landmarks at n≥6 (agenda V4 #10)](org_frontier/studies/composed_topo_landmarks_n6/README.md)** — families remain **discrete** at n≥6 under a denser random-AND draw: all
 - **[Conjunctive law on real Boolean renders (agenda #45)](org_frontier/studies/conjunctive_law_real_render/README.md)** — (#116) is **not** visible as a scaling law in institutional or fitted
+- **[Joint pivotality at consensus: which three-party commit rules bind?](org_frontier/studies/consensus_pivotality/README.md)** — The pre-registered rule misses 10 of 256 rules under PyPhi's default tie-breaking, but those misses, and
 - **[Constraint durability — which contingent gates fall next](org_frontier/studies/constraint_durability/README.md)** — The formal class crossed with a durability rubric forecasts which contingent gates fall, and the forecast
 - **[Construct gate transfer at n=5 — CMC / AI-MC](org_frontier/studies/construct_gates_n5/README.md)** — full-bind regimes **transfer** from HMC anchors to CMC and AI-MC at
 - **[Construct gate seal — XNOR + mixed-polarity on CMC](org_frontier/studies/construct_gates_seal/README.md)** — AND_negE (Regime C) transfer on CMC and AI-MC full-bind at n=5
@@ -425,6 +426,7 @@ Multi-experiment batteries on one theme.
 - **[Placement equality: party-side vs mediator-side noise on seven quorum rules](org_frontier/studies/placement_equality/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), full group, every reachable state. Hypotheses pushed in
 - **[Correlated input noise on quorum hubs](org_frontier/studies/quorum_correlated_noise/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`) on three-party quorum hubs under three input-noise models with
 - **[Quorum input-noise sweep (O01)](org_frontier/studies/quorum_noise_sweep/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`) on seven counting quorums at ten input-observation error
+- **[Quorum ratio law: strongest subset vs whole on noisy counting quorums](org_frontier/studies/quorum_ratio_law/README.md)** — Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464
 - **[Random coupling ensemble at fixed n (agenda #18)](org_frontier/studies/random_coupling_ensemble/README.md)** — n=4 (ER / fixed-k / WS / BA-style), **every** core Φ lands on the discrete
 - **[Regulator capture (#33)](org_frontier/studies/regulator_capture/README.md)** — coupling cut**, not a smooth membership glide. Under mutual gate
 - **[Residual phase boundary (F28)](org_frontier/studies/residual_phase_boundary/README.md)** — that instability is shared with other classifier-uncertain forms (H3 refuted).** One-bit flips in
