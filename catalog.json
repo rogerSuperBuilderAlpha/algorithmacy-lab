@@ -10754,6 +10754,17 @@
   },
   {
    "kind": "study",
+   "id": "ternary_ordinal_noise",
+   "title": "Ordinal noise: three-valued readings that slip only to the neighbouring value",
+   "finding": "Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`",
+   "path": "org_frontier/studies/ternary_ordinal_noise",
+   "reproduce": [
+    "python org_frontier/studies/ternary_ordinal_noise/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "ternary_pivotality",
    "title": "Ternary pivotality (#1)",
    "finding": "control holds. Stock pin still rejects ternary SBS. Vendored overlay",
