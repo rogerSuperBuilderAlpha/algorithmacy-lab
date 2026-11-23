@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 138,
+  "study": 139,
   "foundations": 9,
   "open": 15
  },
@@ -10771,6 +10771,17 @@
    "path": "org_frontier/studies/two_triad_shared_member",
    "reproduce": [
     "python org_frontier/studies/two_triad_shared_member/analyze_shared_member.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "update_order_quorum",
+   "title": "Update order on quorum hubs",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/update_order_quorum",
+   "reproduce": [
+    "python org_frontier/studies/update_order_quorum/run.py --quick"
    ],
    "runtime": "fast"
   },
