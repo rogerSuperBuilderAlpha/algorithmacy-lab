@@ -278,3 +278,8 @@ racker2024 and suddaby2024 (1 each).
   Vesa & Tienari credited at X4; marked "cf. Cameron" on the author's K2 sentence; new [NEEDS] on one-off
   pairs. The *Business & Society* call stays out of the text (submission note). Owed and needing the
   author's sign-in: Fu et al., Zheng & Zhu, Khan.
+- **Author's ruling (23 Nov):** the introduction must sell the question first and be built from the open
+  questions *OT* papers leave at their ends, not from their claims. Version 4 rebuilt accordingly from 14
+  open questions in `QUESTIONS.tsv` (table in the file). The lead checked all 18 quotations against the
+  text layers (all on the stated pages) and built the references from Crossref. v3 kept as
+  `INTRODUCTION_5C_v3.md`.
