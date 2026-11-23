@@ -5522,6 +5522,18 @@
       "source": "org_frontier/studies/quorum_correlated_noise/FINDINGS.md"
     },
     {
+      "name": "shared-share-ties",
+      "cmd": "python org_frontier/studies/shared_share_ties/run.py --quick",
+      "expect": [
+        "C2 marginal error, s=0 = input_tpm, s=1 = common TPM: PASS",
+        "A MAJ3  e=0.2  s=0.5   whole=0.024615",
+        "A MAJ3  e=0.2  s=1.0   whole=0.000000",
+        "B MAJ3  e=0.2   state=0000 max=0.146495 k=2 skipped=0 n_winners=3 full=0.036624 H4=Y H5=Y"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/shared_share_ties/FINDINGS.md"
+    },
+    {
       "name": "party-vs-mediator-noise",
       "cmd": "python org_frontier/studies/party_vs_mediator_noise/analyze_locus.py",
       "expect": [
