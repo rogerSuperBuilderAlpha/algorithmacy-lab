@@ -4,4 +4,4 @@
 2. **Answered parties that also read each other** (followers with a side link).
 3. **Why a two-node loop gives φ = 2.0**, the same as a three-node conjunctive loop.
 
-None of these had been started when this study's PR was opened.
+None of these had been started when PR #933 was opened.
