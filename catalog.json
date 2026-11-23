@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 141,
+  "study": 143,
   "foundations": 9,
   "open": 15
  },
@@ -9862,6 +9862,17 @@
   },
   {
    "kind": "study",
+   "id": "flip_recovery",
+   "title": "Flip recovery: settling after a one-party nudge, joined to committed Φ",
+   "finding": "Hypotheses pushed in `ac0bf6f3` before computation. Φ values are the committed ones from",
+   "path": "org_frontier/studies/flip_recovery",
+   "reproduce": [
+    "python org_frontier/studies/flip_recovery/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "fn_tail_feature_redesign",
    "title": "FN-tail feature redesign",
    "finding": "F28-motivated cheap fragility and algebraic table features to the Probe-125/131",
@@ -10335,6 +10346,17 @@
   },
   {
    "kind": "study",
+   "id": "off_platform_deals",
+   "title": "Off-platform deals: buyer–seller links that bypass a two-sided platform",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/off_platform_deals",
+   "reproduce": [
+    "python org_frontier/studies/off_platform_deals/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "omit_cycle_band_n89",
    "title": "Omit cycle band grammar at n=8–9 (agenda V4 #8)",
    "finding": "that stabilized at n=7 cannot be re-adjudicated by exact IIT-4.0 core-Φ",
@@ -10699,23 +10721,23 @@
   },
   {
    "kind": "study",
+   "id": "ternary_lift_panel",
+   "title": "Ternary lift panel: the same triad rule on yes/no and on three-valued nodes",
+   "finding": "Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`",
+   "path": "org_frontier/studies/ternary_lift_panel",
+   "reproduce": [
+    "python org_frontier/studies/ternary_lift_panel/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "ternary_majority_noise",
    "title": "Ternary majority under noise: a three-valued majority vote vs the yes/no one",
    "finding": "Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`",
    "path": "org_frontier/studies/ternary_majority_noise",
    "reproduce": [
     "python org_frontier/studies/ternary_majority_noise/run.py --quick"
-   ],
-   "runtime": "fast"
-  },
-  {
-   "kind": "study",
-   "id": "ternary_ordinal_noise",
-   "title": "Ordinal noise: three-valued readings that slip only to the neighbouring value",
-   "finding": "Exact IIT 4.0 Φ on the multivalued overlay `third_party/pyphi_iit4_mv` (stock pin `b78d0e342`",
-   "path": "org_frontier/studies/ternary_ordinal_noise",
-   "reproduce": [
-    "python org_frontier/studies/ternary_ordinal_noise/run.py --quick"
    ],
    "runtime": "fast"
   },
