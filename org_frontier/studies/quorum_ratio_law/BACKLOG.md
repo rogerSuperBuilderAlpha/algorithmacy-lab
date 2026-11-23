@@ -8,3 +8,4 @@
 5. **Asynchronous update** (needs a non-conditionally-independent TPM; check the instrument supports it).
 
 None of these had been started when PR #919 was opened.
+Branch brought up to date with main f15044e2 before merge.
