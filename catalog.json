@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 161,
+  "study": 162,
   "foundations": 9,
   "open": 15
  },
@@ -10396,6 +10396,17 @@
    "path": "org_frontier/studies/multivalued_iit4_port",
    "reproduce": [
     "python org_frontier/studies/multivalued_iit4_port/analyze_port.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "negative_phi_survey",
+   "title": "Negative φ survey: does PyPhi's negative output change any noisy-quorum result?",
+   "finding": "Hypotheses were committed (3e34ab73) before computing. Values seen beforehand: the OR3/ANY4 all-zero",
+   "path": "org_frontier/studies/negative_phi_survey",
+   "reproduce": [
+    "python org_frontier/studies/negative_phi_survey/run.py --quick"
    ],
    "runtime": "fast"
   },
