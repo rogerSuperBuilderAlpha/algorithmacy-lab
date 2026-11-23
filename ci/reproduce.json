@@ -5554,6 +5554,17 @@
       "source": "org_frontier/studies/noise_placement/FINDINGS.md"
     },
     {
+      "name": "lockstep-symmetry",
+      "cmd": "python org_frontier/studies/lockstep_symmetry/run.py --quick",
+      "expect": [
+        "C1 controls (atlas veto 0, AND hub 2.0): PASS",
+        "W'=S S'=W∧¬C C'=¬S         phi=2.000000 triadic=Y rule=Y lockstep=N antistep=Y",
+        "W'=S S'=AND C'=¬S          phi=0.000000 triadic=N rule=N lockstep=N antistep=Y"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/lockstep_symmetry/FINDINGS.md"
+    },
+    {
       "name": "placement-equality",
       "cmd": "python org_frontier/studies/placement_equality/run.py --quick",
       "expect": [
@@ -6037,6 +6048,18 @@
       ],
       "timeout": 120,
       "source": "org_frontier/studies/who_hears_back/FINDINGS.md"
+    },
+    {
+      "name": "indirect-loops",
+      "cmd": "python org_frontier/studies/indirect_loops/run.py --quick",
+      "expect": [
+        "C1 conjunctive triad whole Φ=2.000000: PASS",
+        "direct        states=16 whole=0.000000 top=2.000000 full_in_top=N ties=PA1,PA2,PA1A2",
+        "relay_both    states=16 whole=2.000000 top=2.000000 full_in_top=N ties=PA2A4",
+        "relay_one     states=12 whole=0.000000 top=2.000000 full_in_top=N ties=PA1A3"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/indirect_loops/FINDINGS.md"
     },
     {
       "name": "regulator-capture",
