@@ -9998,8 +9998,10 @@
    "title": "High-noise tie onset: where OR3 and ANY4 switch from one top group to a tie",
    "finding": "Hypotheses were committed (c68fdb4a) before computing. Values seen beforehand: the η = 0.3 and 0.4 results",
    "path": "org_frontier/studies/high_noise_tie_onset",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/high_noise_tie_onset/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
