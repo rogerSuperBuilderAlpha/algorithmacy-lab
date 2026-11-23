@@ -9383,6 +9383,17 @@
   },
   {
    "kind": "study",
+   "id": "asymmetric_sides",
+   "title": "Asymmetric sides: which side does a two-sided platform bind?",
+   "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
+   "path": "org_frontier/studies/asymmetric_sides",
+   "reproduce": [
+    "python org_frontier/studies/asymmetric_sides/run.py --quick"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
    "id": "commit_noise_phase",
    "title": "Commit-noise phase transition (agenda #6)",
    "finding": "down as a monotone glide on both the conjunctive hub (Φ 2.0→0) and the",
