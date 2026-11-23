@@ -3,7 +3,7 @@
  "counts": {
   "question": 171,
   "probe": 464,
-  "study": 178,
+  "study": 179,
   "foundations": 9,
   "open": 15
  },
@@ -11156,6 +11156,17 @@
    "path": "org_frontier/studies/two_triad_shared_member",
    "reproduce": [
     "python org_frontier/studies/two_triad_shared_member/analyze_shared_member.py"
+   ],
+   "runtime": "fast"
+  },
+  {
+   "kind": "study",
+   "id": "unanimous_repertoires",
+   "title": "Cause and effect at the unanimous state, under both placements",
+   "finding": "H1 and H3 were refuted; H2 was supported. At r = 0.2 the two placements do not have the same cause-and-effect analysis: for OR3 at 0000, cause φ is 1.041518 under mediator-side noise and 2.002920 under party-side noise, while effect φ is 1.041518446253012 either way. The already-known match of system φ is a match of the two effect values",
+   "path": "org_frontier/studies/unanimous_repertoires",
+   "reproduce": [
+    "python org_frontier/studies/unanimous_repertoires/run.py --quick"
    ],
    "runtime": "fast"
   },

@@ -1,0 +1,358 @@
+{
+ "pyphi": "1.2.1.dev1470+gb78d0e342",
+ "phi_eps": 1e-09,
+ "phi_tol": 1e-06,
+ "rep_tol": 1e-10,
+ "hypotheses_commit": "b87dc190bb9418632bcaec8b27e777b686b3ad9c",
+ "scores": {
+  "H1": "REFUTED",
+  "H2": "SUPPORTED",
+  "H3": "REFUTED"
+ },
+ "rows": [
+  {
+   "form": "OR3",
+   "placement": "mediator",
+   "r": 0.2,
+   "state": "0000",
+   "system_phi": 1.0415184462530138,
+   "mip": "4 parts: {S,P1,P2,P3}\n[[0 0 0 0]\n [1 0 1 1]\n [1 1 0 1]\n [1 1 1 0]]",
+   "cause": {
+    "phi": 1.0415184462530138,
+    "purview": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "partition": "4 parts: {S,P1,P2,P3}\n[[0 0 0 0]\n [1 0 1 1]\n [1 1 0 1]\n [1 1 1 0]]",
+    "repertoire": [
+     0.5119999999999998
+    ],
+    "partitioned_repertoire": [
+     0.12499999999999978
+    ],
+    "selectivity": 0.5120000000000007
+   },
+   "effect": {
+    "phi": 1.041518446253012,
+    "purview": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "partition": "4 parts: {S,P1,P2,P3}\n[[0 0 0 0]\n [1 0 1 1]\n [1 1 0 1]\n [1 1 1 0]]",
+    "repertoire": [
+     0.5119999999999998
+    ],
+    "partitioned_repertoire": [
+     0.12499999999999978
+    ],
+    "selectivity": 0.5119999999999998
+   }
+  },
+  {
+   "form": "OR3",
+   "placement": "mediator",
+   "r": 0.4,
+   "state": "0000",
+   "system_phi": -0.1242086202819146,
+   "mip": "2 parts: {S,P1P2P3}\n[[0 0 0 0]\n [1 0 0 0]\n [1 0 0 0]\n [1 0 0 0]]",
+   "cause": {
+    "phi": 0.17044629498029837,
+    "purview": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "partition": "2 parts: {S,P1P2P3}\n[[0 0 0 0]\n [1 0 0 0]\n [1 0 0 0]\n [1 0 0 0]]",
+    "repertoire": [
+     0.21599999999999997
+    ],
+    "partitioned_repertoire": [
+     0.125
+    ],
+    "selectivity": 0.216
+   },
+   "effect": {
+    "phi": -0.1242086202819146,
+    "purview": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "partition": "2 parts: {S,P1P2P3}\n[[0 0 0 0]\n [1 0 0 0]\n [1 0 0 0]\n [1 0 0 0]]",
+    "repertoire": [
+     0.784
+    ],
+    "partitioned_repertoire": [
+     0.875
+    ],
+    "selectivity": 0.784
+   }
+  },
+  {
+   "form": "OR3",
+   "placement": "party",
+   "r": 0.2,
+   "state": "0000",
+   "system_phi": 1.041518446253012,
+   "mip": "4 parts: {S,P1,P2,P3}\n[[0 1 1 1]\n [0 0 1 1]\n [0 1 0 1]\n [0 1 1 0]]",
+   "cause": {
+    "phi": 2.002920088948099,
+    "purview": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "partition": "4 parts: {S,P1,P2,P3}\n[[0 1 1 1]\n [0 0 1 1]\n [0 1 0 1]\n [0 1 1 0]]",
+    "repertoire": [
+     0.5120000000000001
+    ],
+    "partitioned_repertoire": [
+     0.125
+    ],
+    "selectivity": 0.9846153846153846
+   },
+   "effect": {
+    "phi": 1.041518446253012,
+    "purview": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "partition": "4 parts: {S,P1,P2,P3}\n[[0 1 1 1]\n [0 0 1 1]\n [0 1 0 1]\n [0 1 1 0]]",
+    "repertoire": [
+     0.5120000000000001
+    ],
+    "partitioned_repertoire": [
+     0.125
+    ],
+    "selectivity": 0.5120000000000001
+   }
+  },
+  {
+   "form": "OR3",
+   "placement": "party",
+   "r": 0.4,
+   "state": "0000",
+   "system_phi": 0.1704462949802986,
+   "mip": "4 parts: {S,P1,P2,P3}\n[[0 1 1 1]\n [0 0 1 1]\n [0 1 0 1]\n [0 1 1 0]]",
+   "cause": {
+    "phi": 0.6087367677867804,
+    "purview": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "partition": "4 parts: {S,P1,P2,P3}\n[[0 1 1 1]\n [0 0 1 1]\n [0 1 0 1]\n [0 1 1 0]]",
+    "repertoire": [
+     0.21600000000000008
+    ],
+    "partitioned_repertoire": [
+     0.125
+    ],
+    "selectivity": 0.7714285714285715
+   },
+   "effect": {
+    "phi": 0.1704462949802986,
+    "purview": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "partition": "4 parts: {S,P1,P2,P3}\n[[0 1 1 1]\n [0 0 1 1]\n [0 1 0 1]\n [0 1 1 0]]",
+    "repertoire": [
+     0.21600000000000008
+    ],
+    "partitioned_repertoire": [
+     0.125
+    ],
+    "selectivity": 0.21600000000000008
+   }
+  },
+  {
+   "form": "1of4",
+   "placement": "mediator",
+   "r": 0.2,
+   "state": "00000",
+   "system_phi": 1.110953009336554,
+   "mip": "5 parts: {S,P1,P2,P3,P4}\n[[0 0 0 0 0]\n [1 0 1 1 1]\n [1 1 0 1 1]\n [1 1 1 0 1]\n [1 1 1 1 0]]",
+   "cause": {
+    "phi": 1.110953009336554,
+    "purview": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "partition": "5 parts: {S,P1,P2,P3,P4}\n[[0 0 0 0 0]\n [1 0 1 1 1]\n [1 1 0 1 1]\n [1 1 1 0 1]\n [1 1 1 1 0]]",
+    "repertoire": [
+     0.40959999999999974
+    ],
+    "partitioned_repertoire": [
+     0.06249999999999967
+    ],
+    "selectivity": 0.4096000000000021
+   },
+   "effect": {
+    "phi": 1.1109530093365476,
+    "purview": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "partition": "5 parts: {S,P1,P2,P3,P4}\n[[0 0 0 0 0]\n [1 0 1 1 1]\n [1 1 0 1 1]\n [1 1 1 0 1]\n [1 1 1 1 0]]",
+    "repertoire": [
+     0.40959999999999974
+    ],
+    "partitioned_repertoire": [
+     0.06249999999999967
+    ],
+    "selectivity": 0.40959999999999974
+   }
+  },
+  {
+   "form": "1of4",
+   "placement": "mediator",
+   "r": 0.4,
+   "state": "00000",
+   "system_phi": -0.09325477255320004,
+   "mip": "2 parts: {S,P1P2P3P4}\n[[0 0 0 0 0]\n [1 0 0 0 0]\n [1 0 0 0 0]\n [1 0 0 0 0]\n [1 0 0 0 0]]",
+   "cause": {
+    "phi": 0.13635703598423907,
+    "purview": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "partition": "2 parts: {S,P1P2P3P4}\n[[0 0 0 0 0]\n [1 0 0 0 0]\n [1 0 0 0 0]\n [1 0 0 0 0]\n [1 0 0 0 0]]",
+    "repertoire": [
+     0.12960000000000016
+    ],
+    "partitioned_repertoire": [
+     0.0625
+    ],
+    "selectivity": 0.1296000000000001
+   },
+   "effect": {
+    "phi": -0.09325477255320004,
+    "purview": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "partition": "2 parts: {S,P1P2P3P4}\n[[0 0 0 0 0]\n [1 0 0 0 0]\n [1 0 0 0 0]\n [1 0 0 0 0]\n [1 0 0 0 0]]",
+    "repertoire": [
+     0.8703999999999998
+    ],
+    "partitioned_repertoire": [
+     0.9375
+    ],
+    "selectivity": 0.8703999999999998
+   }
+  },
+  {
+   "form": "1of4",
+   "placement": "party",
+   "r": 0.2,
+   "state": "00000",
+   "system_phi": 1.1109530093365452,
+   "mip": "5 parts: {S,P1,P2,P3,P4}\n[[0 1 1 1 1]\n [0 0 1 1 1]\n [0 1 0 1 1]\n [0 1 1 0 1]\n [0 1 1 1 0]]",
+   "cause": {
+    "phi": 2.7017339721219504,
+    "purview": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "partition": "5 parts: {S,P1,P2,P3,P4}\n[[0 1 1 1 1]\n [0 0 1 1 1]\n [0 1 0 1 1]\n [0 1 1 0 1]\n [0 1 1 1 0]]",
+    "repertoire": [
+     0.4095999999999999
+    ],
+    "partitioned_repertoire": [
+     0.062499999999999944
+    ],
+    "selectivity": 0.9961089494163424
+   },
+   "effect": {
+    "phi": 1.1109530093365452,
+    "purview": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "partition": "5 parts: {S,P1,P2,P3,P4}\n[[0 1 1 1 1]\n [0 0 1 1 1]\n [0 1 0 1 1]\n [0 1 1 0 1]\n [0 1 1 1 0]]",
+    "repertoire": [
+     0.4095999999999999
+    ],
+    "partitioned_repertoire": [
+     0.0625
+    ],
+    "selectivity": 0.4095999999999999
+   }
+  },
+  {
+   "form": "1of4",
+   "placement": "party",
+   "r": 0.4,
+   "state": "00000",
+   "system_phi": 0.13635703598423843,
+   "mip": "5 parts: {S,P1,P2,P3,P4}\n[[0 1 1 1 1]\n [0 0 1 1 1]\n [0 1 0 1 1]\n [0 1 1 0 1]\n [0 1 1 1 0]]",
+   "cause": {
+    "phi": 0.87858914938298,
+    "purview": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "partition": "5 parts: {S,P1,P2,P3,P4}\n[[0 1 1 1 1]\n [0 0 1 1 1]\n [0 1 0 1 1]\n [0 1 1 0 1]\n [0 1 1 1 0]]",
+    "repertoire": [
+     0.12959999999999988
+    ],
+    "partitioned_repertoire": [
+     0.0625
+    ],
+    "selectivity": 0.8350515463917523
+   },
+   "effect": {
+    "phi": 0.13635703598423843,
+    "purview": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "partition": "5 parts: {S,P1,P2,P3,P4}\n[[0 1 1 1 1]\n [0 0 1 1 1]\n [0 1 0 1 1]\n [0 1 1 0 1]\n [0 1 1 1 0]]",
+    "repertoire": [
+     0.12959999999999988
+    ],
+    "partitioned_repertoire": [
+     0.0625
+    ],
+    "selectivity": 0.12959999999999988
+   }
+  }
+ ]
+}
