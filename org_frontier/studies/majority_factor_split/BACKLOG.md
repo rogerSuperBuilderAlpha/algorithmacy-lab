@@ -11,3 +11,5 @@
 
 Status: items 1–3 open as of 2026-11-23. This study tests and refutes item 1 of
 `party_noise_factor/BACKLOG.md`.
+
+PR note: CI nudge after the atlas snapshot pin, so checks run on a human-authored commit.
