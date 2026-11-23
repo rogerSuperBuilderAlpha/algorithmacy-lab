@@ -11176,8 +11176,10 @@
    "title": "Weighted swap symmetry: rules with a heavy voter are lopsided like the interior quorums",
    "finding": "Hypotheses were committed (2c3b153e) before computing. Values seen beforehand: (1,1,1,2) at ε = 0 for",
    "path": "org_frontier/studies/weighted_swap_symmetry",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/weighted_swap_symmetry/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
