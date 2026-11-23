@@ -9954,8 +9954,10 @@
    "title": "Gate census, switch driven by R1",
    "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state. Hypotheses",
    "path": "org_frontier/studies/gate_census_r1",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/gate_census_r1/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
