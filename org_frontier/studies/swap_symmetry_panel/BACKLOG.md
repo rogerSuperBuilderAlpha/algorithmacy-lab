@@ -4,4 +4,4 @@
 2. Test five- and six-party extreme and interior quorums on a smaller grid.
 3. Weighted rules: is (1,1,1,2) quota 3 (an interior rule with a heavy voter) also lopsided?
 
-Status: items 1–3 open as of 2026-11-23.
+Status: items 1–3 open as of 2026-11-23 (PR #955).
