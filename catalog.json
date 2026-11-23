@@ -10537,8 +10537,10 @@
    "title": "Quorum ratio law: strongest subset vs whole on noisy counting quorums",
    "finding": "Exact IIT 4.0 Φ (PyPhi pin `b78d0e342`), every reachable subset in every reachable state, probe 464",
    "path": "org_frontier/studies/quorum_ratio_law",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "reproduce": [
+    "python org_frontier/studies/quorum_ratio_law/run.py --quick"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
